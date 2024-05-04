@@ -45,7 +45,7 @@ RecountPerCharDB = {
 				"HEAL", -- [18]
 			},
 			["TimeWindows"] = {
-				["TimeDamage"] = {
+				["ActiveTime"] = {
 					3.5, -- [1]
 				},
 				["Damage"] = {
@@ -54,7 +54,7 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					40, -- [1]
 				},
-				["ActiveTime"] = {
+				["TimeDamage"] = {
 					3.5, -- [1]
 				},
 			},
@@ -85,29 +85,474 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 1,
-			["LastAbility"] = 767872.988,
-			["LastEventTimes"] = {
-				2565248.365, -- [1]
-				2565248.384, -- [2]
-				2565250.381, -- [3]
-				2565252.387, -- [4]
-				2565254.386, -- [5]
-				2565256.38, -- [6]
-				2565258.379, -- [7]
-				2565260.379, -- [8]
-				2565262.673, -- [9]
-				2565264.671, -- [10]
-				684419.86, -- [11]
-				688030.929, -- [12]
-				688033.6140000001, -- [13]
-				688036.267, -- [14]
-				688039.023, -- [15]
-				688041.7780000001, -- [16]
-				688044.542, -- [17]
-				688047.199, -- [18]
-			},
+			["LastActive"] = 1714764302,
+			["UnitLockout"] = 1713537778,
 			["Owner"] = false,
-			["LastDamageTaken"] = 8,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 40,
+					["ActiveTime"] = 3.5,
+					["ElementDone"] = {
+						["Melee"] = 63,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["WhoDamaged"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 40,
+					},
+					["Attacks"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63,
+									["min"] = 63,
+									["count"] = 1,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 63,
+						},
+					},
+					["Damage"] = 63,
+				},
+				["LastFightData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 40,
+					["ActiveTime"] = 3.5,
+					["ElementDone"] = {
+						["Melee"] = 63,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["WhoDamaged"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 40,
+					},
+					["Attacks"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63,
+									["min"] = 63,
+									["count"] = 1,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 63,
+						},
+					},
+					["Damage"] = 63,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["PartialResist"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 40,
+					["ActiveTime"] = 3.5,
+					["ElementDone"] = {
+						["Melee"] = 63,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["WhoDamaged"] = {
+						["加摩尔"] = {
+							["Details"] = {
+								["肉搏"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 40,
+					},
+					["Attacks"] = {
+						["肉搏"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 63,
+									["min"] = 63,
+									["count"] = 1,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 63,
+						},
+					},
+					["Damage"] = 63,
+				},
+			},
 			["NextEventNum"] = 19,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -150,6 +595,13 @@ RecountPerCharDB = {
 				"Gart 回春术 Bkk Tick +508 (508过量治疗)", -- [18]
 			},
 			["Name"] = "Bkk",
+			["TimeLast"] = {
+				["ActiveTime"] = 1713537778,
+				["TimeDamage"] = 1713537778,
+				["OVERALL"] = 1713537795,
+				["DamageTaken"] = 1713537795,
+				["Damage"] = 1713537778,
+			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				true, -- [2]
@@ -170,480 +622,28 @@ RecountPerCharDB = {
 				true, -- [17]
 				true, -- [18]
 			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1713537778,
-				["TimeDamage"] = 1713537778,
-				["OVERALL"] = 1713537795,
-				["DamageTaken"] = 1713537795,
-				["Damage"] = 1713537778,
+			["LastDamageTaken"] = 8,
+			["LastEventTimes"] = {
+				2565248.365, -- [1]
+				2565248.384, -- [2]
+				2565250.381, -- [3]
+				2565252.387, -- [4]
+				2565254.386, -- [5]
+				2565256.38, -- [6]
+				2565258.379, -- [7]
+				2565260.379, -- [8]
+				2565262.673, -- [9]
+				2565264.671, -- [10]
+				684419.86, -- [11]
+				688030.929, -- [12]
+				688033.6140000001, -- [13]
+				688036.267, -- [14]
+				688039.023, -- [15]
+				688041.7780000001, -- [16]
+				688044.542, -- [17]
+				688047.199, -- [18]
 			},
-			["Fights"] = {
-				["Fight1"] = {
-					["TimeSpent"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 63,
-					},
-					["DamagedWho"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-					},
-					["WhoDamaged"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DamageTaken"] = 40,
-					["TimeDamage"] = 3.5,
-					["Attacks"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 63,
-									["min"] = 63,
-									["count"] = 1,
-									["amount"] = 63,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 63,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["TimeDamaging"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 40,
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 63,
-				},
-				["LastFightData"] = {
-					["TimeSpent"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 63,
-					},
-					["DamagedWho"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-					},
-					["WhoDamaged"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DamageTaken"] = 40,
-					["TimeDamage"] = 3.5,
-					["Attacks"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 63,
-									["min"] = 63,
-									["count"] = 1,
-									["amount"] = 63,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 63,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["TimeDamaging"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 40,
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 63,
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeSpent"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 63,
-					},
-					["DamagedWho"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-					},
-					["WhoDamaged"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DamageTaken"] = 40,
-					["TimeDamage"] = 3.5,
-					["Attacks"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 63,
-									["min"] = 63,
-									["count"] = 1,
-									["amount"] = 63,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 63,
-						},
-					},
-					["PartialAbsorb"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被吸收"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["TimeDamaging"] = {
-						["加摩尔"] = {
-							["Details"] = {
-								["肉搏"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 40,
-					},
-					["PartialResist"] = {
-						["肉搏"] = {
-							["Details"] = {
-								["未被抵抗"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 63,
-				},
-			},
-			["UnitLockout"] = 1713537778,
-			["LastActive"] = 1714764302,
+			["LastAbility"] = 781784.2660000001,
 		},
 		["Urek"] = {
 			["GUID"] = "0xF1300111DB0001DF",
@@ -658,14 +658,14 @@ RecountPerCharDB = {
 				"HEAL", -- [3]
 			},
 			["TimeWindows"] = {
-				["Damage"] = {
-					1310, -- [1]
+				["ActiveTime"] = {
+					3.5, -- [1]
 				},
 				["TimeDamage"] = {
 					3.5, -- [1]
 				},
-				["ActiveTime"] = {
-					3.5, -- [1]
+				["Damage"] = {
+					1310, -- [1]
 				},
 			},
 			["enClass"] = "HUNTER",
@@ -678,13 +678,9 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["FightsSaved"] = 1,
-			["LastAbility"] = 767872.988,
+			["LastActive"] = 1714844039,
 			["Owner"] = false,
-			["LastEventTimes"] = {
-				2564818.812, -- [1]
-				2565265.452, -- [2]
-				767782.535, -- [3]
-			},
+			["UnitLockout"] = 1713537348,
 			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -697,19 +693,8 @@ RecountPerCharDB = {
 				"Wolf 灵魂联结 Urek Tick +101 (99过量治疗)", -- [3]
 			},
 			["Name"] = "Urek",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				true, -- [3]
-			},
-			["TimeLast"] = {
-				["Damage"] = 1713537795,
-				["OVERALL"] = 1713537795,
-				["TimeDamage"] = 1713537795,
-				["ActiveTime"] = 1713537795,
-			},
 			["Fights"] = {
-				["Fight1"] = {
+				["OverallData"] = {
 					["TimeSpent"] = {
 						["加摩尔"] = {
 							["Details"] = {
@@ -723,16 +708,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Physical"] = 1310,
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
 					["DamagedWho"] = {
 						["加摩尔"] = {
 							["Details"] = {
@@ -741,6 +716,16 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1310,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 3.5,
@@ -754,6 +739,7 @@ RecountPerCharDB = {
 							["amount"] = 3.5,
 						},
 					},
+					["ActiveTime"] = 3.5,
 					["Attacks"] = {
 						["自动射击"] = {
 							["Details"] = {
@@ -768,7 +754,6 @@ RecountPerCharDB = {
 							["amount"] = 1310,
 						},
 					},
-					["ActiveTime"] = 3.5,
 					["Damage"] = 1310,
 				},
 				["LastFightData"] = {
@@ -785,16 +770,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Physical"] = 1310,
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
 					["DamagedWho"] = {
 						["加摩尔"] = {
 							["Details"] = {
@@ -803,6 +778,16 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1310,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 3.5,
@@ -816,6 +801,7 @@ RecountPerCharDB = {
 							["amount"] = 3.5,
 						},
 					},
+					["ActiveTime"] = 3.5,
 					["Attacks"] = {
 						["自动射击"] = {
 							["Details"] = {
@@ -830,7 +816,6 @@ RecountPerCharDB = {
 							["amount"] = 1310,
 						},
 					},
-					["ActiveTime"] = 3.5,
 					["Damage"] = 1310,
 				},
 				["CurrentFightData"] = {
@@ -846,14 +831,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -862,26 +847,26 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -890,53 +875,53 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
-					["RageGained"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
+				["Fight1"] = {
 					["TimeSpent"] = {
 						["加摩尔"] = {
 							["Details"] = {
@@ -950,16 +935,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Physical"] = 1310,
 					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
 					["DamagedWho"] = {
 						["加摩尔"] = {
 							["Details"] = {
@@ -968,6 +943,16 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1310,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
 					["TimeDamage"] = 3.5,
@@ -981,6 +966,7 @@ RecountPerCharDB = {
 							["amount"] = 3.5,
 						},
 					},
+					["ActiveTime"] = 3.5,
 					["Attacks"] = {
 						["自动射击"] = {
 							["Details"] = {
@@ -995,82 +981,96 @@ RecountPerCharDB = {
 							["amount"] = 1310,
 						},
 					},
-					["ActiveTime"] = 3.5,
 					["Damage"] = 1310,
 				},
 			},
-			["UnitLockout"] = 1713537348,
-			["LastActive"] = 1714844039,
+			["TimeLast"] = {
+				["ActiveTime"] = 1713537795,
+				["OVERALL"] = 1713537795,
+				["TimeDamage"] = 1713537795,
+				["Damage"] = 1713537795,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+			},
+			["LastEventTimes"] = {
+				2564818.812, -- [1]
+				2565265.452, -- [2]
+				767782.535, -- [3]
+			},
+			["LastAbility"] = 781784.2660000001,
 		},
 		["Sark"] = {
 			["GUID"] = "0xF13001117B0001DD",
 			["type"] = "Grouped",
 			["TimeLast"] = {
-				["OVERALL"] = 1714844046,
-				["RageGain"] = 1714844046,
+				["RageGain"] = 1714858077,
+				["OVERALL"] = 1714858077,
 			},
 			["Owner"] = false,
 			["enClass"] = "WARRIOR",
 			["unit"] = "Sark",
-			["LastActive"] = 1714844046,
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["RageGain"] = 263,
-					["RageGained"] = {
-						["血性狂暴"] = {
-							["Details"] = {
-								["Sark"] = {
-									["count"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-					},
-					["RageGainedFrom"] = {
-						["Sark"] = {
-							["Details"] = {
-								["血性狂暴"] = {
-									["count"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-					},
-				},
-				["OverallData"] = {
-					["RageGain"] = 263,
-					["RageGained"] = {
-						["血性狂暴"] = {
-							["Details"] = {
-								["Sark"] = {
-									["count"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-					},
-					["RageGainedFrom"] = {
-						["Sark"] = {
-							["Details"] = {
-								["血性狂暴"] = {
-									["count"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-					},
-				},
-			},
+			["LastAbility"] = 781784.2660000001,
+			["UnitLockout"] = 1713537951,
 			["Name"] = "Sark",
 			["LastFightIn"] = 1,
 			["TimeWindows"] = {
 				["RageGain"] = {
-					263, -- [1]
+					303, -- [1]
 				},
 			},
 			["level"] = 60,
-			["UnitLockout"] = 1713537951,
-			["LastAbility"] = 767872.988,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["RageGain"] = 303,
+					["RageGained"] = {
+						["血性狂暴"] = {
+							["Details"] = {
+								["Sark"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 303,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Sark"] = {
+							["Details"] = {
+								["血性狂暴"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 303,
+						},
+					},
+				},
+				["OverallData"] = {
+					["RageGain"] = 303,
+					["RageGained"] = {
+						["血性狂暴"] = {
+							["Details"] = {
+								["Sark"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 303,
+						},
+					},
+					["RageGainedFrom"] = {
+						["Sark"] = {
+							["Details"] = {
+								["血性狂暴"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 303,
+						},
+					},
+				},
+			},
+			["LastActive"] = 1714858077,
 		},
 		["Meela"] = {
 			["GUID"] = "0xF13001126F0001E3",
@@ -1091,11 +1091,11 @@ RecountPerCharDB = {
 				"HEAL", -- [6]
 			},
 			["TimeWindows"] = {
-				["Healing"] = {
-					827, -- [1]
-				},
 				["TimeHeal"] = {
 					3.5, -- [1]
+				},
+				["Healing"] = {
+					827, -- [1]
 				},
 				["Overhealing"] = {
 					196, -- [1]
@@ -1108,14 +1108,14 @@ RecountPerCharDB = {
 			["unit"] = "Meela",
 			["level"] = 60,
 			["LastFightIn"] = 0,
-			["LastAbility"] = 767872.988,
+			["LastActive"] = 1713537810,
 			["type"] = "Grouped",
 			["FightsSaved"] = 1,
 			["GuardianReverseGUIDs"] = {
 				["法力之泉图腾 IV"] = {
-					["LatestGuardian"] = 0,
+					["LatestGuardian"] = 1,
 					["GUIDs"] = {
-						"0xF130001CF800FB15", -- [1]
+						"0xF130001CF8009CFD", -- [1]
 						"0xF130001CF8011B9B", -- [2]
 						"0xF130001CF8020A4E", -- [3]
 						"0xF130001CF801F004", -- [4]
@@ -1132,14 +1132,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastEventTimes"] = {
-				2565265.202, -- [1]
-				2565268.182, -- [2]
-				2565271.174, -- [3]
-				2565274.176, -- [4]
-				2565277.173, -- [5]
-				2565280.184, -- [6]
-			},
+			["UnitLockout"] = 1713537338,
 			["Owner"] = false,
 			["Pet"] = {
 				"法力之泉图腾 IV <Meela>", -- [1]
@@ -1162,13 +1155,302 @@ RecountPerCharDB = {
 				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [6]
 			},
 			["Name"] = "Meela",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
+			["Fights"] = {
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 196,
+									["count"] = 1,
+									["amount"] = 196,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 196,
+						},
+					},
+					["TimeSpent"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["HealedWho"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["Overhealing"] = 196,
+					["ActiveTime"] = 3.5,
+					["Heals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 827,
+									["min"] = 827,
+									["count"] = 1,
+									["amount"] = 827,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 827,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["Healing"] = 827,
+				},
+				["LastFightData"] = {
+					["TimeHealing"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 196,
+									["count"] = 1,
+									["amount"] = 196,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 196,
+						},
+					},
+					["TimeSpent"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["HealedWho"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["Overhealing"] = 196,
+					["ActiveTime"] = 3.5,
+					["Heals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 827,
+									["min"] = 827,
+									["count"] = 1,
+									["amount"] = 827,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 827,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["Healing"] = 827,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeHealing"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 196,
+									["min"] = 196,
+									["count"] = 1,
+									["amount"] = 196,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 196,
+						},
+					},
+					["TimeSpent"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["HealedWho"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["Overhealing"] = 196,
+					["ActiveTime"] = 3.5,
+					["Heals"] = {
+						["激流"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 827,
+									["min"] = 827,
+									["count"] = 1,
+									["amount"] = 827,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 827,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["Healing"] = 827,
+				},
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1713537795,
@@ -1177,338 +1459,66 @@ RecountPerCharDB = {
 				["OVERALL"] = 1713537795,
 				["Healing"] = 1713537795,
 			},
-			["Fights"] = {
-				["Fight1"] = {
-					["TimeHealing"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["OverHeals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 196,
-									["min"] = 196,
-									["count"] = 1,
-									["amount"] = 196,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 196,
-						},
-					},
-					["TimeSpent"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["HealedWho"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["Overhealing"] = 196,
-					["ActiveTime"] = 3.5,
-					["Healing"] = 827,
-					["TimeHeal"] = 3.5,
-					["Heals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 827,
-									["min"] = 827,
-									["count"] = 1,
-									["amount"] = 827,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 827,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["TimeHealing"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["OverHeals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 196,
-									["min"] = 196,
-									["count"] = 1,
-									["amount"] = 196,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 196,
-						},
-					},
-					["TimeSpent"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["HealedWho"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["Overhealing"] = 196,
-					["ActiveTime"] = 3.5,
-					["Healing"] = 827,
-					["TimeHeal"] = 3.5,
-					["Heals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 827,
-									["min"] = 827,
-									["count"] = 1,
-									["amount"] = 827,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 827,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["OverHeals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 196,
-									["min"] = 196,
-									["count"] = 1,
-									["amount"] = 196,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 196,
-						},
-					},
-					["TimeSpent"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["HealedWho"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["Overhealing"] = 196,
-					["ActiveTime"] = 3.5,
-					["Healing"] = 827,
-					["TimeHeal"] = 3.5,
-					["Heals"] = {
-						["激流"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 827,
-									["min"] = 827,
-									["count"] = 1,
-									["amount"] = 827,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 827,
-						},
-					},
-				},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
 			},
-			["UnitLockout"] = 1713537338,
-			["LastActive"] = 1713537810,
+			["LastEventTimes"] = {
+				2565265.202, -- [1]
+				2565268.182, -- [2]
+				2565271.174, -- [3]
+				2565274.176, -- [4]
+				2565277.173, -- [5]
+				2565280.184, -- [6]
+			},
+			["LastAbility"] = 781784.2660000001,
 		},
 		["Torm"] = {
 			["GUID"] = "0xF13001117A00000D",
 			["type"] = "Grouped",
 			["TimeLast"] = {
-				["OVERALL"] = 1714765366,
-				["RageGain"] = 1714765366,
+				["RageGain"] = 1714858078,
+				["OVERALL"] = 1714858078,
 			},
-			["LastActive"] = 1714765366,
+			["LastAbility"] = 781784.2660000001,
 			["Owner"] = false,
 			["enClass"] = "WARRIOR",
 			["unit"] = "Torm",
+			["UnitLockout"] = 1713537341,
+			["LastFightIn"] = 0,
+			["Name"] = "Torm",
+			["FightsSaved"] = 1,
+			["TimeWindows"] = {
+				["RageGain"] = {
+					840, -- [1]
+				},
+			},
+			["level"] = 60,
 			["Fights"] = {
-				["Fight1"] = {
-					["RageGain"] = 40,
+				["OverallData"] = {
+					["RageGain"] = 840,
 					["RageGained"] = {
 						["血性狂暴"] = {
 							["Details"] = {
 								["Torm"] = {
-									["count"] = 40,
+									["count"] = 840,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 840,
 						},
 					},
 					["RageGainedFrom"] = {
 						["Torm"] = {
 							["Details"] = {
 								["血性狂暴"] = {
-									["count"] = 40,
+									["count"] = 840,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 840,
 						},
 					},
 				},
@@ -1546,24 +1556,24 @@ RecountPerCharDB = {
 						["Torm"] = {
 							["Details"] = {
 								["血性狂暴"] = {
-									["count"] = 760,
+									["count"] = 800,
 								},
 							},
-							["amount"] = 760,
+							["amount"] = 800,
 						},
 					},
 					["ElementHitsTaken"] = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -1572,26 +1582,34 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 800,
 					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+						["血性狂暴"] = {
+							["Details"] = {
+								["Torm"] = {
+									["count"] = 800,
+								},
+							},
+							["amount"] = 800,
+						},
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1600,101 +1618,83 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
-					["RageGained"] = {
-						["血性狂暴"] = {
-							["Details"] = {
-								["Torm"] = {
-									["count"] = 760,
-								},
-							},
-							["amount"] = 760,
-						},
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 760,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
-					["RageGain"] = 800,
+				["Fight1"] = {
+					["RageGain"] = 40,
 					["RageGained"] = {
 						["血性狂暴"] = {
 							["Details"] = {
 								["Torm"] = {
-									["count"] = 800,
+									["count"] = 40,
 								},
 							},
-							["amount"] = 800,
+							["amount"] = 40,
 						},
 					},
 					["RageGainedFrom"] = {
 						["Torm"] = {
 							["Details"] = {
 								["血性狂暴"] = {
-									["count"] = 800,
+									["count"] = 40,
 								},
 							},
-							["amount"] = 800,
+							["amount"] = 40,
 						},
 					},
 				},
 			},
-			["LastFightIn"] = 0,
-			["Name"] = "Torm",
-			["TimeWindows"] = {
-				["RageGain"] = {
-					800, -- [1]
-				},
-			},
-			["FightsSaved"] = 1,
-			["level"] = 60,
-			["UnitLockout"] = 1713537341,
-			["LastAbility"] = 767872.988,
+			["LastActive"] = 1714858078,
 		},
 		["Kartosh"] = {
 			["GUID"] = "0xF1300112D30001E5",
 			["TimeLast"] = {
-				["OVERALL"] = 1713537795,
 				["ManaGain"] = 1713537795,
+				["OVERALL"] = 1713537795,
 			},
 			["LastEventType"] = {
 				"HEAL", -- [1]
@@ -1725,17 +1725,9 @@ RecountPerCharDB = {
 			},
 			["type"] = "Grouped",
 			["FightsSaved"] = 1,
-			["LastActive"] = 1713537816,
+			["LastAbility"] = 781784.2660000001,
 			["Owner"] = false,
-			["LastEventTimes"] = {
-				2565269.441, -- [1]
-				2565272.167, -- [2]
-				2565274.891, -- [3]
-				2565277.619, -- [4]
-				2565280.354, -- [5]
-				2565283.084, -- [6]
-				2565285.811, -- [7]
-			},
+			["UnitLockout"] = 1713537799,
 			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
 				97.5724353954581, -- [1]
@@ -1756,17 +1748,17 @@ RecountPerCharDB = {
 				"Gart 回春术 Kartosh Tick +653 (653过量治疗)", -- [7]
 			},
 			["Name"] = "Kartosh",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
+			["LastEventHealth"] = {
+				"4984 (97%)", -- [1]
+				"5108 (100%)", -- [2]
+				"5108 (100%)", -- [3]
+				"5108 (100%)", -- [4]
+				"5108 (100%)", -- [5]
+				"5108 (100%)", -- [6]
+				"5108 (100%)", -- [7]
 			},
 			["Fights"] = {
-				["Fight1"] = {
+				["OverallData"] = {
 					["ManaGain"] = 1119,
 					["ManaGainedFrom"] = {
 						["Kartosh"] = {
@@ -1825,14 +1817,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -1841,26 +1833,26 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1869,53 +1861,53 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
-					["RageGained"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
+				["Fight1"] = {
 					["ManaGain"] = 1119,
 					["ManaGainedFrom"] = {
 						["Kartosh"] = {
@@ -1939,29 +1931,46 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastEventHealth"] = {
-				"4984 (97%)", -- [1]
-				"5108 (100%)", -- [2]
-				"5108 (100%)", -- [3]
-				"5108 (100%)", -- [4]
-				"5108 (100%)", -- [5]
-				"5108 (100%)", -- [6]
-				"5108 (100%)", -- [7]
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
 			},
-			["UnitLockout"] = 1713537799,
-			["LastAbility"] = 767872.988,
+			["LastEventTimes"] = {
+				2565269.441, -- [1]
+				2565272.167, -- [2]
+				2565274.891, -- [3]
+				2565277.619, -- [4]
+				2565280.354, -- [5]
+				2565283.084, -- [6]
+				2565285.811, -- [7]
+			},
+			["LastActive"] = 1713537816,
 		},
 		["Laurna"] = {
 			["GUID"] = "0xF1300112440001F4",
 			["type"] = "Grouped",
 			["TimeLast"] = {
-				["OVERALL"] = 1714844061,
 				["ManaGain"] = 1714844061,
+				["OVERALL"] = 1714844061,
 			},
 			["Owner"] = false,
 			["enClass"] = "PRIEST",
 			["unit"] = "Laurna",
-			["LastActive"] = 1714844061,
+			["LastAbility"] = 781784.2660000001,
+			["UnitLockout"] = 1714844061,
+			["Name"] = "Laurna",
+			["LastFightIn"] = 1,
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					2688, -- [1]
+				},
+			},
+			["level"] = 60,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ManaGain"] = 2688,
@@ -2010,16 +2019,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["Name"] = "Laurna",
-			["LastFightIn"] = 1,
-			["TimeWindows"] = {
-				["ManaGain"] = {
-					2688, -- [1]
-				},
-			},
-			["level"] = 60,
-			["UnitLockout"] = 1714844061,
-			["LastAbility"] = 767872.988,
+			["LastActive"] = 1714844061,
 		},
 		["Azar"] = {
 			["GUID"] = "0xF1300111A70001F1",
@@ -2035,7 +2035,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 1,
 			["type"] = "Grouped",
 			["Owner"] = false,
-			["LastAbility"] = 767872.988,
+			["LastActive"] = 1714760675,
 			["NextEventNum"] = 2,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -2044,444 +2044,16 @@ RecountPerCharDB = {
 				"Azar 圣光闪现 Bkk Hit +748", -- [1]
 			},
 			["Name"] = "Azar",
-			["UnitLockout"] = 1714760675,
-			["LastEventIncoming"] = {
-				false, -- [1]
-			},
-			["Fights"] = {
-			},
 			["LastEventTimes"] = {
 				684419.86, -- [1]
 			},
-			["LastActive"] = 1714760675,
-		},
-		["Wolf"] = {
-			["GUID"] = "0xF130011375001461",
-			["LastEventHealth"] = {
-				"???", -- [1]
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-			},
-			["enClass"] = "Grouped",
-			["level"] = 1,
-			["LastFightIn"] = 0,
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 1,
-			["Owner"] = false,
-			["LastActive"] = 1714844039,
-			["NextEventNum"] = 2,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-			},
-			["LastEvents"] = {
-				"Wolf 灵魂联结 Urek Tick +133 (36过量治疗)", -- [1]
-			},
-			["Name"] = "Wolf",
-			["LastEventTimes"] = {
-				2564818.811, -- [1]
-			},
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
 			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 			},
-			["UnitLockout"] = 1713537348,
-			["LastAbility"] = 767872.988,
-		},
-		["Maximillian"] = {
-			["GUID"] = "0xF1300112D2000011",
-			["TimeLast"] = {
-				["ManaGain"] = 1713537795,
-				["HealingTaken"] = 1713537795,
-				["OVERALL"] = 1713537795,
-			},
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
-			},
-			["TimeWindows"] = {
-				["HealingTaken"] = {
-					827, -- [1]
-				},
-				["ManaGain"] = {
-					1021, -- [1]
-				},
-			},
-			["enClass"] = "WARLOCK",
-			["unit"] = "Maximillian",
-			["level"] = 60,
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				26.73112098249282, -- [1]
-				5.983799320616671, -- [2]
-				5.983799320616671, -- [3]
-				5.983799320616671, -- [4]
-				5.983799320616671, -- [5]
-				5.983799320616671, -- [6]
-			},
-			["type"] = "Grouped",
-			["FightsSaved"] = 1,
-			["LastActive"] = 1713537810,
-			["Owner"] = false,
-			["LastEventTimes"] = {
-				2565265.202, -- [1]
-				2565268.182, -- [2]
-				2565271.174, -- [3]
-				2565274.176, -- [4]
-				2565277.173, -- [5]
-				2565280.184, -- [6]
-			},
-			["NextEventNum"] = 7,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-			},
-			["LastEvents"] = {
-				"Meela 激流 Maximillian Hit +1023 (196过量治疗)", -- [1]
-				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [2]
-				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [3]
-				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [4]
-				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [5]
-				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [6]
-			},
-			["Name"] = "Maximillian",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-			},
-			["Fights"] = {
-				["Fight1"] = {
-					["ManaGained"] = {
-						["生命分流"] = {
-							["Details"] = {
-								["Maximillian"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["生命分流"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGain"] = 1021,
-					["WhoHealed"] = {
-						["Meela"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["HealingTaken"] = 827,
-				},
-				["LastFightData"] = {
-					["ManaGained"] = {
-						["生命分流"] = {
-							["Details"] = {
-								["Maximillian"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["生命分流"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGain"] = 1021,
-					["WhoHealed"] = {
-						["Meela"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["HealingTaken"] = 827,
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ManaGained"] = {
-						["生命分流"] = {
-							["Details"] = {
-								["Maximillian"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Maximillian"] = {
-							["Details"] = {
-								["生命分流"] = {
-									["count"] = 1021,
-								},
-							},
-							["amount"] = 1021,
-						},
-					},
-					["ManaGain"] = 1021,
-					["WhoHealed"] = {
-						["Meela"] = {
-							["Details"] = {
-								["激流"] = {
-									["count"] = 827,
-								},
-							},
-							["amount"] = 827,
-						},
-					},
-					["HealingTaken"] = 827,
-				},
-			},
-			["LastEventHealth"] = {
-				"3827 (100%)", -- [1]
-				"3827 (100%)", -- [2]
-				"3827 (100%)", -- [3]
-				"3827 (100%)", -- [4]
-				"3827 (100%)", -- [5]
-				"3827 (100%)", -- [6]
-			},
-			["UnitLockout"] = 1713537795,
-			["LastAbility"] = 767872.988,
+			["UnitLockout"] = 1714760675,
+			["LastAbility"] = 781784.2660000001,
 		},
 		["Gart"] = {
 			["GUID"] = "0xF130011304000020",
@@ -2523,7 +2095,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 1,
 			["type"] = "Grouped",
 			["Owner"] = false,
-			["LastActive"] = 1714764302,
+			["LastAbility"] = 781784.2660000001,
 			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -2558,24 +2130,7 @@ RecountPerCharDB = {
 				"Gart 回春术 Bkk Tick +508 (508过量治疗)", -- [14]
 			},
 			["Name"] = "Gart",
-			["LastEventTimes"] = {
-				2565269.441, -- [1]
-				2565272.167, -- [2]
-				2565274.891, -- [3]
-				2565277.619, -- [4]
-				2565280.353, -- [5]
-				2565283.084, -- [6]
-				2565285.811, -- [7]
-				688030.929, -- [8]
-				688033.6140000001, -- [9]
-				688036.267, -- [10]
-				688039.023, -- [11]
-				688041.7780000001, -- [12]
-				688044.542, -- [13]
-				688047.199, -- [14]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1713537799,
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -2592,8 +2147,453 @@ RecountPerCharDB = {
 				false, -- [13]
 				false, -- [14]
 			},
-			["UnitLockout"] = 1713537799,
-			["LastAbility"] = 767872.988,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				2565269.441, -- [1]
+				2565272.167, -- [2]
+				2565274.891, -- [3]
+				2565277.619, -- [4]
+				2565280.353, -- [5]
+				2565283.084, -- [6]
+				2565285.811, -- [7]
+				688030.929, -- [8]
+				688033.6140000001, -- [9]
+				688036.267, -- [10]
+				688039.023, -- [11]
+				688041.7780000001, -- [12]
+				688044.542, -- [13]
+				688047.199, -- [14]
+			},
+			["LastActive"] = 1714764302,
+		},
+		["Wolf"] = {
+			["GUID"] = "0xF130011375001461",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "Grouped",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 1,
+			["Owner"] = false,
+			["LastAbility"] = 781784.2660000001,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Wolf 灵魂联结 Urek Tick +133 (36过量治疗)", -- [1]
+			},
+			["Name"] = "Wolf",
+			["UnitLockout"] = 1713537348,
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["LastEventTimes"] = {
+				2564818.811, -- [1]
+			},
+			["LastActive"] = 1714844039,
+		},
+		["Maximillian"] = {
+			["GUID"] = "0xF1300112D2000011",
+			["TimeLast"] = {
+				["ManaGain"] = 1713537795,
+				["OVERALL"] = 1713537795,
+				["HealingTaken"] = 1713537795,
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+			},
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					1021, -- [1]
+				},
+				["HealingTaken"] = {
+					827, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Maximillian",
+			["level"] = 60,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				26.73112098249282, -- [1]
+				5.983799320616671, -- [2]
+				5.983799320616671, -- [3]
+				5.983799320616671, -- [4]
+				5.983799320616671, -- [5]
+				5.983799320616671, -- [6]
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 1,
+			["LastAbility"] = 781784.2660000001,
+			["Owner"] = false,
+			["UnitLockout"] = 1713537795,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+			},
+			["LastEvents"] = {
+				"Meela 激流 Maximillian Hit +1023 (196过量治疗)", -- [1]
+				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [2]
+				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [3]
+				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [4]
+				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [5]
+				"Meela 激流 Maximillian Tick +229 (229过量治疗)", -- [6]
+			},
+			["Name"] = "Maximillian",
+			["LastEventHealth"] = {
+				"3827 (100%)", -- [1]
+				"3827 (100%)", -- [2]
+				"3827 (100%)", -- [3]
+				"3827 (100%)", -- [4]
+				"3827 (100%)", -- [5]
+				"3827 (100%)", -- [6]
+			},
+			["Fights"] = {
+				["OverallData"] = {
+					["ManaGained"] = {
+						["生命分流"] = {
+							["Details"] = {
+								["Maximillian"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["生命分流"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGain"] = 1021,
+					["WhoHealed"] = {
+						["Meela"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["HealingTaken"] = 827,
+				},
+				["LastFightData"] = {
+					["ManaGained"] = {
+						["生命分流"] = {
+							["Details"] = {
+								["Maximillian"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["生命分流"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGain"] = 1021,
+					["WhoHealed"] = {
+						["Meela"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["HealingTaken"] = 827,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["ManaGained"] = {
+						["生命分流"] = {
+							["Details"] = {
+								["Maximillian"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Maximillian"] = {
+							["Details"] = {
+								["生命分流"] = {
+									["count"] = 1021,
+								},
+							},
+							["amount"] = 1021,
+						},
+					},
+					["ManaGain"] = 1021,
+					["WhoHealed"] = {
+						["Meela"] = {
+							["Details"] = {
+								["激流"] = {
+									["count"] = 827,
+								},
+							},
+							["amount"] = 827,
+						},
+					},
+					["HealingTaken"] = 827,
+				},
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["LastEventTimes"] = {
+				2565265.202, -- [1]
+				2565268.182, -- [2]
+				2565271.174, -- [3]
+				2565274.176, -- [4]
+				2565277.173, -- [5]
+				2565280.184, -- [6]
+			},
+			["LastActive"] = 1713537810,
 		},
 		["Umbrua"] = {
 			["GUID"] = "0xF13001127B00001F",
@@ -2623,8 +2623,13 @@ RecountPerCharDB = {
 			["Owner"] = false,
 			["enClass"] = "SHAMAN",
 			["unit"] = "Umbrua",
-			["LastFightIn"] = 0,
+			["LastAbility"] = 781784.2660000001,
 			["Name"] = "Umbrua",
+			["UnitLockout"] = 1713537374,
+			["Pet"] = {
+				"法力之泉图腾 IV <Umbrua>", -- [1]
+			},
+			["level"] = 60,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["DOTs"] = {
@@ -2639,14 +2644,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2655,26 +2660,26 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
-					},
-					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -2683,59 +2688,54 @@ RecountPerCharDB = {
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
 					},
 					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
 					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
-					["RageGained"] = {
+					["RunicPowerGained"] = {
 					},
 					["Attacks"] = {
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["Pet"] = {
-				"法力之泉图腾 IV <Umbrua>", -- [1]
-			},
-			["level"] = 60,
-			["UnitLockout"] = 1713537374,
-			["LastAbility"] = 767872.988,
+			["LastFightIn"] = 0,
 		},
 	},
 	["FightNum"] = 1,

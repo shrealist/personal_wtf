@@ -2,27 +2,31 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Big - AzerothCore"] = "Big - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 	},
 	["profiles"] = {
-		["Heady - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Bkk - AzerothCore"] = {
+		["Heady - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Big - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lama - AzerothCore"] = {
+		["Shadow - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Shadow - AzerothCore"] = {
+		["Lucy - AzerothCore"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Lama - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Hyper - AzerothCore"] = {
@@ -55,6 +59,13 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
+		["Lucy"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
 		["Lama"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
@@ -83,6 +94,8 @@ AtlasLootWishList = {
 		["Bkk"] = {
 		},
 		["Big"] = {
+		},
+		["Lucy"] = {
 		},
 		["Lama"] = {
 		},

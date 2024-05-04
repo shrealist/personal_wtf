@@ -1,5 +1,5 @@
 SET equipmentManager "1"
-SET minimapInsideZoom "0"
+SET minimapInsideZoom "2"
 SET showQuestTrackingTooltips "0"
 SET mapQuestDifficulty "1"
 SET questLogCollapseFilter "-1"

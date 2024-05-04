@@ -1,6 +1,7 @@
 
 ItemRackUser = {
-	["SetMenuWrap"] = "OFF",
+	["Buttons"] = {
+	},
 	["Queues"] = {
 		[13] = {
 			"22954:0:0:0:0:0:0:0", -- [1]
@@ -21,8 +22,7 @@ ItemRackUser = {
 		},
 	},
 	["SetMenuWrapValue"] = 3,
-	["Buttons"] = {
-	},
+	["SetMenuWrap"] = "OFF",
 	["EnableQueues"] = "ON",
 	["Sets"] = {
 		["~CombatQueue"] = {
@@ -61,7 +61,8 @@ ItemRackUser = {
 			},
 		},
 	},
-	["Alpha"] = 1,
+	["Hidden"] = {
+	},
 	["EnableEvents"] = "ON",
 	["ItemsUsed"] = {
 	},
@@ -78,6 +79,5 @@ ItemRackUser = {
 	["Locked"] = "OFF",
 	["MainScale"] = 1,
 	["MenuScale"] = 0.85,
-	["Hidden"] = {
-	},
+	["Alpha"] = 1,
 }

@@ -16,13 +16,13 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 1253,
+	["combat_counter"] = 1255,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
-			["author"] = "Details! Team",
 			["show_icon"] = 5,
+			["author"] = "Details! Team",
 			["hide_on_combat"] = false,
 			["max_emote_segments"] = 3,
 		},
@@ -34,7 +34,7 @@ _details_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = true,
 			["author"] = "Details! Team",
 			["useclasscolors"] = true,
@@ -43,11 +43,11 @@ _details_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 	},
 	["character_data"] = {
-		["logons"] = 218,
+		["logons"] = 220,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -72,15 +72,19 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 173.004077,
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
 							["delay"] = 0,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 4149.004077,
-							["type"] = 1,
-							["dps_started"] = false,
 							["total"] = 4149.004077,
+							["dps_started"] = false,
+							["placing"] = 1,
 							["class"] = "WARRIOR",
-							["on_hold"] = false,
+							["damage_taken"] = 173.004077,
 							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -156,14 +160,10 @@ _details_database = {
 							["end_time"] = 1714769657,
 							["name"] = "Heady",
 							["last_event"] = 1714769657,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
+							["on_hold"] = false,
 							["start_time"] = 1714769641,
 							["serial"] = "0x0000000000000001",
-							["placing"] = 1,
+							["type"] = 1,
 						}, -- [1]
 					},
 					["combatId"] = 90,
@@ -182,7 +182,7 @@ _details_database = {
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["holypower_r"] = 0.005485,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -202,9 +202,9 @@ _details_database = {
 							["e_rage_r"] = 7.005485,
 							["focus"] = 0.005485,
 							["mana"] = 0.005485,
-							["last_event"] = 1714769655,
+							["e_energy"] = 0.005485,
 							["holypower"] = 0.005485,
-							["class"] = "WARRIOR",
+							["holypower_r"] = 0.005485,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
@@ -212,7 +212,7 @@ _details_database = {
 							["e_energy_from"] = {
 							},
 							["runepower"] = 0.005485,
-							["e_energy"] = 0.005485,
+							["e_energy_r"] = 0.005485,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -241,10 +241,10 @@ _details_database = {
 									},
 								},
 							},
+							["last_event"] = 1714769655,
 							["e_rage_from"] = {
 								["Heady"] = true,
 							},
-							["e_rage"] = 7.005485,
 							["name"] = "Heady",
 							["focus_r"] = 0.005485,
 							["focus_from"] = {
@@ -252,7 +252,7 @@ _details_database = {
 							["mana_from"] = {
 							},
 							["serial"] = "0x0000000000000001",
-							["e_energy_r"] = 0.005485,
+							["e_rage"] = 7.005485,
 						}, -- [1]
 						{
 							["flag_original"] = 2580,
@@ -267,7 +267,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Llane",
 										["e_energy"] = 0,
-										["e_rage"] = 190,
+										["e_rage"] = 230,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -276,7 +276,7 @@ _details_database = {
 							["pets"] = {
 							},
 							["runepower_r"] = 0.00835,
-							["class"] = "WARRIOR",
+							["e_rage"] = 230.00835,
 							["holypower_from"] = {
 							},
 							["holypower_r"] = 0.00835,
@@ -287,9 +287,10 @@ _details_database = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.00835,
-							["e_rage"] = 190.00835,
+							["e_energy_from"] = {
+							},
+							["class"] = "WARRIOR",
 							["focus_r"] = 0.00835,
-							["name"] = "Llane",
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -303,18 +304,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Llane",
 													["e_energy"] = 0,
-													["e_rage"] = 150,
+													["e_rage"] = 180,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 150,
+										["e_rage"] = 180,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 5,
+										["counter"] = 6,
 									},
 									[29131] = {
 										["id"] = 29131,
@@ -326,33 +327,32 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Llane",
 													["e_energy"] = 0,
-													["e_rage"] = 40,
+													["e_rage"] = 50,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 40,
+										["e_rage"] = 50,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 40,
+										["counter"] = 50,
 									},
 								},
 							},
-							["e_energy_from"] = {
-							},
-							["e_rage_r"] = 190.00835,
+							["name"] = "Llane",
+							["e_rage_r"] = 230.00835,
 							["e_rage_from"] = {
 								["Llane"] = true,
 							},
-							["e_energy"] = 0.00835,
+							["last_event"] = 1714857991,
 							["focus_from"] = {
 							},
 							["runepower"] = 0.00835,
 							["serial"] = "0xF130011171000065",
-							["last_event"] = 1714844655,
+							["e_energy"] = 0.00835,
 						}, -- [2]
 					},
 					["combatId"] = 90,
@@ -501,7 +501,7 @@ _details_database = {
 					4148.998327, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = 197,
+						["e_rage"] = 237,
 						["mana"] = 0,
 						["runepower"] = 0,
 						["e_energy"] = 0,
@@ -528,7 +528,7 @@ _details_database = {
 					4149, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = 197,
+						["e_rage"] = 237,
 						["mana"] = 0,
 						["runepower"] = 0,
 						["e_energy"] = 0,

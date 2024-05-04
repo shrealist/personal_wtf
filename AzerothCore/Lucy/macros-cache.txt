@@ -1,0 +1,16 @@
+MACRO 16777217 "NEW" INV_Misc_QuestionMark
+#showtooltip
+/click [button:2] NEW RightButton; [button:3] NEW MiddleButton; [button:4] NEW Button4; [button:5] NEW Button5; NEW
+END
+MACRO 16777218 "newfire1444413504" INV_Misc_QuestionMark
+#showtooltip
+/click [button:2] newfire1444413504 RightButton; [button:3] newfire1444413504 MiddleButton; [button:4] newfire1444413504 Button4; [button:5] newfire1444413504 Button5; newfire1444413504
+END
+MACRO 16777220 "new火焰1780802129" INV_Misc_QuestionMark
+#showtooltip
+/click [button:2] new火焰1780802129 RightButton; [button:3] new火焰1780802129 MiddleButton; [button:4] new火焰1780802129 Button4; [button:5] new火焰1780802129 Button5; new火焰1780802129
+END
+MACRO 16777219 "new火焰244859387" INV_Misc_QuestionMark
+#showtooltip
+/click [button:2] new火焰244859387 RightButton; [button:3] new火焰244859387 MiddleButton; [button:4] new火焰244859387 Button4; [button:5] new火焰244859387 Button5; new火焰244859387
+END

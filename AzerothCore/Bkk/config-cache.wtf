@@ -1,3 +1,4 @@
+SET minimapZoom "0"
 SET minimapInsideZoom "0"
 SET mapQuestDifficulty "1"
 SET questLogCollapseFilter "-1"

@@ -36,13 +36,8 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["LastInstanceName"] = "纳克萨玛斯",
 			["BarTexture"] = "Flat",
-			["CurDataSet"] = "OverallData",
+			["Font"] = "聊天",
 			["Colors"] = {
-				["Window"] = {
-					["Title"] = {
-						["r"] = 0,
-					},
-				},
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
@@ -51,10 +46,15 @@ RecountDB = {
 						["a"] = 1,
 					},
 				},
+				["Window"] = {
+					["Title"] = {
+						["r"] = 0,
+					},
+				},
 			},
 			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["Font"] = "聊天",
 		},
 		["Shadow - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -100,8 +100,8 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["LastInstanceName"] = "纳克萨玛斯",
 			["BarTexture"] = "Flat",
-			["CurDataSet"] = "OverallData",
 			["Font"] = "聊天",
+			["CurDataSet"] = "OverallData",
 		},
 		["Bkk - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -114,9 +114,9 @@ RecountDB = {
 					["PerSec"] = false,
 				},
 				["Position"] = {
-					["y"] = -312.1430541255615,
-					["x"] = -274.5714909647183,
-					["w"] = 140.0000074505805,
+					["y"] = -312.1430827357905,
+					["x"] = -274.5715100382043,
+					["w"] = 139.9999979138375,
 					["h"] = 199.9999779462818,
 				},
 				["Buttons"] = {
@@ -147,8 +147,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["Font"] = "聊天",
 			["GraphWindowX"] = 0,
+			["Font"] = "聊天",
 		},
 		["Hyper - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -225,24 +225,49 @@ RecountDB = {
 		["Lucy - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["NumFormat"] = 3,
+					["RankNum"] = false,
+					["Percent"] = false,
+					["PerSec"] = false,
+				},
 				["Position"] = {
-					["y"] = -118.0950910136835,
-					["x"] = 233.6500133030114,
-					["w"] = 139.9999883770944,
+					["y"] = -309.2857696222399,
+					["x"] = -269.571433818766,
+					["w"] = 139.9999979138375,
 					["h"] = 199.9999970197678,
 				},
+				["Buttons"] = {
+					["FileButton"] = false,
+					["CloseButton"] = false,
+					["LeftButton"] = false,
+					["RightButton"] = false,
+					["ReportButton"] = false,
+				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "纳克萨玛斯",
+			["BarTexture"] = "Flat",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
+				["Window"] = {
+					["Title"] = {
+						["r"] = 0,
+					},
+				},
 				["Bar"] = {
 					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
 						["a"] = 1,
 					},
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
+			["Font"] = "聊天",
 		},
 	},
 }

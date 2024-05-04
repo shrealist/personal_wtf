@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: ma_minibgframe
 FrameLevel: 1
 Anchor: RIGHT
@@ -55,10 +55,3 @@ X: 83
 Y: 38
 W: 640
 H: 512
-Frame: MA_FE1
-FrameLevel: 1
-Anchor: CENTER
-X: -127
-Y: 111
-W: 610
-H: 460
