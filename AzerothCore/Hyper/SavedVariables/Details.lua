@@ -16,7 +16,7 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 1619,
+	["combat_counter"] = 1623,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -47,7 +47,7 @@ _details_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 219,
+		["logons"] = 223,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -207,7 +207,7 @@ _details_database = {
 							["name"] = "Solm",
 							["pets"] = {
 							},
-							["last_dps"] = 855.511760813278,
+							["damage_taken"] = 43921.006136,
 							["damage_from"] = {
 								["黑翼缚法者"] = true,
 								["红色龙兽"] = true,
@@ -233,7 +233,7 @@ _details_database = {
 							["serial"] = "0xF13001120800006E",
 							["dps_started"] = false,
 							["total"] = 1237070.006136,
-							["damage_taken"] = 43921.006136,
+							["on_hold"] = false,
 							["placing"] = 1,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -1922,7 +1922,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472822,
-							["on_hold"] = false,
+							["last_dps"] = 855.511760813278,
 							["start_time"] = 1713471975,
 							["delay"] = 1713472822,
 							["end_time"] = 1713472859,
@@ -2144,7 +2144,7 @@ _details_database = {
 							["pets"] = {
 								"狂野的拉佐格尔 <Hyper>", -- [1]
 							},
-							["last_dps"] = 783.8706806237898,
+							["damage_taken"] = 123800.004182,
 							["damage_from"] = {
 								["黑翼工头"] = true,
 								["腐化的红色雏龙"] = true,
@@ -2180,7 +2180,7 @@ _details_database = {
 							["serial"] = "0x0000000000000006",
 							["dps_started"] = false,
 							["total"] = 1133477.004182,
-							["damage_taken"] = 123800.004182,
+							["on_hold"] = false,
 							["placing"] = 2,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -3975,7 +3975,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472830,
-							["on_hold"] = false,
+							["last_dps"] = 783.8706806237898,
 							["start_time"] = 1713471904,
 							["delay"] = 1713472830,
 							["end_time"] = 1713472859,
@@ -4140,7 +4140,7 @@ _details_database = {
 							["name"] = "Sheal",
 							["pets"] = {
 							},
-							["last_dps"] = 608.8112058098202,
+							["damage_taken"] = 51755.003601,
 							["damage_from"] = {
 								["腐化的红色雏龙"] = true,
 								["黑翼管理者"] = true,
@@ -4170,7 +4170,7 @@ _details_database = {
 							["serial"] = "0xF130011302000073",
 							["dps_started"] = false,
 							["total"] = 880341.003601,
-							["damage_taken"] = 51755.003601,
+							["on_hold"] = false,
 							["placing"] = 3,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -5445,7 +5445,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472821,
-							["on_hold"] = false,
+							["last_dps"] = 608.8112058098202,
 							["start_time"] = 1713471963,
 							["delay"] = 1713472821,
 							["end_time"] = 1713472859,
@@ -5586,7 +5586,7 @@ _details_database = {
 							["name"] = "Osborne",
 							["pets"] = {
 							},
-							["last_dps"] = 608.6355487157676,
+							["damage_taken"] = 47022.003443,
 							["damage_from"] = {
 								["黑翼缚法者"] = true,
 								["黑翼管理者"] = true,
@@ -5611,7 +5611,7 @@ _details_database = {
 							["serial"] = "0xF13001120A000077",
 							["dps_started"] = false,
 							["total"] = 880087.003443,
-							["damage_taken"] = 47022.003443,
+							["on_hold"] = false,
 							["placing"] = 4,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -7062,7 +7062,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472821,
-							["on_hold"] = false,
+							["last_dps"] = 608.6355487157676,
 							["start_time"] = 1713472075,
 							["delay"] = 1713472821,
 							["end_time"] = 1713472859,
@@ -7219,7 +7219,7 @@ _details_database = {
 							["name"] = "Wolf",
 							["pets"] = {
 							},
-							["last_dps"] = 604.9605846272476,
+							["damage_taken"] = 27439.005371,
 							["damage_from"] = {
 								["黑翼缚法者"] = true,
 								["黑翼管理者"] = true,
@@ -7231,12 +7231,12 @@ _details_database = {
 								["黑翼军团士兵"] = true,
 								["奈法利安"] = true,
 								["弗莱格尔"] = true,
-								["死爪地卜师"] = true,
+								["死爪火鳞龙人"] = true,
 								["腐化的蓝色雏龙"] = true,
 								["狂野的拉佐格尔"] = true,
-								["维克多·奈法里奥斯"] = true,
+								["死爪地卜师"] = true,
 								["腐化的青铜雏龙"] = true,
-								["死爪火鳞龙人"] = true,
+								["维克多·奈法里奥斯"] = true,
 								["死爪监工"] = true,
 								["黑翼技师"] = true,
 								["腐化的绿色雏龙"] = true,
@@ -7250,7 +7250,7 @@ _details_database = {
 							["serial"] = "0xF130011375000188",
 							["dps_started"] = false,
 							["total"] = 874773.005371,
-							["damage_taken"] = 27439.005371,
+							["on_hold"] = false,
 							["placing"] = 5,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -7984,7 +7984,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472822,
-							["on_hold"] = false,
+							["last_dps"] = 604.9605846272476,
 							["start_time"] = 1713471986,
 							["delay"] = 1713472822,
 							["end_time"] = 1713472859,
@@ -8145,10 +8145,10 @@ _details_database = {
 							["name"] = "Siouxsie",
 							["pets"] = {
 							},
-							["last_dps"] = 564.4011102586445,
+							["damage_taken"] = 44291.005434,
 							["damage_from"] = {
-								["勒什雷尔"] = true,
 								["费尔默"] = true,
+								["奈法利安"] = true,
 								["弗莱格尔"] = true,
 								["黑翼缚法者"] = true,
 								["死爪监工"] = true,
@@ -8161,7 +8161,7 @@ _details_database = {
 								["暴怒的地狱卫士"] = true,
 								["腐化的红色雏龙"] = true,
 								["死爪老龙人"] = true,
-								["奈法利安"] = true,
+								["勒什雷尔"] = true,
 								["死爪龙人护卫"] = true,
 							},
 							["friendlyfire_total"] = 0,
@@ -8169,7 +8169,7 @@ _details_database = {
 							["serial"] = "0xF130011333000079",
 							["dps_started"] = false,
 							["total"] = 816124.0054339999,
-							["damage_taken"] = 44291.005434,
+							["on_hold"] = false,
 							["placing"] = 6,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -9468,7 +9468,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472822,
-							["on_hold"] = false,
+							["last_dps"] = 564.4011102586445,
 							["start_time"] = 1713471929,
 							["delay"] = 1713472822,
 							["end_time"] = 1713472859,
@@ -9617,7 +9617,7 @@ _details_database = {
 							["name"] = "Thran",
 							["pets"] = {
 							},
-							["last_dps"] = 536.7738635408022,
+							["damage_taken"] = 106242.00668,
 							["damage_from"] = {
 								["黑翼工头"] = true,
 								["黑翼缚法者"] = true,
@@ -9633,12 +9633,12 @@ _details_database = {
 								["腐化的红色雏龙"] = true,
 								["死爪监工"] = true,
 								["狂野的拉佐格尔"] = true,
-								["死爪火鳞龙人"] = true,
+								["死爪地卜师"] = true,
 								["腐化的青铜雏龙"] = true,
-								["白骨魔像"] = true,
+								["死爪火鳞龙人"] = true,
 								["死爪龙人队长"] = true,
 								["黑翼技师"] = true,
-								["死爪地卜师"] = true,
+								["白骨魔像"] = true,
 								["腐化的蓝色雏龙"] = true,
 								["死爪老龙人"] = true,
 								["勒什雷尔"] = true,
@@ -9649,7 +9649,7 @@ _details_database = {
 							["serial"] = "0xF13001117200006D",
 							["dps_started"] = false,
 							["total"] = 776175.00668,
-							["damage_taken"] = 106242.00668,
+							["on_hold"] = false,
 							["placing"] = 7,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -11279,7 +11279,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472820,
-							["on_hold"] = false,
+							["last_dps"] = 536.7738635408022,
 							["start_time"] = 1713472107,
 							["delay"] = 1713472820,
 							["end_time"] = 1713472859,
@@ -11444,7 +11444,7 @@ _details_database = {
 							["name"] = "Lyria",
 							["pets"] = {
 							},
-							["last_dps"] = 526.6134189993085,
+							["damage_taken"] = 91371.00387300001,
 							["damage_from"] = {
 								["黑翼工头"] = true,
 								["黑翼缚法者"] = true,
@@ -11479,7 +11479,7 @@ _details_database = {
 							["serial"] = "0xF130011173000074",
 							["dps_started"] = false,
 							["total"] = 761483.003873,
-							["damage_taken"] = 91371.00387300001,
+							["on_hold"] = false,
 							["placing"] = 8,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -13701,14 +13701,13 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472822,
-							["on_hold"] = false,
+							["last_dps"] = 526.6134189993085,
 							["start_time"] = 1713471997,
 							["delay"] = 1713472822,
 							["end_time"] = 1713472859,
 						}, -- [8]
 						{
 							["flag_original"] = 2580,
-							["last_dps"] = 524.7683241398963,
 							["group"] = true,
 							["class"] = "HUNTER",
 							["targets"] = {
@@ -13852,9 +13851,10 @@ _details_database = {
 									}, -- [34]
 								},
 							},
+							["name"] = "Ogromm",
 							["pets"] = {
 							},
-							["name"] = "Ogromm",
+							["damage_taken"] = 49527.005913,
 							["damage_from"] = {
 								["黑翼工头"] = true,
 								["弗莱格尔"] = true,
@@ -13880,8 +13880,8 @@ _details_database = {
 							["serial"] = "0xF1300111D6000076",
 							["dps_started"] = false,
 							["total"] = 732256.005913,
-							["damage_taken"] = 49527.005913,
-							["placing"] = 8,
+							["on_hold"] = false,
+							["placing"] = 9,
 							["fight_component"] = true,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -15272,14 +15272,13 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472822,
-							["on_hold"] = false,
+							["last_dps"] = 506.4011105899032,
 							["start_time"] = 1713471905,
 							["delay"] = 1713472822,
 							["end_time"] = 1713472859,
 						}, -- [9]
 						{
 							["flag_original"] = 2578,
-							["last_dps"] = 557.741639893142,
 							["group"] = true,
 							["class"] = "HUNTER",
 							["targets"] = {
@@ -15435,9 +15434,10 @@ _details_database = {
 									}, -- [37]
 								},
 							},
+							["name"] = "Grif",
 							["pets"] = {
 							},
-							["name"] = "Grif",
+							["damage_taken"] = 56295.008213,
 							["damage_from"] = {
 								["暴怒的地狱卫士 <黑翼管理者>"] = true,
 								["腐化的红色雏龙"] = true,
@@ -15465,8 +15465,8 @@ _details_database = {
 							["serial"] = "0xF1300111D7000070",
 							["dps_started"] = false,
 							["total"] = 710503.008213,
-							["damage_taken"] = 56295.008213,
-							["placing"] = 8,
+							["on_hold"] = false,
+							["placing"] = 10,
 							["fight_component"] = true,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -16758,14 +16758,14 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472821,
-							["on_hold"] = false,
+							["last_dps"] = 491.3575437157676,
 							["start_time"] = 1713471916,
 							["delay"] = 1713472821,
 							["end_time"] = 1713472859,
 						}, -- [10]
 						{
 							["flag_original"] = 2580,
-							["last_dps"] = 539.8835207275986,
+							["damage_taken"] = 99201.004566,
 							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
@@ -16925,13 +16925,13 @@ _details_database = {
 								["奈法利安"] = true,
 								["死爪监工"] = true,
 								["腐化的红色雏龙"] = true,
-								["维克多·奈法里奥斯"] = true,
+								["死爪地卜师"] = true,
 								["腐化的绿色雏龙"] = true,
-								["白骨魔像"] = true,
+								["维克多·奈法里奥斯"] = true,
 								["埃博诺克"] = true,
 								["黑翼技师"] = true,
 								["死爪火鳞龙人"] = true,
-								["死爪地卜师"] = true,
+								["白骨魔像"] = true,
 								["死爪老龙人"] = true,
 								["勒什雷尔"] = true,
 								["死爪龙人护卫"] = true,
@@ -16941,7 +16941,7 @@ _details_database = {
 							["serial"] = "0xF1300111A400006F",
 							["dps_started"] = false,
 							["total"] = 591277.0045660001,
-							["damage_taken"] = 99201.004566,
+							["on_hold"] = false,
 							["placing"] = 8,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -18871,7 +18871,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472821,
-							["on_hold"] = false,
+							["last_dps"] = 539.8835207275986,
 							["start_time"] = 1713472031,
 							["delay"] = 1713472821,
 							["end_time"] = 1713472859,
@@ -18880,10 +18880,10 @@ _details_database = {
 							["flag_original"] = 2580,
 							["group"] = true,
 							["damage_from"] = {
-								["奈法利安"] = true,
+								["勒什雷尔"] = true,
 								["黑翼缚法者"] = true,
 								["死爪监工"] = true,
-								["勒什雷尔"] = true,
+								["克洛玛古斯"] = true,
 								["黑翼管理者"] = true,
 								["腐化的青铜雏龙"] = true,
 								["维克多·奈法里奥斯"] = true,
@@ -18892,7 +18892,7 @@ _details_database = {
 								["腐化的蓝色雏龙"] = true,
 								["费尔默"] = true,
 								["死爪老龙人"] = true,
-								["克洛玛古斯"] = true,
+								["奈法利安"] = true,
 								["死爪龙人护卫"] = true,
 							},
 							["targets"] = {
@@ -19047,13 +19047,13 @@ _details_database = {
 							["serial"] = "0xF13001129E000062",
 							["pets"] = {
 							},
-							["total"] = 562738.0033839999,
+							["type"] = 1,
 							["friendlyfire_total"] = 15808,
 							["total_without_pet"] = 562738.0033839999,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 562738.0033839999,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Zaldimar",
 							["spell_tables"] = {
@@ -20341,7 +20341,7 @@ _details_database = {
 						}, -- [12]
 						{
 							["flag_original"] = 2580,
-							["last_dps"] = 156.1846625076923,
+							["damage_taken"] = 38088.003063,
 							["group"] = true,
 							["class"] = "MAGE",
 							["targets"] = {
@@ -20497,21 +20497,21 @@ _details_database = {
 							},
 							["name"] = "Marryk",
 							["damage_from"] = {
-								["费尔默"] = true,
 								["多彩龙兽"] = true,
+								["奈法利安"] = true,
 								["克洛玛古斯"] = true,
 								["弗莱格尔"] = true,
 								["死爪监工"] = true,
 								["狂野的拉佐格尔"] = true,
 								["黑翼管理者"] = true,
+								["维克多·奈法里奥斯"] = true,
 								["蓝色龙兽"] = true,
-								["死爪地卜师"] = true,
 								["堕落的瓦拉斯塔兹"] = true,
 								["黑翼技师"] = true,
 								["暴怒的地狱卫士"] = true,
-								["维克多·奈法里奥斯"] = true,
+								["死爪地卜师"] = true,
 								["死爪老龙人"] = true,
-								["奈法利安"] = true,
+								["费尔默"] = true,
 								["死爪龙人护卫"] = true,
 							},
 							["friendlyfire_total"] = 0,
@@ -20519,7 +20519,7 @@ _details_database = {
 							["serial"] = "0xF1300112A0000063",
 							["dps_started"] = false,
 							["total"] = 556497.003063,
-							["damage_taken"] = 38088.003063,
+							["on_hold"] = false,
 							["placing"] = 8,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -22060,14 +22060,14 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472820,
-							["on_hold"] = false,
+							["last_dps"] = 156.1846625076923,
 							["start_time"] = 1713472163,
 							["delay"] = 1713472820,
 							["end_time"] = 1713472859,
 						}, -- [13]
 						{
 							["flag_original"] = 2580,
-							["last_dps"] = 750.333894,
+							["damage_taken"] = 41187.001682,
 							["group"] = true,
 							["class"] = "SHAMAN",
 							["targets"] = {
@@ -22234,20 +22234,20 @@ _details_database = {
 								["堕落的瓦拉斯塔兹"] = true,
 								["暴怒的地狱卫士"] = true,
 								["费尔默"] = true,
-								["奈法利安"] = true,
 								["勒什雷尔"] = true,
+								["Tigor"] = true,
 								["死爪监工"] = true,
 								["腐化的蓝色雏龙"] = true,
 								["狂野的拉佐格尔"] = true,
-								["维克多·奈法里奥斯"] = true,
+								["死爪地卜师"] = true,
 								["腐化的青铜雏龙"] = true,
-								["白骨魔像"] = true,
+								["维克多·奈法里奥斯"] = true,
 								["克洛玛古斯"] = true,
 								["黑翼技师"] = true,
 								["弗莱格尔"] = true,
-								["死爪地卜师"] = true,
+								["白骨魔像"] = true,
 								["死爪老龙人"] = true,
-								["Tigor"] = true,
+								["奈法利安"] = true,
 								["死爪龙人护卫"] = true,
 							},
 							["friendlyfire_total"] = 4820,
@@ -22255,7 +22255,7 @@ _details_database = {
 							["serial"] = "0xF13001126D00007A",
 							["dps_started"] = false,
 							["total"] = 503284.001682,
-							["damage_taken"] = 41187.001682,
+							["on_hold"] = false,
 							["placing"] = 7,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -23332,7 +23332,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472820,
-							["on_hold"] = false,
+							["last_dps"] = 750.333894,
 							["start_time"] = 1713472006,
 							["delay"] = 1713472820,
 							["end_time"] = 1713472859,
@@ -23506,13 +23506,13 @@ _details_database = {
 							["serial"] = "0xF1300112CF000072",
 							["pets"] = {
 							},
-							["total"] = 446556.005088,
+							["type"] = 1,
 							["friendlyfire_total"] = 22594,
 							["total_without_pet"] = 446556.005088,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 446556.005088,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Drusilla",
 							["spell_tables"] = {
@@ -24604,7 +24604,7 @@ _details_database = {
 						}, -- [15]
 						{
 							["flag_original"] = 2580,
-							["last_dps"] = 551.3348953333333,
+							["damage_taken"] = 69360.004686,
 							["group"] = true,
 							["class"] = "WARLOCK",
 							["targets"] = {
@@ -24782,7 +24782,7 @@ _details_database = {
 							["serial"] = "0xF1300112D100007B",
 							["dps_started"] = false,
 							["total"] = 431428.004686,
-							["damage_taken"] = 69360.004686,
+							["on_hold"] = false,
 							["placing"] = 8,
 							["fight_component"] = true,
 							["spell_tables"] = {
@@ -26225,7 +26225,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1713472819,
-							["on_hold"] = false,
+							["last_dps"] = 551.3348953333333,
 							["start_time"] = 1713472076,
 							["delay"] = 1713472819,
 							["end_time"] = 1713472859,
@@ -26234,8 +26234,8 @@ _details_database = {
 							["flag_original"] = 2578,
 							["group"] = true,
 							["damage_from"] = {
-								["克洛玛古斯"] = true,
 								["勒什雷尔"] = true,
+								["奈法利安"] = true,
 								["弗莱格尔"] = true,
 								["费尔默"] = true,
 								["狂野的拉佐格尔"] = true,
@@ -26247,7 +26247,7 @@ _details_database = {
 								["暴怒的地狱卫士"] = true,
 								["Branstock"] = true,
 								["死爪老龙人"] = true,
-								["奈法利安"] = true,
+								["克洛玛古斯"] = true,
 								["死爪龙人护卫"] = true,
 							},
 							["targets"] = {
@@ -26386,13 +26386,13 @@ _details_database = {
 							["serial"] = "0xF13001123C000078",
 							["pets"] = {
 							},
-							["total"] = 309448.001439,
+							["type"] = 1,
 							["friendlyfire_total"] = 24719,
 							["total_without_pet"] = 309448.001439,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 309448.001439,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Branstock",
 							["spell_tables"] = {
@@ -27614,13 +27614,13 @@ _details_database = {
 							["serial"] = "0xF130011391000204",
 							["pets"] = {
 							},
-							["total"] = 91652.006085,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 91652.006085,
 							["placing"] = 8,
 							["dps_started"] = false,
+							["total"] = 91652.006085,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Treant",
 							["spell_tables"] = {
@@ -27795,10 +27795,10 @@ _details_database = {
 								["腐化的青铜雏龙"] = true,
 								["死爪监工"] = true,
 								["狂野的拉佐格尔"] = true,
-								["维克多·奈法里奥斯"] = true,
-								["Demisette"] = true,
-								["白骨魔像"] = true,
 								["死爪地卜师"] = true,
+								["Demisette"] = true,
+								["维克多·奈法里奥斯"] = true,
+								["白骨魔像"] = true,
 								["黑翼技师"] = true,
 								["腐化的绿色雏龙"] = true,
 								["Branstock"] = true,
@@ -27958,13 +27958,13 @@ _details_database = {
 							["serial"] = "0xF13001136600018A",
 							["pets"] = {
 							},
-							["total"] = 61902.006993,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 61902.006993,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 61902.006993,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Voidwalker",
 							["spell_tables"] = {
@@ -28409,12 +28409,12 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 34107.008387,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["total_without_pet"] = 34107.008387,
 							["dps_started"] = false,
-							["end_time"] = 1713472859,
+							["total"] = 34107.008387,
 							["serial"] = "0xF1300113900001D8",
 							["class"] = "PET",
 							["friendlyfire"] = {
@@ -28654,7 +28654,7 @@ _details_database = {
 							["damage_taken"] = 31382.008387,
 							["start_time"] = 1713472700,
 							["delay"] = 1713472748,
-							["type"] = 1,
+							["end_time"] = 1713472859,
 						}, -- [20]
 						{
 							["flag_original"] = 4626,
@@ -28770,13 +28770,13 @@ _details_database = {
 							["serial"] = "0xF1300113650001B1",
 							["pets"] = {
 							},
-							["total"] = 31943.007245,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 31943.007245,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 31943.007245,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Imp",
 							["spell_tables"] = {
@@ -29004,12 +29004,12 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 3203.008204,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["total_without_pet"] = 3203.008204,
 							["dps_started"] = false,
-							["end_time"] = 1713472859,
+							["total"] = 3203.008204,
 							["serial"] = "0xF130001D2A000E07",
 							["class"] = "PET",
 							["friendlyfire"] = {
@@ -29081,7 +29081,7 @@ _details_database = {
 							["damage_taken"] = 0.008204,
 							["start_time"] = 1713472846,
 							["delay"] = 1713471965,
-							["type"] = 1,
+							["end_time"] = 1713472859,
 						}, -- [22]
 						{
 							["flag_original"] = 2580,
@@ -29123,13 +29123,13 @@ _details_database = {
 							["serial"] = "0xF1300111A5000075",
 							["pets"] = {
 							},
-							["total"] = 1927.00511,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 1927.00511,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 1927.00511,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Wilhelm",
 							["spell_tables"] = {
@@ -29371,13 +29371,13 @@ _details_database = {
 							["serial"] = "0xF13001130300007C",
 							["pets"] = {
 							},
-							["total"] = 658.003795,
+							["type"] = 1,
 							["friendlyfire_total"] = 9275,
 							["total_without_pet"] = 658.003795,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 658.003795,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Kym",
 							["spell_tables"] = {
@@ -29579,13 +29579,13 @@ _details_database = {
 								"火舌图腾 IV <Siln>", -- [1]
 								"地缚图腾 <Siln>", -- [2]
 							},
-							["total"] = 477.004226,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 381.004226,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 477.004226,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Siln",
 							["spell_tables"] = {
@@ -29715,12 +29715,12 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 96.00248600000001,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["total_without_pet"] = 96.00248600000001,
 							["dps_started"] = false,
-							["end_time"] = 1713472859,
+							["total"] = 96.00248600000001,
 							["serial"] = "0xF13000293D000C56",
 							["class"] = "PET",
 							["friendlyfire"] = {
@@ -29772,7 +29772,7 @@ _details_database = {
 							["damage_taken"] = 191.002486,
 							["start_time"] = 1713472858,
 							["delay"] = 1713471875,
-							["type"] = 1,
+							["end_time"] = 1713472859,
 						}, -- [26]
 						{
 							["flag_original"] = 2580,
@@ -29804,13 +29804,13 @@ _details_database = {
 							["serial"] = "0xF13001123900006C",
 							["pets"] = {
 							},
-							["total"] = 0.003437,
+							["type"] = 1,
 							["friendlyfire_total"] = 3040,
 							["total_without_pet"] = 0.003437,
 							["fight_component"] = true,
 							["dps_started"] = false,
+							["total"] = 0.003437,
 							["end_time"] = 1713472859,
-							["type"] = 1,
 							["on_hold"] = false,
 							["name"] = "Anetta",
 							["spell_tables"] = {
@@ -29979,12 +29979,12 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.001913,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["total_without_pet"] = 0.001913,
 							["dps_started"] = false,
-							["end_time"] = 1713472859,
+							["total"] = 0.001913,
 							["serial"] = "0xF130000A4600120C",
 							["class"] = "PET",
 							["friendlyfire"] = {
@@ -30004,7 +30004,7 @@ _details_database = {
 							["damage_taken"] = 560.0019129999999,
 							["start_time"] = 1713472859,
 							["delay"] = 0,
-							["type"] = 1,
+							["end_time"] = 1713472859,
 						}, -- [28]
 						{
 							["flag_original"] = 4628,
@@ -30019,12 +30019,12 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.001194,
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["total_without_pet"] = 0.001194,
 							["dps_started"] = false,
-							["end_time"] = 1713472859,
+							["total"] = 0.001194,
 							["serial"] = "0xF130000A46000D0D",
 							["class"] = "PET",
 							["friendlyfire"] = {
@@ -30044,7 +30044,7 @@ _details_database = {
 							["damage_taken"] = 728.0011940000001,
 							["start_time"] = 1713472859,
 							["delay"] = 0,
-							["type"] = 1,
+							["end_time"] = 1713472859,
 						}, -- [29]
 						{
 							["flag_original"] = 68168,
@@ -30640,10 +30640,10 @@ _details_database = {
 								["Siln"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 383821.001268,
 							["type"] = 2,
-							["healing_taken"] = 42503.001268,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 42503.001268,
+							["total"] = 383821.001268,
 							["name"] = "Anetta",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -31479,10 +31479,10 @@ _details_database = {
 								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 20384.00212,
 							["type"] = 2,
-							["healing_taken"] = 85878.00212000001,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 85878.00212000001,
+							["total"] = 20384.00212,
 							["name"] = "Drusilla",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -31645,10 +31645,10 @@ _details_database = {
 								["Kym"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 13055.004936,
 							["type"] = 2,
-							["healing_taken"] = 32380.004936,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 32380.004936,
+							["total"] = 13055.004936,
 							["name"] = "Voidwalker",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -31871,10 +31871,10 @@ _details_database = {
 								["Siln"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 144850.0022,
 							["type"] = 2,
-							["healing_taken"] = 120105.0022,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 120105.0022,
+							["total"] = 144850.0022,
 							["name"] = "Bromos",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32070,10 +32070,10 @@ _details_database = {
 								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 0.003312,
 							["type"] = 2,
-							["healing_taken"] = 108559.003312,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 108559.003312,
+							["total"] = 0.003312,
 							["name"] = "Lyria",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32149,10 +32149,10 @@ _details_database = {
 								["Bromos"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 2593.004069,
 							["type"] = 2,
-							["healing_taken"] = 42813.004069,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 42813.004069,
+							["total"] = 2593.004069,
 							["name"] = "Solm",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32258,10 +32258,10 @@ _details_database = {
 								["Siouxsie"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 4842.005395,
 							["type"] = 2,
-							["healing_taken"] = 44467.005395,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 44467.005395,
+							["total"] = 4842.005395,
 							["name"] = "Siouxsie",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32421,17 +32421,17 @@ _details_database = {
 							["healing_from"] = {
 								["Anetta"] = true,
 								["Kym"] = true,
-								["Wolf"] = true,
-								["Branstock"] = true,
-								["Wilhelm"] = true,
-								["Siln"] = true,
 								["Bromos"] = true,
+								["Branstock"] = true,
+								["Wolf"] = true,
+								["Siln"] = true,
+								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 10495.004198,
 							["type"] = 2,
-							["healing_taken"] = 21164.004198,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 21164.004198,
+							["total"] = 10495.004198,
 							["name"] = "Wolf",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32514,17 +32514,17 @@ _details_database = {
 								["Anetta"] = true,
 								["Grif"] = true,
 								["Siln"] = true,
-								["Wolf"] = true,
-								["Branstock"] = true,
-								["Wilhelm"] = true,
 								["Bromos"] = true,
+								["Branstock"] = true,
+								["Wolf"] = true,
+								["Wilhelm"] = true,
 								["Kym"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 4881.004949,
 							["type"] = 2,
-							["healing_taken"] = 56216.004949,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 56216.004949,
+							["total"] = 4881.004949,
 							["name"] = "Grif",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32594,17 +32594,17 @@ _details_database = {
 							["healing_from"] = {
 								["Anetta"] = true,
 								["Kym"] = true,
-								["Bromos"] = true,
-								["Siln"] = true,
-								["Wilhelm"] = true,
-								["Ogromm"] = true,
 								["Wolf"] = true,
+								["Siln"] = true,
+								["Bromos"] = true,
+								["Ogromm"] = true,
+								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 2239.001378,
 							["type"] = 2,
-							["healing_taken"] = 50300.001378,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 50300.001378,
+							["total"] = 2239.001378,
 							["name"] = "Ogromm",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32683,10 +32683,10 @@ _details_database = {
 								["Hyper"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 13646.002634,
 							["type"] = 2,
-							["healing_taken"] = 142077.002634,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 142077.002634,
+							["total"] = 13646.002634,
 							["name"] = "Hyper",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32810,17 +32810,17 @@ _details_database = {
 							["healing_from"] = {
 								["Anetta"] = true,
 								["Kym"] = true,
-								["Thran"] = true,
-								["Branstock"] = true,
-								["Wilhelm"] = true,
-								["Siln"] = true,
 								["Bromos"] = true,
+								["Branstock"] = true,
+								["Thran"] = true,
+								["Siln"] = true,
+								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 17339.003246,
 							["type"] = 2,
-							["healing_taken"] = 112000.003246,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 112000.003246,
+							["total"] = 17339.003246,
 							["name"] = "Thran",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -32977,10 +32977,10 @@ _details_database = {
 								["Bromos"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 1958.003923,
 							["type"] = 2,
-							["healing_taken"] = 41181.003923,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 41181.003923,
+							["total"] = 1958.003923,
 							["name"] = "Tigor",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -33047,10 +33047,10 @@ _details_database = {
 								["Siln"] = true,
 							},
 							["fight_component"] = true,
-							["end_time"] = 1713472859,
 							["type"] = 2,
-							["healing_taken"] = 8083.005639,
 							["total"] = 0.005639,
+							["healing_taken"] = 8083.005639,
+							["end_time"] = 1713472859,
 							["name"] = "Treant",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -33236,10 +33236,10 @@ _details_database = {
 								["Siouxsie"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 257227.006111,
 							["type"] = 2,
-							["healing_taken"] = 56184.006111,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 56184.006111,
+							["total"] = 257227.006111,
 							["name"] = "Kym",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -33290,6 +33290,87 @@ _details_database = {
 										["c_min"] = 672,
 										["n_amt"] = 1,
 										["n_healed"] = 3039,
+										["absorbed"] = 0,
+									},
+									[9858] = {
+										["c_amt"] = 6,
+										["totalabsorb"] = 0,
+										["n_max"] = 1336,
+										["targets"] = {
+											["type"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 385,
+													["total"] = 3163,
+													["name"] = "Water Elemental",
+													["absorbed"] = 0,
+												}, -- [1]
+												{
+													["overheal"] = 5168,
+													["total"] = 3294,
+													["name"] = "Zaldimar",
+													["absorbed"] = 0,
+												}, -- [2]
+												{
+													["overheal"] = 4830,
+													["total"] = 1608,
+													["name"] = "Thran",
+													["absorbed"] = 0,
+												}, -- [3]
+												{
+													["overheal"] = 2931,
+													["total"] = 2064,
+													["name"] = "Demisette",
+													["absorbed"] = 0,
+												}, -- [4]
+												{
+													["overheal"] = 1501,
+													["total"] = 3258,
+													["name"] = "Sheal",
+													["absorbed"] = 0,
+												}, -- [5]
+												{
+													["overheal"] = 817,
+													["total"] = 4084,
+													["name"] = "Drusilla",
+													["absorbed"] = 0,
+												}, -- [6]
+												{
+													["overheal"] = 2339,
+													["total"] = 1767,
+													["name"] = "Siln",
+													["absorbed"] = 0,
+												}, -- [7]
+												{
+													["overheal"] = 8135,
+													["total"] = 7098,
+													["name"] = "Bromos",
+													["absorbed"] = 0,
+												}, -- [8]
+												{
+													["overheal"] = 798,
+													["total"] = 1922,
+													["name"] = "Hyper",
+													["absorbed"] = 0,
+												}, -- [9]
+												{
+													["overheal"] = 3079,
+													["total"] = 1906,
+													["name"] = "Grif",
+													["absorbed"] = 0,
+												}, -- [10]
+											},
+										},
+										["n_min"] = 9,
+										["counter"] = 154,
+										["overheal"] = 29983,
+										["total"] = 30164,
+										["c_max"] = 1897,
+										["c_healed"] = 7402,
+										["id"] = 9858,
+										["c_min"] = 634,
+										["n_amt"] = 67,
+										["n_healed"] = 22762,
 										["absorbed"] = 0,
 									},
 									[25299] = {
@@ -33526,87 +33607,6 @@ _details_database = {
 										["n_healed"] = 21455,
 										["absorbed"] = 0,
 									},
-									[9858] = {
-										["c_amt"] = 6,
-										["totalabsorb"] = 0,
-										["n_max"] = 1336,
-										["targets"] = {
-											["type"] = 4,
-											["_ActorTable"] = {
-												{
-													["overheal"] = 385,
-													["total"] = 3163,
-													["name"] = "Water Elemental",
-													["absorbed"] = 0,
-												}, -- [1]
-												{
-													["overheal"] = 5168,
-													["total"] = 3294,
-													["name"] = "Zaldimar",
-													["absorbed"] = 0,
-												}, -- [2]
-												{
-													["overheal"] = 4830,
-													["total"] = 1608,
-													["name"] = "Thran",
-													["absorbed"] = 0,
-												}, -- [3]
-												{
-													["overheal"] = 2931,
-													["total"] = 2064,
-													["name"] = "Demisette",
-													["absorbed"] = 0,
-												}, -- [4]
-												{
-													["overheal"] = 1501,
-													["total"] = 3258,
-													["name"] = "Sheal",
-													["absorbed"] = 0,
-												}, -- [5]
-												{
-													["overheal"] = 817,
-													["total"] = 4084,
-													["name"] = "Drusilla",
-													["absorbed"] = 0,
-												}, -- [6]
-												{
-													["overheal"] = 2339,
-													["total"] = 1767,
-													["name"] = "Siln",
-													["absorbed"] = 0,
-												}, -- [7]
-												{
-													["overheal"] = 8135,
-													["total"] = 7098,
-													["name"] = "Bromos",
-													["absorbed"] = 0,
-												}, -- [8]
-												{
-													["overheal"] = 798,
-													["total"] = 1922,
-													["name"] = "Hyper",
-													["absorbed"] = 0,
-												}, -- [9]
-												{
-													["overheal"] = 3079,
-													["total"] = 1906,
-													["name"] = "Grif",
-													["absorbed"] = 0,
-												}, -- [10]
-											},
-										},
-										["n_min"] = 9,
-										["counter"] = 154,
-										["overheal"] = 29983,
-										["total"] = 30164,
-										["c_max"] = 1897,
-										["c_healed"] = 7402,
-										["id"] = 9858,
-										["c_min"] = 634,
-										["n_amt"] = 67,
-										["n_healed"] = 22762,
-										["absorbed"] = 0,
-									},
 								},
 							},
 						}, -- [15]
@@ -33642,10 +33642,10 @@ _details_database = {
 								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 1934.007176,
 							["type"] = 2,
-							["healing_taken"] = 46147.007176,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 46147.007176,
+							["total"] = 1934.007176,
 							["name"] = "Osborne",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -33799,10 +33799,10 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 61618.002745,
 							["type"] = 2,
-							["healing_taken"] = 34350.002745,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 34350.002745,
+							["total"] = 61618.002745,
 							["name"] = "Branstock",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -34166,10 +34166,10 @@ _details_database = {
 							["healing_from"] = {
 							},
 							["fight_component"] = true,
-							["end_time"] = 1713472859,
 							["type"] = 2,
-							["healing_taken"] = 0.003695,
 							["total"] = 0.003695,
+							["healing_taken"] = 0.003695,
+							["end_time"] = 1713472859,
 							["name"] = "狂野的拉佐格尔 <Hyper>",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -34218,10 +34218,10 @@ _details_database = {
 								["Imp"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 12979.004261,
 							["type"] = 2,
-							["healing_taken"] = 18886.004261,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 18886.004261,
+							["total"] = 12979.004261,
 							["name"] = "Imp",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -34290,10 +34290,10 @@ _details_database = {
 								["Wilhelm"] = true,
 							},
 							["fight_component"] = true,
-							["end_time"] = 1713472859,
 							["type"] = 2,
-							["healing_taken"] = 29993.007598,
 							["total"] = 0.007598,
+							["healing_taken"] = 29993.007598,
+							["end_time"] = 1713472859,
 							["name"] = "Water Elemental",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -34342,10 +34342,10 @@ _details_database = {
 								["Bromos"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 2108.007873,
 							["type"] = 2,
-							["healing_taken"] = 38088.007873,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 38088.007873,
+							["total"] = 2108.007873,
 							["name"] = "Marryk",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -34563,10 +34563,10 @@ _details_database = {
 								["Anetta"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 289071.006225,
 							["type"] = 2,
-							["healing_taken"] = 33925.00622500001,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 33925.00622500001,
+							["total"] = 289071.006225,
 							["name"] = "Siln",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -35280,10 +35280,10 @@ _details_database = {
 								["Demisette"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 30289.005575,
 							["type"] = 2,
-							["healing_taken"] = 101704.005575,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 101704.005575,
+							["total"] = 30289.005575,
 							["name"] = "Demisette",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -35468,10 +35468,10 @@ _details_database = {
 								["Sheal"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 2077.002389,
 							["type"] = 2,
-							["healing_taken"] = 51814.002389,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 51814.002389,
+							["total"] = 2077.002389,
 							["name"] = "Sheal",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -35683,10 +35683,10 @@ _details_database = {
 								["Siln"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 121800.001445,
 							["type"] = 2,
-							["healing_taken"] = 34711.001445,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 34711.001445,
+							["total"] = 121800.001445,
 							["name"] = "Wilhelm",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -36221,18 +36221,18 @@ _details_database = {
 							["healing_from"] = {
 								["Anetta"] = true,
 								["Kym"] = true,
+								["Siouxsie"] = true,
 								["Siln"] = true,
 								["Branstock"] = true,
-								["Siouxsie"] = true,
 								["Bromos"] = true,
 								["Wilhelm"] = true,
 								["Zaldimar"] = true,
 							},
 							["fight_component"] = true,
-							["total"] = 21144.00325,
 							["type"] = 2,
-							["healing_taken"] = 66822.00325000001,
 							["end_time"] = 1713472859,
+							["healing_taken"] = 66822.00325000001,
+							["total"] = 21144.00325,
 							["name"] = "Zaldimar",
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
@@ -36286,7 +36286,7 @@ _details_database = {
 							["runepower_r"] = 0.005834,
 							["e_energy_r"] = 9000.005834,
 							["group"] = true,
-							["holypower_r"] = 0.005834,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -36294,7 +36294,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Lyria",
 										["e_energy"] = 0,
-										["e_rage"] = 3900,
+										["e_rage"] = 4060,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -36304,17 +36304,17 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Lyria",
-							["class"] = "WARRIOR",
-							["focus"] = 0.005834,
 							["mana"] = 0.005834,
-							["e_rage_r"] = 7500.005834,
+							["focus"] = 0.005834,
+							["holypower_r"] = 0.005834,
+							["e_rage_r"] = 7660.005834,
 							["holypower"] = 0.005834,
 							["holypower_from"] = {
 							},
 							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 0.005834,
-							["e_rage"] = 3900.005834,
+							["e_rage"] = 4060.005834,
 							["runepower_from"] = {
 							},
 							["focus_r"] = 0.005834,
@@ -36354,18 +36354,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Lyria",
 													["e_energy"] = 0,
-													["e_rage"] = 780,
+													["e_rage"] = 900,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 780,
+										["e_rage"] = 900,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 26,
+										["counter"] = 30,
 									},
 									[23691] = {
 										["id"] = 23691,
@@ -36400,18 +36400,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Lyria",
 													["e_energy"] = 0,
-													["e_rage"] = 260,
+													["e_rage"] = 300,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 260,
+										["e_rage"] = 300,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 260,
+										["counter"] = 300,
 									},
 									[58362] = {
 										["id"] = 58362,
@@ -36470,7 +36470,7 @@ _details_database = {
 								["Lyria"] = true,
 								["堕落的瓦拉斯塔兹"] = true,
 							},
-							["last_event"] = 1714754288,
+							["last_event"] = 1714827138,
 							["focus_from"] = {
 							},
 							["runepower"] = 0.005834,
@@ -36481,7 +36481,7 @@ _details_database = {
 							["runepower_r"] = 0.007511,
 							["e_energy_r"] = 9000.007511,
 							["group"] = true,
-							["holypower_r"] = 0.007511,
+							["class"] = "WARLOCK",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -36499,9 +36499,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Drusilla",
-							["class"] = "WARLOCK",
-							["focus"] = 0.007511,
 							["mana"] = 37226.007511,
+							["focus"] = 0.007511,
+							["holypower_r"] = 0.007511,
 							["e_rage_r"] = 3600.007511,
 							["holypower"] = 0.007511,
 							["holypower_from"] = {
@@ -36634,7 +36634,7 @@ _details_database = {
 							["runepower_r"] = 0.00741,
 							["e_energy_r"] = 13190.00741,
 							["group"] = true,
-							["holypower_r"] = 0.00741,
+							["class"] = "ROGUE",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -36652,9 +36652,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Solm",
-							["class"] = "ROGUE",
-							["focus"] = 0.00741,
 							["mana"] = 0.00741,
+							["focus"] = 0.00741,
+							["holypower_r"] = 0.00741,
 							["e_rage_r"] = 3600.00741,
 							["holypower"] = 0.00741,
 							["holypower_from"] = {
@@ -36760,7 +36760,7 @@ _details_database = {
 							["runepower_r"] = 0.007501,
 							["e_energy_r"] = 3100.007501,
 							["group"] = true,
-							["holypower_r"] = 0.007501,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -36768,7 +36768,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Thran",
 										["e_energy"] = 0,
-										["e_rage"] = 2529,
+										["e_rage"] = 3369,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -36778,17 +36778,17 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Thran",
-							["class"] = "WARRIOR",
-							["focus"] = 0.007501,
 							["mana"] = 0.007501,
-							["e_rage_r"] = 3769.007501,
+							["focus"] = 0.007501,
+							["holypower_r"] = 0.007501,
+							["e_rage_r"] = 4609.007501,
 							["holypower"] = 0.007501,
 							["holypower_from"] = {
 							},
 							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 0.007501,
-							["e_rage"] = 2529.007501,
+							["e_rage"] = 3369.007501,
 							["runepower_from"] = {
 							},
 							["focus_r"] = 0.007501,
@@ -36805,18 +36805,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Thran",
 													["e_energy"] = 0,
-													["e_rage"] = 810,
+													["e_rage"] = 1440,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 810,
+										["e_rage"] = 1440,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 27,
+										["counter"] = 48,
 									},
 									[23691] = {
 										["id"] = 23691,
@@ -36897,18 +36897,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Thran",
 													["e_energy"] = 0,
-													["e_rage"] = 266,
+													["e_rage"] = 476,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 266,
+										["e_rage"] = 476,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 266,
+										["counter"] = 476,
 									},
 								},
 							},
@@ -36921,7 +36921,7 @@ _details_database = {
 								["堕落的瓦拉斯塔兹"] = true,
 								["Thran"] = true,
 							},
-							["last_event"] = 1714729807,
+							["last_event"] = 1714834456,
 							["focus_from"] = {
 							},
 							["runepower"] = 0.007501,
@@ -36932,7 +36932,7 @@ _details_database = {
 							["runepower_r"] = 0.008805,
 							["e_energy_r"] = 9000.008805,
 							["group"] = true,
-							["holypower_r"] = 0.008805,
+							["class"] = "MAGE",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -36950,9 +36950,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Marryk",
-							["class"] = "MAGE",
-							["focus"] = 0.008805,
 							["mana"] = 11914.008805,
+							["focus"] = 0.008805,
+							["holypower_r"] = 0.008805,
 							["e_rage_r"] = 3600.008805,
 							["holypower"] = 0.008805,
 							["holypower_from"] = {
@@ -37039,7 +37039,7 @@ _details_database = {
 							["runepower_r"] = 500.008281,
 							["e_energy_r"] = 9000.008281,
 							["group"] = true,
-							["holypower_r"] = 0.008281,
+							["class"] = "DEATHKNIGHT",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -37057,9 +37057,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Siouxsie",
-							["class"] = "DEATHKNIGHT",
-							["focus"] = 0.008281,
 							["mana"] = 0.008281,
+							["focus"] = 0.008281,
+							["holypower_r"] = 0.008281,
 							["e_rage_r"] = 3600.008281,
 							["holypower"] = 0.008281,
 							["holypower_from"] = {
@@ -37143,7 +37143,7 @@ _details_database = {
 							["runepower_r"] = 0.001451,
 							["e_energy_r"] = 9000.001451,
 							["group"] = true,
-							["holypower_r"] = 0.001451,
+							["class"] = "WARLOCK",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -37289,9 +37289,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Demisette",
-							["class"] = "WARLOCK",
-							["focus"] = 0.001451,
 							["mana"] = 70501.001451,
+							["focus"] = 0.001451,
+							["holypower_r"] = 0.001451,
 							["e_rage_r"] = 3600.001451,
 							["holypower"] = 0.001451,
 							["holypower_from"] = {
@@ -37574,7 +37574,7 @@ _details_database = {
 							["runepower_r"] = 0.003225,
 							["e_energy_r"] = 9000.003225,
 							["group"] = true,
-							["holypower_r"] = 0.003225,
+							["class"] = "MAGE",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -37592,9 +37592,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Zaldimar",
-							["class"] = "MAGE",
-							["focus"] = 0.003225,
 							["mana"] = 19143.003225,
+							["focus"] = 0.003225,
+							["holypower_r"] = 0.003225,
 							["e_rage_r"] = 3600.003225,
 							["holypower"] = 0.003225,
 							["holypower_from"] = {
@@ -37704,7 +37704,7 @@ _details_database = {
 							["runepower_r"] = 0.008984000000000001,
 							["e_energy_r"] = 12560.008984,
 							["group"] = true,
-							["holypower_r"] = 0.008984000000000001,
+							["class"] = "ROGUE",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -37722,9 +37722,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Osborne",
-							["class"] = "ROGUE",
-							["focus"] = 0.008984000000000001,
 							["mana"] = 0.008984000000000001,
+							["focus"] = 0.008984000000000001,
+							["holypower_r"] = 0.008984000000000001,
 							["e_rage_r"] = 3600.008984,
 							["holypower"] = 0.008984000000000001,
 							["holypower_from"] = {
@@ -37830,7 +37830,7 @@ _details_database = {
 							["runepower_r"] = 0.002411,
 							["e_energy_r"] = 1750.002411,
 							["group"] = true,
-							["holypower_r"] = 0.002411,
+							["class"] = "PRIEST",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -37976,9 +37976,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Branstock",
-							["class"] = "PRIEST",
-							["focus"] = 0.002411,
 							["mana"] = 47902.002411,
+							["focus"] = 0.002411,
+							["holypower_r"] = 0.002411,
 							["e_rage_r"] = 700.0024109999999,
 							["holypower"] = 0.002411,
 							["holypower_from"] = {
@@ -38217,7 +38217,7 @@ _details_database = {
 							["runepower_r"] = 0.007852,
 							["e_energy_r"] = 9000.007851999999,
 							["group"] = true,
-							["holypower_r"] = 0.007852,
+							["class"] = "PRIEST",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38235,9 +38235,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Anetta",
-							["class"] = "PRIEST",
-							["focus"] = 0.007852,
 							["mana"] = 2999.007852,
+							["focus"] = 0.007852,
+							["holypower_r"] = 0.007852,
 							["e_rage_r"] = 3600.007852,
 							["holypower"] = 0.007852,
 							["holypower_from"] = {
@@ -38302,7 +38302,7 @@ _details_database = {
 							["runepower_r"] = 0.001844,
 							["e_energy_r"] = 9000.001844,
 							["group"] = true,
-							["holypower_r"] = 0.001844,
+							["class"] = "HUNTER",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38320,9 +38320,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Grif",
-							["class"] = "HUNTER",
-							["focus"] = 0.001844,
 							["mana"] = 19445.001844,
+							["focus"] = 0.001844,
+							["holypower_r"] = 0.001844,
 							["e_rage_r"] = 3600.001844,
 							["holypower"] = 0.001844,
 							["holypower_from"] = {
@@ -38501,7 +38501,7 @@ _details_database = {
 							["runepower_r"] = 0.006402,
 							["e_energy_r"] = 9000.006401999999,
 							["group"] = true,
-							["holypower_r"] = 0.006402,
+							["class"] = "DRUID",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38543,9 +38543,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Kym",
-							["class"] = "DRUID",
-							["focus"] = 0.006402,
 							["mana"] = 20040.006402,
+							["focus"] = 0.006402,
+							["holypower_r"] = 0.006402,
 							["e_rage_r"] = 4010.006402,
 							["holypower"] = 0.006402,
 							["holypower_from"] = {
@@ -38672,7 +38672,7 @@ _details_database = {
 							["runepower_r"] = 0.008383,
 							["e_energy_r"] = 5150.008383,
 							["group"] = true,
-							["holypower_r"] = 0.008383,
+							["class"] = "SHAMAN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38691,9 +38691,9 @@ _details_database = {
 								"法力之潮图腾 <Siln>", -- [1]
 							},
 							["name"] = "Siln",
-							["class"] = "SHAMAN",
-							["focus"] = 0.008383,
 							["mana"] = 42481.008383,
+							["focus"] = 0.008383,
+							["holypower_r"] = 0.008383,
 							["e_rage_r"] = 2060.008383,
 							["holypower"] = 0.008383,
 							["holypower_from"] = {
@@ -38780,7 +38780,7 @@ _details_database = {
 							["runepower_r"] = 0.007513,
 							["e_energy_r"] = 9000.007513000001,
 							["group"] = true,
-							["holypower_r"] = 0.007513,
+							["class"] = "SHAMAN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38798,9 +38798,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Tigor",
-							["class"] = "SHAMAN",
-							["focus"] = 0.007513,
 							["mana"] = 5266.007513000001,
+							["focus"] = 0.007513,
+							["holypower_r"] = 0.007513,
 							["e_rage_r"] = 3600.007513,
 							["holypower"] = 0.007513,
 							["holypower_from"] = {
@@ -38912,7 +38912,7 @@ _details_database = {
 							["runepower_r"] = 0.003604,
 							["e_energy_r"] = 9000.003604,
 							["group"] = true,
-							["holypower_r"] = 0.003604,
+							["class"] = "HUNTER",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -38930,9 +38930,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Ogromm",
-							["class"] = "HUNTER",
-							["focus"] = 0.003604,
 							["mana"] = 23392.003604,
+							["focus"] = 0.003604,
+							["holypower_r"] = 0.003604,
 							["e_rage_r"] = 3600.003604,
 							["holypower"] = 0.003604,
 							["holypower_from"] = {
@@ -39088,7 +39088,7 @@ _details_database = {
 							["runepower_r"] = 0.004788,
 							["e_energy_r"] = 0.004788,
 							["group"] = true,
-							["holypower_r"] = 0.004788,
+							["class"] = "PET",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39106,9 +39106,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Imp",
-							["class"] = "PET",
-							["focus"] = 0.004788,
 							["mana"] = 148.004788,
+							["focus"] = 0.004788,
+							["holypower_r"] = 0.004788,
 							["e_rage_r"] = 0.004788,
 							["holypower"] = 0.004788,
 							["holypower_from"] = {
@@ -39169,7 +39169,7 @@ _details_database = {
 							["runepower_r"] = 0.007013,
 							["e_energy_r"] = 9000.007013,
 							["group"] = true,
-							["holypower_r"] = 0.007013,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39187,9 +39187,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Bromos",
-							["class"] = "PALADIN",
-							["focus"] = 0.007013,
 							["mana"] = 36003.007013,
+							["focus"] = 0.007013,
+							["holypower_r"] = 0.007013,
 							["e_rage_r"] = 3600.007013,
 							["holypower"] = 0.007013,
 							["holypower_from"] = {
@@ -39346,7 +39346,7 @@ _details_database = {
 							["runepower_r"] = 0.004644,
 							["e_energy_r"] = 9000.004644000001,
 							["group"] = true,
-							["holypower_r"] = 0.004644,
+							["class"] = "DRUID",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39388,9 +39388,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Sheal",
-							["class"] = "DRUID",
-							["focus"] = 0.004644,
 							["mana"] = 35321.004644,
+							["focus"] = 0.004644,
+							["holypower_r"] = 0.004644,
 							["e_rage_r"] = 3730.004644,
 							["holypower"] = 0.004644,
 							["holypower_from"] = {
@@ -39586,7 +39586,7 @@ _details_database = {
 							["runepower_r"] = 0.006788,
 							["e_energy_r"] = 9000.006788000001,
 							["group"] = true,
-							["holypower_r"] = 0.006788,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39604,9 +39604,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Wilhelm",
-							["class"] = "PALADIN",
-							["focus"] = 0.006788,
 							["mana"] = 218.006788,
+							["focus"] = 0.006788,
+							["holypower_r"] = 0.006788,
 							["e_rage_r"] = 3600.006788,
 							["holypower"] = 0.006788,
 							["holypower_from"] = {
@@ -39670,7 +39670,7 @@ _details_database = {
 							["runepower_r"] = 0.003894,
 							["e_energy_r"] = 9000.003894,
 							["group"] = true,
-							["holypower_r"] = 0.003894,
+							["class"] = "PET",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39688,9 +39688,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Voidwalker",
-							["class"] = "PET",
-							["focus"] = 0.003894,
 							["mana"] = 444.003894,
+							["focus"] = 0.003894,
+							["holypower_r"] = 0.003894,
 							["e_rage_r"] = 3600.003894,
 							["holypower"] = 0.003894,
 							["holypower_from"] = {
@@ -39754,7 +39754,7 @@ _details_database = {
 							["runepower_r"] = 0.007368,
 							["e_energy_r"] = 18000.007368,
 							["group"] = true,
-							["holypower_r"] = 0.007368,
+							["class"] = "PET",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39764,9 +39764,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Wolf",
-							["class"] = "PET",
-							["focus"] = 0.007368,
 							["mana"] = 0.007368,
+							["focus"] = 0.007368,
+							["holypower_r"] = 0.007368,
 							["e_rage_r"] = 7200.007368000001,
 							["holypower"] = 0.007368,
 							["holypower_from"] = {
@@ -39802,7 +39802,7 @@ _details_database = {
 							["runepower_r"] = 0.006408,
 							["e_energy_r"] = 0.006408,
 							["group"] = true,
-							["holypower_r"] = 0.006408,
+							["class"] = "PET",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -39820,9 +39820,9 @@ _details_database = {
 							["pets"] = {
 							},
 							["name"] = "Water Elemental",
-							["class"] = "PET",
-							["focus"] = 0.006408,
 							["mana"] = 215.006408,
+							["focus"] = 0.006408,
+							["holypower_r"] = 0.006408,
 							["e_rage_r"] = 0.006408,
 							["holypower"] = 0.006408,
 							["holypower_from"] = {
@@ -40029,20 +40029,21 @@ _details_database = {
 							["pets"] = {
 							},
 							["runepower_r"] = 0.002502,
-							["class"] = "PET",
+							["e_energy_from"] = {
+							},
 							["holypower_from"] = {
 							},
-							["holypower_r"] = 0.002502,
-							["e_energy_r"] = 0.002502,
+							["class"] = "PET",
+							["e_rage"] = 0.002502,
 							["holypower"] = 0.002502,
 							["focus"] = 0.002502,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.002502,
-							["e_rage"] = 0.002502,
+							["e_rage_r"] = 0.002502,
+							["holypower_r"] = 0.002502,
 							["focus_r"] = 0.002502,
-							["name"] = "法力之潮图腾 <Siln>",
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -40199,9 +40200,8 @@ _details_database = {
 									},
 								},
 							},
-							["e_energy_from"] = {
-							},
-							["e_rage_r"] = 0.002502,
+							["name"] = "法力之潮图腾 <Siln>",
+							["last_event"] = 1713472007,
 							["e_rage_from"] = {
 							},
 							["e_energy"] = 0.002502,
@@ -40209,8 +40209,85 @@ _details_database = {
 							},
 							["runepower"] = 0.002502,
 							["serial"] = "0xF1300028E3001027",
-							["last_event"] = 1713472007,
+							["e_energy_r"] = 0.002502,
 						}, -- [24]
+						{
+							["flag_original"] = 263441,
+							["focus"] = 0.007169,
+							["group"] = true,
+							["mana"] = 0.007169,
+							["targets"] = {
+								["type"] = 8,
+								["_ActorTable"] = {
+									{
+										["total"] = 0,
+										["name"] = "Hyper",
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["mana"] = 0,
+										["runepower"] = 20,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["runepower_r"] = 20.007169,
+							["e_rage_r"] = 0.007169,
+							["holypower_from"] = {
+							},
+							["class"] = "DEATHKNIGHT",
+							["e_rage"] = 0.007169,
+							["holypower"] = 0.007169,
+							["mana_from"] = {
+							},
+							["runepower_from"] = {
+								["Hyper"] = true,
+							},
+							["type"] = 3,
+							["mana_r"] = 0.007169,
+							["e_energy_from"] = {
+							},
+							["e_energy_r"] = 0.007169,
+							["holypower_r"] = 0.007169,
+							["spell_tables"] = {
+								["type"] = 7,
+								["_ActorTable"] = {
+									[45529] = {
+										["id"] = 45529,
+										["mana"] = 0,
+										["targets"] = {
+											["type"] = 8,
+											["_ActorTable"] = {
+												{
+													["total"] = 0,
+													["name"] = "Hyper",
+													["e_energy"] = 0,
+													["e_rage"] = 0,
+													["mana"] = 0,
+													["runepower"] = 20,
+												}, -- [1]
+											},
+										},
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["runepower"] = 20,
+										["__index"] = {
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["focus_r"] = 0.007169,
+							["name"] = "Hyper",
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1714827106,
+							["focus_from"] = {
+							},
+							["runepower"] = 20.007169,
+							["serial"] = "0x0000000000000006",
+							["e_energy"] = 0.007169,
+						}, -- [25]
 					},
 					["combatId"] = 315,
 				}, -- [3]
@@ -40712,8 +40789,7 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "ROGUE",
-							["pets"] = {
-							},
+							["buff_uptime"] = 1663,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -40836,14 +40912,15 @@ _details_database = {
 							},
 							["name"] = "Solm",
 							["last_event"] = 1713472842,
-							["type"] = 4,
-							["buff_uptime"] = 1663,
-							["serial"] = "0xF13001120800006E",
+							["pets"] = {
+							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0xF13001120800006E",
+							["type"] = 4,
 						}, -- [2]
 						{
 							["flag_original"] = 1300,
@@ -42144,8 +42221,7 @@ _details_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 1460,
-							["dispell_oque"] = {
-								[22687] = 1,
+							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
@@ -42161,7 +42237,27 @@ _details_database = {
 									}, -- [1]
 								},
 							},
-							["pets"] = {
+							["dispell_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[475] = {
+										["dispell"] = 1,
+										["id"] = 475,
+										["dispell_oque"] = {
+											[22687] = 1,
+										},
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+												{
+													["total"] = 1,
+													["name"] = "Hyper",
+												}, -- [1]
+											},
+										},
+										["counter"] = 0,
+									},
+								},
 							},
 							["type"] = 4,
 							["cooldowns_defensive_spell_tables"] = {
@@ -42191,27 +42287,8 @@ _details_database = {
 								},
 							},
 							["serial"] = "0xF1300112A0000063",
-							["dispell_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[475] = {
-										["dispell"] = 1,
-										["id"] = 475,
-										["dispell_oque"] = {
-											[22687] = 1,
-										},
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-												{
-													["total"] = 1,
-													["name"] = "Hyper",
-												}, -- [1]
-											},
-										},
-										["counter"] = 0,
-									},
-								},
+							["dispell_oque"] = {
+								[22687] = 1,
 							},
 						}, -- [5]
 						{
@@ -42618,9 +42695,9 @@ _details_database = {
 										["dispell_oque"] = {
 											[15548] = 13,
 											[22274] = 9,
+											[22433] = 1,
 											[22559] = 2,
 											[22678] = 1,
-											[22433] = 1,
 										},
 										["targets"] = {
 											["type"] = 10,
@@ -42697,9 +42774,9 @@ _details_database = {
 							["dispell_oque"] = {
 								[15548] = 13,
 								[22274] = 9,
+								[22433] = 1,
 								[22559] = 2,
 								[22678] = 1,
-								[22433] = 1,
 							},
 							["cooldowns_defensive_spell_tables"] = {
 								["type"] = 9,
@@ -43469,15 +43546,14 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "WARLOCK",
-							["pets"] = {
-							},
+							["buff_uptime"] = 4122,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[54277] = {
-										["uptime"] = 69,
-										["activedamt"] = 7,
-										["id"] = 54277,
+									[59752] = {
+										["activedamt"] = 3,
+										["uptime"] = 1,
+										["id"] = 59752,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -43510,10 +43586,10 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[11735] = {
-										["uptime"] = 390,
-										["activedamt"] = 1,
-										["id"] = 11735,
+									[54277] = {
+										["uptime"] = 69,
+										["activedamt"] = 7,
+										["id"] = 54277,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -43656,10 +43732,10 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[59752] = {
-										["activedamt"] = 3,
-										["uptime"] = 1,
-										["id"] = 59752,
+									[11735] = {
+										["uptime"] = 390,
+										["activedamt"] = 1,
+										["id"] = 11735,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -43679,14 +43755,15 @@ _details_database = {
 							},
 							["name"] = "Demisette",
 							["last_event"] = 1713472838,
-							["type"] = 4,
-							["buff_uptime"] = 4122,
-							["serial"] = "0xF1300112D100007B",
+							["pets"] = {
+							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0xF1300112D100007B",
+							["type"] = 4,
 						}, -- [9]
 						{
 							["flag_original"] = 1300,
@@ -43887,16 +43964,17 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[42292] = {
-										["uptime"] = 2,
-										["activedamt"] = 4,
-										["id"] = 42292,
-										["actived"] = false,
+									[10220] = {
+										["activedamt"] = 2,
+										["id"] = 10220,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived_at"] = 1713472030,
+										["uptime"] = 403,
+										["actived"] = true,
 										["counter"] = 0,
 									},
 									[12043] = {
@@ -43911,10 +43989,10 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[59752] = {
-										["activedamt"] = 3,
-										["uptime"] = 0,
-										["id"] = 59752,
+									[42292] = {
+										["uptime"] = 2,
+										["activedamt"] = 4,
+										["id"] = 42292,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -44056,17 +44134,16 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[10220] = {
-										["activedamt"] = 2,
-										["id"] = 10220,
+									[59752] = {
+										["activedamt"] = 3,
+										["uptime"] = 0,
+										["id"] = 59752,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived_at"] = 1713472030,
-										["uptime"] = 403,
-										["actived"] = true,
 										["counter"] = 0,
 									},
 								},
@@ -44121,8 +44198,7 @@ _details_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 1626,
-							["dispell_oque"] = {
-								[23154] = 1,
+							["pets"] = {
 							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
@@ -44142,7 +44218,27 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["pets"] = {
+							["dispell_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[475] = {
+										["dispell"] = 1,
+										["id"] = 475,
+										["dispell_oque"] = {
+											[23154] = 1,
+										},
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+												{
+													["total"] = 1,
+													["name"] = "Hyper",
+												}, -- [1]
+											},
+										},
+										["counter"] = 0,
+									},
+								},
 							},
 							["type"] = 4,
 							["cooldowns_defensive_spell_tables"] = {
@@ -44172,27 +44268,8 @@ _details_database = {
 								},
 							},
 							["serial"] = "0xF13001129E000062",
-							["dispell_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[475] = {
-										["dispell"] = 1,
-										["id"] = 475,
-										["dispell_oque"] = {
-											[23154] = 1,
-										},
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-												{
-													["total"] = 1,
-													["name"] = "Hyper",
-												}, -- [1]
-											},
-										},
-										["counter"] = 0,
-									},
-								},
+							["dispell_oque"] = {
+								[23154] = 1,
 							},
 						}, -- [10]
 						{
@@ -45646,10 +45723,10 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PRIEST",
 							["dispell"] = 9.007101000000001,
-							["cooldowns_defensive"] = 10.006833,
+							["cooldowns_defensive"] = 13.006833,
 							["buff_uptime"] = 3388,
 							["last_cooldown"] = {
-								1714754369.442, -- [1]
+								1714833922.763, -- [1]
 								15286, -- [2]
 							},
 							["buff_uptime_spell_tables"] = {
@@ -45846,7 +45923,7 @@ _details_database = {
 								["type"] = 6,
 								["_ActorTable"] = {
 									{
-										["total"] = 10,
+										["total"] = 13,
 										["name"] = "Branstock",
 									}, -- [1]
 								},
@@ -45949,12 +46026,12 @@ _details_database = {
 											["type"] = 10,
 											["_ActorTable"] = {
 												{
-													["total"] = 4,
+													["total"] = 7,
 													["name"] = "Branstock",
 												}, -- [1]
 											},
 										},
-										["counter"] = 4,
+										["counter"] = 7,
 									},
 									[47585] = {
 										["id"] = 47585,
@@ -45972,7 +46049,7 @@ _details_database = {
 								},
 							},
 							["name"] = "Branstock",
-							["last_event"] = 1714754363,
+							["last_event"] = 1714833915,
 							["type"] = 4,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
@@ -46136,8 +46213,7 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "WARRIOR",
-							["pets"] = {
-							},
+							["buff_uptime"] = 2943,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -46191,10 +46267,10 @@ _details_database = {
 										["actived"] = true,
 										["counter"] = 0,
 									},
-									[29131] = {
-										["activedamt"] = 26,
-										["uptime"] = 263,
-										["id"] = 29131,
+									[60970] = {
+										["activedamt"] = 2,
+										["uptime"] = 0,
+										["id"] = 60970,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -46215,18 +46291,6 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[53365] = {
-										["uptime"] = 313,
-										["activedamt"] = 16,
-										["id"] = 53365,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
 									[2457] = {
 										["uptime"] = 3,
 										["activedamt"] = 1,
@@ -46239,10 +46303,22 @@ _details_database = {
 										},
 										["counter"] = 0,
 									},
-									[60970] = {
-										["activedamt"] = 2,
-										["uptime"] = 0,
-										["id"] = 60970,
+									[53365] = {
+										["uptime"] = 313,
+										["activedamt"] = 16,
+										["id"] = 53365,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[29131] = {
+										["activedamt"] = 26,
+										["uptime"] = 263,
+										["id"] = 29131,
 										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
@@ -46335,14 +46411,15 @@ _details_database = {
 							},
 							["name"] = "Thran",
 							["last_event"] = 1713472835,
-							["type"] = 4,
-							["buff_uptime"] = 2943,
-							["serial"] = "0xF13001117200006D",
+							["pets"] = {
+							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0xF13001117200006D",
+							["type"] = 4,
 						}, -- [16]
 						{
 							["flag_original"] = 1300,
@@ -46912,8 +46989,7 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "WARLOCK",
-							["pets"] = {
-							},
+							["buff_uptime"] = 2594,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -47075,14 +47151,15 @@ _details_database = {
 							},
 							["name"] = "Drusilla",
 							["last_event"] = 1713472840,
-							["type"] = 4,
-							["buff_uptime"] = 2594,
-							["serial"] = "0xF1300112CF000072",
+							["pets"] = {
+							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0xF1300112CF000072",
+							["type"] = 4,
 						}, -- [18]
 						{
 							["flag_original"] = 1300,
@@ -47177,9 +47254,7 @@ _details_database = {
 							},
 							["group"] = true,
 							["class"] = "DEATHKNIGHT",
-							["pets"] = {
-								"燃烧 <Hyper>", -- [1]
-							},
+							["buff_uptime"] = 28384,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -47506,14 +47581,16 @@ _details_database = {
 							},
 							["name"] = "Hyper",
 							["last_event"] = 1713472859,
-							["type"] = 4,
-							["buff_uptime"] = 28384,
-							["serial"] = "0x0000000000000006",
+							["pets"] = {
+								"燃烧 <Hyper>", -- [1]
+							},
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x0000000000000006",
+							["type"] = 4,
 						}, -- [19]
 						{
 							["flag_original"] = 2580,
@@ -47923,15 +48000,15 @@ _details_database = {
 					12426182.837444, -- [1]
 					1420349.998673, -- [2]
 					{
-						["e_rage"] = 6968.992690999992,
+						["e_rage"] = 7968.992690999992,
 						["mana"] = 372657.992691,
-						["runepower"] = 499.992691,
+						["runepower"] = 519.9926909999999,
 						["e_energy"] = 7749.992690999992,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 83.993273,
+						["cooldowns_defensive"] = 86.993273,
 						["dispell"] = 96,
 						["interrupt"] = 36,
 						["debuff_uptime"] = 0,
@@ -47968,10 +48045,28 @@ _details_database = {
 							"Branstock", -- [6]
 						}, -- [3]
 						{
+							1, -- [1]
+							15286, -- [2]
+							1, -- [3]
+							1714822397.405, -- [4]
+							4131, -- [5]
+							"Branstock", -- [6]
 						}, -- [4]
 						{
+							1, -- [1]
+							15286, -- [2]
+							1, -- [3]
+							1714826017.669, -- [4]
+							3330, -- [5]
+							"Branstock", -- [6]
 						}, -- [5]
 						{
+							1, -- [1]
+							15286, -- [2]
+							1, -- [3]
+							1714833922.763, -- [4]
+							4131, -- [5]
+							"Branstock", -- [6]
 						}, -- [6]
 						{
 						}, -- [7]
@@ -47993,7 +48088,7 @@ _details_database = {
 						}, -- [15]
 						{
 						}, -- [16]
-						["n"] = 4,
+						["n"] = 7,
 					},
 				},
 				["frags_need_refresh"] = true,
@@ -48003,15 +48098,15 @@ _details_database = {
 					12582651, -- [1]
 					1420350, -- [2]
 					{
-						["e_rage"] = 6969,
+						["e_rage"] = 7969,
 						["mana"] = 372658,
-						["runepower"] = 500,
+						["runepower"] = 520,
 						["e_energy"] = 7750,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 84,
+						["cooldowns_defensive"] = 87,
 						["dispell"] = 96,
 						["interrupt"] = 36,
 						["debuff_uptime"] = 0,
@@ -48090,7 +48185,7 @@ _details_database = {
 							["serial"] = "0x0000000000000006",
 							["pets"] = {
 							},
-							["damage_taken"] = 187.001903,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 6576.001903,
 							["damage_from"] = {
@@ -48100,7 +48195,7 @@ _details_database = {
 							["dps_started"] = false,
 							["end_time"] = 1712045487,
 							["placing"] = 1,
-							["on_hold"] = false,
+							["last_dps"] = 939.4288432857144,
 							["name"] = "Hyper",
 							["spell_tables"] = {
 								["type"] = 2,
@@ -48287,7 +48382,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1712045486,
-							["last_dps"] = 939.4288432857144,
+							["damage_taken"] = 187.001903,
 							["start_time"] = 1712045480,
 							["delay"] = 0,
 							["total"] = 6576.001903,
@@ -48348,7 +48443,7 @@ _details_database = {
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["mana"] = 0.003826,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48367,17 +48462,17 @@ _details_database = {
 							["flag_original"] = 2578,
 							["last_event"] = 1713442930,
 							["focus"] = 0.003826,
-							["class"] = "WARRIOR",
+							["holypower_r"] = 0.003826,
 							["e_energy_r"] = 0.003826,
 							["holypower"] = 0.003826,
-							["holypower_r"] = 0.003826,
+							["mana"] = 0.003826,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.003826,
-							["e_rage_r"] = 955.003826,
-							["runepower"] = 0.003826,
 							["e_rage"] = 955.003826,
+							["runepower"] = 0.003826,
+							["e_rage_r"] = 955.003826,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -48448,7 +48543,7 @@ _details_database = {
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "PRIEST",
+							["holypower_r"] = 0.002663,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48537,20 +48632,19 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2578,
-							["e_rage_r"] = 0.002663,
+							["e_energy"] = 0.002663,
 							["focus"] = 0.002663,
 							["mana"] = 102.002663,
-							["e_energy"] = 0.002663,
+							["runepower"] = 0.002663,
 							["holypower"] = 0.002663,
-							["holypower_r"] = 0.002663,
+							["class"] = "PRIEST",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.002663,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.002663,
+							["e_rage"] = 0.002663,
 							["e_energy_r"] = 0.002663,
+							["last_event"] = 1713420055,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -48651,8 +48745,9 @@ _details_database = {
 									},
 								},
 							},
-							["last_event"] = 1713420055,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Branstock",
 							["focus_r"] = 0.002663,
@@ -48661,14 +48756,14 @@ _details_database = {
 							["mana_from"] = {
 							},
 							["serial"] = "0xF13001123C000078",
-							["e_rage"] = 0.002663,
+							["e_rage_r"] = 0.002663,
 						}, -- [2]
 						{
 							["runepower_r"] = 0.003538,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "PET",
+							["holypower_r"] = 0.003538,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48677,27 +48772,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 4626,
-							["e_rage_r"] = 0.003538,
+							["e_energy"] = 0.003538,
 							["focus"] = 0.003538,
 							["mana"] = 0.003538,
-							["e_energy"] = 0.003538,
+							["runepower"] = 0.003538,
 							["holypower"] = 0.003538,
-							["holypower_r"] = 0.003538,
+							["class"] = "PET",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 4.003538,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.003538,
+							["e_rage"] = 0.003538,
 							["e_energy_r"] = 0.003538,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Imp",
 							["focus_r"] = 0.003538,
@@ -48707,14 +48802,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF13001136500149F",
-							["e_rage"] = 0.003538,
+							["e_rage_r"] = 0.003538,
 						}, -- [3]
 						{
 							["runepower_r"] = 0.006033,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "PRIEST",
+							["holypower_r"] = 0.006033,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48723,27 +48818,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.006033,
+							["e_energy"] = 0.006033,
 							["focus"] = 0.006033,
 							["mana"] = 0.006033,
-							["e_energy"] = 0.006033,
+							["runepower"] = 0.006033,
 							["holypower"] = 0.006033,
-							["holypower_r"] = 0.006033,
+							["class"] = "PRIEST",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 14.006033,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.006033,
+							["e_rage"] = 0.006033,
 							["e_energy_r"] = 0.006033,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Anetta",
 							["focus_r"] = 0.006033,
@@ -48753,14 +48848,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF13001123900006C",
-							["e_rage"] = 0.006033,
+							["e_rage_r"] = 0.006033,
 						}, -- [4]
 						{
 							["runepower_r"] = 0.001634,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "HUNTER",
+							["holypower_r"] = 0.001634,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48769,27 +48864,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2578,
-							["e_rage_r"] = 0.001634,
+							["e_energy"] = 0.001634,
 							["focus"] = 0.001634,
 							["mana"] = 0.001634,
-							["e_energy"] = 0.001634,
+							["runepower"] = 0.001634,
 							["holypower"] = 0.001634,
-							["holypower_r"] = 0.001634,
+							["class"] = "HUNTER",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 9.001633999999999,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.001634,
+							["e_rage"] = 0.001634,
 							["e_energy_r"] = 0.001634,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Grif",
 							["focus_r"] = 0.001634,
@@ -48799,14 +48894,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF1300111D7000070",
-							["e_rage"] = 0.001634,
+							["e_rage_r"] = 0.001634,
 						}, -- [5]
 						{
 							["runepower_r"] = 0.002142,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "DRUID",
+							["holypower_r"] = 0.002142,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48815,27 +48910,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.002142,
+							["e_energy"] = 0.002142,
 							["focus"] = 0.002142,
 							["mana"] = 0.002142,
-							["e_energy"] = 0.002142,
+							["runepower"] = 0.002142,
 							["holypower"] = 0.002142,
-							["holypower_r"] = 0.002142,
+							["class"] = "DRUID",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 12.002142,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.002142,
+							["e_rage"] = 0.002142,
 							["e_energy_r"] = 0.002142,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Sheal",
 							["focus_r"] = 0.002142,
@@ -48845,14 +48940,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF130011302000073",
-							["e_rage"] = 0.002142,
+							["e_rage_r"] = 0.002142,
 						}, -- [6]
 						{
 							["runepower_r"] = 0.0076,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "MAGE",
+							["holypower_r"] = 0.0076,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48861,27 +48956,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.0076,
+							["e_energy"] = 0.0076,
 							["focus"] = 0.0076,
 							["mana"] = 0.0076,
-							["e_energy"] = 0.0076,
+							["runepower"] = 0.0076,
 							["holypower"] = 0.0076,
-							["holypower_r"] = 0.0076,
+							["class"] = "MAGE",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 10.0076,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.0076,
+							["e_rage"] = 0.0076,
 							["e_energy_r"] = 0.0076,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Zaldimar",
 							["focus_r"] = 0.0076,
@@ -48891,14 +48986,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF13001129E000062",
-							["e_rage"] = 0.0076,
+							["e_rage_r"] = 0.0076,
 						}, -- [7]
 						{
 							["runepower_r"] = 0.008956,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "WARLOCK",
+							["holypower_r"] = 0.008956,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48907,27 +49002,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2578,
-							["e_rage_r"] = 0.008956,
+							["e_energy"] = 0.008956,
 							["focus"] = 0.008956,
 							["mana"] = 0.008956,
-							["e_energy"] = 0.008956,
+							["runepower"] = 0.008956,
 							["holypower"] = 0.008956,
-							["holypower_r"] = 0.008956,
+							["class"] = "WARLOCK",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 11.008956,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.008956,
+							["e_rage"] = 0.008956,
 							["e_energy_r"] = 0.008956,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Drusilla",
 							["focus_r"] = 0.008956,
@@ -48937,14 +49032,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF1300112CF000072",
-							["e_rage"] = 0.008956,
+							["e_rage_r"] = 0.008956,
 						}, -- [8]
 						{
 							["runepower_r"] = 0.001858,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "SHAMAN",
+							["holypower_r"] = 0.001858,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -48953,27 +49048,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.001858,
+							["e_energy"] = 0.001858,
 							["focus"] = 0.001858,
 							["mana"] = 0.001858,
-							["e_energy"] = 0.001858,
+							["runepower"] = 0.001858,
 							["holypower"] = 0.001858,
-							["holypower_r"] = 0.001858,
+							["class"] = "SHAMAN",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 12.001858,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.001858,
+							["e_rage"] = 0.001858,
 							["e_energy_r"] = 0.001858,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Tigor",
 							["focus_r"] = 0.001858,
@@ -48983,14 +49078,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF13001126D00007A",
-							["e_rage"] = 0.001858,
+							["e_rage_r"] = 0.001858,
 						}, -- [9]
 						{
 							["runepower_r"] = 0.003117,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "PALADIN",
+							["holypower_r"] = 0.003117,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -49007,20 +49102,19 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.003117,
+							["e_energy"] = 0.003117,
 							["focus"] = 0.003117,
 							["mana"] = 30.003117,
-							["e_energy"] = 0.003117,
+							["runepower"] = 0.003117,
 							["holypower"] = 0.003117,
-							["holypower_r"] = 0.003117,
+							["class"] = "PALADIN",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 41.003117,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.003117,
+							["e_rage"] = 0.003117,
 							["e_energy_r"] = 0.003117,
+							["last_event"] = 1713420055,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -49049,8 +49143,9 @@ _details_database = {
 									},
 								},
 							},
-							["last_event"] = 1713420055,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Bromos",
 							["focus_r"] = 0.003117,
@@ -49061,14 +49156,14 @@ _details_database = {
 								["Bromos"] = true,
 							},
 							["serial"] = "0xF1300111A400006F",
-							["e_rage"] = 0.003117,
+							["e_rage_r"] = 0.003117,
 						}, -- [10]
 						{
 							["runepower_r"] = 0.00561,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "WARLOCK",
+							["holypower_r"] = 0.00561,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -49077,27 +49172,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.00561,
+							["e_energy"] = 0.00561,
 							["focus"] = 0.00561,
 							["mana"] = 0.00561,
-							["e_energy"] = 0.00561,
+							["runepower"] = 0.00561,
 							["holypower"] = 0.00561,
-							["holypower_r"] = 0.00561,
+							["class"] = "WARLOCK",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 9.005610000000001,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.00561,
+							["e_rage"] = 0.00561,
 							["e_energy_r"] = 0.00561,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Demisette",
 							["focus_r"] = 0.00561,
@@ -49107,14 +49202,14 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF1300112D100007B",
-							["e_rage"] = 0.00561,
+							["e_rage_r"] = 0.00561,
 						}, -- [11]
 						{
 							["runepower_r"] = 0.00186,
 							["holypower_from"] = {
 							},
 							["group"] = true,
-							["class"] = "HUNTER",
+							["holypower_r"] = 0.00186,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -49123,27 +49218,27 @@ _details_database = {
 							["pets"] = {
 							},
 							["flag_original"] = 2580,
-							["e_rage_r"] = 0.00186,
+							["e_energy"] = 0.00186,
 							["focus"] = 0.00186,
 							["mana"] = 0.00186,
-							["e_energy"] = 0.00186,
+							["runepower"] = 0.00186,
 							["holypower"] = 0.00186,
-							["holypower_r"] = 0.00186,
+							["class"] = "HUNTER",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 10.00186,
-							["e_energy_from"] = {
-							},
-							["runepower"] = 0.00186,
+							["e_rage"] = 0.00186,
 							["e_energy_r"] = 0.00186,
+							["last_event"] = 0,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 								},
 							},
-							["last_event"] = 0,
 							["e_rage_from"] = {
+							},
+							["e_energy_from"] = {
 							},
 							["name"] = "Ogromm",
 							["focus_r"] = 0.00186,
@@ -49153,7 +49248,7 @@ _details_database = {
 								["Branstock"] = true,
 							},
 							["serial"] = "0xF1300111D6000076",
-							["e_rage"] = 0.00186,
+							["e_rage_r"] = 0.00186,
 						}, -- [12]
 						{
 							["flag_original"] = 68116,
@@ -49177,21 +49272,21 @@ _details_database = {
 							["pets"] = {
 							},
 							["runepower_r"] = 0.006677,
-							["e_rage"] = 100.006677,
+							["class"] = "WARRIOR",
 							["holypower_from"] = {
 							},
 							["holypower_r"] = 0.006677,
-							["e_energy_r"] = 0.006677,
+							["e_energy_from"] = {
+							},
 							["holypower"] = 0.006677,
 							["focus"] = 0.006677,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.006677,
-							["e_energy_from"] = {
-							},
-							["class"] = "WARRIOR",
+							["e_rage"] = 100.006677,
 							["focus_r"] = 0.006677,
+							["name"] = "Lyria",
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -49266,17 +49361,17 @@ _details_database = {
 									},
 								},
 							},
-							["name"] = "Lyria",
 							["e_rage_r"] = 100.006677,
+							["e_energy"] = 0.006677,
 							["e_rage_from"] = {
 								["Lyria"] = true,
 							},
 							["last_event"] = 1713468177,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.006677,
+							["e_energy_r"] = 0.006677,
 							["serial"] = "0xF130011173000074",
-							["e_energy"] = 0.006677,
+							["runepower"] = 0.006677,
 						}, -- [13]
 					},
 					["combatId"] = 202,
@@ -49655,7 +49750,7 @@ _details_database = {
 							["serial"] = "0x0000000000000006",
 							["pets"] = {
 							},
-							["damage_taken"] = 117.006158,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 3975.006158,
 							["damage_from"] = {
@@ -49664,7 +49759,7 @@ _details_database = {
 							["dps_started"] = false,
 							["end_time"] = 1712045475,
 							["placing"] = 1,
-							["on_hold"] = false,
+							["last_dps"] = 496.87576975,
 							["name"] = "Hyper",
 							["spell_tables"] = {
 								["type"] = 2,
@@ -49807,7 +49902,7 @@ _details_database = {
 							},
 							["custom"] = 0,
 							["last_event"] = 1712045475,
-							["last_dps"] = 496.87576975,
+							["damage_taken"] = 117.006158,
 							["start_time"] = 1712045467,
 							["delay"] = 0,
 							["total"] = 3975.006158,
@@ -49844,10 +49939,10 @@ _details_database = {
 							["healing_from"] = {
 							},
 							["fight_component"] = true,
-							["type"] = 2,
 							["total"] = 0.002494,
-							["healing_taken"] = 0.002494,
 							["end_time"] = 1712045475,
+							["healing_taken"] = 0.002494,
+							["type"] = 2,
 							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
@@ -50111,13 +50206,13 @@ _details_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["end_time"] = 1712036031,
+							["total"] = 5192.006333,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 5192.006333,
 							["class"] = "DEATHKNIGHT",
 							["dps_started"] = false,
+							["end_time"] = 1712036031,
 							["type"] = 1,
-							["total"] = 5192.006333,
 							["damage_taken"] = 136.006333,
 							["custom"] = 0,
 							["spell_tables"] = {
@@ -50299,7 +50394,7 @@ _details_database = {
 							["mana_from"] = {
 							},
 							["group"] = true,
-							["class"] = "WARRIOR",
+							["holypower_r"] = 0.005787,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -50316,10 +50411,10 @@ _details_database = {
 							["pets"] = {
 							},
 							["runepower_r"] = 0.005787,
-							["holypower_r"] = 0.005787,
+							["mana"] = 0.005787,
 							["holypower_from"] = {
 							},
-							["mana"] = 0.005787,
+							["class"] = "WARRIOR",
 							["e_energy_from"] = {
 							},
 							["holypower"] = 0.005787,
@@ -50328,7 +50423,7 @@ _details_database = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.005787,
-							["e_rage"] = 40.005787,
+							["e_rage_r"] = 40.005787,
 							["focus_r"] = 0.005787,
 							["name"] = "Thran",
 							["spell_tables"] = {
@@ -50382,7 +50477,7 @@ _details_database = {
 									},
 								},
 							},
-							["e_rage_r"] = 40.005787,
+							["e_rage"] = 40.005787,
 							["e_energy"] = 0.005787,
 							["e_rage_from"] = {
 								["Thran"] = true,
@@ -50628,14 +50723,14 @@ _details_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["last_dps"] = 566.3850401538462,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 7363.005522,
 							["total"] = 7363.005522,
 							["dps_started"] = false,
 							["end_time"] = 1712036017,
 							["placing"] = 1,
-							["last_dps"] = 566.3850401538462,
+							["damage_taken"] = 154.005522,
 							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
@@ -50818,7 +50913,7 @@ _details_database = {
 							["type"] = 1,
 							["name"] = "Hyper",
 							["last_event"] = 1712036016,
-							["damage_taken"] = 154.005522,
+							["on_hold"] = false,
 							["start_time"] = 1712036004,
 							["serial"] = "0x0000000000000006",
 							["damage_from"] = {
@@ -51062,10 +51157,10 @@ _details_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -34.76879068063511,
-					["x"] = -521.529380656341,
-					["w"] = 319.9998998641983,
-					["h"] = 129.9999408423909,
+					["y"] = -164.5713972364158,
+					["x"] = -563.928562344185,
+					["w"] = 152.1428562381438,
+					["h"] = 150.5713917229862,
 				},
 				["solo"] = {
 					["y"] = 2,

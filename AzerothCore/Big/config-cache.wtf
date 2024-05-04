@@ -1,3 +1,4 @@
+SET minimapZoom "1"
 SET minimapInsideZoom "0"
 SET showQuestTrackingTooltips "0"
 SET questLogCollapseFilter "-1"

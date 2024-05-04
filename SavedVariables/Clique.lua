@@ -6,8 +6,8 @@ CliqueDB = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
@@ -16,9 +16,9 @@ CliqueDB = {
 		},
 		["Hyper - AzerothCore"] = {
 		},
-		["Lama - AzerothCore"] = {
-		},
 		["Shadow - AzerothCore"] = {
+		},
+		["Lama - AzerothCore"] = {
 		},
 	},
 }

@@ -11,21 +11,21 @@ ItemRackSettings = {
 	["TrinketMenuMode"] = "OFF",
 	["EventsVersion"] = 11,
 	["CooldownCount"] = "OFF",
-	["AllowEmpty"] = "ON",
+	["TinyTooltips"] = "OFF",
 	["DisableAltClick"] = "OFF",
 	["MinimapTooltip"] = "ON",
 	["MenuOnRight"] = "OFF",
-	["CharacterSheetMenus"] = "ON",
+	["LargeNumbers"] = "OFF",
 	["NotifyThirty"] = "OFF",
 	["TooltipFollow"] = "OFF",
 	["ShowTooltips"] = "ON",
-	["ShowHotKeys"] = "OFF",
-	["EquipToggle"] = "OFF",
 	["AnotherOther"] = "OFF",
+	["EquipToggle"] = "OFF",
+	["ShowHotKeys"] = "OFF",
 	["EquipOnSetPick"] = "OFF",
-	["LargeNumbers"] = "OFF",
+	["CharacterSheetMenus"] = "ON",
 	["SquareMinimap"] = "OFF",
-	["TinyTooltips"] = "OFF",
+	["AllowEmpty"] = "ON",
 }
 ItemRackItems = {
 	["12846"] = {
@@ -51,8 +51,8 @@ ItemRackEvents = {
 		["Anymount"] = 1,
 	},
 	["Warrior Berserker"] = {
-		["Type"] = "Stance",
 		["Stance"] = 3,
+		["Type"] = "Stance",
 	},
 	["Shaman Ghostwolf"] = {
 		["Unequip"] = 1,
@@ -71,42 +71,42 @@ ItemRackEvents = {
 			["Undercity"] = 1,
 			["The Exodar"] = 1,
 			["Stormwind City"] = 1,
-			["Darnassus"] = 1,
+			["Orgrimmar"] = 1,
 			["Shattrath City"] = 1,
 			["Ironforge"] = 1,
-			["Thunder Bluff"] = 1,
 			["Silvermoon City"] = 1,
-			["Orgrimmar"] = 1,
+			["Thunder Bluff"] = 1,
+			["Darnassus"] = 1,
 		},
 	},
 	["Druid Moonkin"] = {
-		["Type"] = "Stance",
 		["Stance"] = "Moonkin Form",
+		["Type"] = "Stance",
 	},
 	["Druid Bear"] = {
-		["Type"] = "Stance",
 		["Stance"] = 1,
+		["Type"] = "Stance",
 	},
 	["Druid Tree of Life"] = {
-		["Type"] = "Stance",
 		["Stance"] = "Tree of Life",
+		["Type"] = "Stance",
 	},
 	["Warrior Battle"] = {
-		["Type"] = "Stance",
 		["Stance"] = 1,
+		["Type"] = "Stance",
 	},
 	["Druid Humanoid"] = {
-		["Type"] = "Stance",
 		["Stance"] = 0,
+		["Type"] = "Stance",
 	},
 	["Druid Aquatic"] = {
-		["Type"] = "Stance",
 		["Stance"] = 2,
+		["Type"] = "Stance",
 	},
-	["Drinking"] = {
-		["Unequip"] = 1,
-		["Type"] = "Buff",
-		["Buff"] = "Drink",
+	["Buffs Gained"] = {
+		["Trigger"] = "PLAYER_AURAS_CHANGED",
+		["Type"] = "Script",
+		["Script"] = "IRScriptBuffs = IRScriptBuffs or {}\nlocal buffs = IRScriptBuffs\nfor i in pairs(buffs) do\n  if not GetPlayerBuffName(i) then\n    buffs[i] = nil\n  end\nend\nlocal i,b = 1,1\nwhile b do\n  b = UnitBuff(\"player\",i)\n  if b and not buffs[b] then\n    ItemRack.Print(\"Gained buff: \"..b)\n    buffs[b] = 1\n  end\n  i = i+1\nend\n\n--[[For script demonstration purposes. Doesn't equip anything just informs when a buff is gained.]]",
 	},
 	["PVP"] = {
 		["Unequip"] = 1,
@@ -121,9 +121,10 @@ ItemRackEvents = {
 			["Nagrand Arena"] = 1,
 		},
 	},
-	["Druid Cat"] = {
+	["Rogue Stealth"] = {
+		["Unequip"] = 1,
 		["Type"] = "Stance",
-		["Stance"] = 3,
+		["Stance"] = 1,
 	},
 	["Swimming"] = {
 		["Trigger"] = "MIRROR_TIMER_START",
@@ -131,41 +132,40 @@ ItemRackEvents = {
 		["Script"] = "local set = \"Name of set\"\nif IsSwimming() and not IsSetEquipped(set) then\n  EquipSet(set)\n  if not SwimmingEvent then\n    function SwimmingEvent()\n      if not IsSwimming() then\n        ItemRack.StopTimer(\"SwimmingEvent\")\n        UnequipSet(set)\n      end\n    end\n    ItemRack.CreateTimer(\"SwimmingEvent\",SwimmingEvent,.5,1)\n  end\n  ItemRack.StartTimer(\"SwimmingEvent\")\nend\n--[[Equips a set when swimming and breath gauge appears and unequips soon after you stop swimming.]]",
 	},
 	["Warrior Defensive"] = {
-		["Type"] = "Stance",
 		["Stance"] = 2,
+		["Type"] = "Stance",
 	},
 	["Druid Travel"] = {
-		["Type"] = "Stance",
 		["Stance"] = 4,
+		["Type"] = "Stance",
 	},
 	["Priest Shadowform"] = {
 		["Unequip"] = 1,
 		["Type"] = "Stance",
 		["Stance"] = 1,
 	},
-	["Druid Flight Form"] = {
-		["Unequip"] = 1,
-		["Type"] = "Stance",
-		["Stance"] = "Flight Form",
-	},
 	["Druid Swift Flight Form"] = {
 		["Unequip"] = 1,
 		["Type"] = "Stance",
 		["Stance"] = "Swift Flight Form",
+	},
+	["Druid Flight Form"] = {
+		["Unequip"] = 1,
+		["Type"] = "Stance",
+		["Stance"] = "Flight Form",
 	},
 	["Evocation"] = {
 		["Unequip"] = 1,
 		["Type"] = "Buff",
 		["Buff"] = "Evocation",
 	},
-	["Rogue Stealth"] = {
-		["Unequip"] = 1,
+	["Druid Cat"] = {
+		["Stance"] = 3,
 		["Type"] = "Stance",
-		["Stance"] = 1,
 	},
-	["Buffs Gained"] = {
-		["Trigger"] = "PLAYER_AURAS_CHANGED",
-		["Type"] = "Script",
-		["Script"] = "IRScriptBuffs = IRScriptBuffs or {}\nlocal buffs = IRScriptBuffs\nfor i in pairs(buffs) do\n  if not GetPlayerBuffName(i) then\n    buffs[i] = nil\n  end\nend\nlocal i,b = 1,1\nwhile b do\n  b = UnitBuff(\"player\",i)\n  if b and not buffs[b] then\n    ItemRack.Print(\"Gained buff: \"..b)\n    buffs[b] = 1\n  end\n  i = i+1\nend\n\n--[[For script demonstration purposes. Doesn't equip anything just informs when a buff is gained.]]",
+	["Drinking"] = {
+		["Unequip"] = 1,
+		["Type"] = "Buff",
+		["Buff"] = "Drink",
 	},
 }

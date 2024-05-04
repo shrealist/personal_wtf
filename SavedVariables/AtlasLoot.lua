@@ -4,9 +4,10 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Lama - AzerothCore"] = "Lama - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Big - AzerothCore"] = "Big - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
@@ -15,13 +16,16 @@ AtlasLootDB = {
 		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Hyper - AzerothCore"] = {
-			["AtlasType"] = "Unknown",
-		},
 		["Lama - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
+		["Hyper - AzerothCore"] = {
+			["AtlasType"] = "Unknown",
+		},
 		["Shadow - AzerothCore"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Big - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
@@ -42,6 +46,13 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
+		["Hyper"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
 		["Lama"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
@@ -56,7 +67,7 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Hyper"] = {
+		["Big"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -71,11 +82,13 @@ AtlasLootWishList = {
 		},
 		["Bkk"] = {
 		},
+		["Hyper"] = {
+		},
 		["Lama"] = {
 		},
 		["Heady"] = {
 		},
-		["Hyper"] = {
+		["Big"] = {
 		},
 	},
 }

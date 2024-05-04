@@ -78,10 +78,10 @@ BlizzMoveDB = {
 		["xOfs"] = 76.999996945262,
 		["point"] = "CENTER",
 	},
+	["LootFrame"] = {
+	},
 	["GuildBankFrame"] = {
 		["save"] = true,
-	},
-	["LootFrame"] = {
 	},
 	["SpellBookFrame"] = {
 	},

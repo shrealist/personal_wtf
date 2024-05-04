@@ -4,19 +4,19 @@ TalentedDB = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
 			["framepos"] = {
-				["TalentedGlyphs"] = {
+				["TalentedFrame"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchorTo"] = "CENTER",
 					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
-				["TalentedFrame"] = {
+				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["anchor"] = "CENTER",
@@ -40,12 +40,12 @@ TalentedDB = {
 				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
 				},
 			},
 		},
-		["Lama - AzerothCore"] = {
+		["Shadow - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
 					["y"] = 0,
@@ -55,7 +55,7 @@ TalentedDB = {
 				},
 			},
 		},
-		["Shadow - AzerothCore"] = {
+		["Lama - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
 					["y"] = 0,

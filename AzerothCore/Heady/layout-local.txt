@@ -52,7 +52,7 @@ Frame: DBMMinimapButton
 FrameLevel: 18
 Anchor: TOPRIGHT
 X: 0
-Y: -176
+Y: -147
 W: 32
 H: 32
 Frame: ScriptErrorsFrame
@@ -83,10 +83,3 @@ X: -270
 Y: 71
 W: 140
 H: 200
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: CENTER
-X: -56
-Y: 38
-W: 830
-H: 665
