@@ -6,4 +6,4 @@ ElvUI_MinimapButtons: disabled
 ElvUI_ChannelAlerts: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
-Carbonite: disabled
+Carbonite: enabled

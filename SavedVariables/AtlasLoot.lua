@@ -4,10 +4,10 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Big - AzerothCore"] = "Big - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
@@ -16,51 +16,32 @@ AtlasLootDB = {
 		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lama - AzerothCore"] = {
+		["Big - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Hyper - AzerothCore"] = {
+		["Lama - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Shadow - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Big - AzerothCore"] = {
+		["Hyper - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Shadow"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Bkk"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Hyper"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Lama"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Heady"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -71,24 +52,43 @@ AtlasLootWishList = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Lama"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-	},
-	["Shared"] = {
+		["Heady"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Hyper"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
 	},
 	["Own"] = {
 		["Shadow"] = {
 		},
 		["Bkk"] = {
 		},
-		["Hyper"] = {
+		["Big"] = {
 		},
 		["Lama"] = {
 		},
 		["Heady"] = {
 		},
-		["Big"] = {
+		["Hyper"] = {
 		},
 	},
 }

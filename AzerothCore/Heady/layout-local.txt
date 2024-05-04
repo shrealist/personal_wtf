@@ -30,10 +30,10 @@ H: 244
 Frame: NxMap1
 FrameLevel: 129
 Anchor: TOPRIGHT
-X: -30
+X: -26
 Y: 0
-W: 195
-H: 230
+W: 181
+H: 222
 Frame: NxMapDock
 FrameLevel: 17
 Anchor: TOPRIGHT
@@ -44,8 +44,8 @@ H: 37
 Frame: NxQuestWatch
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -31
-Y: -230
+X: -33
+Y: -219
 W: 124
 H: 19
 Frame: DBMMinimapButton

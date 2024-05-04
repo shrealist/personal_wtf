@@ -16,15 +16,15 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 1250,
+	["combat_counter"] = 1253,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
-			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
-			["hide_on_combat"] = false,
 			["show_icon"] = 5,
+			["hide_on_combat"] = false,
+			["max_emote_segments"] = 3,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -33,21 +33,21 @@ _details_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
+			["enabled"] = true,
 			["animate"] = false,
 			["useplayercolor"] = true,
-			["useclasscolors"] = true,
 			["author"] = "Details! Team",
+			["useclasscolors"] = true,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["showamount"] = false,
 		},
 	},
 	["character_data"] = {
-		["logons"] = 215,
+		["logons"] = 218,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -73,7 +73,7 @@ _details_database = {
 							["pets"] = {
 							},
 							["damage_taken"] = 173.004077,
-							["serial"] = "0x0000000000000001",
+							["delay"] = 0,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 4149.004077,
 							["type"] = 1,
@@ -81,7 +81,7 @@ _details_database = {
 							["total"] = 4149.004077,
 							["class"] = "WARRIOR",
 							["on_hold"] = false,
-							["name"] = "Heady",
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -108,15 +108,15 @@ _details_database = {
 										["c_max"] = 656,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["DODGE"] = 2,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
+										["b_dmg"] = 270,
 										["a_dmg"] = 0,
 										["c_min"] = 644,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["b_dmg"] = 270,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 2,
 									}, -- [1]
 									[25286] = {
 										["c_amt"] = 0,
@@ -141,20 +141,20 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 25286,
 										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["DODGE"] = 1,
 									},
 								},
 							},
-							["end_time"] = 1714769657,
 							["last_dps"] = 259.3127548125,
-							["custom"] = 0,
+							["end_time"] = 1714769657,
+							["name"] = "Heady",
 							["last_event"] = 1714769657,
 							["friendlyfire"] = {
 								["type"] = 5,
@@ -162,7 +162,7 @@ _details_database = {
 								},
 							},
 							["start_time"] = 1714769641,
-							["delay"] = 0,
+							["serial"] = "0x0000000000000001",
 							["placing"] = 1,
 						}, -- [1]
 					},
@@ -178,10 +178,11 @@ _details_database = {
 					["type"] = 7,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["focus"] = 0.005485,
+							["runepower_r"] = 0.005485,
+							["holypower_from"] = {
+							},
 							["group"] = true,
-							["mana"] = 0.005485,
+							["holypower_r"] = 0.005485,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -197,23 +198,21 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.005485,
+							["flag_original"] = 1297,
 							["e_rage_r"] = 7.005485,
-							["holypower_from"] = {
-							},
-							["class"] = "WARRIOR",
-							["e_rage"] = 7.005485,
+							["focus"] = 0.005485,
+							["mana"] = 0.005485,
+							["last_event"] = 1714769655,
 							["holypower"] = 0.005485,
-							["mana_from"] = {
-							},
+							["class"] = "WARRIOR",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.005485,
 							["e_energy_from"] = {
 							},
-							["e_energy_r"] = 0.005485,
-							["holypower_r"] = 0.005485,
+							["runepower"] = 0.005485,
+							["e_energy"] = 0.005485,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -242,23 +241,25 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.005485,
-							["name"] = "Heady",
 							["e_rage_from"] = {
 								["Heady"] = true,
 							},
-							["last_event"] = 1714769655,
+							["e_rage"] = 7.005485,
+							["name"] = "Heady",
+							["focus_r"] = 0.005485,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.005485,
+							["mana_from"] = {
+							},
 							["serial"] = "0x0000000000000001",
-							["e_energy"] = 0.005485,
+							["e_energy_r"] = 0.005485,
 						}, -- [1]
 						{
-							["runepower_r"] = 0.00835,
-							["runepower"] = 0.00835,
+							["flag_original"] = 2580,
+							["mana_from"] = {
+							},
 							["group"] = true,
-							["class"] = "WARRIOR",
+							["mana"] = 0.00835,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -266,7 +267,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Llane",
 										["e_energy"] = 0,
-										["e_rage"] = 80,
+										["e_rage"] = 190,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -274,23 +275,21 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["flag_original"] = 2580,
-							["mana_from"] = {
-							},
-							["focus"] = 0.00835,
-							["holypower_r"] = 0.00835,
-							["last_event"] = 1714815253,
-							["holypower"] = 0.00835,
+							["runepower_r"] = 0.00835,
+							["class"] = "WARRIOR",
 							["holypower_from"] = {
 							},
+							["holypower_r"] = 0.00835,
+							["e_energy_r"] = 0.00835,
+							["holypower"] = 0.00835,
+							["focus"] = 0.00835,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.00835,
-							["e_energy_from"] = {
-							},
-							["mana"] = 0.00835,
-							["e_energy"] = 0.00835,
+							["e_rage"] = 190.00835,
+							["focus_r"] = 0.00835,
+							["name"] = "Llane",
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -304,18 +303,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Llane",
 													["e_energy"] = 0,
-													["e_rage"] = 60,
+													["e_rage"] = 150,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 60,
+										["e_rage"] = 150,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 2,
+										["counter"] = 5,
 									},
 									[29131] = {
 										["id"] = 29131,
@@ -327,32 +326,33 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Llane",
 													["e_energy"] = 0,
-													["e_rage"] = 20,
+													["e_rage"] = 40,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 20,
+										["e_rage"] = 40,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 20,
+										["counter"] = 40,
 									},
 								},
 							},
+							["e_energy_from"] = {
+							},
+							["e_rage_r"] = 190.00835,
 							["e_rage_from"] = {
 								["Llane"] = true,
 							},
-							["e_rage_r"] = 80.00835000000001,
-							["name"] = "Llane",
-							["focus_r"] = 0.00835,
+							["e_energy"] = 0.00835,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.00835,
+							["runepower"] = 0.00835,
 							["serial"] = "0xF130011171000065",
-							["e_rage"] = 80.00835000000001,
+							["last_event"] = 1714844655,
 						}, -- [2]
 					},
 					["combatId"] = 90,
@@ -369,13 +369,6 @@ _details_database = {
 							},
 							["name"] = "Heady",
 							["last_event"] = 1714769657,
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["buff_uptime"] = 38,
-							["serial"] = "0x0000000000000001",
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -383,38 +376,45 @@ _details_database = {
 										["uptime"] = 16,
 										["activedamt"] = 1,
 										["id"] = 29801,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[55775] = {
 										["uptime"] = 15,
 										["activedamt"] = 1,
 										["id"] = 55775,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[12970] = {
 										["uptime"] = 7,
 										["activedamt"] = 2,
 										["id"] = 12970,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
+								},
+							},
+							["buff_uptime"] = 38,
+							["serial"] = "0x0000000000000001",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
 								},
 							},
 						}, -- [1]
@@ -485,8 +485,8 @@ _details_database = {
 					["Kary"] = true,
 					["Thorgas"] = true,
 					["Alamar"] = true,
-					["Mardant"] = true,
 					["Sulaa"] = true,
+					["Mardant"] = true,
 					["Imhadria"] = true,
 					["Jesthenis"] = true,
 					["Narinth"] = true,
@@ -501,7 +501,7 @@ _details_database = {
 					4148.998327, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = 87,
+						["e_rage"] = 197,
 						["mana"] = 0,
 						["runepower"] = 0,
 						["e_energy"] = 0,
@@ -509,15 +509,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 1,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -528,7 +528,7 @@ _details_database = {
 					4149, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = 87,
+						["e_rage"] = 197,
 						["mana"] = 0,
 						["runepower"] = 0,
 						["e_energy"] = 0,
@@ -536,12 +536,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 1,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
 					}, -- [4]
 				},
 				["data_end"] = "03:54:18",
@@ -552,18 +552,20 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1714769657,
 				["start_time"] = 1714769641,
 				["TimeData"] = {
 				},
-				["end_time"] = 1714769657,
+				["instance_type"] = "none",
 			}, -- [1]
 		},
 	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
+		["Mode"] = 1,
+	},
 	["combat_id"] = 101,
 	["savedStyles"] = {
-	},
-	["savedbuffs"] = {
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -572,9 +574,9 @@ _details_database = {
 		["where"] = 1,
 	},
 	["last_version"] = "v1.3.0",
-	["nick_tag_cache"] = {
-		["nextreset"] = 1716025873,
-		["last_version"] = 6,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["local_instances_config"] = {
 		{
@@ -612,19 +614,17 @@ _details_database = {
 	},
 	["last_instance_time"] = 1714810437,
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1716025873,
+		["last_version"] = 6,
 	},
 	["last_instance_id"] = 536,
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
-		["Mode"] = 1,
+	["savedbuffs"] = {
 	},
 }
