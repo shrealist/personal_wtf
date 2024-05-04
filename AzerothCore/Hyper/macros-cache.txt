@@ -1,0 +1,68 @@
+MACRO 16777217 "冰冷触摸" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 冰冷触摸
+/cast !符文打击
+/petdefensive
+/petattack
+END
+MACRO 16777224 "冰霜打击" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura 活力分流
+/cast 冰霜打击
+/cast !符文打击
+/petattack
+END
+MACRO 16777225 "凋零缠绕" INV_Misc_QuestionMark
+#showtooltip
+/cast 凋零缠绕
+/cast !符文打击
+/petattack
+END
+MACRO 16777223 "凛风冲击" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 凛风冲击
+/cast !符文打击
+/petdefensive
+/petattack
+END
+MACRO 16777221 "天灾打击" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 天灾打击
+/cast !符文打击
+/petdefensive
+/petattack
+END
+MACRO 16777218 "暗影打击" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 暗影打击
+/cast !符文打击
+/petdefensive
+/petattack
+END
+MACRO 16777220 "枯萎凋零" INV_Misc_QuestionMark
+#showtooltip
+#/cast [@cursor]!枯萎凋零
+#/use [@player]枯萎凋零
+#/use [@target]枯萎凋零
+/cast 枯萎凋零
+END
+MACRO 16777222 "湮没" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 湮没
+/cast !符文打击
+/petdefensive
+/petattack
+END
+MACRO 16777219 "鲜血打击" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 鲜血打击
+/cast !符文打击
+/petdefensive
+/petattack
+END

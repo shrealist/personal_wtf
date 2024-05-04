@@ -1,0 +1,2 @@
+
+NXNotes = nil

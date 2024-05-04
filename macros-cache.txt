@@ -1,0 +1,82 @@
+MACRO 24 "10" INV_Misc_QuestionMark
+/use 10
+END
+MACRO 18 "13" INV_Misc_QuestionMark
+/use 13
+END
+MACRO 19 "14" INV_Misc_QuestionMark
+/use 14
+END
+MACRO 25 "15" INV_Misc_QuestionMark
+/use 15
+END
+MACRO 22 "6" INV_Misc_QuestionMark
+/use 6
+END
+MACRO 1 "63844" Ability_Ambush
+jiao ying shou
+END
+MACRO 23 "8" INV_Misc_QuestionMark
+/use 8
+END
+MACRO 5 "fengus" Ability_Creature_Cursed_02
+.bonusbuff fengus
+END
+MACRO 21 "fm" INV_Misc_QuestionMark
+.randenchant 255 23
+END
+MACRO 6 "moldar" Spell_Shadow_Metamorphosis
+.bonusbuff moldar
+END
+MACRO 13 "move" Spell_Arcane_PortalDalaran
+.npcbot move 70301
+.npcbot move 70251
+.npcbot move 70051
+END
+MACRO 3 "ony" Ability_BullRush
+.bonusbuff ony
+END
+MACRO 17 "pull" Ability_Hunter_Misdirection
+.npcbot order cast kary multi-shot mytarget
+END
+MACRO 14 "rebind" Spell_Holy_AuraMastery
+.npcbot co rebind
+END
+MACRO 4 "rend" Spell_Arcane_TeleportOrgrimmar
+.bonusbuff rend
+END
+MACRO 8 "serenade" Spell_Holy_RighteousFury
+.bonusbuff serenade
+END
+MACRO 16 "SetRaid25Hard" INV_Misc_QuestionMark
+/run SetRaidDifficulty(4)
+END
+MACRO 10 "shi xue" INV_Misc_QuestionMark
+#showtooltip 嗜血
+/cast 嗜血
+/startattack
+END
+MACRO 12 "shun pi" INV_Misc_QuestionMark
+#showtooltip 顺劈斩
+/cast 顺劈斩
+/startattack
+END
+MACRO 7 "slipkik" Spell_Shadow_ManaBurn
+.bonusbuff slipkik
+END
+MACRO 20 "unbind" INV_Misc_QuestionMark
+.instance unbind all
+END
+MACRO 15 "xuanfeng" INV_Misc_QuestionMark
+#showtooltip 旋风斩
+/cast 旋风斩
+/startattack
+END
+MACRO 11 "ying yong" INV_Misc_QuestionMark
+#showtooltip 英勇打击
+/cast 英勇打击
+/startattack
+END
+MACRO 9 "zg" Spell_Holy_Rapture
+.bonusbuff zg
+END

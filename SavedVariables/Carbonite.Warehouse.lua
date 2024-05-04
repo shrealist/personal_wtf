@@ -1,0 +1,2 @@
+
+NXWhouse = nil

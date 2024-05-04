@@ -1,0 +1,19 @@
+MACRO 16777219 "baofa" INV_Misc_QuestionMark
+#showtooltip
+/use 13
+/use 14
+/use 10
+/use 6
+#/cast 冲动
+/startattack
+END
+MACRO 16777217 "影袭" INV_Misc_QuestionMark
+#showtooltip
+/cast 影袭
+/startattack
+END
+MACRO 16777218 "背刺" INV_Misc_QuestionMark
+#showtooltip
+/cast 背刺
+/startattack
+END
