@@ -13,16 +13,6 @@ MoveAnything_CharacterSettings = {
 				235.999904930593, -- [5]
 			},
 		},
-		["GossipFrame"] = {
-			["name"] = "GossipFrame",
-			["pos"] = {
-				"BOTTOMLEFT", -- [1]
-				"UIParent", -- [2]
-				"BOTTOMLEFT", -- [3]
-				270.0000531971447, -- [4]
-				260.8570441475951, -- [5]
-			},
-		},
 		["PlayerBuffsMover"] = {
 			["name"] = "PlayerBuffsMover",
 			["pos"] = {
@@ -31,6 +21,16 @@ MoveAnything_CharacterSettings = {
 				"BOTTOMLEFT", -- [3]
 				-149.9999977648259, -- [4]
 				297.9998734891433, -- [5]
+			},
+		},
+		["GossipFrame"] = {
+			["name"] = "GossipFrame",
+			["pos"] = {
+				"BOTTOMLEFT", -- [1]
+				"UIParent", -- [2]
+				"BOTTOMLEFT", -- [3]
+				270.0000531971447, -- [4]
+				260.8570441475951, -- [5]
 			},
 		},
 		["ClassTrainerFrame"] = {
@@ -47,6 +47,6 @@ MoveAnything_CharacterSettings = {
 }
 MoveAnything_UseCharacterSettings = nil
 MADB = {
-	["collapsed"] = true,
 	["frameListRows"] = 18,
+	["collapsed"] = true,
 }

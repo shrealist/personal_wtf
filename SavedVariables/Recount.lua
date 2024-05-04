@@ -3,21 +3,15 @@ RecountDB = {
 	["profileKeys"] = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -309.2857696222399,
-					["h"] = 199.9999970197678,
-					["w"] = 139.9999979138375,
-					["x"] = -269.571433818766,
-				},
 				["Buttons"] = {
 					["FileButton"] = false,
 					["CloseButton"] = false,
@@ -25,10 +19,16 @@ RecountDB = {
 					["RightButton"] = false,
 					["ReportButton"] = false,
 				},
+				["Position"] = {
+					["y"] = -309.2857696222399,
+					["h"] = 199.9999970197678,
+					["w"] = 139.9999979138375,
+					["x"] = -269.571433818766,
+				},
 				["RowHeight"] = 15,
 				["BarText"] = {
-					["NumFormat"] = 3,
 					["RankNum"] = false,
+					["NumFormat"] = 3,
 					["Percent"] = false,
 					["PerSec"] = false,
 				},
@@ -51,6 +51,7 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "纳克萨玛斯",
 			["BarTexture"] = "Flat",
 			["CurDataSet"] = "OverallData",
 			["Font"] = "聊天",
@@ -71,10 +72,32 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+		},
+		["Bkk - AzerothCore"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -247.0002328306402,
+					["h"] = 199.9999970197678,
+					["w"] = 140.0000265240665,
+					["x"] = -253.8570747694809,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
 		},
 		["Lucy - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -94,29 +117,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
-		},
-		["Hyper - AzerothCore"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 139.9999979138375,
-					["h"] = 199.9999970197678,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowX"] = 0,
 		},
 		["Lama - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -139,18 +142,16 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
-		["Bkk - AzerothCore"] = {
+		["Hyper - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -247.0002328306402,
+					["w"] = 139.9999979138375,
 					["h"] = 199.9999970197678,
-					["w"] = 140.0000265240665,
-					["x"] = -253.8570747694809,
 				},
 			},
 			["Colors"] = {

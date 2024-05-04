@@ -1,0 +1,12 @@
+MACRO 16777217 "baofa" INV_Misc_QuestionMark
+#showtooltip
+/use 10
+/use 13
+/use 14
+/use 6
+/startattack
+END
+MACRO 16777218 "baofa1" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=20.1 狂暴之怒 死亡之愿 鲁莽
+END
