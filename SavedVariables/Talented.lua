@@ -11,17 +11,17 @@ TalentedDB = {
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
 			["framepos"] = {
-				["TalentedGlyphs"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
-				},
 				["TalentedFrame"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
+				},
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
 				},
 			},
 		},
@@ -61,20 +61,20 @@ TalentedDB = {
 				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchorTo"] = "CENTER",
 					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 			},
 		},
 		["Hyper - AzerothCore"] = {
 			["framepos"] = {
-				["TalentedFrame"] = {
+				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
 				},
-				["TalentedGlyphs"] = {
+				["TalentedFrame"] = {
 					["y"] = 0,
 					["x"] = 0,
 					["anchor"] = "CENTER",

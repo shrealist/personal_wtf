@@ -25,6 +25,9 @@ END
 MACRO 21 "fm" INV_Misc_QuestionMark
 .randenchant 255 23
 END
+MACRO 26 "MarkReset" INV_Misc_QuestionMark
+/click MarkReset
+END
 MACRO 6 "moldar" Spell_Shadow_Metamorphosis
 .bonusbuff moldar
 END
@@ -51,31 +54,11 @@ END
 MACRO 16 "SetRaid25Hard" INV_Misc_QuestionMark
 /run SetRaidDifficulty(4)
 END
-MACRO 10 "shi xue" INV_Misc_QuestionMark
-#showtooltip 嗜血
-/cast 嗜血
-/startattack
-END
-MACRO 12 "shun pi" INV_Misc_QuestionMark
-#showtooltip 顺劈斩
-/cast 顺劈斩
-/startattack
-END
 MACRO 7 "slipkik" Spell_Shadow_ManaBurn
 .bonusbuff slipkik
 END
 MACRO 20 "unbind" INV_Misc_QuestionMark
 .instance unbind all
-END
-MACRO 15 "xuanfeng" INV_Misc_QuestionMark
-#showtooltip 旋风斩
-/cast 旋风斩
-/startattack
-END
-MACRO 11 "ying yong" INV_Misc_QuestionMark
-#showtooltip 英勇打击
-/cast 英勇打击
-/startattack
 END
 MACRO 9 "zg" Spell_Holy_Rapture
 .bonusbuff zg

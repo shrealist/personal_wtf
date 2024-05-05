@@ -1,12 +1,39 @@
+MACRO 16777224 "1805996376" INV_Misc_QuestionMark
+#showtooltip
+/click [button:2] 1805996376 RightButton; [button:3] 1805996376 MiddleButton; [button:4] 1805996376 Button4; [button:5] 1805996376 Button5; 1805996376
+END
 MACRO 16777217 "baofa" INV_Misc_QuestionMark
 #showtooltip
 /use 10
 /use 13
 /use 14
 /use 6
-/startattack
 END
 MACRO 16777218 "baofa1" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=20.1 狂暴之怒 死亡之愿 鲁莽
+END
+MACRO 16777221 "new狂怒1805996376" Spell_Frost_IceClaw
+#showtooltip
+/click [button:2] new狂怒1805996376 RightButton; [button:3] new狂怒1805996376 MiddleButton; [button:4] new狂怒1805996376 Button4; [button:5] new狂怒1805996376 Button5; new狂怒1805996376
+END
+MACRO 16777226 "shi xue" INV_Misc_QuestionMark
+#showtooltip 嗜血
+/cast 嗜血
+/startattack
+END
+MACRO 16777225 "shun pi" INV_Misc_QuestionMark
+#showtooltip 顺劈斩
+/cast 顺劈斩
+/startattack
+END
+MACRO 16777228 "xuan feng" INV_Misc_QuestionMark
+#showtooltip 旋风斩
+/cast 旋风斩
+/startattack
+END
+MACRO 16777227 "ying yong" INV_Misc_QuestionMark
+#showtooltip 英勇打击
+/cast 英勇打击
+/startattack
 END
