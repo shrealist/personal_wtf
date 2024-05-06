@@ -2,16 +2,16 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Big - AzerothCore"] = "Big - AzerothCore",
 	},
 	["profiles"] = {
-		["Lucy - AzerothCore"] = {
+		["Lama - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Heady - AzerothCore"] = {
@@ -20,10 +20,10 @@ AtlasLootDB = {
 		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Hyper - AzerothCore"] = {
+		["Lucy - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lama - AzerothCore"] = {
+		["Hyper - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Shadow - AzerothCore"] = {

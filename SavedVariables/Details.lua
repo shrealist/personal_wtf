@@ -3,8 +3,8 @@ _details_global = {
 	["got_first_run"] = true,
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 108,
-		["logons"] = 108,
+		["main_help_button"] = 136,
+		["logons"] = 136,
 		["version_announce"] = 0,
 		["feedback_window1"] = true,
 		["alert_frames"] = {
@@ -127,11 +127,11 @@ _details_global = {
 					0, -- [3]
 					0.25, -- [4]
 				},
-				["SHAMAN"] = {
-					0.25, -- [1]
-					0.49609375, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.5, -- [3]
+					0.75, -- [4]
 				},
 				["MAGE"] = {
 					0.25, -- [1]
@@ -187,11 +187,11 @@ _details_global = {
 					0.25, -- [3]
 					0.5, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.5, -- [3]
-					0.75, -- [4]
+				["ROGUE"] = {
+					0.49609375, -- [1]
+					0.7421875, -- [2]
+					0, -- [3]
+					0.25, -- [4]
 				},
 				["Horde"] = {
 					0.7421875, -- [1]
@@ -199,11 +199,11 @@ _details_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["ROGUE"] = {
-					0.49609375, -- [1]
-					0.7421875, -- [2]
-					0, -- [3]
-					0.25, -- [4]
+				["SHAMAN"] = {
+					0.25, -- [1]
+					0.49609375, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["ENEMY"] = {
 					0, -- [1]
@@ -219,18 +219,18 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["overall_clear_newboss"] = true,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
 			["report_schema"] = 1,
-			["total_abbreviation"] = 2,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["overall_clear_newchallenge"] = true,
 			["clear_graphic"] = true,
-			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
 			["time_type"] = 2,
@@ -267,8 +267,6 @@ _details_global = {
 			},
 			["segments_amount_to_save"] = 5,
 			["standard_skin"] = false,
-			["overall_clear_newboss"] = true,
-			["memory_ram"] = 64,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -280,10 +278,10 @@ _details_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -325,39 +323,41 @@ _details_global = {
 					0.49, -- [2]
 					0.04, -- [3]
 				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["ENEMY"] = {
 					0.94117, -- [1]
 					0, -- [2]
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
 				["ROGUE"] = {
 					1, -- [1]
 					0.96, -- [2]
 					0.41, -- [3]
+				},
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
 				},
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
 					0, -- [3]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
+				["version"] = 1,
 				["PET"] = {
 					0.3, -- [1]
 					0.4, -- [2]
 					0.5, -- [3]
 				},
 			},
+			["memory_ram"] = 64,
+			["trash_auto_remove"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
@@ -418,12 +418,12 @@ _details_global = {
 					},
 					["switch_healer"] = false,
 					["bars_sort_direction"] = 1,
-					["hide_out_of_combat"] = false,
 					["show_statusbar"] = false,
 					["tooltip"] = {
 						["n_abilities"] = 3,
 						["n_enemies"] = 3,
 					},
+					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
@@ -475,6 +475,26 @@ _details_global = {
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
+					["position"] = {
+						["normal"] = {
+							["y"] = -164.5713972364158,
+							["x"] = -563.928562344185,
+							["w"] = 152.1428562381438,
+							["h"] = 150.5713917229862,
+						},
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
+						},
+					},
+					["switch_all_roles_in_combat"] = false,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
+					["version"] = 3,
 					["attribute_text"] = {
 						["enabled"] = true,
 						["shadow"] = false,
@@ -494,26 +514,6 @@ _details_global = {
 						},
 						["enable_custom_text"] = false,
 					},
-					["switch_all_roles_in_combat"] = false,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
-					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = -164.5713972364158,
-							["x"] = -563.928562344185,
-							["w"] = 152.1428562381438,
-							["h"] = 150.5713917229862,
-						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
-						},
-					},
 					["__locked"] = false,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -524,13 +524,9 @@ _details_global = {
 					},
 					["switch_tank_in_combat"] = false,
 					["stretch_button_side"] = 1,
-					["switch_damager"] = false,
+					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["show_sidebars"] = false,
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -546,23 +542,27 @@ _details_global = {
 						["space"] = -4,
 						["shadow"] = false,
 					},
-					["desaturated_menu"] = false,
-					["show_sidebars"] = false,
+					["switch_damager"] = false,
+					["micro_displays_side"] = 2,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
 					},
-					["bars_grow_direction"] = 1,
+					["window_scale"] = 1,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
-						["textL_enable_custom_text"] = false,
+						["fixed_texture_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
 						["texture"] = "BantoBar",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = false,
 						["space"] = {
 							["right"] = 0,
@@ -583,8 +583,10 @@ _details_global = {
 							1, -- [2]
 							1, -- [3]
 						},
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["texture_background"] = "Details Serenity",
 						["alpha"] = 1,
-						["textR_class_colors"] = false,
+						["textL_class_colors"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["size"] = 12,
@@ -596,20 +598,14 @@ _details_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
-						["texture_background"] = "Details Serenity",
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
 						["no_icon"] = true,
 						["font_size"] = 12,
-						["textL_class_colors"] = false,
+						["textR_class_colors"] = false,
 						["font_face"] = "聊天",
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["fixed_texture_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-						},
+						["percent_type"] = 1,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
 					["plugins_grow_direction"] = 1,
@@ -633,8 +629,12 @@ _details_global = {
 					["switch_damager_in_combat"] = false,
 					["hide_in_combat"] = false,
 					["backdrop_texture"] = "Details Ground",
-					["window_scale"] = 1,
-					["micro_displays_side"] = 2,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
+					["bars_grow_direction"] = 1,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -665,8 +665,8 @@ _details_global = {
 						},
 					},
 					["bg_alpha"] = 0.3181,
+					["hide_out_of_combat"] = false,
 					["menu_icons_size"] = 0.9,
-					["__was_opened"] = true,
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
@@ -863,15 +863,56 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["total_abbreviation"] = 2,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["clear_graphic"] = true,
 			["report_schema"] = 1,
-			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
 			["overall_clear_newchallenge"] = true,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
+			["trash_auto_remove"] = true,
+			["segments_auto_erase"] = 1,
+			["cloud_capture"] = true,
+			["segments_amount_to_save"] = 5,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["text_type"] = 1,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["hide"] = false,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["use_scroll"] = false,
+			["only_pvp_frags"] = false,
+			["remove_realm_from_name"] = true,
+			["report_heal_links"] = false,
+			["report_lines"] = 5,
+			["trash_concatenate"] = false,
+			["segments_panic_mode"] = true,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["default_bg_color"] = 0.0941,
+			["row_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["time_type"] = 2,
+			["standard_skin"] = false,
+			["overall_clear_newboss"] = true,
+			["memory_ram"] = 64,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -928,13 +969,17 @@ _details_global = {
 					1, -- [2]
 					0, -- [3]
 				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["ENEMY"] = {
 					0.94117, -- [1]
 					0, -- [2]
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
 				["ROGUE"] = {
 					1, -- [1]
 					0.96, -- [2]
@@ -950,58 +995,13 @@ _details_global = {
 					1, -- [2]
 					0, -- [3]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
+				["version"] = 1,
 				["UNGROUPPLAYER"] = {
 					0.4, -- [1]
 					0.4, -- [2]
 					0.4, -- [3]
 				},
 			},
-			["segments_auto_erase"] = 1,
-			["cloud_capture"] = true,
-			["segments_amount_to_save"] = 5,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["text_type"] = 1,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["hide"] = false,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["use_scroll"] = false,
-			["only_pvp_frags"] = false,
-			["remove_realm_from_name"] = true,
-			["report_heal_links"] = false,
-			["report_lines"] = 5,
-			["trash_concatenate"] = false,
-			["segments_panic_mode"] = true,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
-			["default_bg_color"] = 0.0941,
-			["row_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
-			["time_type"] = 2,
-			["standard_skin"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["memory_ram"] = 64,
-			["overall_clear_newboss"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
@@ -1070,9 +1070,6 @@ _details_global = {
 						["n_enemies"] = 3,
 					},
 					["StatusBarSaved"] = {
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -1111,15 +1108,18 @@ _details_global = {
 									1, -- [3]
 									1, -- [4]
 								},
-								["textAlign"] = 0,
-								["textXMod"] = 6,
 								["textStyle"] = 2,
-								["textFace"] = "Friz Quadrata TT",
+								["textXMod"] = 6,
 								["timeType"] = 1,
+								["textFace"] = "Friz Quadrata TT",
+								["textAlign"] = 0,
 								["textSize"] = 10,
 								["textYMod"] = 0,
 							},
 						},
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["menu_icons_size"] = 0.9,
 					["switch_all_roles_in_combat"] = false,
@@ -1168,10 +1168,7 @@ _details_global = {
 					},
 					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-2, -- [2]
-					},
+					["window_scale"] = 1,
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -1189,12 +1186,19 @@ _details_global = {
 					},
 					["switch_damager"] = false,
 					["micro_displays_side"] = 2,
-					["bars_grow_direction"] = 1,
-					["window_scale"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-2, -- [2]
+					},
 					["backdrop_texture"] = "Details Ground",
 					["show_statusbar"] = false,
+					["hide_icon"] = true,
 					["switch_damager_in_combat"] = false,
-					["grab_on_top"] = false,
 					["statusbar_info"] = {
 						["alpha"] = 1,
 						["overlay"] = {
@@ -1210,13 +1214,17 @@ _details_global = {
 					["auto_current"] = true,
 					["toolbar_side"] = 1,
 					["bg_g"] = 0.0941,
-					["hide_icon"] = true,
+					["grab_on_top"] = false,
 					["hide_in_combat"] = false,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
-						["textL_enable_custom_text"] = false,
+						["fixed_texture_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
 						["fixed_texture_background_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -1226,7 +1234,7 @@ _details_global = {
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = false,
 						["space"] = {
 							["right"] = 0,
@@ -1242,6 +1250,10 @@ _details_global = {
 							1, -- [2]
 							1, -- [3]
 						},
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["texture_background"] = "Details Serenity",
+						["alpha"] = 1,
+						["textL_class_colors"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["size"] = 12,
@@ -1253,29 +1265,17 @@ _details_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
-						["textL_class_colors"] = false,
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["textR_class_colors"] = false,
-						["alpha"] = 1,
 						["no_icon"] = true,
 						["font_size"] = 12,
-						["texture_background"] = "Details Serenity",
+						["textR_class_colors"] = false,
 						["font_face"] = "聊天",
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["fixed_texture_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-						},
+						["percent_type"] = 1,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["bars_grow_direction"] = 1,
 					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
@@ -1510,12 +1510,15 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
 			["report_schema"] = 1,
+			["trash_auto_remove"] = true,
+			["overall_clear_newchallenge"] = true,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -1572,12 +1575,17 @@ _details_global = {
 					0.49, -- [2]
 					0.04, -- [3]
 				},
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
-				["version"] = 1,
 				["SHAMAN"] = {
 					0, -- [1]
 					0.44, -- [2]
@@ -1593,21 +1601,13 @@ _details_global = {
 					1, -- [2]
 					0, -- [3]
 				},
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
-				},
+				["version"] = 1,
 				["PET"] = {
 					0.3, -- [1]
 					0.4, -- [2]
 					0.5, -- [3]
 				},
 			},
-			["overall_clear_newchallenge"] = true,
-			["clear_graphic"] = true,
-			["overall_clear_newboss"] = true,
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
 			["time_type"] = 2,
@@ -1644,11 +1644,11 @@ _details_global = {
 			},
 			["segments_amount_to_save"] = 5,
 			["standard_skin"] = false,
-			["total_abbreviation"] = 2,
-			["memory_ram"] = 64,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
+			["memory_ram"] = 64,
+			["overall_clear_newboss"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
@@ -1716,8 +1716,9 @@ _details_global = {
 						["n_enemies"] = 3,
 					},
 					["StatusBarSaved"] = {
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
 						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textYMod"] = 0,
@@ -1751,11 +1752,11 @@ _details_global = {
 							},
 							["DETAILS_STATUSBAR_PLUGIN_CLOCK"] = {
 								["textYMod"] = 0,
-								["timeType"] = 1,
-								["textXMod"] = 6,
 								["textAlign"] = 0,
-								["textFace"] = "Friz Quadrata TT",
+								["textXMod"] = 6,
 								["textStyle"] = 2,
+								["textFace"] = "Friz Quadrata TT",
+								["timeType"] = 1,
 								["textSize"] = 10,
 								["textColor"] = {
 									1, -- [1]
@@ -1765,7 +1766,6 @@ _details_global = {
 								},
 							},
 						},
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
 					},
 					["attribute_text"] = {
 						["enabled"] = true,
@@ -1836,26 +1836,25 @@ _details_global = {
 					},
 					["desaturated_menu"] = false,
 					["show_sidebars"] = false,
-					["window_scale"] = 1,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-2, -- [2]
 					},
+					["bars_grow_direction"] = 1,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = true,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_alpha",
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["percent_type"] = 1,
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+						["textR_enable_custom_text"] = false,
+						["texture_background_class_color"] = false,
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["textR_enable_custom_text"] = false,
-						["texture_background_class_color"] = false,
-						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = true,
 						["space"] = {
 							["right"] = 0,
@@ -1876,6 +1875,10 @@ _details_global = {
 							1, -- [2]
 							1, -- [3]
 						},
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["texture_background"] = "Details Serenity",
+						["alpha"] = 1,
+						["textL_class_colors"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["size"] = 12,
@@ -1887,23 +1890,19 @@ _details_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
-						["textL_class_colors"] = false,
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["textR_class_colors"] = false,
-						["alpha"] = 1,
 						["no_icon"] = false,
 						["font_size"] = 10,
-						["texture_background"] = "Details Serenity",
+						["textR_class_colors"] = false,
 						["font_face"] = "Arial Narrow",
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["start_after_icon"] = false,
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 					},
 					["show_statusbar"] = false,
+					["switch_damager_in_combat"] = false,
 					["grab_on_top"] = false,
-					["hide_icon"] = true,
 					["statusbar_info"] = {
 						["alpha"] = 1,
 						["overlay"] = {
@@ -1919,14 +1918,15 @@ _details_global = {
 					["auto_current"] = true,
 					["toolbar_side"] = 1,
 					["bg_g"] = 0.0941,
-					["switch_damager_in_combat"] = false,
+					["hide_icon"] = true,
 					["hide_in_combat"] = false,
 					["backdrop_texture"] = "Details Ground",
-					["bars_grow_direction"] = 1,
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-2, -- [2]
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
 					},
+					["window_scale"] = 1,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -1989,7 +1989,7 @@ _details_global = {
 				{
 					["__pos"] = {
 						["normal"] = {
-							["y"] = -164.5713972364158,
+							["y"] = -164.5713400159577,
 							["x"] = -563.928562344185,
 							["w"] = 152.1428562381438,
 							["h"] = 150.5713917229862,
@@ -2040,7 +2040,7 @@ _details_global = {
 					["switch_all_roles_after_wipe"] = false,
 					["position"] = {
 						["normal"] = {
-							["y"] = -164.5713972364158,
+							["y"] = -164.5713400159577,
 							["x"] = -563.928562344185,
 							["w"] = 152.1428562381438,
 							["h"] = 150.5713917229862,
@@ -2118,20 +2118,20 @@ _details_global = {
 						["enabled"] = true,
 						["shadow"] = false,
 						["side"] = 1,
-						["text_size"] = 11,
+						["enable_custom_text"] = false,
 						["custom_text"] = "{name}",
 						["text_face"] = "Arial Narrow",
 						["anchor"] = {
 							-18, -- [1]
 							5, -- [2]
 						},
+						["text_size"] = 11,
 						["text_color"] = {
 							1, -- [1]
 							1, -- [2]
 							1, -- [3]
 							1, -- [4]
 						},
-						["enable_custom_text"] = false,
 					},
 					["__locked"] = false,
 					["menu_alpha"] = {
@@ -2142,7 +2142,7 @@ _details_global = {
 						["onleave"] = 1,
 					},
 					["switch_damager"] = false,
-					["hide_out_of_combat"] = false,
+					["show_sidebars"] = false,
 					["bg_alpha"] = 0.3181,
 					["strata"] = "LOW",
 					["switch_tank_in_combat"] = false,
@@ -2162,39 +2162,39 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["desaturated_menu"] = false,
-					["show_sidebars"] = false,
+					["micro_displays_side"] = 2,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
 					},
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["window_scale"] = 1,
 					["grab_on_top"] = false,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
-						["textL_enable_custom_text"] = false,
-						["fixed_texture_background_color"] = {
+						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
-							0.3186, -- [4]
 						},
+						["texture"] = "Minimalist",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = false,
 						["space"] = {
 							["right"] = 0,
 							["left"] = 0,
 							["between"] = 1,
 						},
-						["texture"] = "Minimalist",
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.3186, -- [4]
+						},
 						["textR_custom_text"] = "{data1}    {data2}",
 						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARHei.ttf",
@@ -2203,10 +2203,8 @@ _details_global = {
 							1, -- [2]
 							1, -- [3]
 						},
-						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["texture_background"] = "Details Serenity",
 						["alpha"] = 1,
-						["textL_class_colors"] = false,
+						["textR_class_colors"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["size"] = 12,
@@ -2218,19 +2216,17 @@ _details_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
+						["texture_background"] = "Details Serenity",
+						["textL_custom_text"] = "{data1}. {data3}{data2}",
 						["no_icon"] = true,
 						["font_size"] = 12,
-						["textR_class_colors"] = false,
+						["textL_class_colors"] = false,
 						["font_face"] = "聊天",
 						["texture_class_colors"] = true,
 						["height"] = 15,
 						["texture_file"] = "Interface\\AddOns\\ElvUI\\Media\\Textures\\Minimalist.tga",
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
-						["fixed_texture_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-						},
+						["percent_type"] = 1,
 					},
 					["backdrop_texture"] = "Details Ground",
 					["hide_icon"] = true,
@@ -2251,7 +2247,7 @@ _details_global = {
 					["bg_g"] = 0.0941,
 					["show_statusbar"] = false,
 					["hide_in_combat"] = false,
-					["micro_displays_side"] = 2,
+					["bars_grow_direction"] = 1,
 					["switch_damager_in_combat"] = false,
 					["menu_icons_size"] = 0.9,
 					["wallpaper"] = {
@@ -2274,6 +2270,7 @@ _details_global = {
 						["width"] = 0,
 					},
 					["stretch_button_side"] = 1,
+					["hide_out_of_combat"] = false,
 					["total_bar"] = {
 						["enabled"] = false,
 						["only_in_group"] = true,
@@ -2284,8 +2281,11 @@ _details_global = {
 							1, -- [3]
 						},
 					},
-					["bars_grow_direction"] = 1,
-					["window_scale"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
@@ -2317,11 +2317,11 @@ _details_global = {
 					0, -- [3]
 					0.25, -- [4]
 				},
-				["SHAMAN"] = {
-					0.25, -- [1]
-					0.49609375, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ROGUE"] = {
+					0.49609375, -- [1]
+					0.7421875, -- [2]
+					0, -- [3]
+					0.25, -- [4]
 				},
 				["MAGE"] = {
 					0.25, -- [1]
@@ -2329,17 +2329,17 @@ _details_global = {
 					0, -- [3]
 					0.25, -- [4]
 				},
-				["UNGROUPPLAYER"] = {
-					0.5, -- [1]
-					0.75, -- [2]
+				["PET"] = {
+					0.25, -- [1]
+					0.49609375, -- [2]
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["MONSTER"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.75, -- [3]
-					1, -- [4]
+				["DRUID"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0, -- [3]
+					0.25, -- [4]
 				},
 				["DEATHKNIGHT"] = {
 					0.25, -- [1]
@@ -2359,11 +2359,11 @@ _details_global = {
 					0.25, -- [3]
 					0.5, -- [4]
 				},
-				["DRUID"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0, -- [3]
-					0.25, -- [4]
+				["MONSTER"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.75, -- [3]
+					1, -- [4]
 				},
 				["Alliance"] = {
 					0.49609375, -- [1]
@@ -2371,17 +2371,17 @@ _details_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.75, -- [3]
-					1, -- [4]
+				["WARLOCK"] = {
+					0.7421875, -- [1]
+					0.98828125, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
-				["ROGUE"] = {
-					0.49609375, -- [1]
-					0.7421875, -- [2]
-					0, -- [3]
-					0.25, -- [4]
+				["SHAMAN"] = {
+					0.25, -- [1]
+					0.49609375, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["Horde"] = {
 					0.7421875, -- [1]
@@ -2395,118 +2395,32 @@ _details_global = {
 					0.5, -- [3]
 					0.75, -- [4]
 				},
-				["WARLOCK"] = {
-					0.7421875, -- [1]
-					0.98828125, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ENEMY"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.75, -- [3]
+					1, -- [4]
 				},
-				["PET"] = {
-					0.25, -- [1]
-					0.49609375, -- [2]
+				["UNGROUPPLAYER"] = {
+					0.5, -- [1]
+					0.75, -- [2]
 					0.75, -- [3]
 					1, -- [4]
 				},
 			},
 			["disable_reset_button"] = false,
 			["profile_save_pos"] = true,
-			["total_abbreviation"] = 2,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["memory_ram"] = 64,
-			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
 			["segments_auto_erase"] = 1,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
-			["class_colors"] = {
-				["HUNTER"] = {
-					0.67, -- [1]
-					0.83, -- [2]
-					0.45, -- [3]
-				},
-				["WARRIOR"] = {
-					0.78, -- [1]
-					0.61, -- [2]
-					0.43, -- [3]
-				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
-				},
-				["MAGE"] = {
-					0.41, -- [1]
-					0.8, -- [2]
-					0.94, -- [3]
-				},
-				["ARENA_ALLY"] = {
-					0.2, -- [1]
-					1, -- [2]
-					0.2, -- [3]
-				},
-				["PET"] = {
-					0.3, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-				},
-				["DRUID"] = {
-					1, -- [1]
-					0.49, -- [2]
-					0.04, -- [3]
-				},
-				["DEATHKNIGHT"] = {
-					0.77, -- [1]
-					0.12, -- [2]
-					0.23, -- [3]
-				},
-				["UNKNOW"] = {
-					0.2, -- [1]
-					0.2, -- [2]
-					0.2, -- [3]
-				},
-				["PRIEST"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				},
-				["ARENA_ENEMY"] = {
-					1, -- [1]
-					1, -- [2]
-					0, -- [3]
-				},
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
-				},
-				["version"] = 1,
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
-				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
-				["NEUTRAL"] = {
-					1, -- [1]
-					1, -- [2]
-					0, -- [3]
-				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
-				["UNGROUPPLAYER"] = {
-					0.4, -- [1]
-					0.4, -- [2]
-					0.4, -- [3]
-				},
-			},
+			["trash_auto_remove"] = true,
 			["overall_clear_newchallenge"] = true,
 			["segments_amount_to_save"] = 5,
 			["time_type"] = 2,
@@ -2543,12 +2457,98 @@ _details_global = {
 			},
 			["cloud_capture"] = true,
 			["standard_skin"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["overall_clear_newboss"] = true,
 			["report_schema"] = 1,
 			["clear_graphic"] = true,
-			["overall_clear_newboss"] = true,
+			["class_colors"] = {
+				["HUNTER"] = {
+					0.67, -- [1]
+					0.83, -- [2]
+					0.45, -- [3]
+				},
+				["WARRIOR"] = {
+					0.78, -- [1]
+					0.61, -- [2]
+					0.43, -- [3]
+				},
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
+				},
+				["MAGE"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
+				},
+				["ARENA_ALLY"] = {
+					0.2, -- [1]
+					1, -- [2]
+					0.2, -- [3]
+				},
+				["UNGROUPPLAYER"] = {
+					0.4, -- [1]
+					0.4, -- [2]
+					0.4, -- [3]
+				},
+				["ARENA_ENEMY"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["DEATHKNIGHT"] = {
+					0.77, -- [1]
+					0.12, -- [2]
+					0.23, -- [3]
+				},
+				["UNKNOW"] = {
+					0.2, -- [1]
+					0.2, -- [2]
+					0.2, -- [3]
+				},
+				["PRIEST"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["DRUID"] = {
+					1, -- [1]
+					0.49, -- [2]
+					0.04, -- [3]
+				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
+				},
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				},
+				["NEUTRAL"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["version"] = 1,
+				["PET"] = {
+					0.3, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+				},
+			},
 			["disable_window_groups"] = false,
 			["animate_scroll"] = false,
 			["tooltip"] = {
@@ -2689,8 +2689,9 @@ _details_global = {
 						["n_enemies"] = 3,
 					},
 					["StatusBarSaved"] = {
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -2737,7 +2738,6 @@ _details_global = {
 								["textYMod"] = 0,
 							},
 						},
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
 					["menu_icons_size"] = 0.9,
 					["switch_all_roles_in_combat"] = false,
@@ -2786,7 +2786,10 @@ _details_global = {
 					},
 					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["window_scale"] = 1,
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-2, -- [2]
+					},
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -2804,19 +2807,12 @@ _details_global = {
 					},
 					["switch_damager"] = false,
 					["micro_displays_side"] = 2,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-2, -- [2]
-					},
+					["bars_grow_direction"] = 1,
+					["window_scale"] = 1,
 					["backdrop_texture"] = "Details Ground",
 					["show_statusbar"] = false,
+					["switch_damager_in_combat"] = false,
 					["grab_on_top"] = false,
-					["hide_icon"] = true,
 					["statusbar_info"] = {
 						["alpha"] = 1,
 						["overlay"] = {
@@ -2832,18 +2828,22 @@ _details_global = {
 					["auto_current"] = true,
 					["toolbar_side"] = 1,
 					["bg_g"] = 0.0941,
-					["switch_damager_in_combat"] = false,
+					["hide_icon"] = true,
 					["hide_in_combat"] = false,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
-						["textL_enable_custom_text"] = false,
+						["fixed_texture_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+						},
 						["texture"] = "BantoBar",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = false,
 						["space"] = {
 							["right"] = 0,
@@ -2864,8 +2864,6 @@ _details_global = {
 							1, -- [2]
 							1, -- [3]
 						},
-						["alpha"] = 1,
-						["textR_class_colors"] = false,
 						["backdrop"] = {
 							["enabled"] = false,
 							["size"] = 12,
@@ -2877,23 +2875,25 @@ _details_global = {
 							},
 							["texture"] = "Details BarBorder 2",
 						},
-						["texture_background"] = "Details Serenity",
+						["textL_class_colors"] = false,
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
+						["textR_class_colors"] = false,
+						["alpha"] = 1,
 						["no_icon"] = true,
 						["font_size"] = 12,
-						["textL_class_colors"] = false,
+						["texture_background"] = "Details Serenity",
 						["font_face"] = "聊天",
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["fixed_texture_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-						},
+						["percent_type"] = 1,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
-					["bars_grow_direction"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
@@ -3055,8 +3055,11 @@ _details_global = {
 			},
 			["disable_reset_button"] = false,
 			["profile_save_pos"] = true,
-			["trash_auto_remove"] = true,
+			["total_abbreviation"] = 2,
 			["memory_ram"] = 64,
+			["trash_auto_remove"] = true,
+			["segments_auto_erase"] = 1,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -3113,13 +3116,17 @@ _details_global = {
 					0.49, -- [2]
 					0.04, -- [3]
 				},
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["ENEMY"] = {
 					0.94117, -- [1]
 					0, -- [2]
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["version"] = 1,
 				["SHAMAN"] = {
 					0, -- [1]
 					0.44, -- [2]
@@ -3135,20 +3142,13 @@ _details_global = {
 					1, -- [2]
 					0, -- [3]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
+				["version"] = 1,
 				["PET"] = {
 					0.3, -- [1]
 					0.4, -- [2]
 					0.5, -- [3]
 				},
 			},
-			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["overall_clear_newboss"] = true,
 			["overall_clear_newchallenge"] = true,
 			["time_type"] = 2,
 			["segments_amount_to_save"] = 5,
@@ -3185,15 +3185,15 @@ _details_global = {
 			},
 			["cloud_capture"] = true,
 			["standard_skin"] = false,
-			["total_abbreviation"] = 2,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["report_schema"] = 1,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["overall_clear_newboss"] = true,
 			["disable_window_groups"] = false,
 			["animate_scroll"] = false,
 			["tooltip"] = {

@@ -38,10 +38,10 @@ GSEOptions = {
 	["clearUIErrors"] = false,
 	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
 	["filterList"] = {
-		["All"] = false,
-		["Spec"] = true,
-		["Global"] = true,
 		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
 	},
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
@@ -152,7 +152,8 @@ GSELibrary = {
 	{
 	}, -- [4]
 	nil, -- [5]
-	nil, -- [6]
+	{
+	}, -- [6]
 	nil, -- [7]
 	{
 		["new火焰1780802129"] = {

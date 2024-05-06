@@ -1,6 +1,7 @@
 
 MangAdminDbPerChar = {
 	["global"] = {
+		["msgDeltaTime"] = 1714914571,
 		["requests"] = {
 			["favquest"] = false,
 			["favskill"] = false,
