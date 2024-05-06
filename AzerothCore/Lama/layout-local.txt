@@ -21,7 +21,7 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 17
+FrameLevel: 61
 Anchor: TOPRIGHT
 X: -68
 Y: -172
@@ -32,7 +32,7 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -30
 Y: 223
-W: 195
+W: 158
 H: 19
 Frame: NxPunkHUD
 FrameLevel: 125
@@ -55,3 +55,17 @@ X: 5
 Y: -277
 W: 200
 H: 200
+Frame: WowLuaFrame
+FrameLevel: 170
+Anchor: LEFT
+X: -75
+Y: 25
+W: 640
+H: 512
+Frame: WeakAurasOptions
+FrameLevel: 1
+Anchor: CENTER
+X: 94
+Y: -13
+W: 830
+H: 665

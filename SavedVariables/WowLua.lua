@@ -6,7 +6,7 @@ WowLua_DB = {
 		{
 			["untitled"] = true,
 			["name"] = "Untitled 1",
-			["content"] = "",
+			["content"] = "local E = unpack(ElvUI)\nE.Role=\"Tank\"\nprint(E.Role)",
 		}, -- [1]
 	},
 	["untitled"] = 2,

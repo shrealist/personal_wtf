@@ -3,10 +3,10 @@ TalentedDB = {
 	["profileKeys"] = {
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 	},
 	["profiles"] = {
 		["Heady - AzerothCore"] = {
@@ -36,6 +36,16 @@ TalentedDB = {
 			},
 			["confirmlearn"] = false,
 		},
+		["Lucy - AzerothCore"] = {
+			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
+		},
 		["Hyper - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
@@ -52,23 +62,6 @@ TalentedDB = {
 				},
 			},
 		},
-		["Lama - AzerothCore"] = {
-			["framepos"] = {
-				["TalentedFrame"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
-				},
-				["TalentedGlyphs"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["anchorTo"] = "CENTER",
-					["anchor"] = "CENTER",
-				},
-			},
-			["confirmlearn"] = false,
-		},
 		["Shadow - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
@@ -79,15 +72,22 @@ TalentedDB = {
 				},
 			},
 		},
-		["Lucy - AzerothCore"] = {
+		["Lama - AzerothCore"] = {
 			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
 				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
 				},
 			},
+			["confirmlearn"] = false,
 		},
 	},
 }

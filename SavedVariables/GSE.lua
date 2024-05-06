@@ -38,10 +38,10 @@ GSEOptions = {
 	["clearUIErrors"] = false,
 	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
 	["filterList"] = {
-		["Class"] = true,
-		["All"] = false,
-		["Global"] = true,
 		["Spec"] = true,
+		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
 	},
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
