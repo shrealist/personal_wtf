@@ -1,0 +1,5 @@
+MACRO 16777217 "圣光审判" INV_Misc_QuestionMark
+#showtooltip
+/cast 圣光审判
+/startattack
+END

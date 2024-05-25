@@ -19,6 +19,14 @@ END
 MACRO 23 "8" INV_Misc_QuestionMark
 /use 8
 END
+MACRO 28 "combatstop" INV_Misc_QuestionMark
+.combatstop
+END
+MACRO 27 "common" INV_Misc_QuestionMark
+#showtooltip
+/cast name
+/startattack
+END
 MACRO 5 "fengus" Ability_Creature_Cursed_02
 .bonusbuff fengus
 END

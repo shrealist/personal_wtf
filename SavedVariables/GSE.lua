@@ -14,50 +14,37 @@ GSEOptions = {
 	["debug"] = false,
 	["use6"] = false,
 	["CommandColour"] = "|cFF00FF00",
-	["KEYWORD"] = "|cff88bbdd",
+	["use1"] = false,
 	["UNKNOWN"] = "|cffff6666",
-	["autoCreateMacroStubsClass"] = true,
+	["CreateGlobalButtons"] = false,
 	["DebugPrintModConditionsOnKeyPress"] = false,
-	["showGSEoocqueue"] = false,
-	["AddInPacks"] = {
-		["Samples"] = {
-			["Name"] = "Samples",
-			["Version"] = "2203",
-			["SequenceNames"] = {
-				"Assorted Sample Macros", -- [1]
-			},
-		},
-	},
+	["saveAllMacrosLocal"] = true,
+	["CONCAT"] = "|cffcc7777",
 	["autoCreateMacroStubsGlobal"] = false,
 	["sendDebugOutputToDebugOutput"] = false,
 	["hideSoundErrors"] = false,
 	["ErroneousSpellID"] = {
 	},
-	["UseVerboseFormat"] = true,
-	["STRING"] = "|cff888888",
 	["clearUIErrors"] = false,
-	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
-	["filterList"] = {
-		["Spec"] = true,
-		["Class"] = true,
-		["Global"] = true,
-		["All"] = false,
-	},
+	["STRING"] = "|cff888888",
+	["UseVerboseFormat"] = true,
+	["use12"] = false,
+	["NUMBER"] = "|cffffaa00",
 	["TitleColour"] = "|cFFFF0000",
 	["hideUIErrors"] = false,
 	["initialised"] = true,
-	["resetOOC"] = true,
+	["useTranslator"] = false,
 	["DebugModules"] = {
 		["Translator"] = false,
 		["GUI"] = false,
 		["Storage"] = false,
 		["Editor"] = false,
-		["Versions"] = false,
 		["API"] = false,
+		["Versions"] = false,
 		["Viewer"] = false,
 		["Transmission"] = false,
 	},
-	["INDENT"] = "|cffccaa88",
+	["resetOOC"] = true,
 	["MacroResetModifiers"] = {
 		["Alt"] = false,
 		["LeftControl"] = false,
@@ -65,20 +52,19 @@ GSEOptions = {
 		["LeftAlt"] = false,
 		["RighttButton"] = false,
 		["RightAlt"] = false,
-		["RightShift"] = false,
-		["Button5"] = false,
-		["AnyMod"] = false,
-		["Shift"] = false,
-		["Control"] = false,
-		["RightControl"] = false,
-		["LeftShift"] = false,
-		["Button4"] = false,
 		["MiddleButton"] = false,
+		["Button5"] = false,
+		["Button4"] = false,
+		["LeftShift"] = false,
+		["Control"] = false,
+		["Shift"] = false,
+		["RightControl"] = false,
+		["AnyMod"] = false,
+		["RightShift"] = false,
 	},
-	["DisabledSequences"] = {
-	},
+	["requireTarget"] = false,
 	["EmphasisColour"] = "|cFFFFFF00",
-	["overflowPersonalMacros"] = false,
+	["AuthorColour"] = "|cFF00D1FF",
 	["WOWSHORTCUTS"] = "|cffddaaff",
 	["RealtimeParse"] = false,
 	["deleteOrphansOnLogout"] = false,
@@ -86,26 +72,40 @@ GSEOptions = {
 	},
 	["UnfoundSpells"] = {
 	},
-	["AuthorColour"] = "|cFF00D1FF",
-	["requireTarget"] = false,
-	["useTranslator"] = false,
-	["NUMBER"] = "|cffffaa00",
-	["use12"] = false,
+	["overflowPersonalMacros"] = false,
+	["DisabledSequences"] = {
+	},
+	["INDENT"] = "|cffccaa88",
+	["filterList"] = {
+		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
+	},
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
 	["use13"] = true,
 	["NormalColour"] = "|cFFFFFFFF",
-	["CONCAT"] = "|cffcc7777",
-	["saveAllMacrosLocal"] = true,
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Version"] = "2203",
+			["Name"] = "Samples",
+			["SequenceNames"] = {
+				"Assorted Sample Macros", -- [1]
+			},
+		},
+	},
+	["showGSEoocqueue"] = false,
 	["setDefaultIconQuestionMark"] = true,
-	["CreateGlobalButtons"] = false,
-	["use1"] = false,
+	["autoCreateMacroStubsClass"] = true,
+	["KEYWORD"] = "|cff88bbdd",
 }
 GSELibrary = {
 	{
 		["new狂怒1805996376"] = {
 			["Talents"] = "?,?,?,?,?,?,?,",
 			["Default"] = 1,
-			["SpecID"] = 1,
 			["Author"] = "Heady@AzerothCore",
+			["SpecID"] = 1,
 			["MacroVersions"] = {
 				{
 					"/click ElvUI_Bar1Button12", -- [1]
@@ -113,11 +113,11 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Priority",
-					["KeyPress"] = {
+					["KeyRelease"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 				}, -- [1]
 			},
@@ -126,8 +126,8 @@ GSELibrary = {
 		["1805996376"] = {
 			["Talents"] = "",
 			["Default"] = 1,
-			["Author"] = "Heady@AzerothCore",
 			["SpecID"] = 1,
+			["Author"] = "Heady@AzerothCore",
 			["MacroVersions"] = {
 				{
 					"/click ElvUI_Bar1Button12", -- [1]
@@ -135,11 +135,11 @@ GSELibrary = {
 					["PostMacro"] = {
 					},
 					["StepFunction"] = "Sequential",
-					["KeyRelease"] = {
+					["KeyPress"] = {
 					},
 					["PreMacro"] = {
 					},
-					["KeyPress"] = {
+					["KeyRelease"] = {
 					},
 				}, -- [1]
 			},
@@ -159,8 +159,8 @@ GSELibrary = {
 		["new火焰1780802129"] = {
 			["Talents"] = "?,?,?,?,?,?,?,",
 			["Default"] = 1,
-			["SpecID"] = 8,
 			["Author"] = "Lucy@AzerothCore",
+			["SpecID"] = 8,
 			["MacroVersions"] = {
 				{
 					"/say Hello", -- [1]
@@ -168,11 +168,11 @@ GSELibrary = {
 					},
 					["KeyPress"] = {
 					},
-					["StepFunction"] = "Sequential",
-					["PreMacro"] = {
-					},
 					["KeyRelease"] = {
 					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
 				}, -- [1]
 			},
 			["ManualIntervention"] = false,

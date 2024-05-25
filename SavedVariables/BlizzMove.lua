@@ -1,6 +1,9 @@
 
 BlizzMoveDB = {
 	["QuestLogFrame"] = {
+		["save"] = true,
+	},
+	["TradeSkillFrame"] = {
 	},
 	["ClassTrainerFrame"] = {
 		["default"] = {
@@ -19,8 +22,10 @@ BlizzMoveDB = {
 		["save"] = true,
 	},
 	["LFRParentFrame"] = {
+		["save"] = true,
 	},
 	["GameMenuFrame"] = {
+		["save"] = true,
 	},
 	["CharacterFrame"] = {
 		["default"] = {
@@ -31,13 +36,17 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 7.714319114173664,
-		["xOfs"] = -162.2856497423999,
+		["yOfs"] = 22.28579487970777,
+		["xOfs"] = -159.4288325394864,
 		["point"] = "CENTER",
+		["save"] = true,
 	},
 	["MailFrame"] = {
+		["save"] = true,
 	},
 	["MacroFrame"] = {
+	},
+	["BarberShopFrame"] = {
 	},
 	["FriendsFrame"] = {
 		["default"] = {
@@ -51,6 +60,7 @@ BlizzMoveDB = {
 		["yOfs"] = 53.99994769692499,
 		["xOfs"] = -174.4286511178516,
 		["point"] = "CENTER",
+		["save"] = true,
 	},
 	["AchievementFrame"] = {
 		["save"] = true,
@@ -63,24 +73,31 @@ BlizzMoveDB = {
 			["yOfs"] = 0,
 			["xOfs"] = 0,
 		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -33.42843005912855,
-		["xOfs"] = 25.00014267861631,
-		["point"] = "CENTER",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 34.28559252194177,
+		["xOfs"] = 115.2861577974832,
+		["point"] = "LEFT",
+		["save"] = true,
 	},
 	["VideoOptionsFrame"] = {
+		["save"] = true,
 	},
 	["MerchantFrame"] = {
+		["save"] = true,
 	},
 	["KeyBindingFrame"] = {
 	},
 	["DressUpFrame"] = {
+		["save"] = true,
 	},
 	["LFDParentFrame"] = {
+		["save"] = true,
 	},
 	["HelpFrame"] = {
+		["save"] = true,
 	},
 	["LootFrame"] = {
+		["save"] = true,
 	},
 	["GuildBankFrame"] = {
 		["save"] = true,
@@ -97,8 +114,10 @@ BlizzMoveDB = {
 		["yOfs"] = 38.57130946857766,
 		["xOfs"] = 150.7142712069411,
 		["point"] = "LEFT",
+		["save"] = true,
 	},
 	["BankFrame"] = {
+		["save"] = true,
 	},
 	["ItemSocketingFrame"] = {
 	},
@@ -111,9 +130,10 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 48.92287181432737,
-		["xOfs"] = -189.2087336002479,
+		["yOfs"] = 24.857091533287,
+		["xOfs"] = -178.7145587993479,
 		["point"] = "CENTER",
+		["save"] = true,
 	},
 	["QuestFrame"] = {
 		["default"] = {
@@ -124,15 +144,18 @@ BlizzMoveDB = {
 			["xOfs"] = 0,
 		},
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 46.28577163389665,
-		["xOfs"] = -102.2857173936707,
+		["yOfs"] = 48.8571636549061,
+		["xOfs"] = -176.5715572748846,
 		["point"] = "CENTER",
+		["save"] = true,
 	},
 	["TradeFrame"] = {
+		["save"] = true,
 	},
 	["CalendarFrame"] = {
 		["save"] = true,
 	},
 	["PVPParentFrame"] = {
+		["save"] = true,
 	},
 }

@@ -2,16 +2,20 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
 		["Big - AzerothCore"] = "Big - AzerothCore",
 	},
 	["profiles"] = {
-		["Hyper - AzerothCore"] = {
+		["Shadow - AzerothCore"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Lama - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Heady - AzerothCore"] = {
@@ -20,13 +24,13 @@ AtlasLootDB = {
 		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Lama - AzerothCore"] = {
+		["Hyper - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Lucy - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Shadow - AzerothCore"] = {
+		["Gpt - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Big - AzerothCore"] = {
@@ -35,65 +39,74 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
-	["Options"] = {
-		["Shadow"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Bkk"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Hyper"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Lucy"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Lama"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Heady"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Big"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-	},
 	["Shared"] = {
 	},
-	["Own"] = {
+	["Options"] = {
+		["Big"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Gpt"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Bkk"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
 		["Shadow"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Lucy"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Lama"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Heady"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Hyper"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Own"] = {
+		["Big"] = {
+		},
+		["Gpt"] = {
 		},
 		["Bkk"] = {
 		},
-		["Hyper"] = {
+		["Shadow"] = {
 		},
 		["Lucy"] = {
 		},
@@ -101,7 +114,7 @@ AtlasLootWishList = {
 		},
 		["Heady"] = {
 		},
-		["Big"] = {
+		["Hyper"] = {
 		},
 	},
 }

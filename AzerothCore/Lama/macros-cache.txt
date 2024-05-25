@@ -1,0 +1,40 @@
+MACRO 16777217 "shi xue" INV_Misc_QuestionMark
+#showtooltip
+/cast 嗜血
+/startattack
+END
+MACRO 16777220 "shun pi" INV_Misc_QuestionMark
+#showtooltip
+/cast 顺劈斩
+/startattack
+END
+MACRO 16777219 "xuan feng" INV_Misc_QuestionMark
+#showtooltip
+/cast 旋风斩
+/startattack
+END
+MACRO 16777218 "ying yong" INV_Misc_QuestionMark
+#showtooltip
+/cast 英勇打击
+/startattack
+END
+MACRO 16777221 "乘胜追击" INV_Misc_QuestionMark
+#showtooltip
+/cast 乘胜追击
+/startattack
+END
+MACRO 16777223 "复仇" INV_Misc_QuestionMark
+#showtooltip
+/cast 复仇
+/startattack
+END
+MACRO 16777224 "毁灭打击" INV_Misc_QuestionMark
+#showtooltip
+/cast 毁灭打击
+/startattack
+END
+MACRO 16777222 "盾牌猛击" INV_Misc_QuestionMark
+#showtooltip
+/cast 盾牌猛击
+/startattack
+END
