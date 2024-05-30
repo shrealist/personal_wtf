@@ -1,6 +1,6 @@
 Version: 1
 Frame: QuestFrame
-FrameLevel: 128
+FrameLevel: 127
 Anchor: TOPLEFT
 X: 0
 Y: -104
@@ -14,12 +14,12 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 15
+FrameLevel: 13
 Anchor: RIGHT
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: ma_bgframe
 FrameLevel: 1
 Anchor: CENTER
@@ -59,7 +59,7 @@ Frame: DBMMinimapButton
 FrameLevel: 20
 Anchor: TOPRIGHT
 X: 2
-Y: -146
+Y: -126
 W: 32
 H: 32
 Frame: ScriptErrorsFrame
@@ -97,10 +97,3 @@ X: -75
 Y: -90
 W: 640
 H: 512
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: RIGHT
-X: 6
-Y: -7
-W: 830
-H: 665

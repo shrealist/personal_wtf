@@ -1,16 +1,39 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Entropy - AzerothCore"] = "Hyper - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lama - AzerothCore"] = "Hyper - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Hyper - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 	},
 	["profiles"] = {
-		["Bkk - AzerothCore"] = {
+		["Entropy - AzerothCore"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -170.571420035192,
+					["h"] = 199.9999970197678,
+					["w"] = 140.0000646710386,
+					["x"] = -335.7141444725671,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Lucy - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["RowHeight"] = 15,
@@ -21,10 +44,10 @@ RecountDB = {
 					["PerSec"] = false,
 				},
 				["Position"] = {
-					["y"] = -312.1430827357905,
-					["x"] = -274.5715100382043,
+					["y"] = -309.2857696222399,
+					["x"] = -269.571433818766,
 					["w"] = 139.9999979138375,
-					["h"] = 199.9999779462818,
+					["h"] = 199.9999970197678,
 				},
 				["Buttons"] = {
 					["FileButton"] = false,
@@ -180,9 +203,9 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -306.5713836763593,
-					["x"] = -281.2857013749227,
-					["w"] = 139.9999979138375,
+					["y"] = -312.4288703139295,
+					["x"] = -283.142886711018,
+					["w"] = 139.9999883770944,
 					["h"] = 199.9999970197678,
 				},
 				["Buttons"] = {
@@ -218,7 +241,7 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "斯坦索姆",
+			["LastInstanceName"] = "奥金顿：奥金尼地穴",
 			["BarTexture"] = "Flat",
 			["Font"] = "聊天",
 			["CurDataSet"] = "OverallData",
@@ -243,7 +266,7 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 		},
-		["Lucy - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["RowHeight"] = 15,
@@ -254,10 +277,10 @@ RecountDB = {
 					["PerSec"] = false,
 				},
 				["Position"] = {
-					["y"] = -309.2857696222399,
-					["x"] = -269.571433818766,
+					["y"] = -312.1430827357905,
+					["x"] = -274.5715100382043,
 					["w"] = 139.9999979138375,
-					["h"] = 199.9999970197678,
+					["h"] = 199.9999779462818,
 				},
 				["Buttons"] = {
 					["FileButton"] = false,

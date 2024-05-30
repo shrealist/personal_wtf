@@ -16,6 +16,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "6e95ff",
@@ -33,6 +37,12 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+					["Visible"] = true,
+				},
+				["Entropy-AzerothCore"] = {
+					["Visible"] = true,
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "ff4d6b",
@@ -49,6 +59,12 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+					["Visible"] = true,
+				},
+				["Entropy-AzerothCore"] = {
+					["Visible"] = true,
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -68,6 +84,10 @@ PawnCommon = {
 				["Lama-AzerothCore"] = {
 					["Visible"] = true,
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "c79c6e",
@@ -84,6 +104,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -103,6 +127,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "f58cba",
@@ -119,6 +147,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -138,6 +170,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "f58cba",
@@ -154,6 +190,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -172,6 +212,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "ffffff",
@@ -188,6 +232,12 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+					["Visible"] = true,
+				},
+				["Entropy-AzerothCore"] = {
+					["Visible"] = true,
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -206,6 +256,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "69ccf0",
@@ -223,6 +277,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "6e95ff",
@@ -239,6 +297,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -258,6 +320,10 @@ PawnCommon = {
 				["Lama-AzerothCore"] = {
 					["Visible"] = 1,
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "c79c6e",
@@ -274,6 +340,12 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+					["Visible"] = true,
+				},
+				["Entropy-AzerothCore"] = {
+					["Visible"] = true,
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -292,6 +364,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "bca5ff",
@@ -308,6 +384,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -326,6 +406,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "fff569",
@@ -342,6 +426,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -360,6 +448,12 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+					["Visible"] = true,
+				},
+				["Entropy-AzerothCore"] = {
+					["Visible"] = true,
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "ff4d6b",
@@ -376,6 +470,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -395,6 +493,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "f58cba",
@@ -412,6 +514,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "69ccf0",
@@ -428,6 +534,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -447,6 +557,10 @@ PawnCommon = {
 				["Lama-AzerothCore"] = {
 					["Visible"] = true,
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "c79c6e",
@@ -463,6 +577,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -481,6 +599,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "ff7d0a",
@@ -497,6 +619,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -515,6 +641,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "abd473",
@@ -531,6 +661,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
@@ -549,6 +683,10 @@ PawnCommon = {
 				},
 				["Lama-AzerothCore"] = {
 				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
 			},
 			["MetaGemQualityLevel"] = 81,
 			["Color"] = "ffffff",
@@ -565,6 +703,10 @@ PawnCommon = {
 				["Gpt-AzerothCore"] = {
 				},
 				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,

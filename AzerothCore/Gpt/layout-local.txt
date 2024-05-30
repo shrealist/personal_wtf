@@ -20,6 +20,13 @@ X: 0
 Y: 0
 W: 365
 H: 200
+Frame: ma_minibgframe
+FrameLevel: 1
+Anchor: RIGHT
+X: -2
+Y: -3
+W: 28
+H: 244
 Frame: NxHUD
 FrameLevel: 126
 Anchor: CENTER
@@ -28,7 +35,7 @@ Y: -229
 W: 121
 H: 40
 Frame: NxQuestList
-FrameLevel: 129
+FrameLevel: 167
 Anchor: CENTER
 X: 0
 Y: 0
@@ -39,10 +46,10 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -34
 Y: 215
-W: 195
+W: 200
 H: 19
 Frame: DBMMinimapButton
-FrameLevel: 130
+FrameLevel: 2
 Anchor: TOPRIGHT
 X: 2
 Y: -176
@@ -76,10 +83,3 @@ X: -281
 Y: 73
 W: 140
 H: 200
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: CENTER
-X: 31
-Y: -36
-W: 830
-H: 665

@@ -15,9 +15,9 @@ MangAdminDb = {
 		["favorites"] = {
 			["items"] = {
 				{
+					["checked"] = false,
 					["itId"] = "6372",
 					["itName"] = "速游药水",
-					["checked"] = false,
 				}, -- [1]
 			},
 		},

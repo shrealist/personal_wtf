@@ -1,16 +1,21 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Entropy - AzerothCore"] = "Hyper - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lama - AzerothCore"] = "Hyper - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Hyper - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 	},
 	["profiles"] = {
-		["Bkk - AzerothCore"] = {
+		["Entropy - AzerothCore"] = {
+			["PositionX"] = 527.4999921396376,
+			["PositionY"] = 554.9999535828836,
+		},
+		["Lucy - AzerothCore"] = {
 			["PositionW"] = 241.4284670140078,
 			["PositionH"] = 115.428512760572,
 			["VGrip2"] = 138.8213590174945,
@@ -133,7 +138,7 @@ Omen3DB = {
 			["PositionW"] = 241.4284670140078,
 			["PositionH"] = 115.428512760572,
 			["VGrip2"] = 138.8213590174945,
-			["PositionY"] = 385.285371761242,
+			["PositionY"] = 383.5710849825876,
 			["Background"] = {
 				["EdgeSize"] = 5,
 				["BorderTexture"] = "ElvUI GlowBorder",
@@ -149,7 +154,6 @@ Omen3DB = {
 				},
 				["Texture"] = "None",
 			},
-			["Shown"] = true,
 			["VGrip1"] = 120.3570164367575,
 			["PositionX"] = 160.3572249359306,
 			["TitleBar"] = {
@@ -172,7 +176,7 @@ Omen3DB = {
 			["PositionX"] = 527.4999921396376,
 			["PositionY"] = 554.9999535828836,
 		},
-		["Lucy - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["PositionW"] = 241.4284670140078,
 			["PositionH"] = 115.428512760572,
 			["VGrip2"] = 138.8213590174945,
