@@ -41,23 +41,23 @@ NxData = {
 		["MapMMDXO"] = 0,
 		["QMapWatchAreaAlpha"] = 4294967136,
 		["MMButWinMinimize"] = false,
-		["FontSH"] = 0,
+		["QWShowDist"] = true,
 		["PunkIconColor"] = 4286611711,
 		["MapMMButShowWorldMap"] = true,
 		["FontMenu"] = "聊天",
-		["DemoShown"] = true,
-		["PunkAreaColor"] = 537792255,
+		["SkinWinBdColor"] = 3435986943,
+		["TitleOff"] = false,
 		["FontM"] = "聊天",
 		["Version"] = 0.102,
 		["MapMMSquare"] = true,
 		["MapShowCExtra"] = true,
 		["PunkShowInNorthrend"] = false,
 		["MapShowPunks"] = false,
-		["QDetailTC"] = 537921791,
 		["QMapWatchC10"] = 2147418367,
-		["MapMMAboveIcons"] = false,
+		["QDetailTC"] = 537921791,
+		["MapShowPalsInCities"] = true,
 		["SkinWinSizedBgColor"] = 522133472,
-		["FontSSize"] = 14,
+		["QWBlizzModify"] = true,
 		["MapButRCtrl"] = "None",
 		["FontMapLocSize"] = 12,
 		["MapButRAlt"] = "None",
@@ -65,99 +65,99 @@ NxData = {
 		["OptsQuickVer"] = 5,
 		["QShowLinkExtra"] = true,
 		["HUDTButColor"] = 5,
-		["InfoToG"] = true,
+		["FontMapSize"] = 12,
 		["MapShowTrail"] = true,
 		["QWCompleteColor"] = 4291952895,
-		["QSnd5"] = false,
+		["MapTrailTime"] = 90,
 		["CaptureEnable"] = true,
 		["MapWOwn"] = true,
 		["QBroadcastQChangesNum"] = 999,
+		["QSnd5"] = false,
+		["QSnd3"] = false,
+		["QWRemoveComplete"] = false,
+		["PunkNewLocalWarnChat"] = false,
+		["MapButMCtrl"] = "None",
 		["MapIconScaleMin"] = -1,
 		["FontWatchH"] = 2,
-		["QWRemoveComplete"] = false,
-		["QWHideRaid"] = false,
-		["MapButMCtrl"] = "None",
-		["MapTrailTime"] = 90,
-		["FontWatchSize"] = 12,
 		["QAddTooltip"] = true,
-		["PunkNewLocalWarnChat"] = false,
+		["QWHideRaid"] = false,
 		["MapMMHideOnMax"] = false,
-		["QMapWatchC4"] = 4294902015,
+		["RouteGatherRadius"] = 60,
 		["QMapWatchAreaGfx"] = "Solid",
-		["QSnd3"] = false,
+		["FontWatchSize"] = 12,
 		["MapIconGatherAtScale"] = 0.5,
 		["FontInfoSize"] = 12,
 		["FontInfoH"] = 0,
 		["MapLocTipAnchorRel"] = "None",
 		["HUDTSoundOn"] = true,
 		["MapShowToolBar"] = true,
-		["MapMMDockIndoors"] = true,
+		["FontMSize"] = 12,
 		["MapBut4Alt"] = "Add Note",
-		["WarehouseAddTooltip"] = false,
-		["QSnd7"] = false,
+		["QMapWatchC12"] = 4278222847,
+		["MapMMButSpacing"] = 25,
 		["QWHideDoneObj"] = false,
 		["MapShowCCity"] = false,
-		["MapShowOthersInZ"] = true,
+		["ComNoGlobal"] = false,
 		["MapMaxCenter"] = true,
 		["MapIconPOIAlpha"] = 1,
 		["MapMMDockZoom"] = 0,
-		["MapLocTipAnchor"] = "TopRight",
+		["MenuCenterV"] = false,
 		["QWItemAlpha"] = 4294967206,
 		["MapMaxOverride"] = true,
 		["MapMMButShowCalendar"] = true,
 		["QAutoTurnIn"] = false,
-		["FontWatch"] = "聊天",
+		["QMapWatchC11"] = 8388607,
 		["HUDAYO"] = 0,
 		["MapZoneDrawCnt"] = 3,
-		["MapMMDockIScale"] = 1,
+		["QShowDailyReset"] = true,
 		["MapButLAlt"] = "None",
 		["MapDetailSize"] = 6,
 		["MapShowTitleXY"] = true,
-		["FontQuest"] = "聊天",
+		["MapTrailCnt"] = 100,
 		["QSndPlayCompleted"] = true,
-		["MapShowTitleName"] = true,
+		["QWAchTrack"] = true,
 		["HUDASize"] = 44,
 		["MapTrailDist"] = 2,
 		["QWLargeFont"] = false,
 		["IWinEnable"] = false,
 		["InfoToF"] = true,
-		["QMapWatchC3"] = 859045887,
+		["QSideBySide"] = true,
 		["QWAddNew"] = true,
-		["QWAchTrack"] = true,
+		["MapShowTitleName"] = true,
 		["SkinDef"] = false,
-		["QMapWatchColorCnt"] = 12,
+		["PunkTWinTitle"] = "Punks:",
 		["ComNoZone"] = false,
 		["QWAchZoneShow"] = true,
+		["MapMMShowOldNameplate"] = false,
+		["FontMap"] = "聊天",
 		["PunkBGAreaColor"] = 604572159,
-		["PunkTWinTitle"] = "Punks:",
-		["QSnd1"] = true,
 		["HUDTBut"] = true,
 		["QMapWatchAreaHoverColor"] = 4294967192,
-		["GuideVendorVMax"] = 60,
+		["MapButM"] = "Show Player Zone",
+		["MapMMButOwn"] = true,
+		["EmuTomTom"] = true,
 		["QMapWatchC6"] = 4278255615,
-		["TeamTWinEnable"] = false,
-		["MapRestoreScaleAfterTrack"] = true,
 		["SocialEnable"] = false,
-		["QPartyShare"] = true,
+		["MapButMAlt"] = "None",
 		["CameraForceMaxDist"] = false,
 		["QWOMaxLen"] = 60,
-		["HUDAGfx"] = "Gloss",
-		["TeamTWinMaxButs"] = 15,
+		["NXCleaned"] = true,
+		["TitleSoundOn"] = false,
 		["PunkAreaSize"] = 80,
 		["QWBGColor"] = 85,
-		["EmuTomTom"] = true,
-		["MapButMAlt"] = "None",
+		["TeamTWinEnable"] = false,
+		["QPartyShare"] = true,
 		["MapPlyrArrowSize"] = 32,
-		["IWinLock"] = false,
-		["MapMMDockSquare"] = true,
+		["LoginHideVer"] = false,
+		["HUDAGfx"] = "Gloss",
 		["MapBut4Ctrl"] = "None",
 		["FontMH"] = 0,
 		["QMapQuestGiversHighLevel"] = 80,
 		["QLevelsToLoad"] = 80,
-		["QMapWatchC9"] = 2131886079,
+		["RouteRecycle"] = false,
 		["MapMMMoveCapBars"] = true,
-		["MapMaxMouseIgnore"] = false,
 		["IWinListCol"] = 0,
+		["MapMaxMouseIgnore"] = false,
 		["QMapWatchC8"] = 16744447,
 		["MapMMButColumns"] = 1,
 		["QMapShowWatchAreas"] = true,
@@ -167,8 +167,8 @@ NxData = {
 		["MapMMDockOnMax"] = false,
 		["MapTopTooltip"] = false,
 		["SkinName"] = "ToolBlue",
-		["PunkMAreaColor"] = 409999615,
-		["MapMMNodeGD"] = 0.4,
+		["QHCheckCompleted"] = true,
+		["PunkBGAreaSize"] = 60,
 		["QWShowPerColor"] = false,
 		["MapShowPOI"] = true,
 		["QMapQuestGiversLowLevel"] = 80,
@@ -176,71 +176,71 @@ NxData = {
 		["MapMMIScale"] = 1,
 		["MapMaxRestoreHide"] = false,
 		["CaptureShare"] = true,
-		["PunkMAlertText"] = false,
-		["MapMMDockBottom"] = false,
+		["MapMMIndoorTogFullSize"] = true,
+		["QMapWatchC5"] = 16777215,
 		["WarehouseEnable"] = false,
 		["QMapWatchAreaTrackColor"] = 2964369536,
 		["MapShowNotes"] = true,
 		["FontQuestH"] = 1,
-		["QMapWatchC5"] = 16777215,
+		["MapMMDockBottom"] = false,
 		["QSnd8"] = false,
 		["PunkShowInSafeArea"] = false,
 		["HUDHideInBG"] = false,
-		["PunkNewLocalWarnSnd"] = false,
 		["MapShowTitleSpeed"] = true,
+		["PunkNewLocalWarnSnd"] = false,
 		["FontS"] = "聊天",
 		["QWFixedSize"] = false,
-		["MapMMIndoorTogFullSize"] = true,
+		["PunkMAlertText"] = false,
 		["QDetailScale"] = 0.95,
-		["PunkBGAreaSize"] = 60,
-		["QHCheckCompleted"] = true,
+		["MapMMNodeGD"] = 0.4,
+		["PunkMAreaColor"] = 409999615,
 		["QWOIncompleteColor"] = 3435973887,
 		["MapButLCtrl"] = "Goto",
 		["MapButR"] = "Menu",
 		["FontWarehouseIH"] = 6,
-		["RouteRecycle"] = false,
-		["NXCleaned"] = true,
-		["LoginHideVer"] = false,
-		["TitleSoundOn"] = false,
+		["QMapWatchC9"] = 2131886079,
+		["MapMMDockSquare"] = true,
+		["IWinLock"] = false,
+		["TeamTWinMaxButs"] = 15,
 		["HUDShowDir"] = false,
 		["FontMapLoc"] = "聊天",
 		["QWShowClose"] = false,
-		["MapMMButOwn"] = true,
-		["MapButM"] = "Show Player Zone",
+		["MapRestoreScaleAfterTrack"] = true,
+		["GuideVendorVMax"] = 60,
 		["FontInfo"] = "聊天",
-		["FontMap"] = "聊天",
-		["MapMMShowOldNameplate"] = false,
+		["QSnd1"] = true,
+		["QMapWatchColorCnt"] = 12,
 		["PunkTWinMaxButs"] = 5,
-		["QSideBySide"] = true,
+		["QMapWatchC3"] = 859045887,
 		["MenuCenterH"] = false,
-		["MapTrailCnt"] = 100,
+		["FontQuest"] = "聊天",
 		["HUDHide"] = false,
-		["QShowDailyReset"] = true,
-		["QMapWatchC11"] = 8388607,
-		["MenuCenterV"] = false,
+		["MapLocTipAnchor"] = "TopRight",
+		["FontWatch"] = "聊天",
+		["MapMMDockIScale"] = 1,
 		["MapMMDockAlways"] = false,
-		["ComNoGlobal"] = false,
-		["MapMMButSpacing"] = 25,
-		["QMapWatchC12"] = 4278222847,
-		["FontMSize"] = 12,
-		["RouteGatherRadius"] = 60,
+		["MapShowOthersInZ"] = true,
+		["QSnd7"] = false,
+		["WarehouseAddTooltip"] = false,
+		["MapMMDockIndoors"] = true,
+		["QMapWatchC4"] = 4294902015,
 		["FontMenuSize"] = 12,
 		["ItemRequest"] = false,
 		["QSnd4"] = false,
 		["MapBut4"] = "Show Selected Zone",
 		["FontQuestSize"] = 12,
-		["FontMapSize"] = 12,
+		["InfoToG"] = true,
 		["MapRouteUse"] = true,
 		["QShowId"] = true,
 		["SkinWinFixedBgColor"] = 2155905152,
-		["QWBlizzModify"] = true,
+		["FontSSize"] = 14,
 		["HUDAXO"] = 0,
-		["MapShowPalsInCities"] = true,
+		["MapMMAboveIcons"] = false,
 		["QWIncompleteColor"] = 3214606591,
 		["QUseAltLKey"] = false,
-		["TitleOff"] = false,
-		["SkinWinBdColor"] = 3435986943,
-		["QWShowDist"] = true,
+		["PunkAreaColor"] = 537792255,
+		["DemoShown"] = true,
+		["FontSH"] = 0,
 	},
 	["NXTravel"] = {
 		["Version"] = 0.1,
@@ -249,11 +249,11 @@ NxData = {
 		},
 	},
 	["NXGather"] = {
-		["Version"] = 0.5,
-		["Misc"] = {
-		},
 		["NXHerb"] = {
 		},
+		["Misc"] = {
+		},
+		["Version"] = 0.5,
 		["NXMine"] = {
 		},
 	},
@@ -304,13 +304,13 @@ NxData = {
 				["珠宝加工"] = {
 					["Rank"] = 455,
 				},
-				["炼金术"] = {
+				["剥皮"] = {
 					["Rank"] = 450,
 				},
 				["裁缝"] = {
 					["Rank"] = 450,
 				},
-				["剥皮"] = {
+				["炼金术"] = {
 					["Rank"] = 450,
 				},
 				["锻造"] = {
@@ -336,17 +336,17 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 234407,
 			["L"] = {
-				["Events"] = {
-				},
 				["Quest"] = {
 				},
 				["Version"] = 0.1,
+				["Events"] = {
+				},
 			},
 			["XP"] = 52,
 			["Class"] = "Death Knight",
@@ -354,261 +354,17 @@ NxData = {
 				[8789] = "W0",
 				[9230] = "W0",
 				[9474] = "W0",
-				[9141] = "W0",
+				[8304] = "W0",
 				[8790] = "W0",
-				[7782] = "C1714913875",
-				[9229] = "C1714754266",
-				[7781] = "C1714913837",
 				[8288] = "W0",
+				[9229] = "C1714754266",
+				[9141] = "W0",
+				[7782] = "C1714913875",
 				[9120] = "C1714913750",
 				[9672] = "W0",
-				[8304] = "W0",
+				[7781] = "C1714913837",
 			},
-			["XPRest"] = 435000,
-			["Level"] = 60,
-			["QHAskedGet"] = true,
-			["Money"] = 137986840,
-			["Honor"] = 0,
-			["W"] = {
-				["NxHUD"] = {
-					["_W"] = 8,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 8,
-					["Y"] = 183.8873210208517,
-					["X"] = 717.126774532694,
-					["_H"] = 40,
-					["Hide"] = true,
-					["H"] = 40,
-					["_Y"] = -0.17,
-					["_X"] = 999999,
-				},
-				["NxQuestList"] = {
-					["_W"] = -0.52,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 749.9718455140018,
-					["Y"] = 162.2535185478103,
-					["H"] = 703.0985803738448,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["X"] = 346.1408517756931,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["H"] = 209,
-					["_H"] = 209,
-					["_X"] = 0,
-					["X"] = 0,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["MinW"] = 124.0000038743019,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["MinX"] = -39.71452653833439,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["MinY"] = 231.42875326531,
-					["Mode"] = "Min",
-					["_W"] = -0.2,
-					["S"] = 1,
-					["W"] = 124.0000038743019,
-					["Min"] = true,
-					["X"] = -111.4279730405216,
-					["MinH"] = 40,
-					["MinS"] = 1,
-					["MinA"] = "TOPRIGHT",
-					["Y"] = -199.0511292360555,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -8.057212709528018,
-					["X"] = 9.571075296832989,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 908.6197359111944,
-					["Y"] = 216.3380247304138,
-					["H"] = 540.8450618260345,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["X"] = 216.3380323598082,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["FI"] = 1,
-					["FO"] = 0,
-					["9001Y"] = -0.4,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9003Y"] = -0.4,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["9008Y"] = -0.4,
-					["_X"] = -0.0001,
-					["A"] = "TOPRIGHT",
-					["9002Y"] = -0.4,
-					["9003W"] = -0.19,
-					["9009H"] = -0.3,
-					["H"] = 230.3999866485598,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["9008L"] = 1,
-					["9001L"] = 1,
-					["9001W"] = -0.19,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9004H"] = -0.3,
-					["9004Y"] = -0.4,
-					["9008X"] = -0.0001,
-					["W"] = 194.5599526977546,
-					["9009X"] = -0.0001,
-					["Y"] = -3.085708572183422,
-					["X"] = -21.0520741186727,
-					["9004W"] = -0.19,
-					["9004L"] = 1,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["9008W"] = -0.19,
-				},
-				["NxPunkHUD"] = {
-					["_W"] = 135,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 135,
-					["Y"] = 108.1690123652069,
-					["H"] = 87,
-					["_H"] = 87,
-					["X"] = 865.3521294392327,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
-				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 360.563387266347,
-					["Y"] = 649.0140741912413,
-					["H"] = 108.1690123652069,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1081.690161799041,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 432.6760647196164,
-					["Y"] = 757.1830865564482,
-					["H"] = 64.90140741912413,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["X"] = 1009.577484345772,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 324.5070370956207,
-					["X"] = 865.3521294392327,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["H"] = 40,
-					["_Y"] = -0.3,
-					["Hide"] = true,
-				},
-			},
-			["LMoney"] = 137986840,
-			["LXPRest"] = 435000,
-			["WareBags"] = {
-				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
-				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
-				["克尔苏加德的护符匣"] = "1^|cffa335ee|Hitem:22520:0:0:0:0:0:0:0:60|h[克尔苏加德的护符匣]|h|r",
-				["布衣碎片"] = "63^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
-				["尸尘"] = "16^|cffffffff|Hitem:37201:0:0:0:0:0:0:0:60|h[尸尘]|h|r",
-				["超级神风炸药"] = "9^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
-				["血色十字军钥匙"] = "1^|cff1eff00|Hitem:7146:0:0:0:0:0:0:0:60|h[血色十字军钥匙]|h|r",
-				["加速药水"] = "20^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
-				["地穴魔的碎片"] = "17^|cffffffff|Hitem:22525:0:0:0:0:0:0:0:60|h[地穴魔的碎片]|h|r",
-				["戈多克镣铐钥匙"] = "1^|cff1eff00|Hitem:18250:0:0:0:0:0:0:0:60|h[戈多克镣铐钥匙]|h|r",
-				["Elders' Square Postbox Key"] = "1^|cffffffff|Hitem:13305:0:0:0:0:0:0:0:60|h[Elders' Square Postbox Key]|h|r",
-				["祈福"] = "1^|cffa335ee|Hitem:18608:0:0:0:0:0:0:0:60|h[祈福]|h|r",
-				["沙漏"] = "91^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
-				["板甲碎片"] = "43^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
-				["奈法利安的徽记"] = "1^|cffa335ee|Hitem:19003:0:0:0:0:0:0:0:60|h[奈法利安的徽记]|h|r",
-				["熔解之语"] = "14^|cffffffff|Hitem:23055:0:0:0:0:0:0:0:60|h[熔解之语]|h|r",
-				["大型圣甲虫箱的钥匙"] = "1^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
-				["皮甲碎片"] = "40^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
-				["黎明之印"] = "1^|cff0070dd|Hitem:13209:0:0:0:0:0:0:0:60|h[黎明之印]|h|r",
-				["自由行动药水"] = "14^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
-				["圣甲虫箱的钥匙"] = "2^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
-				["晋升印章"] = "1^|cff0070dd|Hitem:12344:0:0:0:0:0:0:0:60|h[晋升印章]|h|r",
-				["萨隆邪铁炸弹"] = "16^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
-				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
-				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
-				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
-				["黎明徽记"] = "3^|cff1eff00|Hitem:22523:0:0:0:0:0:0:0:60|h[黎明徽记]|h|r",
-				["监狱牢房钥匙"] = "1^|cffffffff|Hitem:11140:0:0:0:0:0:0:0:60|h[监狱牢房钥匙]|h|r",
-				["Market Row Postbox Key"] = "1^|cffffffff|Hitem:13302:0:0:0:0:0:0:0:60|h[Market Row Postbox Key]|h|r",
-				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
-				["龙火护符"] = "1^|cff0070dd|Hitem:16309:0:0:0:0:0:0:0:60|h[龙火护符]|h|r",
-				["锁甲碎片"] = "24^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
-				["特效防御药剂"] = "4^|cffffffff|Hitem:22834:0:0:0:0:0:0:0:60|h[特效防御药剂]|h|r",
-				["特效火焰防护药水"] = "5^|cffffffff|Hitem:22841:0:0:0:0:0:0:0:60|h[特效火焰防护药水]|h|r",
-				["强效石盾药水"] = "20^|cffffffff|Hitem:13455:0:0:0:0:0:0:0:60|h[强效石盾药水]|h|r",
-				["英雄药水"] = "20^|cffffffff|Hitem:22837:0:0:0:0:0:0:0:60|h[英雄药水]|h|r",
-				["十字军徽记"] = "3^|cff1eff00|Hitem:22524:0:0:0:0:0:0:0:60|h[十字军徽记]|h|r",
-				["活力行动药水"] = "20^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
-				["埃提耶什的碎片"] = "4^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
-				["白骨碎片"] = "30^|cffffffff|Hitem:22526:0:0:0:0:0:0:0:60|h[白骨碎片]|h|r",
-				["源质矿石"] = "4^|cffa335ee|Hitem:18562:0:0:0:0:0:0:0:60|h[源质矿石]|h|r",
-				["遗物宝箱钥匙"] = "31^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
-				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
-			},
-			["Version"] = 0.02,
-			["DurPercent"] = 100,
-			["Time"] = 1717015780,
+			["LvlTime"] = 1717015638,
 			["E"] = {
 				["Info"] = {
 					{
@@ -1231,23 +987,274 @@ NxData = {
 				["Herb"] = {
 				},
 			},
-			["LvlTime"] = 1717015638,
+			["QHAskedGet"] = true,
+			["Money"] = 137986840,
+			["Time"] = 1717015780,
+			["W"] = {
+				["NxHUD"] = {
+					["_W"] = 8,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 8,
+					["Y"] = 183.8873210208517,
+					["X"] = 717.126774532694,
+					["_H"] = 40,
+					["_X"] = 999999,
+					["H"] = 40,
+					["_Y"] = -0.17,
+					["Hide"] = true,
+				},
+				["NxQuestList"] = {
+					["_W"] = -0.52,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 749.9718455140018,
+					["Y"] = 162.2535185478103,
+					["H"] = 703.0985803738448,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["X"] = 346.1408517756931,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["H"] = 209,
+					["_H"] = 209,
+					["Hide"] = true,
+					["X"] = 0,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["MinW"] = 124.0000038743019,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["MinX"] = -39.71452653833439,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["MinY"] = 231.42875326531,
+					["Mode"] = "Min",
+					["_W"] = -0.2,
+					["S"] = 1,
+					["W"] = 124.0000038743019,
+					["Min"] = true,
+					["X"] = -111.4279730405216,
+					["MinH"] = 40,
+					["MinS"] = 1,
+					["MinA"] = "TOPRIGHT",
+					["Y"] = -199.0511292360555,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -8.057212709528018,
+					["X"] = 9.571075296832989,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["_W"] = -0.63,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 908.6197359111944,
+					["Y"] = 216.3380247304138,
+					["H"] = 540.8450618260345,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 216.3380323598082,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["FI"] = 1,
+					["FO"] = 0,
+					["9001Y"] = -0.4,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9003Y"] = -0.4,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["9008Y"] = -0.4,
+					["_X"] = -0.0001,
+					["A"] = "TOPRIGHT",
+					["9002Y"] = -0.4,
+					["9003W"] = -0.19,
+					["9009H"] = -0.3,
+					["H"] = 230.3999866485598,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["9008W"] = -0.19,
+					["9001L"] = 1,
+					["9001W"] = -0.19,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["9004H"] = -0.3,
+					["9004Y"] = -0.4,
+					["9004L"] = 1,
+					["W"] = 194.5599526977546,
+					["9008X"] = -0.0001,
+					["Y"] = -3.085708572183422,
+					["X"] = -21.0520741186727,
+					["9004W"] = -0.19,
+					["9009X"] = -0.0001,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["9008L"] = 1,
+				},
+				["NxPunkHUD"] = {
+					["_W"] = 135,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 135,
+					["Y"] = 108.1690123652069,
+					["H"] = 87,
+					["_H"] = 87,
+					["X"] = 865.3521294392327,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 324.5070370956207,
+					["X"] = 865.3521294392327,
+					["_H"] = 40,
+					["Hide"] = true,
+					["H"] = 40,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 432.6760647196164,
+					["Y"] = 757.1830865564482,
+					["H"] = 64.90140741912413,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["X"] = 1009.577484345772,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 360.563387266347,
+					["Y"] = 649.0140741912413,
+					["H"] = 108.1690123652069,
+					["_H"] = -0.1,
+					["Hide"] = true,
+					["X"] = 1081.690161799041,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+			},
+			["LMoney"] = 137986840,
+			["LXPRest"] = 435000,
+			["WareBags"] = {
+				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
+				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
+				["克尔苏加德的护符匣"] = "1^|cffa335ee|Hitem:22520:0:0:0:0:0:0:0:60|h[克尔苏加德的护符匣]|h|r",
+				["布衣碎片"] = "63^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
+				["尸尘"] = "16^|cffffffff|Hitem:37201:0:0:0:0:0:0:0:60|h[尸尘]|h|r",
+				["超级神风炸药"] = "9^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
+				["血色十字军钥匙"] = "1^|cff1eff00|Hitem:7146:0:0:0:0:0:0:0:60|h[血色十字军钥匙]|h|r",
+				["加速药水"] = "20^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
+				["地穴魔的碎片"] = "17^|cffffffff|Hitem:22525:0:0:0:0:0:0:0:60|h[地穴魔的碎片]|h|r",
+				["戈多克镣铐钥匙"] = "1^|cff1eff00|Hitem:18250:0:0:0:0:0:0:0:60|h[戈多克镣铐钥匙]|h|r",
+				["Elders' Square Postbox Key"] = "1^|cffffffff|Hitem:13305:0:0:0:0:0:0:0:60|h[Elders' Square Postbox Key]|h|r",
+				["祈福"] = "1^|cffa335ee|Hitem:18608:0:0:0:0:0:0:0:60|h[祈福]|h|r",
+				["沙漏"] = "91^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
+				["板甲碎片"] = "43^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
+				["奈法利安的徽记"] = "1^|cffa335ee|Hitem:19003:0:0:0:0:0:0:0:60|h[奈法利安的徽记]|h|r",
+				["熔解之语"] = "14^|cffffffff|Hitem:23055:0:0:0:0:0:0:0:60|h[熔解之语]|h|r",
+				["大型圣甲虫箱的钥匙"] = "1^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
+				["皮甲碎片"] = "40^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
+				["黎明之印"] = "1^|cff0070dd|Hitem:13209:0:0:0:0:0:0:0:60|h[黎明之印]|h|r",
+				["自由行动药水"] = "14^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
+				["圣甲虫箱的钥匙"] = "2^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
+				["晋升印章"] = "1^|cff0070dd|Hitem:12344:0:0:0:0:0:0:0:60|h[晋升印章]|h|r",
+				["萨隆邪铁炸弹"] = "16^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
+				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
+				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
+				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
+				["黎明徽记"] = "3^|cff1eff00|Hitem:22523:0:0:0:0:0:0:0:60|h[黎明徽记]|h|r",
+				["监狱牢房钥匙"] = "1^|cffffffff|Hitem:11140:0:0:0:0:0:0:0:60|h[监狱牢房钥匙]|h|r",
+				["Market Row Postbox Key"] = "1^|cffffffff|Hitem:13302:0:0:0:0:0:0:0:60|h[Market Row Postbox Key]|h|r",
+				["遗物宝箱钥匙"] = "31^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
+				["源质矿石"] = "4^|cffa335ee|Hitem:18562:0:0:0:0:0:0:0:60|h[源质矿石]|h|r",
+				["锁甲碎片"] = "24^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
+				["白骨碎片"] = "30^|cffffffff|Hitem:22526:0:0:0:0:0:0:0:60|h[白骨碎片]|h|r",
+				["埃提耶什的碎片"] = "4^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
+				["活力行动药水"] = "20^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
+				["十字军徽记"] = "3^|cff1eff00|Hitem:22524:0:0:0:0:0:0:0:60|h[十字军徽记]|h|r",
+				["英雄药水"] = "20^|cffffffff|Hitem:22837:0:0:0:0:0:0:0:60|h[英雄药水]|h|r",
+				["强效石盾药水"] = "20^|cffffffff|Hitem:13455:0:0:0:0:0:0:0:60|h[强效石盾药水]|h|r",
+				["特效火焰防护药水"] = "5^|cffffffff|Hitem:22841:0:0:0:0:0:0:0:60|h[特效火焰防护药水]|h|r",
+				["特效防御药剂"] = "4^|cffffffff|Hitem:22834:0:0:0:0:0:0:0:60|h[特效防御药剂]|h|r",
+				["龙火护符"] = "1^|cff0070dd|Hitem:16309:0:0:0:0:0:0:0:60|h[龙火护符]|h|r",
+				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
+				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
+			},
+			["Version"] = 0.02,
+			["DurPercent"] = 100,
+			["Honor"] = 0,
+			["Level"] = 60,
+			["XPRest"] = 435000,
 			["Pos"] = "2020^64.011490^68.698364",
 		},
 		["AzerothCore.Shadow"] = {
 			["XPMax"] = 290000,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 1,
-				["MapShowGatherM"] = false,
-			},
+			["Pos"] = "2009^73.205715^52.182609",
 			["NXLoggedOnNum"] = 1,
-			["XPRest"] = 259482,
+			["LvlTime"] = 1714858173,
 			["LXPMax"] = 290000,
 			["LTime"] = 1714858173,
 			["LLevel"] = 60,
 			["LArenaPts"] = 0,
+			["ArenaPts"] = 0,
+			["L"] = {
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
+				["Events"] = {
+				},
+			},
+			["Time"] = 1714858235,
 			["LMoney"] = 32473718,
+			["TimePlayed"] = 137705,
+			["Level"] = 60,
 			["Profs"] = {
 				["工程学"] = {
 					["Rank"] = 450,
@@ -1270,335 +1277,19 @@ NxData = {
 				["珠宝加工"] = {
 					["Rank"] = 450,
 				},
-				["炼金术"] = {
+				["裁缝"] = {
 					["Rank"] = 450,
 				},
 				["剥皮"] = {
 					["Rank"] = 450,
 				},
-				["裁缝"] = {
+				["炼金术"] = {
 					["Rank"] = 450,
 				},
 				["锻造"] = {
 					["Rank"] = 450,
 				},
 			},
-			["Time"] = 1714858235,
-			["WareInv"] = {
-				"HeadSlot^|cffa335ee|Hitem:22478:3832:3862:0:3530:0:0:0:60|h[骨镰头盔]|h|r", -- [1]
-				"NeckSlot^|cffa335ee|Hitem:23053:0:3862:0:3280:0:0:0:60|h[怒风的沸腾符咒]|h|r", -- [2]
-				"ShoulderSlot^|cffa335ee|Hitem:22479:3835:3862:0:3682:0:0:0:60|h[骨镰肩铠]|h|r", -- [3]
-				"BackSlot^|cffa335ee|Hitem:23045:3605:3862:0:3557:0:0:0:60|h[支配披风]|h|r", -- [4]
-				"ChestSlot^|cffa335ee|Hitem:22476:3832:3862:0:3099:0:0:0:60|h[骨镰胸甲]|h|r", -- [5]
-				"ShirtSlot^|cffffffff|Hitem:11840:3832:0:0:0:0:0:0:60|h[主建筑师的衬衣]|h|r", -- [6]
-				"WristSlot^|cffa335ee|Hitem:22483:3756:3862:0:0:0:0:0:60|h[骨镰护腕]|h|r", -- [7]
-				"HandsSlot^|cffa335ee|Hitem:22481:3604:3862:0:3284:0:0:0:60|h[骨镰护手]|h|r", -- [8]
-				"WaistSlot^|cff0070dd|Hitem:20216:3601:0:0:0:0:0:0:60|h[防腐徽记腰带]|h|r", -- [9]
-				"LegsSlot^|cffa335ee|Hitem:21362:3845:3862:0:3745:0:0:0:60|h[死亡执行者的护腿]|h|r", -- [10]
-				"FeetSlot^|cffa335ee|Hitem:21359:3606:3862:0:0:0:0:0:60|h[死亡执行者的长靴]|h|r", -- [11]
-				"Finger0Slot^|cffa335ee|Hitem:23060:3839:3862:0:3745:0:0:0:60|h[骨镰之戒]|h|r", -- [12]
-				"Finger1Slot^|cffa335ee|Hitem:23038:3839:3862:0:0:0:0:0:60|h[超自然能量指环]|h|r", -- [13]
-				"Trinket0Slot^|cff0070dd|Hitem:41121:0:0:0:0:0:0:0:60|h[侏儒闪电发生器]|h|r", -- [14]
-				"Trinket1Slot^|cffa335ee|Hitem:22954:0:3862:0:0:0:0:0:60|h[蜘蛛之吻]|h|r", -- [15]
-				"MainHandSlot^|cffa335ee|Hitem:22802:3788:3733:0:3120:0:0:0:60|h[帝殒]|h|r", -- [16]
-				"SecondaryHandSlot^|cffa335ee|Hitem:21126:3788:0:0:0:0:0:0:60|h[死亡之钉]|h|r", -- [17]
-				"RangedSlot^|cffa335ee|Hitem:19350:0:3862:0:0:0:0:0:60|h[击心者]|h|r", -- [18]
-				"AmmoSlot^|cff1eff00|Hitem:9399:0:0:0:0:0:0:0:60|h[精准之箭]|h|r", -- [19]
-				"Bag0Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [20]
-				"Bag1Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [21]
-				"Bag2Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [22]
-				"Bag3Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [23]
-			},
-			["TimePlayed"] = 137705,
-			["Level"] = 60,
-			["XP"] = 127617,
-			["TBar"] = {
-				["Version"] = 0.1,
-				["NxMap1TB"] = {
-					["Space"] = 1,
-					["AlignR"] = true,
-					["AlignB"] = true,
-					["Size"] = 22,
-				},
-			},
-			["Q"] = {
-				[5094] = "W0",
-				[9081] = "W0",
-				[10794] = "C1714746064",
-				[9229] = "C1714746064",
-				[8063] = "W0",
-				[5529] = "W0",
-				[9230] = "W0",
-				[9083] = "W0",
-				[8789] = "W0",
-				[9061] = "W0",
-				[8072] = "W0",
-				[7487] = "W0",
-				[2460] = "C1714746064",
-				[9078] = "W0",
-				[936] = "W0",
-				[5341] = "W0",
-				[8073] = "W0",
-				[2458] = "W0",
-			},
-			["QHAskedGet"] = true,
-			["LHonor"] = 0,
-			["Honor"] = 0,
-			["Money"] = 32474530,
-			["Class"] = "Rogue",
-			["LXP"] = 127617,
-			["W"] = {
-				["NxHUD"] = {
-					["_W"] = 8,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 8,
-					["Y"] = 163.19998459816,
-					["H"] = 40,
-					["_H"] = 40,
-					["Hide"] = true,
-					["X"] = 635.999990463257,
-					["_Y"] = -0.17,
-					["_X"] = 999999,
-				},
-				["NxQuestList"] = {
-					["_W"] = -0.52,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 665.5999900817873,
-					["Y"] = 143.9999864101412,
-					["X"] = 307.1999954223633,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["H"] = 623.9999411106119,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["X"] = 0,
-					["_H"] = 209,
-					["_X"] = 0,
-					["H"] = 209,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["MinW"] = 124.0000038743019,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["MinX"] = -32.57131528003044,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["MinY"] = 206.5717094157382,
-					["Mode"] = "Min",
-					["_W"] = -0.2,
-					["S"] = 1,
-					["W"] = 124.0000038743019,
-					["Min"] = true,
-					["X"] = -94.28548672369887,
-					["MinH"] = 40,
-					["MinS"] = 1,
-					["MinA"] = "TOPRIGHT",
-					["Y"] = -211.6423956805111,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["FI"] = 1,
-					["FO"] = 0,
-					["9001Y"] = -0.4,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9003Y"] = -0.4,
-					["MaxL"] = 2,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["MaxX"] = 128,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["MaxH"] = 767.9999427795418,
-					["MaxW"] = 1024,
-					["_X"] = -0.0001,
-					["A"] = "TOPRIGHT",
-					["MaxY"] = 95.99999284744273,
-					["9001W"] = -0.19,
-					["9002Y"] = -0.4,
-					["9003W"] = -0.19,
-					["9008L"] = 1,
-					["9009H"] = -0.3,
-					["9004L"] = 1,
-					["9004H"] = -0.3,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["MaxA"] = "TOPLEFT",
-					["9001L"] = 1,
-					["MaxS"] = 1,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9008W"] = -0.19,
-					["H"] = 202.9714935575203,
-					["9008X"] = -0.0001,
-					["W"] = 176.7027828588667,
-					["9009X"] = -0.0001,
-					["Y"] = 0.3430366464996837,
-					["X"] = -30.33876373859102,
-					["9004Y"] = -0.4,
-					["9004W"] = -0.19,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["9008Y"] = -0.4,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -7.200050246714797,
-					["X"] = 8.142566559574506,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.63,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 806.3999818801883,
-					["Y"] = 191.9999856948855,
-					["H"] = 479.9999547004707,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["X"] = 192.0000047683715,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 319.9999952316285,
-					["Y"] = 575.9999456405648,
-					["X"] = 959.9999856948855,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["H"] = 95.99999094009414,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxPunkHUD"] = {
-					["_W"] = 135,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 135,
-					["Y"] = 95.99999094009414,
-					["X"] = 767.9999885559083,
-					["_H"] = 87,
-					["H"] = 87,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
-				},
-				["NxOpts"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 639.999990463257,
-					["Y"] = 95.99999284744273,
-					["X"] = 319.9999952316285,
-					["_H"] = -0.7,
-					["Hide"] = true,
-					["H"] = 671.9999594688421,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 383.9999942779542,
-					["Y"] = 671.9999365806589,
-					["X"] = 895.9999866485597,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["H"] = 57.59999456405647,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 287.9999728202824,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 767.9999885559083,
-					["_Y"] = -0.3,
-					["Hide"] = true,
-				},
-			},
-			["LXPRest"] = 259482,
-			["WareBags"] = {
-				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
-				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
-				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
-				["赞达拉暗影坠饰"] = "1^|cff1eff00|Hitem:19614:0:0:0:2942:0:0:0:60|h[赞达拉暗影坠饰]|h|r",
-				["超级神风炸药"] = "20^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
-				["加速药水"] = "19^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
-				["活力行动药水"] = "19^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
-				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
-				["沙漏"] = "113^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
-				["速效药膏"] = "22^|cffffffff|Hitem:8928:0:0:0:0:0:0:0:60|h[速效药膏]|h|r",
-				["板甲碎片"] = "2^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
-				["黑铁酒吧钥匙"] = "1^|cffffffff|Hitem:11602:0:0:0:0:0:0:0:60|h[黑铁酒吧钥匙]|h|r",
-				["大型圣甲虫箱的钥匙"] = "8^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
-				["皮甲碎片"] = "5^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
-				["黎明之印"] = "1^|cff0070dd|Hitem:13209:0:3439:0:0:0:0:0:60|h[黎明之印]|h|r",
-				["自由行动药水"] = "20^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
-				["元素之核"] = "80^|cffffffff|Hitem:22527:0:0:0:0:0:0:0:60|h[元素之核]|h|r",
-				["圣甲虫箱的钥匙"] = "3^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
-				["Festival Lane Postbox Key"] = "1^|cffffffff|Hitem:13304:0:0:0:0:0:0:0:60|h[Festival Lane Postbox Key]|h|r",
-				["萨隆邪铁炸弹"] = "18^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
-				["Crusaders' Square Postbox Key"] = "1^|cffffffff|Hitem:13303:0:0:0:0:0:0:0:60|h[Crusaders' Square Postbox Key]|h|r",
-				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
-				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
-				["遗物宝箱钥匙"] = "13^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
-				["埃提耶什的碎片"] = "9^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
-				["锁甲碎片"] = "2^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
-				["疯狂力量药水"] = "18^|cffffffff|Hitem:22828:0:0:0:0:0:0:0:60|h[疯狂力量药水]|h|r",
-				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
-				["戈多克镣铐钥匙"] = "1^|cff1eff00|Hitem:18250:0:0:0:0:0:0:0:60|h[戈多克镣铐钥匙]|h|r",
-				["布衣碎片"] = "3^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
-				["菊花茶"] = "17^|cffffffff|Hitem:7676:0:0:0:0:0:0:0:60|h[菊花茶]|h|r",
-				["远古石叶"] = "1^|cffa335ee|Hitem:18703:0:0:0:0:0:0:0:60|h[远古石叶]|h|r",
-				["精准之箭"] = "171^|cff1eff00|Hitem:9399:0:0:0:0:0:0:0:60|h[精准之箭]|h|r",
-				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
-			},
-			["Version"] = 0.02,
 			["E"] = {
 				["Info"] = {
 					{
@@ -1763,16 +1454,325 @@ NxData = {
 				["Herb"] = {
 				},
 			},
-			["L"] = {
-				["Events"] = {
-				},
-				["Quest"] = {
-				},
-				["Version"] = 0.1,
+			["Q"] = {
+				[5094] = "W0",
+				[9081] = "W0",
+				[10794] = "C1714746064",
+				[9229] = "C1714746064",
+				[8063] = "W0",
+				[5529] = "W0",
+				[9230] = "W0",
+				[9083] = "W0",
+				[8789] = "W0",
+				[9061] = "W0",
+				[8072] = "W0",
+				[7487] = "W0",
+				[2458] = "W0",
+				[9078] = "W0",
+				[936] = "W0",
+				[5341] = "W0",
+				[8073] = "W0",
+				[2460] = "C1714746064",
 			},
-			["ArenaPts"] = 0,
-			["LvlTime"] = 1714858173,
-			["Pos"] = "2009^73.205715^52.182609",
+			["Honor"] = 0,
+			["WareBags"] = {
+				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
+				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
+				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
+				["赞达拉暗影坠饰"] = "1^|cff1eff00|Hitem:19614:0:0:0:2942:0:0:0:60|h[赞达拉暗影坠饰]|h|r",
+				["超级神风炸药"] = "20^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
+				["加速药水"] = "19^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
+				["活力行动药水"] = "19^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
+				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
+				["沙漏"] = "113^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
+				["速效药膏"] = "22^|cffffffff|Hitem:8928:0:0:0:0:0:0:0:60|h[速效药膏]|h|r",
+				["板甲碎片"] = "2^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
+				["黑铁酒吧钥匙"] = "1^|cffffffff|Hitem:11602:0:0:0:0:0:0:0:60|h[黑铁酒吧钥匙]|h|r",
+				["大型圣甲虫箱的钥匙"] = "8^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
+				["皮甲碎片"] = "5^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
+				["黎明之印"] = "1^|cff0070dd|Hitem:13209:0:3439:0:0:0:0:0:60|h[黎明之印]|h|r",
+				["自由行动药水"] = "20^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
+				["元素之核"] = "80^|cffffffff|Hitem:22527:0:0:0:0:0:0:0:60|h[元素之核]|h|r",
+				["圣甲虫箱的钥匙"] = "3^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
+				["Festival Lane Postbox Key"] = "1^|cffffffff|Hitem:13304:0:0:0:0:0:0:0:60|h[Festival Lane Postbox Key]|h|r",
+				["萨隆邪铁炸弹"] = "18^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
+				["Crusaders' Square Postbox Key"] = "1^|cffffffff|Hitem:13303:0:0:0:0:0:0:0:60|h[Crusaders' Square Postbox Key]|h|r",
+				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
+				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
+				["遗物宝箱钥匙"] = "13^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
+				["埃提耶什的碎片"] = "9^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
+				["锁甲碎片"] = "2^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
+				["疯狂力量药水"] = "18^|cffffffff|Hitem:22828:0:0:0:0:0:0:0:60|h[疯狂力量药水]|h|r",
+				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
+				["精准之箭"] = "171^|cff1eff00|Hitem:9399:0:0:0:0:0:0:0:60|h[精准之箭]|h|r",
+				["布衣碎片"] = "3^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
+				["菊花茶"] = "17^|cffffffff|Hitem:7676:0:0:0:0:0:0:0:60|h[菊花茶]|h|r",
+				["远古石叶"] = "1^|cffa335ee|Hitem:18703:0:0:0:0:0:0:0:60|h[远古石叶]|h|r",
+				["戈多克镣铐钥匙"] = "1^|cff1eff00|Hitem:18250:0:0:0:0:0:0:0:60|h[戈多克镣铐钥匙]|h|r",
+				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
+			},
+			["QHAskedGet"] = true,
+			["Money"] = 32474530,
+			["Class"] = "Rogue",
+			["LXP"] = 127617,
+			["W"] = {
+				["NxHUD"] = {
+					["_W"] = 8,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 8,
+					["Y"] = 163.19998459816,
+					["H"] = 40,
+					["_H"] = 40,
+					["_X"] = 999999,
+					["X"] = 635.999990463257,
+					["_Y"] = -0.17,
+					["Hide"] = true,
+				},
+				["NxQuestList"] = {
+					["_W"] = -0.52,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 665.5999900817873,
+					["Y"] = 143.9999864101412,
+					["X"] = 307.1999954223633,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["H"] = 623.9999411106119,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["X"] = 0,
+					["_H"] = 209,
+					["Hide"] = true,
+					["H"] = 209,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["MinW"] = 124.0000038743019,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["MinX"] = -32.57131528003044,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["MinY"] = 206.5717094157382,
+					["Mode"] = "Min",
+					["_W"] = -0.2,
+					["S"] = 1,
+					["W"] = 124.0000038743019,
+					["Min"] = true,
+					["X"] = -94.28548672369887,
+					["MinH"] = 40,
+					["MinS"] = 1,
+					["MinA"] = "TOPRIGHT",
+					["Y"] = -211.6423956805111,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 287.9999728202824,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = 767.9999885559083,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -7.200050246714797,
+					["X"] = 8.142566559574506,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.63,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 806.3999818801883,
+					["Y"] = 191.9999856948855,
+					["H"] = 479.9999547004707,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 192.0000047683715,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["FI"] = 1,
+					["FO"] = 0,
+					["9001Y"] = -0.4,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9003Y"] = -0.4,
+					["MaxL"] = 2,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["MaxX"] = 128,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["MaxH"] = 767.9999427795418,
+					["MaxW"] = 1024,
+					["_X"] = -0.0001,
+					["A"] = "TOPRIGHT",
+					["9008Y"] = -0.4,
+					["9001W"] = -0.19,
+					["9002Y"] = -0.4,
+					["9003W"] = -0.19,
+					["9008L"] = 1,
+					["9009H"] = -0.3,
+					["9004L"] = 1,
+					["9004H"] = -0.3,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["MaxA"] = "TOPLEFT",
+					["9001L"] = 1,
+					["MaxS"] = 1,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["9004W"] = -0.19,
+					["9004Y"] = -0.4,
+					["9009X"] = -0.0001,
+					["W"] = 176.7027828588667,
+					["9008X"] = -0.0001,
+					["Y"] = 0.3430366464996837,
+					["X"] = -30.33876373859102,
+					["H"] = 202.9714935575203,
+					["9008W"] = -0.19,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["MaxY"] = 95.99999284744273,
+				},
+				["NxPunkHUD"] = {
+					["_W"] = 135,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 135,
+					["Y"] = 95.99999094009414,
+					["X"] = 767.9999885559083,
+					["_H"] = 87,
+					["H"] = 87,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxOpts"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 639.999990463257,
+					["Y"] = 95.99999284744273,
+					["X"] = 319.9999952316285,
+					["_H"] = -0.7,
+					["_X"] = -0.25,
+					["H"] = 671.9999594688421,
+					["_Y"] = -0.1,
+					["Hide"] = true,
+				},
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 383.9999942779542,
+					["Y"] = 671.9999365806589,
+					["X"] = 895.9999866485597,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["H"] = 57.59999456405647,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 319.9999952316285,
+					["Y"] = 575.9999456405648,
+					["X"] = 959.9999856948855,
+					["_H"] = -0.1,
+					["Hide"] = true,
+					["H"] = 95.99999094009414,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+			},
+			["LXPRest"] = 259482,
+			["LHonor"] = 0,
+			["Version"] = 0.02,
+			["TBar"] = {
+				["Version"] = 0.1,
+				["NxMap1TB"] = {
+					["Space"] = 1,
+					["AlignR"] = true,
+					["Size"] = 22,
+					["AlignB"] = true,
+				},
+			},
+			["XP"] = 127617,
+			["WareInv"] = {
+				"HeadSlot^|cffa335ee|Hitem:22478:3832:3862:0:3530:0:0:0:60|h[骨镰头盔]|h|r", -- [1]
+				"NeckSlot^|cffa335ee|Hitem:23053:0:3862:0:3280:0:0:0:60|h[怒风的沸腾符咒]|h|r", -- [2]
+				"ShoulderSlot^|cffa335ee|Hitem:22479:3835:3862:0:3682:0:0:0:60|h[骨镰肩铠]|h|r", -- [3]
+				"BackSlot^|cffa335ee|Hitem:23045:3605:3862:0:3557:0:0:0:60|h[支配披风]|h|r", -- [4]
+				"ChestSlot^|cffa335ee|Hitem:22476:3832:3862:0:3099:0:0:0:60|h[骨镰胸甲]|h|r", -- [5]
+				"ShirtSlot^|cffffffff|Hitem:11840:3832:0:0:0:0:0:0:60|h[主建筑师的衬衣]|h|r", -- [6]
+				"WristSlot^|cffa335ee|Hitem:22483:3756:3862:0:0:0:0:0:60|h[骨镰护腕]|h|r", -- [7]
+				"HandsSlot^|cffa335ee|Hitem:22481:3604:3862:0:3284:0:0:0:60|h[骨镰护手]|h|r", -- [8]
+				"WaistSlot^|cff0070dd|Hitem:20216:3601:0:0:0:0:0:0:60|h[防腐徽记腰带]|h|r", -- [9]
+				"LegsSlot^|cffa335ee|Hitem:21362:3845:3862:0:3745:0:0:0:60|h[死亡执行者的护腿]|h|r", -- [10]
+				"FeetSlot^|cffa335ee|Hitem:21359:3606:3862:0:0:0:0:0:60|h[死亡执行者的长靴]|h|r", -- [11]
+				"Finger0Slot^|cffa335ee|Hitem:23060:3839:3862:0:3745:0:0:0:60|h[骨镰之戒]|h|r", -- [12]
+				"Finger1Slot^|cffa335ee|Hitem:23038:3839:3862:0:0:0:0:0:60|h[超自然能量指环]|h|r", -- [13]
+				"Trinket0Slot^|cff0070dd|Hitem:41121:0:0:0:0:0:0:0:60|h[侏儒闪电发生器]|h|r", -- [14]
+				"Trinket1Slot^|cffa335ee|Hitem:22954:0:3862:0:0:0:0:0:60|h[蜘蛛之吻]|h|r", -- [15]
+				"MainHandSlot^|cffa335ee|Hitem:22802:3788:3733:0:3120:0:0:0:60|h[帝殒]|h|r", -- [16]
+				"SecondaryHandSlot^|cffa335ee|Hitem:21126:3788:0:0:0:0:0:0:60|h[死亡之钉]|h|r", -- [17]
+				"RangedSlot^|cffa335ee|Hitem:19350:0:3862:0:0:0:0:0:60|h[击心者]|h|r", -- [18]
+				"AmmoSlot^|cff1eff00|Hitem:9399:0:0:0:0:0:0:0:60|h[精准之箭]|h|r", -- [19]
+				"Bag0Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [20]
+				"Bag1Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [21]
+				"Bag2Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [22]
+				"Bag3Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [23]
+			},
+			["XPRest"] = 259482,
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 1,
+				["MapShowGatherM"] = false,
+			},
 		},
 		["AzerothCore.Lama"] = {
 			["Time"] = 1715529038,
@@ -1798,8 +1798,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 145650,
@@ -1808,11 +1808,11 @@ NxData = {
 				},
 				["FavF"] = {
 				},
-				["Version"] = 0.1,
-				["Quest"] = {
-				},
 				["FavI"] = {
 				},
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
 			},
 			["XP"] = 890824,
 			["ArenaPts"] = 0,
@@ -1899,101 +1899,346 @@ NxData = {
 				[10298] = "C1715247158",
 				[10555] = "C1715094675",
 				[10047] = "C1714939486",
-				[11132] = "W0",
+				[9492] = "C1715458003",
 				[9543] = "C1715009317",
 				[10055] = "C1714939578",
 				[10057] = "C1714994028",
 				[11164] = "W0",
 				[11038] = "W0",
-				[11526] = "C1715524410",
-				[10255] = "C1715010851",
+				[10325] = "W0",
+				[10443] = "C1715003143",
 				[9630] = "C1715349304",
-				[10727] = "W0",
+				[11492] = "C1715525938",
 				[10581] = "C1715100516",
 				[9563] = "C1715013676",
-				[10079] = "C1714942529",
-				[9575] = "C1715024245",
 				[9824] = "C1715160307",
-				[9826] = "C1715160409",
-				[10095] = "C1715165954",
 				[10340] = "C1714939376",
+				[10079] = "C1714942529",
+				[9826] = "C1715160409",
+				[9589] = "C1715026310",
+				[9575] = "C1715024245",
 				[9832] = "C1715200385",
 				[10344] = "C1714939394",
 				[9836] = "C1715246992",
 				[1719] = "C1714925193",
-				[9840] = "C1715287304",
+				[10095] = "C1715165954",
 				[9587] = "C1715024271",
 				[10099] = "C1714942688",
-				[11550] = "C1715413794",
+				[9638] = "C1715349380",
 				[9844] = "C1715349066",
-				[9545] = "C1715013265",
-				[10740] = "C1715349869",
+				[10093] = "C1714999564",
+				[9640] = "C1715349515",
 				[10091] = "C1715165941",
-				[13432] = "W0",
+				[1698] = "c0",
 				[10368] = "C1715011685",
 				[9860] = "C1715350016",
-				[9607] = "C1715026286",
+				[13432] = "W0",
 				[10119] = "C1714922428",
-				[13408] = "C1714995716",
+				[9838] = "C1715247261",
 				[10094] = "C1715165496",
-				[9383] = "C1715003240",
+				[1718] = "C1714925010",
 				[10382] = "C1714940134",
 				[9490] = "C1715003195",
 				[10909] = "C1714990420",
-				[9631] = "C1715365049",
-				[10143] = "C1714938312",
+				[10395] = "C1714998510",
+				[10653] = "C1715367241",
 				[9372] = "C1715010677",
 				[10394] = "C1714997978",
-				[10141] = "C1714924705",
-				[10653] = "C1715367241",
+				[9631] = "C1715365049",
+				[10143] = "C1714938312",
 				[10400] = "C1714999812",
 				[9637] = "C1715410748",
 				[9639] = "C1715349398",
 				[10916] = "C1714942186",
-				[9645] = "C1715349880",
 				[9390] = "C1714999658",
-				[10457] = "C1715098376",
+				[9645] = "C1715349880",
+				[10396] = "C1714998146",
 				[10159] = "C1715010526",
-				[10144] = "C1714939194",
+				[10163] = "C1714940068",
 				[9398] = "C1715003231",
 				[10420] = "C1715367280",
 				[9912] = "C1715028734",
-				[10936] = "C1714994447",
 				[1665] = "C1714924888",
-				[9764] = "C1715191415",
+				[10936] = "C1714994447",
 				[10397] = "C1714998450",
+				[9764] = "C1715191415",
 				[10177] = "C1715160955",
-				[10163] = "C1714940068",
-				[10396] = "C1714998146",
+				[10144] = "C1714939194",
+				[10457] = "C1715098376",
 				[9418] = "C1715014664",
 				[9420] = "C1715014504",
-				[10395] = "C1714998510",
+				[10141] = "C1714924705",
 				[9424] = "C1715009294",
 				[9426] = "C1715009242",
-				[1718] = "C1714925010",
+				[9383] = "C1715003240",
 				[9430] = "C1715011783",
-				[9838] = "C1715247261",
-				[1698] = "c0",
+				[13408] = "C1714995716",
+				[9607] = "C1715026286",
 				[10456] = "C1715096061",
-				[9640] = "C1715349515",
-				[10093] = "C1714999564",
+				[10740] = "C1715349869",
+				[9545] = "C1715013265",
 				[11482] = "C1715422173",
-				[9638] = "C1715349380",
-				[9589] = "C1715026310",
+				[11550] = "C1715413794",
+				[9840] = "C1715287304",
 				[11488] = "C1715524879",
 				[11490] = "C1715525088",
-				[11492] = "C1715525938",
+				[10727] = "W0",
 				[10984] = "C1715200727",
-				[10443] = "C1715003143",
-				[10325] = "W0",
+				[10255] = "C1715010851",
+				[11526] = "C1715524410",
 				[10735] = "C1715349054",
 				[10482] = "C1714939613",
-				[9492] = "C1715458003",
+				[11132] = "W0",
 			},
-			["XPRest"] = 217462,
-			["Level"] = 70,
+			["LvlTime"] = 1715528889,
+			["WareInv"] = {
+				"ShirtSlot^|cffffffff|Hitem:38:0:0:0:0:0:0:0:1|h[新兵衬衣]|h|r", -- [1]
+				"LegsSlot^|cff9d9d9d|Hitem:39:0:0:0:0:0:0:0:1|h[新兵短裤]|h|r", -- [2]
+				"FeetSlot^|cffffffff|Hitem:40:0:0:0:0:0:0:0:1|h[新兵之靴]|h|r", -- [3]
+				"MainHandSlot^|cffffffff|Hitem:49778:0:0:0:0:0:0:0:1|h[破损的巨剑]|h|r", -- [4]
+			},
 			["QHAskedGet"] = true,
 			["Money"] = 24521972,
+			["Honor"] = 0,
+			["W"] = {
+				["NxHUD"] = {
+					["A"] = "CENTER",
+					["_W"] = 8,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 61.7142858845847,
+					["Y"] = 145.3149964613468,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = -2.445507013119653,
+					["_Y"] = -0.17,
+					["_X"] = 999999,
+				},
+				["NxQuestList"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 749.9718363587284,
+					["Y"] = 162.253529991902,
+					["H"] = 703.0985918179364,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["X"] = 346.1408563533298,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["H"] = 209,
+					["_H"] = 209,
+					["Hide"] = true,
+					["X"] = 0,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["MinW"] = 124.0000038743019,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["MinX"] = -39.71452653833439,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["MinY"] = 231.42875326531,
+					["MinH"] = 40,
+					["_W"] = -0.2,
+					["S"] = 1,
+					["W"] = 124.0000038743019,
+					["Y"] = -223.0511059902444,
+					["X"] = -30.00087693332319,
+					["MinA"] = "TOPRIGHT",
+					["MinS"] = 1,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxFav"] = {
+					["_W"] = -0.54,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 691.1999897003176,
+					["Y"] = 239.9999773502353,
+					["X"] = 294.3999956130982,
+					["_H"] = -0.5,
+					["Hide"] = true,
+					["H"] = 479.9999547004707,
+					["_Y"] = -0.25,
+					["_X"] = -0.23,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 324.5070370956207,
+					["X"] = 865.3521294392327,
+					["_H"] = 40,
+					["Hide"] = true,
+					["H"] = 40,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -8.057212709528018,
+					["X"] = 9.571075296832989,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.63,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 908.6197526958622,
+					["Y"] = 216.3380209157166,
+					["H"] = 540.8450236790624,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 216.3380209157166,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 432.6760647196164,
+					["Y"] = 757.1830865564482,
+					["H"] = 64.90140741912413,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["X"] = 1009.577484345772,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxPunkHUD"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 135,
+					["S"] = 1,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 134.0000132620333,
+					["Y"] = 218.7400785276282,
+					["X"] = -33.50610683104237,
+					["_H"] = 87,
+					["Hide"] = true,
+					["H"] = 40,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxOpts"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 639.999990463257,
+					["Y"] = 95.99999284744273,
+					["H"] = 671.9999594688421,
+					["_H"] = -0.7,
+					["_X"] = -0.25,
+					["X"] = 319.9999952316285,
+					["_Y"] = -0.1,
+					["Hide"] = true,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 360.563387266347,
+					["Y"] = 649.0140741912413,
+					["H"] = 108.1690123652069,
+					["_H"] = -0.1,
+					["Hide"] = true,
+					["X"] = 1081.690161799041,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["9008L"] = 1,
+					["FO"] = 0,
+					["MaxY"] = 95.99999284744273,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9004W"] = -0.19,
+					["MaxL"] = 2,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["MaxX"] = 128,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["MaxH"] = 767.9999427795418,
+					["9008Y"] = -0.4,
+					["9004L"] = 1,
+					["A"] = "TOPRIGHT",
+					["FI"] = 1,
+					["9002Y"] = -0.4,
+					["9003Y"] = -0.4,
+					["9003W"] = -0.19,
+					["MaxW"] = 1024,
+					["9009H"] = -0.3,
+					["_X"] = -0.0001,
+					["9004H"] = -0.3,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["MaxA"] = "TOPLEFT",
+					["9001L"] = 1,
+					["MaxS"] = 1,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["H"] = 230.3999866485598,
+					["9008W"] = -0.19,
+					["9009X"] = -0.0001,
+					["W"] = 194.5599526977546,
+					["9008X"] = -0.0001,
+					["Y"] = -3.085708572183422,
+					["X"] = -21.0520741186727,
+					["9004Y"] = -0.4,
+					["9001W"] = -0.19,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["9001Y"] = -0.4,
+				},
+			},
+			["Class"] = "Warrior",
+			["LXPRest"] = 216986,
+			["WareBags"] = {
+				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:1|h[炉石]|h|r",
+			},
+			["Version"] = 0.02,
+			["DurPercent"] = 100,
 			["E"] = {
 				["Info"] = {
 					{
@@ -3664,253 +3909,8 @@ NxData = {
 				["Herb"] = {
 				},
 			},
-			["W"] = {
-				["NxHUD"] = {
-					["A"] = "CENTER",
-					["_W"] = 8,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 61.7142858845847,
-					["Y"] = 145.3149964613468,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = 999999,
-					["X"] = -2.445507013119653,
-					["_Y"] = -0.17,
-					["Hide"] = true,
-				},
-				["NxQuestList"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 749.9718363587284,
-					["Y"] = 162.253529991902,
-					["H"] = 703.0985918179364,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["X"] = 346.1408563533298,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["H"] = 209,
-					["_H"] = 209,
-					["_X"] = 0,
-					["X"] = 0,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["MinW"] = 124.0000038743019,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["MinX"] = -39.71452653833439,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["MinY"] = 231.42875326531,
-					["MinH"] = 40,
-					["_W"] = -0.2,
-					["S"] = 1,
-					["W"] = 124.0000038743019,
-					["Y"] = -223.0511059902444,
-					["X"] = -30.00087693332319,
-					["MinA"] = "TOPRIGHT",
-					["MinS"] = 1,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["9008L"] = 1,
-					["FO"] = 0,
-					["MaxY"] = 95.99999284744273,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9004W"] = -0.19,
-					["MaxL"] = 2,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["MaxX"] = 128,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["MaxH"] = 767.9999427795418,
-					["9008Y"] = -0.4,
-					["9004L"] = 1,
-					["A"] = "TOPRIGHT",
-					["9001Y"] = -0.4,
-					["9002Y"] = -0.4,
-					["9003Y"] = -0.4,
-					["9003W"] = -0.19,
-					["MaxW"] = 1024,
-					["9009H"] = -0.3,
-					["_X"] = -0.0001,
-					["9004H"] = -0.3,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["MaxA"] = "TOPLEFT",
-					["9001L"] = 1,
-					["MaxS"] = 1,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9001W"] = -0.19,
-					["9004Y"] = -0.4,
-					["9008X"] = -0.0001,
-					["W"] = 194.5599526977546,
-					["9009X"] = -0.0001,
-					["Y"] = -3.085708572183422,
-					["X"] = -21.0520741186727,
-					["9008W"] = -0.19,
-					["H"] = 230.3999866485598,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["FI"] = 1,
-				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 360.563387266347,
-					["Y"] = 649.0140741912413,
-					["H"] = 108.1690123652069,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1081.690161799041,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -8.057212709528018,
-					["X"] = 9.571075296832989,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.63,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 908.6197526958622,
-					["Y"] = 216.3380209157166,
-					["H"] = 540.8450236790624,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["X"] = 216.3380209157166,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 432.6760647196164,
-					["Y"] = 757.1830865564482,
-					["H"] = 64.90140741912413,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["X"] = 1009.577484345772,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxPunkHUD"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 135,
-					["S"] = 1,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 134.0000132620333,
-					["Y"] = 218.7400785276282,
-					["X"] = -33.50610683104237,
-					["_H"] = 87,
-					["_X"] = -0.6,
-					["H"] = 40,
-					["_Y"] = -0.1,
-					["Hide"] = true,
-				},
-				["NxOpts"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 639.999990463257,
-					["Y"] = 95.99999284744273,
-					["H"] = 671.9999594688421,
-					["_H"] = -0.7,
-					["Hide"] = true,
-					["X"] = 319.9999952316285,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 324.5070370956207,
-					["X"] = 865.3521294392327,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["H"] = 40,
-					["_Y"] = -0.3,
-					["Hide"] = true,
-				},
-				["NxFav"] = {
-					["_W"] = -0.54,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 691.1999897003176,
-					["Y"] = 239.9999773502353,
-					["X"] = 294.3999956130982,
-					["_H"] = -0.5,
-					["_X"] = -0.23,
-					["H"] = 479.9999547004707,
-					["_Y"] = -0.25,
-					["Hide"] = true,
-				},
-			},
-			["Class"] = "Warrior",
-			["LXPRest"] = 216986,
-			["WareBags"] = {
-				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:1|h[炉石]|h|r",
-			},
-			["Version"] = 0.02,
-			["DurPercent"] = 100,
-			["Honor"] = 0,
-			["WareInv"] = {
-				"ShirtSlot^|cffffffff|Hitem:38:0:0:0:0:0:0:0:1|h[新兵衬衣]|h|r", -- [1]
-				"LegsSlot^|cff9d9d9d|Hitem:39:0:0:0:0:0:0:0:1|h[新兵短裤]|h|r", -- [2]
-				"FeetSlot^|cffffffff|Hitem:40:0:0:0:0:0:0:0:1|h[新兵之靴]|h|r", -- [3]
-				"MainHandSlot^|cffffffff|Hitem:49778:0:0:0:0:0:0:0:1|h[破损的巨剑]|h|r", -- [4]
-			},
-			["LvlTime"] = 1715528889,
+			["Level"] = 70,
+			["XPRest"] = 217462,
 			["Pos"] = "2020^62.960410^70.749742",
 		},
 		["AzerothCore.Heady"] = {
@@ -3962,13 +3962,13 @@ NxData = {
 				["珠宝加工"] = {
 					["Rank"] = 450,
 				},
-				["炼金术"] = {
+				["裁缝"] = {
 					["Rank"] = 450,
 				},
 				["剥皮"] = {
 					["Rank"] = 450,
 				},
-				["裁缝"] = {
+				["炼金术"] = {
 					["Rank"] = 450,
 				},
 				["锻造"] = {
@@ -3994,8 +3994,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 486200,
@@ -4004,26 +4004,295 @@ NxData = {
 			["ArenaPts"] = 0,
 			["Q"] = {
 				[8789] = "W0",
-				[9229] = "C1714767369",
-				[2743] = "C1714767369",
+				[8058] = "W0",
+				[5213] = "W0",
 				[9230] = "W0",
 				[9037] = "W0",
-				[2744] = "W0",
+				[9040] = "W0",
 				[9056] = "W0",
 				[5212] = "C1714767369",
 				[5513] = "W0",
 				[5529] = "W0",
-				[9034] = "W0",
-				[9141] = "W0",
+				[9229] = "C1714767369",
+				[2743] = "C1714767369",
 				[2721] = "C1714767369",
-				[9040] = "W0",
-				[5213] = "W0",
-				[8058] = "W0",
+				[2744] = "W0",
+				[9141] = "W0",
+				[9034] = "W0",
 			},
-			["XPRest"] = 435000,
-			["LMoney"] = 1184240702,
+			["LvlTime"] = 1714909057,
+			["L"] = {
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
+				["Events"] = {
+				},
+			},
 			["Honor"] = 0,
 			["Money"] = 1187535140,
+			["QHAskedGet"] = true,
+			["W"] = {
+				["NxHUD"] = {
+					["_W"] = 8,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 8,
+					["Y"] = 163.19998459816,
+					["H"] = 40,
+					["_H"] = 40,
+					["_X"] = 999999,
+					["X"] = 635.999990463257,
+					["_Y"] = -0.17,
+					["Hide"] = true,
+				},
+				["NxQuestList"] = {
+					["_W"] = -0.52,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 665.5999900817873,
+					["Y"] = 143.9999864101412,
+					["X"] = 307.1999954223633,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["H"] = 623.9999411106119,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["X"] = 0,
+					["_H"] = 209,
+					["Hide"] = true,
+					["H"] = 209,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["MinW"] = 124.0000038743019,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["MinX"] = -32.57131528003044,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["MinY"] = 218.5716977928326,
+					["Mode"] = "Min",
+					["_W"] = -0.2,
+					["S"] = 1,
+					["W"] = 124.0000038743019,
+					["Min"] = true,
+					["X"] = -94.28548672369887,
+					["MinH"] = 40,
+					["MinS"] = 1,
+					["MinA"] = "TOPRIGHT",
+					["Y"] = -211.6423956805111,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 287.9999728202824,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = 767.9999885559083,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -7.200050246714797,
+					["X"] = 8.142566559574506,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.63,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 806.3999818801883,
+					["Y"] = 191.9999856948855,
+					["H"] = 479.9999547004707,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 192.0000047683715,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["FI"] = 1,
+					["FO"] = 0,
+					["9001Y"] = -0.4,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9003Y"] = -0.4,
+					["MaxL"] = 2,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["MaxX"] = 128,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["MaxH"] = 767.9999427795418,
+					["MaxW"] = 1024,
+					["_X"] = -0.0001,
+					["A"] = "TOPRIGHT",
+					["9008Y"] = -0.4,
+					["9001W"] = -0.19,
+					["9002Y"] = -0.4,
+					["9003W"] = -0.19,
+					["9008L"] = 1,
+					["9009H"] = -0.3,
+					["9004H"] = -0.3,
+					["H"] = 221.828552755288,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["MaxA"] = "TOPLEFT",
+					["9001L"] = 1,
+					["MaxS"] = 1,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["9004L"] = 1,
+					["9004W"] = -0.19,
+					["9009X"] = -0.0001,
+					["W"] = 180.9885951729328,
+					["9008X"] = -0.0001,
+					["Y"] = 0,
+					["X"] = -26.05323752681557,
+					["9004Y"] = -0.4,
+					["9008W"] = -0.19,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["MaxY"] = 95.99999284744273,
+				},
+				["NxPunkHUD"] = {
+					["_W"] = 135,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 135,
+					["Y"] = 95.99999094009414,
+					["X"] = 767.9999885559083,
+					["_H"] = 87,
+					["H"] = 87,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxOpts"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 639.999990463257,
+					["Y"] = 95.99999284744273,
+					["X"] = 319.9999952316285,
+					["_H"] = -0.7,
+					["_X"] = -0.25,
+					["H"] = 671.9999594688421,
+					["_Y"] = -0.1,
+					["Hide"] = true,
+				},
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 383.9999942779542,
+					["Y"] = 671.9999365806589,
+					["X"] = 895.9999866485597,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["H"] = 57.59999456405647,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 319.9999952316285,
+					["Y"] = 575.9999456405648,
+					["X"] = 959.9999856948855,
+					["_H"] = -0.1,
+					["Hide"] = true,
+					["H"] = 95.99999094009414,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+			},
+			["Class"] = "Warrior",
+			["LXPRest"] = 435000,
+			["WareBags"] = {
+				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
+				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
+				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
+				["布衣碎片"] = "65^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
+				["强效怒气药水"] = "20^|cffffffff|Hitem:13442:0:0:0:0:0:0:0:60|h[强效怒气药水]|h|r",
+				["超级神风炸药"] = "14^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
+				["血色十字军钥匙"] = "1^|cff1eff00|Hitem:7146:0:0:0:0:0:0:0:60|h[血色十字军钥匙]|h|r",
+				["加速药水"] = "14^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
+				["活力行动药水"] = "17^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
+				["Elders' Square Postbox Key"] = "1^|cffffffff|Hitem:13305:0:0:0:0:0:0:0:60|h[Elders' Square Postbox Key]|h|r",
+				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
+				["沙漏"] = "197^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
+				["板甲碎片"] = "28^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
+				["大型圣甲虫箱的钥匙"] = "15^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
+				["皮甲碎片"] = "53^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
+				["自由行动药水"] = "11^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
+				["Fras Siabi's Postbox Key"] = "1^|cffffffff|Hitem:13307:0:0:0:0:0:0:0:60|h[Fras Siabi's Postbox Key]|h|r",
+				["Festival Lane Postbox Key"] = "1^|cffffffff|Hitem:13304:0:0:0:0:0:0:0:60|h[Festival Lane Postbox Key]|h|r",
+				["萨隆邪铁炸弹"] = "16^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
+				["赞扎之魂"] = "1^|cff1eff00|Hitem:20079:0:0:0:0:0:0:0:60|h[赞扎之魂]|h|r",
+				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
+				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
+				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
+				["龙火护符"] = "1^|cff0070dd|Hitem:16309:0:0:0:0:0:0:0:60|h[龙火护符]|h|r",
+				["魔铁弹丸"] = "977^|cff1eff00|Hitem:23772:0:0:0:0:0:0:0:60|h[魔铁弹丸]|h|r",
+				["锋利的箭"] = "196^|cffffffff|Hitem:2515:0:0:0:0:0:0:0:60|h[锋利的箭]|h|r",
+				["监狱牢房钥匙"] = "1^|cffffffff|Hitem:11140:0:0:0:0:0:0:0:60|h[监狱牢房钥匙]|h|r",
+				["Market Row Postbox Key"] = "1^|cffffffff|Hitem:13302:0:0:0:0:0:0:0:60|h[Market Row Postbox Key]|h|r",
+				["精金磨刀石"] = "18^|cff1eff00|Hitem:23529:0:0:0:0:0:0:0:60|h[精金磨刀石]|h|r",
+				["锁甲碎片"] = "16^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
+				["赞达拉英雄勋章"] = "1^|cffa335ee|Hitem:19949:0:0:0:0:0:0:0:60|h[赞达拉英雄勋章]|h|r",
+				["圣甲虫箱的钥匙"] = "1^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
+				["埃提耶什的碎片"] = "6^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
+				["Crusaders' Square Postbox Key"] = "1^|cffffffff|Hitem:13303:0:0:0:0:0:0:0:60|h[Crusaders' Square Postbox Key]|h|r",
+				["疯狂力量药水"] = "20^|cffffffff|Hitem:22828:0:0:0:0:0:0:0:60|h[疯狂力量药水]|h|r",
+				["勇士印记"] = "1^|cffa335ee|Hitem:23206:0:0:0:0:0:0:0:60|h[勇士印记]|h|r",
+				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
+				["精金平衡石"] = "19^|cff1eff00|Hitem:28421:0:0:0:0:0:0:0:60|h[精金平衡石]|h|r",
+				["遗物宝箱钥匙"] = "10^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
+				["强效石盾药水"] = "20^|cffffffff|Hitem:13455:0:0:0:0:0:0:0:60|h[强效石盾药水]|h|r",
+				["沙虫之毒"] = "1^|cffa335ee|Hitem:23570:0:0:0:0:0:0:0:60|h[沙虫之毒]|h|r",
+				["有限无敌药水"] = "4^|cffffffff|Hitem:3387:0:0:0:0:0:0:0:60|h[有限无敌药水]|h|r",
+			},
+			["Version"] = 0.02,
+			["DurPercent"] = 100,
 			["E"] = {
 				["Info"] = {
 					{
@@ -4948,284 +5217,19 @@ NxData = {
 				["Herb"] = {
 				},
 			},
-			["W"] = {
-				["NxHUD"] = {
-					["_W"] = 8,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 8,
-					["Y"] = 163.19998459816,
-					["H"] = 40,
-					["_H"] = 40,
-					["Hide"] = true,
-					["X"] = 635.999990463257,
-					["_Y"] = -0.17,
-					["_X"] = 999999,
-				},
-				["NxQuestList"] = {
-					["_W"] = -0.52,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 665.5999900817873,
-					["Y"] = 143.9999864101412,
-					["X"] = 307.1999954223633,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["H"] = 623.9999411106119,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["X"] = 0,
-					["_H"] = 209,
-					["_X"] = 0,
-					["H"] = 209,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["MinW"] = 124.0000038743019,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["MinX"] = -32.57131528003044,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["MinY"] = 218.5716977928326,
-					["Mode"] = "Min",
-					["_W"] = -0.2,
-					["S"] = 1,
-					["W"] = 124.0000038743019,
-					["Min"] = true,
-					["X"] = -94.28548672369887,
-					["MinH"] = 40,
-					["MinS"] = 1,
-					["MinA"] = "TOPRIGHT",
-					["Y"] = -211.6423956805111,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["FI"] = 1,
-					["FO"] = 0,
-					["9001Y"] = -0.4,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9003Y"] = -0.4,
-					["MaxL"] = 2,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["MaxX"] = 128,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["MaxH"] = 767.9999427795418,
-					["MaxW"] = 1024,
-					["_X"] = -0.0001,
-					["A"] = "TOPRIGHT",
-					["MaxY"] = 95.99999284744273,
-					["9001W"] = -0.19,
-					["9002Y"] = -0.4,
-					["9003W"] = -0.19,
-					["9008L"] = 1,
-					["9009H"] = -0.3,
-					["H"] = 221.828552755288,
-					["9004H"] = -0.3,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["MaxA"] = "TOPLEFT",
-					["9001L"] = 1,
-					["MaxS"] = 1,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9008W"] = -0.19,
-					["9004Y"] = -0.4,
-					["9008X"] = -0.0001,
-					["W"] = 180.9885951729328,
-					["9009X"] = -0.0001,
-					["Y"] = 0,
-					["X"] = -26.05323752681557,
-					["9004W"] = -0.19,
-					["9004L"] = 1,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["9008Y"] = -0.4,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -7.200050246714797,
-					["X"] = 8.142566559574506,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.63,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 806.3999818801883,
-					["Y"] = 191.9999856948855,
-					["H"] = 479.9999547004707,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["X"] = 192.0000047683715,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 319.9999952316285,
-					["Y"] = 575.9999456405648,
-					["X"] = 959.9999856948855,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["H"] = 95.99999094009414,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxPunkHUD"] = {
-					["_W"] = 135,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 135,
-					["Y"] = 95.99999094009414,
-					["X"] = 767.9999885559083,
-					["_H"] = 87,
-					["H"] = 87,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
-				},
-				["NxOpts"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 639.999990463257,
-					["Y"] = 95.99999284744273,
-					["X"] = 319.9999952316285,
-					["_H"] = -0.7,
-					["Hide"] = true,
-					["H"] = 671.9999594688421,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 383.9999942779542,
-					["Y"] = 671.9999365806589,
-					["X"] = 895.9999866485597,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["H"] = 57.59999456405647,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 287.9999728202824,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 767.9999885559083,
-					["_Y"] = -0.3,
-					["Hide"] = true,
-				},
-			},
-			["Class"] = "Warrior",
-			["LXPRest"] = 435000,
-			["WareBags"] = {
-				["车间钥匙"] = "1^|cffffffff|Hitem:6893:0:0:0:0:0:0:0:60|h[车间钥匙]|h|r",
-				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
-				["城市大门钥匙"] = "1^|cff1eff00|Hitem:12382:0:0:0:0:0:0:0:60|h[城市大门钥匙]|h|r",
-				["布衣碎片"] = "65^|cff0070dd|Hitem:22376:0:0:0:0:0:0:0:60|h[布衣碎片]|h|r",
-				["强效怒气药水"] = "20^|cffffffff|Hitem:13442:0:0:0:0:0:0:0:60|h[强效怒气药水]|h|r",
-				["超级神风炸药"] = "14^|cffffffff|Hitem:23827:0:0:0:0:0:0:0:60|h[超级神风炸药]|h|r",
-				["血色十字军钥匙"] = "1^|cff1eff00|Hitem:7146:0:0:0:0:0:0:0:60|h[血色十字军钥匙]|h|r",
-				["加速药水"] = "14^|cffffffff|Hitem:22838:0:0:0:0:0:0:0:60|h[加速药水]|h|r",
-				["活力行动药水"] = "17^|cffffffff|Hitem:20008:0:0:0:0:0:0:0:60|h[活力行动药水]|h|r",
-				["Elders' Square Postbox Key"] = "1^|cffffffff|Hitem:13305:0:0:0:0:0:0:0:60|h[Elders' Square Postbox Key]|h|r",
-				["King's Square Postbox Key"] = "1^|cffffffff|Hitem:13306:0:0:0:0:0:0:0:60|h[King's Square Postbox Key]|h|r",
-				["沙漏"] = "197^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
-				["板甲碎片"] = "28^|cff0070dd|Hitem:22375:0:0:0:0:0:0:0:60|h[板甲碎片]|h|r",
-				["大型圣甲虫箱的钥匙"] = "15^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
-				["皮甲碎片"] = "53^|cff0070dd|Hitem:22373:0:0:0:0:0:0:0:60|h[皮甲碎片]|h|r",
-				["自由行动药水"] = "11^|cffffffff|Hitem:5634:0:0:0:0:0:0:0:60|h[自由行动药水]|h|r",
-				["Fras Siabi's Postbox Key"] = "1^|cffffffff|Hitem:13307:0:0:0:0:0:0:0:60|h[Fras Siabi's Postbox Key]|h|r",
-				["Festival Lane Postbox Key"] = "1^|cffffffff|Hitem:13304:0:0:0:0:0:0:0:60|h[Festival Lane Postbox Key]|h|r",
-				["萨隆邪铁炸弹"] = "16^|cffffffff|Hitem:41119:0:0:0:0:0:0:0:60|h[萨隆邪铁炸弹]|h|r",
-				["赞扎之魂"] = "1^|cff1eff00|Hitem:20079:0:0:0:0:0:0:0:60|h[赞扎之魂]|h|r",
-				["暗炉钥匙"] = "1^|cffffffff|Hitem:11000:0:0:0:0:0:0:0:60|h[暗炉钥匙]|h|r",
-				["月牙钥匙"] = "1^|cffffffff|Hitem:18249:0:0:0:0:0:0:0:60|h[月牙钥匙]|h|r",
-				["有限无敌药水"] = "4^|cffffffff|Hitem:3387:0:0:0:0:0:0:0:60|h[有限无敌药水]|h|r",
-				["龙火护符"] = "1^|cff0070dd|Hitem:16309:0:0:0:0:0:0:0:60|h[龙火护符]|h|r",
-				["强效石盾药水"] = "20^|cffffffff|Hitem:13455:0:0:0:0:0:0:0:60|h[强效石盾药水]|h|r",
-				["遗物宝箱钥匙"] = "10^|cffffffff|Hitem:11078:0:0:0:0:0:0:0:60|h[遗物宝箱钥匙]|h|r",
-				["监狱牢房钥匙"] = "1^|cffffffff|Hitem:11140:0:0:0:0:0:0:0:60|h[监狱牢房钥匙]|h|r",
-				["Market Row Postbox Key"] = "1^|cffffffff|Hitem:13302:0:0:0:0:0:0:0:60|h[Market Row Postbox Key]|h|r",
-				["精金磨刀石"] = "18^|cff1eff00|Hitem:23529:0:0:0:0:0:0:0:60|h[精金磨刀石]|h|r",
-				["赞达拉英雄勋章"] = "1^|cffa335ee|Hitem:19949:0:0:0:0:0:0:0:60|h[赞达拉英雄勋章]|h|r",
-				["锁甲碎片"] = "16^|cff0070dd|Hitem:22374:0:0:0:0:0:0:0:60|h[锁甲碎片]|h|r",
-				["特效敏捷药剂"] = "18^|cffffffff|Hitem:22831:0:0:0:0:0:0:0:60|h[特效敏捷药剂]|h|r",
-				["埃提耶什的碎片"] = "6^|cffff8000|Hitem:22726:0:0:0:0:0:0:0:60|h[埃提耶什的碎片]|h|r",
-				["Crusaders' Square Postbox Key"] = "1^|cffffffff|Hitem:13303:0:0:0:0:0:0:0:60|h[Crusaders' Square Postbox Key]|h|r",
-				["疯狂力量药水"] = "20^|cffffffff|Hitem:22828:0:0:0:0:0:0:0:60|h[疯狂力量药水]|h|r",
-				["勇士印记"] = "1^|cffa335ee|Hitem:23206:0:0:0:0:0:0:0:60|h[勇士印记]|h|r",
-				["圣甲虫箱的钥匙"] = "1^|cffffffff|Hitem:21761:0:0:0:0:0:0:0:60|h[圣甲虫箱的钥匙]|h|r",
-				["精金平衡石"] = "19^|cff1eff00|Hitem:28421:0:0:0:0:0:0:0:60|h[精金平衡石]|h|r",
-				["锋利的箭"] = "196^|cffffffff|Hitem:2515:0:0:0:0:0:0:0:60|h[锋利的箭]|h|r",
-				["魔铁弹丸"] = "977^|cff1eff00|Hitem:23772:0:0:0:0:0:0:0:60|h[魔铁弹丸]|h|r",
-				["沙虫之毒"] = "1^|cffa335ee|Hitem:23570:0:0:0:0:0:0:0:60|h[沙虫之毒]|h|r",
-				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
-			},
-			["Version"] = 0.02,
-			["DurPercent"] = 100,
-			["QHAskedGet"] = true,
-			["L"] = {
-				["Events"] = {
-				},
-				["Quest"] = {
-				},
-				["Version"] = 0.1,
-			},
-			["LvlTime"] = 1714909057,
+			["LMoney"] = 1184240702,
+			["XPRest"] = 435000,
 			["Pos"] = "2020^63.531309^71.284419",
 		},
 		["AzerothCore.Gpt"] = {
 			["XPMax"] = 1523800,
-			["Pos"] = "3003^51.656985^56.930637",
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 2,
+				["MapShowGatherM"] = false,
+			},
 			["NXLoggedOnNum"] = 1,
-			["XPRest"] = 226084,
+			["LvlTime"] = 1716843064,
 			["E"] = {
 				["Info"] = {
 					{
@@ -6707,10 +6711,9 @@ NxData = {
 			["Class"] = "Paladin",
 			["LLevel"] = 70,
 			["LArenaPts"] = 0,
+			["Level"] = 70,
+			["XP"] = 23757,
 			["Time"] = 1716843175,
-			["Profs"] = {
-			},
-			["ArenaPts"] = 0,
 			["LMoney"] = 9580733,
 			["TimePlayed"] = 145106,
 			["L"] = {
@@ -6718,13 +6721,14 @@ NxData = {
 				},
 				["FavF"] = {
 				},
-				["Version"] = 0.1,
-				["Quest"] = {
-				},
 				["FavI"] = {
 				},
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
 			},
-			["XP"] = 23757,
+			["Profs"] = {
+			},
 			["LTime"] = 1716843064,
 			["Q"] = {
 				[11156] = "C1716068068",
@@ -7132,206 +7136,206 @@ NxData = {
 				[5281] = "C1716319824",
 				[10595] = "C1716705532",
 				[5341] = "c0",
-				[11205] = "C1716068077",
+				[527] = "C1715927813",
 				[10691] = "C1716738560",
-				[10227] = "C1716812309",
+				[547] = "C1715948758",
 				[9684] = "C1715632134",
-				[5062] = "C1715884285",
-				[10109] = "C1716811328",
+				[10117] = "C1716497325",
+				[508] = "C1716115242",
 				[9708] = "C1716532302",
 				[9716] = "C1716466745",
 				[9724] = "C1716491187",
 				[9732] = "C1716491845",
-				[11124] = "C1716017250",
+				[10101] = "C1716674224",
 				[10095] = "C1716738145",
 				[11201] = "C1716028757",
 				[10091] = "C1716738133",
 				[9772] = "C1716490163",
-				[10134] = "C1716491486",
+				[10178] = "C1716729120",
 				[9788] = "C1716469019",
 				[9796] = "C1716497653",
 				[9804] = "C1716617383",
-				[10641] = "C1716727957",
+				[10010] = "C1716640069",
 				[4402] = "C1715542450",
 				[9828] = "C1716491099",
-				[10094] = "C1716729701",
+				[9635] = "C1716492198",
 				[936] = "C1716322080",
 				[5441] = "C1715542370",
-				[506] = "C1715949671",
+				[10045] = "C1716657641",
 				[9868] = "C1716583277",
 				[9876] = "C1716497141",
-				[10167] = "C1716791279",
-				[825] = "C1715547263",
+				[4971] = "C1716288294",
+				[1058] = "C1715854660",
 				[9900] = "C1716673133",
-				[10646] = "C1716728066",
+				[9967] = "C1716581590",
 				[4450] = "C1716124776",
-				[10177] = "C1716728459",
+				[869] = "C1715630510",
 				[9932] = "C1716640529",
-				[9810] = "C1716632920",
+				[9743] = "C1716530438",
 				[9948] = "C1716618909",
-				[10082] = "C1716657884",
+				[9962] = "C1716581527",
 				[9916] = "C1716632802",
 				[9972] = "C1716581713",
-				[9914] = "C1716658156",
+				[3504] = "c0",
 				[9907] = "C1716632788",
-				[10688] = "C1716707053",
+				[9865] = "C1716627252",
 				[10004] = "C1716635928",
 				[9852] = "C1716633049",
 				[6548] = "C1715769633",
 				[5529] = "c0",
 				[866] = "c0",
 				[10044] = "C1716640671",
-				[9970] = "C1716581656",
+				[4506] = "C1716234400",
 				[1066] = "C1715805547",
 				[8465] = "C1716208197",
-				[6148] = "C1716373260",
-				[5235] = "C1716281220",
-				[520] = "C1716115606",
+				[1239] = "C1716016421",
+				[5094] = "C1716237303",
+				[9820] = "C1716492237",
 				[4542] = "C1715872899",
-				[834] = "C1715547034",
-				[711] = "C1716034673",
-				[3463] = "C1716188717",
+				[873] = "C1715804411",
+				[892] = "C1715635397",
+				[11169] = "C1716068085",
 				[10132] = "C1716491483",
 				[9991] = "C1716580984",
-				[891] = "C1715635306",
+				[638] = "c0",
 				[3821] = "C1716232867",
 				[9141] = "C1716311187",
 				[10172] = "C1716792239",
 				[11203] = "C1716028957",
 				[11211] = "W0",
 				[5096] = "C1716271685",
-				[959] = "c0",
 				[10212] = "C1716792365",
-				[5093] = "C1716271243",
+				[959] = "c0",
+				[5095] = "C1716271243",
 				[10228] = "C1716812419",
 				[9937] = "C1716632765",
 				[3441] = "C1716115854",
 				[10252] = "C1716812882",
 				[962] = "c0",
-				[5742] = "C1716359973",
+				[899] = "C1715672800",
 				[898] = "C1715635320",
 				[568] = "c0",
 				[964] = "C1716320501",
-				[9789] = "C1716550271",
-				[901] = "C1715633621",
+				[498] = "C1715805576",
+				[3481] = "C1716188728",
 				[6026] = "c0",
 				[7723] = "C1716122824",
 				[7727] = "C1716122827",
-				[6022] = "C1716310142",
+				[5542] = "C1716359927",
 				[2846] = "c0",
-				[3822] = "C1716233346",
+				[9731] = "C1716491063",
 				[7722] = "C1716123547",
-				[902] = "C1715633811",
-				[5149] = "C1716289471",
-				[9434] = "C1715883697",
-				[782] = "C1716121595",
-				[9709] = "C1716548275",
+				[9856] = "C1716583160",
+				[878] = "C1715807265",
+				[7728] = "C1716122349",
+				[808] = "C1715545586",
+				[5881] = "C1715842259",
 				[5721] = "C1716372076",
 				[10420] = "C1716738423",
 				[9126] = "C1716440004",
 				[10450] = "W0",
 				[1424] = "C1716029912",
-				[809] = "C1715583303",
+				[786] = "C1715545659",
 				[9437] = "C1716028340",
 				[4726] = "C1716233770",
-				[2932] = "c0",
-				[528] = "C1715928801",
-				[1064] = "C1715804632",
+				[10692] = "C1716739261",
+				[5861] = "C1716438529",
+				[533] = "C1715890548",
 				[6301] = "C1715806567",
 				[8462] = "C1716208164",
 				[1096] = "C1715806297",
-				[1240] = "C1716028834",
+				[557] = "C1715928813",
 				[5781] = "C1716360347",
-				[10374] = "C1716271243",
-				[553] = "C1715949722",
+				[9681] = "C1715632058",
+				[544] = "C1715890578",
 				[3921] = "C1715670879",
 				[3923] = "C1715760266",
-				[5243] = "c0",
-				[875] = "C1715671451",
-				[1087] = "C1715854559",
+				[924] = "C1715632410",
+				[1102] = "c0",
+				[11174] = "C1716114194",
 				[10596] = "C1716705667",
 				[5944] = "C1716439394",
-				[11174] = "C1716114194",
-				[1102] = "c0",
-				[924] = "C1715632410",
-				[544] = "C1715890578",
-				[9681] = "C1715632058",
-				[557] = "C1715928813",
+				[1087] = "C1715854559",
+				[875] = "C1715671451",
+				[5243] = "c0",
+				[553] = "C1715949722",
+				[10374] = "C1716271243",
+				[1240] = "C1716028834",
 				[5845] = "C1716361435",
 				[10668] = "C1716727960",
-				[533] = "C1715890548",
-				[5861] = "C1716438529",
-				[10692] = "C1716739261",
-				[786] = "C1715545659",
+				[1064] = "C1715804632",
+				[528] = "C1715928801",
+				[2932] = "c0",
+				[809] = "C1715583303",
 				[9685] = "C1715632305",
 				[495] = "C1715949864",
 				[9701] = "C1716530457",
-				[5881] = "C1715842259",
-				[808] = "C1715545586",
-				[7728] = "C1716122349",
-				[878] = "C1715807265",
-				[9856] = "C1716583160",
+				[9709] = "C1716548275",
+				[782] = "C1716121595",
+				[9434] = "C1715883697",
+				[5149] = "C1716289471",
+				[902] = "C1715633811",
 				[5901] = "C1716310583",
-				[9731] = "C1716491063",
-				[5542] = "C1716359927",
+				[3822] = "C1716233346",
+				[6022] = "C1716310142",
 				[9773] = "C1716469304",
-				[3481] = "C1716188728",
-				[498] = "C1715805576",
+				[901] = "C1715633621",
+				[9789] = "C1716550271",
 				[9797] = "C1716497514",
 				[9805] = "C1716617567",
-				[899] = "C1715672800",
+				[5742] = "C1716359973",
 				[9821] = "C1716583362",
 				[5941] = "C1716358726",
-				[5095] = "C1716271243",
+				[5093] = "C1716271243",
 				[9845] = "C1716492209",
 				[9853] = "C1716640419",
-				[638] = "c0",
+				[891] = "C1715635306",
 				[5961] = "C1716372399",
-				[11169] = "C1716068085",
-				[892] = "C1715635397",
-				[873] = "C1715804411",
-				[9820] = "C1716492237",
-				[5094] = "C1716237303",
-				[1239] = "C1716016421",
+				[3463] = "C1716188717",
+				[711] = "C1716034673",
+				[834] = "C1715547034",
+				[520] = "C1716115606",
+				[5235] = "C1716281220",
+				[6148] = "C1716373260",
 				[9925] = "C1716658149",
 				[4021] = "C1715722699",
-				[4506] = "C1716234400",
+				[9970] = "C1716581656",
 				[503] = "C1715949362",
 				[9957] = "C1716497589",
-				[9865] = "C1716627252",
+				[10688] = "C1716707053",
 				[9973] = "C1716581789",
-				[3504] = "c0",
+				[9914] = "C1716658156",
 				[6021] = "C1716321721",
-				[9962] = "C1716581527",
-				[9743] = "C1716530438",
-				[869] = "C1715630510",
-				[9967] = "C1716581590",
-				[1058] = "C1715854660",
-				[4971] = "C1716288294",
-				[10045] = "C1716657641",
-				[9635] = "C1716492198",
-				[10010] = "C1716640069",
-				[10178] = "C1716729120",
+				[10082] = "C1716657884",
+				[9810] = "C1716632920",
+				[10177] = "C1716728459",
+				[10646] = "C1716728066",
+				[825] = "C1715547263",
+				[10167] = "C1716791279",
+				[506] = "C1715949671",
+				[10094] = "C1716729701",
+				[10641] = "C1716727957",
+				[10134] = "C1716491486",
 				[507] = "C1716115191",
 				[10085] = "C1716673863",
 				[5050] = "C1716271352",
-				[10101] = "C1716674224",
-				[508] = "C1716115242",
-				[10117] = "C1716497325",
-				[547] = "C1715948758",
-				[527] = "C1715927813",
+				[11124] = "C1716017250",
+				[10109] = "C1716811328",
+				[5062] = "C1715884285",
+				[10227] = "C1716812309",
+				[11205] = "C1716068077",
 			},
 			["TBar"] = {
 				["Version"] = 0.1,
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
-			["QHAskedGet"] = true,
 			["Honor"] = 0,
+			["QHAskedGet"] = true,
 			["Money"] = 9580733,
 			["LXPMax"] = 1523800,
 			["LXP"] = 23757,
@@ -7346,10 +7350,10 @@ NxData = {
 					["Y"] = -230.9697498236634,
 					["H"] = 40,
 					["_H"] = 40,
-					["_X"] = 999999,
+					["Hide"] = true,
 					["X"] = 7.555484659143021,
 					["_Y"] = -0.17,
-					["Hide"] = true,
+					["_X"] = 999999,
 				},
 				["NxQuestList"] = {
 					["A"] = "CENTER",
@@ -7370,8 +7374,8 @@ NxData = {
 					["X"] = 81.12678406943702,
 					["MaxH"] = 767.9999427795418,
 					["Hide"] = true,
-					["_Y"] = -0.15,
 					["MaxW"] = 1024,
+					["_Y"] = -0.15,
 					["_X"] = -0.24,
 				},
 				["NxDD"] = {
@@ -7382,10 +7386,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -7407,71 +7411,31 @@ NxData = {
 					["_Y"] = -0.35,
 					["_X"] = -0.8,
 				},
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["FI"] = 1,
-					["FO"] = 0,
-					["9001Y"] = -0.4,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9003Y"] = -0.4,
-					["MaxL"] = 2,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["MaxX"] = 128,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["MaxH"] = 767.9999427795418,
-					["MaxW"] = 1024,
-					["_X"] = -0.0001,
-					["A"] = "TOPRIGHT",
-					["MaxY"] = 95.99999284744273,
-					["9001W"] = -0.19,
-					["9004W"] = -0.19,
-					["9003W"] = -0.19,
-					["9008Y"] = -0.4,
-					["9009H"] = -0.3,
-					["9004L"] = 1,
-					["9004H"] = -0.3,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["MaxA"] = "TOPLEFT",
-					["9001L"] = 1,
-					["MaxS"] = 1,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9002Y"] = -0.4,
-					["9004Y"] = -0.4,
-					["9008X"] = -0.0001,
-					["W"] = 194.5599526977546,
-					["9009X"] = -0.0001,
-					["Y"] = -3.085708572183422,
-					["X"] = -21.0520741186727,
-					["H"] = 230.3999866485598,
-					["9008W"] = -0.19,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["9008L"] = 1,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
+				["NxFav"] = {
+					["_W"] = -0.54,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 432.6760647196164,
-					["Y"] = 757.1830865564482,
-					["H"] = 64.90140741912413,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["X"] = 1009.577484345772,
-					["_Y"] = -0.7,
+					["W"] = 691.1999897003176,
+					["Y"] = 239.9999773502353,
+					["H"] = 479.9999547004707,
+					["_H"] = -0.5,
 					["Hide"] = true,
+					["X"] = 294.3999956130982,
+					["_Y"] = -0.25,
+					["_X"] = -0.23,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 324.5070370956207,
+					["X"] = 865.3521294392327,
+					["_H"] = 40,
+					["Hide"] = true,
+					["H"] = 40,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["NxMapDock"] = {
 					["A"] = "TOPRIGHT",
@@ -7499,10 +7463,10 @@ NxData = {
 					["Y"] = 216.3380209157166,
 					["X"] = 216.3380209157166,
 					["_H"] = -0.5,
-					["Hide"] = true,
+					["_X"] = -0.15,
 					["H"] = 540.8450236790624,
 					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["Hide"] = true,
 				},
 				["Version"] = 0.31,
 				["NxEventsList"] = {
@@ -7513,10 +7477,10 @@ NxData = {
 					["Y"] = 649.0140741912413,
 					["H"] = 108.1690123652069,
 					["_H"] = -0.1,
-					["_X"] = -0.75,
+					["Hide"] = true,
 					["X"] = 1081.690161799041,
 					["_Y"] = -0.6,
-					["Hide"] = true,
+					["_X"] = -0.75,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -7540,36 +7504,76 @@ NxData = {
 					["Y"] = -22.28569951227755,
 					["X"] = 6.428480052523613,
 					["_H"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.25,
 					["H"] = 671.9999594688421,
 					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 324.5070370956207,
-					["X"] = 865.3521294392327,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["H"] = 40,
-					["_Y"] = -0.3,
 					["Hide"] = true,
 				},
-				["NxFav"] = {
-					["_W"] = -0.54,
+				["NxCombat"] = {
+					["_W"] = -0.3,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 691.1999897003176,
-					["Y"] = 239.9999773502353,
-					["H"] = 479.9999547004707,
-					["_H"] = -0.5,
-					["_X"] = -0.23,
-					["X"] = 294.3999956130982,
-					["_Y"] = -0.25,
+					["W"] = 432.6760647196164,
+					["Y"] = 757.1830865564482,
+					["H"] = 64.90140741912413,
+					["_H"] = -0.06,
 					["Hide"] = true,
+					["X"] = 1009.577484345772,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["FI"] = 1,
+					["FO"] = 0,
+					["9001Y"] = -0.4,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9003Y"] = -0.4,
+					["MaxL"] = 2,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["MaxX"] = 128,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["MaxH"] = 767.9999427795418,
+					["MaxW"] = 1024,
+					["_X"] = -0.0001,
+					["A"] = "TOPRIGHT",
+					["9008L"] = 1,
+					["9001W"] = -0.19,
+					["9004W"] = -0.19,
+					["9003W"] = -0.19,
+					["9008Y"] = -0.4,
+					["9009H"] = -0.3,
+					["9004L"] = 1,
+					["9004H"] = -0.3,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["MaxA"] = "TOPLEFT",
+					["9001L"] = 1,
+					["MaxS"] = 1,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["9008W"] = -0.19,
+					["H"] = 230.3999866485598,
+					["9009X"] = -0.0001,
+					["W"] = 194.5599526977546,
+					["9008X"] = -0.0001,
+					["Y"] = -3.085708572183422,
+					["X"] = -21.0520741186727,
+					["9004Y"] = -0.4,
+					["9002Y"] = -0.4,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["MaxY"] = 95.99999284744273,
 				},
 			},
 			["LXPRest"] = 226084,
@@ -7577,13 +7581,9 @@ NxData = {
 			["Version"] = 0.02,
 			["DurPercent"] = 79.56834532374101,
 			["DurLowPercent"] = 75.55555555555556,
-			["Level"] = 70,
-			["LvlTime"] = 1716843064,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 2,
-				["MapShowGatherM"] = false,
-			},
+			["ArenaPts"] = 0,
+			["XPRest"] = 226084,
+			["Pos"] = "3003^51.656985^56.930637",
 		},
 		["AzerothCore.Lucy"] = {
 			["XPMax"] = 8700,
@@ -7603,28 +7603,34 @@ NxData = {
 			["Class"] = "Mage",
 			["LLevel"] = 11,
 			["LArenaPts"] = 0,
-			["Pos"] = "2020^62.505758^70.566201",
-			["XPRest"] = 2182,
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 1,
+				["MapShowGatherM"] = false,
+			},
+			["LvlTime"] = 1714857578,
 			["TBar"] = {
 				["Version"] = 0.1,
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["LMoney"] = 0,
 			["TimePlayed"] = 12560,
 			["Level"] = 11,
 			["XP"] = 0,
-			["LTime"] = 1714857578,
+			["Profs"] = {
+			},
 			["Q"] = {
 			},
-			["ArenaPts"] = 0,
-			["Time"] = 1714857937,
+			["LXPMax"] = 8700,
+			["Honor"] = 0,
 			["QHAskedGet"] = true,
 			["Money"] = 0,
+			["LXP"] = 0,
 			["W"] = {
 				["NxHUD"] = {
 					["_W"] = 8,
@@ -7634,10 +7640,10 @@ NxData = {
 					["Y"] = 163.19998459816,
 					["X"] = 635.999990463257,
 					["_H"] = 40,
-					["Hide"] = true,
+					["_X"] = 999999,
 					["H"] = 40,
 					["_Y"] = -0.17,
-					["_X"] = 999999,
+					["Hide"] = true,
 				},
 				["NxQuestList"] = {
 					["_W"] = -0.52,
@@ -7647,10 +7653,10 @@ NxData = {
 					["Y"] = 143.9999864101412,
 					["H"] = 623.9999411106119,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["X"] = 307.1999954223633,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -7660,10 +7666,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -7687,6 +7693,51 @@ NxData = {
 					["_Y"] = -0.35,
 					["_X"] = -0.8,
 				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 287.9999728202824,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = 767.9999885559083,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -7.200050246714797,
+					["X"] = 8.142566559574506,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.63,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 806.3999818801883,
+					["Y"] = 191.9999856948855,
+					["X"] = 192.0000047683715,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["H"] = 479.9999547004707,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
 				["NxMap1"] = {
 					["9002L"] = 1,
 					["9009Y"] = -0.4,
@@ -7709,7 +7760,7 @@ NxData = {
 					["MaxW"] = 1024,
 					["_X"] = -0.0001,
 					["A"] = "TOPRIGHT",
-					["9008Y"] = -0.4,
+					["MaxY"] = 95.99999284744273,
 					["9001W"] = -0.19,
 					["9002Y"] = -0.4,
 					["9003W"] = -0.19,
@@ -7726,64 +7777,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9004W"] = -0.19,
-					["9004L"] = 1,
-					["9008X"] = -0.0001,
-					["W"] = 180.9885951729328,
+					["9008W"] = -0.19,
+					["9004H"] = -0.3,
 					["9009X"] = -0.0001,
+					["W"] = 180.9885951729328,
+					["9008X"] = -0.0001,
 					["Y"] = 0,
 					["X"] = -26.05323752681557,
-					["9004H"] = -0.3,
-					["9008W"] = -0.19,
+					["9004L"] = 1,
+					["9004W"] = -0.19,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["MaxY"] = 95.99999284744273,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -7.200050246714797,
-					["X"] = 8.142566559574506,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.63,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 806.3999818801883,
-					["Y"] = 191.9999856948855,
-					["X"] = 192.0000047683715,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["H"] = 479.9999547004707,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 319.9999952316285,
-					["Y"] = 575.9999456405648,
-					["H"] = 95.99999094009414,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 959.9999856948855,
-					["_Y"] = -0.6,
-					["Hide"] = true,
+					["9008Y"] = -0.4,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -7807,10 +7813,10 @@ NxData = {
 					["Y"] = 95.99999284744273,
 					["X"] = 319.9999952316285,
 					["_H"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.25,
 					["H"] = 671.9999594688421,
 					["_Y"] = -0.1,
-					["_X"] = -0.25,
+					["Hide"] = true,
 				},
 				["NxCombat"] = {
 					["_W"] = -0.3,
@@ -7820,410 +7826,50 @@ NxData = {
 					["Y"] = 671.9999365806589,
 					["H"] = 57.59999456405647,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["X"] = 895.9999866485597,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 287.9999728202824,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 767.9999885559083,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 319.9999952316285,
+					["Y"] = 575.9999456405648,
+					["H"] = 95.99999094009414,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["X"] = 959.9999856948855,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
-			["LXP"] = 0,
 			["L"] = {
-				["Events"] = {
-				},
 				["Quest"] = {
 				},
 				["Version"] = 0.1,
+				["Events"] = {
+				},
 			},
 			["LXPRest"] = 2170,
 			["LHonor"] = 0,
 			["Version"] = 0.02,
-			["Honor"] = 0,
-			["LXPMax"] = 8700,
-			["Profs"] = {
-			},
-			["LvlTime"] = 1714857578,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 1,
-				["MapShowGatherM"] = false,
-			},
+			["Time"] = 1714857937,
+			["ArenaPts"] = 0,
+			["LTime"] = 1714857578,
+			["XPRest"] = 2182,
+			["Pos"] = "2020^62.505758^70.566201",
 		},
 		["AzerothCore.Bkk"] = {
 			["XPMax"] = 290000,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 1,
-				["MapShowGatherM"] = false,
-			},
+			["Pos"] = "1014^38.549483^86.039418",
 			["NXLoggedOnNum"] = 1,
-			["LvlTime"] = 1714858044,
+			["XPRest"] = 364664,
 			["LXPMax"] = 290000,
 			["LTime"] = 1714858044,
 			["LLevel"] = 60,
 			["LArenaPts"] = 0,
-			["Level"] = 60,
-			["XP"] = 158,
-			["Time"] = 1714858113,
-			["LMoney"] = 33621832,
-			["TimePlayed"] = 217427,
-			["L"] = {
-				["Events"] = {
-				},
-				["Quest"] = {
-				},
-				["Version"] = 0.1,
-			},
-			["Profs"] = {
-				["工程学"] = {
-					["Rank"] = 450,
-				},
-				["制皮"] = {
-					["Rank"] = 450,
-				},
-				["草药学"] = {
-					["Rank"] = 450,
-				},
-				["铭文"] = {
-					["Rank"] = 450,
-				},
-				["采矿"] = {
-					["Rank"] = 450,
-				},
-				["附魔"] = {
-					["Rank"] = 460,
-				},
-				["珠宝加工"] = {
-					["Rank"] = 450,
-				},
-				["裁缝"] = {
-					["Rank"] = 450,
-				},
-				["剥皮"] = {
-					["Rank"] = 450,
-				},
-				["炼金术"] = {
-					["Rank"] = 450,
-				},
-				["锻造"] = {
-					["Rank"] = 450,
-				},
-			},
-			["TBar"] = {
-				["Version"] = 0.1,
-				["NxMap1TB"] = {
-					["Space"] = 1,
-					["AlignR"] = true,
-					["AlignB"] = true,
-					["Size"] = 22,
-				},
-			},
-			["Q"] = {
-				[1018] = "C1714759613",
-				[9126] = "W0",
-				[1004] = "C1714759613",
-				[974] = "C1714759613",
-				[7481] = "W0",
-				[9128] = "W0",
-				[9229] = "W0",
-				[8276] = "W0",
-				[4324] = "W0",
-				[8631] = "W0",
-				[980] = "W0",
-				[8634] = "W0",
-				[8060] = "W0",
-				[8790] = "W0",
-				[8068] = "W0",
-				[5065] = "W0",
-				[8240] = "W0",
-				[1123] = "W0",
-				[9124] = "W0",
-				[1000] = "C1714759613",
-				[9131] = "W0",
-				[8789] = "W0",
-				[8069] = "W0",
-				[4769] = "W0",
-				[5094] = "W0",
-			},
-			["QHAskedGet"] = true,
-			["LHonor"] = 0,
-			["Honor"] = 0,
-			["Money"] = 33621832,
-			["ArenaPts"] = 0,
-			["LXP"] = 158,
-			["W"] = {
-				["NxHUD"] = {
-					["_W"] = 8,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 8,
-					["Y"] = 163.19998459816,
-					["X"] = 635.999990463257,
-					["_H"] = 40,
-					["Hide"] = true,
-					["H"] = 40,
-					["_Y"] = -0.17,
-					["_X"] = 999999,
-				},
-				["NxQuestList"] = {
-					["_W"] = -0.52,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 665.5999900817873,
-					["Y"] = 143.9999864101412,
-					["H"] = 623.9999411106119,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["X"] = 307.1999954223633,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["H"] = 209,
-					["_H"] = 209,
-					["_X"] = 0,
-					["X"] = 0,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["MinW"] = 124.0000038743019,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["MinX"] = -32.57131528003044,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["MinY"] = 206.5717094157382,
-					["Mode"] = "Min",
-					["_W"] = -0.2,
-					["S"] = 1,
-					["W"] = 124.0000038743019,
-					["Min"] = true,
-					["X"] = -94.28548672369887,
-					["MinH"] = 40,
-					["MinS"] = 1,
-					["MinA"] = "TOPRIGHT",
-					["Y"] = -211.6423956805111,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxMap1"] = {
-					["9002L"] = 1,
-					["9009Y"] = -0.4,
-					["FI"] = 1,
-					["FO"] = 0,
-					["9001Y"] = -0.4,
-					["9003H"] = -0.3,
-					["_H"] = -0.3,
-					["_L"] = 1,
-					["9009W"] = -0.19,
-					["9003Y"] = -0.4,
-					["MaxL"] = 2,
-					["9008H"] = -0.3,
-					["9002X"] = -0.0001,
-					["9001H"] = -0.3,
-					["MaxX"] = 128,
-					["9002H"] = -0.3,
-					["9002W"] = -0.19,
-					["MaxH"] = 767.9999427795418,
-					["MaxW"] = 1024,
-					["_X"] = -0.0001,
-					["A"] = "TOPRIGHT",
-					["9008Y"] = -0.4,
-					["9001W"] = -0.19,
-					["9002Y"] = -0.4,
-					["9003W"] = -0.19,
-					["9008L"] = 1,
-					["9009H"] = -0.3,
-					["9004W"] = -0.19,
-					["9008W"] = -0.19,
-					["9003L"] = 1,
-					["9003X"] = -0.0001,
-					["9009L"] = 1,
-					["L"] = 1,
-					["MaxA"] = "TOPLEFT",
-					["9001L"] = 1,
-					["MaxS"] = 1,
-					["_W"] = -0.19,
-					["S"] = 1,
-					["9004L"] = 1,
-					["9004H"] = -0.3,
-					["9008X"] = -0.0001,
-					["W"] = 176.7027828588667,
-					["9009X"] = -0.0001,
-					["Y"] = 0.3430366464996837,
-					["X"] = -30.33876373859102,
-					["H"] = 202.9714935575203,
-					["9004Y"] = -0.4,
-					["9004X"] = -0.0001,
-					["9001X"] = -0.0001,
-					["_Y"] = -0.4,
-					["MaxY"] = 95.99999284744273,
-				},
-				["NxMapDock"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 52,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 47.99995350837776,
-					["Y"] = -7.200050246714797,
-					["X"] = 8.142566559574506,
-					["H"] = 40,
-					["_H"] = 69,
-					["_L"] = 2,
-					["L"] = 2,
-					["_Y"] = -0.08,
-					["_X"] = 100045,
-				},
-				["NxGuide1"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.63,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 806.3999818801883,
-					["Y"] = 191.9999856948855,
-					["X"] = 192.0000047683715,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["H"] = 479.9999547004707,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 319.9999952316285,
-					["Y"] = 575.9999456405648,
-					["H"] = 95.99999094009414,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 959.9999856948855,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxPunkHUD"] = {
-					["_W"] = 135,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 135,
-					["Y"] = 95.99999094009414,
-					["H"] = 87,
-					["_H"] = 87,
-					["X"] = 767.9999885559083,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
-				},
-				["NxOpts"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 639.999990463257,
-					["Y"] = 95.99999284744273,
-					["X"] = 319.9999952316285,
-					["_H"] = -0.7,
-					["Hide"] = true,
-					["H"] = 671.9999594688421,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 383.9999942779542,
-					["Y"] = 671.9999365806589,
-					["H"] = 57.59999456405647,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["X"] = 895.9999866485597,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 287.9999728202824,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 767.9999885559083,
-					["_Y"] = -0.3,
-					["Hide"] = true,
-				},
-			},
-			["LXPRest"] = 364604,
-			["WareBags"] = {
-				["元素之核"] = "9^|cffffffff|Hitem:22527:0:0:0:0:0:0:0:60|h[元素之核]|h|r",
-				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
-				["神圣巫师之油"] = "20^|cff1eff00|Hitem:23123:0:0:0:0:0:0:0:60|h[神圣巫师之油]|h|r",
-				["超级巫师之油"] = "4^|cffffffff|Hitem:22522:0:0:0:0:0:0:0:60|h[超级巫师之油]|h|r",
-				["蛮荒之叶"] = "12^|cffffffff|Hitem:22529:0:0:0:0:0:0:0:60|h[蛮荒之叶]|h|r",
-				["野外实验工具包"] = "1^|cffffffff|Hitem:8523:0:0:0:0:0:0:0:60|h[野外实验工具包]|h|r",
-				["强效奥法药剂"] = "19^|cffffffff|Hitem:13454:0:0:0:0:0:0:0:60|h[强效奥法药剂]|h|r",
-				["黎明徽记"] = "1^|cff1eff00|Hitem:22523:0:0:0:0:0:0:0:60|h[黎明徽记]|h|r",
-				["沙漏"] = "137^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
-				["卡亚罗之石"] = "1^|cff1eff00|Hitem:19598:0:0:0:3582:0:0:0:60|h[卡亚罗之石]|h|r",
-				["特效治疗药水"] = "17^|cffffffff|Hitem:13446:0:0:0:0:0:0:0:60|h[特效治疗药水]|h|r",
-				["船长的钥匙"] = "1^|cff1eff00|Hitem:9249:0:0:0:0:0:0:0:60|h[船长的钥匙]|h|r",
-				["符印碎片"] = "1^|cffffffff|Hitem:4450:0:0:0:0:0:0:0:60|h[符印碎片]|h|r",
-				["法力红宝石"] = "1^|cffffffff|Hitem:8008:0:0:0:0:0:0:0:60|h[法力红宝石]|h|r",
-				["特效法力药水"] = "5^|cffffffff|Hitem:13444:0:0:0:0:0:0:0:60|h[特效法力药水]|h|r",
-				["大型圣甲虫箱的钥匙"] = "2^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
-				["超级能量合剂"] = "19^|cffffffff|Hitem:13512:0:0:0:0:0:0:0:60|h[超级能量合剂]|h|r",
-				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
-			},
-			["Version"] = 0.02,
-			["Class"] = "Mage",
-			["WareInv"] = {
-				"HeadSlot^|cff0070dd|Hitem:19886:0:0:0:0:0:0:0:60|h[妖术师头巾]|h|r", -- [1]
-				"NeckSlot^|cffa335ee|Hitem:21678:0:0:0:0:0:0:0:60|h[纯洁项链]|h|r", -- [2]
-				"ShoulderSlot^|cffa335ee|Hitem:16917:3838:0:0:0:0:0:0:60|h[灵风衬肩]|h|r", -- [3]
-				"BackSlot^|cffa335ee|Hitem:22731:3722:0:0:0:0:0:0:60|h[被吞噬者的披风]|h|r", -- [4]
-				"ChestSlot^|cffa335ee|Hitem:21343:3832:0:0:0:0:0:0:60|h[神秘长袍]|h|r", -- [5]
-				"ShirtSlot^|cffffffff|Hitem:6096:0:0:0:0:0:0:0:60|h[学徒衬衣]|h|r", -- [6]
-				"WristSlot^|cff1eff00|Hitem:14416:3758:0:0:0:0:0:0:60|h[石布束腕]|h|r", -- [7]
-				"HandsSlot^|cffa335ee|Hitem:21585:3246:3520:0:0:0:0:0:60|h[黑暗风暴护手]|h|r", -- [8]
-				"WaistSlot^|cffa335ee|Hitem:16818:3601:3520:0:0:0:0:0:60|h[灵风腰带]|h|r", -- [9]
-				"LegsSlot^|cff1eff00|Hitem:9797:3872:0:0:0:0:769:0:60|h[夜枭之青布短裤]|h|r", -- [10]
-				"FeetSlot^|cffa335ee|Hitem:16912:3826:3520:0:3657:0:0:0:60|h[灵风长靴]|h|r", -- [11]
-				"Finger0Slot^|cffa335ee|Hitem:21709:3840:0:0:0:0:0:0:60|h[堕落神明之戒]|h|r", -- [12]
-				"Finger1Slot^|cffa335ee|Hitem:21707:3840:0:0:0:0:0:0:60|h[风暴思绪之戒]|h|r", -- [13]
-				"Trinket0Slot^|cffa335ee|Hitem:18820:0:0:0:0:0:0:0:60|h[短暂能量护符]|h|r", -- [14]
-				"Trinket1Slot^|cffa335ee|Hitem:19950:0:0:0:0:0:0:0:60|h[赞达拉英雄护符]|h|r", -- [15]
-				"MainHandSlot^|cffa335ee|Hitem:19347:3788:0:0:0:0:0:0:60|h[克洛玛古斯之爪]|h|r", -- [16]
-				"SecondaryHandSlot^|cffa335ee|Hitem:21597:3788:0:0:0:0:0:0:60|h[维克洛尔皇家节杖]|h|r", -- [17]
-				"RangedSlot^|cff0070dd|Hitem:13065:0:0:0:0:0:0:0:60|h[奥利斯塔的魔杖]|h|r", -- [18]
-				"Bag0Slot^|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:60|h[“巨无霸”背包]|h|r", -- [19]
-				"Bag1Slot^|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:60|h[“巨无霸”背包]|h|r", -- [20]
-				"Bag2Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [21]
-				"Bag3Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [22]
-			},
 			["E"] = {
 				["Info"] = {
 					{
@@ -8252,8 +7898,362 @@ NxData = {
 				["Herb"] = {
 				},
 			},
-			["XPRest"] = 364664,
-			["Pos"] = "1014^38.549483^86.039418",
+			["WareInv"] = {
+				"HeadSlot^|cff0070dd|Hitem:19886:0:0:0:0:0:0:0:60|h[妖术师头巾]|h|r", -- [1]
+				"NeckSlot^|cffa335ee|Hitem:21678:0:0:0:0:0:0:0:60|h[纯洁项链]|h|r", -- [2]
+				"ShoulderSlot^|cffa335ee|Hitem:16917:3838:0:0:0:0:0:0:60|h[灵风衬肩]|h|r", -- [3]
+				"BackSlot^|cffa335ee|Hitem:22731:3722:0:0:0:0:0:0:60|h[被吞噬者的披风]|h|r", -- [4]
+				"ChestSlot^|cffa335ee|Hitem:21343:3832:0:0:0:0:0:0:60|h[神秘长袍]|h|r", -- [5]
+				"ShirtSlot^|cffffffff|Hitem:6096:0:0:0:0:0:0:0:60|h[学徒衬衣]|h|r", -- [6]
+				"WristSlot^|cff1eff00|Hitem:14416:3758:0:0:0:0:0:0:60|h[石布束腕]|h|r", -- [7]
+				"HandsSlot^|cffa335ee|Hitem:21585:3246:3520:0:0:0:0:0:60|h[黑暗风暴护手]|h|r", -- [8]
+				"WaistSlot^|cffa335ee|Hitem:16818:3601:3520:0:0:0:0:0:60|h[灵风腰带]|h|r", -- [9]
+				"LegsSlot^|cff1eff00|Hitem:9797:3872:0:0:0:0:769:0:60|h[夜枭之青布短裤]|h|r", -- [10]
+				"FeetSlot^|cffa335ee|Hitem:16912:3826:3520:0:3657:0:0:0:60|h[灵风长靴]|h|r", -- [11]
+				"Finger0Slot^|cffa335ee|Hitem:21709:3840:0:0:0:0:0:0:60|h[堕落神明之戒]|h|r", -- [12]
+				"Finger1Slot^|cffa335ee|Hitem:21707:3840:0:0:0:0:0:0:60|h[风暴思绪之戒]|h|r", -- [13]
+				"Trinket0Slot^|cffa335ee|Hitem:18820:0:0:0:0:0:0:0:60|h[短暂能量护符]|h|r", -- [14]
+				"Trinket1Slot^|cffa335ee|Hitem:19950:0:0:0:0:0:0:0:60|h[赞达拉英雄护符]|h|r", -- [15]
+				"MainHandSlot^|cffa335ee|Hitem:19347:3788:0:0:0:0:0:0:60|h[克洛玛古斯之爪]|h|r", -- [16]
+				"SecondaryHandSlot^|cffa335ee|Hitem:21597:3788:0:0:0:0:0:0:60|h[维克洛尔皇家节杖]|h|r", -- [17]
+				"RangedSlot^|cff0070dd|Hitem:13065:0:0:0:0:0:0:0:60|h[奥利斯塔的魔杖]|h|r", -- [18]
+				"Bag0Slot^|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:60|h[“巨无霸”背包]|h|r", -- [19]
+				"Bag1Slot^|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:60|h[“巨无霸”背包]|h|r", -- [20]
+				"Bag2Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [21]
+				"Bag3Slot^|cffffffff|Hitem:23162:0:0:0:0:0:0:0:60|h[弗洛尔的无尽抗性宝箱]|h|r", -- [22]
+			},
+			["Time"] = 1714858113,
+			["LMoney"] = 33621832,
+			["TimePlayed"] = 217427,
+			["Level"] = 60,
+			["XP"] = 158,
+			["Class"] = "Mage",
+			["Q"] = {
+				[1018] = "C1714759613",
+				[9126] = "W0",
+				[1004] = "C1714759613",
+				[974] = "C1714759613",
+				[7481] = "W0",
+				[9128] = "W0",
+				[9229] = "W0",
+				[8276] = "W0",
+				[4324] = "W0",
+				[5094] = "W0",
+				[980] = "W0",
+				[8634] = "W0",
+				[8060] = "W0",
+				[4769] = "W0",
+				[8068] = "W0",
+				[8790] = "W0",
+				[8240] = "W0",
+				[1123] = "W0",
+				[9124] = "W0",
+				[1000] = "C1714759613",
+				[8789] = "W0",
+				[9131] = "W0",
+				[8069] = "W0",
+				[5065] = "W0",
+				[8631] = "W0",
+			},
+			["Honor"] = 0,
+			["WareBags"] = {
+				["元素之核"] = "9^|cffffffff|Hitem:22527:0:0:0:0:0:0:0:60|h[元素之核]|h|r",
+				["北地合剂"] = "1^|cff0070dd|Hitem:47499:0:0:0:0:0:0:0:60|h[北地合剂]|h|r",
+				["神圣巫师之油"] = "20^|cff1eff00|Hitem:23123:0:0:0:0:0:0:0:60|h[神圣巫师之油]|h|r",
+				["超级巫师之油"] = "4^|cffffffff|Hitem:22522:0:0:0:0:0:0:0:60|h[超级巫师之油]|h|r",
+				["蛮荒之叶"] = "12^|cffffffff|Hitem:22529:0:0:0:0:0:0:0:60|h[蛮荒之叶]|h|r",
+				["野外实验工具包"] = "1^|cffffffff|Hitem:8523:0:0:0:0:0:0:0:60|h[野外实验工具包]|h|r",
+				["强效奥法药剂"] = "19^|cffffffff|Hitem:13454:0:0:0:0:0:0:0:60|h[强效奥法药剂]|h|r",
+				["黎明徽记"] = "1^|cff1eff00|Hitem:22523:0:0:0:0:0:0:0:60|h[黎明徽记]|h|r",
+				["沙漏"] = "137^|cffffffff|Hitem:19183:0:0:0:0:0:0:0:60|h[沙漏]|h|r",
+				["船长的钥匙"] = "1^|cff1eff00|Hitem:9249:0:0:0:0:0:0:0:60|h[船长的钥匙]|h|r",
+				["特效治疗药水"] = "17^|cffffffff|Hitem:13446:0:0:0:0:0:0:0:60|h[特效治疗药水]|h|r",
+				["卡亚罗之石"] = "1^|cff1eff00|Hitem:19598:0:0:0:3582:0:0:0:60|h[卡亚罗之石]|h|r",
+				["超级能量合剂"] = "19^|cffffffff|Hitem:13512:0:0:0:0:0:0:0:60|h[超级能量合剂]|h|r",
+				["大型圣甲虫箱的钥匙"] = "2^|cffffffff|Hitem:21762:0:0:0:0:0:0:0:60|h[大型圣甲虫箱的钥匙]|h|r",
+				["特效法力药水"] = "5^|cffffffff|Hitem:13444:0:0:0:0:0:0:0:60|h[特效法力药水]|h|r",
+				["法力红宝石"] = "1^|cffffffff|Hitem:8008:0:0:0:0:0:0:0:60|h[法力红宝石]|h|r",
+				["符印碎片"] = "1^|cffffffff|Hitem:4450:0:0:0:0:0:0:0:60|h[符印碎片]|h|r",
+				["炉石"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:60|h[炉石]|h|r",
+			},
+			["QHAskedGet"] = true,
+			["Money"] = 33621832,
+			["ArenaPts"] = 0,
+			["LXP"] = 158,
+			["W"] = {
+				["NxHUD"] = {
+					["_W"] = 8,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 8,
+					["Y"] = 163.19998459816,
+					["X"] = 635.999990463257,
+					["_H"] = 40,
+					["_X"] = 999999,
+					["H"] = 40,
+					["_Y"] = -0.17,
+					["Hide"] = true,
+				},
+				["NxQuestList"] = {
+					["_W"] = -0.52,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 665.5999900817873,
+					["Y"] = 143.9999864101412,
+					["H"] = 623.9999411106119,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["X"] = 307.1999954223633,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["H"] = 209,
+					["_H"] = 209,
+					["Hide"] = true,
+					["X"] = 0,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["MinW"] = 124.0000038743019,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["MinX"] = -32.57131528003044,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["MinY"] = 206.5717094157382,
+					["Mode"] = "Min",
+					["_W"] = -0.2,
+					["S"] = 1,
+					["W"] = 124.0000038743019,
+					["Min"] = true,
+					["X"] = -94.28548672369887,
+					["MinH"] = 40,
+					["MinS"] = 1,
+					["MinA"] = "TOPRIGHT",
+					["Y"] = -211.6423956805111,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 287.9999728202824,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = 767.9999885559083,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["NxMapDock"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 47.99995350837776,
+					["Y"] = -7.200050246714797,
+					["X"] = 8.142566559574506,
+					["H"] = 40,
+					["_H"] = 69,
+					["_L"] = 2,
+					["L"] = 2,
+					["_Y"] = -0.08,
+					["_X"] = 100045,
+				},
+				["NxGuide1"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.63,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 806.3999818801883,
+					["Y"] = 191.9999856948855,
+					["X"] = 192.0000047683715,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["H"] = 479.9999547004707,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["Version"] = 0.31,
+				["NxMap1"] = {
+					["9002L"] = 1,
+					["9009Y"] = -0.4,
+					["FI"] = 1,
+					["FO"] = 0,
+					["9001Y"] = -0.4,
+					["9003H"] = -0.3,
+					["_H"] = -0.3,
+					["_L"] = 1,
+					["9009W"] = -0.19,
+					["9003Y"] = -0.4,
+					["MaxL"] = 2,
+					["9008H"] = -0.3,
+					["9002X"] = -0.0001,
+					["9001H"] = -0.3,
+					["MaxX"] = 128,
+					["9002H"] = -0.3,
+					["9002W"] = -0.19,
+					["MaxH"] = 767.9999427795418,
+					["MaxW"] = 1024,
+					["_X"] = -0.0001,
+					["A"] = "TOPRIGHT",
+					["MaxY"] = 95.99999284744273,
+					["9001W"] = -0.19,
+					["9002Y"] = -0.4,
+					["9003W"] = -0.19,
+					["9008L"] = 1,
+					["9009H"] = -0.3,
+					["9004W"] = -0.19,
+					["9008W"] = -0.19,
+					["9003L"] = 1,
+					["9003X"] = -0.0001,
+					["9009L"] = 1,
+					["L"] = 1,
+					["MaxA"] = "TOPLEFT",
+					["9001L"] = 1,
+					["MaxS"] = 1,
+					["_W"] = -0.19,
+					["S"] = 1,
+					["9004Y"] = -0.4,
+					["H"] = 202.9714935575203,
+					["9009X"] = -0.0001,
+					["W"] = 176.7027828588667,
+					["9008X"] = -0.0001,
+					["Y"] = 0.3430366464996837,
+					["X"] = -30.33876373859102,
+					["9004H"] = -0.3,
+					["9004L"] = 1,
+					["9004X"] = -0.0001,
+					["9001X"] = -0.0001,
+					["_Y"] = -0.4,
+					["9008Y"] = -0.4,
+				},
+				["NxPunkHUD"] = {
+					["_W"] = 135,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 135,
+					["Y"] = 95.99999094009414,
+					["H"] = 87,
+					["_H"] = 87,
+					["X"] = 767.9999885559083,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxOpts"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 639.999990463257,
+					["Y"] = 95.99999284744273,
+					["X"] = 319.9999952316285,
+					["_H"] = -0.7,
+					["_X"] = -0.25,
+					["H"] = 671.9999594688421,
+					["_Y"] = -0.1,
+					["Hide"] = true,
+				},
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 383.9999942779542,
+					["Y"] = 671.9999365806589,
+					["H"] = 57.59999456405647,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["X"] = 895.9999866485597,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 319.9999952316285,
+					["Y"] = 575.9999456405648,
+					["H"] = 95.99999094009414,
+					["_H"] = -0.1,
+					["Hide"] = true,
+					["X"] = 959.9999856948855,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+			},
+			["LXPRest"] = 364604,
+			["LHonor"] = 0,
+			["Version"] = 0.02,
+			["TBar"] = {
+				["Version"] = 0.1,
+				["NxMap1TB"] = {
+					["Space"] = 1,
+					["AlignR"] = true,
+					["Size"] = 22,
+					["AlignB"] = true,
+				},
+			},
+			["Profs"] = {
+				["工程学"] = {
+					["Rank"] = 450,
+				},
+				["制皮"] = {
+					["Rank"] = 450,
+				},
+				["草药学"] = {
+					["Rank"] = 450,
+				},
+				["铭文"] = {
+					["Rank"] = 450,
+				},
+				["采矿"] = {
+					["Rank"] = 450,
+				},
+				["附魔"] = {
+					["Rank"] = 460,
+				},
+				["珠宝加工"] = {
+					["Rank"] = 450,
+				},
+				["炼金术"] = {
+					["Rank"] = 450,
+				},
+				["裁缝"] = {
+					["Rank"] = 450,
+				},
+				["剥皮"] = {
+					["Rank"] = 450,
+				},
+				["锻造"] = {
+					["Rank"] = 450,
+				},
+			},
+			["L"] = {
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
+				["Events"] = {
+				},
+			},
+			["LvlTime"] = 1714858044,
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 1,
+				["MapShowGatherM"] = false,
+			},
 		},
 		["AzerothCore.Big"] = {
 			["XPMax"] = 400,
@@ -8297,39 +8297,32 @@ NxData = {
 			["Class"] = "Paladin",
 			["LLevel"] = 1,
 			["LArenaPts"] = 0,
-			["Pos"] = "2010^47.845641^42.311466",
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 1,
+				["MapShowGatherM"] = false,
+			},
 			["TBar"] = {
 				["Version"] = 0.1,
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["LMoney"] = 0,
 			["TimePlayed"] = 29899,
 			["Level"] = 1,
 			["XP"] = 360,
-			["XPRest"] = 600,
+			["LvlTime"] = 1714901613,
 			["Q"] = {
 			},
-			["LTime"] = 1714901613,
-			["ArenaPts"] = 0,
+			["Profs"] = {
+			},
+			["LXPMax"] = 400,
 			["Honor"] = 0,
 			["Money"] = 0,
-			["Time"] = 1714901623,
-			["LXP"] = 360,
-			["L"] = {
-				["Quest"] = {
-				},
-				["Version"] = 0.1,
-				["Events"] = {
-				},
-			},
-			["LXPRest"] = 600,
-			["LHonor"] = 0,
-			["Version"] = 0.02,
 			["W"] = {
 				["NxHUD"] = {
 					["_W"] = 8,
@@ -8339,10 +8332,10 @@ NxData = {
 					["Y"] = 167.3846029134899,
 					["H"] = 40,
 					["_H"] = 40,
-					["Hide"] = true,
+					["_X"] = 999999,
 					["X"] = 652.4102837978261,
 					["_Y"] = -0.17,
-					["_X"] = 999999,
+					["Hide"] = true,
 				},
 				["NxQuestList"] = {
 					["_W"] = -0.52,
@@ -8352,10 +8345,10 @@ NxData = {
 					["Y"] = 147.6922966883734,
 					["X"] = 315.0769362229565,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["H"] = 639.9999523162849,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -8365,10 +8358,10 @@ NxData = {
 					["Y"] = 0,
 					["X"] = 0,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["H"] = 209,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["_W"] = -0.2,
@@ -8404,10 +8397,10 @@ NxData = {
 					["Y"] = 196.9230622511646,
 					["X"] = 196.9230851393478,
 					["_H"] = -0.5,
-					["Hide"] = true,
+					["_X"] = -0.15,
 					["H"] = 492.3076556279115,
 					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["Hide"] = true,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -8437,22 +8430,22 @@ NxData = {
 					["9009L"] = 1,
 					["L"] = 1,
 					["9001L"] = 1,
-					["9001W"] = -0.19,
+					["H"] = 230.3999828338625,
 					["_W"] = -0.19,
 					["9008L"] = 1,
 					["9004H"] = -0.3,
 					["9004L"] = 1,
-					["9004Y"] = -0.4,
+					["9004W"] = -0.19,
 					["W"] = 194.56,
 					["9008X"] = -0.0001,
 					["Y"] = 307.1999771118167,
 					["X"] = 0.1024,
 					["9009X"] = -0.0001,
-					["9004W"] = -0.19,
+					["9004Y"] = -0.4,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["H"] = 230.3999828338625,
+					["9001W"] = -0.19,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -8466,19 +8459,6 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.6,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 328.205141898913,
-					["Y"] = 590.7691867534937,
-					["X"] = 984.6154256967391,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["H"] = 98.4615311255823,
-					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
 				["NxCombat"] = {
 					["_W"] = -0.3,
 					["FI"] = 1,
@@ -8487,28 +8467,48 @@ NxData = {
 					["Y"] = 689.230717879076,
 					["X"] = 918.9743973169565,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["H"] = 59.07691867534938,
 					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 328.205141898913,
+					["Y"] = 590.7691867534937,
+					["X"] = 984.6154256967391,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["H"] = 98.4615311255823,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
-			["LXPMax"] = 400,
-			["Profs"] = {
+			["LXP"] = 360,
+			["L"] = {
+				["Version"] = 0.1,
+				["Events"] = {
+				},
+				["Quest"] = {
+				},
 			},
-			["LvlTime"] = 1714901613,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 1,
-				["MapShowGatherM"] = false,
-			},
+			["LXPRest"] = 600,
+			["LHonor"] = 0,
+			["Version"] = 0.02,
+			["Time"] = 1714901623,
+			["ArenaPts"] = 0,
+			["LTime"] = 1714901613,
+			["XPRest"] = 600,
+			["Pos"] = "2010^47.845641^42.311466",
 		},
 		["AzerothCore.Entropy"] = {
-			["Time"] = 1718372881,
-			["LMoney"] = 2068747,
+			["Time"] = 1718828856,
+			["LMoney"] = 23250821,
 			["Profs"] = {
 			},
-			["LXP"] = 1346568,
+			["LXP"] = 42196,
 			["LHonor"] = 179,
 			["DurLowPercent"] = 100,
 			["Opts"] = {
@@ -8516,2326 +8516,630 @@ NxData = {
 				["QMapShowQuestGivers3"] = 3,
 				["MapShowGatherM"] = false,
 			},
-			["XPMax"] = 1587900,
+			["XPMax"] = 0,
 			["NXLoggedOnNum"] = 1,
-			["E"] = {
-				["Info"] = {
-					{
-						["NXX"] = 48.91073703765869,
-						["NXY"] = 44.72973644733429,
-						["NXName"] = "Level 67",
-						["NXTime"] = 1717420261.000044,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [1]
-					{
-						["NXX"] = 32.38871991634369,
-						["NXY"] = 32.54365622997284,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420316.000045,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [2]
-					{
-						["NXX"] = 36.41817569732666,
-						["NXY"] = 5.213343724608421,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420407.000046,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [3]
-					{
-						["NXX"] = 22.70755618810654,
-						["NXY"] = 17.11545884609222,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420443.000047,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [4]
-					{
-						["NXX"] = 20.79541683197022,
-						["NXY"] = 17.08791255950928,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420444.000048,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [5]
-					{
-						["NXX"] = 28.90929877758026,
-						["NXY"] = 15.76162129640579,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420532.000049,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [6]
-					{
-						["NXX"] = 58.42105150222778,
-						["NXY"] = 87.45992779731751,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717420559.00005,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [7]
-					{
-						["NXX"] = -20.31111346483249,
-						["NXY"] = 6390.093714845181,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717446881.000001,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [8]
-					{
-						["NXX"] = -65.64279697034095,
-						["NXY"] = -558.5284964854518,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717447413.000062,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [9]
-					{
-						["NXX"] = 503.5863940914147,
-						["NXY"] = 2519.184130863661,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717447580.000063,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [10]
-					{
-						["NXX"] = 31.93043172359467,
-						["NXY"] = 24.6561124920845,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717448468.000117,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [11]
-					{
-						["NXX"] = -113.1674328286647,
-						["NXY"] = 5768.803127591407,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717448810.000001,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [12]
-					{
-						["NXX"] = -87.32836997401705,
-						["NXY"] = 5746.46858785013,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717583946.000001,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [13]
-					{
-						["NXX"] = 53.73404026031494,
-						["NXY"] = 20.67129909992218,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717583967.000002,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [14]
-					{
-						["NXX"] = 50.0358521938324,
-						["NXY"] = 45.88385820388794,
-						["NXName"] = "Level 68",
-						["NXTime"] = 1717584087.000005,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [15]
-					{
-						["NXX"] = 263.6398679018021,
-						["NXY"] = 6005.755272829532,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717611984.000001,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [16]
-					{
-						["NXX"] = -65.64279697034095,
-						["NXY"] = -558.5284964854518,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717613972.000089,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [17]
-					{
-						["NXX"] = 493.0658233845298,
-						["NXY"] = 2392.758677240861,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717614211.00009,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [18]
-					{
-						["NXX"] = 31.93043172359467,
-						["NXY"] = 24.6561124920845,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717616215.000171,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [19]
-					{
-						["NXX"] = 25.03891289234161,
-						["NXY"] = 30.39818406105042,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717616604.00018,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [20]
-					{
-						["NXX"] = 31.93043172359467,
-						["NXY"] = 24.6561124920845,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717617958.000215,
-						["T"] = "I",
-						["NXMapId"] = 3006,
-					}, -- [21]
-					{
-						["NXX"] = 67.38139390945435,
-						["NXY"] = 22.04877138137817,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717617989.000216,
-						["T"] = "I",
-						["NXMapId"] = 3005,
-					}, -- [22]
-					{
-						["NXX"] = 29.90517914295197,
-						["NXY"] = 27.82751619815826,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717618272.000217,
-						["T"] = "I",
-						["NXMapId"] = 3003,
-					}, -- [23]
-					{
-						["NXX"] = 24.75862503051758,
-						["NXY"] = 40.85910618305206,
-						["NXName"] = "Level 69",
-						["NXTime"] = 1717618726.00022,
-						["T"] = "I",
-						["NXMapId"] = 3003,
-					}, -- [24]
-					{
-						["NXX"] = -6.012570737660214,
-						["NXY"] = -517.6092510479933,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717619103.000226,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [25]
-					{
-						["NXX"] = -1119.743908822775,
-						["NXY"] = -488.8997823351861,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717619263.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [26]
-					{
-						["NXX"] = 244.6184997680968,
-						["NXY"] = 2191.945690103575,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717619766.000002,
-						["T"] = "I",
-						["NXMapId"] = 3003,
-					}, -- [27]
-					{
-						["NXX"] = 358.9178987768672,
-						["NXY"] = -634.8838770494174,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717620338.000012,
-						["T"] = "I",
-						["NXMapId"] = 2009,
-					}, -- [28]
-					{
-						["NXX"] = -345.8307665563446,
-						["NXY"] = 979.6509459210611,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717620390.000013,
-						["T"] = "I",
-						["NXMapId"] = 3003,
-					}, -- [29]
-					{
-						["NXX"] = 77.33902931213379,
-						["NXY"] = 83.52468013763428,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717621175.000017,
-						["T"] = "I",
-						["NXMapId"] = 3007,
-					}, -- [30]
-					{
-						["NXX"] = -19.98045869959726,
-						["NXY"] = -926.7073944211006,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717621405.000018,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [31]
-					{
-						["NXX"] = -774.7605011362457,
-						["NXY"] = -4399.196374794414,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717678535.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [32]
-					{
-						["NXX"] = 32.29277729988098,
-						["NXY"] = 54.20094132423401,
-						["NXName"] = "Level 70",
-						["NXTime"] = 1717680334.000083,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [33]
-					{
-						["NXX"] = -900.8598580956459,
-						["NXY"] = -4421.691262722015,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717707250.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [34]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717707268.000002,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [35]
-					{
-						["NXX"] = 129.4092779944853,
-						["NXY"] = -1333.066269140119,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717707509.000003,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [36]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717707584.000004,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [37]
-					{
-						["NXX"] = 129.4092779944853,
-						["NXY"] = -1333.066269140119,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717707614.000005,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [38]
-					{
-						["NXX"] = -786.5772292017937,
-						["NXY"] = -4418.541014194489,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717750281.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [39]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717752937.000078,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [40]
-					{
-						["NXX"] = 181.9802802761408,
-						["NXY"] = -1252.599941324141,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717753067.000079,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [41]
-					{
-						["NXX"] = -800.7272154092789,
-						["NXY"] = -4408.558315038681,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717760795.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [42]
-					{
-						["NXX"] = 49.5714008808136,
-						["NXY"] = 10.65228655934334,
-						["NXName"] = "Level 71",
-						["NXTime"] = 1717761191.000014,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [43]
-					{
-						["NXX"] = -711.6263143718243,
-						["NXY"] = -4819.825291633606,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717774881.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [44]
-					{
-						["NXX"] = -770.930726826191,
-						["NXY"] = -4863.613703846932,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717779626.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [45]
-					{
-						["NXX"] = -701.4902606606484,
-						["NXY"] = -4921.764862537384,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717787275.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [46]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717787292.000002,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [47]
-					{
-						["NXX"] = 1486.795463074154,
-						["NXY"] = -390.643097798778,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717788203.000003,
-						["T"] = "I",
-						["NXMapId"] = 2009,
-					}, -- [48]
-					{
-						["NXX"] = -370.3734637710245,
-						["NXY"] = -309.0922636487961,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717788282.000004,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [49]
-					{
-						["NXX"] = 362.9134552017466,
-						["NXY"] = 283.2584213531886,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717790637.000036,
-						["T"] = "I",
-						["NXMapId"] = 2009,
-					}, -- [50]
-					{
-						["NXX"] = -388.3093411522209,
-						["NXY"] = -308.5820714019949,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717791283.000037,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [51]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717791290.000038,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [52]
-					{
-						["NXX"] = -1111.838875722885,
-						["NXY"] = -505.1651782846452,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717820799.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [53]
-					{
-						["NXX"] = 134.4413558193768,
-						["NXY"] = -1413.328634573939,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717820807.000002,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [54]
-					{
-						["NXX"] = -886.7438331246376,
-						["NXY"] = -4646.843892335892,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717871421.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [55]
-					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717950980.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [56]
-					{
-						["NXX"] = 33.31641256809235,
-						["NXY"] = 34.45902764797211,
-						["NXName"] = "Level 72",
-						["NXTime"] = 1717951247.000022,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [57]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1717952153.000028,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [58]
-					{
-						["NXX"] = -1117.725336251259,
-						["NXY"] = -491.3778009927275,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718013549.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [59]
-					{
-						["NXX"] = 51.7994225025177,
-						["NXY"] = 67.99110770225525,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718013843.000002,
-						["T"] = "I",
-						["NXMapId"] = 9000,
-					}, -- [60]
-					{
-						["NXX"] = -886.7438331246376,
-						["NXY"] = -4646.843892335892,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718016794.000196,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [61]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718016993.000197,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [62]
-					{
-						["NXX"] = -1121.056684792042,
-						["NXY"] = -485.6198390829566,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718103619.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [63]
-					{
-						["NXX"] = 201.4230471562392,
-						["NXY"] = -1509.318430676923,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718103639.000002,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [64]
-					{
-						["NXX"] = -391.2117287516594,
-						["NXY"] = -4791.380164027214,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718133730.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [65]
-					{
-						["NXX"] = 74.6097207069397,
-						["NXY"] = 23.50928634405136,
-						["NXName"] = "Level 73",
-						["NXTime"] = 1718134050.000014,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [66]
-					{
-						["NXX"] = -377.4593612152958,
-						["NXY"] = -4469.246957304647,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718177737.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [67]
-					{
-						["NXX"] = -542.0688943583391,
-						["NXY"] = -4703.044159313609,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718184646.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [68]
-					{
-						["NXX"] = -538.1187804043293,
-						["NXY"] = -4702.848193049431,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718184900.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [69]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718186044.000037,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [70]
-					{
-						["NXX"] = 1486.795463074154,
-						["NXY"] = -390.643097798778,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718186175.000038,
-						["T"] = "I",
-						["NXMapId"] = 2009,
-					}, -- [71]
-					{
-						["NXX"] = -325.306022337592,
-						["NXY"] = -302.9273553062642,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718186228.000039,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [72]
-					{
-						["NXX"] = -399.0827438194178,
-						["NXY"] = -4611.958082446029,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718195288.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [73]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718196297.000033,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [74]
-					{
-						["NXX"] = -1116.233178822994,
-						["NXY"] = -489.718245704174,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205544.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [75]
-					{
-						["NXX"] = 315.3811069416804,
-						["NXY"] = -1397.088808763506,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205555.000002,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [76]
-					{
-						["NXX"] = -520.2361263334751,
-						["NXY"] = -4711.059194803238,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205718.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [77]
-					{
-						["NXX"] = -688.9375634491444,
-						["NXY"] = -4926.5740275383,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205900.000002,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [78]
-					{
-						["NXX"] = 12.90044117006489,
-						["NXY"] = 395.7391505474456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205939.000003,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [79]
-					{
-						["NXX"] = 315.3811069416804,
-						["NXY"] = -1397.088808763506,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718205949.000004,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [80]
-					{
-						["NXX"] = -330.4143443703651,
-						["NXY"] = -4644.964915513992,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718217199.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [81]
-					{
-						["NXX"] = 93.74884963035584,
-						["NXY"] = 35.70217192173004,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718218458.000048,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [82]
-					{
-						["NXX"] = 9.396513551473618,
-						["NXY"] = 51.52690410614014,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718218586.000049,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [83]
-					{
-						["NXX"] = -657.1626476943493,
-						["NXY"] = -4780.311551690102,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718259189.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [84]
-					{
-						["NXX"] = 57.08888173103333,
-						["NXY"] = 44.29405033588409,
-						["NXName"] = "Level 74",
-						["NXTime"] = 1718259530.000002,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [85]
-					{
-						["NXX"] = -644.2776910960674,
-						["NXY"] = -4624.26972091198,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718297548.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [86]
-					{
-						["NXX"] = -644.5925995707512,
-						["NXY"] = -4772.396996617317,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718298326.000001,
-						["T"] = "I",
-						["NXMapId"] = 4001,
-					}, -- [87]
-					{
-						["NXX"] = 93.779456615448,
-						["NXY"] = 35.91389954090118,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718301325.000066,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [88]
-					{
-						["NXX"] = 13.34062218666077,
-						["NXY"] = 49.38306510448456,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718301491.000067,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [89]
-					{
-						["NXX"] = 4.348117485642433,
-						["NXY"] = 60.39682626724243,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718301523.000068,
-						["T"] = "I",
-						["NXMapId"] = 4002,
-					}, -- [90]
-					{
-						["NXX"] = 31.42538368701935,
-						["NXY"] = 38.2640540599823,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718301532.000069,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [91]
-					{
-						["NXX"] = 299.9935939908028,
-						["NXY"] = -5341.461208462715,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718355444.000001,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [92]
-					{
-						["NXX"] = -1061.541967245516,
-						["NXY"] = 3899.758821715749,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718355486.000002,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [93]
-					{
-						["NXX"] = 402.9892484729941,
-						["NXY"] = -1428.395224107716,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718355497.000003,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [94]
-					{
-						["NXX"] = -74.89288200532403,
-						["NXY"] = 424.8191113253452,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718355663.000019,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [95]
-					{
-						["NXX"] = 402.9892484729941,
-						["NXY"] = -1428.395224107716,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718355685.00002,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [96]
-					{
-						["NXX"] = 129.0817141532898,
-						["NXY"] = -4721.955144405365,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718370152.000001,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [97]
-					{
-						["NXX"] = -74.89288200532403,
-						["NXY"] = 424.8191113253452,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718370568.000004,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [98]
-					{
-						["NXX"] = -1123.999478468633,
-						["NXY"] = -480.6572386275768,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718370735.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [99]
-					{
-						["NXX"] = -1125.347839341164,
-						["NXY"] = -482.3651963502171,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718370814.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [100]
-					{
-						["NXX"] = -1121.637113926411,
-						["NXY"] = -483.0968517500166,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718371578.000001,
-						["T"] = "I",
-						["NXMapId"] = 1014,
-					}, -- [101]
-					{
-						["NXX"] = 497.9706980061973,
-						["NXY"] = -1440.567871055005,
-						["NXName"] = "Entered",
-						["NXTime"] = 1718371627.000002,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [102]
-				},
-				["Death"] = {
-					{
-						["NXX"] = 51.2365996837616,
-						["NXY"] = 42.55212247371674,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716890182.000005,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [1]
-					{
-						["NXX"] = 52.33088731765747,
-						["NXY"] = 43.46660375595093,
-						["NXName"] = "阿彻鲁斯死亡战马",
-						["NXTime"] = 1716890640.000021,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [2]
-					{
-						["NXX"] = 52.32549905776978,
-						["NXY"] = 43.18671822547913,
-						["NXName"] = "阿彻鲁斯黑暗骑士",
-						["NXTime"] = 1716890657.000022,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [3]
-					{
-						["NXX"] = 52.89129018783569,
-						["NXY"] = 43.42939853668213,
-						["NXName"] = "阿彻鲁斯黑暗骑士",
-						["NXTime"] = 1716890673.000023,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [4]
-					{
-						["NXX"] = 52.94867753982544,
-						["NXY"] = 43.50518584251404,
-						["NXName"] = "阿彻鲁斯死亡战马",
-						["NXTime"] = 1716890684.000024,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [5]
-					{
-						["NXX"] = 52.86442637443543,
-						["NXY"] = 43.58896613121033,
-						["NXName"] = "阿彻鲁斯黑暗骑士",
-						["NXTime"] = 1716890698.000025,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [6]
-					{
-						["NXX"] = 52.84342765808106,
-						["NXY"] = 43.53629052639008,
-						["NXName"] = "阿彻鲁斯死亡战马",
-						["NXTime"] = 1716890712.000026,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [7]
-					{
-						["NXX"] = 55.537348985672,
-						["NXY"] = 40.24633169174194,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716891398.000034,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [8]
-					{
-						["NXX"] = 56.94903135299683,
-						["NXY"] = 42.19274520874023,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716891421.000036,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [9]
-					{
-						["NXX"] = 57.00634717941284,
-						["NXY"] = 30.88164925575256,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716896423.000005,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [10]
-					{
-						["NXX"] = 56.80112242698669,
-						["NXY"] = 30.72377145290375,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716896439.000006,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [11]
-					{
-						["NXX"] = 56.36690855026245,
-						["NXY"] = 30.61639070510864,
-						["NXName"] = "血色步兵",
-						["NXTime"] = 1716896460.000007,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [12]
-					{
-						["NXX"] = 57.92661309242249,
-						["NXY"] = 63.70563507080078,
-						["NXName"] = "新阿瓦隆预备兵",
-						["NXTime"] = 1716897919.000116,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [13]
-					{
-						["NXX"] = 58.05765390396118,
-						["NXY"] = 63.97499442100525,
-						["NXName"] = "新阿瓦隆预备兵",
-						["NXTime"] = 1716897947.000118,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [14]
-					{
-						["NXX"] = 52.33950614929199,
-						["NXY"] = 72.87330627441406,
-						["NXName"] = "新阿瓦隆预备兵",
-						["NXTime"] = 1716898380.000139,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [15]
-					{
-						["NXX"] = 52.22752094268799,
-						["NXY"] = 72.59707450866699,
-						["NXName"] = "新阿瓦隆预备兵",
-						["NXTime"] = 1716898429.000145,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [16]
-					{
-						["NXX"] = 39.55024182796478,
-						["NXY"] = 38.42870891094208,
-						["NXName"] = "圣光防御者",
-						["NXTime"] = 1716933111.000198,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [17]
-					{
-						["NXX"] = 38.9194518327713,
-						["NXY"] = 38.6076420545578,
-						["NXName"] = "圣光防御者",
-						["NXTime"] = 1716933161.0002,
-						["T"] = "D",
-						["NXMapId"] = 2030,
-					}, -- [18]
-					{
-						["NXX"] = 79.0983259677887,
-						["NXY"] = 75.31488537788391,
-						["NXName"] = "崩溃的虚空行者",
-						["NXTime"] = 1717089737.000016,
-						["T"] = "D",
-						["NXMapId"] = 3002,
-					}, -- [19]
-					{
-						["NXX"] = 78.68512272834778,
-						["NXY"] = 76.04948878288269,
-						["NXName"] = "崩溃的虚空行者",
-						["NXTime"] = 1717089924.000024,
-						["T"] = "D",
-						["NXMapId"] = 3002,
-					}, -- [20]
-					{
-						["NXX"] = 47.02165424823761,
-						["NXY"] = 49.84510242938995,
-						["NXName"] = "碎手队长",
-						["NXTime"] = 1717159953.000042,
-						["T"] = "D",
-						["NXMapId"] = 3002,
-					}, -- [21]
-					{
-						["NXX"] = 47.09343910217285,
-						["NXY"] = 49.83911514282227,
-						["NXName"] = "碎手队长",
-						["NXTime"] = 1717160193.000049,
-						["T"] = "D",
-						["NXMapId"] = 3002,
-					}, -- [22]
-					{
-						["NXX"] = 13.56300562620163,
-						["NXY"] = 43.01643967628479,
-						["NXName"] = "暴怒的裂生者",
-						["NXTime"] = 1717183398.000107,
-						["T"] = "D",
-						["NXMapId"] = 3002,
-					}, -- [23]
-					{
-						["NXX"] = 48.73962998390198,
-						["NXY"] = 16.9944241642952,
-						["NXName"] = "奥卡雷",
-						["NXTime"] = 1717263570.000006,
-						["T"] = "D",
-						["NXMapId"] = 3007,
-					}, -- [24]
-					{
-						["NXX"] = 49.06574785709381,
-						["NXY"] = 17.01548397541046,
-						["NXName"] = "奥卡雷",
-						["NXTime"] = 1717263707.000011,
-						["T"] = "D",
-						["NXMapId"] = 3007,
-					}, -- [25]
-					{
-						["NXX"] = 43.61562430858612,
-						["NXY"] = 20.40268033742905,
-						["NXName"] = "断蹄",
-						["NXTime"] = 1717618914.000224,
-						["T"] = "D",
-						["NXMapId"] = 3003,
-					}, -- [26]
-					{
-						["NXX"] = 43.09335350990295,
-						["NXY"] = 20.70606499910355,
-						["NXName"] = "断蹄",
-						["NXTime"] = 1717618929.000225,
-						["T"] = "D",
-						["NXMapId"] = 3003,
-					}, -- [27]
-					{
-						["NXX"] = 35.05908846855164,
-						["NXY"] = 45.91510593891144,
-						["NXName"] = "残忍的瓦雷杜斯",
-						["NXTime"] = 1717751004.000025,
-						["T"] = "D",
-						["NXMapId"] = 4001,
-					}, -- [28]
-					{
-						["NXX"] = 34.70942378044128,
-						["NXY"] = 46.27017974853516,
-						["NXName"] = "残忍的瓦雷杜斯",
-						["NXTime"] = 1717751020.000026,
-						["T"] = "D",
-						["NXMapId"] = 4001,
-					}, -- [29]
-					{
-						["NXX"] = 47.42473065853119,
-						["NXY"] = 61.39476299285889,
-						["NXName"] = "雌性狩猎猛犸人",
-						["NXTime"] = 1717752485.000056,
-						["T"] = "D",
-						["NXMapId"] = 4001,
-					}, -- [30]
-					{
-						["NXX"] = 47.40379154682159,
-						["NXY"] = 61.39140725135803,
-						["NXName"] = "雌性狩猎猛犸人",
-						["NXTime"] = 1717752504.000057,
-						["T"] = "D",
-						["NXMapId"] = 4001,
-					}, -- [31]
-					{
-						["NXX"] = 59.29882526397705,
-						["NXY"] = 65.06125926971436,
-						["NXName"] = "晶化看护者",
-						["NXTime"] = 1718015908.000147,
-						["T"] = "D",
-						["NXMapId"] = 9000,
-					}, -- [32]
-					{
-						["NXX"] = 37.11012303829193,
-						["NXY"] = 66.37940406799316,
-						["NXName"] = "克莉斯塔萨",
-						["NXTime"] = 1718016409.000192,
-						["T"] = "D",
-						["NXMapId"] = 9000,
-					}, -- [33]
-					{
-						["NXX"] = 41.50416553020477,
-						["NXY"] = 67.3623263835907,
-						["NXName"] = "克莉斯塔萨",
-						["NXTime"] = 1718016449.000193,
-						["T"] = "D",
-						["NXMapId"] = 9000,
-					}, -- [34]
-					{
-						["NXX"] = 40.55911004543304,
-						["NXY"] = 67.85473227500916,
-						["NXName"] = "克莉斯塔萨",
-						["NXTime"] = 1718016548.000194,
-						["T"] = "D",
-						["NXMapId"] = 9000,
-					}, -- [35]
-					{
-						["NXX"] = 56.11539483070374,
-						["NXY"] = 9.573590010404587,
-						["NXName"] = "犸格莫斯萨满祭司",
-						["NXTime"] = 1718104494.000056,
-						["T"] = "D",
-						["NXMapId"] = 4001,
-					}, -- [36]
-					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXName"] = "?",
-						["NXTime"] = 1718205900.000001,
-						["T"] = "D",
-						["NXMapId"] = 9000,
-					}, -- [37]
-					{
-						["NXX"] = 16.10502749681473,
-						["NXY"] = 52.57115364074707,
-						["NXName"] = "阿努巴尔恐怖编织者",
-						["NXTime"] = 1718355621.000015,
-						["T"] = "D",
-						["NXMapId"] = 4004,
-					}, -- [38]
-					{
-						["NXX"] = 47.65464961528778,
-						["NXY"] = 32.90649652481079,
-						["NXName"] = "萨拉斯塔",
-						["NXTime"] = 1718370359.000002,
-						["T"] = "D",
-						["NXMapId"] = 4004,
-					}, -- [39]
-				},
-				["Kill"] = {
-					{
-						["NXX"] = 61.27881407737732,
-						["NXY"] = 66.53875708580017,
-						["NXKills"] = 2,
-						["NXName"] = "大型暗礁鲨",
-						["NXTime"] = 1718300016.000037,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [1]
-					{
-						["NXX"] = 61.86090111732483,
-						["NXY"] = 66.53329730033875,
-						["NXKills"] = 1,
-						["NXName"] = "蛤蜊主宰老K",
-						["NXTime"] = 1718300031.000038,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [2]
-					{
-						["NXX"] = 63.23621869087219,
-						["NXY"] = 53.73233556747437,
-						["NXKills"] = 1,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300074.000039,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [3]
-					{
-						["NXX"] = 63.25407028198242,
-						["NXY"] = 53.75543236732483,
-						["NXKills"] = 2,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300077.00004,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [4]
-					{
-						["NXX"] = 62.88586258888245,
-						["NXY"] = 52.19396948814392,
-						["NXKills"] = 3,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300091.000041,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [5]
-					{
-						["NXX"] = 63.10484409332275,
-						["NXY"] = 51.26472115516663,
-						["NXKills"] = 4,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300103.000042,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [6]
-					{
-						["NXX"] = 64.48153853416443,
-						["NXY"] = 47.75888621807098,
-						["NXKills"] = 5,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300139.000043,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [7]
-					{
-						["NXX"] = 64.47514891624451,
-						["NXY"] = 47.39946722984314,
-						["NXKills"] = 6,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300148.000044,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [8]
-					{
-						["NXX"] = 64.43743109703064,
-						["NXY"] = 46.80811762809753,
-						["NXKills"] = 7,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300165.000045,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [9]
-					{
-						["NXX"] = 67.0507550239563,
-						["NXY"] = 53.62311005592346,
-						["NXKills"] = 8,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300231.000046,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [10]
-					{
-						["NXX"] = 67.0507550239563,
-						["NXY"] = 53.62311005592346,
-						["NXKills"] = 9,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300232.000047,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [11]
-					{
-						["NXX"] = 66.90090298652649,
-						["NXY"] = 52.99619436264038,
-						["NXKills"] = 10,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300243.000048,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [12]
-					{
-						["NXX"] = 64.66726660728455,
-						["NXY"] = 51.95934772491455,
-						["NXKills"] = 11,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300310.000049,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [13]
-					{
-						["NXX"] = 64.85610604286194,
-						["NXY"] = 45.73105573654175,
-						["NXKills"] = 12,
-						["NXName"] = "克瓦迪尔劫掠者",
-						["NXTime"] = 1718300332.00005,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [14]
-					{
-						["NXX"] = 67.38337278366089,
-						["NXY"] = 56.55218958854675,
-						["NXKills"] = 1,
-						["NXName"] = "可怕的赫迦尔",
-						["NXTime"] = 1718300449.000051,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [15]
-					{
-						["NXX"] = 49.89645779132843,
-						["NXY"] = 41.59201085567474,
-						["NXKills"] = 1,
-						["NXName"] = "哈罗德·兰恩",
-						["NXTime"] = 1718300645.000052,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [16]
-					{
-						["NXX"] = 49.89645779132843,
-						["NXY"] = 41.59201085567474,
-						["NXKills"] = 1,
-						["NXName"] = "利欲熏心的猎人",
-						["NXTime"] = 1718300654.000053,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [17]
-					{
-						["NXX"] = 49.89645779132843,
-						["NXY"] = 41.59201085567474,
-						["NXKills"] = 2,
-						["NXName"] = "利欲熏心的猎人",
-						["NXTime"] = 1718300666.000054,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [18]
-					{
-						["NXX"] = 49.89645779132843,
-						["NXY"] = 41.59201085567474,
-						["NXKills"] = 3,
-						["NXName"] = "利欲熏心的猎人",
-						["NXTime"] = 1718300666.000055,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [19]
-					{
-						["NXX"] = 50.90936422348023,
-						["NXY"] = 33.17066431045532,
-						["NXKills"] = 15,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300720.000056,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [20]
-					{
-						["NXX"] = 50.90936422348023,
-						["NXY"] = 33.17066431045532,
-						["NXKills"] = 16,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300726.000057,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [21]
-					{
-						["NXX"] = 50.88707804679871,
-						["NXY"] = 32.77791142463684,
-						["NXKills"] = 17,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300741.000058,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [22]
-					{
-						["NXX"] = 50.3593385219574,
-						["NXY"] = 30.86260855197907,
-						["NXKills"] = 18,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300754.000059,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [23]
-					{
-						["NXX"] = 50.3593385219574,
-						["NXY"] = 30.86260855197907,
-						["NXKills"] = 19,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300761.00006,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [24]
-					{
-						["NXX"] = 51.47223472595215,
-						["NXY"] = 29.91721928119659,
-						["NXKills"] = 20,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300835.000061,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [25]
-					{
-						["NXX"] = 51.47223472595215,
-						["NXY"] = 29.91721928119659,
-						["NXKills"] = 21,
-						["NXName"] = "蓝玉回收者",
-						["NXTime"] = 1718300838.000062,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [26]
-					{
-						["NXX"] = 52.11111307144165,
-						["NXY"] = 31.61110281944275,
-						["NXKills"] = 19,
-						["NXName"] = "蓝玉财宝猎人",
-						["NXTime"] = 1718300857.000063,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [27]
-					{
-						["NXX"] = 50.06585121154785,
-						["NXY"] = 32.50055909156799,
-						["NXKills"] = 1,
-						["NXName"] = "馆长因萨维斯",
-						["NXTime"] = 1718300908.000064,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [28]
-					{
-						["NXX"] = 50.07046461105347,
-						["NXY"] = 32.47234523296356,
-						["NXKills"] = 20,
-						["NXName"] = "蓝玉财宝猎人",
-						["NXTime"] = 1718300914.000065,
-						["T"] = "K",
-						["NXMapId"] = 4001,
-					}, -- [29]
-					{
-						["NXX"] = 15.06010890007019,
-						["NXY"] = 50.29781460762024,
-						["NXKills"] = 1,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355538.000004,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [30]
-					{
-						["NXX"] = 16.22951179742813,
-						["NXY"] = 51.24497413635254,
-						["NXKills"] = 2,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355567.000005,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [31]
-					{
-						["NXX"] = 16.22951179742813,
-						["NXY"] = 51.24497413635254,
-						["NXKills"] = 3,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355569.000006,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [32]
-					{
-						["NXX"] = 16.22951179742813,
-						["NXY"] = 51.24497413635254,
-						["NXKills"] = 4,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355572.000007,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [33]
-					{
-						["NXX"] = 16.11087918281555,
-						["NXY"] = 52.5521993637085,
-						["NXKills"] = 1,
-						["NXName"] = "极地野兔",
-						["NXTime"] = 1718355595.000008,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [34]
-					{
-						["NXX"] = 16.11087918281555,
-						["NXY"] = 52.5521993637085,
-						["NXKills"] = 2,
-						["NXName"] = "极地野兔",
-						["NXTime"] = 1718355595.000009,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [35]
-					{
-						["NXX"] = 16.13011956214905,
-						["NXY"] = 52.59833931922913,
-						["NXKills"] = 1,
-						["NXName"] = "天灾麋鹿",
-						["NXTime"] = 1718355599.00001,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [36]
-					{
-						["NXX"] = 16.15263521671295,
-						["NXY"] = 52.56327986717224,
-						["NXKills"] = 5,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355607.000011,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [37]
-					{
-						["NXX"] = 16.10502749681473,
-						["NXY"] = 52.57115364074707,
-						["NXKills"] = 2,
-						["NXName"] = "天灾麋鹿",
-						["NXTime"] = 1718355616.000012,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [38]
-					{
-						["NXX"] = 16.10502749681473,
-						["NXY"] = 52.57115364074707,
-						["NXKills"] = 6,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355618.000013,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [39]
-					{
-						["NXX"] = 16.10502749681473,
-						["NXY"] = 52.57115364074707,
-						["NXKills"] = 7,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355618.000014,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [40]
-					{
-						["NXX"] = 16.0877987742424,
-						["NXY"] = 52.56307125091553,
-						["NXKills"] = 8,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355630.000016,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [41]
-					{
-						["NXX"] = 16.0877987742424,
-						["NXY"] = 52.56307125091553,
-						["NXKills"] = 9,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355637.000017,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [42]
-					{
-						["NXX"] = 16.03642702102661,
-						["NXY"] = 52.62894630432129,
-						["NXKills"] = 10,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355649.000018,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [43]
-					{
-						["NXX"] = 15.67604392766953,
-						["NXY"] = 53.80303263664246,
-						["NXKills"] = 11,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355751.000021,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [44]
-					{
-						["NXX"] = 15.67604392766953,
-						["NXY"] = 53.80303263664246,
-						["NXKills"] = 12,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355754.000022,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [45]
-					{
-						["NXX"] = 15.67604392766953,
-						["NXY"] = 53.80303263664246,
-						["NXKills"] = 13,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355756.000023,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [46]
-					{
-						["NXX"] = 17.63723343610764,
-						["NXY"] = 50.01521110534668,
-						["NXKills"] = 14,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355804.000024,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [47]
-					{
-						["NXX"] = 17.63723343610764,
-						["NXY"] = 50.01521110534668,
-						["NXKills"] = 15,
-						["NXName"] = "阿努巴尔伏击者",
-						["NXTime"] = 1718355812.000025,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [48]
-					{
-						["NXX"] = 17.4889862537384,
-						["NXY"] = 49.61600005626679,
-						["NXKills"] = 3,
-						["NXName"] = "天灾麋鹿",
-						["NXTime"] = 1718355821.000026,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [49]
-					{
-						["NXX"] = 47.71381914615631,
-						["NXY"] = 32.6084166765213,
-						["NXKills"] = 1,
-						["NXName"] = "萨拉斯塔",
-						["NXTime"] = 1718370425.000003,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [50]
-					{
-						["NXX"] = 42.33583509922028,
-						["NXY"] = 39.08929824829102,
-						["NXKills"] = 1,
-						["NXName"] = "冰拳",
-						["NXTime"] = 1718371733.000003,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [51]
-					{
-						["NXX"] = 45.52270174026489,
-						["NXY"] = 45.16807794570923,
-						["NXKills"] = 1,
-						["NXName"] = "恐怖之爪",
-						["NXTime"] = 1718371888.000004,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [52]
-					{
-						["NXX"] = 56.14184737205505,
-						["NXY"] = 41.46053791046143,
-						["NXKills"] = 1,
-						["NXName"] = "猛犸人族长",
-						["NXTime"] = 1718371941.000005,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [53]
-					{
-						["NXX"] = 56.99203014373779,
-						["NXY"] = 41.27444922924042,
-						["NXKills"] = 2,
-						["NXName"] = "猛犸人族长",
-						["NXTime"] = 1718371958.000006,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [54]
-					{
-						["NXX"] = 56.12448453903198,
-						["NXY"] = 51.47981643676758,
-						["NXKills"] = 1,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372015.000007,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [55]
-					{
-						["NXX"] = 56.14805221557617,
-						["NXY"] = 51.48310661315918,
-						["NXKills"] = 2,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372020.000008,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [56]
-					{
-						["NXX"] = 56.14805221557617,
-						["NXY"] = 51.48310661315918,
-						["NXKills"] = 3,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372023.000009,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [57]
-					{
-						["NXX"] = 55.84568977355957,
-						["NXY"] = 52.23676562309265,
-						["NXKills"] = 1,
-						["NXName"] = "雪原萨满祭司",
-						["NXTime"] = 1718372036.00001,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [58]
-					{
-						["NXX"] = 55.84568977355957,
-						["NXY"] = 52.23676562309265,
-						["NXKills"] = 4,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372041.000011,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [59]
-					{
-						["NXX"] = 55.84568977355957,
-						["NXY"] = 52.23676562309265,
-						["NXKills"] = 5,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372048.000012,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [60]
-					{
-						["NXX"] = 55.84568977355957,
-						["NXY"] = 52.23676562309265,
-						["NXKills"] = 2,
-						["NXName"] = "雪原萨满祭司",
-						["NXTime"] = 1718372052.000013,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [61]
-					{
-						["NXX"] = 55.55246472358704,
-						["NXY"] = 52.24344730377197,
-						["NXKills"] = 6,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372063.000014,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [62]
-					{
-						["NXX"] = 54.54148054122925,
-						["NXY"] = 57.29236602783203,
-						["NXKills"] = 1,
-						["NXName"] = "雪原徒工",
-						["NXTime"] = 1718372088.000015,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [63]
-					{
-						["NXX"] = 54.54527139663696,
-						["NXY"] = 57.38669037818909,
-						["NXKills"] = 1,
-						["NXName"] = "猛犸人突击者",
-						["NXTime"] = 1718372098.000016,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [64]
-					{
-						["NXX"] = 55.34933805465698,
-						["NXY"] = 57.79537558555603,
-						["NXKills"] = 7,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372121.000017,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [65]
-					{
-						["NXX"] = 55.36351799964905,
-						["NXY"] = 57.79393911361694,
-						["NXKills"] = 8,
-						["NXName"] = "雪原狂战士",
-						["NXTime"] = 1718372124.000018,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [66]
-					{
-						["NXX"] = 52.20612287521362,
-						["NXY"] = 62.34335899353027,
-						["NXKills"] = 1,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372154.000019,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [67]
-					{
-						["NXX"] = 51.68329477310181,
-						["NXY"] = 62.50742673873901,
-						["NXKills"] = 1,
-						["NXName"] = "飘雪林地掠夺者",
-						["NXTime"] = 1718372164.00002,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [68]
-					{
-						["NXX"] = 51.49930715560913,
-						["NXY"] = 62.05971240997315,
-						["NXKills"] = 2,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372175.000021,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [69]
-					{
-						["NXX"] = 50.51607489585877,
-						["NXY"] = 63.06034326553345,
-						["NXKills"] = 2,
-						["NXName"] = "飘雪林地掠夺者",
-						["NXTime"] = 1718372190.000022,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [70]
-					{
-						["NXX"] = 50.62018632888794,
-						["NXY"] = 64.52966928482056,
-						["NXKills"] = 1,
-						["NXName"] = "飘雪林地萨满祭司",
-						["NXTime"] = 1718372200.000023,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [71]
-					{
-						["NXX"] = 51.03355050086975,
-						["NXY"] = 65.66426753997803,
-						["NXKills"] = 1,
-						["NXName"] = "吉加托尔",
-						["NXTime"] = 1718372281.000024,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [72]
-					{
-						["NXX"] = 50.45518279075623,
-						["NXY"] = 67.25183129310608,
-						["NXKills"] = 3,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372301.000025,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [73]
-					{
-						["NXX"] = 49.8207151889801,
-						["NXY"] = 67.50346422195435,
-						["NXKills"] = 4,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372313.000026,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [74]
-					{
-						["NXX"] = 49.09733533859253,
-						["NXY"] = 67.90921092033386,
-						["NXKills"] = 5,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372325.000027,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [75]
-					{
-						["NXX"] = 49.26252663135529,
-						["NXY"] = 69.01484131813049,
-						["NXKills"] = 6,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372337.000028,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [76]
-					{
-						["NXX"] = 49.47770833969116,
-						["NXY"] = 69.2827045917511,
-						["NXKills"] = 3,
-						["NXName"] = "飘雪林地掠夺者",
-						["NXTime"] = 1718372345.000029,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [77]
-					{
-						["NXX"] = 50.10777711868286,
-						["NXY"] = 68.91177892684937,
-						["NXKills"] = 4,
-						["NXName"] = "飘雪林地掠夺者",
-						["NXTime"] = 1718372355.00003,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [78]
-					{
-						["NXX"] = 49.68222379684448,
-						["NXY"] = 70.60775756835938,
-						["NXKills"] = 7,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372523.000031,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [79]
-					{
-						["NXX"] = 49.89194869995117,
-						["NXY"] = 70.36320567131043,
-						["NXKills"] = 8,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372539.000032,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [80]
-					{
-						["NXX"] = 50.46636462211609,
-						["NXY"] = 70.48032879829407,
-						["NXKills"] = 9,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372550.000033,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [81]
-					{
-						["NXX"] = 50.82525014877319,
-						["NXY"] = 70.61555981636047,
-						["NXKills"] = 10,
-						["NXName"] = "飘雪林地狼獾人",
-						["NXTime"] = 1718372559.000034,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [82]
-					{
-						["NXX"] = 48.77674579620361,
-						["NXY"] = 71.17226123809815,
-						["NXKills"] = 5,
-						["NXName"] = "飘雪林地掠夺者",
-						["NXTime"] = 1718372583.000035,
-						["T"] = "K",
-						["NXMapId"] = 4004,
-					}, -- [83]
-				},
-				["Mine"] = {
-				},
-				["Herb"] = {
-				},
-			},
-			["Class"] = "Death Knight",
-			["LLevel"] = 74,
+			["LXPMax"] = 0,
+			["LTime"] = 1718828073,
+			["LLevel"] = 80,
 			["LArenaPts"] = 0,
 			["TBar"] = {
 				["Version"] = 0.1,
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
-			["TimePlayed"] = 93922,
-			["Level"] = 74,
-			["XP"] = 1568256,
+			["TimePlayed"] = 157046,
+			["Level"] = 80,
+			["XP"] = 42196,
 			["Q"] = {
-				[12063] = "W0",
-				[10023] = "C1717320594",
-				[10027] = "C1717261362",
-				[10031] = "C1717448454",
-				[10039] = "C1717249743",
-				[10043] = "C1717261354",
-				[12091] = "W0",
-				[12095] = "C1718370209",
-				[11592] = "C1717761191",
-				[11596] = "C1717621754",
-				[11608] = "C1717709019",
-				[11612] = "C1718298802",
-				[11616] = "C1717709074",
-				[10087] = "C1717099976",
-				[11624] = "C1717761247",
-				[11628] = "C1718187413",
-				[13165] = "C1716933661",
-				[10103] = "C1717180671",
-				[11640] = "C1718217734",
-				[11644] = "C1717680206",
-				[12670] = "C1716890003",
-				[11652] = "C1717709118",
-				[11656] = "C1717680686",
-				[11660] = "C1717680341",
-				[11664] = "C1717680236",
-				[12698] = "C1716897001",
-				[11680] = "C1717790022",
-				[12706] = "C1716897444",
-				[11688] = "C1717750654",
-				[10159] = "c0",
-				[12722] = "C1716898492",
-				[12738] = "C1716931556",
-				[11720] = "C1717752213",
-				[11724] = "C1717752328",
-				[12754] = "C1716931785",
-				[10211] = "C1716993359",
-				[12778] = "C1716932068",
-				[10227] = "C1717421724",
-				[10231] = "C1717448840",
-				[12790] = "C1718301565",
-				[10251] = "C1717618375",
-				[12303] = "W0",
-				[12842] = "C1716889507",
-				[12850] = "C1716889967",
-				[9800] = "c0",
-				[10834] = "C1717082989",
-				[10838] = "C1717159812",
-				[10842] = "C1717617475",
-				[11868] = "C1718300559",
-				[11872] = "C1718300543",
-				[11876] = "C1718259530",
-				[10351] = "C1717183717",
-				[11888] = "C1718104735",
-				[11892] = "C1718300970",
-				[10874] = "C1717615861",
-				[9345] = "C1717082375",
-				[9349] = "C1717098232",
-				[11912] = "C1717871598",
-				[9872] = "C1717621059",
-				[10898] = "C1717448511",
-				[9888] = "C1717621184",
-				[10914] = "C1717614848",
-				[10922] = "C1717615200",
-				[10926] = "C1717448355",
-				[10930] = "C1717615696",
-				[9912] = "C1717180643",
-				[12471] = "C1717753280",
-				[11968] = "C1718300474",
-				[12487] = "W0",
-				[13002] = "C1717709187",
-				[11996] = "C1718371640",
-				[9960] = "C1717249688",
-				[12008] = "C1718356167",
-				[9968] = "C1717252389",
-				[9972] = "C1717620093",
-				[12036] = "W0",
-				[10000] = "C1717261909",
-				[10008] = "C1717420216",
-				[12056] = "W0",
-				[13090] = "C1717709232",
-				[11561] = "C1717780697",
-				[11565] = "C1717780808",
-				[10036] = "C1717419534",
-				[11585] = "C1717621625",
-				[12100] = "W0",
-				[11593] = "C1717775199",
-				[12619] = "C1716889437",
-				[11605] = "C1718259991",
-				[11609] = "C1718297997",
-				[11613] = "C1717753273",
-				[11617] = "C1718300882",
-				[11625] = "C1717753492",
-				[11629] = "C1717781047",
-				[13166] = "C1716933831",
-				[11637] = "C1718104078",
-				[11641] = "C1718217714",
-				[10112] = "C1717448554",
-				[11649] = "C1717781028",
-				[12679] = "C1716891643",
-				[11661] = "C1717680726",
-				[12687] = "C1716890765",
-				[11677] = "C1718134050",
-				[11681] = "C1717790081",
-				[11685] = "C1718195554",
-				[11689] = "C1718187347",
-				[12715] = "C1716897704",
-				[12719] = "C1716898460",
-				[12723] = "C1716931076",
-				[12727] = "C1716931504",
-				[11709] = "C1717751425",
-				[10180] = "C1717321769",
-				[11717] = "C1717752131",
-				[11721] = "C1717753746",
-				[12747] = "C1716931602",
-				[12751] = "C1716931628",
-				[12755] = "C1716931833",
-				[10220] = "C1717083447",
-				[12779] = "C1716932532",
-				[10228] = "C1717448710",
-				[12791] = "C1718301508",
-				[10252] = "C1717620560",
-				[12304] = "W0",
-				[10791] = "C1717320643",
-				[10835] = "C1717100001",
-				[10839] = "C1717420869",
-				[11865] = "C1718299066",
-				[10847] = "C1717264672",
-				[11881] = "C1718178067",
-				[11893] = "C1718178457",
-				[10875] = "C1717159841",
-				[10879] = "C1717616396",
-				[11905] = "C1718016865",
-				[10887] = "C1717265491",
-				[9366] = "C1717181568",
-				[9370] = "C1717182327",
-				[9374] = "C1717179197",
-				[9889] = "c0",
-				[10915] = "C1717615791",
-				[11941] = "C1717951252",
-				[10923] = "C1717616180",
-				[11949] = "C1718300356",
-				[9913] = "c0",
-				[11961] = "C1718300433",
-				[11969] = "C1717952101",
-				[9418] = "C1717181999",
-				[11977] = "C1718218525",
-				[10448] = "C1717584146",
-				[11506] = "C1717419549",
-				[9977] = "C1717620269",
-				[12033] = "C1718356184",
-				[9993] = "C1717261263",
-				[9997] = "C1717613344",
-				[12211] = "W0",
-				[10013] = "C1717420261",
-				[11039] = "c0",
-				[12188] = "W0",
-				[12245] = "W0",
-				[11562] = "C1717780729",
-				[11566] = "C1717789281",
-				[10037] = "C1717264649",
-				[10041] = "C1717251359",
-				[12089] = "W0",
-				[11582] = "C1717789412",
-				[12097] = "C1718371675",
-				[11590] = "C1717789505",
-				[11594] = "C1717775202",
-				[11598] = "C1717678947",
-				[11602] = "C1717679310",
-				[11606] = "C1717678935",
-				[11610] = "C1718298127",
-				[11614] = "C1717708869",
-				[11618] = "C1717750330",
-				[12206] = "C1718372831",
-				[11626] = "C1717753620",
-				[10097] = "c0",
-				[11634] = "C1717679450",
-				[11638] = "C1718104595",
-				[11642] = "C1717679579",
-				[11646] = "C1717789528",
-				[12205] = "W0",
-				[12209] = "W0",
-				[12680] = "C1716890537",
-				[11662] = "C1717708795",
-				[10876] = "C1717160597",
-				[11633] = "C1718196274",
-				[11674] = "C1718104881",
-				[12700] = "C1716897023",
-				[11682] = "C1717790114",
-				[11686] = "C1717750644",
-				[11690] = "C1717750882",
-				[10161] = "C1717089572",
-				[12720] = "C1716931008",
-				[12724] = "C1716931489",
-				[12728] = "C1717790310",
-				[10177] = "C1717616775",
-				[11714] = "C1717752162",
-				[12144] = "W0",
-				[11722] = "C1717753792",
-				[14151] = "W0",
-				[12117] = "C1718370539",
-				[10201] = "C1717261314",
-				[12096] = "W0",
-				[9995] = "C1717584087",
+				[12211] = "C1718382222",
+				[13242] = "C1718552585",
+				[13266] = "C1718552851",
 				[10213] = "C1717088981",
-				[11570] = "C1717789329",
-				[9381] = "C1717179184",
-				[11973] = "C1718016837",
+				[12267] = "C1718551140",
 				[10229] = "C1717083443",
-				[11945] = "C1718300342",
-				[11630] = "C1718195384",
-				[11929] = "C1718218379",
-				[12800] = "C1716932599",
-				[11706] = "C1718195806",
+				[12283] = "C1718440502",
 				[10253] = "c0",
-				[11909] = "C1718187382",
-				[11916] = "C1718104795",
-				[11678] = "C1718186952",
-				[11957] = "C1717951726",
-				[11733] = "C1717790213",
+				[13330] = "C1718732043",
+				[10349] = "C1717183492",
+				[12419] = "C1718450780",
+				[9366] = "C1717181568",
+				[9374] = "C1717179197",
+				[12459] = "C1718534919",
+				[11564] = "C1717780065",
+				[12619] = "C1716889437",
+				[11612] = "C1718298802",
+				[11620] = "C1717753403",
+				[11628] = "C1718187413",
+				[11636] = "C1717679561",
+				[11644] = "C1717680206",
+				[11652] = "C1717709118",
+				[11660] = "C1717680341",
+				[11676] = "C1717750649",
 				[11684] = "C1718178054",
-				[10792] = "C1717082947",
-				[10450] = "C1717052538",
-				[11560] = "C1717780716",
-				[12848] = "C1716889605",
-				[10442] = "C1717180559",
-				[11702] = "C1717775300",
-				[11569] = "C1717789128",
+				[12715] = "C1716897704",
+				[12723] = "C1716931076",
+				[11716] = "C1717751837",
+				[11724] = "C1717752328",
+				[12755] = "C1716931833",
+				[12779] = "C1716932532",
+				[10813] = "C1717082546",
+				[11868] = "C1718300559",
+				[11876] = "C1718259530",
+				[10861] = "C1717448438",
+				[11892] = "C1718300970",
+				[10877] = "C1717448329",
+				[9870] = "C1717620940",
+				[10917] = "C1717420365",
+				[11980] = "C1718355953",
+				[11996] = "C1718371640",
+				[12028] = "C1718430372",
+				[9990] = "C1717584065",
+				[12044] = "C1718641375",
+				[10006] = "C1717614308",
+				[13083] = "C1718730148",
+				[10030] = "C1717421704",
+				[12084] = "C1718604744",
+				[12100] = "C1718390948",
+				[13131] = "C1718783296",
+				[13139] = "C1718726256",
+				[12124] = "C1718634324",
+				[10086] = "C1717052509",
+				[10094] = "c0",
+				[12148] = "C1718533423",
+				[13187] = "C1718652027",
+				[10134] = "C1717183472",
+				[12188] = "C1718381320",
+				[13267] = "C1718555072",
+				[12252] = "C1718432420",
+				[12260] = "C1718440206",
+				[10230] = "C1717089074",
+				[10278] = "C1717083451",
+				[10286] = "C1717180921",
+				[10294] = "C1717090092",
+				[13379] = "W0",
+				[12372] = "C1718641134",
+				[13411] = "C1717177762",
+				[9351] = "C1717097940",
+				[9375] = "C1717179872",
+				[9391] = "C1717178725",
+				[12468] = "C1718652179",
+				[12500] = "C1718552381",
+				[11565] = "C1717780808",
+				[11597] = "C1717678536",
+				[11605] = "C1718259991",
+				[12636] = "C1716889647",
+				[11629] = "C1717781047",
+				[11637] = "C1718104078",
+				[11661] = "C1717680726",
+				[12700] = "C1716897023",
+				[11685] = "C1718195554",
+				[12716] = "C1716898540",
+				[12724] = "C1716931489",
+				[11709] = "C1717751425",
+				[11717] = "C1717752131",
+				[11733] = "C1717790213",
+				[9815] = "c0",
+				[11869] = "C1718299267",
+				[10862] = "C1717249548",
+				[11893] = "C1718178457",
+				[10878] = "C1717321829",
+				[11909] = "C1718187382",
+				[12948] = "C1718733417",
+				[11941] = "C1717951252",
+				[11949] = "C1718300356",
+				[11957] = "C1717951726",
+				[11973] = "C1718016837",
+				[9951] = "C1717252381",
+				[12005] = "C1718532013",
+				[9967] = "C1717619973",
+				[13044] = "C1718695483",
+				[12045] = "C1718648571",
+				[12053] = "C1718474568",
+				[12061] = "C1718565008",
+				[12069] = "C1718474616",
+				[10031] = "C1717448454",
+				[12085] = "C1718604720",
+				[12101] = "C1718390965",
+				[13132] = "C1718783316",
+				[12117] = "C1718370539",
+				[12125] = "C1718535358",
+				[10087] = "C1717099976",
+				[12149] = "C1718534944",
+				[12181] = "C1718380436",
+				[12189] = "C1718372765",
+				[12205] = "C1718382249",
+				[12221] = "C1718451509",
+				[13260] = "C1718732215",
+				[12245] = "C1718382251",
+				[12261] = "C1718550024",
+				[10231] = "C1717448840",
+				[12285] = "C1718450670",
+				[13340] = "C1718731514",
+				[10287] = "C1717180953",
+				[10295] = "C1717090258",
+				[10351] = "C1717183717",
+				[9376] = "C1717180392",
+				[12461] = "C1718633701",
+				[12469] = "C1718551302",
+				[10447] = "C1717613938",
+				[9472] = "C1717181087",
+				[11566] = "C1717789281",
+				[11574] = "C1717760884",
+				[11582] = "C1717789412",
+				[11590] = "C1717789505",
+				[11598] = "C1717678947",
+				[11606] = "C1717678935",
+				[11614] = "C1717708869",
+				[11630] = "C1718195384",
+				[11638] = "C1718104595",
+				[11646] = "C1717789528",
+				[11662] = "C1717708795",
+				[11678] = "C1718186952",
+				[11686] = "C1717750644",
+				[12717] = "C1716898555",
+				[12725] = "C1716931282",
+				[12733] = "C1716891176",
+				[12757] = "C1716931920",
+				[12789] = "C1718652370",
+				[10791] = "C1717320643",
+				[9800] = "c0",
+				[10839] = "C1717420869",
 				[11870] = "C1718299294",
 				[11878] = "C1718259578",
-				[11890] = "C1718185951",
-				[11951] = "C1717951565",
-				[9870] = "C1717620940",
-				[10840] = "C1717321374",
-				[11866] = "C1718298865",
-				[10848] = "C1717421254",
-				[10852] = "C1717420880",
-				[13411] = "C1717177762",
-				[10349] = "C1717183492",
-				[10864] = "C1717159357",
-				[10868] = "C1717183787",
 				[11894] = "C1718185897",
-				[11898] = "C1718218350",
-				[10880] = "C1717265476",
-				[9351] = "C1717097940",
-				[11910] = "C1717871543",
-				[11914] = "C1717872287",
+				[10879] = "C1717616396",
+				[10887] = "C1717265491",
 				[11918] = "C1717871557",
-				[11943] = "C1717951386",
-				[11930] = "C1718218502",
-				[10908] = "C1717261248",
-				[9391] = "C1717178725",
-				[9376] = "C1717180392",
-				[9387] = "C1717182346",
-				[11946] = "C1717951411",
+				[9888] = "C1717621184",
 				[11950] = "C1718300391",
-				[10862] = "C1717249548",
 				[11958] = "C1718372598",
-				[11648] = "C1717789611",
-				[11576] = "C1717789223",
-				[11046] = "C1717618033",
-				[10889] = "C1717616248",
-				[11978] = "C1718355864",
-				[10449] = "C1717052624",
-				[11636] = "C1717679561",
-				[10017] = "C1717617976",
-				[11899] = "C1718186012",
-				[11895] = "C1718185992",
-				[12756] = "C1716931892",
-				[9962] = "C1717619915",
-				[10287] = "C1717180953",
-				[9970] = "C1717620040",
-				[13095] = "C1718016824",
-				[9978] = "C1717252436",
-				[11676] = "C1717750649",
-				[10295] = "C1717090258",
-				[12034] = "C1718356240",
-				[11871] = "C1718299648",
-				[11620] = "C1717753403",
-				[12678] = "C1716891664",
-				[10006] = "C1717614308",
-				[9499] = "C1717177912",
-				[11048] = "c0",
-				[10018] = "C1717261329",
-				[11571] = "C1717780054",
-				[11559] = "C1717780259",
-				[11563] = "C1717780794",
-				[10034] = "C1717321266",
-				[12593] = "C1716889345",
-				[9356] = "C1717099667",
-				[12090] = "W0",
-				[12657] = "C1716889937",
-				[11587] = "C1717788341",
-				[11591] = "C1717774897",
-				[11595] = "C1717678536",
-				[10114] = "c0",
-				[12697] = "C1716891689",
-				[11607] = "C1718297919",
-				[11611] = "C1717678911",
-				[11615] = "C1717709026",
-				[11619] = "C1717753331",
-				[11623] = "C1718300939",
-				[11627] = "C1717780843",
-				[11631] = "C1717781099",
-				[11635] = "C1718103948",
-				[11639] = "C1718104358",
-				[11643] = "C1717680662",
-				[11647] = "C1718217731",
-				[11651] = "C1717680735",
-				[11655] = "C1717680334",
-				[11679] = "C1717790000",
-				[11663] = "C1717789631",
-				[10134] = "C1717183472",
-				[11671] = "C1717789984",
-				[11675] = "C1718133952",
-				[12701] = "C1716897387",
-				[11683] = "C1718187200",
-				[11687] = "C1718187205",
-				[12717] = "C1716898555",
-				[11695] = "C1718195708",
-				[12725] = "C1716931282",
-				[11703] = "C1717750932",
-				[10178] = "c0",
-				[11711] = "C1717751654",
-				[9375] = "C1717179872",
-				[11719] = "C1717752203",
-				[10929] = "C1717615498",
-				[12714] = "C1716897639",
-				[9818] = "C1717620956",
-				[12757] = "C1716931920",
-				[12636] = "C1716889647",
-				[10210] = "C1716992860",
-				[10086] = "C1717052509",
-				[10538] = "C1717082369",
-				[10052] = "C1717613958",
-				[11705] = "C1717751230",
-				[10230] = "C1717089074",
-				[12733] = "C1716891176",
-				[10920] = "C1717448210",
-				[10242] = "C1717052731",
-				[12801] = "C1716933627",
-				[10250] = "C1717089151",
-				[9361] = "C1717098906",
-				[10258] = "C1717089531",
-				[10447] = "C1717613938",
-				[13189] = "C1716934013",
-				[12716] = "C1716898540",
-				[10878] = "C1717321829",
-				[10278] = "C1717083451",
-				[9397] = "C1717179898",
-				[10286] = "C1717180921",
-				[10132] = "C1717183467",
-				[10294] = "C1717090092",
-				[10809] = "C1717082382",
-				[10813] = "C1717082546",
-				[10098] = "c0",
-				[10094] = "c0",
-				[12641] = "C1716889879",
-				[11574] = "C1717760884",
-				[10030] = "C1717421704",
-				[9815] = "c0",
-				[9819] = "c0",
-				[10873] = "C1717448352",
-				[10849] = "C1717265442",
-				[9990] = "C1717584065",
-				[11879] = "C1718298849",
-				[10861] = "C1717448438",
-				[11887] = "C1718185877",
-				[9973] = "C1717620164",
-				[9340] = "C1717178543",
-				[10877] = "C1717448329",
-				[10881] = "C1717421578",
-				[11907] = "C1718205976",
-				[11911] = "C1718016885",
+				[12006] = "C1718474494",
+				[9968] = "C1717252389",
+				[13045] = "C1718695674",
+				[12030] = "C1718451210",
+				[10000] = "C1717261909",
+				[10008] = "C1717420216",
+				[11039] = "c0",
 				[10024] = "C1717264742",
-				[11919] = "C1717873545",
-				[11564] = "C1717780065",
-				[9372] = "c0",
-				[11931] = "C1717951247",
-				[10913] = "C1717448343",
-				[10917] = "C1717420365",
-				[10921] = "C1717448282",
-				[10896] = "C1717321368",
-				[9396] = "C1717182313",
-				[11906] = "C1718185923",
-				[11959] = "W0",
-				[9466] = "C1717178555",
-				[11967] = "C1717951736",
-				[11716] = "C1717751837",
+				[12078] = "C1718642164",
+				[12102] = "C1718451494",
+				[12110] = "C1718604999",
+				[13141] = "C1718727418",
+				[12126] = "C1718535362",
+				[13157] = "C1718727504",
+				[13165] = "C1716933661",
+				[12150] = "C1718535120",
+				[10112] = "C1717448554",
+				[13189] = "C1716934013",
+				[12182] = "C1718380436",
+				[12206] = "C1718372831",
+				[12214] = "C1718432359",
+				[12230] = "C1718431333",
+				[12254] = "C1718440117",
+				[12262] = "C1718550034",
+				[13293] = "C1718731311",
+				[9345] = "C1717082375",
+				[9361] = "C1717098906",
+				[12454] = "C1718432134",
+				[12470] = "C1718450775",
 				[12486] = "C1717761204",
-				[11979] = "C1718259190",
+				[10448] = "C1717584146",
+				[12542] = "C1718533611",
+				[11559] = "C1717780259",
+				[11591] = "C1717774897",
+				[11607] = "C1718297919",
+				[11615] = "C1717709026",
+				[11623] = "C1718300939",
+				[11631] = "C1717781099",
+				[11639] = "C1718104358",
+				[11647] = "C1718217731",
+				[11655] = "C1717680334",
+				[11663] = "C1717789631",
+				[11671] = "C1717789984",
+				[11679] = "C1717790000",
+				[11687] = "C1718187205",
+				[11695] = "C1718195708",
+				[11703] = "C1717750932",
+				[11711] = "C1717751654",
+				[11719] = "C1717752203",
+				[12790] = "C1718301565",
+				[10792] = "C1717082947",
+				[10840] = "C1717321374",
+				[11871] = "C1718299648",
+				[11879] = "C1718298849",
+				[11887] = "C1718185877",
+				[11895] = "C1718185992",
+				[10880] = "C1717265476",
+				[11911] = "C1718016885",
+				[11919] = "C1717873545",
+				[9889] = "c0",
+				[11943] = "C1717951386",
+				[11951] = "C1717951565",
+				[11959] = "C1718391464",
+				[11967] = "C1717951736",
 				[11983] = "C1718355926",
-				[11936] = "C1717872255",
-				[11896] = "C1718187392",
-				[9951] = "C1717252381",
-				[11999] = "W0",
-				[11900] = "C1717871527",
-				[11980] = "C1718355953",
-				[9967] = "C1717619973",
+				[11999] = "C1718474610",
+				[9977] = "C1717620269",
+				[12031] = "C1718473026",
+				[9993] = "C1717261263",
+				[12047] = "C1718649136",
+				[13078] = "C1718729943",
+				[10017] = "C1717617976",
+				[12071] = "C1718474598",
+				[12079] = "C1718642139",
+				[10041] = "C1717251359",
+				[12095] = "C1718370209",
+				[12111] = "C1718473267",
+				[12127] = "C1718535365",
+				[13166] = "C1716933831",
+				[12151] = "C1718535314",
+				[13182] = "C1718650167",
+				[10161] = "C1717089572",
+				[13238] = "C1718732069",
+				[10177] = "C1717616775",
+				[12239] = "C1718439916",
+				[10201] = "C1717261314",
+				[12263] = "C1718550222",
+				[12271] = "C1718432424",
+				[13302] = "C1718732053",
+				[12303] = "C1718381384",
+				[9370] = "C1717182327",
+				[12447] = "C1718535911",
+				[12471] = "C1717753280",
+				[9418] = "C1717181999",
+				[10449] = "C1717052624",
+				[9466] = "C1717178555",
+				[11560] = "C1717780716",
+				[11576] = "C1717789223",
+				[11592] = "C1717761191",
+				[11608] = "C1717709019",
+				[11616] = "C1717709074",
+				[11624] = "C1717761247",
+				[11640] = "C1718217734",
+				[11648] = "C1717789611",
+				[12679] = "C1716891643",
+				[12687] = "C1716890765",
+				[11680] = "C1717790022",
+				[11688] = "C1717750654",
+				[12719] = "C1716898460",
+				[12727] = "C1716931504",
+				[11720] = "C1717752213",
+				[12751] = "C1716931628",
+				[12767] = "C1718633646",
+				[12791] = "C1718301508",
+				[10809] = "C1717082382",
+				[9818] = "C1717620956",
+				[10849] = "C1717265442",
+				[11888] = "C1718104735",
+				[10873] = "C1717448352",
+				[10881] = "C1717421578",
+				[10889] = "C1717616248",
+				[10913] = "C1717448343",
+				[10921] = "C1717448282",
+				[10929] = "C1717615498",
+				[11968] = "C1718300474",
+				[9962] = "C1717619915",
+				[9970] = "C1717620040",
+				[9978] = "C1717252436",
+				[12032] = "C1718473217",
+				[12040] = "C1718473401",
+				[12048] = "C1718474582",
+				[12056] = "C1718390977",
+				[10018] = "C1717261329",
+				[13095] = "C1718016824",
+				[12080] = "C1718642146",
+				[12096] = "C1718451482",
+				[12104] = "C1718451520",
+				[12112] = "C1718641807",
+				[13151] = "C1718792772",
+				[12136] = "C1718535529",
+				[10098] = "c0",
+				[10114] = "c0",
+				[12200] = "C1718432482",
+				[13239] = "C1718827284",
+				[10178] = "c0",
+				[12232] = "C1718432391",
+				[12240] = "C1718439821",
+				[10210] = "C1716992860",
+				[12264] = "C1718550492",
+				[10242] = "C1717052731",
+				[10250] = "C1717089151",
+				[10258] = "C1717089531",
+				[12448] = "C1718633898",
+				[9387] = "C1717182346",
+				[10442] = "C1717180559",
+				[10450] = "C1717052538",
+				[9499] = "C1717177912",
+				[10538] = "C1717082369",
+				[11569] = "C1717789128",
+				[11585] = "C1717621625",
+				[11593] = "C1717775199",
+				[11609] = "C1718297997",
+				[11617] = "C1718300882",
+				[11625] = "C1717753492",
+				[11633] = "C1718196274",
+				[11641] = "C1718217714",
+				[11649] = "C1717781028",
+				[12680] = "C1716890537",
+				[11681] = "C1717790081",
+				[11689] = "C1718187347",
+				[12720] = "C1716931008",
+				[12728] = "C1717790310",
+				[11721] = "C1717753746",
+				[12800] = "C1716932599",
+				[12848] = "C1716889605",
+				[10834] = "C1717082989",
+				[9819] = "c0",
+				[11881] = "C1718178067",
+				[10874] = "C1717615861",
+				[11905] = "C1718016865",
+				[12936] = "C1718733332",
+				[10898] = "C1717448511",
+				[11929] = "C1718218379",
+				[10914] = "C1717614848",
+				[11945] = "C1718300342",
+				[10930] = "C1717615696",
+				[11961] = "C1718300433",
+				[11969] = "C1717952101",
+				[11977] = "C1718218525",
+				[13008] = "C1718695056",
+				[12009] = "C1718430600",
 				[9971] = "C1717252393",
-				[11597] = "C1717678536",
 				[9979] = "C1717252474",
-				[9472] = "C1717181087",
 				[9987] = "C1717320579",
-				[11884] = "C1718299261",
-				[12039] = "W0",
-				[11869] = "C1718299267",
+				[9995] = "C1717584087",
 				[10003] = "C1717420208",
+				[12057] = "C1718474766",
+				[10027] = "C1717261362",
+				[12089] = "C1718474797",
+				[12097] = "C1718371675",
+				[14151] = "c0",
+				[12145] = "C1718391123",
+				[13224] = "C1718727696",
+				[12209] = "C1718382269",
+				[13264] = "W0",
+				[10211] = "C1716993359",
+				[12265] = "C1718550495",
+				[12273] = "C1718439836",
+				[10251] = "C1717618375",
+				[9340] = "C1717178543",
+				[9356] = "C1717099667",
+				[9372] = "c0",
+				[12449] = "C1718634111",
+				[9396] = "C1717182313",
+				[12497] = "C1718551635",
+				[12933] = "C1718733070",
+				[13237] = "C1718827244",
+				[13283] = "C1718731444",
+				[11506] = "C1717419549",
+				[13308] = "C1718730883",
+				[12545] = "C1718534651",
+				[12891] = "C1718826195",
+				[13036] = "C1718694882",
+				[13204] = "C1718652031",
+				[12934] = "C1718733160",
+				[11562] = "C1717780729",
+				[11570] = "C1717789329",
+				[13230] = "C1718732023",
+				[11596] = "C1717621754",
+				[11594] = "C1717775202",
+				[11602] = "C1717679310",
+				[11610] = "C1718298127",
+				[12641] = "C1716889879",
+				[11626] = "C1717753620",
+				[11634] = "C1717679450",
+				[11642] = "C1717679579",
+				[13080] = "C1718730006",
+				[13079] = "C1718729977",
+				[13125] = "C1718726210",
+				[12697] = "C1716891689",
+				[11682] = "C1717790114",
+				[11690] = "C1717750882",
+				[13076] = "C1718729695",
+				[11706] = "C1718195806",
+				[11714] = "C1717752162",
+				[11722] = "C1717753792",
+				[13075] = "c0",
+				[12059] = "C1718564850",
+				[12769] = "C1718634280",
+				[13077] = "C1718729812",
+				[9997] = "C1717613344",
+				[13118] = "C1718715518",
+				[12801] = "C1716933627",
+				[13068] = "C1718727971",
+				[12046] = "C1718648952",
+				[13072] = "C1718728016",
+				[12657] = "C1716889937",
+				[11656] = "C1717680686",
+				[10023] = "C1717320594",
+				[13002] = "C1717709187",
+				[10034] = "C1717321266",
+				[12016] = "C1718430603",
+				[10835] = "C1717100001",
+				[11866] = "C1718298865",
+				[12897] = "C1718826690",
+				[12678] = "C1716891664",
+				[11890] = "C1718185951",
+				[11898] = "C1718218350",
+				[11906] = "C1718185923",
+				[11914] = "C1717872287",
+				[13039] = "C1718695413",
+				[11930] = "C1718218502",
+				[10915] = "C1717615791",
+				[11946] = "C1717951411",
+				[10227] = "C1717421724",
+				[12954] = "C1718732814",
+				[12041] = "C1718473433",
+				[11978] = "C1718355864",
+				[11884] = "C1718299261",
+				[11048] = "c0",
+				[11899] = "C1718186012",
+				[10159] = "c0",
+				[9972] = "C1717620093",
+				[10039] = "C1717249743",
+				[12034] = "C1718356240",
+				[12050] = "C1718648550",
+				[13073] = "C1718728226",
+				[13081] = "C1718730045",
+				[12066] = "C1718565317",
+				[11561] = "C1717780697",
+				[10036] = "C1717419534",
+				[12090] = "C1718390420",
+				[10052] = "C1717613958",
+				[12106] = "C1718604824",
+				[10103] = "C1717180671",
+				[12122] = "C1718633624",
+				[12033] = "C1718356184",
+				[11705] = "C1717751230",
+				[12039] = "C1718390922",
+				[12052] = "C1718648565",
+				[11910] = "C1717871543",
 				[12488] = "C1718372733",
-				[12189] = "C1718372765",
+				[10132] = "C1717183467",
+				[10922] = "C1717615200",
+				[11865] = "C1718299066",
+				[12670] = "C1716890003",
+				[11702] = "C1717775300",
+				[12218] = "C1718439262",
+				[10180] = "C1717321769",
+				[12234] = "C1718439847",
+				[12593] = "C1716889345",
+				[10842] = "C1717617475",
+				[10220] = "C1717083447",
+				[12266] = "C1718551623",
+				[12274] = "C1718440403",
+				[11046] = "C1717618033",
+				[12036] = "C1718390929",
+				[10252] = "C1717620560",
+				[12064] = "C1718473963",
+				[12072] = "C1718531991",
+				[11896] = "C1718187392",
+				[10926] = "C1717448355",
+				[12049] = "C1718642114",
+				[10848] = "C1717421254",
+				[11683] = "C1718187200",
+				[11675] = "C1718133952",
+				[12304] = "C1718431318",
+				[10847] = "C1717264672",
+				[10923] = "C1717616180",
+				[12756] = "C1716931892",
+				[11872] = "C1718300543",
+				[12132] = "C1718535509",
+				[9349] = "C1717098232",
+				[10097] = "c0",
+				[11916] = "C1718104795",
+				[12487] = "C1718652166",
+				[12450] = "C1718634268",
+				[12458] = "C1718450785",
+				[9397] = "C1717179898",
+				[10875] = "C1717159841",
+				[9913] = "c0",
+				[12456] = "C1718432266",
+				[12498] = "C1718552289",
+				[12224] = "C1718551221",
+				[12140] = "C1718474750",
+				[11677] = "C1718134050",
+				[9381] = "C1717179184",
+				[12144] = "C1718391039",
+				[12747] = "C1716931602",
+				[9872] = "C1717621059",
+				[11912] = "C1717871598",
+				[12008] = "C1718356167",
+				[11613] = "C1717753273",
+				[11563] = "C1717780794",
+				[11571] = "C1717780054",
+				[10838] = "C1717159812",
+				[11587] = "C1717788341",
+				[11595] = "C1717678536",
+				[11618] = "C1717750330",
+				[11611] = "C1717678911",
+				[11619] = "C1717753331",
+				[11627] = "C1717780843",
+				[11635] = "C1718103948",
+				[11643] = "C1717680662",
+				[11651] = "C1717680735",
+				[12496] = "C1718551613",
+				[9912] = "C1717180643",
+				[12698] = "C1716897001",
+				[12706] = "C1716897444",
+				[12714] = "C1716897639",
+				[12722] = "C1716898492",
+				[10920] = "C1717448210",
+				[12738] = "C1716931556",
+				[12017] = "C1718430670",
+				[12754] = "C1716931785",
+				[9960] = "C1717249688",
+				[10228] = "C1717448710",
+				[12778] = "C1716932068",
+				[13167] = "C1718650158",
+				[11936] = "C1717872255",
+				[13257] = "C1718552691",
+				[12013] = "C1718474544",
+				[11664] = "C1717680236",
+				[10043] = "C1717261354",
+				[11674] = "C1718104881",
+				[12842] = "C1716889507",
+				[12850] = "C1716889967",
+				[11931] = "C1717951247",
+				[10864] = "C1717159357",
+				[12243] = "C1718440493",
+				[13105] = "C1718695969",
+				[12077] = "C1718648040",
+				[10852] = "C1717420880",
+				[10896] = "C1717321368",
+				[10868] = "C1717183787",
+				[10876] = "C1717160597",
+				[11907] = "C1718205976",
+				[13040] = "C1718695364",
+				[12076] = "C1718648021",
+				[10908] = "C1717261248",
+				[10013] = "C1717420261",
+				[13228] = "C1718732017",
+				[11900] = "C1717871527",
+				[13070] = "C1718695704",
+				[13086] = "C1718695889",
+				[11979] = "C1718259190",
+				[13110] = "C1718715576",
+				[12892] = "C1718825930",
+				[12701] = "C1716897387",
+				[12011] = "C1718430350",
+				[9973] = "C1717620164",
+				[12435] = "C1718634359",
+				[12063] = "C1718473527",
+				[12043] = "C1718641667",
+				[13074] = "C1718728328",
+				[13082] = "C1718730098",
+				[13090] = "C1717709232",
+				[12075] = "C1718642157",
+				[10037] = "C1717264649",
+				[12091] = "C1718390432",
+				[13122] = "C1718715524",
+				[13130] = "C1718714997",
+				[12115] = "C1718474817",
+				[12123] = "C1718640779",
+				[12935] = "C1718733250",
+				[13149] = "C1718791042",
+				[12147] = "C1718430836",
+				[12893] = "C1718826521",
+				[13135] = "C1718715001",
+				[12899] = "W0",
+				[13277] = "W0",
 			},
-			["ArenaPts"] = 0,
-			["Honor"] = 179,
+			["L"] = {
+				["Quest"] = {
+				},
+				["Version"] = 0.1,
+				["Events"] = {
+				},
+			},
 			["QHAskedGet"] = true,
-			["Money"] = 2911410,
-			["XPRest"] = 37054,
+			["Honor"] = 179,
+			["Money"] = 23250821,
+			["LvlTime"] = 1718828073,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -10845,10 +9149,10 @@ NxData = {
 					["FO"] = 0.15,
 					["W"] = 108.1428607084921,
 					["Y"] = 229.3156589669636,
-					["H"] = 40,
+					["X"] = -41.01557670510446,
 					["Hide"] = true,
 					["_H"] = 40,
-					["X"] = -41.01557670510446,
+					["H"] = 40,
 					["_Y"] = -0.17,
 					["_X"] = 999999,
 				},
@@ -10871,14 +9175,14 @@ NxData = {
 					["_W"] = 207,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["X"] = 0,
-					["W"] = 207,
-					["_X"] = 0,
-					["Y"] = 0,
 					["H"] = 209,
+					["W"] = 207,
+					["Hide"] = true,
+					["Y"] = 0,
+					["X"] = 0,
 					["_H"] = 209,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -10900,17 +9204,17 @@ NxData = {
 					["_Y"] = -0.35,
 					["_X"] = -0.8,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["X"] = 1081.690161799041,
-					["W"] = 360.563387266347,
-					["_X"] = -0.75,
-					["Y"] = 649.0140741912413,
-					["H"] = 108.1690123652069,
-					["_H"] = -0.1,
-					["_Y"] = -0.6,
+					["X"] = 216.3380323598082,
+					["W"] = 908.6197359111944,
+					["_X"] = -0.15,
+					["Y"] = 216.3380247304138,
+					["H"] = 540.8450618260345,
+					["_H"] = -0.5,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxMapDock"] = {
@@ -10937,12 +9241,67 @@ NxData = {
 					["Y"] = 324.5070370956207,
 					["X"] = 865.3521294392327,
 					["_H"] = 40,
-					["_X"] = -0.6,
+					["Hide"] = true,
 					["H"] = 40,
 					["_Y"] = -0.3,
-					["Hide"] = true,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["H"] = 108.1690123652069,
+					["W"] = 360.563387266347,
+					["Hide"] = true,
+					["Y"] = 649.0140741912413,
+					["X"] = 1081.690161799041,
+					["_H"] = -0.1,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
+				},
+				["NxPunkHUD"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 135,
+					["S"] = 1,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["H"] = 40,
+					["W"] = 134.0000132620333,
+					["Y"] = 108.1689818476292,
+					["X"] = -280.6478458546423,
+					["_H"] = 87,
+					["_Y"] = -0.1,
+					["_X"] = -0.6,
+				},
+				["NxOpts"] = {
+					["A"] = "TOPLEFT",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 639.999990463257,
+					["Y"] = 95.99999284744273,
+					["X"] = 319.9999952316285,
+					["_H"] = -0.7,
+					["Hide"] = true,
+					["H"] = 671.9999594688421,
+					["_Y"] = -0.1,
+					["_X"] = -0.25,
+				},
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["H"] = 64.90140741912413,
+					["W"] = 432.6760647196164,
+					["Hide"] = true,
+					["Y"] = 757.1830865564482,
+					["X"] = 1009.577484345772,
+					["_H"] = -0.06,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
 				["NxMap1"] = {
 					["9002L"] = 1,
 					["9009Y"] = -0.4,
@@ -10966,14 +9325,14 @@ NxData = {
 					["9004L"] = 1,
 					["A"] = "TOPRIGHT",
 					["FI"] = 1,
-					["9001Y"] = -0.4,
+					["9009X"] = -0.0001,
 					["9002Y"] = -0.4,
-					["9003Y"] = -0.4,
+					["9001Y"] = -0.4,
 					["9004Y"] = -0.4,
-					["MaxW"] = 1024,
+					["9003Y"] = -0.4,
 					["9009H"] = -0.3,
-					["_X"] = -0.0001,
-					["H"] = 230.3999866485598,
+					["MaxW"] = 1024,
+					["9004H"] = -0.3,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
 					["9009L"] = 1,
@@ -10983,89 +9342,1697 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9001W"] = -0.19,
+					["H"] = 230.3999866485598,
+					["9008W"] = -0.19,
 					["9003W"] = -0.19,
-					["9009X"] = -0.0001,
 					["W"] = 194.5599526977546,
 					["9008X"] = -0.0001,
 					["Y"] = -3.085708572183422,
 					["X"] = -21.0520741186727,
-					["9008W"] = -0.19,
-					["9004H"] = -0.3,
+					["9001W"] = -0.19,
+					["_X"] = -0.0001,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
 				},
-				["NxPunkHUD"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 135,
-					["S"] = 1,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["X"] = -280.6478458546423,
-					["W"] = 134.0000132620333,
-					["Y"] = 108.1689818476292,
-					["H"] = 40,
-					["_H"] = 87,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
+			},
+			["E"] = {
+				["Info"] = {
+					{
+						["NXX"] = 89.64212536811829,
+						["NXY"] = 20.01305222511292,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718534451.00004,
+						["T"] = "I",
+						["NXMapId"] = 4011,
+					}, -- [1]
+					{
+						["NXX"] = 16.15457981824875,
+						["NXY"] = 85.13399362564087,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718534451.000041,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [2]
+					{
+						["NXX"] = 88.9752984046936,
+						["NXY"] = 20.15687674283981,
+						["NXName"] = "Level 77",
+						["NXTime"] = 1718534507.000046,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [3]
+					{
+						["NXX"] = -74.89288200532403,
+						["NXY"] = 424.8191113253452,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535323.000063,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [4]
+					{
+						["NXX"] = 497.9706980061973,
+						["NXY"] = -1440.567871055005,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535343.000064,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [5]
+					{
+						["NXX"] = 34.35700833797455,
+						["NXY"] = 32.92751908302307,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535794.000071,
+						["T"] = "I",
+						["NXMapId"] = 4010,
+					}, -- [6]
+					{
+						["NXX"] = 88.42591643333435,
+						["NXY"] = 65.14497995376587,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535798.000072,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [7]
+					{
+						["NXX"] = 34.33792293071747,
+						["NXY"] = 29.84952926635742,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535842.000073,
+						["T"] = "I",
+						["NXMapId"] = 4010,
+					}, -- [8]
+					{
+						["NXX"] = 87.57845163345337,
+						["NXY"] = 62.97599673271179,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718535843.000074,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [9]
+					{
+						["NXX"] = 108.1528793001176,
+						["NXY"] = -4907.841463016272,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718549564.000001,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [10]
+					{
+						["NXX"] = 38.41333985328674,
+						["NXY"] = 19.16499435901642,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718552526.000086,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [11]
+					{
+						["NXX"] = 12.84543277753059,
+						["NXY"] = 402.6813424641533,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718552603.000087,
+						["T"] = "I",
+						["NXMapId"] = 1008,
+					}, -- [12]
+					{
+						["NXX"] = 45.59359848499298,
+						["NXY"] = 11.99918687343597,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718552623.000088,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [13]
+					{
+						["NXX"] = 1066.195812729113,
+						["NXY"] = -348.2319273447111,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718552834.000089,
+						["T"] = "I",
+						["NXMapId"] = 2024,
+					}, -- [14]
+					{
+						["NXX"] = 61.86298727989197,
+						["NXY"] = 65.08608460426331,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718553032.00009,
+						["T"] = "I",
+						["NXMapId"] = 2025,
+					}, -- [15]
+					{
+						["NXX"] = -1449.342489202717,
+						["NXY"] = 655.2156963878217,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718555073.000139,
+						["T"] = "I",
+						["NXMapId"] = 1008,
+					}, -- [16]
+					{
+						["NXX"] = 45.40250599384308,
+						["NXY"] = 12.05674111843109,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718555105.00014,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [17]
+					{
+						["NXX"] = -1113.717403147221,
+						["NXY"] = -491.8863320904968,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718564811.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [18]
+					{
+						["NXX"] = 585.3161549976204,
+						["NXY"] = -1554.384424394837,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718564825.000002,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [19]
+					{
+						["NXX"] = 139.3776819109917,
+						["NXY"] = -4724.712035059929,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718604512.000001,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [20]
+					{
+						["NXX"] = -74.89288200532403,
+						["NXY"] = 424.8191113253452,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718605090.000011,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [21]
+					{
+						["NXX"] = -1116.247165067196,
+						["NXY"] = -489.6074484258888,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718633510.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [22]
+					{
+						["NXX"] = 497.9706980061973,
+						["NXY"] = -1440.567871055005,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718633521.000002,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [23]
+					{
+						["NXX"] = 42.93546080589294,
+						["NXY"] = 50.89742541313171,
+						["NXName"] = "Level 78",
+						["NXTime"] = 1718633898.000028,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [24]
+					{
+						["NXX"] = 382.4422717094421,
+						["NXY"] = -4634.401172399521,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718640778.000001,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [25]
+					{
+						["NXX"] = -74.89288200532403,
+						["NXY"] = 424.8191113253452,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641506.000018,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [26]
+					{
+						["NXX"] = 570.1156020057401,
+						["NXY"] = -1532.315415554832,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641515.000019,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [27]
+					{
+						["NXX"] = -74.89288200532403,
+						["NXY"] = 424.8191113253452,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641651.000035,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [28]
+					{
+						["NXX"] = 570.1156020057401,
+						["NXY"] = -1532.315415554832,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641658.000036,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [29]
+					{
+						["NXX"] = 61.128830909729,
+						["NXY"] = 9.965494275093079,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641868.000039,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [30]
+					{
+						["NXX"] = 45.6354945898056,
+						["NXY"] = 71.85583710670471,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718641871.00004,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [31]
+					{
+						["NXX"] = 391.2658452987671,
+						["NXY"] = -5047.637160122395,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718647905.000001,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [32]
+					{
+						["NXX"] = 20.9583193063736,
+						["NXY"] = 64.31757211685181,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718649283.000042,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [33]
+					{
+						["NXX"] = 367.0978233218193,
+						["NXY"] = -4637.439486384392,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718650048.000196,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [34]
+					{
+						["NXX"] = 90.15032052993774,
+						["NXY"] = 79.49246764183044,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718650234.000198,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [35]
+					{
+						["NXX"] = 367.0978233218193,
+						["NXY"] = -4637.439486384392,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718651914.000303,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [36]
+					{
+						["NXX"] = 26.1845588684082,
+						["NXY"] = 50.71155428886414,
+						["NXName"] = "Level 79",
+						["NXTime"] = 1718652031.000305,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [37]
+					{
+						["NXX"] = 65.73734283447266,
+						["NXY"] = 47.81596064567566,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718652087.000306,
+						["T"] = "I",
+						["NXMapId"] = 4005,
+					}, -- [38]
+					{
+						["NXX"] = 21.4336484670639,
+						["NXY"] = 64.61085081100464,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718652303.000307,
+						["T"] = "I",
+						["NXMapId"] = 4011,
+					}, -- [39]
+					{
+						["NXX"] = 31.97280764579773,
+						["NXY"] = 75.46593546867371,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718652573.000308,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [40]
+					{
+						["NXX"] = -38.02370448254068,
+						["NXY"] = 472.1678353113477,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718653494.000314,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [41]
+					{
+						["NXX"] = 1486.795463074154,
+						["NXY"] = -390.643097798778,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718654216.000315,
+						["T"] = "I",
+						["NXMapId"] = 2009,
+					}, -- [42]
+					{
+						["NXX"] = 2907.444717981815,
+						["NXY"] = -1819.75552773118,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718694791.000001,
+						["T"] = "I",
+						["NXMapId"] = 2009,
+					}, -- [43]
+					{
+						["NXX"] = -222.7879660006242,
+						["NXY"] = -407.9826495594027,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718694873.000002,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [44]
+					{
+						["NXX"] = 397.5898295640945,
+						["NXY"] = -5487.100215256214,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718714012.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [45]
+					{
+						["NXX"] = 83.88941884040833,
+						["NXY"] = 83.59015583992004,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718714037.000002,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [46]
+					{
+						["NXX"] = -234.4890503307266,
+						["NXY"] = 926.3875540203469,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718714234.000014,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [47]
+					{
+						["NXX"] = 593.4600168881684,
+						["NXY"] = -1644.472134494005,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718714260.000015,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [48]
+					{
+						["NXX"] = 53.65774035453796,
+						["NXY"] = 13.79015892744064,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718714965.000056,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [49]
+					{
+						["NXX"] = 396.1814433336258,
+						["NXY"] = -5486.229918897152,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718725675.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [50]
+					{
+						["NXX"] = -38.02370448254068,
+						["NXY"] = 472.1678353113477,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718725855.000004,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [51]
+					{
+						["NXX"] = 51.1043906211853,
+						["NXY"] = 70.60859203338623,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718725864.000005,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [52]
+					{
+						["NXX"] = 283.7268687767751,
+						["NXY"] = 368.7695682526199,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718726272.00001,
+						["T"] = "I",
+						["NXMapId"] = 2009,
+					}, -- [53]
+					{
+						["NXX"] = -228.8541452489104,
+						["NXY"] = -412.3391397878997,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718727191.000011,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [54]
+					{
+						["NXX"] = -71.93697091247378,
+						["NXY"] = 323.6448711364355,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728214.00003,
+						["T"] = "I",
+						["NXMapId"] = 1012,
+					}, -- [55]
+					{
+						["NXX"] = 469.7587226464665,
+						["NXY"] = -625.8325174487386,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728354.000032,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [56]
+					{
+						["NXX"] = 84.73502993583679,
+						["NXY"] = 69.98372077941895,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728372.000033,
+						["T"] = "I",
+						["NXMapId"] = 4009,
+					}, -- [57]
+					{
+						["NXX"] = 19.9961468577385,
+						["NXY"] = 51.94764137268066,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728429.000034,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [58]
+					{
+						["NXX"] = -1555.850991920233,
+						["NXY"] = -2349.258469395638,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728497.000001,
+						["T"] = "I",
+						["NXMapId"] = 1012,
+					}, -- [59]
+					{
+						["NXX"] = 469.7587226464665,
+						["NXY"] = -625.8325174487386,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728515.000002,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [60]
+					{
+						["NXX"] = 85.52398681640625,
+						["NXY"] = 70.7994818687439,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728535.000003,
+						["T"] = "I",
+						["NXMapId"] = 4009,
+					}, -- [61]
+					{
+						["NXX"] = 19.53689604997635,
+						["NXY"] = 51.9523561000824,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728589.000004,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [62]
+					{
+						["NXX"] = -1555.850991920233,
+						["NXY"] = -2349.258469395638,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728642.000001,
+						["T"] = "I",
+						["NXMapId"] = 1012,
+					}, -- [63]
+					{
+						["NXX"] = 450.4909157329104,
+						["NXY"] = -639.1654416333793,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718728655.000002,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [64]
+					{
+						["NXX"] = 356.180714070797,
+						["NXY"] = -6010.943295061588,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718729322.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [65]
+					{
+						["NXX"] = 356.180714070797,
+						["NXY"] = -6010.943295061588,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718729643.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [66]
+					{
+						["NXX"] = 79.83042597770691,
+						["NXY"] = 71.85359597206116,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718729740.000002,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [67]
+					{
+						["NXX"] = 59.92690920829773,
+						["NXY"] = 54.66188788414002,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718729966.000003,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [68]
+					{
+						["NXX"] = 45.88368567627095,
+						["NXY"] = 974.5152946971028,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718730031.000004,
+						["T"] = "I",
+						["NXMapId"] = 3006,
+					}, -- [69]
+					{
+						["NXX"] = 211.5510518980254,
+						["NXY"] = -4213.057177059995,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718730063.000005,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [70]
+					{
+						["NXX"] = 51.02553963661194,
+						["NXY"] = 48.80281388759613,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718730086.000006,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [71]
+					{
+						["NXX"] = 35.49334154029475,
+						["NXY"] = -5646.986903952257,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718730721.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [72]
+					{
+						["NXX"] = 60.52597165107727,
+						["NXY"] = 36.69161200523377,
+						["NXName"] = "Level 80",
+						["NXTime"] = 1718732017.000037,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [73]
+					{
+						["NXX"] = -38.02370448254068,
+						["NXY"] = 472.1678353113477,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718732263.000038,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [74]
+					{
+						["NXX"] = 837.5301985015434,
+						["NXY"] = -1624.839322043697,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718732710.000039,
+						["T"] = "I",
+						["NXMapId"] = 4011,
+					}, -- [75]
+					{
+						["NXX"] = 1037.384835796372,
+						["NXY"] = -5315.712312821892,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718732937.000001,
+						["T"] = "I",
+						["NXMapId"] = 4011,
+					}, -- [76]
+					{
+						["NXX"] = 48.48916530609131,
+						["NXY"] = 56.46789073944092,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718733516.00001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [77]
+					{
+						["NXX"] = 225.1384794712067,
+						["NXY"] = -6048.045311123133,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718781552.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [78]
+					{
+						["NXX"] = 55.00723719596863,
+						["NXY"] = 36.24159395694733,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718781947.000002,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [79]
+					{
+						["NXX"] = 43.69809031486511,
+						["NXY"] = 18.27094405889511,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718783638.000109,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [80]
+					{
+						["NXX"] = -1114.122567158938,
+						["NXY"] = -491.0904273813965,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718789887.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [81]
+					{
+						["NXX"] = 87.40621209144592,
+						["NXY"] = 71.24520540237427,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718790748.000002,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [82]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718793052.000199,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [83]
+					{
+						["NXX"] = -1110.495759209395,
+						["NXY"] = -506.7325117754936,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718800398.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [84]
+					{
+						["NXX"] = 1486.795463074154,
+						["NXY"] = -390.643097798778,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718801086.000002,
+						["T"] = "I",
+						["NXMapId"] = 2009,
+					}, -- [85]
+					{
+						["NXX"] = -417.9588544716162,
+						["NXY"] = 208.3718814414955,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718802182.000003,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [86]
+					{
+						["NXX"] = -1115.423287869692,
+						["NXY"] = -488.7361491191386,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718813336.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [87]
+					{
+						["NXX"] = 65.89356064796448,
+						["NXY"] = 38.31750154495239,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718813377.000002,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [88]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718816011.000117,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [89]
+					{
+						["NXX"] = 1486.795463074154,
+						["NXY"] = -390.643097798778,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718816157.000118,
+						["T"] = "I",
+						["NXMapId"] = 2009,
+					}, -- [90]
+					{
+						["NXX"] = 83.56253504753113,
+						["NXY"] = 44.69697773456574,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718817841.000119,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [91]
+					{
+						["NXX"] = 51.94807648658752,
+						["NXY"] = 51.94153189659119,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718817916.00012,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [92]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718819393.000195,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [93]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718823601.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [94]
+					{
+						["NXX"] = 53.0328631401062,
+						["NXY"] = 69.26325559616089,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718824080.000002,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [95]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718824119.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [96]
+					{
+						["NXX"] = 552.122748184013,
+						["NXY"] = -1948.930964927425,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718824214.000002,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [97]
+					{
+						["NXX"] = 56.99853897094727,
+						["NXY"] = 80.46767115592957,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718824244.000003,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [98]
+					{
+						["NXX"] = -1125.609207279682,
+						["NXY"] = -482.1077620428798,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718825272.000033,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [99]
+					{
+						["NXX"] = 463.9353052122513,
+						["NXY"] = -1633.707499309493,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718825330.000034,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [100]
+					{
+						["NXX"] = 110.5816215276718,
+						["NXY"] = -5986.58002242446,
+						["NXName"] = "Entered",
+						["NXTime"] = 1718828077.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [101]
 				},
-				["NxOpts"] = {
-					["A"] = "TOPLEFT",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 639.999990463257,
-					["Y"] = 95.99999284744273,
-					["H"] = 671.9999594688421,
-					["_H"] = -0.7,
-					["_X"] = -0.25,
-					["X"] = 319.9999952316285,
-					["_Y"] = -0.1,
-					["Hide"] = true,
+				["Death"] = {
+					{
+						["NXX"] = 52.32549905776978,
+						["NXY"] = 43.18671822547913,
+						["NXName"] = "阿彻鲁斯黑暗骑士",
+						["NXTime"] = 1716890657.000022,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [1]
+					{
+						["NXX"] = 52.89129018783569,
+						["NXY"] = 43.42939853668213,
+						["NXName"] = "阿彻鲁斯黑暗骑士",
+						["NXTime"] = 1716890673.000023,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [2]
+					{
+						["NXX"] = 52.94867753982544,
+						["NXY"] = 43.50518584251404,
+						["NXName"] = "阿彻鲁斯死亡战马",
+						["NXTime"] = 1716890684.000024,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [3]
+					{
+						["NXX"] = 52.86442637443543,
+						["NXY"] = 43.58896613121033,
+						["NXName"] = "阿彻鲁斯黑暗骑士",
+						["NXTime"] = 1716890698.000025,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [4]
+					{
+						["NXX"] = 52.84342765808106,
+						["NXY"] = 43.53629052639008,
+						["NXName"] = "阿彻鲁斯死亡战马",
+						["NXTime"] = 1716890712.000026,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [5]
+					{
+						["NXX"] = 55.537348985672,
+						["NXY"] = 40.24633169174194,
+						["NXName"] = "血色步兵",
+						["NXTime"] = 1716891398.000034,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [6]
+					{
+						["NXX"] = 56.94903135299683,
+						["NXY"] = 42.19274520874023,
+						["NXName"] = "血色步兵",
+						["NXTime"] = 1716891421.000036,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [7]
+					{
+						["NXX"] = 57.00634717941284,
+						["NXY"] = 30.88164925575256,
+						["NXName"] = "血色步兵",
+						["NXTime"] = 1716896423.000005,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [8]
+					{
+						["NXX"] = 56.80112242698669,
+						["NXY"] = 30.72377145290375,
+						["NXName"] = "血色步兵",
+						["NXTime"] = 1716896439.000006,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [9]
+					{
+						["NXX"] = 56.36690855026245,
+						["NXY"] = 30.61639070510864,
+						["NXName"] = "血色步兵",
+						["NXTime"] = 1716896460.000007,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [10]
+					{
+						["NXX"] = 57.92661309242249,
+						["NXY"] = 63.70563507080078,
+						["NXName"] = "新阿瓦隆预备兵",
+						["NXTime"] = 1716897919.000116,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [11]
+					{
+						["NXX"] = 58.05765390396118,
+						["NXY"] = 63.97499442100525,
+						["NXName"] = "新阿瓦隆预备兵",
+						["NXTime"] = 1716897947.000118,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [12]
+					{
+						["NXX"] = 52.33950614929199,
+						["NXY"] = 72.87330627441406,
+						["NXName"] = "新阿瓦隆预备兵",
+						["NXTime"] = 1716898380.000139,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [13]
+					{
+						["NXX"] = 52.22752094268799,
+						["NXY"] = 72.59707450866699,
+						["NXName"] = "新阿瓦隆预备兵",
+						["NXTime"] = 1716898429.000145,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [14]
+					{
+						["NXX"] = 39.55024182796478,
+						["NXY"] = 38.42870891094208,
+						["NXName"] = "圣光防御者",
+						["NXTime"] = 1716933111.000198,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [15]
+					{
+						["NXX"] = 38.9194518327713,
+						["NXY"] = 38.6076420545578,
+						["NXName"] = "圣光防御者",
+						["NXTime"] = 1716933161.0002,
+						["T"] = "D",
+						["NXMapId"] = 2030,
+					}, -- [16]
+					{
+						["NXX"] = 79.0983259677887,
+						["NXY"] = 75.31488537788391,
+						["NXName"] = "崩溃的虚空行者",
+						["NXTime"] = 1717089737.000016,
+						["T"] = "D",
+						["NXMapId"] = 3002,
+					}, -- [17]
+					{
+						["NXX"] = 78.68512272834778,
+						["NXY"] = 76.04948878288269,
+						["NXName"] = "崩溃的虚空行者",
+						["NXTime"] = 1717089924.000024,
+						["T"] = "D",
+						["NXMapId"] = 3002,
+					}, -- [18]
+					{
+						["NXX"] = 47.02165424823761,
+						["NXY"] = 49.84510242938995,
+						["NXName"] = "碎手队长",
+						["NXTime"] = 1717159953.000042,
+						["T"] = "D",
+						["NXMapId"] = 3002,
+					}, -- [19]
+					{
+						["NXX"] = 47.09343910217285,
+						["NXY"] = 49.83911514282227,
+						["NXName"] = "碎手队长",
+						["NXTime"] = 1717160193.000049,
+						["T"] = "D",
+						["NXMapId"] = 3002,
+					}, -- [20]
+					{
+						["NXX"] = 13.56300562620163,
+						["NXY"] = 43.01643967628479,
+						["NXName"] = "暴怒的裂生者",
+						["NXTime"] = 1717183398.000107,
+						["T"] = "D",
+						["NXMapId"] = 3002,
+					}, -- [21]
+					{
+						["NXX"] = 48.73962998390198,
+						["NXY"] = 16.9944241642952,
+						["NXName"] = "奥卡雷",
+						["NXTime"] = 1717263570.000006,
+						["T"] = "D",
+						["NXMapId"] = 3007,
+					}, -- [22]
+					{
+						["NXX"] = 49.06574785709381,
+						["NXY"] = 17.01548397541046,
+						["NXName"] = "奥卡雷",
+						["NXTime"] = 1717263707.000011,
+						["T"] = "D",
+						["NXMapId"] = 3007,
+					}, -- [23]
+					{
+						["NXX"] = 43.61562430858612,
+						["NXY"] = 20.40268033742905,
+						["NXName"] = "断蹄",
+						["NXTime"] = 1717618914.000224,
+						["T"] = "D",
+						["NXMapId"] = 3003,
+					}, -- [24]
+					{
+						["NXX"] = 43.09335350990295,
+						["NXY"] = 20.70606499910355,
+						["NXName"] = "断蹄",
+						["NXTime"] = 1717618929.000225,
+						["T"] = "D",
+						["NXMapId"] = 3003,
+					}, -- [25]
+					{
+						["NXX"] = 35.05908846855164,
+						["NXY"] = 45.91510593891144,
+						["NXName"] = "残忍的瓦雷杜斯",
+						["NXTime"] = 1717751004.000025,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [26]
+					{
+						["NXX"] = 34.70942378044128,
+						["NXY"] = 46.27017974853516,
+						["NXName"] = "残忍的瓦雷杜斯",
+						["NXTime"] = 1717751020.000026,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [27]
+					{
+						["NXX"] = 47.42473065853119,
+						["NXY"] = 61.39476299285889,
+						["NXName"] = "雌性狩猎猛犸人",
+						["NXTime"] = 1717752485.000056,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [28]
+					{
+						["NXX"] = 47.40379154682159,
+						["NXY"] = 61.39140725135803,
+						["NXName"] = "雌性狩猎猛犸人",
+						["NXTime"] = 1717752504.000057,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [29]
+					{
+						["NXX"] = 59.29882526397705,
+						["NXY"] = 65.06125926971436,
+						["NXName"] = "晶化看护者",
+						["NXTime"] = 1718015908.000147,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [30]
+					{
+						["NXX"] = 37.11012303829193,
+						["NXY"] = 66.37940406799316,
+						["NXName"] = "克莉斯塔萨",
+						["NXTime"] = 1718016409.000192,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [31]
+					{
+						["NXX"] = 41.50416553020477,
+						["NXY"] = 67.3623263835907,
+						["NXName"] = "克莉斯塔萨",
+						["NXTime"] = 1718016449.000193,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [32]
+					{
+						["NXX"] = 40.55911004543304,
+						["NXY"] = 67.85473227500916,
+						["NXName"] = "克莉斯塔萨",
+						["NXTime"] = 1718016548.000194,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [33]
+					{
+						["NXX"] = 56.11539483070374,
+						["NXY"] = 9.573590010404587,
+						["NXName"] = "犸格莫斯萨满祭司",
+						["NXTime"] = 1718104494.000056,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [34]
+					{
+						["NXX"] = 0,
+						["NXY"] = 0,
+						["NXName"] = "?",
+						["NXTime"] = 1718205900.000001,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [35]
+					{
+						["NXX"] = 16.10502749681473,
+						["NXY"] = 52.57115364074707,
+						["NXName"] = "阿努巴尔恐怖编织者",
+						["NXTime"] = 1718355621.000015,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [36]
+					{
+						["NXX"] = 47.65464961528778,
+						["NXY"] = 32.90649652481079,
+						["NXName"] = "萨拉斯塔",
+						["NXTime"] = 1718370359.000002,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [37]
+					{
+						["NXX"] = 73.26204180717468,
+						["NXY"] = 74.23239350318909,
+						["NXName"] = "虔诚的保镖",
+						["NXTime"] = 1718439361.000038,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [38]
+					{
+						["NXX"] = 72.4496603012085,
+						["NXY"] = 73.4727144241333,
+						["NXName"] = "虔诚的保镖",
+						["NXTime"] = 1718439394.000039,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [39]
+					{
+						["NXX"] = 54.34921383857727,
+						["NXY"] = 31.58899545669556,
+						["NXName"] = "通灵主宰安提沃克",
+						["NXTime"] = 1718552120.000083,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [40]
+					{
+						["NXX"] = 51.3649582862854,
+						["NXY"] = 31.83772265911102,
+						["NXName"] = "废土挖掘者",
+						["NXTime"] = 1718641643.000034,
+						["T"] = "D",
+						["NXMapId"] = 4004,
+					}, -- [41]
+					{
+						["NXX"] = 65.97009897232056,
+						["NXY"] = 51.08596086502075,
+						["NXName"] = "霜巢斥候",
+						["NXTime"] = 1718652723.000313,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [42]
+					{
+						["NXX"] = 45.5912321805954,
+						["NXY"] = 42.21785962581635,
+						["NXName"] = "失落的杉达拉之魂",
+						["NXTime"] = 1718714174.000011,
+						["T"] = "D",
+						["NXMapId"] = 4002,
+					}, -- [43]
+					{
+						["NXX"] = 45.24159729480743,
+						["NXY"] = 41.78985059261322,
+						["NXName"] = "失落的杉达拉之魂",
+						["NXTime"] = 1718714218.000013,
+						["T"] = "D",
+						["NXMapId"] = 4002,
+					}, -- [44]
+					{
+						["NXX"] = 80.14684319496155,
+						["NXY"] = 61.24117374420166,
+						["NXName"] = "高阶祭司亚萨尔蒙",
+						["NXTime"] = 1718725783.000002,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [45]
+					{
+						["NXX"] = 58.91213417053223,
+						["NXY"] = 54.68811988830566,
+						["NXName"] = "伊米亚元素师",
+						["NXTime"] = 1718730993.000012,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [46]
+					{
+						["NXX"] = 59.18775796890259,
+						["NXY"] = 54.34499979019165,
+						["NXName"] = "伊米亚元素师",
+						["NXTime"] = 1718731008.000013,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [47]
+					{
+						["NXX"] = 61.45431399345398,
+						["NXY"] = 42.27744340896606,
+						["NXName"] = "石像鬼伏击者",
+						["NXTime"] = 1718731559.000035,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [48]
+					{
+						["NXX"] = 61.7057204246521,
+						["NXY"] = 41.62804782390595,
+						["NXName"] = "石像鬼伏击者",
+						["NXTime"] = 1718731563.000036,
+						["T"] = "D",
+						["NXMapId"] = 4007,
+					}, -- [49]
+					{
+						["NXX"] = 59.26387310028076,
+						["NXY"] = 72.94817566871643,
+						["NXName"] = "艾欧纳尔的火花",
+						["NXTime"] = 1718815149.000084,
+						["T"] = "D",
+						["NXMapId"] = 9000,
+					}, -- [50]
 				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["X"] = 1009.577484345772,
-					["W"] = 432.6760647196164,
-					["_X"] = -0.7,
-					["Y"] = 757.1830865564482,
-					["H"] = 64.90140741912413,
-					["_H"] = -0.06,
-					["_Y"] = -0.7,
-					["Hide"] = true,
+				["Kill"] = {
+					{
+						["NXX"] = 50.92927217483521,
+						["NXY"] = 55.75900673866272,
+						["NXKills"] = 3,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824970.000026,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [1]
+					{
+						["NXX"] = 50.92927217483521,
+						["NXY"] = 55.75900673866272,
+						["NXKills"] = 4,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824970.000027,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [2]
+					{
+						["NXX"] = 50.92927217483521,
+						["NXY"] = 55.75900673866272,
+						["NXKills"] = 5,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824976.000028,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [3]
+					{
+						["NXX"] = 50.92927217483521,
+						["NXY"] = 55.75900673866272,
+						["NXKills"] = 6,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824976.000029,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [4]
+					{
+						["NXX"] = 51.00568532943726,
+						["NXY"] = 56.33850693702698,
+						["NXKills"] = 7,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824978.00003,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [5]
+					{
+						["NXX"] = 47.14422225952148,
+						["NXY"] = 53.57455611228943,
+						["NXKills"] = 8,
+						["NXName"] = "复生的勇士",
+						["NXTime"] = 1718824981.000031,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [6]
+					{
+						["NXX"] = 49.66881275177002,
+						["NXY"] = 54.00086045265198,
+						["NXKills"] = 1,
+						["NXName"] = "黑骑士",
+						["NXTime"] = 1718825004.000032,
+						["T"] = "K",
+						["NXMapId"] = 9000,
+					}, -- [7]
+					{
+						["NXX"] = 45.08307576179504,
+						["NXY"] = 20.30899673700333,
+						["NXKills"] = 1,
+						["NXName"] = "魔眼",
+						["NXTime"] = 1718825890.000035,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [8]
+					{
+						["NXX"] = 43.87653470039368,
+						["NXY"] = 24.51588213443756,
+						["NXKills"] = 1,
+						["NXName"] = "暗影教徒",
+						["NXTime"] = 1718825962.000036,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [9]
+					{
+						["NXX"] = 43.7298983335495,
+						["NXY"] = 24.4411900639534,
+						["NXKills"] = 1,
+						["NXName"] = "死亡骑士大师",
+						["NXTime"] = 1718825971.000037,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [10]
+					{
+						["NXX"] = 43.403559923172,
+						["NXY"] = 24.24705773591995,
+						["NXKills"] = 1,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718825983.000038,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [11]
+					{
+						["NXX"] = 43.30086410045624,
+						["NXY"] = 24.71216320991516,
+						["NXKills"] = 1,
+						["NXName"] = "拱顶恶鬼",
+						["NXTime"] = 1718825990.000039,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [12]
+					{
+						["NXX"] = 43.56247484683991,
+						["NXY"] = 25.11427998542786,
+						["NXKills"] = 2,
+						["NXName"] = "暗影教徒",
+						["NXTime"] = 1718825997.00004,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [13]
+					{
+						["NXX"] = 43.62996816635132,
+						["NXY"] = 25.25394856929779,
+						["NXKills"] = 3,
+						["NXName"] = "暗影教徒",
+						["NXTime"] = 1718826005.000041,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [14]
+					{
+						["NXX"] = 43.32815408706665,
+						["NXY"] = 25.03001093864441,
+						["NXKills"] = 2,
+						["NXName"] = "死亡骑士大师",
+						["NXTime"] = 1718826017.000042,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [15]
+					{
+						["NXX"] = 43.14926266670227,
+						["NXY"] = 25.14676749706268,
+						["NXKills"] = 1,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826026.000043,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [16]
+					{
+						["NXX"] = 42.77810156345367,
+						["NXY"] = 25.56537389755249,
+						["NXKills"] = 2,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718826040.000044,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [17]
+					{
+						["NXX"] = 42.65685677528381,
+						["NXY"] = 26.1296957731247,
+						["NXKills"] = 2,
+						["NXName"] = "拱顶恶鬼",
+						["NXTime"] = 1718826050.000045,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [18]
+					{
+						["NXX"] = 43.01688671112061,
+						["NXY"] = 25.91652572154999,
+						["NXKills"] = 2,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826066.000046,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [19]
+					{
+						["NXX"] = 43.16217303276062,
+						["NXY"] = 25.87415874004364,
+						["NXKills"] = 3,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718826073.000047,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [20]
+					{
+						["NXX"] = 43.16487610340118,
+						["NXY"] = 26.49000287055969,
+						["NXKills"] = 3,
+						["NXName"] = "拱顶恶鬼",
+						["NXTime"] = 1718826080.000048,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [21]
+					{
+						["NXX"] = 43.92551481723785,
+						["NXY"] = 22.8188768029213,
+						["NXKills"] = 4,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718826105.000049,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [22]
+					{
+						["NXX"] = 44.43939924240112,
+						["NXY"] = 27.15269923210144,
+						["NXKills"] = 3,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826142.00005,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [23]
+					{
+						["NXX"] = 44.32317018508911,
+						["NXY"] = 25.67372024059296,
+						["NXKills"] = 4,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826160.000051,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [24]
+					{
+						["NXX"] = 44.32317018508911,
+						["NXY"] = 25.67372024059296,
+						["NXKills"] = 5,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718826161.000052,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [25]
+					{
+						["NXX"] = 42.24721491336823,
+						["NXY"] = 24.49000328779221,
+						["NXKills"] = 6,
+						["NXName"] = "恐尸",
+						["NXTime"] = 1718826178.000053,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [26]
+					{
+						["NXX"] = 42.24721491336823,
+						["NXY"] = 24.49000328779221,
+						["NXKills"] = 5,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826183.000054,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [27]
+					{
+						["NXX"] = 44.45392191410065,
+						["NXY"] = 27.21454501152039,
+						["NXKills"] = 6,
+						["NXName"] = "狂乱食尸者",
+						["NXTime"] = 1718826479.000055,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [28]
+					{
+						["NXX"] = 44.84812319278717,
+						["NXY"] = 19.96344774961472,
+						["NXKills"] = 1,
+						["NXName"] = "莱斯班恩将军",
+						["NXTime"] = 1718826653.000056,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [29]
+					{
+						["NXX"] = 70.3254759311676,
+						["NXY"] = 65.15267491340637,
+						["NXKills"] = 1,
+						["NXName"] = "笨重的憎恶",
+						["NXTime"] = 1718826842.000057,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [30]
+					{
+						["NXX"] = 69.67313289642334,
+						["NXY"] = 65.23174643516541,
+						["NXKills"] = 1,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718826885.000058,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [31]
+					{
+						["NXX"] = 69.67313289642334,
+						["NXY"] = 65.23174643516541,
+						["NXKills"] = 1,
+						["NXName"] = "不死的爪牙",
+						["NXTime"] = 1718826890.000059,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [32]
+					{
+						["NXX"] = 68.49082112312317,
+						["NXY"] = 69.06413435935974,
+						["NXKills"] = 1,
+						["NXName"] = "濒死的士兵",
+						["NXTime"] = 1718826944.00006,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [33]
+					{
+						["NXX"] = 68.49082112312317,
+						["NXY"] = 69.06413435935974,
+						["NXKills"] = 2,
+						["NXName"] = "笨重的憎恶",
+						["NXTime"] = 1718826945.000061,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [34]
+					{
+						["NXX"] = 68.69847774505615,
+						["NXY"] = 68.88504028320313,
+						["NXKills"] = 1,
+						["NXName"] = "邪恶通灵师",
+						["NXTime"] = 1718826958.000062,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [35]
+					{
+						["NXX"] = 68.69847774505615,
+						["NXY"] = 68.88504028320313,
+						["NXKills"] = 1,
+						["NXName"] = "复活的联盟士兵",
+						["NXTime"] = 1718826963.000063,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [36]
+					{
+						["NXX"] = 69.30528283119202,
+						["NXY"] = 68.52743029594421,
+						["NXKills"] = 3,
+						["NXName"] = "笨重的憎恶",
+						["NXTime"] = 1718826989.000064,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [37]
+					{
+						["NXX"] = 68.65177154541016,
+						["NXY"] = 67.9523766040802,
+						["NXKills"] = 4,
+						["NXName"] = "笨重的憎恶",
+						["NXTime"] = 1718827028.000065,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [38]
+					{
+						["NXX"] = 68.99961233139038,
+						["NXY"] = 67.78085231781006,
+						["NXKills"] = 2,
+						["NXName"] = "邪恶通灵师",
+						["NXTime"] = 1718827036.000066,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [39]
+					{
+						["NXX"] = 69.81753706932068,
+						["NXY"] = 67.56720542907715,
+						["NXKills"] = 5,
+						["NXName"] = "笨重的憎恶",
+						["NXTime"] = 1718827052.000067,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [40]
+					{
+						["NXX"] = 69.21194195747376,
+						["NXY"] = 67.50816106796265,
+						["NXKills"] = 3,
+						["NXName"] = "邪恶通灵师",
+						["NXTime"] = 1718827071.000068,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [41]
+					{
+						["NXX"] = 69.20990347862244,
+						["NXY"] = 67.49247908592224,
+						["NXKills"] = 2,
+						["NXName"] = "复活的联盟士兵",
+						["NXTime"] = 1718827072.000069,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [42]
+					{
+						["NXX"] = 69.17307376861572,
+						["NXY"] = 65.86971879005432,
+						["NXKills"] = 2,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718827088.00007,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [43]
+					{
+						["NXX"] = 69.17307376861572,
+						["NXY"] = 65.86971879005432,
+						["NXKills"] = 3,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718827093.000071,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [44]
+					{
+						["NXX"] = 68.96505951881409,
+						["NXY"] = 63.71015310287476,
+						["NXKills"] = 4,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718827114.000072,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [45]
+					{
+						["NXX"] = 68.79165768623352,
+						["NXY"] = 63.64632248878479,
+						["NXKills"] = 5,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718827125.000073,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [46]
+					{
+						["NXX"] = 68.79165768623352,
+						["NXY"] = 63.64632248878479,
+						["NXKills"] = 6,
+						["NXName"] = "暗影专家",
+						["NXTime"] = 1718827133.000074,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [47]
+					{
+						["NXX"] = 68.12954545021057,
+						["NXY"] = 63.58667612075806,
+						["NXKills"] = 4,
+						["NXName"] = "邪恶通灵师",
+						["NXTime"] = 1718827149.000075,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [48]
+					{
+						["NXX"] = 66.47157669067383,
+						["NXY"] = 66.36881232261658,
+						["NXKills"] = 5,
+						["NXName"] = "邪恶通灵师",
+						["NXTime"] = 1718827183.000076,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [49]
+					{
+						["NXX"] = 66.47157669067383,
+						["NXY"] = 66.36881232261658,
+						["NXKills"] = 3,
+						["NXName"] = "复活的联盟士兵",
+						["NXTime"] = 1718827189.000077,
+						["T"] = "K",
+						["NXMapId"] = 4007,
+					}, -- [50]
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["H"] = 540.8450618260345,
-					["W"] = 908.6197359111944,
-					["Hide"] = true,
-					["Y"] = 216.3380247304138,
-					["X"] = 216.3380323598082,
-					["_H"] = -0.5,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+				["Mine"] = {
+				},
+				["Herb"] = {
 				},
 			},
-			["LXPMax"] = 1587900,
-			["LXPRest"] = 118046,
-			["LTime"] = 1718371575,
+			["LXPRest"] = 0,
+			["Class"] = "Death Knight",
 			["Version"] = 0.02,
 			["DurPercent"] = 100,
-			["L"] = {
-				["Events"] = {
-				},
-				["Quest"] = {
-				},
-				["Version"] = 0.1,
-			},
-			["LvlTime"] = 1718371575,
-			["Pos"] = "4004^79.332525^65.097207",
+			["ArenaPts"] = 0,
+			["XPRest"] = 0,
+			["Pos"] = "4007^69.710815^41.455308",
 		},
 	},
 	["NXSocial"] = {
@@ -11104,35 +11071,10 @@ NxData = {
 		},
 	},
 	["NXVer1"] = 3.34,
-	["NXWare"] = {
-		["Version"] = 0.1,
+	["NXInfo"] = {
+		["Version"] = 0.24,
 	},
 	["NXVendorV"] = {
-		["|cff3fbf3f65|r 人型生物~星界商人拉斯莱"] = {
-			"2880^|cffbfbfbf1s", -- [1]
-			"2901^|cff7f7f0081c", -- [2]
-			"3466^|cffbfbfbf20s", -- [3]
-			"4357^|cff7f7f0016c", -- [4]
-			"4361^|cffbfbfbf4s |cff7f7f0080c", -- [5]
-			"4363^|cffbfbfbf2s", -- [6]
-			"4364^|cff7f7f0048c", -- [7]
-			"4371^|cffbfbfbf8s", -- [8]
-			"4382^|cffbfbfbf24s", -- [9]
-			"4389^|cffbfbfbf30s", -- [10]
-			"4399^|cffbfbfbf2s", -- [11]
-			"4400^|cffbfbfbf20s", -- [12]
-			"4404^|cffbfbfbf1s", -- [13]
-			"5956^|cff7f7f0018c", -- [14]
-			"10647^|cffbfbfbf20s", -- [15]
-			"10648^|cffbfbfbf1s |cff7f7f0025c", -- [16]
-			"23811^|cffffff006g", -- [17]
-			"23815^|cffffff006g", -- [18]
-			"23816^|cffffff004g", -- [19]
-			"39684^|cffbfbfbf90s", -- [20]
-			"40533^|cffffff005g", -- [21]
-			["POS"] = "3006^72.319900989532^31.121101975441",
-			["T"] = 1715371380,
-		},
 		["草药学供应商~爱德华·埃根"] = {
 			"3371^|cff7f7f0019c", -- [1]
 			"3372^|cffbfbfbf1s |cff7f7f0090c", -- [2]
@@ -11140,107 +11082,40 @@ NxData = {
 			"18256^|cffffff002g |cffbfbfbf85s", -- [4]
 			"22250^|cffbfbfbf9s |cff7f7f0050c", -- [5]
 			"40411^|cffffff004g |cffbfbfbf75s", -- [6]
-			["POS"] = "4003^43.257862329483^34.253820776939",
 			["T"] = 1718301636,
+			["POS"] = "4003^43.257862329483^34.253820776939",
 		},
-		["贫民窟军需官~纳克杜"] = {
-			"22538^|cffffff0019g", -- [1]
-			"22910^|cffffff007g |cffbfbfbf60s", -- [2]
-			"23138^|cffffff005g |cffbfbfbf70s", -- [3]
-			"24175^|cffffff0011g |cffbfbfbf40s", -- [4]
-			"24179^|cffffff0011g |cffbfbfbf40s", -- [5]
-			"29199^|cffffff0095g", -- [6]
-			"30633^|cffffff009g |cffbfbfbf50s", -- [7]
-			"30830^|cffffff00237g |cffbfbfbf98s |cff7f7f0026c", -- [8]
-			"30832^|cffffff0047g |cffbfbfbf95s |cff7f7f0098c", -- [9]
-			"30833^|cffffff005g |cffbfbfbf70s", -- [10]
-			"30834^|cffffff0018g |cffbfbfbf76s |cff7f7f0051c", -- [11]
-			"30835^|cffffff0024g |cffbfbfbf75s |cff7f7f0097c", -- [12]
-			"30836^|cffffff0016g |cffbfbfbf56s |cff7f7f0082c", -- [13]
-			"30841^|cffffff0016g |cffbfbfbf71s |cff7f7f0054c", -- [14]
-			"30846^|cffffff0095g", -- [15]
-			"31357^|cffffff003g |cffbfbfbf80s", -- [16]
-			"31778^|cffbfbfbf95s", -- [17]
-			"33148^|cffffff009g |cffbfbfbf50s", -- [18]
-			"33157^|cffffff0011g |cffbfbfbf40s", -- [19]
-			"34200^|cffffff0015g |cffbfbfbf20s", -- [20]
-			"35331^|cffffff0012g |cffbfbfbf52s |cff7f7f0090c", -- [21]
-			"35335^|cffffff008g |cffbfbfbf47s |cff7f7f0055c", -- [22]
-			"35340^|cffffff0017g |cffbfbfbf25s |cff7f7f0086c", -- [23]
-			"35344^|cffffff0012g |cffbfbfbf20s |cff7f7f0043c", -- [24]
-			"35357^|cffffff0016g |cff7f7f0044c", -- [25]
-			"35361^|cffffff0010g |cffbfbfbf5s |cff7f7f0043c", -- [26]
-			"35370^|cffffff0020g |cffbfbfbf80s |cff7f7f002c", -- [27]
-			"35373^|cffffff0021g |cffbfbfbf3s", -- [28]
-			"35378^|cffffff0017g |cffbfbfbf88s |cff7f7f0071c", -- [29]
-			"35382^|cffffff0012g |cffbfbfbf10s |cff7f7f0090c", -- [30]
-			"35389^|cffffff0024g |cffbfbfbf86s |cff7f7f0050c", -- [31]
-			"35391^|cffffff0025g |cffbfbfbf4s |cff7f7f0080c", -- [32]
-			"35405^|cffffff0028g |cffbfbfbf57s |cff7f7f0033c", -- [33]
-			"35411^|cffffff0022g |cffbfbfbf45s |cff7f7f0034c", -- [34]
-			"35412^|cffffff0030g |cffbfbfbf10s |cff7f7f003c", -- [35]
-			["T"] = 1715438531,
-			["POS"] = "3006^62.225103378296^68.990814685822",
+		["炼金供应商~帕蒂卡·埃根"] = {
+			"3371^|cff7f7f0019c", -- [1]
+			"3372^|cffbfbfbf1s |cff7f7f0090c", -- [2]
+			"8925^|cffbfbfbf23s |cff7f7f0075c", -- [3]
+			"18256^|cffffff002g |cffbfbfbf85s", -- [4]
+			"40411^|cffffff004g |cffbfbfbf75s", -- [5]
+			["T"] = 1718302080,
+			["POS"] = "4003^41.850107908249^32.938036322594",
 		},
-		["沙塔尔军需官~奥玛多尔"] = {
-			"13517^|cffffff008g", -- [1]
-			"22537^|cffffff0010g", -- [2]
-			"22915^|cffffff008g", -- [3]
-			"24182^|cffffff0012g", -- [4]
-			"25904^|cffffff0012g", -- [5]
-			"28273^|cffffff006g", -- [6]
-			"28281^|cffffff006g", -- [7]
-			"29175^|cffffff00200g |cffbfbfbf36s |cff7f7f0050c", -- [8]
-			"29176^|cffffff00134g |cffbfbfbf49s |cff7f7f0028c", -- [9]
-			"29177^|cffffff0079g |cffbfbfbf1s |cff7f7f0012c", -- [10]
-			"29179^|cffffff0017g |cffbfbfbf59s |cff7f7f0052c", -- [11]
-			"29180^|cffffff0013g |cffbfbfbf2s |cff7f7f0088c", -- [12]
-			"29191^|cffffff00100g", -- [13]
-			"29195^|cffffff00100g", -- [14]
-			"29717^|cffffff0012g", -- [15]
-			"30634^|cffffff0010g", -- [16]
-			"30826^|cffffff0012g", -- [17]
-			"31354^|cffffff004g", -- [18]
-			"31781^|cffffff001g", -- [19]
-			"33153^|cffffff0010g", -- [20]
-			"33155^|cffffff0012g", -- [21]
-			"33159^|cffffff0012g", -- [22]
-			"35330^|cffffff0017g |cffbfbfbf51s |cff7f7f0095c", -- [23]
-			"35333^|cffffff0013g |cffbfbfbf28s |cff7f7f0048c", -- [24]
-			"35341^|cffffff0013g |cffbfbfbf67s |cff7f7f0028c", -- [25]
-			"35345^|cffffff008g |cffbfbfbf59s |cff7f7f0070c", -- [26]
-			"35359^|cffffff0016g |cffbfbfbf96s |cff7f7f0089c", -- [27]
-			"35362^|cffffff0015g |cffbfbfbf93s |cff7f7f0063c", -- [28]
-			"35368^|cffffff0021g |cffbfbfbf73s |cff7f7f0023c", -- [29]
-			"35375^|cffffff0022g |cffbfbfbf29s |cff7f7f0075c", -- [30]
-			"35380^|cffffff0019g |cffbfbfbf5s |cff7f7f0094c", -- [31]
-			"35381^|cffffff0025g |cffbfbfbf39s |cff7f7f0078c", -- [32]
-			"35388^|cffffff0019g |cffbfbfbf55s |cff7f7f0070c", -- [33]
-			"35395^|cffffff0020g |cffbfbfbf68s |cff7f7f0018c", -- [34]
-			"35404^|cffffff0022g |cffbfbfbf43s |cff7f7f0020c", -- [35]
-			"35407^|cffffff0030g |cffbfbfbf30s |cff7f7f0051c", -- [36]
-			"35416^|cffffff0024g |cffbfbfbf5s |cff7f7f0070c", -- [37]
-			["POS"] = "3006^51.31847858429^41.857451200485",
-			["T"] = 1715371526,
+		["商人~特利索尔姆"] = {
+			"4470^|cff7f7f0038c", -- [1]
+			"6532^|cffbfbfbf2s |cff7f7f0050c", -- [2]
+			"10648^|cffbfbfbf1s |cff7f7f0025c", -- [3]
+			"14341^|cffbfbfbf50s", -- [4]
+			"18256^|cffffff003g", -- [5]
+			"38426^|cffffff003g", -- [6]
+			"39354^|cff7f7f0015c", -- [7]
+			"39501^|cffbfbfbf12s |cff7f7f0050c", -- [8]
+			"39502^|cffbfbfbf50s", -- [9]
+			"40411^|cffffff005g", -- [10]
+			["POS"] = "4004^60.314452648163^54.832553863525",
+			["T"] = 1718430829,
 		},
-		["护甲商~尼兹克"] = {
-			"2148^|cffbfbfbf29s |cff7f7f007c", -- [1]
-			"2149^|cffbfbfbf43s |cff7f7f0097c", -- [2]
-			"2150^|cffbfbfbf29s |cff7f7f0030c", -- [3]
-			"2151^|cffbfbfbf29s |cff7f7f0041c", -- [4]
-			"2152^|cffbfbfbf59s |cff7f7f006c", -- [5]
-			"2153^|cffbfbfbf59s |cff7f7f0027c", -- [6]
-			"4827^|cffbfbfbf37s |cff7f7f0048c", -- [7]
-			"4828^|cffbfbfbf34s |cff7f7f0020c", -- [8]
-			"4829^|cffbfbfbf41s |cff7f7f0053c", -- [9]
-			"4830^|cffbfbfbf94s |cff7f7f0074c", -- [10]
-			"4831^|cffbfbfbf78s |cff7f7f0058c", -- [11]
-			"4832^|cffffff001g |cffbfbfbf4s |cff7f7f0097c", -- [12]
-			"4833^|cffbfbfbf86s |cff7f7f0058c", -- [13]
-			"4835^|cffffff001g |cffbfbfbf5s |cff7f7f0050c", -- [14]
-			["T"] = 1715806086,
-			["POS"] = "1016^62.71910071373^40.231943130493",
-			["R"] = 1,
+		["枪械商~米希·法索"] = {
+			"3025^|cffffff001g |cffbfbfbf84s |cff7f7f0078c", -- [1]
+			"23803^|cffffff006g", -- [2]
+			"23807^|cffffff006g", -- [3]
+			"28060^|cffbfbfbf16s", -- [4]
+			"28061^|cffbfbfbf30s", -- [5]
+			["T"] = 1717052746,
+			["POS"] = "3002^61.107796430588^81.443500518799",
 		},
 		["|cffffff0055|r 人型生物~被感动的奥古斯图斯"] = {
 			"4604^|cff7f7f0025c", -- [1]
@@ -11250,18 +11125,8 @@ NxData = {
 			"4608^|cffbfbfbf20s", -- [5]
 			"8948^|cffbfbfbf40s", -- [6]
 			"15902^|cffffff008g", -- [7]
-			["POS"] = "2009^11.377894878387^28.657531738281",
 			["T"] = 1716320012,
-		},
-		["|cffff191980|r|cffAF5050+|r 人型生物~联盟准将"] = {
-			"54637^|r1 INV_Jewelry_Necklace_27", -- [1]
-			"54637^|r1 INV_Jewelry_Amulet_01", -- [2]
-			"54637^|r1 EOS", -- [3]
-			"54637^|r1 AB", -- [4]
-			"54637^|r1 AV", -- [5]
-			"54637^|r1 WG", -- [6]
-			["POS"] = "3006^67.435967922211^33.984598517418",
-			["T"] = 1715371436,
+			["POS"] = "2009^11.377894878387^28.657531738281",
 		},
 		["|cffffff0068|r 人型生物~补给官塔萨尔特"] = {
 			"5565^|cffbfbfbf50s", -- [1]
@@ -11302,8 +11167,60 @@ NxData = {
 			"29450^|cffbfbfbf80s", -- [36]
 			"29451^|cffbfbfbf80s", -- [37]
 			"37201^|cffbfbfbf5s", -- [38]
-			["POS"] = "3007^39.700171351433^70.150619745255",
 			["T"] = 1716728296,
+			["POS"] = "3007^39.700171351433^70.150619745255",
+		},
+		["|cffffff0080|r 人型生物~首席技师考伯克拉"] = {
+			"2880^|cff7f7f0085c", -- [1]
+			"2901^|cff7f7f0068c", -- [2]
+			"3466^|cffbfbfbf17s", -- [3]
+			"4357^|cff7f7f0013c", -- [4]
+			"4361^|cffbfbfbf4s |cff7f7f008c", -- [5]
+			"4363^|cffbfbfbf1s |cff7f7f0070c", -- [6]
+			"4364^|cff7f7f0040c", -- [7]
+			"4371^|cffbfbfbf6s |cff7f7f0080c", -- [8]
+			"4382^|cffbfbfbf20s |cff7f7f0040c", -- [9]
+			"4389^|cffbfbfbf25s |cff7f7f0050c", -- [10]
+			"4399^|cffbfbfbf1s |cff7f7f0070c", -- [11]
+			"4400^|cffbfbfbf17s", -- [12]
+			"4404^|cff7f7f0085c", -- [13]
+			"4470^|cff7f7f0032c", -- [14]
+			"5565^|cffbfbfbf42s |cff7f7f0050c", -- [15]
+			"5956^|cff7f7f0015c", -- [16]
+			"6532^|cffbfbfbf2s |cff7f7f0012c", -- [17]
+			"10647^|cffbfbfbf17s", -- [18]
+			"10648^|cffbfbfbf1s |cff7f7f006c", -- [19]
+			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [20]
+			"16583^|cffbfbfbf85s", -- [21]
+			"17020^|cffbfbfbf8s |cff7f7f0050c", -- [22]
+			"17021^|cffbfbfbf5s |cff7f7f0095c", -- [23]
+			"17026^|cffbfbfbf8s |cff7f7f0050c", -- [24]
+			"17028^|cffbfbfbf5s |cff7f7f0095c", -- [25]
+			"17029^|cffbfbfbf8s |cff7f7f0050c", -- [26]
+			"17030^|cffbfbfbf17s", -- [27]
+			"17031^|cffbfbfbf8s |cff7f7f0050c", -- [28]
+			"17032^|cffbfbfbf17s", -- [29]
+			"17033^|cffbfbfbf17s", -- [30]
+			"17037^|cffbfbfbf11s |cff7f7f0090c", -- [31]
+			"17038^|cffbfbfbf17s", -- [32]
+			"18256^|cffffff002g |cffbfbfbf55s", -- [33]
+			"21177^|cffbfbfbf25s |cff7f7f0050c", -- [34]
+			"22147^|cffbfbfbf42s |cff7f7f0050c", -- [35]
+			"22148^|cffbfbfbf12s |cff7f7f0075c", -- [36]
+			"37201^|cffbfbfbf4s |cff7f7f0025c", -- [37]
+			"38426^|cffffff002g |cffbfbfbf55s", -- [38]
+			"39354^|cff7f7f0012c", -- [39]
+			"39501^|cffbfbfbf10s |cff7f7f0062c", -- [40]
+			"39502^|cffbfbfbf42s |cff7f7f0050c", -- [41]
+			"39684^|cffbfbfbf76s |cff7f7f0050c", -- [42]
+			"40411^|cffffff004g |cffbfbfbf25s", -- [43]
+			"40533^|cffffff004g |cffbfbfbf25s", -- [44]
+			"44605^|cffbfbfbf42s |cff7f7f0050c", -- [45]
+			"44614^|cffbfbfbf59s |cff7f7f0050c", -- [46]
+			"44615^|cffbfbfbf17s", -- [47]
+			["T"] = 1718827307,
+			["POS"] = "4007^69.825690984726^47.966811060905",
+			["R"] = 1,
 		},
 		["杂货商~泰莱尔·火吻"] = {
 			"11284^|cffbfbfbf10s", -- [1]
@@ -11314,26 +11231,115 @@ NxData = {
 			"28061^|cffbfbfbf30s", -- [6]
 			"29013^|cffbfbfbf8s", -- [7]
 			"29014^|cffbfbfbf8s", -- [8]
-			["POS"] = "2029^49.880301952362^39.7565305233",
 			["T"] = 1715414326,
+			["POS"] = "2029^49.880301952362^39.7565305233",
 		},
-		["炼金供应商~帕蒂卡·埃根"] = {
-			"3371^|cff7f7f0019c", -- [1]
-			"3372^|cffbfbfbf1s |cff7f7f0090c", -- [2]
-			"8925^|cffbfbfbf23s |cff7f7f0075c", -- [3]
-			"18256^|cffffff002g |cffbfbfbf85s", -- [4]
-			"40411^|cffffff004g |cffbfbfbf75s", -- [5]
-			["POS"] = "4003^41.850107908249^32.938036322594",
-			["T"] = 1718302080,
+		["魔杖~达尔洛米"] = {
+			"5208^|cffbfbfbf33s |cff7f7f0040c", -- [1]
+			"5209^|cffbfbfbf38s |cff7f7f0055c", -- [2]
+			"5210^|cffbfbfbf58s |cff7f7f008c", -- [3]
+			"5211^|cffbfbfbf58s |cff7f7f0030c", -- [4]
+			"5236^|cffffff001g |cffbfbfbf43s |cff7f7f0094c", -- [5]
+			"5238^|cffffff003g |cffbfbfbf57s |cff7f7f0027c", -- [6]
+			"5239^|cffffff003g |cffbfbfbf87s |cff7f7f0031c", -- [7]
+			"5347^|cffffff001g |cffbfbfbf57s |cff7f7f0013c", -- [8]
+			["POS"] = "4004^59.427672624588^54.928010702133",
+			["T"] = 1718430846,
+			["R"] = 1,
 		},
-		["枪械商~米希·法索"] = {
-			"3025^|cffffff001g |cffbfbfbf84s |cff7f7f0078c", -- [1]
-			"23803^|cffffff006g", -- [2]
-			"23807^|cffffff006g", -- [3]
-			"28060^|cffbfbfbf16s", -- [4]
-			"28061^|cffbfbfbf30s", -- [5]
-			["POS"] = "3002^61.107796430588^81.443500518799",
-			["T"] = 1717052746,
+		["特种装备销售商~卡艾莉"] = {
+			"32785^|r40 Badge of Justice", -- [1]
+			"32786^|r40 Badge of Justice", -- [2]
+			"32787^|r40 Badge of Justice", -- [3]
+			"32788^|r40 Badge of Justice", -- [4]
+			"32789^|r40 Badge of Justice", -- [5]
+			"32790^|r40 Badge of Justice", -- [6]
+			"32791^|r40 Badge of Justice", -- [7]
+			"32792^|r40 Badge of Justice", -- [8]
+			"32793^|r40 Badge of Justice", -- [9]
+			"32794^|r40 Badge of Justice", -- [10]
+			"32795^|r40 Badge of Justice", -- [11]
+			"32796^|r40 Badge of Justice", -- [12]
+			"32797^|r40 Badge of Justice", -- [13]
+			"32798^|r40 Badge of Justice", -- [14]
+			"32799^|r40 Badge of Justice", -- [15]
+			"32800^|r40 Badge of Justice", -- [16]
+			"32801^|r40 Badge of Justice", -- [17]
+			"32802^|r40 Badge of Justice", -- [18]
+			"32803^|r40 Badge of Justice", -- [19]
+			"32804^|r40 Badge of Justice", -- [20]
+			"32805^|r40 Badge of Justice", -- [21]
+			"32806^|r40 Badge of Justice", -- [22]
+			"32807^|r40 Badge of Justice", -- [23]
+			"32808^|r40 Badge of Justice", -- [24]
+			"32809^|r25 Badge of Justice", -- [25]
+			"32810^|r25 Badge of Justice", -- [26]
+			"32811^|r25 Badge of Justice", -- [27]
+			"32812^|r25 Badge of Justice", -- [28]
+			"32813^|r25 Badge of Justice", -- [29]
+			"32814^|r25 Badge of Justice", -- [30]
+			"32816^|r25 Badge of Justice", -- [31]
+			"32817^|r25 Badge of Justice", -- [32]
+			"32818^|r25 Badge of Justice", -- [33]
+			"32819^|r25 Badge of Justice", -- [34]
+			"32820^|r25 Badge of Justice", -- [35]
+			"32821^|r25 Badge of Justice", -- [36]
+			"32979^|r40 Badge of Justice", -- [37]
+			"32980^|r25 Badge of Justice", -- [38]
+			"32981^|r40 Badge of Justice", -- [39]
+			"32988^|r40 Badge of Justice", -- [40]
+			"32989^|r25 Badge of Justice", -- [41]
+			"32990^|r40 Badge of Justice", -- [42]
+			"32997^|r25 Badge of Justice", -- [43]
+			"32998^|r40 Badge of Justice", -- [44]
+			"32999^|r40 Badge of Justice", -- [45]
+			"33811^|r1 INV_Belt_33", -- [46]
+			"33812^|r1 INV_Boots_Plate_04", -- [47]
+			"33813^|r1 INV_Bracer_17", -- [48]
+			"33876^|r1 INV_Bracer_17", -- [49]
+			"33877^|r1 INV_Belt_33", -- [50]
+			"33878^|r1 INV_Boots_Plate_04", -- [51]
+			"33879^|r1 INV_Belt_27", -- [52]
+			"33880^|r1 INV_Boots_Plate_07", -- [53]
+			"33881^|r1 INV_Bracer_15", -- [54]
+			"33882^|r1 INV_Belt_31", -- [55]
+			"33883^|r1 INV_Bracer_16", -- [56]
+			"33884^|r1 INV_Boots_Plate_06", -- [57]
+			"33885^|r1 INV_Belt_27", -- [58]
+			"33886^|r1 INV_Boots_Plate_07", -- [59]
+			"33887^|r1 INV_Bracer_15", -- [60]
+			"33888^|r1 INV_Belt_31", -- [61]
+			"33889^|r1 INV_Bracer_16", -- [62]
+			"33890^|r1 INV_Boots_Plate_06", -- [63]
+			"33891^|r1 INV_Belt_27", -- [64]
+			"33892^|r1 INV_Boots_Plate_07", -- [65]
+			"33893^|r1 INV_Bracer_15", -- [66]
+			"33894^|r1 INV_Bracer_17", -- [67]
+			"33895^|r1 INV_Belt_33", -- [68]
+			"33896^|r1 INV_Boots_Plate_04", -- [69]
+			"33897^|r1 INV_Bracer_17", -- [70]
+			"33898^|r1 INV_Belt_33", -- [71]
+			"33899^|r1 INV_Boots_Plate_04", -- [72]
+			"33900^|r1 INV_Belt_31", -- [73]
+			"33901^|r1 INV_Bracer_16", -- [74]
+			"33902^|r1 INV_Boots_Plate_06", -- [75]
+			"33903^|r1 INV_Belt_31", -- [76]
+			"33904^|r1 INV_Bracer_16", -- [77]
+			"33905^|r1 INV_Boots_Plate_06", -- [78]
+			"33906^|r1 INV_Bracer_17", -- [79]
+			"33907^|r1 INV_Belt_33", -- [80]
+			"33908^|r1 INV_Boots_Plate_04", -- [81]
+			"33909^|r1 INV_Belt_31", -- [82]
+			"33910^|r1 INV_Bracer_16", -- [83]
+			"33911^|r1 INV_Boots_Plate_06", -- [84]
+			"33912^|r1 INV_Belt_27", -- [85]
+			"33913^|r1 INV_Bracer_15", -- [86]
+			"33914^|r1 INV_Boots_Plate_07", -- [87]
+			"33915^|r1 INV_Belt_27", -- [88]
+			"33916^|r1 INV_Boots_Plate_07", -- [89]
+			"33917^|r1 INV_Bracer_15", -- [90]
+			["T"] = 1715414260,
+			["POS"] = "2029^50.169318914413^39.759260416031",
 		},
 		["蚌壳商人~呀噜咕噜"] = {
 			"36783^|r30 INV_Misc_Shell_03", -- [1]
@@ -11382,8 +11388,8 @@ NxData = {
 			"29010^|cffbfbfbf7s |cff7f7f0060c", -- [30]
 			"29013^|cffbfbfbf7s |cff7f7f0060c", -- [31]
 			"29014^|cffbfbfbf7s |cff7f7f0060c", -- [32]
-			["POS"] = "2009^73.838031291962^57.869058847427",
 			["T"] = 1716321725,
+			["POS"] = "2009^73.838031291962^57.869058847427",
 		},
 		["护甲锻造供应商~坚定的奥斯鲁克"] = {
 			"2880^|cffbfbfbf1s", -- [1]
@@ -11422,36 +11428,117 @@ NxData = {
 			"22901^|cffffff002g |cffbfbfbf55s", -- [17]
 			"22902^|cffffff003g |cffbfbfbf40s", -- [18]
 			"37201^|cffbfbfbf4s |cff7f7f0025c", -- [19]
-			["POS"] = "3008^32.417073845863^51.890355348587",
 			["T"] = 1716548194,
+			["POS"] = "3008^32.417073845863^51.890355348587",
 		},
-		["武器和护甲商人~拉兹博·拉斯盖尔"] = {
-			"2420^|cffffff001g |cffbfbfbf13s |cff7f7f0040c", -- [1]
-			"2426^|cffffff003g |cffbfbfbf9s |cff7f7f0039c", -- [2]
-			"2432^|cffbfbfbf73s |cff7f7f005c", -- [3]
-			"2438^|cffffff001g |cffbfbfbf99s |cff7f7f0046c", -- [4]
-			"2467^|cffbfbfbf89s |cff7f7f0058c", -- [5]
-			"2473^|cffffff002g |cffbfbfbf44s |cff7f7f0065c", -- [6]
-			"2522^|cffffff002g |cffbfbfbf14s |cff7f7f0020c", -- [7]
-			"2523^|cffffff002g |cffbfbfbf68s |cff7f7f0070c", -- [8]
-			"2530^|cffffff004g |cffbfbfbf96s |cff7f7f008c", -- [9]
-			"2531^|cffffff005g |cffbfbfbf33s |cff7f7f0060c", -- [10]
-			["T"] = 1716112224,
-			["POS"] = "1009^42.512241005898^73.398476839066",
+		["破碎残阳军需官~艾尔达拉·晨行者"] = {
+			"29193^|cffffff00100g", -- [1]
+			"34665^|cffffff0045g |cffbfbfbf90s |cff7f7f0015c", -- [2]
+			"34666^|cffffff0046g |cffbfbfbf6s |cff7f7f0043c", -- [3]
+			"34667^|cffffff0041g |cffbfbfbf81s |cff7f7f0094c", -- [4]
+			"34670^|cffffff0043g |cffbfbfbf46s |cff7f7f0090c", -- [5]
+			"34671^|cffffff0043g |cffbfbfbf63s |cff7f7f0017c", -- [6]
+			"34672^|cffffff0043g |cffbfbfbf79s |cff7f7f0045c", -- [7]
+			"34673^|cffffff0054g |cffbfbfbf94s |cff7f7f0066c", -- [8]
+			"34674^|cffffff0033g |cffbfbfbf8s |cff7f7f0067c", -- [9]
+			"34675^|cffffff0037g |cffbfbfbf78s |cff7f7f0042c", -- [10]
+			"34676^|cffffff0037g |cffbfbfbf92s |cff7f7f0031c", -- [11]
+			"34677^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [12]
+			"34678^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [13]
+			"34679^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [14]
+			"34680^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [15]
+			"34780^|cffbfbfbf50s", -- [16]
+			"34872^|cffffff0015g", -- [17]
+			"35221^|cffffff001g", -- [18]
+			"35500^|cffffff0015g", -- [19]
+			"35502^|cffffff0015g", -- [20]
+			"35505^|cffffff0015g", -- [21]
+			"35695^|cffffff0025g", -- [22]
+			"35696^|cffffff0025g", -- [23]
+			"35697^|cffffff0025g", -- [24]
+			"35698^|cffffff0025g", -- [25]
+			"35699^|cffffff0025g", -- [26]
+			"35708^|cffffff0012g", -- [27]
+			"35752^|cffffff0025g", -- [28]
+			"35753^|cffffff0025g", -- [29]
+			"35754^|cffffff0025g", -- [30]
+			"35755^|cffffff0025g", -- [31]
+			"35766^|cffffff0050g", -- [32]
+			"35767^|cffffff0050g", -- [33]
+			"35768^|cffffff0050g", -- [34]
+			"35769^|cffffff0050g", -- [35]
+			["T"] = 1715413941,
+			["POS"] = "2029^47.23245203495^30.718630552292",
+		},
+		["皮甲商~萨努耶·符文图腾"] = {
+			"843^|cffbfbfbf10s |cff7f7f0023c", -- [1]
+			"844^|cffbfbfbf6s |cff7f7f0084c", -- [2]
+			"845^|cffbfbfbf13s |cff7f7f0074c", -- [3]
+			"846^|cffbfbfbf13s |cff7f7f0079c", -- [4]
+			"1843^|cffbfbfbf6s |cff7f7f0088c", -- [5]
+			"1844^|cffbfbfbf6s |cff7f7f0091c", -- [6]
+			["POS"] = "1019^45.087131857872^58.998084068298",
+			["T"] = 1715759728,
 			["R"] = 1,
 		},
-		["蘑菇商~考苏斯"] = {
-			"4604^|cff7f7f0023c", -- [1]
-			"4605^|cffbfbfbf1s |cff7f7f0018c", -- [2]
-			"4606^|cffbfbfbf4s |cff7f7f0075c", -- [3]
-			"4607^|cffbfbfbf9s |cff7f7f0050c", -- [4]
-			"4608^|cffbfbfbf19s", -- [5]
-			"8948^|cffbfbfbf38s", -- [6]
-			"27859^|cffbfbfbf53s |cff7f7f0020c", -- [7]
-			"33452^|cffbfbfbf80s |cff7f7f0075c", -- [8]
-			"35947^|cffffff001g |cffbfbfbf52s", -- [9]
-			["POS"] = "1014^49.146747589111^53.879189491272",
-			["T"] = 1715544427,
+		["商人~加巴林卡"] = {
+			"6532^|cffbfbfbf2s |cff7f7f0012c", -- [1]
+			"10648^|cffbfbfbf1s |cff7f7f006c", -- [2]
+			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [3]
+			"18256^|cffffff002g |cffbfbfbf55s", -- [4]
+			"27694^|cffffff001g |cffbfbfbf70s", -- [5]
+			["T"] = 1716490611,
+			["POS"] = "3008^31.675425171852^49.230560660362",
+		},
+		["前旅店老板~比鲁拉"] = {
+			"159^|cff7f7f0022c", -- [1]
+			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [2]
+			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [3]
+			"1645^|cffbfbfbf18s", -- [4]
+			"1708^|cffbfbfbf9s", -- [5]
+			"4536^|cff7f7f0022c", -- [6]
+			"4537^|cffbfbfbf1s |cff7f7f0012c", -- [7]
+			"4538^|cffbfbfbf4s |cff7f7f0050c", -- [8]
+			"4539^|cffbfbfbf9s", -- [9]
+			"4602^|cffbfbfbf18s", -- [10]
+			"8766^|cffbfbfbf36s", -- [11]
+			"8953^|cffbfbfbf36s", -- [12]
+			["POS"] = "1019^45.549285411835^59.003806114197",
+			["T"] = 1715759894,
+		},
+		["工程学供应商~布拉斯·炸雷"] = {
+			"2880^|cff7f7f0085c", -- [1]
+			"2901^|cff7f7f0068c", -- [2]
+			"3466^|cffbfbfbf17s", -- [3]
+			"4357^|cff7f7f0013c", -- [4]
+			"4361^|cffbfbfbf4s |cff7f7f008c", -- [5]
+			"4363^|cffbfbfbf1s |cff7f7f0070c", -- [6]
+			"4364^|cff7f7f0040c", -- [7]
+			"4371^|cffbfbfbf6s |cff7f7f0080c", -- [8]
+			"4382^|cffbfbfbf20s |cff7f7f0040c", -- [9]
+			"4389^|cffbfbfbf25s |cff7f7f0050c", -- [10]
+			"4399^|cffbfbfbf1s |cff7f7f0070c", -- [11]
+			"4400^|cffbfbfbf17s", -- [12]
+			"4404^|cff7f7f0085c", -- [13]
+			"5956^|cff7f7f0015c", -- [14]
+			"10647^|cffbfbfbf17s", -- [15]
+			"10648^|cffbfbfbf1s |cff7f7f006c", -- [16]
+			"39684^|cffbfbfbf76s |cff7f7f0050c", -- [17]
+			"40533^|cffffff004g |cffbfbfbf25s", -- [18]
+			["POS"] = "4007^51.970821619034^57.549679279327",
+			["T"] = 1718731449,
+			["R"] = 1,
+		},
+		["Ammunition~北伐军战士玛蕾瑟"] = {
+			"4470^|cff7f7f0038c", -- [1]
+			"28056^|cffbfbfbf30s", -- [2]
+			"28061^|cffbfbfbf30s", -- [3]
+			"29013^|cffbfbfbf8s", -- [4]
+			"29014^|cffbfbfbf8s", -- [5]
+			"41584^|cffbfbfbf30s", -- [6]
+			"41586^|cffbfbfbf30s", -- [7]
+			["POS"] = "4007^87.170910835266^75.510638952255",
+			["T"] = 1718652879,
 		},
 		["瑟银兄弟会~大铁匠博恩奈特"] = {
 			"117^|cff7f7f0025c", -- [1]
@@ -11494,46 +11581,25 @@ NxData = {
 			["POS"] = "2017^38.708290457726^28.298392891884",
 			["R"] = 1,
 		},
-		["星界财团物资官~帕斯塔兹"] = {
-			"22552^|cffffff006g", -- [1]
-			"23134^|cffffff006g", -- [2]
-			"23136^|cffffff005g", -- [3]
-			"23146^|cffffff006g", -- [4]
-			"23150^|cffffff006g", -- [5]
-			"23155^|cffffff006g", -- [6]
-			"23874^|cffffff008g", -- [7]
-			"24178^|cffffff0012g", -- [8]
-			"24314^|cffffff004g", -- [9]
-			"25732^|cffffff0012g", -- [10]
-			"25733^|cffffff0014g", -- [11]
-			"25734^|cffffff0014g", -- [12]
-			"25908^|cffffff0012g", -- [13]
-			"28274^|cffffff004g", -- [14]
-			"29115^|cffffff0034g |cffbfbfbf40s |cff7f7f0063c", -- [15]
-			"29116^|cffffff0023g |cffbfbfbf1s |cff7f7f0089c", -- [16]
-			"29117^|cffffff0016g |cffbfbfbf71s |cff7f7f0072c", -- [17]
-			"29119^|cffffff0079g |cffbfbfbf1s |cff7f7f0012c", -- [18]
-			"29121^|cffffff00199g |cffbfbfbf51s |cff7f7f0072c", -- [19]
-			"29122^|cffffff0062g |cffbfbfbf77s |cff7f7f0077c", -- [20]
-			"29456^|cffffff0034g |cffbfbfbf85s |cff7f7f0080c", -- [21]
-			"29457^|cffffff0034g |cffbfbfbf99s |cff7f7f0038c", -- [22]
-			"31776^|cffffff001g", -- [23]
-			"33156^|cffffff0012g", -- [24]
-			"33305^|cffffff0012g", -- [25]
-			"33622^|cffffff0012g", -- [26]
-			["POS"] = "3003^30.261152982712^57.156950235367",
-			["T"] = 1716657777,
-			["R"] = 1,
+		["|cffffff0058|r 人型生物~药剂师迪瑟斯"] = {
+			"13320^|cffbfbfbf42s |cff7f7f0050c", -- [1]
+			["T"] = 1716320520,
+			["POS"] = "2024^83.254510164261^69.34899687767",
 		},
-		["圣光兄弟会~工匠威尔海姆"] = {
-			"2880^|cff7f7f0090c", -- [1]
-			"2901^|cff7f7f0072c", -- [2]
-			"3466^|cffbfbfbf18s", -- [3]
-			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
-			"5956^|cff7f7f0016c", -- [5]
-			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
-			["POS"] = "2009^75.230222940445^53.603225946426",
-			["T"] = 1716438331,
+		["蟑螂商人~杰雷米亚·派森"] = {
+			"10393^|cffbfbfbf45s", -- [1]
+			["T"] = 1716237161,
+			["POS"] = "2025^67.382937669754^44.522136449814",
+		},
+		["钉锤与法杖~大法师伯林纳德"] = {
+			"2524^|cffffff001g |cffbfbfbf82s |cff7f7f0032c", -- [1]
+			"2525^|cffffff002g |cffbfbfbf51s |cff7f7f0064c", -- [2]
+			"2527^|cffffff002g |cffbfbfbf78s |cff7f7f0088c", -- [3]
+			"2532^|cffffff004g |cffbfbfbf99s |cff7f7f0077c", -- [4]
+			"2533^|cffffff005g |cffbfbfbf80s |cff7f7f0051c", -- [5]
+			"2535^|cffffff005g |cffbfbfbf84s |cff7f7f0078c", -- [6]
+			["POS"] = "4001^32.985600829124^34.326004981995",
+			["T"] = 1718016889,
 			["R"] = 1,
 		},
 		["炼金术训练师~药剂师安东尼维奇"] = {
@@ -11568,79 +11634,39 @@ NxData = {
 			"22148^|cffbfbfbf14s |cff7f7f0025c", -- [29]
 			"22900^|cffffff002g |cffbfbfbf85s", -- [30]
 			"37201^|cffbfbfbf4s |cff7f7f0075c", -- [31]
-			["POS"] = "3002^52.326261997223^36.461442708969",
 			["T"] = 1717159365,
+			["POS"] = "3002^52.326261997223^36.461442708969",
 		},
-		["皮甲商~萨努耶·符文图腾"] = {
-			"843^|cffbfbfbf10s |cff7f7f0023c", -- [1]
-			"844^|cffbfbfbf6s |cff7f7f0084c", -- [2]
-			"845^|cffbfbfbf13s |cff7f7f0074c", -- [3]
-			"846^|cffbfbfbf13s |cff7f7f0079c", -- [4]
-			"1843^|cffbfbfbf6s |cff7f7f0088c", -- [5]
-			"1844^|cffbfbfbf6s |cff7f7f0091c", -- [6]
-			["POS"] = "1019^45.087131857872^58.998084068298",
-			["T"] = 1715759728,
+		["星界财团物资官~帕斯塔兹"] = {
+			"22552^|cffffff006g", -- [1]
+			"23134^|cffffff006g", -- [2]
+			"23136^|cffffff005g", -- [3]
+			"23146^|cffffff006g", -- [4]
+			"23150^|cffffff006g", -- [5]
+			"23155^|cffffff006g", -- [6]
+			"23874^|cffffff008g", -- [7]
+			"24178^|cffffff0012g", -- [8]
+			"24314^|cffffff004g", -- [9]
+			"25732^|cffffff0012g", -- [10]
+			"25733^|cffffff0014g", -- [11]
+			"25734^|cffffff0014g", -- [12]
+			"25908^|cffffff0012g", -- [13]
+			"28274^|cffffff004g", -- [14]
+			"29115^|cffffff0034g |cffbfbfbf40s |cff7f7f0063c", -- [15]
+			"29116^|cffffff0023g |cffbfbfbf1s |cff7f7f0089c", -- [16]
+			"29117^|cffffff0016g |cffbfbfbf71s |cff7f7f0072c", -- [17]
+			"29119^|cffffff0079g |cffbfbfbf1s |cff7f7f0012c", -- [18]
+			"29121^|cffffff00199g |cffbfbfbf51s |cff7f7f0072c", -- [19]
+			"29122^|cffffff0062g |cffbfbfbf77s |cff7f7f0077c", -- [20]
+			"29456^|cffffff0034g |cffbfbfbf85s |cff7f7f0080c", -- [21]
+			"29457^|cffffff0034g |cffbfbfbf99s |cff7f7f0038c", -- [22]
+			"31776^|cffffff001g", -- [23]
+			"33156^|cffffff0012g", -- [24]
+			"33305^|cffffff0012g", -- [25]
+			"33622^|cffffff0012g", -- [26]
+			["POS"] = "3003^30.261152982712^57.156950235367",
+			["T"] = 1716657777,
 			["R"] = 1,
-		},
-		["银色黎明~银色黎明军需官哈萨娜"] = {
-			"13482^|cffffff001g |cffbfbfbf50s", -- [1]
-			"13724^|cffbfbfbf60s", -- [2]
-			"13810^|cffbfbfbf60s", -- [3]
-			"13813^|cffbfbfbf60s", -- [4]
-			"19203^|cffffff002g |cffbfbfbf20s", -- [5]
-			"19205^|cffffff004g", -- [6]
-			"19216^|cffffff002g |cffbfbfbf20s", -- [7]
-			"19217^|cffffff004g", -- [8]
-			"19328^|cffffff002g |cffbfbfbf20s", -- [9]
-			"19329^|cffffff004g", -- [10]
-			"19442^|cffffff0010g", -- [11]
-			"19446^|cffffff003g", -- [12]
-			"19447^|cffffff006g", -- [13]
-			"22014^|cffffff00133g |cffbfbfbf33s |cff7f7f0033c", -- [14]
-			["T"] = 1716189534,
-			["POS"] = "2024^83.222097158432^68.279153108597",
-			["R"] = 1,
-		},
-		["蟑螂商人~杰雷米亚·派森"] = {
-			"10393^|cffbfbfbf45s", -- [1]
-			["POS"] = "2025^67.382937669754^44.522136449814",
-			["T"] = 1716237161,
-		},
-		["钉锤与法杖~大法师伯林纳德"] = {
-			"2524^|cffffff001g |cffbfbfbf82s |cff7f7f0032c", -- [1]
-			"2525^|cffffff002g |cffbfbfbf51s |cff7f7f0064c", -- [2]
-			"2527^|cffffff002g |cffbfbfbf78s |cff7f7f0088c", -- [3]
-			"2532^|cffffff004g |cffbfbfbf99s |cff7f7f0077c", -- [4]
-			"2533^|cffffff005g |cffbfbfbf80s |cff7f7f0051c", -- [5]
-			"2535^|cffffff005g |cffbfbfbf84s |cff7f7f0078c", -- [6]
-			["POS"] = "4001^32.985600829124^34.326004981995",
-			["T"] = 1718016889,
-			["R"] = 1,
-		},
-		["商人~加巴林卡"] = {
-			"6532^|cffbfbfbf2s |cff7f7f0012c", -- [1]
-			"10648^|cffbfbfbf1s |cff7f7f006c", -- [2]
-			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [3]
-			"18256^|cffffff002g |cffbfbfbf55s", -- [4]
-			"27694^|cffffff001g |cffbfbfbf70s", -- [5]
-			["POS"] = "3008^31.675425171852^49.230560660362",
-			["T"] = 1716490611,
-		},
-		["前旅店老板~比鲁拉"] = {
-			"159^|cff7f7f0022c", -- [1]
-			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [2]
-			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [3]
-			"1645^|cffbfbfbf18s", -- [4]
-			"1708^|cffbfbfbf9s", -- [5]
-			"4536^|cff7f7f0022c", -- [6]
-			"4537^|cffbfbfbf1s |cff7f7f0012c", -- [7]
-			"4538^|cffbfbfbf4s |cff7f7f0050c", -- [8]
-			"4539^|cffbfbfbf9s", -- [9]
-			"4602^|cffbfbfbf18s", -- [10]
-			"8766^|cffbfbfbf36s", -- [11]
-			"8953^|cffbfbfbf36s", -- [12]
-			["T"] = 1715759894,
-			["POS"] = "1019^45.549285411835^59.003806114197",
 		},
 		["锻造训练师~哈姆菲"] = {
 			"2880^|cff7f7f0090c", -- [1]
@@ -11708,32 +11734,130 @@ NxData = {
 			["T"] = 1716208838,
 			["R"] = 1,
 		},
-		["|cffffff0058|r 人型生物~药剂师迪瑟斯"] = {
-			"13320^|cffbfbfbf42s |cff7f7f0050c", -- [1]
-			["POS"] = "2024^83.254510164261^69.34899687767",
-			["T"] = 1716320520,
+		["贫民窟军需官~纳克杜"] = {
+			"22538^|cffffff0019g", -- [1]
+			"22910^|cffffff007g |cffbfbfbf60s", -- [2]
+			"23138^|cffffff005g |cffbfbfbf70s", -- [3]
+			"24175^|cffffff0011g |cffbfbfbf40s", -- [4]
+			"24179^|cffffff0011g |cffbfbfbf40s", -- [5]
+			"29199^|cffffff0095g", -- [6]
+			"30633^|cffffff009g |cffbfbfbf50s", -- [7]
+			"30830^|cffffff00237g |cffbfbfbf98s |cff7f7f0026c", -- [8]
+			"30832^|cffffff0047g |cffbfbfbf95s |cff7f7f0098c", -- [9]
+			"30833^|cffffff005g |cffbfbfbf70s", -- [10]
+			"30834^|cffffff0018g |cffbfbfbf76s |cff7f7f0051c", -- [11]
+			"30835^|cffffff0024g |cffbfbfbf75s |cff7f7f0097c", -- [12]
+			"30836^|cffffff0016g |cffbfbfbf56s |cff7f7f0082c", -- [13]
+			"30841^|cffffff0016g |cffbfbfbf71s |cff7f7f0054c", -- [14]
+			"30846^|cffffff0095g", -- [15]
+			"31357^|cffffff003g |cffbfbfbf80s", -- [16]
+			"31778^|cffbfbfbf95s", -- [17]
+			"33148^|cffffff009g |cffbfbfbf50s", -- [18]
+			"33157^|cffffff0011g |cffbfbfbf40s", -- [19]
+			"34200^|cffffff0015g |cffbfbfbf20s", -- [20]
+			"35331^|cffffff0012g |cffbfbfbf52s |cff7f7f0090c", -- [21]
+			"35335^|cffffff008g |cffbfbfbf47s |cff7f7f0055c", -- [22]
+			"35340^|cffffff0017g |cffbfbfbf25s |cff7f7f0086c", -- [23]
+			"35344^|cffffff0012g |cffbfbfbf20s |cff7f7f0043c", -- [24]
+			"35357^|cffffff0016g |cff7f7f0044c", -- [25]
+			"35361^|cffffff0010g |cffbfbfbf5s |cff7f7f0043c", -- [26]
+			"35370^|cffffff0020g |cffbfbfbf80s |cff7f7f002c", -- [27]
+			"35373^|cffffff0021g |cffbfbfbf3s", -- [28]
+			"35378^|cffffff0017g |cffbfbfbf88s |cff7f7f0071c", -- [29]
+			"35382^|cffffff0012g |cffbfbfbf10s |cff7f7f0090c", -- [30]
+			"35389^|cffffff0024g |cffbfbfbf86s |cff7f7f0050c", -- [31]
+			"35391^|cffffff0025g |cffbfbfbf4s |cff7f7f0080c", -- [32]
+			"35405^|cffffff0028g |cffbfbfbf57s |cff7f7f0033c", -- [33]
+			"35411^|cffffff0022g |cffbfbfbf45s |cff7f7f0034c", -- [34]
+			"35412^|cffffff0030g |cffbfbfbf10s |cff7f7f003c", -- [35]
+			["POS"] = "3006^62.225103378296^68.990814685822",
+			["T"] = 1715438531,
 		},
 		["食物与饮料~图书馆员塞尔拉"] = {
 			"37252^|cffbfbfbf80s |cff7f7f0075c", -- [1]
 			"37253^|cffbfbfbf57s", -- [2]
-			["POS"] = "4001^33.451226353645^34.368008375168",
 			["T"] = 1717951438,
+			["POS"] = "4001^33.451226353645^34.368008375168",
 		},
-		["绝世宝物商人~格里伏塔"] = {
-			"27940^|cffffff0038g", -- [1]
-			"27941^|cffffff0019g", -- [2]
-			"27944^|cffffff0033g |cffbfbfbf25s", -- [3]
-			"27945^|cffffff0014g |cffbfbfbf25s", -- [4]
-			"27976^|cffffff0023g |cffbfbfbf75s", -- [5]
-			"27978^|cffbfbfbf95s", -- [6]
-			"27979^|cffffff009g |cffbfbfbf50s", -- [7]
-			"27982^|cffffff0028g |cffbfbfbf50s", -- [8]
-			"27992^|cffffff004g |cffbfbfbf75s", -- [9]
-			"33012^|cffffff009g |cffbfbfbf50s", -- [10]
-			"33014^|cffffff004g |cffbfbfbf75s", -- [11]
-			"34249^|cffffff0095g", -- [12]
-			["T"] = 1715438510,
-			["POS"] = "3006^65.514987707138^69.069647789001",
+		["旅店老板~弗洛伊德·平克"] = {
+			"4470^|cff7f7f0036c", -- [1]
+			"6532^|cffbfbfbf2s |cff7f7f0037c", -- [2]
+			"8766^|cffbfbfbf38s", -- [3]
+			"8952^|cffbfbfbf38s", -- [4]
+			"10648^|cffbfbfbf1s |cff7f7f0018c", -- [5]
+			"11284^|cffbfbfbf9s |cff7f7f0050c", -- [6]
+			"11285^|cffbfbfbf9s |cff7f7f0050c", -- [7]
+			"14341^|cffbfbfbf47s |cff7f7f0050c", -- [8]
+			"18256^|cffffff002g |cffbfbfbf85s", -- [9]
+			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [10]
+			"27860^|cffbfbfbf60s |cff7f7f0080c", -- [11]
+			"28053^|cffbfbfbf15s |cff7f7f0020c", -- [12]
+			"28056^|cffbfbfbf28s |cff7f7f0050c", -- [13]
+			"28060^|cffbfbfbf15s |cff7f7f0020c", -- [14]
+			"28061^|cffbfbfbf28s |cff7f7f0050c", -- [15]
+			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [16]
+			"29451^|cffbfbfbf76s", -- [17]
+			"30744^|cffffff0011g |cffbfbfbf40s", -- [18]
+			"30745^|cffffff0013g |cffbfbfbf30s", -- [19]
+			"30746^|cffffff009g |cffbfbfbf50s", -- [20]
+			"30747^|cffffff0011g |cffbfbfbf40s", -- [21]
+			"30748^|cffffff0013g |cffbfbfbf30s", -- [22]
+			["POS"] = "3002^56.680607795715^37.449684739113",
+			["T"] = 1717100202,
+		},
+		["旅店老板~旅店老板格雷什卡"] = {
+			"117^|cff7f7f0023c", -- [1]
+			"159^|cff7f7f0023c", -- [2]
+			"1179^|cffbfbfbf1s |cff7f7f0018c", -- [3]
+			"1205^|cffbfbfbf4s |cff7f7f0075c", -- [4]
+			"1645^|cffbfbfbf19s", -- [5]
+			"1708^|cffbfbfbf9s |cff7f7f0050c", -- [6]
+			"2287^|cffbfbfbf1s |cff7f7f0018c", -- [7]
+			"3770^|cffbfbfbf4s |cff7f7f0075c", -- [8]
+			"3771^|cffbfbfbf9s |cff7f7f0050c", -- [9]
+			"4599^|cffbfbfbf19s", -- [10]
+			"8766^|cffbfbfbf38s", -- [11]
+			"8952^|cffbfbfbf38s", -- [12]
+			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [13]
+			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [14]
+			"33444^|cffbfbfbf80s |cff7f7f0075c", -- [15]
+			"33445^|cffffff001g |cffbfbfbf4s |cff7f7f0050c", -- [16]
+			"33454^|cffbfbfbf80s |cff7f7f0075c", -- [17]
+			"35953^|cffffff001g |cffbfbfbf52s", -- [18]
+			"35954^|cffbfbfbf57s", -- [19]
+			["T"] = 1718824139,
+			["POS"] = "1014^53.925734758377^68.725526332855",
+		},
+		["商人~祖莱"] = {
+			"4470^|cff7f7f0034c", -- [1]
+			"11284^|cffbfbfbf9s", -- [2]
+			"11285^|cffbfbfbf9s", -- [3]
+			"27695^|cffffff001g |cffbfbfbf80s", -- [4]
+			"28053^|cffbfbfbf14s |cff7f7f0040c", -- [5]
+			"28056^|cffbfbfbf27s", -- [6]
+			"28060^|cffbfbfbf14s |cff7f7f0040c", -- [7]
+			"28061^|cffbfbfbf27s", -- [8]
+			"29013^|cffbfbfbf7s |cff7f7f0020c", -- [9]
+			"29014^|cffbfbfbf7s |cff7f7f0020c", -- [10]
+			["T"] = 1716469270,
+			["POS"] = "3008^85.259056091309^54.665184020996",
+			["R"] = 1,
+		},
+		["弓箭和枪械商人~卡加"] = {
+			"2509^|cffbfbfbf3s |cff7f7f0093c", -- [1]
+			"2511^|cffbfbfbf12s |cff7f7f0057c", -- [2]
+			"2516^|cff7f7f009c", -- [3]
+			"2519^|cff7f7f0047c", -- [4]
+			"3023^|cffbfbfbf35s |cff7f7f0082c", -- [5]
+			"3024^|cffbfbfbf67s |cff7f7f0043c", -- [6]
+			"3025^|cffffff001g |cffbfbfbf75s |cff7f7f0054c", -- [7]
+			"3033^|cffbfbfbf2s |cff7f7f0085c", -- [8]
+			"5441^|cffbfbfbf9s |cff7f7f0050c", -- [9]
+			"11284^|cffbfbfbf9s |cff7f7f0050c", -- [10]
+			"28060^|cffbfbfbf15s |cff7f7f0020c", -- [11]
+			["T"] = 1718732277,
+			["POS"] = "1014^52.237468957901^62.484061717987",
+			["R"] = 1,
 		},
 		["沙塔尔神器管理者~阿苏尔"] = {
 			"28963^|r1 Helm Token", -- [1]
@@ -11846,57 +11970,8 @@ NxData = {
 			"29014^|cffbfbfbf7s |cff7f7f0060c", -- [18]
 			"29112^|cffbfbfbf2s |cff7f7f0085c", -- [19]
 			"29449^|cffbfbfbf76s", -- [20]
-			["T"] = 1716469590,
 			["POS"] = "3008^78.531211614609^63.006901741028",
-		},
-		["制皮供应商~维尔格·厚刃"] = {
-			"2320^|cff7f7f008c", -- [1]
-			"2321^|cff7f7f0085c", -- [2]
-			"2325^|cffbfbfbf8s |cff7f7f0050c", -- [3]
-			"2604^|cff7f7f0042c", -- [4]
-			"2605^|cff7f7f0085c", -- [5]
-			"4289^|cff7f7f0042c", -- [6]
-			"4291^|cffbfbfbf4s |cff7f7f0025c", -- [7]
-			"4340^|cffbfbfbf2s |cff7f7f0097c", -- [8]
-			"4341^|cffbfbfbf4s |cff7f7f0025c", -- [9]
-			"4342^|cffbfbfbf21s |cff7f7f0025c", -- [10]
-			"6260^|cff7f7f0042c", -- [11]
-			"6261^|cffbfbfbf8s |cff7f7f0050c", -- [12]
-			"7005^|cff7f7f0069c", -- [13]
-			"8343^|cffbfbfbf17s", -- [14]
-			"10290^|cffbfbfbf21s |cff7f7f0025c", -- [15]
-			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [16]
-			"15725^|cffffff001g |cffbfbfbf2s", -- [17]
-			"15741^|cffffff001g |cffbfbfbf36s", -- [18]
-			"38426^|cffffff002g |cffbfbfbf55s", -- [19]
-			["T"] = 1716288344,
-			["POS"] = "2024^83.277678489685^69.738531112671",
-		},
-		["旅店老板~弗洛伊德·平克"] = {
-			"4470^|cff7f7f0036c", -- [1]
-			"6532^|cffbfbfbf2s |cff7f7f0037c", -- [2]
-			"8766^|cffbfbfbf38s", -- [3]
-			"8952^|cffbfbfbf38s", -- [4]
-			"10648^|cffbfbfbf1s |cff7f7f0018c", -- [5]
-			"11284^|cffbfbfbf9s |cff7f7f0050c", -- [6]
-			"11285^|cffbfbfbf9s |cff7f7f0050c", -- [7]
-			"14341^|cffbfbfbf47s |cff7f7f0050c", -- [8]
-			"18256^|cffffff002g |cffbfbfbf85s", -- [9]
-			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [10]
-			"27860^|cffbfbfbf60s |cff7f7f0080c", -- [11]
-			"28053^|cffbfbfbf15s |cff7f7f0020c", -- [12]
-			"28056^|cffbfbfbf28s |cff7f7f0050c", -- [13]
-			"28060^|cffbfbfbf15s |cff7f7f0020c", -- [14]
-			"28061^|cffbfbfbf28s |cff7f7f0050c", -- [15]
-			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [16]
-			"29451^|cffbfbfbf76s", -- [17]
-			"30744^|cffffff0011g |cffbfbfbf40s", -- [18]
-			"30745^|cffffff0013g |cffbfbfbf30s", -- [19]
-			"30746^|cffffff009g |cffbfbfbf50s", -- [20]
-			"30747^|cffffff0011g |cffbfbfbf40s", -- [21]
-			"30748^|cffffff0013g |cffbfbfbf30s", -- [22]
-			["T"] = 1717100202,
-			["POS"] = "3002^56.680607795715^37.449684739113",
+			["T"] = 1716469590,
 		},
 		["铁匠~铸甲匠奥库鲁克"] = {
 			"2423^|cffffff004g |cffbfbfbf6s |cff7f7f0031c", -- [1]
@@ -11932,29 +12007,18 @@ NxData = {
 			"4599^|cffbfbfbf19s", -- [10]
 			"8766^|cffbfbfbf38s", -- [11]
 			"8952^|cffbfbfbf38s", -- [12]
-			["POS"] = "1008^51.541489362717^41.701862215996",
 			["T"] = 1715545830,
+			["POS"] = "1008^51.541489362717^41.701862215996",
 		},
-		["|cffffff0065|r 人型生物~灵魂先知加尔托克"] = {
-			"28553^|r50 INV_Jewelry_FrostwolfTrinket_04", -- [1]
-			"28555^|r50 INV_Jewelry_FrostwolfTrinket_04", -- [2]
-			"28556^|r8 INV_Jewelry_FrostwolfTrinket_04", -- [3]
-			"28557^|r8 INV_Jewelry_FrostwolfTrinket_04", -- [4]
-			"28559^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [5]
-			"28560^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [6]
-			"28561^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [7]
-			"28574^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [8]
-			"28575^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [9]
-			"28576^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [10]
-			"28577^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [11]
-			"28758^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [12]
-			"28759^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [13]
-			"28760^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [14]
-			"28761^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [15]
-			"32947^|r2 INV_Jewelry_FrostwolfTrinket_04", -- [16]
-			"32948^|r2 INV_Jewelry_FrostwolfTrinket_04", -- [17]
-			["POS"] = "3007^49.792039394379^46.577733755112",
-			["T"] = 1717183847,
+		["食物和饮料~蒙杜尔"] = {
+			"8766^|cffbfbfbf38s", -- [1]
+			"8952^|cffbfbfbf38s", -- [2]
+			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [3]
+			"27860^|cffbfbfbf60s |cff7f7f0080c", -- [4]
+			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [5]
+			"29451^|cffbfbfbf76s", -- [6]
+			["POS"] = "3002^61.772459745407^81.438863277435",
+			["T"] = 1717090268,
 		},
 		["武器和护甲~铁匠霍尔萨"] = {
 			"34887^|r60 Badge of Justice", -- [1]
@@ -12018,14 +12082,87 @@ NxData = {
 			["POS"] = "2029^50.571423768997^40.605562925339",
 			["R"] = 1,
 		},
-		["商人~苦工柏加尔"] = {
-			"4470^|cff7f7f0038c", -- [1]
-			"6532^|cffbfbfbf2s |cff7f7f0050c", -- [2]
-			"10648^|cffbfbfbf1s |cff7f7f0025c", -- [3]
-			"14341^|cffbfbfbf50s", -- [4]
-			"18256^|cffffff003g", -- [5]
-			["POS"] = "3002^61.603087186813^81.893241405487",
-			["T"] = 1717053043,
+		["供应商~军需官瓦丝凯丝"] = {
+			"3775^|cff7f7f0049c", -- [1]
+			"4470^|cff7f7f0036c", -- [2]
+			"5237^|cff7f7f0068c", -- [3]
+			"5565^|cffbfbfbf47s |cff7f7f0050c", -- [4]
+			"6532^|cffbfbfbf2s |cff7f7f0037c", -- [5]
+			"8927^|cffbfbfbf3s |cff7f7f0080c", -- [6]
+			"8928^|cffbfbfbf4s |cff7f7f0075c", -- [7]
+			"8985^|cffbfbfbf5s |cff7f7f0070c", -- [8]
+			"10648^|cffbfbfbf1s |cff7f7f0018c", -- [9]
+			"10922^|cffbfbfbf6s |cff7f7f0065c", -- [10]
+			"14341^|cffbfbfbf47s |cff7f7f0050c", -- [11]
+			"16583^|cffbfbfbf95s", -- [12]
+			"17020^|cffbfbfbf9s |cff7f7f0050c", -- [13]
+			"17021^|cffbfbfbf6s |cff7f7f0065c", -- [14]
+			"17026^|cffbfbfbf9s |cff7f7f0050c", -- [15]
+			"17028^|cffbfbfbf6s |cff7f7f0065c", -- [16]
+			"17029^|cffbfbfbf9s |cff7f7f0050c", -- [17]
+			"17030^|cffbfbfbf19s", -- [18]
+			"17031^|cffbfbfbf9s |cff7f7f0050c", -- [19]
+			"17032^|cffbfbfbf19s", -- [20]
+			"17033^|cffbfbfbf19s", -- [21]
+			"17034^|cffbfbfbf1s |cff7f7f0090c", -- [22]
+			"17035^|cffbfbfbf3s |cff7f7f0080c", -- [23]
+			"17036^|cffbfbfbf7s |cff7f7f0060c", -- [24]
+			"17037^|cffbfbfbf13s |cff7f7f0030c", -- [25]
+			"17038^|cffbfbfbf19s", -- [26]
+			"18256^|cffffff002g |cffbfbfbf85s", -- [27]
+			"20844^|cffbfbfbf5s |cff7f7f0070c", -- [28]
+			"21177^|cffbfbfbf28s |cff7f7f0050c", -- [29]
+			"21835^|cffbfbfbf14s |cff7f7f0025c", -- [30]
+			"21927^|cffbfbfbf14s |cff7f7f0025c", -- [31]
+			"22053^|cffbfbfbf9s |cff7f7f0050c", -- [32]
+			"22054^|cffbfbfbf14s |cff7f7f0025c", -- [33]
+			"22055^|cffbfbfbf8s |cff7f7f0055c", -- [34]
+			"22147^|cffbfbfbf47s |cff7f7f0050c", -- [35]
+			"22148^|cffbfbfbf14s |cff7f7f0025c", -- [36]
+			"37201^|cffbfbfbf4s |cff7f7f0075c", -- [37]
+			"38426^|cffffff002g |cffbfbfbf85s", -- [38]
+			"39354^|cff7f7f0014c", -- [39]
+			"39501^|cffbfbfbf11s |cff7f7f0087c", -- [40]
+			"39502^|cffbfbfbf47s |cff7f7f0050c", -- [41]
+			"40411^|cffffff004g |cffbfbfbf75s", -- [42]
+			"42777^|cffffff001g |cffbfbfbf4s |cff7f7f0050c", -- [43]
+			"42778^|cffffff001g |cffbfbfbf52s", -- [44]
+			"42779^|cffffff001g |cffbfbfbf52s", -- [45]
+			"43230^|cffbfbfbf38s", -- [46]
+			"43231^|cffbfbfbf42s |cff7f7f0075c", -- [47]
+			"43232^|cffbfbfbf42s |cff7f7f0075c", -- [48]
+			"43233^|cffbfbfbf47s |cff7f7f0050c", -- [49]
+			"43234^|cffbfbfbf33s |cff7f7f0025c", -- [50]
+			"43235^|cffbfbfbf38s", -- [51]
+			"43237^|cffbfbfbf38s", -- [52]
+			"44605^|cffbfbfbf47s |cff7f7f0050c", -- [53]
+			"44614^|cffbfbfbf66s |cff7f7f0050c", -- [54]
+			"44615^|cffbfbfbf19s", -- [55]
+			["T"] = 1718728082,
+			["POS"] = "4007^79.573404788971^72.718703746796",
+		},
+		["制皮供应商~维尔格·厚刃"] = {
+			"2320^|cff7f7f008c", -- [1]
+			"2321^|cff7f7f0085c", -- [2]
+			"2325^|cffbfbfbf8s |cff7f7f0050c", -- [3]
+			"2604^|cff7f7f0042c", -- [4]
+			"2605^|cff7f7f0085c", -- [5]
+			"4289^|cff7f7f0042c", -- [6]
+			"4291^|cffbfbfbf4s |cff7f7f0025c", -- [7]
+			"4340^|cffbfbfbf2s |cff7f7f0097c", -- [8]
+			"4341^|cffbfbfbf4s |cff7f7f0025c", -- [9]
+			"4342^|cffbfbfbf21s |cff7f7f0025c", -- [10]
+			"6260^|cff7f7f0042c", -- [11]
+			"6261^|cffbfbfbf8s |cff7f7f0050c", -- [12]
+			"7005^|cff7f7f0069c", -- [13]
+			"8343^|cffbfbfbf17s", -- [14]
+			"10290^|cffbfbfbf21s |cff7f7f0025c", -- [15]
+			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [16]
+			"15725^|cffffff001g |cffbfbfbf2s", -- [17]
+			"15741^|cffffff001g |cffbfbfbf36s", -- [18]
+			"38426^|cffffff002g |cffbfbfbf55s", -- [19]
+			["POS"] = "2024^83.277678489685^69.738531112671",
+			["T"] = 1716288344,
 		},
 		["食物和饮料~格鲁纳"] = {
 			"159^|cff7f7f0021c", -- [1]
@@ -12040,62 +12177,38 @@ NxData = {
 			"4601^|cffbfbfbf17s", -- [10]
 			"8766^|cffbfbfbf34s", -- [11]
 			"8950^|cffbfbfbf34s", -- [12]
-			["T"] = 1716189699,
 			["POS"] = "2005^65.642416477203^24.011653661728",
+			["T"] = 1716189699,
 		},
-		["弓箭和枪械商人~卡加"] = {
-			"2509^|cffbfbfbf3s |cff7f7f0093c", -- [1]
-			"2511^|cffbfbfbf12s |cff7f7f0057c", -- [2]
-			"2516^|cff7f7f009c", -- [3]
-			"2519^|cff7f7f0047c", -- [4]
-			"3023^|cffbfbfbf35s |cff7f7f0082c", -- [5]
-			"3024^|cffbfbfbf67s |cff7f7f0043c", -- [6]
-			"3025^|cffffff001g |cffbfbfbf75s |cff7f7f0054c", -- [7]
-			"3033^|cffbfbfbf2s |cff7f7f0085c", -- [8]
-			"5441^|cffbfbfbf9s |cff7f7f0050c", -- [9]
-			"11284^|cffbfbfbf9s |cff7f7f0050c", -- [10]
-			"28060^|cffbfbfbf15s |cff7f7f0020c", -- [11]
-			["T"] = 1718355677,
-			["POS"] = "1014^52.246898412704^62.489974498749",
-			["R"] = 1,
+		["商人~苦工柏加尔"] = {
+			"4470^|cff7f7f0038c", -- [1]
+			"6532^|cffbfbfbf2s |cff7f7f0050c", -- [2]
+			"10648^|cffbfbfbf1s |cff7f7f0025c", -- [3]
+			"14341^|cffbfbfbf50s", -- [4]
+			"18256^|cffffff003g", -- [5]
+			["T"] = 1717053043,
+			["POS"] = "3002^61.603087186813^81.893241405487",
 		},
-		["商人~祖莱"] = {
-			"4470^|cff7f7f0034c", -- [1]
-			"11284^|cffbfbfbf9s", -- [2]
-			"11285^|cffbfbfbf9s", -- [3]
-			"27695^|cffffff001g |cffbfbfbf80s", -- [4]
-			"28053^|cffbfbfbf14s |cff7f7f0040c", -- [5]
-			"28056^|cffbfbfbf27s", -- [6]
-			"28060^|cffbfbfbf14s |cff7f7f0040c", -- [7]
-			"28061^|cffbfbfbf27s", -- [8]
-			"29013^|cffbfbfbf7s |cff7f7f0020c", -- [9]
-			"29014^|cffbfbfbf7s |cff7f7f0020c", -- [10]
-			["T"] = 1716469270,
-			["POS"] = "3008^85.259056091309^54.665184020996",
-			["R"] = 1,
-		},
-		["旅店老板~旅店老板格雷什卡"] = {
-			"117^|cff7f7f0023c", -- [1]
-			"159^|cff7f7f0023c", -- [2]
-			"1179^|cffbfbfbf1s |cff7f7f0018c", -- [3]
-			"1205^|cffbfbfbf4s |cff7f7f0075c", -- [4]
-			"1645^|cffbfbfbf19s", -- [5]
-			"1708^|cffbfbfbf9s |cff7f7f0050c", -- [6]
-			"2287^|cffbfbfbf1s |cff7f7f0018c", -- [7]
-			"3770^|cffbfbfbf4s |cff7f7f0075c", -- [8]
-			"3771^|cffbfbfbf9s |cff7f7f0050c", -- [9]
-			"4599^|cffbfbfbf19s", -- [10]
-			"8766^|cffbfbfbf38s", -- [11]
-			"8952^|cffbfbfbf38s", -- [12]
-			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [13]
-			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [14]
-			"33444^|cffbfbfbf80s |cff7f7f0075c", -- [15]
-			"33445^|cffffff001g |cffbfbfbf4s |cff7f7f0050c", -- [16]
-			"33454^|cffbfbfbf80s |cff7f7f0075c", -- [17]
-			"35953^|cffffff001g |cffbfbfbf52s", -- [18]
-			"35954^|cffbfbfbf57s", -- [19]
-			["T"] = 1718196981,
-			["POS"] = "1014^53.97686958313^68.681639432907",
+		["|cffffff0065|r 人型生物~灵魂先知加尔托克"] = {
+			"28553^|r50 INV_Jewelry_FrostwolfTrinket_04", -- [1]
+			"28555^|r50 INV_Jewelry_FrostwolfTrinket_04", -- [2]
+			"28556^|r8 INV_Jewelry_FrostwolfTrinket_04", -- [3]
+			"28557^|r8 INV_Jewelry_FrostwolfTrinket_04", -- [4]
+			"28559^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [5]
+			"28560^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [6]
+			"28561^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [7]
+			"28574^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [8]
+			"28575^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [9]
+			"28576^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [10]
+			"28577^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [11]
+			"28758^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [12]
+			"28759^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [13]
+			"28760^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [14]
+			"28761^|r18 INV_Jewelry_FrostwolfTrinket_04", -- [15]
+			"32947^|r2 INV_Jewelry_FrostwolfTrinket_04", -- [16]
+			"32948^|r2 INV_Jewelry_FrostwolfTrinket_04", -- [17]
+			["T"] = 1717183847,
+			["POS"] = "3007^49.792039394379^46.577733755112",
 		},
 		["厨师~德拉克·奈特弗"] = {
 			"159^|cff7f7f0022c", -- [1]
@@ -12104,18 +12217,24 @@ NxData = {
 			"21099^|cffbfbfbf4s |cff7f7f0050c", -- [4]
 			"21219^|cffbfbfbf45s", -- [5]
 			"30817^|cff7f7f0022c", -- [6]
-			["POS"] = "2013^63.16237449646^19.495436549187",
 			["T"] = 1715889222,
+			["POS"] = "2013^63.16237449646^19.495436549187",
 		},
-		["食物和饮料~蒙杜尔"] = {
-			"8766^|cffbfbfbf38s", -- [1]
-			"8952^|cffbfbfbf38s", -- [2]
-			"27854^|cffbfbfbf53s |cff7f7f0020c", -- [3]
-			"27860^|cffbfbfbf60s |cff7f7f0080c", -- [4]
-			"28399^|cffbfbfbf53s |cff7f7f0020c", -- [5]
-			"29451^|cffbfbfbf76s", -- [6]
-			["T"] = 1717090268,
-			["POS"] = "3002^61.772459745407^81.438863277435",
+		["绝世宝物商人~格里伏塔"] = {
+			"27940^|cffffff0038g", -- [1]
+			"27941^|cffffff0019g", -- [2]
+			"27944^|cffffff0033g |cffbfbfbf25s", -- [3]
+			"27945^|cffffff0014g |cffbfbfbf25s", -- [4]
+			"27976^|cffffff0023g |cffbfbfbf75s", -- [5]
+			"27978^|cffbfbfbf95s", -- [6]
+			"27979^|cffffff009g |cffbfbfbf50s", -- [7]
+			"27982^|cffffff0028g |cffbfbfbf50s", -- [8]
+			"27992^|cffffff004g |cffbfbfbf75s", -- [9]
+			"33012^|cffffff009g |cffbfbfbf50s", -- [10]
+			"33014^|cffffff004g |cffbfbfbf75s", -- [11]
+			"34249^|cffffff0095g", -- [12]
+			["POS"] = "3006^65.514987707138^69.069647789001",
+			["T"] = 1715438510,
 		},
 		["锻造供应商~克林科·古德斯迪尔"] = {
 			"2880^|cff7f7f0095c", -- [1]
@@ -12163,8 +12282,8 @@ NxData = {
 			"29010^|cffbfbfbf6s |cff7f7f0080c", -- [20]
 			"29013^|cffbfbfbf6s |cff7f7f0080c", -- [21]
 			"29014^|cffbfbfbf6s |cff7f7f0080c", -- [22]
-			["T"] = 1716189228,
 			["POS"] = "2003^3.1084327027202^46.062248945236",
+			["T"] = 1716189228,
 		},
 		["补给商人~哈古斯"] = {
 			"8952^|cffbfbfbf40s", -- [1]
@@ -12175,147 +12294,48 @@ NxData = {
 			["POS"] = "2030^52.955085039139^35.393032431602",
 			["R"] = 1,
 		},
-		["破碎残阳军需官~艾尔达拉·晨行者"] = {
-			"29193^|cffffff00100g", -- [1]
-			"34665^|cffffff0045g |cffbfbfbf90s |cff7f7f0015c", -- [2]
-			"34666^|cffffff0046g |cffbfbfbf6s |cff7f7f0043c", -- [3]
-			"34667^|cffffff0041g |cffbfbfbf81s |cff7f7f0094c", -- [4]
-			"34670^|cffffff0043g |cffbfbfbf46s |cff7f7f0090c", -- [5]
-			"34671^|cffffff0043g |cffbfbfbf63s |cff7f7f0017c", -- [6]
-			"34672^|cffffff0043g |cffbfbfbf79s |cff7f7f0045c", -- [7]
-			"34673^|cffffff0054g |cffbfbfbf94s |cff7f7f0066c", -- [8]
-			"34674^|cffffff0033g |cffbfbfbf8s |cff7f7f0067c", -- [9]
-			"34675^|cffffff0037g |cffbfbfbf78s |cff7f7f0042c", -- [10]
-			"34676^|cffffff0037g |cffbfbfbf92s |cff7f7f0031c", -- [11]
-			"34677^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [12]
-			"34678^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [13]
-			"34679^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [14]
-			"34680^|cffffff0023g |cffbfbfbf27s |cff7f7f0052c", -- [15]
-			"34780^|cffbfbfbf50s", -- [16]
-			"34872^|cffffff0015g", -- [17]
-			"35221^|cffffff001g", -- [18]
-			"35500^|cffffff0015g", -- [19]
-			"35502^|cffffff0015g", -- [20]
-			"35505^|cffffff0015g", -- [21]
-			"35695^|cffffff0025g", -- [22]
-			"35696^|cffffff0025g", -- [23]
-			"35697^|cffffff0025g", -- [24]
-			"35698^|cffffff0025g", -- [25]
-			"35699^|cffffff0025g", -- [26]
-			"35708^|cffffff0012g", -- [27]
-			"35752^|cffffff0025g", -- [28]
-			"35753^|cffffff0025g", -- [29]
-			"35754^|cffffff0025g", -- [30]
-			"35755^|cffffff0025g", -- [31]
-			"35766^|cffffff0050g", -- [32]
-			"35767^|cffffff0050g", -- [33]
-			"35768^|cffffff0050g", -- [34]
-			"35769^|cffffff0050g", -- [35]
-			["POS"] = "2029^47.23245203495^30.718630552292",
-			["T"] = 1715413941,
+		["圣光兄弟会~工匠威尔海姆"] = {
+			"2880^|cff7f7f0090c", -- [1]
+			"2901^|cff7f7f0072c", -- [2]
+			"3466^|cffbfbfbf18s", -- [3]
+			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
+			"5956^|cff7f7f0016c", -- [5]
+			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
+			["POS"] = "2009^75.230222940445^53.603225946426",
+			["T"] = 1716438331,
+			["R"] = 1,
 		},
-		["特种装备销售商~卡艾莉"] = {
-			"32785^|r40 Badge of Justice", -- [1]
-			"32786^|r40 Badge of Justice", -- [2]
-			"32787^|r40 Badge of Justice", -- [3]
-			"32788^|r40 Badge of Justice", -- [4]
-			"32789^|r40 Badge of Justice", -- [5]
-			"32790^|r40 Badge of Justice", -- [6]
-			"32791^|r40 Badge of Justice", -- [7]
-			"32792^|r40 Badge of Justice", -- [8]
-			"32793^|r40 Badge of Justice", -- [9]
-			"32794^|r40 Badge of Justice", -- [10]
-			"32795^|r40 Badge of Justice", -- [11]
-			"32796^|r40 Badge of Justice", -- [12]
-			"32797^|r40 Badge of Justice", -- [13]
-			"32798^|r40 Badge of Justice", -- [14]
-			"32799^|r40 Badge of Justice", -- [15]
-			"32800^|r40 Badge of Justice", -- [16]
-			"32801^|r40 Badge of Justice", -- [17]
-			"32802^|r40 Badge of Justice", -- [18]
-			"32803^|r40 Badge of Justice", -- [19]
-			"32804^|r40 Badge of Justice", -- [20]
-			"32805^|r40 Badge of Justice", -- [21]
-			"32806^|r40 Badge of Justice", -- [22]
-			"32807^|r40 Badge of Justice", -- [23]
-			"32808^|r40 Badge of Justice", -- [24]
-			"32809^|r25 Badge of Justice", -- [25]
-			"32810^|r25 Badge of Justice", -- [26]
-			"32811^|r25 Badge of Justice", -- [27]
-			"32812^|r25 Badge of Justice", -- [28]
-			"32813^|r25 Badge of Justice", -- [29]
-			"32814^|r25 Badge of Justice", -- [30]
-			"32816^|r25 Badge of Justice", -- [31]
-			"32817^|r25 Badge of Justice", -- [32]
-			"32818^|r25 Badge of Justice", -- [33]
-			"32819^|r25 Badge of Justice", -- [34]
-			"32820^|r25 Badge of Justice", -- [35]
-			"32821^|r25 Badge of Justice", -- [36]
-			"32979^|r40 Badge of Justice", -- [37]
-			"32980^|r25 Badge of Justice", -- [38]
-			"32981^|r40 Badge of Justice", -- [39]
-			"32988^|r40 Badge of Justice", -- [40]
-			"32989^|r25 Badge of Justice", -- [41]
-			"32990^|r40 Badge of Justice", -- [42]
-			"32997^|r25 Badge of Justice", -- [43]
-			"32998^|r40 Badge of Justice", -- [44]
-			"32999^|r40 Badge of Justice", -- [45]
-			"33811^|r1 INV_Belt_33", -- [46]
-			"33812^|r1 INV_Boots_Plate_04", -- [47]
-			"33813^|r1 INV_Bracer_17", -- [48]
-			"33876^|r1 INV_Bracer_17", -- [49]
-			"33877^|r1 INV_Belt_33", -- [50]
-			"33878^|r1 INV_Boots_Plate_04", -- [51]
-			"33879^|r1 INV_Belt_27", -- [52]
-			"33880^|r1 INV_Boots_Plate_07", -- [53]
-			"33881^|r1 INV_Bracer_15", -- [54]
-			"33882^|r1 INV_Belt_31", -- [55]
-			"33883^|r1 INV_Bracer_16", -- [56]
-			"33884^|r1 INV_Boots_Plate_06", -- [57]
-			"33885^|r1 INV_Belt_27", -- [58]
-			"33886^|r1 INV_Boots_Plate_07", -- [59]
-			"33887^|r1 INV_Bracer_15", -- [60]
-			"33888^|r1 INV_Belt_31", -- [61]
-			"33889^|r1 INV_Bracer_16", -- [62]
-			"33890^|r1 INV_Boots_Plate_06", -- [63]
-			"33891^|r1 INV_Belt_27", -- [64]
-			"33892^|r1 INV_Boots_Plate_07", -- [65]
-			"33893^|r1 INV_Bracer_15", -- [66]
-			"33894^|r1 INV_Bracer_17", -- [67]
-			"33895^|r1 INV_Belt_33", -- [68]
-			"33896^|r1 INV_Boots_Plate_04", -- [69]
-			"33897^|r1 INV_Bracer_17", -- [70]
-			"33898^|r1 INV_Belt_33", -- [71]
-			"33899^|r1 INV_Boots_Plate_04", -- [72]
-			"33900^|r1 INV_Belt_31", -- [73]
-			"33901^|r1 INV_Bracer_16", -- [74]
-			"33902^|r1 INV_Boots_Plate_06", -- [75]
-			"33903^|r1 INV_Belt_31", -- [76]
-			"33904^|r1 INV_Bracer_16", -- [77]
-			"33905^|r1 INV_Boots_Plate_06", -- [78]
-			"33906^|r1 INV_Bracer_17", -- [79]
-			"33907^|r1 INV_Belt_33", -- [80]
-			"33908^|r1 INV_Boots_Plate_04", -- [81]
-			"33909^|r1 INV_Belt_31", -- [82]
-			"33910^|r1 INV_Bracer_16", -- [83]
-			"33911^|r1 INV_Boots_Plate_06", -- [84]
-			"33912^|r1 INV_Belt_27", -- [85]
-			"33913^|r1 INV_Bracer_15", -- [86]
-			"33914^|r1 INV_Boots_Plate_07", -- [87]
-			"33915^|r1 INV_Belt_27", -- [88]
-			"33916^|r1 INV_Boots_Plate_07", -- [89]
-			"33917^|r1 INV_Bracer_15", -- [90]
-			["POS"] = "2029^50.169318914413^39.759260416031",
-			["T"] = 1715414260,
+		["银色黎明~银色黎明军需官哈萨娜"] = {
+			"13482^|cffffff001g |cffbfbfbf50s", -- [1]
+			"13724^|cffbfbfbf60s", -- [2]
+			"13810^|cffbfbfbf60s", -- [3]
+			"13813^|cffbfbfbf60s", -- [4]
+			"19203^|cffffff002g |cffbfbfbf20s", -- [5]
+			"19205^|cffffff004g", -- [6]
+			"19216^|cffffff002g |cffbfbfbf20s", -- [7]
+			"19217^|cffffff004g", -- [8]
+			"19328^|cffffff002g |cffbfbfbf20s", -- [9]
+			"19329^|cffffff004g", -- [10]
+			"19442^|cffffff0010g", -- [11]
+			"19446^|cffffff003g", -- [12]
+			"19447^|cffffff006g", -- [13]
+			"22014^|cffffff00133g |cffbfbfbf33s |cff7f7f0033c", -- [14]
+			["T"] = 1716189534,
+			["POS"] = "2024^83.222097158432^68.279153108597",
+			["R"] = 1,
 		},
-		["社交名媛~哈莉丝·西尔顿"] = {
-			"37934^|cffffff002400g", -- [1]
-			"38082^|cffffff00120g", -- [2]
-			"38090^|cffffff00600g", -- [3]
-			"38091^|cffffff003000g", -- [4]
-			"51809^|cffffff00300g", -- [5]
-			["POS"] = "3006^75.626569986343^30.772525072098",
-			["T"] = 1715371331,
+		["蘑菇商~考苏斯"] = {
+			"4604^|cff7f7f0023c", -- [1]
+			"4605^|cffbfbfbf1s |cff7f7f0018c", -- [2]
+			"4606^|cffbfbfbf4s |cff7f7f0075c", -- [3]
+			"4607^|cffbfbfbf9s |cff7f7f0050c", -- [4]
+			"4608^|cffbfbfbf19s", -- [5]
+			"8948^|cffbfbfbf38s", -- [6]
+			"27859^|cffbfbfbf53s |cff7f7f0020c", -- [7]
+			"33452^|cffbfbfbf80s |cff7f7f0075c", -- [8]
+			"35947^|cffffff001g |cffbfbfbf52s", -- [9]
+			["T"] = 1715544427,
+			["POS"] = "1014^49.146747589111^53.879189491272",
 		},
 		["布商~哈里沙·白蹄"] = {
 			"837^|cffbfbfbf10s |cff7f7f0011c", -- [1]
@@ -12337,36 +12357,57 @@ NxData = {
 			["POS"] = "1019^52.240461111069^31.889313459396",
 			["R"] = 1,
 		},
-		["旅店老板~菲兹特·表针"] = {
-			"8766^|cffbfbfbf40s", -- [1]
-			"8932^|cffbfbfbf40s", -- [2]
-			"27857^|cffbfbfbf56s", -- [3]
-			"27860^|cffbfbfbf64s", -- [4]
-			"28399^|cffbfbfbf56s", -- [5]
-			"29448^|cffbfbfbf80s", -- [6]
-			["POS"] = "3001^60.914266109467^68.170082569122",
-			["T"] = 1715373081,
+		["武器和护甲商人~拉兹博·拉斯盖尔"] = {
+			"2420^|cffffff001g |cffbfbfbf13s |cff7f7f0040c", -- [1]
+			"2426^|cffffff003g |cffbfbfbf9s |cff7f7f0039c", -- [2]
+			"2432^|cffbfbfbf73s |cff7f7f005c", -- [3]
+			"2438^|cffffff001g |cffbfbfbf99s |cff7f7f0046c", -- [4]
+			"2467^|cffbfbfbf89s |cff7f7f0058c", -- [5]
+			"2473^|cffffff002g |cffbfbfbf44s |cff7f7f0065c", -- [6]
+			"2522^|cffffff002g |cffbfbfbf14s |cff7f7f0020c", -- [7]
+			"2523^|cffffff002g |cffbfbfbf68s |cff7f7f0070c", -- [8]
+			"2530^|cffffff004g |cffbfbfbf96s |cff7f7f008c", -- [9]
+			"2531^|cffffff005g |cffbfbfbf33s |cff7f7f0060c", -- [10]
+			["T"] = 1716112224,
+			["POS"] = "1009^42.512241005898^73.398476839066",
+			["R"] = 1,
 		},
 		["随身商人~兜售的多玛"] = {
-			"23162^|cffffff003000g", -- [1]
-			"51809^|cffffff00300g", -- [2]
-			"17966^|cffffff008g", -- [3]
-			"41599^|cffffff0020g", -- [4]
-			"38082^|cffffff00120g", -- [5]
-			"10683^|cffffff003g |cffbfbfbf50s", -- [6]
-			"38145^0", -- [7]
-			"2515^|cff7f7f0050c", -- [8]
-			"2519^|cff7f7f0050c", -- [9]
-			"1132^|cffffff0010g", -- [10]
-			"5665^|cffffff0010g", -- [11]
-			"2411^|cffffff0010g", -- [12]
-			"2414^|cffffff0010g", -- [13]
-			"2102^|cff7f7f004c", -- [14]
-			"18608^0", -- [15]
-			"41611^|cffffff0016g", -- [16]
-			"47499^0", -- [17]
-			["POS"] = "4003^40.695095062256^30.622550845146",
-			["T"] = 1718302095,
+			"43533^|cffbfbfbf4s", -- [1]
+			"43534^|cffbfbfbf4s", -- [2]
+			"43535^|cffbfbfbf4s", -- [3]
+			"43536^|cffbfbfbf4s", -- [4]
+			"43537^|cffbfbfbf4s", -- [5]
+			"43538^|cffbfbfbf4s", -- [6]
+			"43539^|cffbfbfbf4s", -- [7]
+			"43541^|cffbfbfbf4s", -- [8]
+			"43542^|cffbfbfbf4s", -- [9]
+			"43543^|cffbfbfbf4s", -- [10]
+			"43544^|cffbfbfbf4s", -- [11]
+			"43545^|cffbfbfbf4s", -- [12]
+			"43546^|cffbfbfbf4s", -- [13]
+			"43547^|cffbfbfbf4s", -- [14]
+			"43548^|cffbfbfbf4s", -- [15]
+			"43549^|cffbfbfbf4s", -- [16]
+			"43550^|cffbfbfbf4s", -- [17]
+			"43551^|cffbfbfbf4s", -- [18]
+			"43552^|cffbfbfbf4s", -- [19]
+			"43553^|cffbfbfbf4s", -- [20]
+			"43554^|cffbfbfbf4s", -- [21]
+			"43671^|cffbfbfbf4s", -- [22]
+			"43672^|cffbfbfbf4s", -- [23]
+			"43673^|cffbfbfbf4s", -- [24]
+			"43825^|cffbfbfbf4s", -- [25]
+			"43826^|cffbfbfbf4s", -- [26]
+			"43827^|cffbfbfbf4s", -- [27]
+			"45799^|cffbfbfbf4s", -- [28]
+			"45800^|cffbfbfbf4s", -- [29]
+			"45803^|cffbfbfbf4s", -- [30]
+			"45804^|cffbfbfbf4s", -- [31]
+			"45805^|cffbfbfbf4s", -- [32]
+			"45806^|cffbfbfbf4s", -- [33]
+			["POS"] = "2009^83.370286226273^44.944870471954",
+			["T"] = 1718801764,
 		},
 		["商人~斯科拉"] = {
 			"4470^|cff7f7f0038c", -- [1]
@@ -12374,43 +12415,51 @@ NxData = {
 			"10648^|cffbfbfbf1s |cff7f7f0025c", -- [3]
 			"14341^|cffbfbfbf50s", -- [4]
 			"18256^|cffffff003g", -- [5]
-			["T"] = 1717250360,
 			["POS"] = "3007^37.528413534164^51.122850179672",
+			["T"] = 1717250360,
 		},
-		["辛多雷圣物转化师~伊尔玛"] = {
-			"34381^|r1 INV_Pants_Plate_24 |r1 Spell_Nature_ElementalShields", -- [1]
-			"34382^|r1 INV_Pants_Plate_22 |r1 Spell_Nature_ElementalShields", -- [2]
-			"34383^|r1 INV_Pants_Mail_15 |r1 Spell_Nature_ElementalShields", -- [3]
-			"34384^|r1 INV_Pants_Leather_23 |r1 Spell_Nature_ElementalShields", -- [4]
-			"34385^|r1 INV_PANTS_LEATHER_27 |r1 Spell_Nature_ElementalShields", -- [5]
-			"34386^|r1 INV_Pants_Cloth_07 |r1 Spell_Nature_ElementalShields", -- [6]
-			"34388^|r1 INV_SHOULDER_89 |r1 Spell_Nature_ElementalShields", -- [7]
-			"34389^|r1 INV_SHOULDER_89 |r1 Spell_Nature_ElementalShields", -- [8]
-			"34390^|r1 INV_Shoulder_90 |r1 Spell_Nature_ElementalShields", -- [9]
-			"34391^|r1 INV_Shoulder_88 |r1 Spell_Nature_ElementalShields", -- [10]
-			"34392^|r1 INV_Shoulder_88 |r1 Spell_Nature_ElementalShields", -- [11]
-			"34393^|r1 INV_Shoulder_96 |r1 Spell_Nature_ElementalShields", -- [12]
-			"34394^|r1 INV_Chest_Plate20 |r1 Spell_Nature_ElementalShields", -- [13]
-			"34395^|r1 INV_Chest_Plate18 |r1 Spell_Nature_ElementalShields", -- [14]
-			"34396^|r1 INV_Chest_Chain_11 |r1 Spell_Nature_ElementalShields", -- [15]
-			"34397^|r1 INV_Chest_Leather_14 |r1 Spell_Nature_ElementalShields", -- [16]
-			"34398^|r1 INV_Chest_Leather_12 |r1 Spell_Nature_ElementalShields", -- [17]
-			"34399^|r1 INV_Chest_Cloth_32 |r1 Spell_Nature_ElementalShields", -- [18]
-			"34400^|r1 INV_Helmet_92 |r1 Spell_Nature_ElementalShields", -- [19]
-			"34401^|r1 INV_Helmet_25 |r1 Spell_Nature_ElementalShields", -- [20]
-			"34402^|r1 INV_Helmet128 |r1 Spell_Nature_ElementalShields", -- [21]
-			"34403^|r1 INV_Helmet_126 |r1 Spell_Nature_ElementalShields", -- [22]
-			"34404^|r1 INV_Helmet_126 |r1 Spell_Nature_ElementalShields", -- [23]
-			"34405^|r1 INV_Helmet_132 |r1 Spell_Nature_ElementalShields", -- [24]
-			"34406^|r1 INV_Gauntlets_16 |r1 Spell_Nature_ElementalShields", -- [25]
-			"34407^|r1 INV_Gauntlets_48 |r1 Spell_Nature_ElementalShields", -- [26]
-			"34408^|r1 INV_Gauntlets_28 |r1 Spell_Nature_ElementalShields", -- [27]
-			"34409^|r1 Spell_Nature_ElementalShields", -- [28]
-			["POS"] = "2029^50.192677974701^28.17804813385",
-			["T"] = 1715413816,
+		["护甲商~尼兹克"] = {
+			"2148^|cffbfbfbf29s |cff7f7f007c", -- [1]
+			"2149^|cffbfbfbf43s |cff7f7f0097c", -- [2]
+			"2150^|cffbfbfbf29s |cff7f7f0030c", -- [3]
+			"2151^|cffbfbfbf29s |cff7f7f0041c", -- [4]
+			"2152^|cffbfbfbf59s |cff7f7f006c", -- [5]
+			"2153^|cffbfbfbf59s |cff7f7f0027c", -- [6]
+			"4827^|cffbfbfbf37s |cff7f7f0048c", -- [7]
+			"4828^|cffbfbfbf34s |cff7f7f0020c", -- [8]
+			"4829^|cffbfbfbf41s |cff7f7f0053c", -- [9]
+			"4830^|cffbfbfbf94s |cff7f7f0074c", -- [10]
+			"4831^|cffbfbfbf78s |cff7f7f0058c", -- [11]
+			"4832^|cffffff001g |cffbfbfbf4s |cff7f7f0097c", -- [12]
+			"4833^|cffbfbfbf86s |cff7f7f0058c", -- [13]
+			"4835^|cffffff001g |cffbfbfbf5s |cff7f7f0050c", -- [14]
+			["T"] = 1715806086,
+			["POS"] = "1016^62.71910071373^40.231943130493",
+			["R"] = 1,
 		},
 	},
 	["Version"] = 0.02,
+	["NXVendorVVersion"] = 0.012,
+	["NXQOpts"] = {
+		["NXWHideDist"] = 20000,
+		["NXWPriGroup"] = -100,
+		["NXWVisMax"] = 8,
+		["Version"] = 0.12,
+		["NXShowHeaders"] = true,
+		["NXWShowOnMap"] = true,
+		["NXWHideNotInZone"] = false,
+		["NXWHideGroup"] = false,
+		["NXSortWatchMode"] = 1,
+		["NXWWatchParty"] = true,
+		["NXWPriLevel"] = 20,
+		["NXWPriComplete"] = 50,
+		["NXWHideNotInCont"] = false,
+		["NXWHideUnfinished"] = false,
+		["NXWPriDist"] = 1,
+	},
+	["NXFav"] = {
+		["Version"] = 0.13,
+	},
 	["NXCap"] = {
 		["Q"] = {
 			[12267] = "0纳萨诺斯·凋零者#2e66^36293aeae4~纳萨诺斯·凋零者#2e66^293aaaec~297d426f~2977f2bf~2975f247~29798240",
@@ -12426,12 +12475,14 @@ NxData = {
 			[25583] = "0魔导师克拉妮·嘉兰诺德#71e3^4a7a6a688d~大法师塞琳德拉#71e4^7c915777~",
 			[21585] = "0达克霍尔上尉#565b^3d379c6cfd~达克霍尔上尉#565b^379c9cfc~37b11c2d~37b15b3b~37acac3d~37b08bbd",
 			[21681] = "0高阶祭司奥戈鲁#5706^42605fa81d~高阶祭司奥戈鲁#5706^605fb81f~607808df~607a28b4",
+			[25871] = "0古尔戈索克#7537^50847be903~巨魔仆从伍迪#7539^847bf902~847bf902",
 			[21841] = "0守备官海雷恩#57be^43607efc2d~守备官海雷恩#57be^607f1c2d~608df916",
 			[13083] = "0索克#d65^126183c4ee~卡德拉克#2186^617b00df",
 			[26191] = "0图书馆员塞尔拉#65fe^477a55857d~图书馆员塞尔拉#65fe^7a55657c~4430c83e",
 			[3280] = "0巴特莱比#17ca^3c54c4486c~巴特莱比#17ca^54c4186d~54c41878",
 			[20114] = "0荣耀堡卫兵维斯洛#41bb^3d378249a4~荣耀堡卫兵维斯洛#41bb^378249a3~37893cf4~378c0d60",
 			[9085] = "0卫兵穆赫·月角#275f^1b67527386~峭壁卫兵图林·长角#2929^6774f817~",
+			[26479] = "0首席技师考伯克拉#7869^50809dd649~~",
 			[22417] = "0莫希·斯蒂格里#5cf5^2d2888f91c~德拉兹特·迪普瓦尔#5c14^286bfba8~",
 			[20594] = "0萨艾特#4ee9^460093d8eb~萨艾特#4ee9^009498db~5993d8eb",
 			[15562] = "0奈法利安的徽记^3c29bfd877~瓦里安·乌瑞恩国王#73ab^54cc2629~",
@@ -12459,12 +12510,16 @@ NxData = {
 			[19955] = "0古尔戈索克#4827^45406d834e~巨魔仆从伍迪#596d^406d634e~406f134a6eb34c",
 			[19987] = "0拉克妮亚#47d1^406080172e~拉克妮亚#47d1^6080172b~607244c4",
 			[20019] = "0萨萨拉比姆#4898^444fc5958a~萨萨拉比姆#4898^4fc5758b~4fbf5510~73cece93~6045a943",
+			[24145] = "0瓦诺克·风怒#67ce^4c7d5f274f~瓦诺克·风怒#67ce^7d5f0752~7d4245d7",
 			[20083] = "0斥候奈弗蒂丝#491a^416063d700~斥候奈弗蒂丝#491a^6063d703~6063c655~6061d67d~6067163a",
 			[28303] = "0林奇·黑箭#701f^4a7c6c551a~~",
+			[24273] = "0库尔迪拉·织亡者#67d5^4d7d5dd76d~高尔特上尉#67fa^7d5ba7b8~",
 			[20211] = "0暗影猎手德恩加#465d^3f734ed81e~拉克妮亚#47d1^60801728",
 			[10125] = "0莫特加·火鬃#28bc^1e67376530~玛加萨·恐怖图腾#fce^68b364ee~6759554b",
+			[24401] = "0首席药剂师米德尔顿#6a24^4b7dc6aa07~首席药剂师米德尔顿#6a24^7dc6ba08~7d9e2ba0",
 			[10189] = "0预言者巴萨扎德#2a7f^346caf3712~高级执行官德灵顿#2a55^69d47b03",
 			[20403] = "0拉克妮亚#47d1^416080172b~拉克妮亚#47d1^6080172d~607f973b",
+			[24529] = "0瑟里纳尔#67e1^4d7d59f4ce~瑟里纳尔#67e1^7d5a04cf~7d5424c8~7d5174cf~7d5234c5",
 			[10285] = "0玛莱恩·雷德帕斯#2aaf^346f7dcc92~帕米拉·雷德帕斯#2aae^2952fd5e",
 			[10317] = "0格雷塔·苔蹄#2aaa^322d82cd21~水之先知伊斯伦#170d^61a836fd~",
 			[26864] = "0索莉多米#4ddf^46599548b8~~~",
@@ -12480,7 +12535,9 @@ NxData = {
 			[21747] = "0斥候纳弗林#575c^4360506c18~斥候纳弗林#575c^60505c1a~6084ac5d",
 			[21779] = "0觉醒者基尔利克#5700^44605f6833~救赎者瑞拉克#5714^4f86c34b~",
 			[21843] = "0守备官海雷恩#57be^43607f1c2d~守备官海雷恩#57be^607f2c2d~608a1d01",
+			[26161] = "0北伐军战士布雷登布莱德#7762^4f80cc44f0~大领主提里奥·弗丁#7944^80cc1b79~",
 			[20116] = "0玛格尔·戴维迪库斯神父#41b9^3c378aea26~玛格尔·戴维迪库斯神父#41b9^378aea27~378ccddf",
+			[26449] = "0督军霍尔克·粗眉#7a08^4f80cb3b9f~掠天者考尔姆·黑痕#7868^809be602",
 			[22451] = "0德拉兹辛比#1195^20285ef548~“沼泽之眼”加尔#12b8^288db434",
 			[20564] = "0安多尔姆#4ea2^46599558ae~伊洛希恩#4923^008e0888",
 			[20596] = "0萨艾特#4ee9^46009498db~安多尔姆#4ea2^599578aa",
@@ -12514,9 +12571,10 @@ NxData = {
 			[22004] = "0玛瑟里顿的徽记^4654a24b57~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa4~",
 			[12045] = "0纳萨诺斯·凋零者#2e66^36293aeae4~纳萨诺斯·凋零者#2e66^293acae6~298f5ad9",
 			[20021] = "0萨萨拉比姆#4898^444fc5758b~受难者奥图里斯#47f1^4045f6df",
-			[24179] = "0通缉！#o2e002^4a7d602771~~",
+			[24179] = "0通缉！#o2e002^4a7d602771~高尔特上尉#67fa^7d5ba7b8~7d360a19",
 			[22356] = "0祖尔金之血^462fb42ad9~巴德#5c07^2fb40ad8~",
 			[20341] = "0卡舒尔宗母#48ff^46404479c8~盖亚安祖母#46dd^4091057b",
+			[24531] = "0瑟里纳尔#67e1^4d7d59f4ce~瑟里纳尔#67e1^7d5a04cf~7d54148c",
 			[20501] = "0史学家奥尔森#4d18^3e379ddd0f~史学家奥尔森#4d18^379dcd0e~37a2fc64",
 			[18710] = "0工头比格姆斯#41c5^3c3784c9fc~工头比格姆斯#41c5^3784d9fd~377bfac2",
 			[20885] = "0驯鹰者德蕾娜·河风#4196^3f3746d9a3~塞安·红鬃#425f^37284856",
@@ -12536,10 +12594,12 @@ NxData = {
 			[2205] = "0奥尔德·石塔#1163^19685dc986~~",
 			[21749] = "0觉醒者基尔利克#5700^43605f7837~觉醒者基尔利克#5700^605f6833~608d0abe~608dcb29~6090db0a~608fab9b",
 			[21845] = "0主考古学家雷托尔#57ba^44604fdc2a~杜瓦弗维兹#57d1^604f4c29~604cfb54",
+			[26163] = "0大领主提里奥·弗丁#7944^4f80cc1b79~阿达尔#4831^4f8ac72f~",
 			[2261] = "0乔恩·星眼#d3b^176172b971~梅洛·石蹄#d71^689d8cd7",
 			[20182] = "0间谍托古恩#49cb^440065abb3~间谍女王梅丽萨·海克隆#49cd^4f80e740~6065abb3",
 			[2273] = "0梅洛·石蹄#d71^20689cbcc5~梅洛·石蹄#d71^689d1cd4~015f9a95",
 			[18263] = "0十字军指挥官科尔法克斯#3ef0^3e29c2285a~~",
+			[26515] = "0萨鲁法尔大王#62a8^4d7a6a0897~萨尔#7ab4^4452860c",
 			[20566] = "0伊洛希恩#4923^46008e0888~萨尔#45d4^008e0888~598e0888",
 			[2333] = "0莫格穆洛克大王#1194^27285c9504~莫格穆洛克大王#1194^285ce505~28721a8e~2862ea78~285dab1a",
 			[2337] = "0萨尔格#1196^27285f7505~萨尔格#1196^285f4505~286e4b23~28737a91~28617b0a",
@@ -12573,15 +12633,20 @@ NxData = {
 			[20023] = "0受难者奥图里斯#47f1^444045f6df~受难者奥图里斯#47f1^4045c6e2~403ff5c3~40318822",
 			[20055] = "0库加托克#47cf^40607cc748~库加托克#47cf^607cb74c~605be6c0",
 			[10047] = "0詹妮丝的包裹#o2af16^346f6328d5~皇家管理人巴哈乌斯#2a1d^6cb1b6ee~",
+			[24213] = "0大法师艾萨斯·夺日者的影像#6767^4d7d612761~法师指挥官伊文斯塔#68f9^7d66daac~",
+			[24245] = "0大法师艾萨斯·夺日者的影像#6767^4d7d612763~塔里奥斯塔兹#674b^7d93f8a6~",
 			[20183] = "0间谍托古恩#49cb^4600655bc4~间谍女王梅丽萨·海克隆#49cd^4f81573b~60655bc4",
 			[20215] = "0约林·死眼#46ba^44408e0605~兰特瑞索·火刃#4755^40bcb9fc~40bcb9fc",
 			[2537] = "0可疑的蹄印#o2db89^28284c079e~克罗格#133e^285d2515",
 			[20343] = "0盖亚安祖母#46dd^464091057b~加尔鲁什#468f^408dc606",
+			[24469] = "0间谍女王瑞贝娅#6ac9^4b7dc44a15~间谍女王瑞贝娅#6ac9^7dc44a14~7dbbcb9d~7db25b7e~7db6fcdd",
 			[2553] = "0克罗格#133e^28285d4518~莫萨恩#134f^688b2cd4~",
+			[24533] = "0瑟里纳尔#67e1^4d7d5a04cf~纳莉丝#6c75^7d9978a9~",
 			[20503] = "0“脏鬼”拉瑞#4d08^434f6f84b9~博学者尼特林#4d84^40844916",
 			[10303] = "0维兹罗#2abd^1e6736f530~维兹罗#2abd^6736e52e~673a23e5",
 			[10319] = "0水之先知伊斯伦#170d^3261a856fd~格雷塔·苔蹄#2aaa^2d82ed20~",
 			[18744] = "0塞安·红鬃#425f^3f37281859~塞安·红鬃#425f^37281854~374ef6ee",
+			[24917] = "0伊萨里奥斯勋爵#6c89^4b7d9868b1~伊萨里奥斯勋爵#6c89^7d9878b4~7d9f8b83",
 			[18840] = "0米伦·长须#41d3^40373d6b8e~米伦·长须#41d3^373d6b90~37412c61",
 			[10463] = "0暗影牧师范蒂丝#2b2f^3469d42b7d~天灾之锅#o2b489^6f761855~6f76386b",
 			[16921] = "0格拉兹#2d22^312d825d93~格拉兹#2d22^2d822d91~2d7b6f0e~2d7b9e4c~2d7bee5d",
@@ -12593,10 +12658,13 @@ NxData = {
 			[19672] = "0卡德加#46f6^464f8c471c~麦迪文#3cf8^0093d8eb~5993d8eb",
 			[21751] = "0药剂师安东尼维奇#40cc^3f3785c5d4~纳兹格雷尔#c9e^378c85c2",
 			[2725] = "0雷戈萨·死门#d3d^286174148a~",
+			[25909] = "0古尔戈索克#7537^50847bd900~古尔戈索克#7537^847bc900~8478b924",
 			[21847] = "0沃尔昆#57b8^43604f8c39~沃尔昆#57b8^604f8c38~607c2ab5",
 			[26005] = "0格巴里#6966^457a6a4886~格巴里#6966^7a6a5884~7a6a5884~7a6a5884~7a6a5884",
+			[26165] = "0阿达尔#4831^4f4f8ac72f~北伐军战士布雷登布莱德#7762^80cc34f0~",
 			[11087] = "0提里奥·弗丁#73f^38290c161d~提里奥·弗丁#73f^290bf625~293f9a2f",
 			[20280] = "0阿米什·蛮锤#49f3^3c37df7860~伊斯多尔元帅#4b6c^378b6a06~",
+			[26485] = "0阿莱克丝塔萨，生命的缚誓者#7a65^4d7d626313~萨鲁法尔大王#62a8^7a6a0897~7d6172f9",
 			[15405] = "0艾沃奈斯#3924^2e4c61a46d~艾沃奈斯#3924^4c61e471~4c74b4a9",
 			[2849] = "0费泽鲁尔#5a3^29587a78c5~费泽鲁尔#5a3^587ab8c5~58bec847",
 			[18713] = "0雷加希#4b90^3e377e2bf4~雷加希#4b90^377dfbf1~379e6b17",
@@ -12621,22 +12689,30 @@ NxData = {
 			[19833] = "0秘法师埃尔卡甘#477c^43408e1601~秘法师埃尔卡甘#477c^408e3602~4064c487",
 			[19865] = "0兰特瑞索·火刃#4755^4440bcaa00~兰特瑞索·火刃#4755^40bc9a02~407713df",
 			[19897] = "0长者安格雷兹#47ef^424052e5c9~长者安格雷兹#47ef^4052d5cc~4047c31c",
+			[24023] = "0被破坏的螃蟹陷阱#o2dfcc^4b7d7a1cc4~图尔凯#6685^7d7aac2e~",
+			[24087] = "0纳尔弗#6817^4e7d8b53c5~纳尔弗#6817^7d8b63c7~7d90044a~7d833515",
+			[24119] = "0古拉莫什的奇怪设备^4d4489faf4~大法师艾萨斯·夺日者的影像#6767^7d613763~",
+			[24151] = "0佐特#6823^4e7d97e2e3~佐特#6823^7d97e2e5~7d8f91ea",
 			[20089] = "0加尔鲁什#468f^44408de605~盖亚安祖母#46dd^4090d57a~4090d57a",
 			[18074] = "~~41439240~~~",
 			[22264] = "0巴德#5c07^462fb3cad9~~",
 			[22328] = "0普雷蒙#5cd1^462fb59b00~~",
 			[20345] = "0加尔鲁什#468f^46408dc606~盖亚安祖母#46dd^4090e57b~4090e57b",
 			[20441] = "0莫迪巴大使#4ce2^3d379dfd0c~莫迪巴大使#4ce2^379ddd0e~37949c2e~378edd42~378a2ca0",
+			[24567] = "0斯古莉探员#6ad6^4c7dbc2bc4~高级执行官乌洛斯#6a6b^7dc45a18~7dae8c4a",
 			[20505] = "0博学者尼特林#4d84^4440844916~博学者尼特林#4d84^40845916~403f06b53df6c7~404ec5714de559~405259fc4b397a",
+			[24919] = "0伊萨里奥斯勋爵#6c89^4c7d9878b4~伊萨里奥斯勋爵#6c89^7d9848b7~7d8c5776~7ddc3783~7de4f310",
 			[16923] = "0纳菲恩#3c23^322da58151~~~~",
 			[25239] = "0教官拉苏维奥斯#6ec5^379279c49d~教官拉苏维奥斯#6ec5^927a748b~927a5467",
 			[8593] = "0麦克斯沃特·尤博格林#2540^3216a6d3ce~麦克斯沃特·尤博格林#2540^16a6d3cb~168a267f",
 			[21337] = "0受难者奥图里斯#47f1^45404626e4~受难者奥图里斯#47f1^404606e4~4e48d80b",
 			[25495] = "0骑士团指挥官普雷菲斯特#717d^3b92873cfd~骑士团指挥官普雷菲斯特#717d^92876d04~928aed52",
 			[25559] = "0巫妖王#71b6^3c9288f5e0~巫妖王#71b6^9288d5df~928d6aa6~929f1909",
+			[25783] = "0斯利文男爵#746c^508070f3f0~~806f8406~~806ce42e~",
 			[19674] = "0麦迪文#3cf8^460093d8eb~卡德加#46f6^4f8c771a",
 			[21753] = "0纳兹格雷尔#c9e^3f378c85c2~纳兹格雷尔#c9e^378c95c1~377b580b",
 			[13087] = "0卡德拉克#2186^13617b00df~~~~",
+			[26263] = "0布雷格#7897^50007122d4~布雷格#7897^00708308~8074cc62~8056fb5d~80664c00~80651c66",
 			[20186] = "0位面占卜者克雷夫#41c7^3c3790da9f~智者阿曼恩#419c^373bd5d9",
 			[20282] = "0远征军指挥官达纳斯·托尔贝恩#41b3^3c3790daa3~沃图姆斯中士#4b6d^379dc9b3",
 			[22361] = "0摩丹特·格雷斯比#5d23^20288df430~摩丹特·格雷斯比#5d23^288e042f~289183a5",
@@ -12665,14 +12741,19 @@ NxData = {
 			[23961] = "0血卫士洛恩基尔#6644^497d2437f9~血卫士洛恩基尔#6644^7d2457f8~7d2d17fe",
 			[23993] = "0部落使者沃特蒙·裂牙#6749^4a7d7acbf1~大法师艾萨斯·夺日者的影像#6767^7d612762",
 			[9969] = "0穆格雷斯·深水#29f3^356f891a57~穆格雷斯·深水#29f3^6f893a57~6f76165b",
+			[24057] = "0秘法师图阿鲁#67e3^4b7d7d7c19~秘法师图阿鲁#67e3^7d7d7c18~7d6aaa81",
 			[19995] = "0卡乌尼中士#520f^4460a1b6c5~卡乌尼中士#520f^60a196c4~60bba5cb~60b9a588~60b565fe",
 			[20027] = "0邪兽人的计划#o2c915^4260ad988b~罗卡格#47d2^607d0725~",
+			[24153] = "0佐特#6823^4e7d97e2e5~佐特#6823^7d97d2e4~7d9492f2",
 			[20091] = "0盖亚安祖母#46dd^444090d57a~盖亚安祖母#46dd^4090e57f~60591557~7333815e~40934877~137e2b3e",
+			[24249] = "0塔里奥斯塔兹#674b^4e7d93f8a6~阿莱克丝塔萨，生命的缚誓者#6925^7d98c8b7~",
+			[24281] = "0阿格玛大王#670b^4c7d618765~阿格玛大王#670b^7d5cb748~7d5ca745",
 			[20219] = "0瓦萨特#4a5b^46409dbab4~瓦萨特#4a5b^409dcab9~40a6d79d",
 			[10129] = "0峭壁卫兵图林·长角#2929^1e6774e819~峭壁卫兵图林·长角#2929^6774f816~67514538~67568661~676456a1",
-			[24377] = "0首席药剂师米德尔顿#6a24^4a7dc68a05~~",
+			[24377] = "0首席药剂师米德尔顿#6a24^4a7dc68a05~首席药剂师米德尔顿#6a24^7dc6aa07~7dd64b36",
 			[10177] = "0玛加萨·恐怖图腾#fce^2068b394ed~莫特加·火鬃#28bc^67371531~6761d5a4~6761d5a4",
 			[10193] = "0高级执行官德灵顿#2a55^3469d47b03~高级执行官德灵顿#2a55^69d44b06~6f682855",
+			[24505] = "0高级执行官乌洛斯#6a6b^4b7dc45a1a~高级执行官乌洛斯#6a6b^7dc45a19~7db1db79~7db1db79",
 			[20507] = "0博学者尼特林#4d84^4540845916~~",
 			[10305] = "0帕米拉·雷德帕斯#2aae^372952fd5e~玛莱恩·雷德帕斯#2aaf^6f7dcc92",
 			[10337] = "0卡林·雷德帕斯#2b37^3829c1889d~卡林·雷德帕斯#2b37^29c1a899~6f6c9305~6fa2e921",
@@ -12684,15 +12765,20 @@ NxData = {
 			[25401] = "0收割者戈提克#6ff2^39928a4590~瓦拉纳王子#6ed9^9285e570",
 			[25433] = "0药剂师诺斯#70f7^39928ed85b~药剂师诺斯#70f7^928f0863~9293e9de~929e99a0~92935a2e",
 			[21627] = "0塞萨克#56d7^3d379d8d11~塞萨克#56d7^379d9d0f~379d9d0f",
+			[25785] = "0库尔迪拉·织亡者#7463^4f809bb605~斯利文男爵#746c^8070f3f0~8073433f",
 			[19676] = "0卡德加#46f6^464f8c771a~大法师奥图鲁斯#44cd^2178dc03",
 			[21755] = "0沃尔昆#57b8^43604f6c37~沃尔昆#57b8^604f8c39~60703c36",
+			[26073] = "0大领主提里奥·弗丁#6e13^4f80dfac1e~北伐军指挥官恩塔里#760f^80deac21",
+			[26137] = "0大领主提里奥·弗丁#7944^4f80cbfb78~北伐军战士布雷登布莱德#7762^80cc24e9~",
 			[11089] = "0提里奥·弗丁#73f^38290c161d~提里奥·弗丁#73f^290bf625~29543acb",
 			[20156] = "0达姆菲#52d9^3d3782c9a1~达姆菲#52d9^378299a0~3794f7a8~378f37a3~3789d7bc~378607bb",
 			[20188] = "0战地指挥官玛弗恩#4c56^4460664b89~鲜血法典#o2caa3^0065abb3",
 			[20284] = "0沃图姆斯中士#4b6d^3c379dc9b3~沃图姆斯中士#4b6d^379de9b4~37ab4961~37acc8c3~37b1798d",
 			[22363] = "0摩丹特·格雷斯比#5d23^27288e042f~摩丹特·格雷斯比#5d23^288df430~288ac3bc",
 			[22427] = "0纳泽尔·血矛#12b7^27285a14e9~塔贝萨#1992^2875a922",
+			[26617] = "0黑暗低语者阿克希姆#7c94^4f808b4982~黑暗低语者阿克希姆#7c94^808b897a~808c7970",
 			[20508] = "0伊斯多尔元帅#4b6c^3c378b6a06~远征军指挥官达纳斯·托尔贝恩#41b3^3790daa3",
+			[26681] = "0战争使者达沃斯·里赫#7e2d^4f809e4659~地面指挥官科特亚#7c5a^80951759~",
 			[15455] = "0汉瑟尔·重拳#3923^2e4c623471~汉瑟尔·重拳#3923^4c62447f~4c748371",
 			[20764] = "0空军指挥官格莱芬加尔#4f08^3d37cac56a~巴洛克元帅#5139^37aec48e",
 			[18749] = "0魔导师卡尔琳达#4199^3f374399a5~魔导师卡尔琳达#4199^374379a8~376675ee",
@@ -12720,16 +12806,20 @@ NxData = {
 			[22076] = "0守备官卡安#5ae7^464f5a5522~",
 			[20061] = "0苏拉文#48f3^42605eb7ec~疯狂的拉姆杜尔#4bd9^6059fa95~605957d8",
 			[1013] = "0高迪尔#90c^23019976ff~克鲁斯克#8b5^38a1734d~",
+			[24251] = "0库尔迪拉·织亡者#67d5^4c7d5bd762~库尔迪拉·织亡者#67d5^7d5dc79b~7d649a25",
 			[1015] = "0克鲁斯克#8b5^2338a1734d~艾丽萨#90d^01646250~0164a268",
 			[1017] = "0艾丽萨#90d^2d01646250~克鲁斯克#8b5^38a1634b~",
 			[24379] = "0辛塔尔·玛菲奥斯博士#6789^4a7d5c57cc~首席药剂师米德尔顿#6a24^7dc68a05",
-			[24411] = "0通缉告示#o2e0e9^4a7dc4aa06~~",
+			[24411] = "0通缉告示#o2e0e9^4a7dc4aa06~高级执行官乌洛斯#6a6b^7dc45a1a~7db3dbd6",
+			[24443] = "0首席药剂师米德尔顿#6a24^4b7dc68a06~辛塔尔·玛菲奥斯博士#6789^7d5c47ca~",
 			[12273] = "0纳萨诺斯·凋零者#2e66^3b293aaaec~纳萨诺斯·凋零者#2e66^293adae5~297e5459",
+			[24571] = "0高级执行官乌洛斯#6a6b^4c7dc45a18~高级执行官乌洛斯#6a6b^7dc45a18~7db5bc5d",
 			[20573] = "0魔导师卡尔琳达#4199^3f374379a8~魔导师阿利迪斯#4ebf^374cd919",
 			[1037] = "0梅里萨拉#8e6^2338a0034a~梅里萨拉#8e6^389ff34a~0162b6a9",
 			[1039] = "0梅里萨拉#8e6^2d389ff34a~梅里萨拉#8e6^389fe34b~0164184c~0162b786~0165a6aa",
 			[1041] = "0梅里萨拉#8e6^2e389fe34b~梅里萨拉#8e6^389ff34f~015c189e~015c189e",
 			[1043] = "0梅里萨拉#8e6^2e389ff34a~沙琳德拉#8b3^6c929ee9~",
+			[24923] = "0古拉克·石拳#6c9c^4d7d9518ea~瓦加斯塔兹#6c73^7d6dd823~",
 			[18846] = "0瑟丹的尸体#41d4^3e3744e5fd~学者欧巴迪#41c2^373b0674",
 			[1055] = "0高级执行官达萨利亚#8a7^21389f7342~高级执行官达萨利亚#8a7^389f2344~385ce64a~3858a675~3855058d~385dd64b",
 			[1057] = "0高级执行官达萨利亚#8a7^21389f2344~高级执行官达萨利亚#8a7^389f4341~3857a77d",
@@ -12760,6 +12850,7 @@ NxData = {
 			[1137] = "0指挥官阿格罗戈什#9a0^29555234a0~~",
 			[20286] = "0沃图姆斯中士#4b6d^3c379de9b4~前线指挥官金斯顿#4b6e^37b64a01",
 			[20318] = "0玛霍拉姆·硬蹄#41f8^3f3727d859~玛霍拉姆·硬蹄#41f8^3727e85c~37195880~370dc838",
+			[26587] = "0首席技师考伯克拉#7869^4f809fb68a~布拉斯·炸雷#7c25^8084e932",
 			[20510] = "0塞安·红鬃#425f^3f37281854~塞安·红鬃#425f^37282855~372a384c",
 			[9283] = "0卡尔图克#27c0^01266ebafa~高内克#c47^266b9aee",
 			[1163] = "0尼姆布亚#9c1^295552446b~~",
@@ -12812,6 +12903,7 @@ NxData = {
 			[20895] = "0卡乌尼中士#520f^4460a196c4~图基#480f^607fe755~60b655f9",
 			[10467] = "0暗影牧师范蒂丝#2b2f^3569d44b7f~天灾之锅#o2b109^6f879a85~6f87da8f",
 			[10483] = "0帕米拉·雷德帕斯#2aae^372952fd5e~卡林·雷德帕斯#2b37^29c1889b",
+			[25085] = "0蒂尔达·达拉森#6ad4^4b7ddef92b~北伐军战士瓦鲁斯#6e44^7dd6d42d",
 			[16929] = "0萨尔法#2d24^327246f585~~~~",
 			[10563] = "0护理者奥林#2b1e^3829bcc930~埃根#2b84^291d249a",
 			[25341] = "0天灾指挥官萨拉诺尔#6f5e^3792823578~瓦拉纳王子#6ed9^9286056e",
@@ -12821,9 +12913,12 @@ NxData = {
 			[21695] = "0救赎者瑞拉克#5714^404f85f358~救赎者瑞拉克#5714^4f86435d~6080331b~609413b0",
 			[19680] = "0大法师奥图鲁斯#44cd^462178dc03~库雷恩#4004^3a000000",
 			[10883] = "0工头塔兹利尔#2c72^0326721af6~工头塔兹利尔#2c72^26720af6~26784941",
+			[26141] = "0大领主提里奥·弗丁#6e13^4f80df8c20~攻城大师菲斯克#77c1^80db0c24",
 			[22079] = "0奥术师萨凡#5ae8^434fc1b4b9~",
 			[11059] = "0贝蒂娜·比格辛克#2b1b^3729c15897~~",
+			[26237] = "0黑锋观察者#7784^4f80d45bac~黑锋观察者#7784^80d45baa~80c65a7c~80c83ad6~80cd5a56",
 			[26333] = "0大领主达里安·莫格莱尼#796c^3c29d547eb~大领主达里安·莫格莱尼#796c^29d537de~29d357aa~29d337a4",
+			[26365] = "0拆解者基里克斯#681d^4b7d42f81a~拆解者基里克斯#681d^7d43081d~7d5a47fc",
 			[20288] = "0前线指挥官金斯顿#4b6e^3c37b64a01~前线指挥官金斯顿#4b6e^37b66a02~37b608c5~37b93977",
 			[18273] = "0莱茵#3f07^3e29c0a87d~~",
 			[22431] = "0纳泽尔·血矛#12b7^27285a14e9~德拉兹特·迪普瓦尔#5c14^286c0ba7",
@@ -12860,14 +12955,19 @@ NxData = {
 			[19809] = "0苏尔加亚#4662^40735287e9~苏尔加亚#4662^7352b7ec~73387746",
 			[23935] = "0克莉斯塔萨#665e^487a552576~莱洛拉斯#6605^7a553582~",
 			[23967] = "0特使艾米萨·闪蹄#6645^4a7d2357b3~特使艾米萨·闪蹄#6645^7d2357b6~7d2417d1",
-			[23999] = "0大法师艾萨斯·夺日者的影像#6767^4a7d612762~~",
+			[23999] = "0大法师艾萨斯·夺日者的影像#6767^4a7d612762~大法师艾萨斯·夺日者的影像#6767^7d615764~7d3bb9c3",
 			[19937] = "0缚地者塔弗格伦#480e^4160711436~缚地者塔弗格伦#480e^60715432~6079d3ef~606e33e1",
+			[24063] = "0长者玛纳洛#o2e003^4c7d5dca68~长者玛纳洛#o2e003^7d5dfa66~7d6a3a43",
 			[20001] = "0库加托克#47cf^40607cc748~追踪者凯德#4886^60a206d9~60ab283a",
-			[24127] = "0冰雾祖母#681c^4a7d5ba781~",
+			[24127] = "0冰雾祖母#681c^4a7d5ba781~班索克·冰雾#686d^7d39b6ac",
+			[24159] = "0坚不可摧的科查尔#6769^4d7d96e2d6~坚不可摧的科查尔#6769^7d96a2d6~7d81c2e5",
 			[24191] = "0高尔特上尉#67fa^4a7d5ba7b8~洛坎#68eb^7d78d543",
+			[24223] = "0索艾·鹰怒#6788^4c7d5f17c4~索艾·鹰怒#6788^7d5ee7c3~7d6267bf~7d611908",
+			[24255] = "0库尔迪拉·织亡者#67d5^4c7d5bd762~库尔迪拉·织亡者#67d5^7d5dc79b~7da9186e",
 			[20193] = "0劳兰娜·萨维尔#45f5^3e73cd7a43~劳兰娜·萨维尔#45f5^73cd7a44~73b90f33~73bcff0e",
 			[20225] = "0星界商人拉斯莱#4834^414fb954ee~星界商人拉斯莱#4834^4fb884da~604c26c6",
 			[22432] = "0学徒塔瑟雷尔#5d8c^464fc0354f~大法师奥图鲁斯#44cd^2178cc02",
+			[24543] = "0拷问者的魔棒^4b7db21b75~高级执行官乌洛斯#6a6b^7dc45a19~",
 			[28701] = "0希尔瓦娜斯·风行者#27c5^3c6c94bea6~纳萨诺斯·凋零者#2e66^293adae5~298e15a6",
 			[1555] = "0卢希恩·枪穗#b68^2a0c420718~鲁特维尔·沃拉图斯#b69^0c425725~",
 			[1557] = "0鲁特维尔·沃拉图斯#b69^2a0c425725~鲁特维尔·沃拉图斯#b69^0c426731~0c42e75c",
@@ -12884,6 +12984,7 @@ NxData = {
 			[25439] = "0凯雷塞斯王子#70ef^39928ab92a~凯雷塞斯王子#70ef^928aa92a~92867b8a~9285fb59",
 			[21377] = "0拉瑞萨·射日者#55c2^454e8e994d~拉瑞萨·射日者#55c2^4e8ea94f~4eb1b83e",
 			[25503] = "0骑士团指挥官普雷菲斯特#717d^3b92876d04~萨萨里安#70f1^928fdccb~",
+			[25535] = "0塔里奥斯塔兹#674b^4d7d93f8a6~古拉克·石拳#6c9c^7d9518ea",
 			[1611] = "0祖雷萨#c49^06266dbb09~加德林大师#c74^268efbef",
 			[1613] = "0奥戈尼尔·魂痕#c46^092685b6e7~奥戈尼尔·魂痕#c46^2685a6e4~266c6441",
 			[21729] = "0药剂师安东尼维奇#40cc^3e3785d5d3~药剂师安东尼维奇#40cc^3785c5d3~377db881",
@@ -12896,6 +12997,8 @@ NxData = {
 			[1637] = "0沃纳尔大师#ce8^06268f0be6~沃纳尔大师#ce8^268efbe2~269b9c55~26a8fb4e",
 			[9013] = "0温娜·哈萨德#270c^322d57885e~温娜·哈萨德#270c^2d57885b~2d57c859",
 			[6563] = "0加兹罗格#d88^106184b4d8~加兹罗格#d88^6184b4d9~6194589b",
+			[26271] = "0北伐军技师斯比帕提克#77fa^4f80d45bac~北伐军技师斯比帕提克#77fa^80d44bad~7bd999f1",
+			[26303] = "0克罗米#6d0b^500079f667~克罗米#7915^0050f6e9~445c7000",
 			[1647] = "0加德林大师#c74^06268efbef~奥戈尼尔·魂痕#c46^2685b6e7",
 			[1651] = "0加索克#c43^0b2684e6f0~加索克#c43^268506f0~269fd9ac",
 			[1653] = "0加德林大师#c74^06268efbef~加德林大师#c74^268eebf4~26ad6dc0~26abcdde~26acadcc",
@@ -12948,7 +13051,9 @@ NxData = {
 			[1761] = "0图加·符文图腾#d78^166185851a~图加·符文图腾#d78^61857518~61758652",
 			[1763] = "0瑟格拉·黑棘#d0a^12618584f6~瑟格拉·黑棘#d0a^618584f3~618ec2bc",
 			[1765] = "0乔恩·星眼#d3b^176172b971~乔恩·星眼#d3b^6172c971~6198f4d8",
-			[24193] = "0大地看守者格莱弗#68e6^4a7d5d57a2~~",
+			[24161] = "0坚不可摧的科查尔#6769^4d7d96e2d6~坚不可摧的科查尔#6769^7d96a2d6~7d81c2e5",
+			[24193] = "0大地看守者格莱弗#68e6^4a7d5d57a2~大地看守者格莱弗#68e6^7d5d57a6~7d529a75",
+			[24225] = "0纳尔弗#6817^4e7d8b53c5~佐特#6823^7d97e2e3~",
 			[20163] = "0盖亚安祖母#46dd^454090e57f~卡舒尔宗母#48ff^404499c4",
 			[10101] = "0杰雷米亚·派森#20d3^346cac471d~詹妮丝·费尔斯通#2a1a^6f6208a5~",
 			[1777] = "0加兹鲁维#d3f^1461a035cb~加兹鲁维#d3f^61a035cc~61a007f0~61a277de",
@@ -12984,6 +13089,8 @@ NxData = {
 			[1873] = "0旅店老板格雷什卡#1b11^334489faf7~大德鲁伊哈缪尔·符文图腾#1689^68c89481",
 			[21827] = "0指挥官拉瓦伊#57ae^43604f6c29~指挥官拉瓦伊#57ae^604f7c28~6057fbf0~60538bbe",
 			[21859] = "0杜瓦弗维兹#57d1^44604f4c29~杜瓦弗维兹#57d1^604f3c2a~6052bc12",
+			[26017] = "0北伐军指挥官恩塔里#760f^4f80deac21~北伐军指挥官恩塔里#760f^80de9c1d~80d6cbf5",
+			[26081] = "0古斯塔夫神父#7612^4f80de1c41~古斯塔夫神父#7612^80de2c41~80d50c69",
 			[11029] = "0药剂师迪瑟斯#2b31^3869d4db14~克林科·古德斯迪尔#1523^59839497~",
 			[20100] = "0荣耀堡卫兵维斯洛#41bb^3c378239a4~荣耀堡卫兵维斯洛#41bb^378249a4~3788bd8c~378ecce9~3788cd8c",
 			[22339] = "0学徒加里奥#5c31^292875a922~学徒加里奥#5c31^2875a922~286ef92d",
@@ -13021,21 +13128,25 @@ NxData = {
 			[20165] = "0卡舒尔宗母#48ff^45404499c4~卡舒尔宗母#48ff^404459c2~4041b99f",
 			[20197] = "0伊斯法尔#49f5^4260708a63~~~~",
 			[20229] = "0欧洛恩·远行者#4abd^45408db5f4~“好儿子”沙度·远行者#4718^40b6f675",
-			[24419] = "0军需官巴莱特#6a83^4a7dc21a17~~~",
+			[24419] = "0军需官巴莱特#6a83^4a7dc21a17~军需官巴莱特#6a83^7dc24a19~7db5dbaa~7db62b7e",
 			[20357] = "0间谍格利克萨#4c28^4460664b8b~间谍托古恩#49cb^00655bc4",
 			[20421] = "0憔悴的志愿兵#4ce4^3c4f9dc1a2~阿达尔#4831^4f8a3743",
+			[24547] = "0高级执行官乌洛斯#6a6b^4b7dc45a19~高级执行官乌洛斯#6a6b^7dc45a18~7db35b78~7dbb8c77~7db5cb37~7daefc10",
 			[20485] = "0药剂师塞兰娜#5309^3d37a926b7~药剂师阿尔布雷克#531f^379c5d0f~",
 			[20517] = "0史学家奥尔森#4d18^3e379dcd0e~指挥官霍加斯#4de1^37916c5d",
 			[12325] = "0德雷卡苏#2594^312d58f86d~德雷卡苏#2594^2d58e86b~2d7b7f0f",
 			[8247] = "0麦克斯沃特·尤博格林#2540^3216a6d3ce~~",
+			[24899] = "0瓦加斯塔兹#6c73^4e7d6dc822~瓦加斯塔兹#6c73^7d6de826~7d75c85a",
 			[18854] = "0智者阿曼恩#419c^3f373bd5d9~智者阿曼恩#419c^373bd5da~3766e4e5",
 			[22980] = "0塔雷斯#60f6^4678000000~卡雷苟斯#610c^78000000~78000000",
+			[25091] = "0北伐军战士瓦鲁斯#6e44^4c7dd6d42d~北伐军战士瓦鲁斯#6e44^7dd6c42e~7ddf337f",
 			[12565] = "0马格兰#2e54^1a5378c9be~马格兰#2e54^537879c5~53526a9d~534c7a21~534e0b21~53599b31",
 			[2123] = "0佐尔·孤树#fcf^0d4463b616~希雷斯·碎石#fd1^615a4473",
 			[25187] = "0巫妖王#6376^3792834599~教官拉苏维奥斯#6ec5^9279c49d",
 			[2131] = "0药剂师扎玛#d5b^19683af35e~药剂师林度恩#8a8^389d1312~",
 			[25283] = "0巫妖王#6376^379283359b~巫妖王#6376^9283a59e~9285059f~9285059f~9285059f~9285059f",
 			[25315] = "0巫妖王#6376^379283a59e~大领主达里安·莫格莱尼#6f1c^927d24ca",
+			[25539] = "0瓦加斯塔兹#6c73^4e7d6e0822~塔里奥斯塔兹#674b^7d93f8a6",
 			[12789] = "0工头塔兹利尔#2c72^0426720af6~工头塔兹利尔#2c72^2671faf5~266fe89b",
 			[25603] = "0天灾指挥官萨拉诺尔#796a^3c925724dd~大领主达里安·莫格莱尼#71f5^925fd635~92633612",
 			[19526] = "0观察者杰哈恩#45dc^45738595bb~观察者杰哈恩#45dc^738595be~",
@@ -13046,6 +13157,8 @@ NxData = {
 			[21829] = "0指挥官拉瓦伊#57ae^43604f7c28~指挥官拉瓦伊#57ae^604f7c28~60567ad7~607ebad6",
 			[21861] = "0杜瓦弗维兹#57d1^44604f3c2a~杜瓦弗维兹#57d1^604f3c2f~60745c1a",
 			[8903] = "0煤渣厕所钥匙^2e4c6d9659~木制厕所#o2a4d1^4ca7b9e9~",
+			[26147] = "0大领主提里奥·弗丁#7944^4f80cc1b78~守护者雷姆洛斯#2e38^3e5d06b9~",
+			[26211] = "0大领主提里奥·弗丁#77d5^4f80dbdc1a~黑锋观察者#7784^80d45bac",
 			[2263] = "0梅洛·石蹄#d71^19689d8cd7~梅洛·石蹄#d71^689cbcc5~6729b2fa",
 			[20198] = "0工头比格姆斯#41c5^3d3784d9fd~工头比格姆斯#41c5^3784e9fc~378fa9d4",
 			[22373] = "0密封的信函^2b2877e780~纳泽尔·血矛#12b7^285a44e9~",
@@ -13084,7 +13197,9 @@ NxData = {
 			[20455] = "0哈雷#4cf1^436059ba69~疯狂的拉姆杜尔#4bd9^6059ea94",
 			[10295] = "0通缉：阿纳克·恐怖图腾#o2aff3^1d6775681a~峭壁卫兵图林·长角#2929^6774e819~6760943d",
 			[10311] = "0格雷塔·苔蹄#2aaa^312d82dd1f~格雷塔·苔蹄#2aaa^2d82dd21~2d58f9a5~2d6009c2~2d58c99d~2d5a19a5",
+			[24901] = "0瓦加斯塔兹#6c73^4e7d6de826~瓦加斯塔兹#6c73^7d6e0822~7d7c27c4~7d79b7d5",
 			[10423] = "0卡林·雷德帕斯#2b37^3729c1889b~卡林·雷德帕斯#2b37^29c1889d~2998155f",
+			[24997] = "0托拉斯塔萨#6945^4d7d98388a~阿莱克丝塔萨，生命的缚誓者#6925^7d9918bc~7d93f56f~7d8ad4fe",
 			[10471] = "0暗影牧师范蒂丝#2b2f^3569d43b7b~天灾之锅#o2b108^6fa0a944~6fa0a93b",
 			[10487] = "0莱尼德·巴萨罗梅#2b1c^3729c21851~~",
 			[23046] = "0瑟里斯·黎明之心#6187^46777924e2~~",
@@ -13102,10 +13217,14 @@ NxData = {
 			[19688] = "0大法师奥图鲁斯#44cd^462178bc03~大法师奥图鲁斯#44cd^2178cc02~3a000000",
 			[19720] = "0大法师奥图鲁斯#44cd^462178cc02~大法师塞德瑞克#46f5^012808b7~",
 			[21831] = "0指挥官拉瓦伊#57ae^44604f7c28~指挥官拉瓦伊#57ae^604f7c29~605b5a89",
+			[26149] = "0守护者雷姆洛斯#2e38^4f3e5d06b9~守护者雷姆洛斯#2e38^3e5cd6ae~3e56563d",
 			[26181] = "0奥恩·嫩蹄#695c^457a6b48a7~奥恩·嫩蹄#695c^7a6b68a2~7a688b4f",
+			[26245] = "0黑锋观察者#7784^4f80d45bac~黑锋观察者#7784^80d45baa~80c65a7c",
 			[20264] = "0图拉希恩#4b5d^3f3727d852~图拉希恩#4b5d^3727e857~372b0689",
 			[18249] = "0猎手雷奥普德#3f04^3e29c17864~猎手雷奥普德#3f04^29c17866~",
 			[22407] = "~塔贝萨#1992^2875a922",
+			[26533] = "0萨尔#7ab4^4d4452860c~沃金#7ba1^699dfa09",
+			[26661] = "0战争使者达沃斯·里赫#7e2d^4f809e8661~战争使者达沃斯·里赫#7e2d^809d4634~8099b980",
 			[15445] = "0大铁匠博恩奈特#3920^2e4c62d484~大铁匠博恩奈特#3920^4c632486~4c67b5bc",
 			[20680] = "0前线指挥官金斯顿#4b6e^3c37b66a03~鲁恩托格·蛮锤#4f0a^37c88596",
 			[5693] = "0塔贝萨#1992^292875a922~~",
@@ -13134,415 +13253,520 @@ NxData = {
 			[20009] = "0受难者奥图里斯#47f1^44404606e2~萨萨拉比姆#4898^4fc5958a~4fc5958d",
 			[20073] = "0玛乌格·锐箭#4911^42607df758~玛乌格·锐箭#4911^607db755~6044d8db",
 			[20105] = "0伊斯拉·星鬃#4948^4460bce5a0~顾问菲埃拉#4918^607d1722~60ac55f6",
+			[24231] = "0高尔特上尉#67fa^4c7d5ba7b8~库尔迪拉·织亡者#67d5^7d5bd762~",
+			[24295] = "0精美的战斗号角^4b4489caf9~奥拉斯塔萨#6967^7d9968cf~",
 			[20265] = "0图拉希恩#4b5d^4037281855~图拉希恩#4b5d^37280855~372236d222a6e1",
-			[24423] = "0药剂师薇吉·莱文#6a70^4a7dc4ea0c~~",
+			[24423] = "0药剂师薇吉·莱文#6a70^4a7dc4ea0c~药剂师薇吉·莱文#6a70^7dc4ea0b~7db80bdc",
 			[20361] = "0欧罗拉克#4a65^424f94a27f~伊斯法尔#49f5^60708a63",
+			[24487] = "0药剂师薇吉·莱文#6a70^4b7dc4fa0c~药剂师薇吉·莱文#6a70^7dc4fa0b~7db90d37~7db7bd67",
 			[20425] = "0萨尔#1355^4644516607~盖亚安祖母#46dd^4090d57b",
 			[20457] = "0疯狂的拉姆杜尔#4bd9^436059ea94~伊瑟基尔#4d03^4f9108f2",
 			[12295] = "0十字军领主瓦德玛尔#2e7a^3c29c9dc65~纳萨诺斯·凋零者#2e66^293aeae6",
 			[12327] = "0纳萨诺斯·凋零者#2e66^3b293adae7~纳萨诺斯·凋零者#2e66^293aeaea~56000000",
+			[26265] = "0布雷格#7897^50007122d4~布雷格#7897^00708308~807bb736",
+			[2437] = "0“沼泽之眼”加尔#12b8^20288db434~“沼泽之眼”加尔#12b8^288db434~28903402",
+			[25873] = "0古尔戈索克#7537^50847bf902~巨魔仆从伍迪#7539^847bf904~847bf904",
+			[24839] = "0红玉胸针^4b7dc239f5~克拉苏斯#6d56^7d9908bc~",
+			[24871] = "0阿莱克丝塔萨，生命的缚誓者#6925^4e7d98c8b7~阿弗拉沙斯塔兹#6bb7^7d97a8ac",
+			[26521] = "0掠天者考尔姆·黑痕#7868^50809b95f7~库尔迪拉·织亡者#7463^80a3571f~",
 			[20841] = "0伊沙娜#486a^464f3da4c5~伊沙娜#486a^4f3da4c5~",
+			[24033] = "0图尔凯#6685^4b7d7aac2e~图尔凯#6685^7d7abc2b~7d6c7ce8",
+			[26159] = "0阿莱克丝塔萨，生命的缚誓者#6925^4f7d9938bc~北伐军战士布雷登布莱德#7762^80cc44f0~",
 			[22984] = "0卡雷苟斯#610c^4678000000~主教拉雷索尔#60ed^777914e6~78000000",
+			[23745] = "0圣职者莉安德拉#64ee^4a7a93c8cf~圣职者塞妮丝#64d2^7a928708~7a9e2aa1",
+			[24155] = "0佐特#6823^4e7d97d2e4~坚不可摧的科查尔#6769^7d96c2d9~",
 			[18986] = "0战地指挥官洛姆斯#41be^4637913a04~战地指挥官洛姆斯#41be^37914a03~379069fa~379069fa~379069fa",
+			[24897] = "0瓦加斯塔兹#6c73^4d7d6dd823~瓦加斯塔兹#6c73^7d6dc822~7d6dc846~7d6e0839~7d720844",
+			[24221] = "0法师指挥官伊文斯塔#68f9^4d7d66daac~大法师艾萨斯·夺日者的影像#6767^7d612763~7d655ac9~7d877a93",
+			[20049] = "0奥术师艾蒂莉亚#48a4^404f8bf387~奥术师艾蒂莉亚#48a4^4f8cb38f~60a7b765",
+			[23829] = "0图书馆员塞尔拉#65fe^477a55857f~图书馆员塞尔拉#65fe^7a55957e~7a4823d8",
 			[21193] = "0血卫士古尔穆克#536f^454e4da52e~血卫士古尔穆克#536f^4e4dd52f~4e3c65e5",
 			[19178] = "0冈尼#4447^4137904aa7~冈尼#4447^37905aa6~3775384e",
+			[24079] = "0伯鲁斯·折铁#67c4^4a7d5d978c~伯鲁斯·折铁#67c4^7d5da786~7d46d7c7",
 			[8601] = "0杰斯雷蒙#21d3^34448e0578~~",
 			[19274] = "0卡琳娜·拉瑟德#44e4^4642528a2a~卡琳娜·拉瑟德#44e4^42529a29~139b4aed~379069fa",
 			[25447] = "0凯雷塞斯王子#70ef^3a928aa929~奥尔巴兹·血毒#70f2^928ffcc2",
 			[21385] = "0拉瑞萨·射日者#55c2^464e8e994e~拉瑞萨·射日者#55c2^4e8e994b~4eb8488c~4eb128a4~4eb8c7c4~4eb208a1",
 			[25511] = "0奥尔巴兹·血毒#70f2^3b928fccc7~阿比迪斯将军#7195^92a7ad67~",
+			[19271] = "0马克·迪沃#44e5^3f7356f822~马克·迪沃#44e5^7356e820~73cb1550",
+			[19921] = "0图基#480f^40607fe753~缚地者塔弗格伦#480e^60711436",
+			[24157] = "0佐特#6823^4d7d97d2e2~佐特#6823^7d97e2e5~7d8642c8",
+			[24089] = "0辛克#6824^4d7d8c73bf~辛克#6824^7d8c83c3~7d843512",
 			[19530] = "0伊谢尔·风歌#45b1^4573c869ec~伊谢尔·风歌#45b1^73c869ec~",
+			[19825] = "0阿米希尔·迷雾行者#41f5^4037292855~伊谢尔·风歌#45b1^73c829e9",
+			[26261] = "0北伐军建筑师西拉斯#77de^4f80d47baa~北伐军建筑师西拉斯#77de^80d49baf~7bbbab8f~7bb8d93d",
+			[24101] = "0辛克#6824^4d7d8c73bf~辛克#6824^7d8cb3c0~7d871324",
 			[19658] = "0大法师塞德瑞克#46f5^44012868b5~卡德加#46f6^4f8c0724",
 			[21737] = "0顾问菲埃拉#4918^3c607d0722~顾问菲埃拉#4918^607d2722~607e52fd~60998448",
+			[23823] = "0大法师伯林纳德#62e2^477a54557c~大法师伯林纳德#62e2^7a54557c~44a1da0c",
+			[24099] = "0辛克#6824^4d7d8c73bf~辛克#6824^7d8ca3c0~7d977383",
+			[11883] = "0卡林·雷德帕斯#2b37^3a29c1789c~克罗米#29ab^6f64faac~",
+			[15457] = "0通缉/寻物/招领#o2be73^2e4c601442~监工斯克兰格#3922^4c63446c~4c5f17f1~4c551889",
+			[26173] = "0攻城大师菲斯克#77c1^4f80db0c24~攻城大师菲斯克#77c1^80db0c25~80db7c42~80db7c42",
+			[25435] = "0药剂师诺斯#70f7^3a928f0863~天灾之锅#o2e9d8^928f6856~",
+			[26079] = "0北伐军领主达尔弗斯#7610^4f80dbfc1e~北伐军领主达尔弗斯#7610^80dc0c1e~80d71c98",
+			[19505] = "0凯拉·长鬃#4631^3e73d4fda9~伊谢尔·风歌#45b1^73c849e6~73cbfb66",
+			[24115] = "0血之魔典^4c7d3ed6b0~高尔特上尉#67fa^7d5ba7b8~",
+			[26151] = "0守护者雷姆洛斯#2e38^4f3e5cd6ae~北伐军战士布雷登布莱德#7762^80cc24ef~",
 			[20042] = "0伊沙娜#486a^464f3d94cc~~~~",
+			[24209] = "0辛塔尔·玛菲奥斯博士#6789^4c7d5c47ca~索艾·鹰怒#6788^7d5f17c4~",
+			[23839] = "0莱洛拉斯#6605^477a553581~莱洛拉斯#6605^7a553582~7a553582",
+			[26279] = "0古斯塔夫神父#77db^4f80d3fba1~大领主提里奥·弗丁#77d5^80dbdc1d~",
+			[24479] = "0间谍女王瑞贝娅#6ac9^4c7dc44a14~斯古莉探员#6ad6^7dbc3bc1~",
 			[22249] = "0克罗格#133e^20285d5516~调查员塔雷姆#5c0f^284c379a",
+			[26375] = "0拆解者基里克斯#681d^4b7d42f81a~拆解者基里克斯#681d^7d42f81a~7d510807~7d3f083e",
 			[22313] = "0学徒莫兰恩#5c30^292875b92e~学徒莫兰恩#5c30^2875a92e~2875f787",
 			[22345] = "0学徒莫兰恩#5c30^292875b92e~莫希·斯蒂格里#5cf5^2888d91d",
 			[18283] = "0物资官员梅兹#3f54^3729c04845~物资官员梅兹#3f54^29c04847~29c1589b",
 			[22409] = "0莫萨恩#134f^28688b2cd4~克罗格#133e^285d2517",
+			[26535] = "0沃金#7ba1^4d699dfa09~萨尔#7f06^6c8b1e58~",
+			[26567] = "0布拉斯·炸雷#7c25^4f8084e932~布拉斯·炸雷#7c25^8084e932~808c299b",
+			[11723] = "0提里奥·弗丁#73f^3d290bf626~巫女麦兰达#2e60^6f81dc6c~",
+			[24065] = "0长者玛纳洛#o2e003^4c7d5dfa66~秘法师图阿鲁#67e3^7d7d7c19~7d550d82",
+			[11691] = "0提里奥·弗丁#73f^3b290bf626~提里奥·弗丁#73f^290bf623~29a874a6",
 			[20554] = "0安多尔姆#4ea2^46599578af~安多尔姆#4ea2^599558ae~599548b1",
+			[24535] = "0瑟里纳尔#67e1^4d7d5a04cf~瑟里纳尔#67e1^7d5a04cf~7d5064ed~7d5064f0",
+			[18751] = "0受伤的血精灵朝圣者#4261^3f373eec26~塔雷里斯·晨光#4277^3743a9e0~374519e4",
 			[20650] = "0圣光护卫者阿德因#4869^464f4e459a~~",
 			[26823] = "0传令官布莱肯·黑眼#475b^3c378ed644~传令官布莱肯·黑眼#475b^378ee641~376647c0~375b0841~376688f6",
+			[24527] = "0瑟里纳尔#67e1^4d7d5a04cf~瑟里纳尔#67e1^7d59f4ce~7d5144dc",
 			[18699] = "0雷加希#4b90^3e377ddbf3~雷加希#4b90^377ddbf2~375e3e9a",
+			[24995] = "0阿莱克丝塔萨，生命的缚誓者#6925^4d7d9908b9~托拉斯塔萨#6945^7d98388a",
 			[18763] = "0驯鹰者德蕾娜·河风#4196^3f3746d9a3~驯鹰者德蕾娜·河风#4196^3746e9a3~37444758",
 			[18795] = "0驯鹰者德蕾娜·河风#4196^3f3746d9a3~驯鹰者德蕾娜·河风#4196^3746e9a6~37419c02",
+			[21168] = "0托什雷#54bb^44139abb09~托什雷#54bb^139acb03~13937923",
+			[24253] = "0库尔迪拉·织亡者#67d5^4c7d5bd762~库尔迪拉·织亡者#67d5^7d5dc79b~7d789761",
 			[211] = "0高级执行官德灵顿#2a55^3669d45b04~高级执行官德灵顿#2a55^69d46b08~6f745b0c",
 			[20970] = "0埃隆雷下士#528d^3d37b55a23~埃隆雷下士#528d^37b56a1e~37b33c4e",
+			[24027] = "0伊瑟尼安·月影#6785^4c7d3e0998~伊瑟尼安·月影#6785^7d3e099a~7d335980",
 			[21034] = "0守备官乌里恩#531d^441370b849~守备官乌里恩#531d^1370a848~1363d7da",
+			[23119] = "0国王姆嘎姆嘎#626d^477a6f1238~呀噜咕噜#6276^7a6de234~7a694217",
+			[23739] = "0圣职者塞妮丝#64d2^497a92770c~圣职者塞妮丝#64d2^7a92770a~7a82f718",
+			[24091] = "0希弗里克斯#6825^4e7d8bf3b9~希弗里克斯#6825^7d8bd3b9~7d876326",
 			[21162] = "0R-3D0#54ba^44138ccb9c~托什雷#54bb^139abb09",
 			[23241] = "0卡鲁克#635b^467a788c0d~维赫亚#636a^7a6f9cdd",
 			[23273] = "0驭风大师图波尔#62c9^457a6c88d6~碾压者格尔基#62f1^7a5268a4",
 			[23305] = "0碾压者格尔基#62f1^467a5268a3~加尔鲁什·地狱咆哮#6295^7a69e891~7a5d1a9b~7a5d1a9b~7a5ba944",
+			[24449] = "0阿格玛大王#670b^4c7d5d074b~小萨鲁法尔#62a9^7d6832e6",
 			[23369] = "0玛罕宗父#607e^487ac5160e~玛罕宗父#607e^7ac5360e~7ab4b5e2~7ab2e52e~7aa9a53c",
+			[24129] = "0班索克·冰雾#686d^4c7d39b6ac~班索克·冰雾#686d^7d39a6af~7d3fb707~7d3d665c~7d41270b",
 			[6885] = "0卡拉然·温布雷#211f^2e4c640644~卡拉然·温布雷#211f^4c640642~4c83f761~4c5bf65b",
 			[19371] = "0骑士领主布拉德瓦罗#4535^1151e425b2~骑士领主布拉德瓦罗#4535^51e485a5~51cd8989",
 			[19403] = "0观察者莉萨奥#45a7^40733baa90~观察者莉萨奥#45a7^733b7a8f~732629fc",
 			[6909] = "0卡拉然·温布雷#211f^304c63e643~惩戒火炬#o24637^4c63e645",
+			[24549] = "0斯古莉探员#6ad6^4c7dbc3bc4~斯古莉探员#6ad6^7dbc2bc4~7dba4bbd~7dbd2c1d",
 			[6925] = "0卡拉然·温布雷#211f^314c63e643~侍卫玛特拉克#213d^4c63e643",
+			[24083] = "0拆解者基里克斯#681d^4c7d42e818~阿格玛大王#670b^7d618768~",
+			[24437] = "0首席药剂师米德尔顿#6a24^4b7dc6ba08~首席药剂师米德尔顿#6a24^7dc68a06~7ddb893e",
 			[19595] = "0信使加兹格里戈#46ab^407351f80a~克洛坎上尉#46aa^408d9600",
+			[19779] = "0吉尔拉斯#4761^456032a9b4~无情的安克尔#4756^60344a0a~60344a0b~603599e3",
 			[23753] = "0大德鲁伊拉索留斯#64d1^497a91c712~大德鲁伊拉索留斯#64d1^7a91f714~7a93761e",
 			[19691] = "0苏尔加亚#4662^3f735287ea~苏尔加亚#4662^735287e9~737bf6d7",
+			[24113] = "0高尔特上尉#67fa^4a7d5ba7b8~高尔特上尉#67fa^7d5ba7b9~7d49c7f2",
+			[24181] = "0通缉！#o2e002^4a7d602771~高尔特上尉#67fa^7d5b97b8~7d827a7e",
+			[23797] = "0冬风酋长#607f^497ac245f5~冬风酋长#607f^7ac225f5~7add5487~7ae094a8~7adaf46f",
+			[24097] = "0伯鲁斯·折铁#67c4^4b7d5da786~伯鲁斯·折铁#67c4^7d5d8789~7d3d26bd",
 			[19851] = "0瑟利德#4764^45404ee94b~瑟利德#4764^404eb949~40570aaa",
 			[9945] = "0克罗米#29ab^366f64eaae~克罗米#29ab^6f64faaf~6f6d3b25",
 			[19915] = "0莱森·月火#45aa^3f73c8da15~缚地者塔弗格伦#480e^60713434",
 			[19947] = "0古尔戈索克#4827^45406d734e~巨魔仆从伍迪#596d^406d834e~406fe3436ea349",
-			[24073] = "0军士长祖托克#672f^4a7d5da772~~",
+			[24073] = "0军士长祖托克#672f^4a7d5da772~军士长祖托克#672f^7d5da772~7d4307fa",
+			[24105] = "0纳尔弗#6817^4e7d8b53c5~纳尔弗#6817^7d8b73c7~7d749206~7d8332a9",
+			[24169] = "0大法师艾萨斯·夺日者的影像#6767^4d7d611762~大法师艾萨斯·夺日者的影像#6767^7d612761~7d523b6a",
 			[20075] = "0塞瑟#48dd^404f9fd292~塞瑟#48dd^4fa0c29d~6064b16c",
-			[24201] = "0索艾·鹰怒#6788^4a7d5ed7c2~~~",
+			[24201] = "0索艾·鹰怒#6788^4a7d5ed7c2~索艾·鹰怒#6788^7d5ef7bc~7d50c772~7d4f1792",
+			[24265] = "0库尔迪拉·织亡者#67d5^4d7d5dc79b~库尔迪拉·织亡者#67d5^7d5dd76d~7d5ee754",
 			[20171] = "0卡舒尔宗母#48ff^45404459c2~卡舒尔宗母#48ff^404499c7~4050a6d8~40787391~408c85ec~6033c9fc",
 			[10105] = "0碎牙#d66^1b6171f977~碎牙#d66^6171f977~",
 			[20235] = "0通缉布告#o2c795^3f7351c7e6~暗影猎手德恩加#465d^734ed820~733ce44f",
+			[24607] = "0军需官巴莱特#6a83^4a7dc21a17~军需官巴莱特#6a83^7dc24a1a~7dda5bc9",
+			[23785] = "0大德鲁伊拉索留斯#64d1^4a7a91c711~大德鲁伊拉索留斯#64d1^7a91e713~7a7f96a5",
+			[15403] = "0通缉/寻物/招领#o2be73^2e4c601442~侦查队长洛洛尔#392a^4c60a445~4c69f5ae",
+			[26335] = "0拆解者基里克斯#681d^4b7d42f81a~拆解者基里克斯#681d^7d43081d~7db464b8",
+			[24521] = "0斯古莉探员#6ad6^4c7dbc2bc5~斯古莉探员#6ad6^7dbc3bc4~7dbb1bf0",
 			[20427] = "0葛雷拉格#41da^3d379bfd0b~“尖嗓子”斯克里·拉克希德#4ba7^377d8bf4",
 			[20459] = "0神秘的典籍^3d3793fc74~史学家奥尔森#4d18^379dbd0e~",
+			[23379] = "0先知赫米萨#6404^497abea3c3~塔迦祖母#6402^7ac5a5e7~",
 			[28711] = "0布拉贡·血拳#8db1^236c904eb7~布拉贡·血拳#8db1^6c8ffeb0~4a000000~4a000000~4a000000~4a000000",
+			[24413] = "0药剂师薇吉·莱文#6a70^4a7dc4fa0a~药剂师薇吉·莱文#6a70^7dc4ea0c~7dc51a0f",
+			[24745] = "0阿弗拉沙斯塔兹#6bb7^4e7d97a8ac~阿弗拉沙斯塔兹#6bb7^7d9778af~7d948a71~7d948a71~7d8d9a90",
 			[10313] = "0塔诺恩·红羽#2aa9^312d824d10~塔诺恩·红羽#2aa9^2d822d0f~2d69b698~2d69b698~2d6696a6",
 			[20651] = "0圣光护卫者阿德因#4869^464f4e957f~圣光护卫者阿德因#4869^4f4e957f~",
+			[24977] = "0军士长祖托克#672f^4a7d5d8773~高级执行官乌洛斯#6a6b^7dc46a17",
+			[24081] = "0拆解者基里克斯#681d^4b7d42f81a~拆解者基里克斯#681d^7d42e818~7d48f7fa",
+			[23763] = "0菲兹克斯·盖维斯特#64f9^487ac625e9~菲兹克斯·盖维斯特#64f9^7ac605eb~7ac59602",
+			[23731] = "0扎扎#64d3^497a915707~扎扎#64d3^7a91370c~7a91583b",
 			[18796] = "0斥候瓦努拉#419d^3e373bc60a~斥候瓦努拉#419d^373bb621~3762db61~374beb4a",
-			[18860] = "0智者阿曼恩#419c^3f373bd5dc~智者阿曼恩#419c^373bd5db~3725e935",
+			[24937] = "0征服者克雷娜#68ec^4f7e351a43~纳兹戈林中士#6afc^7e35aa3c",
+			[3276] = "0伊尔萨·考宾#1568^3c54cdd98c~哈里·伯加德#17c9^54c4f887",
+			[25001] = "0阿莱克丝塔萨，生命的缚誓者#6925^4d7d9908bd~小萨鲁法尔#62a9^7d67f2e3",
 			[10473] = "0天灾之锅#o2b108^356fa0a944~暗影牧师范蒂丝#2b2f^69d43b7b~",
+			[23923] = "0长者穆希特#666a^4a7aabd8bc~长者穆希特#666a^7aabe8be~7aace80e",
 			[23050] = "0守备官夏安#6185^467778a4e6~~",
+			[9971] = "0穆格雷斯·深水#29f3^356f893a57~穆格雷斯·深水#29f3^6f892a57~6fa3a796",
+			[19290] = "0卡姆希丝#41af^463a000000~大法师奥图鲁斯#44cd^2178bbff~3a000000",
+			[23741] = "0圣职者塞妮丝#64d2^4a7a92770a~圣职者莉安德拉#64ee^7a93e8cd",
+			[23891] = "0乌泰克#6665^497aa3574f~乌泰克#6665^7aa3a750~7aaaa7c3",
 			[19116] = "0希德·利巴迪#41ba^3c378aca27~格雷尼·长须#41d2^373d4b83",
+			[23813] = "0铁眼#65f8^487ac4c604~铁眼#65f8^7ac4c603~7aa7c360",
+			[21872] = "0助手克拉图#579e^3e378aca2c~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa4",
+			[24183] = "0通缉！#o2e002^4a7d602771~高尔特上尉#67fa^7d5b97b8~7d746737",
+			[23873] = "0莱洛拉斯#6605^477a551582~莱洛拉斯#6605^7a553581~7a4854b6",
 			[19276] = "0拉维恩#41ad^463a000000~格拉达夫#41ae^3a000000",
 			[25449] = "0奥尔巴兹·血毒#70f2^3a928ffcc2~奥尔巴兹·血毒#70f2^928fecc3~92a0eae8",
+			[19683] = "0加巴林卡#465f^3f735107de~加巴林卡#465f^735107e0~73316790",
 			[25513] = "0阿比迪斯将军#7195^3c92a7ad67~奥尔巴兹·血毒#70f2^928fdcc9~",
-			[21835] = "0维卡克斯#579d^404f83a25f~维卡克斯#579d^4f814274~60910a6a",
-			[24609] = "0测量员汉森#7f57^4a7dcada66~~",
-			[21339] = "0受难者奥图里斯#47f1^45404626e4~受难者奥图里斯#47f1^404606e4~7329767f",
-			[24975] = "0高级执行官乌洛斯#6a6b^4a7dc46a17~",
-			[24413] = "0药剂师薇吉·莱文#6a70^4a7dc4fa0a~药剂师薇吉·莱文#6a70^7dc4ea0c~7dc51a0f",
-			[24607] = "0军需官巴莱特#6a83^4a7dc21a17~~",
-			[23919] = "0长者库纳尼#6652^4a7d7b0bf5~~",
-			[24289] = "0肯图卡尼斯#6963^4a7d774559~~7d8d893c~7d91b698",
-			[3276] = "0伊尔萨·考宾#1568^3c54cdd98c~哈里·伯加德#17c9^54c4f887",
-			[24069] = "0阿格玛大王#670b^4a7d617767~军士长祖托克#672f^7d5da772",
-			[19290] = "0卡姆希丝#41af^463a000000~大法师奥图鲁斯#44cd^2178bbff~3a000000",
-			[23937] = "0长者穆希特#666a^4a7aabe8be~长者穆希特#666a^7aabc8c2~7aac4909",
-			[23923] = "0长者穆希特#666a^4a7aabd8bc~长者穆希特#666a^7aabe8be~7aace80e",
+			[24509] = "0斯古莉探员#6ad6^4c7dbc2bc2~斯古莉探员#6ad6^7dbc2bc5~7db0ec3f",
+			[20203] = "0卡舒尔宗母#48ff^45404499c7~克乌雷#4489^405adc6e",
+			[2137] = "0希雷斯·碎石#fd1^19615a4475~希雷斯·碎石#fd1^615a3473~53a617a3~539ea889",
+			[21775] = "0阿库诺#5769^42604e67d7~米克达#5762^606057fd~6055d83e",
+			[21757] = "0米克达#5762^416061b83b~米克达#5762^6060383f~604f0802~60649994~6065598c",
+			[529] = "0克拉莉斯·弗斯特#15a7^10683f9397~~",
 			[23901] = "0阿泰卡#6639^4a7aa3375e~长者穆希特#666a^7aabd8bc",
-			[20268] = "0火红水晶碎片^3f3732868d~图拉希恩#4b5d^3727e857~",
+			[10197] = "0高级执行官德灵顿#2a55^3469d44b06~高级执行官德灵顿#2a55^69d48b05~6f661b69~6f6c1a95~6f717a25~6f776b55",
+			[23321] = "0瓦托尔#6384^457a52a8aa~瓦托尔#6384^7a5298a9~7a4eda4d",
+			[23801] = "0大法师伯林纳德#62e2^477a54557d~大法师伯林纳德#62e2^7a54557c~7a486489~7a485595~7a4ff33d~7a3943db",
+			[23893] = "0克莉斯塔萨#665e^487a55257d~克莉斯塔萨#665e^7a55257d~",
+			[25897] = "0古尔戈索克#7537^50847be904~巨魔仆从伍迪#7539^847bf906~847a3905",
+			[21835] = "0维卡克斯#579d^404f83a25f~维卡克斯#579d^4f814274~60910a6a",
+			[21306] = "0圣光护卫者阿德因#4869^464f4e459a~圣光护卫者阿德因#4869^4f4e459a~",
+			[10309] = "0克罗米#29ab^376f64eaaf~克罗米#29ab^6f64eaaf~6f6f7b2a",
+			[6963] = "0黑龙的财宝#o247fe^314c636642~黑龙的财宝#o247fe^4c636642",
+			[19753] = "0伊谢尔·风歌#45b1^4073c869e4~观察者杰哈恩#45dc^738585c0",
+			[26089] = "0北伐军指挥官恩塔里#760f^4f80de9c1b~本诺比奥斯#7613^80de8c9b",
+			[20901] = "0乌托克·断斧#5308^3c378ce5cf~乌托克·断斧#5308^378cf5cf~3794d7a4",
+			[26153] = "0北伐军战士布雷登布莱德#7762^4f80cc24ef~大领主提里奥·弗丁#7944^80cc1b7b~",
+			[25431] = "0瓦拉纳王子#70eb^399288d5d0~凯雷塞斯王子#70ef^928ab92a",
+			[3278] = "0哈里·伯加德#17c9^3c54c4f887~巴特莱比#17ca^54c4486c",
+			[10461] = "0天灾之锅#o2b0e9^346f5ef917~暗影牧师范蒂丝#2b2f^69d42b7d~",
+			[1631] = "0厨师托尔卡#c77^09268296ca~厨师托尔卡#c77^268286c8~269ccc86",
+			[11085] = "0提里奥·弗丁#73f^38290c161d~提里奥·弗丁#73f^290bf625~290e07e8~2980286b~2972e572",
+			[1681] = "0塔克林·寻路者#d08^0b268206f7~卡加尔·战痕#d09^619f231a~",
+			[21763] = "0米克达#5762^42606057fd~米克达#5762^6060183d~604f7776~604be842~60520830",
+			[26409] = "0污泥覆盖的蘑菇^4e00aac9a1~拆解者基里克斯#681d^7d42f81a~7dbd6b4f",
 			[22347] = "0学徒加里奥#5c31^292875a922~学徒加里奥#5c31^2875a922~2878e9ec",
 			[7645] = "0沙妮·长齿#23b0^3216cc4748~萨特拉克#237a^0c1636ec~16cbb79d",
 			[22411] = "0塔贝萨#1992^292875a922~塔贝萨#1992^2875a921~28776755~28790778~287977a5",
-			[23745] = "0圣职者莉安德拉#64ee^4a7a93c8cf~圣职者塞妮丝#64d2^7a928708~7a9e2aa1",
-			[23741] = "0圣职者塞妮丝#64d2^4a7a92770a~圣职者莉安德拉#64ee^7a93e8cd",
-			[23737] = "0扎扎#64d3^4a7a91370c~扎扎#64d3^7a91670a~7a92c905",
-			[23379] = "0先知赫米萨#6404^497abea3c3~塔迦祖母#6402^7ac5a5e7~",
-			[23859] = "0冬风酋长#607f^497ac225f5~陶拉努克宗母#662e^7ac85610",
-			[12043] = "0护理者奥林#2b1e^3829bcc930~护理者奥林#2b1e^29bcc93f~293cdc87",
-			[23797] = "0冬风酋长#607f^497ac245f5~冬风酋长#607f^7ac225f5~7add5487~7ae094a8~7adaf46f",
-			[21968] = "0弗埃卢#57e1^464f8fc7c8~葛罗克#599c^4fa62ad0",
+			[25429] = "0大领主达里安·莫格莱尼#6f1c^39927d14c8~瓦拉纳王子#70eb^9288d5d0",
+			[23171] = "0战歌征募官#62b9^457a672849~加尔鲁什·地狱咆哮#6295^7a69c891",
+			[3436] = "0武神#1567^3c54ce098a~克兰诺克·马克雷德#185c^61af67da",
+			[2503] = "0黑色盾牌#o5200^28284be7be~克罗格#133e^285d2515~",
+			[20190] = "0鲜血法典#o2caa3^450065abb3~间谍女王梅丽萨·海克隆#49cd^4f80e740~6065abb3",
+			[10457] = "0高级执行官德灵顿#2a55^3469d44b06~暗影牧师范蒂丝#2b2f^69d42b77",
+			[20788] = "0巴洛克元帅#5139^3d37aec48e~巴洛克元帅#5139^37aec48d~3795350f~37a754ce",
+			[2347] = "0莫格穆洛克大王#1194^2d285ce507~德拉兹辛比#1195^285ef547~285bc4fd",
 			[15447] = "0汉瑟尔·重拳#3923^2e4c623471~汉瑟尔·重拳#3923^4c62447f~4c84265c",
-			[23799] = "0塔迦祖母#6402^487ac5a5e6~塔迦祖母#6402^7ac5a5e5~7aa8f36f",
-			[23739] = "0圣职者塞妮丝#64d2^497a92770c~圣职者塞妮丝#64d2^7a92770a~7a82f718",
-			[21872] = "0助手克拉图#579e^3e378aca2c~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa4",
+			[9535] = "0艾鲁#2889^1e6772c7d6~艾鲁#2889^677317d7~671e0550",
+			[24941] = "0克罗米#6cd0^4b7d9968b6~克罗米#6cd0^7d9978b6~7db9462e",
+			[1135] = "0Dangerous!#o7d8^20389fe325~高级执行官达萨利亚#8a7^389f7342~384b76d8~3853460b~384e594e~385c3766",
 			[18733] = "0阴沉的利亚森#4197^403744e986~阴沉的利亚森#4197^3744f985~376ad4a0",
-			[23793] = "0天空大地先知#657e^497ac57624~天空大地先知#657e^7ac58621~7aaac3ed",
-			[20203] = "0卡舒尔宗母#48ff^45404499c7~克乌雷#4489^405adc6e",
-			[19729] = "0先知考尔胡克#4693^42408c2660~小萨鲁法尔#4735^4052b5c2",
-			[23873] = "0莱洛拉斯#6605^477a551582~莱洛拉斯#6605^7a553581~7a4854b6",
-			[23759] = "0巨兽库诺克#6506^4a7a97b4d7~大德鲁伊拉索留斯#64d1^7a91f712~7a91f712",
-			[19683] = "0加巴林卡#465f^3f735107de~加巴林卡#465f^735107e0~73316790",
+			[21790] = "0空军指挥官达比利#4bd1^3c37b699f8~空军指挥官达比利#4bd1^37b669fc~37adcaaa~37aa0c3e~37b34b0b~37b58b65",
+			[19262] = "0大法师奥图鲁斯#44cd^462178cc09~卡琳娜·拉瑟德#44e4^42528a2a~",
+			[1659] = "0玛高兹#c88^0c26900334~尼尔鲁·火刃#c90^447f4813~",
+			[23777] = "0塔洛迦大使#657a^457a6ac8b4~天空大地先知#657e^7ac59622",
+			[9975] = "0穆格雷斯·深水#29f3^366f898a55~纳拉·蛮鬃#168a^68c134fd~",
 			[21004] = "0指挥官萨卡斯·天影#52a6^43135caa95~指挥官萨卡斯·天影#52a6^135caa94~13746ce8",
+			[7813] = "0桑德哈特#237c^310c0ac834~~",
 			[21036] = "0守备官乌里恩#531d^441370a848~指挥官萨卡斯·天影#52a6^135cca94~13639946774bf3~1377dbf9",
-			[23321] = "0瓦托尔#6384^457a52a8aa~瓦托尔#6384^7a5298a9~7a4eda4d",
-			[23829] = "0图书馆员塞尔拉#65fe^477a55857f~图书馆员塞尔拉#65fe^7a55957e~7a4823d8",
+			[10299] = "0帕米拉·雷德帕斯#2aae^372952fd5e~帕米拉·雷德帕斯#2aae^2952fd5e~2957fd9e",
+			[22097] = "0克洛坎上尉#46aa^45408d65fe~血卫士古尔穆克#536f^4e4da52b",
 			[7845] = "0维妮·布特巴克#2464^15617d51c8~维妮·布特巴克#2464^617d51c8~61915167",
 			[23211] = "0长者阿特卡诺克#o2dcad^497a8bb5c5~长者阿特卡诺克#o2dcad^7a8b75b1~7a81d52d~7a87256e~7a85a4f4",
-			[23893] = "0克莉斯塔萨#665e^487a55257d~克莉斯塔萨#665e^7a55257d~",
+			[2477] = "0松软的泥土#o51f9^20288db425~纳泽尔·血矛#12b7^285a34e6~",
 			[23275] = "0先知格雷姆沃克的灵魂#6351^487a8fa177~先知格雷姆沃克的灵魂#6351^7a8f8179~7a8f8179~7a8ff202",
-			[11803] = "0米克·莱文#2d5f^3169d4fb8d~米克·莱文#2d5f^69d4db8d~2950a30f",
-			[23903] = "0克莉斯塔萨#665e^487a55257d~克莉斯塔萨#665e^7a55257d~7a4c03c9",
+			[2411] = "0梅洛·石蹄#d71^24689d2cda~梅洛·石蹄#d71^689c8cd6~2879686d",
+			[11609] = "0药剂师迪瑟斯#2b31^3869d4db13~药剂师迪瑟斯#2b31^69d4db14~6f73fb0e",
 			[23371] = "0玛罕宗父#607e^497ac5360e~驯风者巴兰#609a^7ac105b5~7adf1730",
-			[23811] = "0大法师伯林纳德#62e2^477a54557c~大法师伯林纳德#62e2^7a54557c~44a62373",
+			[16834] = "0武神#1567^3c54ce098a~",
 			[23435] = "0血法师劳莉丝#6325^467a853864~血法师劳莉丝#6325^7a851860~7a852917",
 			[23467] = "0苏雷斯塔兹#60db^477a74157f~大法师伯林纳德#62e2^7a54557d~",
 			[19405] = "0观察者莉萨奥#45a7^41733b7a8f~观察者莉萨奥#45a7^733b7a97~734eda9d",
 			[19437] = "0伊谢尔·风歌#45b1^3e73c849e6~伊谢尔·风歌#45b1^73c879ea~73b9d704",
-			[21306] = "0圣光护卫者阿德因#4869^464f4e459a~圣光护卫者阿德因#4869^4f4e459a~",
-			[529] = "0克拉莉斯·弗斯特#15a7^10683f9397~~",
-			[23439] = "0血法师劳莉丝#6325^467a851860~血法师劳莉丝#6325^7a852862~7a852864",
-			[21757] = "0米克达#5762^416061b83b~米克达#5762^6060383f~604f0802~60649994~6065598c",
-			[23375] = "0远行者萨安·钢角#643a^497ab25204~先知赫米萨#6404^7abea3c3~7ab21214~7ab3022e",
-			[19629] = "0巫医托尔加什#465e^3f7353e7d2~巫医托尔加什#465e^735417cf~7346b7c9",
-			[21383] = "0受难者奥图里斯#47f1^46404626e3~拉瑞萨·射日者#55c2^4e8e994e",
+			[20899] = "0乌托克·断斧#5308^3d378cf5cf~药剂师塞兰娜#5309^37a936b5~",
+			[20800] = "0远征军指挥官达纳斯·托尔贝恩#41b3^3e3790caa4~远征军指挥官达纳斯·托尔贝恩#41b3^3790daa3~37701503",
+			[24429] = "0汉瑟·鲍尔#6994^4b7dc239e7~汉瑟·鲍尔#6994^7dc229e6~7dc229e6",
+			[20191] = "0鲜血法典#o2caa3^4600655bc4~间谍女王梅丽萨·海克隆#49cd^4f81573b~60655bc4",
 			[23787] = "0多莱安·霜蹄#657f^497ac655eb~多莱安·霜蹄#657f^7ac675e9~7abd14f3",
-			[23819] = "0塔迦祖母#6402^497ac5a5e5~塔迦祖母#6402^7ac5a5e7~7aa4d3ba~7aa543b0",
-			[19821] = "0秘法师埃尔卡甘#477c^42408e45ff~秘法师埃尔卡甘#477c^408e1601~40b86b30~40bf3b27~40c20aeb",
-			[23883] = "0闪耀的碎片^477a53747b~莱洛拉斯#6605^7a553581~",
+			[19629] = "0巫医托尔加什#465e^3f7353e7d2~巫医托尔加什#465e^735417cf~7346b7c9",
 			[23915] = "0克莉斯塔萨#665e^487a55257d~克莉斯塔萨#665e^7a552576~7a371387",
+			[19693] = "0先知亚尼迪#4661^3f7352d84c~先知亚尼迪#4661^7352e84b~737cda52",
+			[23819] = "0塔迦祖母#6402^497ac5a5e5~塔迦祖母#6402^7ac5a5e7~7aa4d3ba~7aa543b0",
+			[24301] = "0奥拉斯塔萨#6967^4d7d9968cd~奥拉斯塔萨#6967^7d9968cf~7db9f7e6",
+			[23883] = "0闪耀的碎片^477a53747b~莱洛拉斯#6605^7a553581~",
+			[19821] = "0秘法师埃尔卡甘#477c^42408e45ff~秘法师埃尔卡甘#477c^408e1601~40b86b30~40bf3b27~40c20aeb",
 			[23947] = "0莱洛拉斯#6605^487a552581~莱洛拉斯#6605^7a554582~44657ad0",
-			[18869] = "0维兹罗#2abd^1f6736e52e~魔导师艾洛塞#42c5^67760807~",
-			[23839] = "0莱洛拉斯#6605^477a553581~莱洛拉斯#6605^7a553582~7a553582",
-			[23215] = "0长者阿特卡诺克#o2dcad^4a7a8b75b1~长者阿特卡诺克#o2dcad^7a8b75b4~7a86157a~7a84950c",
+			[20195] = "0伊斯法尔#49f5^4260708a63~~~",
+			[24011] = "0大法师艾萨斯·夺日者的影像#6767^4c7d615764~大法师艾萨斯·夺日者的影像#6767^7d612762~7d2ef968~7d31d949",
+			[24107] = "0军士长祖托克#672f^4b7d5da772~军士长祖托克#672f^7d5db771~7d40966e",
 			[19981] = "0星界商人拉斯莱#4834^434fb884da~缚地者塔弗格伦#480e^6071a435~608a04cb",
 			[20013] = "0图基#480f^44607fe755~缚地者塔弗格伦#480e^60713437~",
-			[19753] = "0伊谢尔·风歌#45b1^4073c869e4~观察者杰哈恩#45dc^738585c0",
-			[19789] = "0唤风者塔鲁·黑蹄#4696^3e73cd7a55~唤风者塔鲁·黑蹄#4696^73cd7a56~73b97f0b",
-			[11563] = "0提里奥·弗丁#73f^3a290bf625~提里奥·弗丁#73f^290bf626~293f4cbd",
+			[24139] = "0班索克·冰雾#686d^4c7d39a6af~阿格玛大王#670b^7d618765~7d405668",
+			[24171] = "0塔辛尼中尉的信^4d7d521b8b~阿格玛大王#670b^7d5cf74a~",
+			[24203] = "0索艾·鹰怒#6788^4b7d5ef7bc~辛塔尔·玛菲奥斯博士#6789^7d5c57cb~",
 			[24235] = "0霍塔瓦#6ede^4a7aabe8c3~长者库纳尼#6652^7d7afbf7",
 			[20173] = "0泽格·纳克布斯#5323^3c378d4633~泽格·纳克布斯#5323^378d3637~3794f799~3795078c",
-			[20205] = "0克乌雷#4489^45405adc6e~阿达尔#4831^4f89a726",
+			[24299] = "0奥拉斯塔萨#6967^4c7d9978d4~奥拉斯塔萨#6967^7d9968cd~7da89844~7dac3b33~7dacb600",
 			[20237] = "0暗影猎手德恩加#465d^40734ed820~暗影猎手德恩加#465d^734ed820~733db383~7340c40c",
 			[20269] = "0火红水晶碎片^4037281734~图拉希恩#4b5d^37280855~",
-			[8163] = "0通缉#o28403^310c09c79b~~~~",
-			[19260] = "0大法师奥图鲁斯#44cd^462178cc02~拉维恩#41ad^3a000000",
-			[23801] = "0大法师伯林纳德#62e2^477a54557d~大法师伯林纳德#62e2^7a54557c~7a486489~7a485595~7a4ff33d~7a3943db",
-			[24491] = "0间谍女王瑞贝娅#6ac9^4a7dc44a13~~~~~",
-			[2437] = "0“沼泽之眼”加尔#12b8^20288db434~“沼泽之眼”加尔#12b8^288db434~28903402",
+			[12293] = "0纳萨诺斯·凋零者#2e66^3c293adae5~十字军领主瓦德玛尔#2e7a^29c9dc65~29c0abfc",
+			[20079] = "0顾问菲埃拉#4918^40607d2722~斥候奈弗蒂丝#491a^6063b6f9",
+			[20568] = "0萨尔#45d4^46008e0888~伊洛希恩#4923^008e0888~598e0888",
+			[24491] = "0间谍女王瑞贝娅#6ac9^4a7dc44a13~高级执行官乌洛斯#6a6b^7dc45a1a~7db61b91~7db18bcb~7dba3bdd~7db98b93",
+			[24523] = "0瑟里纳尔#67e1^4d7d59f4cf~瑟里纳尔#67e1^7d5a04cf~7d6a951d~7d6a951d",
 			[20461] = "0史学家奥尔森#4d18^3d379dbd0e~史学家奥尔森#4d18^379ddd0f~378c2d61",
 			[12297] = "0纳萨诺斯·凋零者#2e66^3c293aeae6~纳萨诺斯·凋零者#2e66^293adae3~29996afa",
-			[2127] = "0希雷斯·碎石#fd1^19615a4475~玛加萨·恐怖图腾#fce^68b494f3",
-			[12329] = "0被感动的奥古斯图斯#3060^38291d0497~被感动的奥古斯图斯#3060^291d1494~29245436",
+			[19648] = "0大法师奥图鲁斯#44cd^442178bc04~大法师奥图鲁斯#44cd^2178bc04~21883e67~216d7c6c",
+			[20557] = "0疯狂的欧加斯#4ce3^3d379e1d06~疯狂的欧加斯#4ce3^379e1d07~3781ed79",
 			[20589] = "0疯狂的欧加斯#4ce3^3e379e1d07~疯狂的欧加斯#4ce3^379e0d06~37c41b06",
-			[18745] = "0塞安·红鬃#425f^4037284856~~",
-			[2187] = "0菲兹克斯#1069^185396d9fe~菲兹克斯#1069^5396d9fc~53ab1748",
-			[3278] = "0哈里·伯加德#17c9^3c54c4f887~巴特莱比#17ca^54c4486c",
-			[10461] = "0天灾之锅#o2b0e9^346f5ef917~暗影牧师范蒂丝#2b2f^69d42b7d~",
-			[2175] = "0布莱林·火拳#1066^1a537569a8~布莱林·火拳#1066^537589a6~535e120b~535e3266~535c2255",
-			[10421] = "0克罗米#29ab^386f64eaaf~卡林·雷德帕斯#2b37^29c1889d~",
+			[12329] = "0被感动的奥古斯图斯#3060^38291d0497~被感动的奥古斯图斯#3060^291d1494~29245436",
+			[2479] = "0松软的泥土#o51f9^27288da427~纳泽尔·血矛#12b7^285a14e9~",
+			[1113] = "0看守者贝瓦里尔#985^20389d6356~看守者贝瓦里尔#985^389d5356~012d7d6f",
+			[12085] = "0纳萨诺斯·凋零者#2e66^36293aeae4~纳萨诺斯·凋零者#2e66^293acae6~297e1765~297ac303",
+			[2345] = "0德拉兹辛比#1195^2c285ee546~德拉兹辛比#1195^285ee546~287c1bc3",
+			[19823] = "0“伯爵”昂古拉的下颚骨^4173530846~观察者莉萨奥#45a7^733b9a94~",
 			[18766] = "0艾尔萨娜#426e^3e373b75db~艾尔萨娜#426e^373b75dc~3780ed6f",
+			[24939] = "0诺兹拉斯补给员#6910^4d7d7be3d6~辛克#6824^7d8c73bf~",
 			[18798] = "0伊坎#419f^3e373b0670~伊坎#419f^373b366d~3721e99d",
-			[20901] = "0乌托克·断斧#5308^3c378ce5cf~乌托克·断斧#5308^378cf5cf~3794d7a4",
-			[20003] = "0受难者奥图里斯#47f1^444045e6e0~受难者奥图里斯#47f1^404606e2~403c2599",
-			[23441] = "0血法师劳莉丝#6325^467a852862~普雷玛·巨角#6324^7a85686c",
-			[2347] = "0莫格穆洛克大王#1194^2d285ce507~德拉兹辛比#1195^285ef547~285bc4fd",
+			[18980] = "0伊坎#419f^3e373b0670~伊坎#419f^373b1673~3755ca5b",
+			[23821] = "0大法师伯林纳德#62e2^477a54557d~大法师伯林纳德#62e2^7a54557c~7a41c578~7a3e1392",
+			[19695] = "0先知亚尼迪#4661^417352e84b~先知亚尼迪#4661^7352e84a~7371aa92",
 			[23052] = "0瑟里斯·黎明之心#6187^46777924e2~魔导师瑟伊拉#6169^3794c2cf~",
 			[12569] = "0通缉：贝瑟莱斯#o2b6f0^1853973c15~马格兰#2e54^5378c9be~5385dbe8",
-			[1631] = "0厨师托尔卡#c77^09268296ca~厨师托尔卡#c77^268286c8~269ccc86",
-			[19419] = "0观察者莉萨奥#45a7^41733b9a94~观察者莉萨奥#45a7^733b8a90~73316163",
+			[15564] = "0瓦里安·乌瑞恩国王#73ab^3c54cc2629~艾法希比元帅#3981^54b67ce2~",
+			[22401] = "0克罗格#133e^28285d2517~克罗格#133e^285d3514~286c91f7",
 			[19086] = "0学者欧巴迪#41c2^3f373af670~智者阿曼恩#419c^373bd5dc",
-			[19262] = "0大法师奥图鲁斯#44cd^462178cc09~卡琳娜·拉瑟德#44e4^42528a2a~",
+			[20356] = "0间谍格利克萨#4c28^4460663b8a~间谍托古恩#49cb^0065abb3",
 			[19150] = "0卡德维克中尉#4495^3c3790fa9b~冈尼#4447^37903aa2~~~",
-			[21705] = "0伊森#575d^4260607834~伊森#575d^60604833~604e66ff",
+			[19731] = "0小萨鲁法尔#4735^424052b5c2~小萨鲁法尔#4735^405305c5~40575690~4050272c",
 			[19214] = "0冈尼#4447^4137903aa2~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa4~3775384e",
 			[21293] = "0受难者奥图里斯#47f1^45404606e1~受难者奥图里斯#47f1^404606e1~404606e1",
 			[19278] = "0格拉达夫#41ae^463a000000~卡姆希丝#41af^3a000000",
 			[25451] = "0萨萨里安#70f1^3a928fdccb~库尔迪拉·织亡者#70f0^92a0eadc",
-			[1135] = "0Dangerous!#o7d8^20389fe325~高级执行官达萨利亚#8a7^389f7342~384b76d8~3853460b~384e594e~385c3766",
+			[19875] = "0监护者布罗克#47e7^43408ea60c~监护者布罗克#47e7^408eb610~406d69ac",
 			[25515] = "0奥尔巴兹·血毒#70f2^3c928fdcc9~大领主达里安·莫格莱尼#6f1c^927d24c9~",
-			[20557] = "0疯狂的欧加斯#4ce3^3d379e1d06~疯狂的欧加斯#4ce3^379e1d07~3781ed79",
-			[25429] = "0大领主达里安·莫格莱尼#6f1c^39927d14c8~瓦拉纳王子#70eb^9288d5d0",
-			[23433] = "0血法师劳莉丝#6325^457a853864~血法师劳莉丝#6325^7a853864~7a8758c4",
-			[3436] = "0武神#1567^3c54ce098a~克兰诺克·马克雷德#185c^61af67da",
-			[9535] = "0艾鲁#2889^1e6772c7d6~艾鲁#2889^677317d7~671e0550",
-			[18751] = "0受伤的血精灵朝圣者#4261^3f373eec26~塔雷里斯·晨光#4277^3743a9e0~374519e4",
-			[2411] = "0梅洛·石蹄#d71^24689d2cda~梅洛·石蹄#d71^689c8cd6~2879686d",
+			[10425] = "0贝蒂娜·比格辛克#2b1b^3c29c18893~贝蒂娜·比格辛克#2b1b^29c15894~56000000",
+			[25579] = "0北伐军战士瓦鲁斯#6e44^4d7dd6c42e~莉安娜中士#71d1^84521be5~",
+			[22369] = "0悬赏告示#o2d83a^2b286adbab~德拉兹特·迪普瓦尔#5c14^286c1ba6~2852ba7d",
+			[20292] = "0前线指挥官金斯顿#4b6e^3c37b66a02~前线指挥官金斯顿#4b6e^37b66a03~37c817ab~37c62813",
+			[21761] = "0秘教的命令^42604ee7d8~米克达#5762^606057fd~",
+			[20354] = "0间谍女王梅丽萨·海克隆#49cd^444f80d74f~战地指挥官玛弗恩#4c56^60664b89",
+			[20738] = "0纳拉杜#4ba1^4037299a63~纳拉杜#4ba1^37299a63~3724993d",
 			[21677] = "0药剂师安东尼维奇#40cc^3f3785c5d3~药剂师安东尼维奇#40cc^3785c5d4~377307d1",
 			[19662] = "0卡德加#46f6^444f8c0724~卡德加#46f6^4f8c4721~6065abb3",
-			[20355] = "0间谍女王梅丽萨·海克隆#49cd^444f81172c~战地指挥官玛弗恩#4c56^60665b86",
-			[2503] = "0黑色盾牌#o5200^28284be7be~克罗格#133e^285d2515~",
-			[20323] = "0“尖嗓子”斯克里·拉克希德#4ba7^3e377d8bf4~“尖嗓子”斯克里·拉克希德#4ba7^377dabf0~3793db45",
-			[4837] = "0里格弗兹#b01^290c6c587d~~~",
-			[2477] = "0松软的泥土#o51f9^20288db425~纳泽尔·血矛#12b7^285a34e6~",
-			[20195] = "0伊斯法尔#49f5^4260708a63~~~",
-			[2479] = "0松软的泥土#o51f9^27288da427~纳泽尔·血矛#12b7^285a14e9~",
-			[22097] = "0克洛坎上尉#46aa^45408d65fe~血卫士古尔穆克#536f^4e4da52b",
-			[20320] = "0远征军指挥官达纳斯·托尔贝恩#41b3^3c3790daa3~阿曼蒂中尉#41b4^3782299f",
-			[12293] = "0纳萨诺斯·凋零者#2e66^3c293adae5~十字军领主瓦德玛尔#2e7a^29c9dc65~29c0abfc",
-			[22093] = "0芬提#4cde^434fa5ab37~主药剂师希尔达迦#550c^4e4c7472",
-			[13097] = "0玛卡巴·扁蹄#2e51^10615a1471~玛卡巴·扁蹄#2e51^6159e46d~53d55dd3~53cfddfb",
-			[19745] = "0暗血入侵计划^4540486898~加尔鲁什#468f^408dd606~408e360a",
-			[20110] = "0达姆菲#52d9^3c3782a9a0~达姆菲#52d9^3782c9a1~3795686a~3775e989",
-			[20899] = "0乌托克·断斧#5308^3d378cf5cf~药剂师塞兰娜#5309^37a936b5~",
-			[18848] = "0玛库鲁#41c1^3f373b566d~玛库鲁#41c1^373b466c~375b4499",
-			[1113] = "0看守者贝瓦里尔#985^20389d6356~看守者贝瓦里尔#985^389d5356~012d7d6f",
-			[26379] = "0大领主达里安·莫格莱尼#796c^3c29d537de~萨尔#1355^4451c60d~",
-			[15564] = "0瓦里安·乌瑞恩国王#73ab^3c54cc2629~艾法希比元帅#3981^54b67ce2~",
-			[22349] = "0莫希·斯蒂格里#5cf5^2c2888d91d~莫希·斯蒂格里#5cf5^2888f91c~28837948",
-			[19648] = "0大法师奥图鲁斯#44cd^442178bc04~大法师奥图鲁斯#44cd^2178bc04~21883e67~216d7c6c",
-			[22413] = "0塔贝萨#1992^2b2875a921~克罗格#133e^285d3517~",
-			[20568] = "0萨尔#45d4^46008e0888~伊洛希恩#4923^008e0888~598e0888",
-			[20354] = "0间谍女王梅丽萨·海克隆#49cd^444f80d74f~战地指挥官玛弗恩#4c56^60664b89",
-			[2525] = "0纳泽尔·血矛#12b7^2d285a24eb~佐尔·孤树#fcf^44639615~",
-			[19827] = "0星界财团招募员#479f^454084b58e~杰赫#4759^40504938",
+			[1431] = "0卢希恩·枪穗#b68^2a0c420718~卢希恩·枪穗#b68^0c421719~0c421719~0c421719",
+			[25867] = "0古尔戈索克#7537^50847be900~巨魔仆从伍迪#7539^847be906~847be906",
+			[23373] = "0暗影密探伊克里斯#635d^467a61686c~暗影密探伊克里斯#635d^7a614867~7a5968be~7a5db860~7a652792",
+			[1133] = "0WANTED#o6e3^20389ff34b~高级执行官达萨利亚#8a7^389f333f~017a02c0",
+			[2723] = "0克鲁斯克#8b5^2038a1634b~雷戈萨·死门#d3d^6174148a",
 			[1425] = "0鲁特维尔·沃拉图斯#b69^2a0c427733~鲁特维尔·沃拉图斯#b69^0c423729~0c273e61",
-			[20558] = "0时间管理者#4eae^4659a8a7f1~安多尔姆#4ea2^599578af",
-			[1619] = "0尼尔鲁·火刃#c90^0d447f4813~雅克塞罗斯#dc1^619f5334",
-			[19731] = "0小萨鲁法尔#4735^424052b5c2~小萨鲁法尔#4735^405305c5~40575690~4050272c",
-			[22401] = "0克罗格#133e^28285d2517~克罗格#133e^285d3514~286c91f7",
-			[2413] = "0“沼泽之眼”加尔#12b8^27288db434~“沼泽之眼”加尔#12b8^288d9433~28572368",
-			[20356] = "0间谍格利克萨#4c28^4460663b8a~间谍托古恩#49cb^0065abb3",
-			[18703] = "0“尖嗓子”斯克里·拉克希德#4ba7^3e377dabf0~“尖嗓子”斯克里·拉克希德#4ba7^377d7bf6~3776cd4f",
-			[22369] = "0悬赏告示#o2d83a^2b286adbab~德拉兹特·迪普瓦尔#5c14^286c1ba6~2852ba7d",
-			[19174] = "0不祥的信件^4100000000~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa9~",
-			[1745] = "0索克#d65^0e6183c4ed~索克#d65^6183c4ee~6197f3d8~61955444~6195d44b",
-			[20035] = "0莎妮尔#48a5^444fa4b25f~莎妮尔#48a5^4fa4b27a~6070a220",
-			[20910] = "0莉娜·月泉#524a^43135cbabc~莉娜·月泉#524a^135caabe~135e7cac",
-			[21761] = "0秘教的命令^42604ee7d8~米克达#5762^606057fd~",
-			[15403] = "0通缉/寻物/招领#o2be73^2e4c601442~侦查队长洛洛尔#392a^4c60a445~4c69f5ae",
-			[18793] = "0奥术师卡雷希斯·晨星#4198^4037451989~奥术师卡雷希斯·晨星#4198^3745098f~37428c27",
-			[10503] = "0尼古拉斯·瑟伦霍夫公爵#2b1f^3c29c16899~尼古拉斯·瑟伦霍夫公爵#2b1f^29c14899~56000000~56000000",
+			[19957] = "0缚地者塔弗格伦#480e^4160715432~埃博尔#4832^6066741f",
 			[18867] = "0维兹罗#2abd^1e6736f530~维兹罗#2abd^6736e52e~2ee77768",
+			[26091] = "0本诺比奥斯#7613^4f80de8c9b~大领主提里奥·弗丁#6e13^80df8c20~80de0c41",
+			[22093] = "0芬提#4cde^434fa5ab37~主药剂师希尔达迦#550c^4e4c7472",
+			[26155] = "0大领主提里奥·弗丁#7944^4f80cc1b7b~阿莱克丝塔萨，生命的缚誓者#6925^7d98f8ba~",
+			[13097] = "0玛卡巴·扁蹄#2e51^10615a1471~玛卡巴·扁蹄#2e51^6159e46d~53d55dd3~53cfddfb",
+			[20326] = "0空军指挥官格莱芬加尔#4f08^3c37cac56a~空军指挥官格莱芬加尔#4f08^37cac56a~37b80214~37bda2a2~37bba1d4",
+			[26251] = "0黑锋观察者#7784^4f80d45baa~黑锋观察者#7784^80d45baa~80c5e9e8~80c3487a~80ccd9c8",
+			[26283] = "0大领主提里奥·弗丁#77d5^4f80dbdc1d~古斯塔夫神父#77db^80d3fba0~80cd0b76",
+			[26315] = "0古斯塔夫神父#77db^4f80d3fba0~大领主提里奥·弗丁#7944^80cbfb78",
+			[1715] = "0被流放的费格雷#d5d^1b617d3dcb~被流放的费格雷#d5d^617d2dca~617dad75",
+			[26379] = "0大领主达里安·莫格莱尼#796c^3c29d537de~萨尔#1355^4451c60d~",
+			[19650] = "0大法师奥图鲁斯#44cd^442178bc04~大法师奥图鲁斯#44cd^2178bc04~2174cb97",
+			[22349] = "0莫希·斯蒂格里#5cf5^2c2888d91d~莫希·斯蒂格里#5cf5^2888f91c~28837948",
+			[26475] = "0库尔迪拉·织亡者#7463^5080a3c734~~~~",
+			[22413] = "0塔贝萨#1992^2b2875a921~克罗格#133e^285d3517~",
+			[22367] = "0摩丹特·格雷斯比#5d23^27288df42f~摩丹特·格雷斯比#5d23^288df430~288d4441",
+			[21480] = "0大法师蕾尔达#474d^462178abfc~大法师蕾尔达#474d^2178bbff~3a000000",
+			[23917] = "0长者库纳尼#6652^4a7d7afbf7~长者库纳尼#6652^7d7b0bf5~7d7cbb5f",
+			[20910] = "0莉娜·月泉#524a^43135cbabc~莉娜·月泉#524a^135caabe~135e7cac",
+			[18253] = "0杀手洛汗#3f03^3e29c17864~杀手洛汗#3f03^29c17864~",
+			[20558] = "0时间管理者#4eae^4659a8a7f1~安多尔姆#4ea2^599578af",
+			[1745] = "0索克#d65^0e6183c4ed~索克#d65^6183c4ee~6197f3d8~61955444~6195d44b",
+			[19827] = "0星界财团招募员#479f^454084b58e~杰赫#4759^40504938",
+			[12271] = "0纳萨诺斯·凋零者#2e66^3b293aaaec~纳萨诺斯·凋零者#2e66^293adae7~294a3ac7",
+			[9943] = "0克罗米#29ab^366f64daac~克罗米#29ab^6f64eaaf~6f76e9eb",
+			[20959] = "0监护者布罗克#47e7^42408e960d~监护者布罗克#47e7^408ea60c~40c0fa59",
+			[18703] = "0“尖嗓子”斯克里·拉克希德#4ba7^3e377dabf0~“尖嗓子”斯克里·拉克希德#4ba7^377d7bf6~3776cd4f",
+			[19331] = "0高莫克大使#42b0^3729be2840~高莫克大使#42b0^29be0845~2959caf3~299e56da~29834332~292fd43f",
+			[25375] = "0骑手萨拉纳尔#6fed^3892871571~骑手萨拉纳尔#6fed^92876569~92878562",
+			[2125] = "0希雷斯·碎石#fd1^10615a4473~希雷斯·碎石#fd1^615a4475~53a98859",
+			[26816] = "0委任官翠希·普罗维尔#475a^3d378fda0e~委任官翠希·普罗维尔#475a^378ffa05~3765e7c4~375af83b~3765d8fd",
+			[18863] = "0魔导师艾洛塞#42c5^1d6775d810~维兹罗#2abd^6736f530~67a80811",
+			[20238] = "0守望堡指挥官雷索恩·奈瑟维#41c9^3c149548f0~指挥官杜隆#4b1d^37df581a",
+			[18243] = "0大法师安吉拉·杜萨图斯#3ef4^3e29c16861~大法师安吉拉·杜萨图斯#3ef4^29c18862~29c18862~29c18862~29c18862~",
+			[2839] = "0尼卡·血痕#1512^290c10f78a~尼卡·血痕#1512^0c11078b~0c6c8b78",
+			[21759] = "0防卫者戈纳斯纳#5765^444f850353~救赎者瑞拉克#5714^4f85f352~4f85434c",
+			[20110] = "0达姆菲#52d9^3c3782a9a0~达姆菲#52d9^3782c9a1~3795686a~3775e989",
 			[23149] = "0恩多拉#629f^457a6ad8bb~图书馆员多纳森#62ae^7a739557~",
 			[23181] = "0图书馆员多纳森#62ae^477a739556~图书馆员多纳森#62ae^7a73a557~7a6f65f6",
 			[23213] = "0军需官霍尔古斯#62ef^457a6ec8d9~军需官霍尔古斯#62ef^7a6eb8db~7a692941",
-			[21759] = "0防卫者戈纳斯纳#5765^444f850353~救赎者瑞拉克#5714^4f85f352~4f85434c",
-			[23277] = "0先知格雷姆沃克的灵魂#6351^487a8f8179~灵语者斯纳尔芬#62fb^7a808191~7a8f9178",
-			[1431] = "0卢希恩·枪穗#b68^2a0c420718~卢希恩·枪穗#b68^0c421719~0c421719~0c421719",
 			[22963] = "0圣光护卫者阿德因#4869^464f4e957f~~",
-			[23373] = "0暗影密探伊克里斯#635d^467a61686c~暗影密探伊克里斯#635d^7a614867~7a5968be~7a5db860~7a652792",
+			[23277] = "0先知格雷姆沃克的灵魂#6351^487a8f8179~灵语者斯纳尔芬#62fb^7a808191~7a8f9178",
+			[10503] = "0尼古拉斯·瑟伦霍夫公爵#2b1f^3c29c16899~尼古拉斯·瑟伦霍夫公爵#2b1f^29c14899~56000000~56000000",
+			[21697] = "0觉醒者基尔利克#5700^43605f0820~觉醒者基尔利克#5700^605f8837~6044c8c6~6044d90a~6049c8c6",
+			[9643] = "0哈加尔·雷蹄#292b^1d67728806~哈加尔·雷蹄#292b^6772780a~6785a8d6",
 			[23405] = "0补给官塔尼斯#6488^477a7d41a9~国王姆嘎姆嘎#626d^7a6f523c",
-			[1715] = "0被流放的费格雷#d5d^1b617d3dcb~被流放的费格雷#d5d^617d2dca~617dad75",
-			[20238] = "0守望堡指挥官雷索恩·奈瑟维#41c9^3c149548f0~指挥官杜隆#4b1d^37df581a",
+			[2413] = "0“沼泽之眼”加尔#12b8^27288db434~“沼泽之眼”加尔#12b8^288d9433~28572368",
+			[20035] = "0莎妮尔#48a5^444fa4b25f~莎妮尔#48a5^4fa4b27a~6070a220",
 			[21454] = "0大法师蕾尔达#474d^462178bbff~~",
-			[19875] = "0监护者布罗克#47e7^43408ea60c~监护者布罗克#47e7^408eb610~406d69ac",
-			[2723] = "0克鲁斯克#8b5^2038a1634b~雷戈萨·死门#d3d^6174148a",
-			[20959] = "0监护者布罗克#47e7^42408e960d~监护者布罗克#47e7^408ea60c~40c0fa59",
-			[21870] = "0助手克拉图#579e^3e378ada29~助手克拉图#579e^378aca2c~378a1a29",
-			[23821] = "0大法师伯林纳德#62e2^477a54557d~大法师伯林纳德#62e2^7a54557c~7a41c578~7a3e1392",
-			[23917] = "0长者库纳尼#6652^4a7d7afbf7~长者库纳尼#6652^7d7b0bf5~7d7cbb5f",
+			[1619] = "0尼尔鲁·火刃#c90^0d447f4813~雅克塞罗斯#dc1^619f5334",
+			[19174] = "0不祥的信件^4100000000~远征军指挥官达纳斯·托尔贝恩#41b3^3790baa9~",
+			[2139] = "0麦伯克·米希瑞克斯#d76^13619f6604~麦伯克·米希瑞克斯#d76^619f6604~538acba7",
+			[20189] = "0战地指挥官玛弗恩#4c56^4460665b86~鲜血法典#o2caa3^00655bc4",
+			[18753] = "0塔雷里斯·晨光#4277^3f3743a9e0~塔雷里斯·晨光#4277^374399e4~37388ae7",
+			[8805] = "0戈加尔#2644^03266d4ac1~戈加尔#2644^266d4ac1~26720a5b",
 			[19631] = "0元素师鲁艾普#4699^45409b4393~元素师鲁艾普#4699^409b4396~40666737",
 			[23757] = "0大德鲁伊拉索留斯#64d1^4a7a91f714~巨兽库诺克#6506^7a97b4d7~7a9784db",
-			[19695] = "0先知亚尼迪#4661^417352e84b~先知亚尼迪#4661^7352e84a~7371aa92",
+			[23789] = "0菲兹克斯·盖维斯特#64f9^497ac635eb~菲兹克斯·盖维斯特#64f9^7ac605e9~7aaf8479",
 			[19727] = "0先知古库斯#4692^42408c364a~先知古库斯#4692^408c364a~405256be",
 			[21806] = "0埃隆雷下士#528d^3d37b56a1e~助手克拉图#579e^378aea29",
 			[19791] = "0莱森·月火#45aa^3e73c8da13~莱森·月火#45aa^73c8da15~73d14bcb",
-			[19823] = "0“伯爵”昂古拉的下颚骨^4173530846~观察者莉萨奥#45a7^733b9a94~",
+			[21870] = "0助手克拉图#579e^3e378ada29~助手克拉图#579e^378aca2c~378a1a29",
 			[19855] = "0兰特瑞索·火刃#4755^4440bcb9fc~兰特瑞索·火刃#4755^40bcaa00~40b4cce4",
-			[22367] = "0摩丹特·格雷斯比#5d23^27288df42f~摩丹特·格雷斯比#5d23^288df430~288d4441",
-			[19957] = "0缚地者塔弗格伦#480e^4160715432~埃博尔#4832^6066741f",
-			[20738] = "0纳拉杜#4ba1^4037299a63~纳拉杜#4ba1^37299a63~3724993d",
+			[20320] = "0远征军指挥官达纳斯·托尔贝恩#41b3^3c3790daa3~阿曼蒂中尉#41b4^3782299f",
+			[24013] = "0伊瑟尼安·月影#6785^4c7d3e099f~伊瑟尼安·月影#6785^7d3e0998~7d2ca9c5",
+			[2525] = "0纳泽尔·血矛#12b7^2d285a24eb~佐尔·孤树#fcf^44639615~",
 			[19983] = "0受难者奥图里斯#47f1^424045d6e0~受难者奥图里斯#47f1^4045e6e1~4045d6e0",
-			[20591] = "0疯狂的欧加斯#4ce3^3e379e0d06~疯狂的欧加斯#4ce3^379e1d07~37ceac9c",
+			[12567] = "0马格兰#2e54^1d537879c5~马格兰#2e54^5378a9c2~534f89e7",
 			[20047] = "0玛鲁卡兹#47d0^4160803768~玛鲁卡兹#47d0^60805766~60ad95a2",
-			[20079] = "0顾问菲埃拉#4918^40607d2722~斥候奈弗蒂丝#491a^6063b6f9",
-			[2125] = "0希雷斯·碎石#fd1^10615a4473~希雷斯·碎石#fd1^615a4475~53a98859",
 			[10043] = "0詹妮丝·费尔斯通#2a1a^346f6208a8~詹妮丝的包裹#o2af16^6f6328d5",
+			[24205] = "0辛塔尔·玛菲奥斯博士#6789^4b7d5c57cb~辛塔尔·玛菲奥斯博士#6789^7d5c47ca~7d79d7d6",
+			[20205] = "0克乌雷#4489^45405adc6e~阿达尔#4831^4f89a726",
 			[20175] = "0泽格·纳克布斯#5323^3d378d3637~泽格·纳克布斯#5323^378d2635~379ab83f~378b8889",
 			[20207] = "0游侠队长维恩雷#4195^3f3748f9a2~祖莱#465b^73d9f8bc",
-			[20087] = "0斥候奈弗蒂丝#491a^416063d703~顾问菲埃拉#4918^607d2725~6060d64c~60697690~60674634",
-			[21480] = "0大法师蕾尔达#474d^462178abfc~大法师蕾尔达#474d^2178bbff~3a000000",
-			[18243] = "0大法师安吉拉·杜萨图斯#3ef4^3e29c16861~大法师安吉拉·杜萨图斯#3ef4^29c18862~29c18862~29c18862~29c18862~",
+			[19789] = "0唤风者塔鲁·黑蹄#4696^3e73cd7a55~唤风者塔鲁·黑蹄#4696^73cd7a56~73b97f0b",
+			[21379] = "0拉瑞萨·射日者#55c2^454e8ea94f~受难者奥图里斯#47f1^404626e4",
+			[19745] = "0暗血入侵计划^4540486898~加尔鲁什#468f^408dd606~408e360a",
 			[20335] = "0阿达尔#4831^454f89a726~德欧里#4bd4^00875b0b~44875b0b",
-			[19331] = "0高莫克大使#42b0^3729be2840~高莫克大使#42b0^29be0845~2959caf3~299e56da~29834332~292fd43f",
-			[9943] = "0克罗米#29ab^366f64daac~克罗米#29ab^6f64eaaf~6f76e9eb",
-			[18253] = "0杀手洛汗#3f03^3e29c17864~杀手洛汗#3f03^29c17864~",
+			[24461] = "0亡灵卫兵莫德尔#6ab8^4b7dc4e9f9~亡灵卫兵莫德尔#6ab8^7dc4d9fb~7dd8579f",
+			[1565] = "0高恩#42c^2e0c07a754~高恩#42c^0c07774c~0c2fec81",
+			[24525] = "0瑟里纳尔#67e1^4d7d59f4cf~瑟里纳尔#67e1^7d5a04cf~7d5a0488~7d6a751e",
 			[20463] = "0伊瑟基尔#4d03^434f9108f2~“脏鬼”拉瑞#4d08^4f6f84b9~4f6f84a56fa4a9",
-			[20326] = "0空军指挥官格莱芬加尔#4f08^3c37cac56a~空军指挥官格莱芬加尔#4f08^37cac56a~37b80214~37bda2a2~37bba1d4",
-			[19650] = "0大法师奥图鲁斯#44cd^442178bc04~大法师奥图鲁斯#44cd^2178bc04~2174cb97",
-			[26816] = "0委任官翠希·普罗维尔#475a^3d378fda0e~委任官翠希·普罗维尔#475a^378ffa05~3765e7c4~375af83b~3765d8fd",
-			[10299] = "0帕米拉·雷德帕斯#2aae^372952fd5e~帕米拉·雷德帕斯#2aae^2952fd5e~2957fd9e",
+			[18848] = "0玛库鲁#41c1^3f373b566d~玛库鲁#41c1^373b466c~375b4499",
+			[4837] = "0里格弗兹#b01^290c6c587d~~~",
+			[7847] = "0维妮·布特巴克#2464^15617d51c8~雷里·格里斯高布#2465^44c2f3eb~",
+			[20591] = "0疯狂的欧加斯#4ce3^3e379e0d06~疯狂的欧加斯#4ce3^379e1d07~37ceac9c",
 			[10315] = "0格雷塔·苔蹄#2aaa^322d82dd21~格雷塔·苔蹄#2aaa^2d82cd21~2d59e98d",
 			[10331] = "0格雷塔·苔蹄#2aaa^332d82ed20~格雷塔·苔蹄#2aaa^2d82dd21~2d5cb8fb~2d60386e~2d5de880~2d5d68d1",
-			[2839] = "0尼卡·血痕#1512^290c10f78a~尼卡·血痕#1512^0c11078b~0c6c8b78",
+			[20355] = "0间谍女王梅丽萨·海克隆#49cd^444f81172c~战地指挥官玛弗恩#4c56^60665b86",
 			[10363] = "0卡林·雷德帕斯#2b37^3829c1889d~卡林·雷德帕斯#2b37^29c1a899~2977171f~297db986",
-			[23789] = "0菲兹克斯·盖维斯特#64f9^497ac635eb~菲兹克斯·盖维斯特#64f9^7ac605e9~7aaf8479",
-			[20966] = "0阿曼蒂中尉#41b4^3d3782499f~埃隆雷下士#528d^37b54a21~379e2be2",
-			[12271] = "0纳萨诺斯·凋零者#2e66^3b293aaaec~纳萨诺斯·凋零者#2e66^293adae7~294a3ac7",
+			[20323] = "0“尖嗓子”斯克里·拉克希德#4ba7^3e377d8bf4~“尖嗓子”斯克里·拉克希德#4ba7^377dabf0~3793db45",
+			[21705] = "0伊森#575d^4260607834~伊森#575d^60604833~604e66ff",
+			[24909] = "0护园者尼瑟拉#6a77^4b7da64bc0~护园者尼瑟拉#6a77^7da63bc1~7da64bf9",
 			[10427] = "0贝蒂娜·比格辛克#2b1b^3d29c15897~~",
 			[24973] = "0秘法师萨乌拉诺克#62b8^457a699886~灵语者斯纳尔芬#62fb^7a808190",
 			[10459] = "0暗影牧师范蒂丝#2b2f^3469d42b77~天灾之锅#o2b0e9^6f5ef917~6f5e5921",
-			[19271] = "0马克·迪沃#44e5^3f7356f822~马克·迪沃#44e5^7356e820~73cb1550",
-			[9643] = "0哈加尔·雷蹄#292b^1d67728806~哈加尔·雷蹄#292b^6772780a~6785a8d6",
-			[25375] = "0骑手萨拉纳尔#6fed^3892871571~骑手萨拉纳尔#6fed^92876569~92878562",
-			[21697] = "0觉醒者基尔利克#5700^43605f0820~觉醒者基尔利克#5700^605f8837~6044c8c6~6044d90a~6049c8c6",
-			[2139] = "0麦伯克·米希瑞克斯#d76^13619f6604~麦伯克·米希瑞克斯#d76^619f6604~538acba7",
-			[1133] = "0WANTED#o6e3^20389ff34b~高级执行官达萨利亚#8a7^389f333f~017a02c0",
-			[25435] = "0药剂师诺斯#70f7^3a928f0863~天灾之锅#o2e9d8^928f6856~",
-			[15457] = "0通缉/寻物/招领#o2be73^2e4c601442~监工斯克兰格#3922^4c63446c~4c5f17f1~4c551889",
-			[20292] = "0前线指挥官金斯顿#4b6e^3c37b66a02~前线指挥官金斯顿#4b6e^37b66a03~37c817ab~37c62813",
-			[18863] = "0魔导师艾洛塞#42c5^1d6775d810~维兹罗#2abd^6736f530~67a80811",
+			[15409] = "0比拉凯琳的枕头^304c74b4d0~艾沃奈斯#3924^4c61e471~",
+			[23433] = "0血法师劳莉丝#6325^457a853864~血法师劳莉丝#6325^7a853864~7a8758c4",
+			[1141] = "0先知摩克萨尔丁#9a1^29555224a9~~~",
+			[20003] = "0受难者奥图里斯#47f1^444045e6e0~受难者奥图里斯#47f1^404606e2~403c2599",
+			[2175] = "0布莱林·火拳#1066^1a537569a8~布莱林·火拳#1066^537589a6~535e120b~535e3266~535c2255",
+			[19652] = "0大法师奥图鲁斯#44cd^442178bc04~大法师塞德瑞克#46f5^012868b5~",
+			[13259] = "0玛卡巴·扁蹄#2e51^186159e46d~玛卡巴·扁蹄#2e51^6159e473~53bc7dc9~53c82db8",
+			[20268] = "0火红水晶碎片^3f3732868d~图拉希恩#4b5d^3727e857~",
+			[10421] = "0克罗米#29ab^386f64eaaf~卡林·雷德帕斯#2b37^29c1889d~",
+			[19419] = "0观察者莉萨奥#45a7^41733b9a94~观察者莉萨奥#45a7^733b8a90~73316163",
 			[25357] = "0瓦拉纳王子#6ed9^379286056e~瓦拉纳王子#6ed9^9285b572~9289f662~928db680",
-			[12567] = "0马格兰#2e54^1d537879c5~马格兰#2e54^5378a9c2~534f89e7",
+			[1193] = "0肯维雷#9d7^295552546b~~",
 			[19280] = "0卡姆希丝#41af^463a000000~卡姆希丝#41af^3a000000~3a000000",
 			[10683] = "0阿莱克斯·巴罗夫#2b0e^3469d45b6d~~~~~",
-			[8805] = "0戈加尔#2644^03266d4ac1~戈加尔#2644^266d4ac1~26720a5b",
-			[2345] = "0德拉兹辛比#1195^2c285ee546~德拉兹辛比#1195^285ee546~287c1bc3",
-			[1565] = "0高恩#42c^2e0c07a754~高恩#42c^0c07774c~0c2fec81",
+			[2187] = "0菲兹克斯#1069^185396d9fe~菲兹克斯#1069^5396d9fc~53ab1748",
+			[21383] = "0受难者奥图里斯#47f1^46404626e3~拉瑞萨·射日者#55c2^4e8e994e",
+			[18745] = "0塞安·红鬃#425f^4037284856~~",
 			[25581] = "0大法师塞琳德拉#71e4^4a7c915777~大法师塞琳德拉#71e4^7c90b778~7c0b29a6~7b2826c7",
-			[19779] = "0吉尔拉斯#4761^456032a9b4~无情的安克尔#4756^60344a0a~60344a0b~603599e3",
-			[18980] = "0伊坎#419f^3e373b0670~伊坎#419f^373b1673~3755ca5b",
+			[8163] = "0通缉#o28403^310c09c79b~~~~",
+			[2127] = "0希雷斯·碎石#fd1^19615a4475~玛加萨·恐怖图腾#fce^68b494f3",
 			[21583] = "0玛鲁卡兹#47d0^4260805766~玛鲁卡兹#47d0^60803769~60800768",
-			[18753] = "0塔雷里斯·晨光#4277^3f3743a9e0~塔雷里斯·晨光#4277^374399e4~37388ae7",
-			[20189] = "0战地指挥官玛弗恩#4c56^4460665b86~鲜血法典#o2caa3^00655bc4",
+			[23903] = "0克莉斯塔萨#665e^487a55257d~克莉斯塔萨#665e^7a55257d~7a4c03c9",
+			[23737] = "0扎扎#64d3^4a7a91370c~扎扎#64d3^7a91670a~7a92c905",
 			[21679] = "0觉醒者基尔利克#5700^42605f382f~觉醒者基尔利克#5700^605f0820~604ee6b3",
 			[19664] = "0卡德加#46f6^454f8c4721~卡德加#46f6^4f8c5718~~738565ba",
-			[20800] = "0远征军指挥官达纳斯·托尔贝恩#41b3^3e3790caa4~远征军指挥官达纳斯·托尔贝恩#41b3^3790daa3~37701503",
-			[21775] = "0阿库诺#5769^42604e67d7~米克达#5762^606057fd~6055d83e",
-			[10425] = "0贝蒂娜·比格辛克#2b1b^3c29c18893~贝蒂娜·比格辛克#2b1b^29c15894~56000000",
-			[20191] = "0鲜血法典#o2caa3^4600655bc4~间谍女王梅丽萨·海克隆#49cd^4f81573b~60655bc4",
+			[11725] = "0巫女麦兰达#2e60^3e6f81dc6c~大领主泰兰·弗丁#732^6f6b825e~",
+			[25869] = "0古尔戈索克#7537^50847bd903~巨魔仆从伍迪#7539^847c0905~847c0905",
+			[23793] = "0天空大地先知#657e^497ac57624~天空大地先知#657e^7ac58621~7aaac3ed",
+			[1717] = "0维兹克兰克的伐木机#d6f^1561909133~维兹克兰克的伐木机#d6f^61908132~618fb161",
 			[19824] = "0阿米希尔·迷雾行者#41f5^3f3728c857~伊谢尔·风歌#45b1^73c869e9",
-			[21379] = "0拉瑞萨·射日者#55c2^454e8ea94f~受难者奥图里斯#47f1^404626e4",
-			[12085] = "0纳萨诺斯·凋零者#2e66^36293aeae4~纳萨诺斯·凋零者#2e66^293acae6~297e1765~297ac303",
-			[1659] = "0玛高兹#c88^0c26900334~尼尔鲁·火刃#c90^447f4813~",
-			[21790] = "0空军指挥官达比利#4bd1^3c37b699f8~空军指挥官达比利#4bd1^37b669fc~37adcaaa~37aa0c3e~37b34b0b~37b58b65",
-			[9975] = "0穆格雷斯·深水#29f3^366f898a55~纳拉·蛮鬃#168a^68c134fd~",
-			[7847] = "0维妮·布特巴克#2464^15617d51c8~雷里·格里斯高布#2465^44c2f3eb~",
-			[16834] = "0武神#1567^3c54ce098a~",
-			[23777] = "0塔洛迦大使#657a^457a6ac8b4~天空大地先知#657e^7ac59622",
-			[20190] = "0鲜血法典#o2caa3^450065abb3~间谍女王梅丽萨·海克隆#49cd^4f80e740~6065abb3",
-			[20788] = "0巴洛克元帅#5139^3d37aec48e~巴洛克元帅#5139^37aec48d~3795350f~37a754ce",
-			[10457] = "0高级执行官德灵顿#2a55^3469d44b06~暗影牧师范蒂丝#2b2f^69d42b77",
-			[19652] = "0大法师奥图鲁斯#44cd^442178bc04~大法师塞德瑞克#46f5^012868b5~",
-			[15409] = "0比拉凯琳的枕头^304c74b4d0~艾沃奈斯#3924^4c61e471~",
-			[13259] = "0玛卡巴·扁蹄#2e51^186159e46d~玛卡巴·扁蹄#2e51^6159e473~53bc7dc9~53c82db8",
+			[23733] = "0大德鲁伊拉索留斯#64d1^497a91c712~大德鲁伊拉索留斯#64d1^7a91f712~7a87a3bd",
+			[18681] = "0游侠队长维恩雷#4195^3f3748f9a2~游侠队长维恩雷#4195^3748f9a1~375119d7~37570a46",
+			[1775] = "0加兹鲁维#d3f^0e61a035cc~加兹鲁维#d3f^61a035cc~61a2975a~61a4379b",
+			[23799] = "0塔迦祖母#6402^487ac5a5e6~塔迦祖母#6402^7ac5a5e5~7aa8f36f",
+			[23811] = "0大法师伯林纳德#62e2^477a54557c~大法师伯林纳德#62e2^7a54557c~44a62373",
+			[26157] = "0阿莱克丝塔萨，生命的缚誓者#6925^4f7d98f8ba~阿莱克丝塔萨，生命的缚誓者#6925^7d9938bc~7d851771",
+			[4323] = "0乌克尔#1a82^062684eae8~旅店老板格罗斯克#1b10^2683c6aa~",
+			[26221] = "0古斯塔夫神父#77db^4f80d41ba0~古斯塔夫神父#77db^80d41ba1~80c3aa93",
+			[24069] = "0阿格玛大王#670b^4a7d617767~军士长祖托克#672f^7d5da772",
+			[24609] = "0测量员汉森#7f57^4a7dcada66~测量员汉森#7f57^7dcada69~7dda2b73",
+			[18860] = "0智者阿曼恩#419c^3f373bd5dc~智者阿曼恩#419c^373bd5db~3725e935",
+			[23863] = "0莱洛拉斯#6605^477a553582~莱洛拉斯#6605^7a553581~7a50d46c~7a53a473",
+			[23859] = "0冬风酋长#607f^497ac225f5~陶拉努克宗母#662e^7ac85610",
+			[24289] = "0肯图卡尼斯#6963^4a7d774559~肯图卡尼斯#6963^7d774559~7d8d893c~7d91b698",
 			[18257] = "0大法师安吉拉·杜萨图斯#3ef4^3e29c16861~~",
-			[1141] = "0先知摩克萨尔丁#9a1^29555224a9~~~",
+			[26477] = "0掠天者考尔姆·黑痕#7868^50809b55f0~首席技师考伯克拉#7869^809d7640~",
 			[22415] = "0莫希·斯蒂格里#5cf5^2c2888d91d~莫希·斯蒂格里#5cf5^2888f91c~2883792d",
-			[21763] = "0米克达#5762^42606057fd~米克达#5762^6060183d~604f7776~604be842~60520830",
-			[1193] = "0肯维雷#9d7^295552546b~~",
-			[23171] = "0战歌征募官#62b9^457a672849~加尔鲁什·地狱咆哮#6295^7a69c891",
-			[25431] = "0瓦拉纳王子#70eb^399288d5d0~凯雷塞斯王子#70ef^928ab92a",
+			[24975] = "0高级执行官乌洛斯#6a6b^4a7dc46a17~征服者克雷娜#68ec^7e351a43",
+			[23937] = "0长者穆希特#666a^4a7aabe8be~长者穆希特#666a^7aabc8c2~7aac4909",
+			[26605] = "0凯尔坦修士#7a1d^4f80a0f68b~凯尔坦修士#7a1d^809ee647~808a7955",
+			[24019] = "0图尔凯#6685^4b7d7aec2a~图尔凯#6685^7d7abc2b~7d73bcfd",
 			[20528] = "0间谍大师萨罗迪恩#4c0c^464251da40~虚空猎手卡尔伊#4da8^4252fa44",
-			[1681] = "0塔克林·寻路者#d08^0b268206f7~卡加尔·战痕#d09^619f231a~",
+			[24291] = "0肯图卡尼斯#6963^4b7d774559~肯图卡尼斯#6963^7d77655c~7d6cc677",
 			[20592] = "0安多尔姆#4ea2^46599578aa~萨艾特#4ee9^0093d8eb",
-			[21723] = "0觉醒者基尔利克#5700^43605f8837~觉醒者基尔利克#5700^605f7837~60410bda~603deb5b",
+			[24297] = "0奥拉斯塔萨#6967^4b7d9968cf~奥拉斯塔萨#6967^7d9978d4~7d81f92f",
 			[15449] = "0汉瑟尔·重拳#3923^2e4c623471~汉瑟尔·重拳#3923^4c622479~4c4f6b14",
 			[20688] = "0鲁恩托格·蛮锤#4f0a^3c37c88596~空军指挥官格莱芬加尔#4f08^37cab56a",
-			[2137] = "0希雷斯·碎石#fd1^19615a4475~希雷斯·碎石#fd1^615a3473~53a617a3~539ea889",
-			[11725] = "0巫女麦兰达#2e60^3e6f81dc6c~大领主泰兰·弗丁#732^6f6b825e~",
-			[1717] = "0维兹克兰克的伐木机#d6f^1561909133~维兹克兰克的伐木机#d6f^61908132~618fb161",
-			[11085] = "0提里奥·弗丁#73f^38290c161d~提里奥·弗丁#73f^290bf625~290e07e8~2980286b~2972e572",
-			[6963] = "0黑龙的财宝#o247fe^314c636642~黑龙的财宝#o247fe^4c636642",
-			[19693] = "0先知亚尼迪#4661^3f7352d84c~先知亚尼迪#4661^7352e84b~737cda52",
+			[19260] = "0大法师奥图鲁斯#44cd^462178cc02~拉维恩#41ad^3a000000",
+			[23957] = "0特使艾米萨·闪蹄#6645^497d2227bb~特使艾米萨·闪蹄#6645^7d2357b3~7d253711",
+			[24481] = "0药剂师薇吉·莱文#6a70^4b7dc50a0a~药剂师薇吉·莱文#6a70^7dc4fa0c~7dae8be0",
+			[24061] = "0秘法师图阿鲁#67e3^4b7d7d7c18~长者玛纳洛#o2e003^7d5dca68~",
+			[23441] = "0血法师劳莉丝#6325^467a852862~普雷玛·巨角#6324^7a85686c",
+			[21339] = "0受难者奥图里斯#47f1^45404626e4~受难者奥图里斯#47f1^404606e4~7329767f",
 			[20912] = "0莉娜·月泉#524a^43135caabe~莉娜·月泉#524a^135cbabe~13828a31",
-			[1775] = "0加兹鲁维#d3f^0e61a035cc~加兹鲁维#d3f^61a035cc~61a2975a~61a4379b",
-			[10197] = "0高级执行官德灵顿#2a55^3469d44b06~高级执行官德灵顿#2a55^69d48b05~6f661b69~6f6c1a95~6f717a25~6f776b55",
+			[24035] = "0图尔凯#6685^4b7d7abc2b~图尔凯#6685^7d7acc2b~7d776c85",
+			[21723] = "0觉醒者基尔利克#5700^43605f8837~觉醒者基尔利克#5700^605f7837~60410bda~603deb5b",
 			[21008] = "0指挥官萨卡斯·天影#52a6^43135caa94~指挥官萨卡斯·天影#52a6^135cca95~136ea7ad",
-			[9971] = "0穆格雷斯·深水#29f3^356f893a57~穆格雷斯·深水#29f3^6f892a57~6fa3a796",
-			[23119] = "0国王姆嘎姆嘎#626d^477a6f1238~呀噜咕噜#6276^7a6de234~7a694217",
-			[18681] = "0游侠队长维恩雷#4195^3f3748f9a2~游侠队长维恩雷#4195^3748f9a1~375119d7~37570a46",
+			[20087] = "0斥候奈弗蒂丝#491a^416063d703~顾问菲埃拉#4918^607d2725~6060d64c~60697690~60674634",
+			[11563] = "0提里奥·弗丁#73f^3a290bf625~提里奥·弗丁#73f^290bf626~293f4cbd",
+			[24465] = "0亡灵卫兵莫德尔#6ab8^4b7dc4d9fb~亡灵卫兵莫德尔#6ab8^7dc669e4~7daf2c13",
 			[23183] = "0博古洛克大王#62ee^477a7eb1b4~步兵沃塔·怒拳#62f8^7a7bd325",
-			[21168] = "0托什雷#54bb^44139abb09~托什雷#54bb^139acb03~13937923",
+			[23215] = "0长者阿特卡诺克#o2dcad^4a7a8b75b1~长者阿特卡诺克#o2dcad^7a8b75b4~7a86157a~7a84950c",
 			[23247] = "0伊塔鲁克#62cc^4a7a8ad5c3~伊塔鲁克#62cc^7a8ad5c0~7a800531",
 			[23279] = "0奥尔托什#631e^477a7ea19d~奥尔托什#631e^7a7ea19b~7a8fc1e8~7a8df26a~7a8ab216~7a8ad1ce",
 			[23311] = "0瓦托尔#6384^457a52a8aa~瓦托尔#6384^7a5298a9~7a4f3a4d",
 			[23343] = "0图书馆员多纳森#62ae^477a73d558~图书馆员多纳森#62ae^7a73a558~7a6b163d",
-			[11691] = "0提里奥·弗丁#73f^3b290bf626~提里奥·弗丁#73f^290bf623~29a874a6",
+			[23375] = "0远行者萨安·钢角#643a^497ab25204~先知赫米萨#6404^7abea3c3~7ab21214~7ab3022e",
 			[23407] = "0暗影密探伊克里斯#635d^467a614867~暗影密探盖特莱#6481^7a588769",
-			[11723] = "0提里奥·弗丁#73f^3d290bf626~巫女麦兰达#2e60^6f81dc6c~",
-			[10309] = "0克罗米#29ab^376f64eaaf~克罗米#29ab^6f64eaaf~6f6f7b2a",
-			[23813] = "0铁眼#65f8^487ac4c604~铁眼#65f8^7ac4c603~7aa7c360",
+			[23439] = "0血法师劳莉丝#6325^467a851860~血法师劳莉丝#6325^7a852862~7a852864",
+			[24913] = "0护园者尼瑟拉#6a77^4b7da63bc1~护园者尼瑟拉#6a77^7da62bbf~7da64c79",
+			[24123] = "0大法师艾萨斯·夺日者的影像#6767^4d7d613763~大法师艾萨斯·夺日者的影像#6767^7d612763~7d31c984",
 			[19441] = "0伊谢尔·风歌#45b1^3f73c879ea~伊谢尔·风歌#45b1^73c829e9~73b46cd3~734116dc~739e8684~73a16a3f",
-			[4323] = "0乌克尔#1a82^062684eae8~旅店老板格罗斯克#1b10^2683c6aa~",
-			[19505] = "0凯拉·长鬃#4631^3e73d4fda9~伊谢尔·风歌#45b1^73c849e6~73cbfb66",
-			[7813] = "0桑德哈特#237c^310c0ac834~~",
-			[11609] = "0药剂师迪瑟斯#2b31^3869d4db13~药剂师迪瑟斯#2b31^69d4db14~6f73fb0e",
+			[24895] = "0纳莉丝#6c75^4b7d9988aa~瑟里纳尔#67e1^7d59f4cf~",
+			[11803] = "0米克·莱文#2d5f^3169d4fb8d~米克·莱文#2d5f^69d4db8d~2950a30f",
+			[24133] = "0大法师艾萨斯·夺日者的影像#6767^4d7d612763~大法师艾萨斯·夺日者的影像#6767^7d611762~7d438a66",
+			[24993] = "0小萨鲁法尔#62a9^4d7d6832e6~阿莱克丝塔萨，生命的缚誓者#6925^7d9908b9",
 			[19601] = "0元素师鲁艾普#4699^45409b5394~元素师鲁艾普#4699^409b738f~4087d362",
 			[19633] = "0巫医托尔加什#465e^40735417cf~巫医托尔加什#465e^735407d0~7344839b",
-			[11883] = "0卡林·雷德帕斯#2b37^3a29c1789c~克罗米#29ab^6f64faac~",
+			[23759] = "0巨兽库诺克#6506^4a7a97b4d7~大德鲁伊拉索留斯#64d1^7a91f712~7a91f712",
 			[23791] = "0天空大地先知#657e^497ac58622~天空大地先知#657e^7ac57624~7ac4e634",
-			[23823] = "0大法师伯林纳德#62e2^477a54557c~大法师伯林纳德#62e2^7a54557c~44a1da0c",
-			[23763] = "0菲兹克斯·盖维斯特#64f9^487ac625e9~菲兹克斯·盖维斯特#64f9^7ac605eb~7ac59602",
+			[19729] = "0先知考尔胡克#4693^42408c2660~小萨鲁法尔#4735^4052b5c2",
+			[26457] = "0掠天者考尔姆·黑痕#7868^4f809c761a~掠天者考尔姆·黑痕#7868^809ab5dc~80afda41",
 			[23887] = "0莱洛拉斯#6605^487a553581~莱洛拉斯#6605^7a553581~7a3de48f~7a45933c",
-			[19825] = "0阿米希尔·迷雾行者#41f5^4037292855~伊谢尔·风歌#45b1^73c829e9",
+			[23919] = "0长者库纳尼#6652^4a7d7b0bf5~长者库纳尼#6652^7d7adbf7~7d76f979",
 			[19857] = "0兰特瑞索·火刃#4755^4440bcb9fc~兰特瑞索·火刃#4755^40bcaa00~40b82d17",
 			[19889] = "0德拉吉亚#477e^4240906575~长者尤尔雷#47ee^405285c7",
-			[19921] = "0图基#480f^40607fe753~缚地者塔弗格伦#480e^60711436",
-			[23863] = "0莱洛拉斯#6605^477a553582~莱洛拉斯#6605^7a553581~7a50d46c~7a53a473",
-			[24079] = "0伯鲁斯·折铁#67c4^4a7d5d978c~~",
+			[21968] = "0弗埃卢#57e1^464f8fc7c8~葛罗克#599c^4fa62ad0",
+			[24093] = "0希弗里克斯#6825^4e7d8bd3b9~希弗里克斯#6825^7d8bc3b9~7d88e3ef",
+			[12043] = "0护理者奥林#2b1e^3829bcc930~护理者奥林#2b1e^29bcc93f~293cdc87",
 			[20017] = "0追踪者凯德#4886^4160a206d9~追踪者凯德#4886^60a1e6d2~60a5187f~60a8e8a3",
-			[20049] = "0奥术师艾蒂莉亚#48a4^404f8bf387~奥术师艾蒂莉亚#48a4^4f8cb38f~60a7b765",
-			[23957] = "0特使艾米萨·闪蹄#6645^497d2227bb~特使艾米萨·闪蹄#6645^7d2357b3~7d253711",
-			[23891] = "0乌泰克#6665^497aa3574f~乌泰克#6665^7aa3a750~7aaaa7c3",
-			[23733] = "0大德鲁伊拉索留斯#64d1^497a91c712~大德鲁伊拉索留斯#64d1^7a91f712~7a87a3bd",
-			[23785] = "0大德鲁伊拉索留斯#64d1^4a7a91c711~大德鲁伊拉索留斯#64d1^7a91e713~7a7f96a5",
-			[23731] = "0扎扎#64d3^497a915707~扎扎#64d3^7a91370c~7a91583b",
-			[24977] = "0军士长祖托克#672f^4a7d5d8773~高级执行官乌洛斯#6a6b^7dc46a17",
-			[24181] = "0通缉！#o2e002^4a7d602771~~7d827a7e",
-			[24183] = "0通缉！#o2e002^4a7d602771~~7d746737",
+			[24143] = "0军士长祖托克#672f^4c7d5db771~瓦诺克·风怒#67ce^7d5f274f",
+			[26145] = "0北伐军战士布雷登布莱德#7762^4f80cc24e9~大领主提里奥·弗丁#7944^80cc1b78~",
+			[26167] = "0布雷登布莱德的物品#o2f141^4f80cc04ef~大领主提里奥·弗丁#7944^80cc0b7a~",
+			[18869] = "0维兹罗#2abd^1f6736e52e~魔导师艾洛塞#42c5^67760807~",
+			[24095] = "0希弗里克斯#6825^4e7d8bc3b9~希弗里克斯#6825^7d8bf3ba~7da194a2",
+			[24303] = "0奥拉斯塔萨#6967^4d7d9968cf~奥拉斯塔萨#6967^7d9958d5~7d926c27",
+			[18793] = "0奥术师卡雷希斯·晨星#4198^4037451989~奥术师卡雷希斯·晨星#4198^3745098f~37428c27",
+			[26461] = "0濒死的狂战士#7a29^4f80afda41~掠天者考尔姆·黑痕#7868^809b15e7~80aaca39",
+			[20966] = "0阿曼蒂中尉#41b4^3d3782499f~埃隆雷下士#528d^37b54a21~379e2be2",
 			[20337] = "0德欧里#4bd4^4600875b0b~卡舒尔宗母#48ff^404479c8~405439f2~44875b0b",
-			[24113] = "0高尔特上尉#67fa^4a7d5ba7b8~~",
+			[26299] = "0克罗米#679f^5000dd59d7~克罗米#6d0b^0079f667~44d5f96a",
 		},
 		["Version"] = 0.5,
 		["NPC"] = {
@@ -13695,163 +13919,142 @@ NxData = {
 			["?~Setaal"] = "84^a27b55^0^G",
 			["|cff7f7f7f??|r|cffAF5050 首领|r 亡灵~麦迪文的回音~"] = "58^000000^0^G",
 			["|cffffff0062|r 人型生物~尤勒斯上校~|cffffffffQ|cffc0c0ffuest: |cffffff0061 尤勒斯的驱魔仪式"] = "55^8a1a29^0^G",
-			["锻造训练师~达姆菲~荣耀堡"] = "55^8299a0^0^G",
+			["|cffffff0060|r 人型生物~灵魂医者~"] = "55^8b8aa6^0^G",
 			["|cff7f7f7f14|r 人型生物~塔特纳克·钢炉~|cFFCA3C3CID|r 3433"] = "97^734938^1^G",
 			["材料商~芬提~贫民窟"] = "79^a57b3d^0^G",
 			["|cffff191932|r 人型生物~乔恩·星眼~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f18 乔恩·星眼"] = "97^72b971^1^G",
 			["|cffffff0068|r|cffAF5050+|r 未指定~间谍大师萨罗迪恩~|cFFCA3C3CID|r 19468"] = "66^51da40^0^G",
 			["|cffffff0022|r 人型生物~图加·符文图腾~|cFFCA3C3CID|r 3448"] = "97^857518^1^G",
 			["|cffff191928|r 人型生物~雷戈萨·死门~|cFFCA3C3CID|r 3389"] = "97^73e48a^1^G",
-			["|cffff191975|r 人型生物~雷霆崖守卫~"] = "104^703999^1^G",
-			["|cffff191960|r 人型生物~骑士领主布拉德瓦罗~|cFFCA3C3CID|r 17717"] = "81^e485a5^1^G",
+			["|cffffff0065|r 人型生物~格雷尼·长须~|cFFCA3C3CID|r 16850"] = "55^3d2b87^0^G",
+			["独立承包人~斯布特瓦夫~棘齿城"] = "97^a0f5f5^1^G",
 			["Warrior Bot~Dannal~|cFFCA3C3CID|r 70008"] = "84^a50b31^0^G",
 			["|cffffff0070|r|cffAF5050+|r 人型生物~人类祭司~"] = "58^000000^0^G",
-			["武器大师~哈纳什~暗矛巨魔"] = "68^cff31a^1^G",
+			["|cffff191937|r 人型生物~尼尔鲁·火刃~|cFFCA3C3CID|r 3216"] = "68^7f4813^1^G",
 			["武器大师~阿基巴德~幽暗城"] = "108^917549^1^G",
 			["采矿训练师~霍纳克·格里莫德~荣耀堡"] = "55^910a31^0^G",
 			["|cffffff0016|r 人型生物~血肉模糊的尸体~ - 找到曼科里克的妻子：0/1"] = "97^7e180c^1^G",
 			["|cffffff0060|r 人型生物~荣耀堡卫兵维斯洛~|cFFCA3C3CID|r 16827"] = "55^8249a3^0^G",
-			["|cffffff0015|r 人型生物~曼科里克~|cFFCA3C3CID|r 3432"] = "97^84d50e^1^G",
+			["|cffffff0069|r 人型生物~托什雷~|cffffffffQ|cffc0c0ffuest: |cffffff0067 废话连篇"] = "19^9abb09^0^G",
 			["|cffffff0070|r 人型生物~战地指挥官玛弗恩~|cFFCA3C3CID|r 19542"] = "96^664b89^0^G",
 			["|cffffff0065|r 人型生物~智者阿曼恩~|cFFCA3C3CID|r 16796"] = "55^3be5db^0^G",
-			["|cffffff0062|r 人型生物~纳拉杜~|cffffffffQ|cffc0c0ffuest: |cffffff0062 纳拉杜"] = "55^299a63^0^G",
+			["狮鹫管理员~阿米什·蛮锤~|cFFCA3C3CID|r 18931"] = "55^df9860^0^G",
 			["|cffffff0070|r|cffAF5050+|r 人型生物~伊萨尔~|cFFCA3C3CID|r 17518"] = "58^000000^0^G",
-			["|cffff191922|r 人型生物~图加·符文图腾~|cFFCA3C3CID|r 3448"] = "97^85951b^1^G",
-			["?~Swart"] = "84^a26b60^0^G",
-			["|cffff7f3f65|r 人型生物~学者欧巴迪~|cFFCA3C3CID|r 16834"] = "55^3b0670^0^G",
-			["术士~格拉达夫~|cFFCA3C3CID|r 16814"] = "58^000000^0^G",
+			["|cffffff0070|r|cffAF5050+|r 人型生物~人类召唤师~"] = "58^000000^0^G",
+			["?~Sian'tsu"] = "84^a2fb58^0^G",
+			["时光守护者~安多尔姆~时光守护者"] = "89^93696b^0^M0",
+			["暴风城国王~瓦里安·乌瑞恩国王~|cFFCA3C3CID|r 29611"] = "84^cc2629^0^G",
 			["工匠协会~雷兹拉克~棘齿城"] = "38^7693ab^1^G",
 			["铁匠~库雷恩~|cFFCA3C3CID|r 16388"] = "58^000000^0^G",
 			["?~Aurelon"] = "79^44c4fc^0^G",
 			["珠宝加工供应商~昂图沃~破碎残阳"] = "79^7cc69a^0^M0",
 			["圣骑士训练师~勇士巴卡希~银月城"] = "81^eb65fc^1^G",
-			["武器大师~布里维夫·石拳~铁炉堡"] = "57^9d1e41^0^T",
+			["|cff3fbf3f62|r 人型生物~拉库泰~|cFFCA3C3CID|r 22420"] = "96^60f83d^0^G",
 			["破碎残阳军需官~艾尔达拉·晨行者~破碎残阳"] = "119^78c4e8^0^M0",
 			["|cffffff0070|r 人型生物~坦扎尔~"] = "118^000000^0^G",
-			["|cffffff0065|r 人型生物 (PvP)~冈尼~"] = "55^905aa6^0^G",
+			["|cffffff0067|r 人型生物~守备官乌里恩~"] = "19^70a848^0^G",
 			["法师~拉维恩~|cFFCA3C3CID|r 16813"] = "58^000000^0^G",
 			["|cffffff0063|r 人型生物~阿米希尔·迷雾行者~|cFFCA3C3CID|r 16885"] = "55^28c857^0^G",
-			["狮鹫管理员~克莉尔·比特修~荣耀堡"] = "55^8bd9fb^0^G",
+			["时光守护者~萨艾特~时光守护者"] = "89^9498db^0^G",
 			["|cff3fbf3f67|r|cffAF5050+|r 龙类~伊洛希恩~|cffffffffQ|cffc0c0ffuest: |cffffff0068 逃离敦霍尔德"] = "89^8e0888^0^G",
-			["|cffffff0062|r 人型生物~唤水者埃伊兰~|cffffffffQ|cffc0c0ffuest: |cffffff0062 残冠长者"] = "55^214959^0^G",
+			["|cffffff0070|r 人型生物~虚空猎手卡尔伊~|cFFCA3C3CID|r 19880"] = "66^52fa44^0^G",
 			["Warlock Bot~Dhugru~|cFFCA3C3CID|r 70359"] = "55^8e7a51^0^G",
-			["?~Belestra"] = "84^cdc999^0^G",
+			["流沙之鳞~索莉多米~流沙之鳞"] = "89^9548b8^0^G",
 			["旅店老板~菲兹特·表针~|cFFCA3C3CID|r 21110"] = "19^9bbae4^0^M0",
-			["|cffffff0062|r 人型生物~伊坎~|cFFCA3C3CID|r 16799"] = "55^3b366d^0^G",
-			["|cffffff0066|r 人型生物~莉娜·月泉~"] = "19^5c9abe^0^G",
+			["|cff3fbf3f65|r 人型生物~葛罗克~|cffffffffQ|cffc0c0ffuest: |cffffff0070 援助食人魔"] = "79^a62ad0^0^G",
+			["|cffffff0070|r 人型生物~间谍格利克萨~|cFFCA3C3CID|r 19496"] = "96^663b8a^0^G",
 			["|cffffff0070|r ~未知目标~"] = "118^000000^0^G",
 			["?~Llane"] = "84^cdc999^0^G",
 			["Death Knight Bot~Arly~|cFFCA3C3CID|r 70458"] = "47^d0ea37^0^G",
 			["月布裁缝大师~纳丝玛拉·月歌~贫民窟"] = "79^a9ab0d^0^G",
-			["|cffff191960|r 人型生物~莫克瓦尔~|cFFCA3C3CID|r 16012"] = "68^595618^1^G",
-			["|cffffff0062|r 人型生物~玛霍拉姆·硬蹄~|cFFCA3C3CID|r 16888"] = "55^27e85c^0^G",
+			["蘑菇商~考苏斯~奥格瑞玛"] = "68^7da89c^1^M0",
+			["杂货商~泰莱尔·火吻~破碎残阳"] = "119^7f865a^0^M0",
 			["|cffff7f3f73|r|cffAF5050+|r 人型生物~卡雷苟斯~"] = "120^000000^0^G",
 			["|cff3fbf3f65|r 人型生物~葛罗克~"] = "79^a62af6^0^G",
 			["|cffff7f3f65|r 人型生物~智者阿曼恩~|cFFCA3C3CID|r 16796"] = "55^3bd5d9^0^G",
 			["|cff3fbf3f60|r 人型生物~斥候瓦努拉~|cFFCA3C3CID|r 16797"] = "55^3bb621^0^G",
 			["|cffffff0061|r 人型生物~玛库鲁~|cFFCA3C3CID|r 16833"] = "55^3b366b^0^G",
-			["|cffffff0069|r 人型生物~托什雷~"] = "19^9acb03^0^G",
 			["Mage Bot~Julia~|cFFCA3C3CID|r 70324"] = "47^d04a2d^0^G",
-			["|cffffff0062|r 人型生物~抚风者莫洛德~|cffffffffQ|cffc0c0ffuest: |cffffff0062 残冠长者"] = "55^2179c3^0^G",
+			["|cffffff0069|r 人型生物~托什雷~"] = "19^9acb03^0^G",
+			["|cffffff0063|r 人型生物~除草者格林萨姆~|cFFCA3C3CID|r 17890"] = "28^000000^0^G",
 			["|cffffff0070|r 人型生物~间谍女王梅丽萨·海克隆~|cFFCA3C3CID|r 18893"] = "79^80e740^0^G",
-			["Shaman Bot~Sian'tsu~|cFFCA3C3CID|r 70260"] = "84^a26b5f^0^G",
+			["|cffffff0010|r 人型生物~加索克~|cFFCA3C3CID|r 3139"] = "38^8506f0^1^G",
 			["?~Siouxsie"] = "41^bfd877^0^G",
 			["|cffffff0071|r|cffAF5050+|r 人型生物~大法师奈苏尔~|cFFCA3C3CID|r 25169"] = "119^804482^0^G",
 			["|cffffff0063|r 人型生物~学者巴拉达~|cffffffffQ|cffc0c0ffuest: |cffffff0061 尤勒斯的驱魔仪式"] = "55^8a0a28^0^G",
-			["洛萨之子~远征军指挥官达纳斯·托尔贝恩~荣耀堡"] = "55^90baa5^0^G",
+			["|cffffff0060|r 人型生物~斥候瓦努拉~|cFFCA3C3CID|r 16797"] = "55^3bc60a^0^G",
 			["旅店老板~旅店老板格罗斯克~奥格瑞玛"] = "38^83c6aa^1^M0",
-			["采矿训练师~吉尔曼·石手~暴风城"] = "84^973608^0^T",
-			["|cffffff0070|r 人型生物~瑟里斯·黎明之心~|cFFCA3C3CID|r 24967"] = "119^7924e2^0^G",
+			["?~炉石"] = "97^663230^1^G",
+			["|cffffff0070|r 人型生物~守备官凯兰~|cFFCA3C3CID|r 25108"] = "119^812639^0^G",
 			["|cffffff0070|r|cffAF5050+|r 人型生物~莱恩国王~"] = "58^000000^0^G",
 			["特种装备销售商~卡蕾娜~破碎残阳"] = "119^7ee677^0^M0",
-			["辛多雷圣物转化师~伊尔玛~破碎残阳"] = "119^805480^0^M0",
+			["舞台管理员~巴内斯~|cFFCA3C3CID|r 16812"] = "58^000000^0^G",
 			["|cffffff0070|r 人型生物~巴德~|cffffffffQ|cffc0c0ffuest: |cffffff0070 夺牙奇兵"] = "47^b40ad8^0^G",
 			["|cffff191975|r 人型生物 (PvP)~银月城守卫~"] = "81^d71ae3^1^G",
-			["|cffffff0060|r 人型生物~阿曼蒂中尉~|cFFCA3C3CID|r 16820"] = "55^82499f^0^G",
-			["|cff3fbf3f17|r 人型生物~碎牙~|cFFCA3C3CID|r 3430"] = "97^71f977^1^G",
-			["|cffffff0070|r|cffAF5050+|r 人型生物~人类骑兵~"] = "58^000000^0^G",
+			["Paladin Bot~Katherine~|cFFCA3C3CID|r 70060"] = "84^a50b31^0^G",
+			["爆缸航天局指挥官~火箭主管弗斯拉格~|cFFCA3C3CID|r 19570"] = "66^53aa5d^0^G",
+			["?~Denatharion"] = "84^a22b5c^0^G",
 			["盗贼学院经营者~洛妮卡·静刃~贫民窟"] = "79^c0654f^0^G",
-			["社交名媛~哈莉丝·西尔顿~|cFFCA3C3CID|r 18756"] = "79^c154eb^0^M0",
-			["?~Julia"] = "84^a22b5c^0^G",
+			["|cffffff0068|r 人型生物~指挥官萨卡斯·天影~|cffffffffQ|cffc0c0ffuest: |cffffff0066 兽穴之母"] = "19^5caa94^0^G",
+			["?~Kym"] = "41^d5a727^0^G",
 			["?~Dannal"] = "84^a2fb58^0^G",
 			["Shaman Bot~Swart~|cFFCA3C3CID|r 70258"] = "47^d03a2e^0^G",
-			["烹饪训练师~加斯顿~荣耀堡"] = "55^8a5a27^0^G",
-			["武器大师~吴平~暴风城"] = "84^a37b04^0^T",
-			["?~Dhugru"] = "84^a22b5c^0^G",
-			["草药学供应商~艾达伊斯~暴风城"] = "84^8e3da3^0^G",
-			["|cff3fbf3f63|r 人型生物~观察者杰哈恩~|cFFCA3C3CID|r 17884"] = "115^8595be^0^G",
 			["奥尔多高阶女祭司~伊沙娜~奥尔多"] = "79^3d94cc^0^G",
+			["|cff3fbf3f63|r 人型生物~观察者杰哈恩~|cFFCA3C3CID|r 17884"] = "115^8595be^0^G",
+			["草药学供应商~艾达伊斯~暴风城"] = "84^8e3da3^0^G",
+			["?~Dhugru"] = "84^a22b5c^0^G",
+			["武器大师~吴平~暴风城"] = "84^a37b04^0^T",
+			["烹饪训练师~加斯顿~荣耀堡"] = "55^8a5a27^0^G",
 			["战士训练师~武神~暴风城"] = "84^ce0988^0^T",
-			["?~Kym"] = "41^d5a727^0^G",
-			["|cffffff0068|r 人型生物~指挥官萨卡斯·天影~|cffffffffQ|cffc0c0ffuest: |cffffff0066 兽穴之母"] = "19^5caa94^0^G",
+			["?~Julia"] = "84^a22b5c^0^G",
+			["社交名媛~哈莉丝·西尔顿~|cFFCA3C3CID|r 18756"] = "79^c154eb^0^M0",
 			["|cffffff0070|r 人型生物~哈考尔~"] = "118^000000^0^G",
-			["?~Denatharion"] = "84^a22b5c^0^G",
-			["爆缸航天局指挥官~火箭主管弗斯拉格~|cFFCA3C3CID|r 19570"] = "66^53aa5d^0^G",
-			["Paladin Bot~Katherine~|cFFCA3C3CID|r 70060"] = "84^a50b31^0^G",
+			["|cffffff0070|r|cffAF5050+|r 人型生物~人类骑兵~"] = "58^000000^0^G",
+			["|cff3fbf3f17|r 人型生物~碎牙~|cFFCA3C3CID|r 3430"] = "97^71f977^1^G",
+			["|cffffff0060|r 人型生物~阿曼蒂中尉~|cFFCA3C3CID|r 16820"] = "55^82499f^0^G",
 			["荣耀堡军需官~后勤军需官乌瑞卡~荣耀堡"] = "55^911a03^0^M0",
-			["舞台管理员~巴内斯~|cFFCA3C3CID|r 16812"] = "58^000000^0^G",
-			["|cffffff0070|r 人型生物~守备官凯兰~|cFFCA3C3CID|r 25108"] = "119^812639^0^G",
-			["?~炉石"] = "97^663230^1^G",
-			["|cffffff0060|r 人型生物~斥候瓦努拉~|cFFCA3C3CID|r 16797"] = "55^3bc60a^0^G",
+			["辛多雷圣物转化师~伊尔玛~破碎残阳"] = "119^805480^0^M0",
+			["|cffffff0070|r 人型生物~瑟里斯·黎明之心~|cFFCA3C3CID|r 24967"] = "119^7924e2^0^G",
+			["采矿训练师~吉尔曼·石手~暴风城"] = "84^973608^0^T",
+			["洛萨之子~远征军指挥官达纳斯·托尔贝恩~荣耀堡"] = "55^90baa5^0^G",
 			["|cffffff0070|r 人型生物~魔导师瑟伊拉~|cFFCA3C3CID|r 24937"] = "55^94d2ce^0^G",
 			["|cffffff0063|r 人型生物~助手克拉图~|cffffffffQ|cffc0c0ffuest: |cffffff0061 挖掘念珠"] = "55^8afa28^0^G",
-			["|cffffff0010|r 人型生物~加索克~|cFFCA3C3CID|r 3139"] = "38^8506f0^1^G",
+			["Shaman Bot~Sian'tsu~|cFFCA3C3CID|r 70260"] = "84^a26b5f^0^G",
 			["警卫~本内特~|cFFCA3C3CID|r 16426"] = "58^000000^0^G",
-			["|cffffff0063|r 人型生物~除草者格林萨姆~|cFFCA3C3CID|r 17890"] = "28^000000^0^G",
+			["|cffffff0062|r 人型生物~抚风者莫洛德~|cffffffffQ|cffc0c0ffuest: |cffffff0062 残冠长者"] = "55^2179c3^0^G",
 			["|cffff191980|r|cffAF5050+|r 人型生物~联盟准将~"] = "79^ac656e^0^M0",
 			["洛萨之子~卡德加~|cFFCA3C3CID|r 18166"] = "79^8c771a^0^G",
-			["杂货商~泰莱尔·火吻~破碎残阳"] = "119^7f865a^0^M0",
-			["蘑菇商~考苏斯~奥格瑞玛"] = "68^7da89c^1^M0",
-			["|cffffff0070|r 人型生物~间谍格利克萨~|cFFCA3C3CID|r 19496"] = "96^663b8a^0^G",
-			["|cff3fbf3f65|r 人型生物~葛罗克~|cffffffffQ|cffc0c0ffuest: |cffffff0070 援助食人魔"] = "79^a62ad0^0^G",
-			["流沙之鳞~索莉多米~流沙之鳞"] = "89^9548b8^0^G",
-			["|cffffff0070|r 人型生物~虚空猎手卡尔伊~|cFFCA3C3CID|r 19880"] = "66^52fa44^0^G",
+			["|cffffff0062|r 人型生物~玛霍拉姆·硬蹄~|cFFCA3C3CID|r 16888"] = "55^27e85c^0^G",
+			["|cffff191960|r 人型生物~莫克瓦尔~|cFFCA3C3CID|r 16012"] = "68^595618^1^G",
+			["|cffffff0066|r 人型生物~莉娜·月泉~"] = "19^5c9abe^0^G",
+			["|cffffff0062|r 人型生物~伊坎~|cFFCA3C3CID|r 16799"] = "55^3b366d^0^G",
+			["?~Belestra"] = "84^cdc999^0^G",
+			["|cffffff0062|r 人型生物~唤水者埃伊兰~|cffffffffQ|cffc0c0ffuest: |cffffff0062 残冠长者"] = "55^214959^0^G",
 			["|cffffff0064|r 人型生物~缚地者加兰蒂娅·夜风~|cFFCA3C3CID|r 19294"] = "55^28e83d^0^G",
-			["时光守护者~萨艾特~时光守护者"] = "89^9498db^0^G",
+			["狮鹫管理员~克莉尔·比特修~荣耀堡"] = "55^8bd9fb^0^G",
 			["Death Knight Bot~Setaal~|cFFCA3C3CID|r 70459"] = "84^a1fb56^0^G",
-			["|cffffff0067|r 人型生物~守备官乌里恩~"] = "19^70a848^0^G",
-			["|cff3fbf3f62|r 人型生物~拉库泰~|cFFCA3C3CID|r 22420"] = "96^60f83d^0^G",
+			["|cffffff0065|r 人型生物 (PvP)~冈尼~"] = "55^905aa6^0^G",
+			["武器大师~布里维夫·石拳~铁炉堡"] = "57^9d1e41^0^T",
 			["?~Khelden"] = "84^cdc999^0^G",
 			["沙塔尔军需官~奥玛多尔~沙塔尔"] = "79^8336b0^0^M0",
-			["暴风城国王~瓦里安·乌瑞恩国王~|cFFCA3C3CID|r 29611"] = "84^cc2629^0^G",
-			["时光守护者~安多尔姆~时光守护者"] = "89^93696b^0^M0",
-			["?~Sian'tsu"] = "84^a2fb58^0^G",
-			["|cffffff0070|r|cffAF5050+|r 人型生物~人类召唤师~"] = "58^000000^0^G",
-			["狮鹫管理员~阿米什·蛮锤~|cFFCA3C3CID|r 18931"] = "55^df9860^0^G",
-			["|cffffff0069|r 人型生物~托什雷~|cffffffffQ|cffc0c0ffuest: |cffffff0067 废话连篇"] = "19^9abb09^0^G",
+			["术士~格拉达夫~|cFFCA3C3CID|r 16814"] = "58^000000^0^G",
+			["|cffff7f3f65|r 人型生物~学者欧巴迪~|cFFCA3C3CID|r 16834"] = "55^3b0670^0^G",
+			["?~Swart"] = "84^a26b60^0^G",
+			["|cffff191922|r 人型生物~图加·符文图腾~|cFFCA3C3CID|r 3448"] = "97^85951b^1^G",
+			["|cffffff0062|r 人型生物~纳拉杜~|cffffffffQ|cffc0c0ffuest: |cffffff0062 纳拉杜"] = "55^299a63^0^G",
+			["|cffffff0015|r 人型生物~曼科里克~|cFFCA3C3CID|r 3432"] = "97^84d50e^1^G",
 			["|cffffff0070|r|cffAF5050+|r 人型生物~被召唤的水元素~"] = "58^000000^0^G",
-			["|cffff191937|r 人型生物~尼尔鲁·火刃~|cFFCA3C3CID|r 3216"] = "68^7f4813^1^G",
-			["独立承包人~斯布特瓦夫~棘齿城"] = "97^a0f5f5^1^G",
-			["|cffffff0065|r 人型生物~格雷尼·长须~|cFFCA3C3CID|r 16850"] = "55^3d2b87^0^G",
+			["武器大师~哈纳什~暗矛巨魔"] = "68^cff31a^1^G",
+			["|cffff191960|r 人型生物~骑士领主布拉德瓦罗~|cFFCA3C3CID|r 17717"] = "81^e485a5^1^G",
+			["|cffff191975|r 人型生物~雷霆崖守卫~"] = "104^703999^1^G",
 			["|cff7f7f7f15|r 人型生物~曼科里克~|cFFCA3C3CID|r 3432"] = "97^84e50d^1^G",
 			["时光守护者~时间管理者~时光守护者"] = "89^a8a7f1^0^G",
 			["|cffffff0070|r 未指定~守备官夏安~|cFFCA3C3CID|r 24965"] = "119^78a4e6^0^G",
-			["|cffffff0060|r 人型生物~灵魂医者~"] = "55^8b8aa6^0^G",
+			["锻造训练师~达姆菲~荣耀堡"] = "55^8299a0^0^G",
 		},
 	},
-	["NXQOpts"] = {
-		["NXWHideDist"] = 20000,
-		["NXWPriGroup"] = -100,
-		["NXShowHeaders"] = true,
-		["NXWPriLevel"] = 20,
-		["NXWPriDist"] = 1,
-		["NXWPriComplete"] = 50,
-		["NXWHideNotInZone"] = false,
-		["NXWHideGroup"] = false,
-		["NXSortWatchMode"] = 1,
-		["NXWWatchParty"] = true,
-		["NXWHideUnfinished"] = false,
-		["NXWShowOnMap"] = true,
-		["NXWHideNotInCont"] = false,
-		["Version"] = 0.12,
-		["NXWVisMax"] = 8,
-	},
-	["NXFav"] = {
-		["Version"] = 0.13,
-	},
-	["NXVendorVVersion"] = 0.012,
-	["NXInfo"] = {
-		["Version"] = 0.24,
+	["NXWare"] = {
+		["Version"] = 0.1,
 	},
 }
 NxCombatOpts = {
@@ -13862,59 +14065,59 @@ NxMapOpts = {
 	["NXMaps"] = {
 		{
 			[0] = {
-				["NXMapPosX"] = 2603.25760007143,
+				["NXMapPosX"] = 2224.626927184063,
 				["NXPlyrFollow"] = true,
 				["NXWorldShow"] = true,
-				["NXMapPosY"] = -2509.726874283155,
-				["NXScale"] = 2.319485651550305,
+				["NXMapPosY"] = -3420.16381714059,
+				["NXScale"] = 3.919942510928147,
 			},
 			[9002] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
 			["NXDotRaidScale"] = 1,
 			["NXShowUnexplored"] = false,
 			[9003] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
 			["NXDotPalScale"] = 1,
-			["NXUnexploredAlpha"] = 0.35,
-			[9009] = {
-				["NXWorldShow"] = false,
-				["NXPlyrFollow"] = false,
-			},
+			["NXAutoScaleMin"] = 0.01,
+			["NXIconScale"] = 1,
 			[9004] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
-			["NXIconNavScale"] = 1,
+			[9001] = {
+				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
+			},
 			["NXBackgndAlphaFade"] = 0.8014290544454601,
 			["NXBackgndAlphaFull"] = 1,
 			["NXMMDockScale"] = 0.4,
-			["NXMMFull"] = false,
+			["NXMMDockOnAtScale"] = 0.6,
 			["NXDotZoneScale"] = 0.9984296934534479,
-			["NXMMDockScaleBG"] = 0.4,
-			["NXDetailScale"] = 2,
-			["NXMMAlpha"] = 0.1,
-			["NXDetailAlpha"] = 1,
+			["NXDotPartyScale"] = 1,
 			["NXPOIAtScale"] = 1,
+			["NXMMFull"] = false,
+			["NXDetailAlpha"] = 1,
+			["NXDetailScale"] = 2,
 			["NXAutoScaleOn"] = true,
 			["NXMMDockAlpha"] = 1,
 			["NXAutoScaleMax"] = 4,
 			["NXKillShow"] = false,
 			[9008] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
-			},
-			["NXDotPartyScale"] = 1,
-			["NXMMDockOnAtScale"] = 0.6,
-			[9001] = {
 				["NXWorldShow"] = false,
-				["NXPlyrFollow"] = false,
 			},
-			["NXIconScale"] = 1,
-			["NXAutoScaleMin"] = 0.01,
+			["NXMMDockScaleBG"] = 0.4,
+			["NXMMAlpha"] = 0.1,
+			["NXIconNavScale"] = 1,
+			[9009] = {
+				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
+			},
+			["NXUnexploredAlpha"] = 0.35,
 		}, -- [1]
 	},
 }

@@ -27,6 +27,14 @@ MACRO 16777220 "凛风冲击" INV_Misc_QuestionMark
 /petdefensive
 /petattack
 END
+MACRO 16777227 "天灾打击" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast 天灾打击
+/cast !符文打击
+/petdefensive
+/petattack
+END
 MACRO 16777221 "天灾打击" INV_Misc_QuestionMark
 #showtooltip
 /startattack
@@ -66,6 +74,10 @@ MACRO 16777226 "灵界打击" INV_Misc_QuestionMark
 /cast !符文打击
 /petdefensive
 /petattack
+END
+MACRO 16777228 "狂乱" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=player] 狂乱
 END
 MACRO 16777224 "鲜血打击" INV_Misc_QuestionMark
 #showtooltip
