@@ -6,15 +6,16 @@ AtlasLootDB = {
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 		["Big - AzerothCore"] = "Big - AzerothCore",
 		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 	},
 	["profiles"] = {
 		["Entropy - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
+			["LastBoss"] = "FoSBronjahm",
 		},
 		["Hyper - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
@@ -25,7 +26,7 @@ AtlasLootDB = {
 		["Heady - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Shadow - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Big - AzerothCore"] = {
@@ -37,7 +38,7 @@ AtlasLootDB = {
 		["Gpt - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Bkk - AzerothCore"] = {
+		["Shadow - AzerothCore"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},

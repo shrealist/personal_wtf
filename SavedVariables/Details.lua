@@ -3,8 +3,8 @@ _details_global = {
 	["got_first_run"] = true,
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 362,
-		["logons"] = 362,
+		["main_help_button"] = 380,
+		["logons"] = 380,
 		["version_announce"] = 0,
 		["feedback_window1"] = true,
 		["alert_frames"] = {
@@ -23,243 +23,8 @@ _details_global = {
 		1, -- [1]
 		1, -- [2]
 	},
-	["custom"] = {
-		{
-			["source"] = false,
-			["author"] = "Details!",
-			["desc"] = "Show who in your raid used a potion during the encounter.",
-			["icon"] = "Interface\\ICONS\\INV_Alchemy_Elixir_04",
-			["name"] = "Potion Used",
-			["attribute"] = false,
-			["target"] = false,
-			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n\n				--get the misc actor container\n				local misc_container = combat:GetActorList( DETAILS_ATTRIBUTE_MISC )\n\n				--do the loop:\n				for _, player in ipairs( misc_container ) do \n				    \n				    --only player in group\n				    if (player:IsGroupPlayer()) then\n					\n					local found_potion = false\n					\n					--get the spell debuff uptime container\n					local debuff_uptime_container = player.debuff_uptime and player.debuff_uptime_spell_tables and player.debuff_uptime_spell_tables._ActorTable\n					\n					--get the spell buff uptime container\n					local buff_uptime_container = player.buff_uptime and player.buff_uptime_spell_tables and player.buff_uptime_spell_tables._ActorTable\n					if (buff_uptime_container) then\n					    \n					    --potion of the jade serpent\n					    local potion_of_speed = buff_uptime_container[53908]\n					    if (potion_of_speed) then\n						local used = potion_of_speed.activedamt\n						if (used > 0) then\n						    total = total + used\n						    found_potion = true\n						    if (used > top) then\n							top = used\n						    end\n						    --add amount to the player \n						    instance_container:AddValue(player, used)\n						end\n					    end\n					    \n					    --potion of mogu power\n					    local potion_of_wild_magic = buff_uptime_container[53909]\n					    if (potion_of_wild_magic) then\n						local used = potion_of_wild_magic.activedamt\n						if (used > 0) then\n						    total = total + used\n						    found_potion = true\n						    if (used > top) then\n							top = used\n						    end\n						    --add amount to the player \n						    instance_container:AddValue(player, used)\n						end\n					    end\n					    \n					    --virmen's bite\n					    local insane_strength_potion = buff_uptime_container[28494]\n					    if (insane_strength_potion) then\n							local used = insane_strength_potion.activedamt\n							if (used > 0) then\n								total = total + used\n								found_potion = true\n								if (used > top) then\n									top = used\n								end\n								--add amount to the player \n								instance_container:AddValue(player, used)\n							end\n					    end\n						\n						--armor potion\n					    local armor_potion = buff_uptime_container[53762]\n					    if (armor_potion) then\n							local used = armor_potion.activedamt\n							if (used > 0) then\n								total = total + used\n								found_potion = true\n								if (used > top) then\n									top = used\n								end\n								--add amount to the player \n								instance_container:AddValue(player, used)\n							end\n					    end\n\n					end\n					\n					if (found_potion) then\n					    amount = amount + 1\n					end    \n				    end\n				end\n\n				--return:\n				return total, top, amount\n				",
-			["spellid"] = false,
-			["tooltip"] = "			--init:\n			local player, combat, instance = ...\n\n			--get the buff container for all the others potions\n			local buff_uptime_container = player.buff_uptime and player.buff_uptime_spell_tables and player.buff_uptime_spell_tables._ActorTable\n			if (buff_uptime_container) then\n			    --potion of the jade serpent\n			    local jade_serpent_potion = buff_uptime_container[53908]\n			    if (jade_serpent_potion) then\n				local name, _, icon = GetSpellInfo(53908)\n				GameCooltip:AddLine(name, jade_serpent_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n			    \n			    --potion of mogu power\n			    local mogu_power_potion = buff_uptime_container[53909]\n			    if (mogu_power_potion) then\n				local name, _, icon = GetSpellInfo(53909)\n				GameCooltip:AddLine(name, mogu_power_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n			    \n			    --virmen's bite\n			    local virmens_bite_potion = buff_uptime_container[28494]\n			    if (virmens_bite_potion) then\n				local name, _, icon = GetSpellInfo(28494)\n				GameCooltip:AddLine(name, virmens_bite_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n				--armor potion\n			    local armor_potion = buff_uptime_container[53762]\n			    if (armor_potion) then\n				local name, _, icon = GetSpellInfo(53762)\n				GameCooltip:AddLine(name, armor_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n				\n			end\n		",
-		}, -- [1]
-		{
-			["source"] = "[raid]",
-			["author"] = "Details!",
-			["desc"] = "Show who in your raid group used the healthstone.",
-			["icon"] = "Interface\\ICONS\\INV_Stone_04",
-			["name"] = "Healthstone Used",
-			["attribute"] = "healdone",
-			["target"] = "[raid]",
-			["script"] = false,
-			["spellid"] = 47875,
-			["tooltip"] = false,
-		}, -- [2]
-		{
-			["source"] = false,
-			["author"] = "Details!",
-			["percent_script"] = "				local value, top, total, combat, instance = ...\n				return string.format(\"%.1f\", value/top*100)\n			",
-			["desc"] = "Tells how much time each character spent doing damage.",
-			["icon"] = "Interface\\ICONS\\Achievement_PVP_H_06",
-			["attribute"] = false,
-			["name"] = "Damage Activity Time",
-			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, amount = 0, 0\n\n				--get the misc actor container\n				local damage_container = combat:GetActorList( DETAILS_ATTRIBUTE_DAMAGE )\n				\n				--do the loop:\n				for _, player in ipairs( damage_container ) do \n					if (player.group) then\n						local activity = player:Time()\n						total = total + activity\n						amount = amount + 1\n						--add amount to the player \n						instance_container:AddValue(player, activity)\n					end\n				end\n				\n				--return:\n				return total, combat:GetCombatTime(), amount\n			",
-			["target"] = false,
-			["total_script"] = "				local value, top, total, combat, instance = ...\n				local minutes, seconds = math.floor(value/60), math.floor(value%60)\n				return minutes .. \"m \" .. seconds .. \"s\"\n			",
-			["spellid"] = false,
-			["tooltip"] = "				\n			",
-		}, -- [3]
-		{
-			["source"] = false,
-			["author"] = "Details!",
-			["percent_script"] = "				local value, top, total, combat, instance = ...\n				return string.format(\"%.1f\", value/top*100)\n			",
-			["desc"] = "Tells how much time each character spent doing healing.",
-			["icon"] = "Interface\\ICONS\\Achievement_PVP_G_06",
-			["attribute"] = false,
-			["name"] = "Healing Activity Time",
-			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n\n				--get the misc actor container\n				local damage_container = combat:GetActorList( DETAILS_ATTRIBUTE_HEAL )\n				\n				--do the loop:\n				for _, player in ipairs( damage_container ) do \n					if (player.group) then\n						local activity = player:Time()\n						total = total + activity\n						amount = amount + 1\n						--add amount to the player \n						instance_container:AddValue(player, activity)\n					end\n				end\n				\n				--return:\n				return total, combat:GetCombatTime(), amount\n			",
-			["target"] = false,
-			["total_script"] = "				local value, top, total, combat, instance = ...\n				local minutes, seconds = math.floor(value/60), math.floor(value%60)\n				return minutes .. \"m \" .. seconds .. \"s\"\n			",
-			["spellid"] = false,
-			["tooltip"] = "				\n			",
-		}, -- [4]
-		{
-			["source"] = false,
-			["author"] = "Details!",
-			["desc"] = "Show the damage of enemy spells against your group.",
-			["icon"] = "Interface\\ICONS\\spell_mage_infernoblast",
-			["name"] = "Damage Taken By Spell",
-			["attribute"] = false,
-			["target"] = false,
-			["script"] = "				--> get the parameters passed\n				local combat, instance_container, instance = ...\n				--> declare the values to return\n				local total, top, amount = 0, 0, 0\n				--> get a list of all damage actors\n				local AllDamageCharacters = combat:GetActorList(DETAILS_ATTRIBUTE_DAMAGE)\n				--> no amount increase for repeated spells\n				local NoRepeat = {}\n				--> do a loop among the actors\n				for index, character in ipairs(AllDamageCharacters) do\n\n					--> is the actor an enemy?\n					if (character:IsEnemy()) then\n\n						local AllSpells = character:GetSpellList()\n\n						for spellid, spell in pairs(AllSpells) do\n							if (spell.total >= 1 and spellid > 10) then\n								instance_container:AddValue(spell, spell.total)\n\n								total = total + spell.total\n\n								if (top < spell.total) then\n									top = spell.total\n								end\n\n								if (not NoRepeat[spellid]) then\n									amount = amount + 1\n									NoRepeat[spellid] = true\n								end\n							end\n						end\n					end\n				end\n				--> return\n				return total, top, amount\n			",
-			["spellid"] = false,
-			["tooltip"] = "				--> get the parameters passed\n				local actor, combat, instance = ...\n				--> get the cooltip object (we do not use the conventional GameTooltip here)\n				local GameCooltip = GameCooltip\n				--> Cooltip code\n				local from_spell = actor.id\n				--> get a list of all damage actors\n				local AllDamageCharacters = combat:GetActorList(DETAILS_ATTRIBUTE_DAMAGE)\n				--> hold the targets\n				local Targets = {}\n				for index, character in ipairs(AllDamageCharacters) do\n					if (character:IsEnemy()) then\n						local AllSpells = character:GetSpellList()\n\n						for spellid, spell in pairs(AllSpells) do\n							if (spellid == from_spell) then\n								for index, _table in pairs(spell.targets._ActorTable) do\n									local targetname = _table.name\n									local amount = _table.total\n									local got = false\n									for index, t in ipairs(Targets) do\n										if (t[1] == targetname) then\n											t[2] = t[2] + amount\n											got = true\n											break\n										end\n									end\n									if (not got) then\n										Targets[#Targets+1] = {targetname, amount}\n									end\n								end\n							end\n						end\n					end\n				end\n				table.sort(Targets, _details.Sort2)\n				for index, t in ipairs(Targets) do\n					GameCooltip:AddLine(t[1], _details:ToK2(t[2]))\n					_details:AddTooltipBackgroundStatusbar()\n					local class = _details:GetClass(t[1])\n					if (class) then\n						local texture, l, r, t, b = _details:GetClassIcon(class)\n						GameCooltip:AddIcon(texture, 1, 1, 14, 14, l, r, t, b)\n					end\n				end\n			",
-		}, -- [5]
-	},
-	["lastUpdateWarning"] = 0,
-	["always_use_profile"] = false,
-	["report_where"] = "SAY",
 	["realm_sync"] = true,
-	["performance_profiles"] = {
-		["Dungeon"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["RaidFinder"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Battleground15"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Battleground40"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Mythic"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Arena"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Raid30"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-		["Raid15"] = {
-			["enabled"] = false,
-			["update_speed"] = 1,
-			["miscdata"] = true,
-			["aura"] = true,
-			["heal"] = true,
-			["use_row_animations"] = false,
-			["energy"] = false,
-			["damage"] = true,
-		},
-	},
-	["switchSaved"] = {
-		["slots"] = 14,
-		["table"] = {
-			{
-				["attribute"] = 1,
-				["sub_attribute"] = 1,
-			}, -- [1]
-			{
-				["attribute"] = 2,
-				["sub_attribute"] = 1,
-			}, -- [2]
-			{
-				["attribute"] = 1,
-				["sub_attribute"] = 6,
-			}, -- [3]
-			{
-				["attribute"] = 4,
-				["sub_attribute"] = 5,
-			}, -- [4]
-			{
-			}, -- [5]
-			{
-			}, -- [6]
-			{
-			}, -- [7]
-			{
-			}, -- [8]
-			{
-			}, -- [9]
-			{
-			}, -- [10]
-			{
-			}, -- [11]
-			{
-			}, -- [12]
-			{
-			}, -- [13]
-			{
-			}, -- [14]
-		},
-	},
-	["savedTimeCaptures"] = {
-	},
-	["savedCustomSpells"] = {
-		{
-			5, -- [1]
-			"Environment (Fatigue)", -- [2]
-			"Interface\\ICONS\\Spell_Arcane_MindMastery", -- [3]
-		}, -- [1]
-		{
-			1, -- [1]
-			"Melee", -- [2]
-			"Interface\\AddOns\\Details\\images\\melee.tga", -- [3]
-		}, -- [2]
-		{
-			7, -- [1]
-			"Environment (Lava)", -- [2]
-			"Interface\\AddOns\\Details\\images\\Ability_Rhyolith_Volcano", -- [3]
-		}, -- [3]
-		{
-			2, -- [1]
-			"Auto Shot", -- [2]
-			"Interface\\AddOns\\Details\\images\\autoshot.tga", -- [3]
-		}, -- [4]
-		{
-			8, -- [1]
-			"Environment (Slime)", -- [2]
-			"Interface\\ICONS\\Ability_Creature_Poison_02", -- [3]
-		}, -- [5]
-		{
-			3, -- [1]
-			"Environment (falling)", -- [2]
-			"Interface\\ICONS\\Spell_Magic_FeatherFall", -- [3]
-		}, -- [6]
-		{
-			4, -- [1]
-			"Environment (Drowning)", -- [2]
-			"Interface\\ICONS\\Ability_Suffocate", -- [3]
-		}, -- [7]
-		{
-			6, -- [1]
-			"Environment (Fire)", -- [2]
-			"Interface\\ICONS\\INV_SummerFest_FireSpirit", -- [3]
-		}, -- [8]
-	},
+	["lastUpdateWarning"] = 0,
 	["__profiles"] = {
 		["Gpt-AzerothCore"] = {
 			["capture_real"] = {
@@ -283,16 +48,17 @@ _details_global = {
 			["skin"] = "Default Skin",
 			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["report_to_who"] = "",
-			["overall_flag"] = 13,
 			["minimum_combat_time"] = 5,
+			["overall_flag"] = 13,
 			["default_bg_alpha"] = 0.5,
 			["clear_ungrouped"] = true,
-			["memory_threshold"] = 3,
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
 			["ps_abbreviation"] = 3,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 130,
+				["width"] = 320,
+			},
+			["memory_threshold"] = 3,
 			["tooltip"] = {
 				["anchor_offset"] = {
 					0, -- [1]
@@ -453,9 +219,15 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["trash_auto_remove"] = true,
-			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
+			},
 			["report_schema"] = 1,
+			["trash_auto_remove"] = true,
+			["overall_clear_newchallenge"] = true,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -545,15 +317,9 @@ _details_global = {
 					0.4, -- [3]
 				},
 			},
-			["overall_clear_newchallenge"] = true,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
-			["overall_clear_newboss"] = true,
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
-			["segments_amount_to_save"] = 5,
+			["time_type"] = 2,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -585,20 +351,19 @@ _details_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["time_type"] = 2,
+			["segments_amount_to_save"] = 5,
 			["standard_skin"] = false,
-			["total_abbreviation"] = 2,
-			["memory_ram"] = 64,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
+			["memory_ram"] = 64,
+			["overall_clear_newboss"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
 			["instances_segments_locked"] = false,
-			["new_window_size"] = {
-				["height"] = 130,
-				["width"] = 320,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["deadlog_limit"] = 12,
 			["instances"] = {
@@ -655,10 +420,7 @@ _details_global = {
 					["bars_sort_direction"] = 1,
 					["show_statusbar"] = false,
 					["menu_icons_size"] = 0.9,
-					["tooltip"] = {
-						["n_abilities"] = 3,
-						["n_enemies"] = 3,
-					},
+					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_THREAT"] = {
@@ -718,19 +480,24 @@ _details_global = {
 						1, -- [2]
 					},
 					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["w"] = 319.9999761581424,
-							["h"] = 130.0000171363351,
+					["attribute_text"] = {
+						["enabled"] = true,
+						["shadow"] = false,
+						["side"] = 1,
+						["text_color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+							1, -- [4]
 						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
+						["custom_text"] = "{name}",
+						["text_face"] = "Arial Narrow",
+						["anchor"] = {
+							-18, -- [1]
+							5, -- [2]
 						},
+						["enable_custom_text"] = false,
+						["text_size"] = 11,
 					},
 					["__locked"] = false,
 					["menu_alpha"] = {
@@ -753,7 +520,11 @@ _details_global = {
 					},
 					["switch_damager"] = false,
 					["strata"] = "LOW",
-					["bars_grow_direction"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -770,16 +541,12 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["desaturated_menu"] = false,
-					["show_sidebars"] = false,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["micro_displays_side"] = 2,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
 					},
+					["window_scale"] = 1,
 					["backdrop_texture"] = "Details Ground",
 					["plugins_grow_direction"] = 1,
 					["grab_on_top"] = false,
@@ -805,9 +572,9 @@ _details_global = {
 						["textR_outline"] = false,
 						["textL_outline"] = true,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_alpha",
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["textL_enable_custom_text"] = false,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["textL_enable_custom_text"] = false,
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = false,
 						["texture_background_class_color"] = false,
 						["percent_type"] = 1,
@@ -824,7 +591,7 @@ _details_global = {
 							0.3186, -- [4]
 						},
 						["textR_custom_text"] = "{data1}({data2}, {data3}%)",
-						["texture"] = "BantoBar",
+						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARKai_T.ttf",
 						["fixed_text_color"] = {
 							1, -- [1]
@@ -853,15 +620,15 @@ _details_global = {
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["start_after_icon"] = false,
+						["texture"] = "BantoBar",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
 					},
-					["window_scale"] = 1,
-					["micro_displays_side"] = 2,
+					["bars_grow_direction"] = 1,
+					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -883,26 +650,24 @@ _details_global = {
 					},
 					["stretch_button_side"] = 1,
 					["switch_tank_in_combat"] = false,
-					["attribute_text"] = {
-						["enabled"] = true,
-						["shadow"] = false,
-						["side"] = 1,
-						["text_color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-							1, -- [4]
+					["position"] = {
+						["normal"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["w"] = 319.9999761581424,
+							["h"] = 130.0000171363351,
 						},
-						["custom_text"] = "{name}",
-						["text_face"] = "Arial Narrow",
-						["anchor"] = {
-							-18, -- [1]
-							5, -- [2]
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
 						},
-						["enable_custom_text"] = false,
-						["text_size"] = 11,
 					},
-					["__was_opened"] = true,
+					["tooltip"] = {
+						["n_abilities"] = 3,
+						["n_enemies"] = 3,
+					},
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
@@ -929,16 +694,17 @@ _details_global = {
 			["skin"] = "Default Skin",
 			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["report_to_who"] = "",
-			["overall_flag"] = 13,
 			["minimum_combat_time"] = 5,
+			["overall_flag"] = 13,
 			["default_bg_alpha"] = 0.5,
 			["clear_ungrouped"] = true,
-			["memory_threshold"] = 3,
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
 			["ps_abbreviation"] = 3,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 130,
+				["width"] = 320,
+			},
+			["memory_threshold"] = 3,
 			["tooltip"] = {
 				["anchor_offset"] = {
 					0, -- [1]
@@ -1099,9 +865,15 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["trash_auto_remove"] = true,
-			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
+			},
 			["report_schema"] = 1,
+			["trash_auto_remove"] = true,
+			["overall_clear_newchallenge"] = true,
+			["clear_graphic"] = true,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -1191,15 +963,9 @@ _details_global = {
 					0.5, -- [3]
 				},
 			},
-			["overall_clear_newchallenge"] = true,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
-			["overall_clear_newboss"] = true,
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
-			["segments_amount_to_save"] = 5,
+			["time_type"] = 2,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -1231,20 +997,19 @@ _details_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["time_type"] = 2,
+			["segments_amount_to_save"] = 5,
 			["standard_skin"] = false,
-			["total_abbreviation"] = 2,
-			["memory_ram"] = 64,
 			["hotcorner_topleft"] = {
 				["hide"] = false,
 			},
+			["memory_ram"] = 64,
+			["overall_clear_newboss"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
 			["instances_segments_locked"] = false,
-			["new_window_size"] = {
-				["height"] = 130,
-				["width"] = 320,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["deadlog_limit"] = 12,
 			["instances"] = {
@@ -1300,11 +1065,11 @@ _details_global = {
 					["switch_healer"] = false,
 					["bars_sort_direction"] = 1,
 					["show_statusbar"] = false,
-					["__was_opened"] = true,
 					["tooltip"] = {
 						["n_abilities"] = 3,
 						["n_enemies"] = 3,
 					},
+					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
@@ -1356,6 +1121,26 @@ _details_global = {
 						},
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
+					["position"] = {
+						["normal"] = {
+							["y"] = -164.5713972364158,
+							["x"] = -563.928562344185,
+							["w"] = 152.1428562381438,
+							["h"] = 150.5713917229862,
+						},
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
+						},
+					},
+					["switch_all_roles_in_combat"] = false,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
+					["version"] = 3,
 					["attribute_text"] = {
 						["enabled"] = true,
 						["shadow"] = false,
@@ -1375,26 +1160,6 @@ _details_global = {
 						},
 						["enable_custom_text"] = false,
 					},
-					["switch_all_roles_in_combat"] = false,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
-					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = -164.5713972364158,
-							["x"] = -563.928562344185,
-							["w"] = 152.1428562381438,
-							["h"] = 150.5713917229862,
-						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
-						},
-					},
 					["__locked"] = false,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -1407,7 +1172,7 @@ _details_global = {
 					["stretch_button_side"] = 1,
 					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["micro_displays_side"] = 2,
+					["show_sidebars"] = false,
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -1424,21 +1189,20 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["switch_damager"] = false,
-					["show_sidebars"] = false,
-					["window_scale"] = 1,
+					["micro_displays_side"] = 2,
 					["bars_grow_direction"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
 						["percent_type"] = 1,
-						["fixed_texture_background_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							0.3186, -- [4]
-						},
-						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["texture"] = "BantoBar",
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
 						["fixed_texture_color"] = {
@@ -1452,7 +1216,12 @@ _details_global = {
 							["left"] = 0,
 							["between"] = 1,
 						},
-						["texture"] = "BantoBar",
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.3186, -- [4]
+						},
 						["textR_custom_text"] = "{data1}    {data2}",
 						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARHei.ttf",
@@ -1484,7 +1253,7 @@ _details_global = {
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textL_enable_custom_text"] = false,
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
 					["plugins_grow_direction"] = 1,
 					["switch_damager_in_combat"] = false,
@@ -1507,14 +1276,10 @@ _details_global = {
 					["hide_icon"] = true,
 					["hide_in_combat"] = false,
 					["backdrop_texture"] = "Details Ground",
+					["window_scale"] = 1,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
-					},
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
 					},
 					["wallpaper"] = {
 						["enabled"] = false,
@@ -1627,11 +1392,11 @@ _details_global = {
 					["switch_healer"] = false,
 					["bars_sort_direction"] = 1,
 					["hide_out_of_combat"] = false,
+					["__was_opened"] = true,
 					["tooltip"] = {
 						["n_abilities"] = 3,
 						["n_enemies"] = 3,
 					},
-					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
@@ -1689,19 +1454,24 @@ _details_global = {
 						-27, -- [1]
 						1, -- [2]
 					},
-					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = -164.5713972364158,
-							["x"] = -563.928562344185,
-							["w"] = 152.1428562381438,
-							["h"] = 150.5713917229862,
+					["bg_alpha"] = 0.3181,
+					["attribute_text"] = {
+						["enabled"] = true,
+						["shadow"] = false,
+						["side"] = 1,
+						["enable_custom_text"] = false,
+						["custom_text"] = "{name}",
+						["text_face"] = "Arial Narrow",
+						["anchor"] = {
+							-18, -- [1]
+							5, -- [2]
 						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
+						["text_size"] = 11,
+						["text_color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+							1, -- [4]
 						},
 					},
 					["__locked"] = false,
@@ -1712,7 +1482,7 @@ _details_global = {
 						["ignorebars"] = false,
 						["onleave"] = 1,
 					},
-					["plugins_grow_direction"] = 1,
+					["switch_all_roles_after_wipe"] = false,
 					["total_bar"] = {
 						["enabled"] = false,
 						["only_in_group"] = true,
@@ -1725,12 +1495,12 @@ _details_global = {
 					},
 					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["bars_grow_direction"] = 1,
+					["window_scale"] = 1,
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
 					["hide_in_combat_alpha"] = 0,
-					["switch_all_roles_after_wipe"] = false,
+					["plugins_grow_direction"] = 1,
 					["menu_icons"] = {
 						true, -- [1]
 						true, -- [2]
@@ -1742,12 +1512,15 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["switch_damager"] = false,
-					["show_sidebars"] = false,
-					["window_scale"] = 1,
+					["micro_displays_side"] = 2,
 					["row_show_animation"] = {
 						["anim"] = "Fade",
 						["options"] = {
 						},
+					},
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-2, -- [2]
 					},
 					["backdrop_texture"] = "Details Ground",
 					["show_statusbar"] = false,
@@ -1775,13 +1548,8 @@ _details_global = {
 						["textL_outline"] = false,
 						["icon_file"] = "",
 						["percent_type"] = 1,
-						["fixed_texture_background_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							0.3186, -- [4]
-						},
-						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["texture"] = "BantoBar",
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
 						["fixed_texture_color"] = {
@@ -1795,7 +1563,12 @@ _details_global = {
 							["left"] = 0,
 							["between"] = 1,
 						},
-						["texture"] = "BantoBar",
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.3186, -- [4]
+						},
 						["textR_custom_text"] = "{data1}    {data2}",
 						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARHei.ttf",
@@ -1827,13 +1600,10 @@ _details_global = {
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textL_enable_custom_text"] = false,
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-2, -- [2]
-					},
-					["micro_displays_side"] = 2,
+					["bars_grow_direction"] = 1,
+					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -1855,41 +1625,36 @@ _details_global = {
 					},
 					["stretch_button_side"] = 1,
 					["switch_tank_in_combat"] = false,
-					["attribute_text"] = {
-						["enabled"] = true,
-						["shadow"] = false,
-						["side"] = 1,
-						["enable_custom_text"] = false,
-						["custom_text"] = "{name}",
-						["text_face"] = "Arial Narrow",
-						["anchor"] = {
-							-18, -- [1]
-							5, -- [2]
+					["position"] = {
+						["normal"] = {
+							["y"] = -164.5713972364158,
+							["x"] = -563.928562344185,
+							["w"] = 152.1428562381438,
+							["h"] = 150.5713917229862,
 						},
-						["text_size"] = 11,
-						["text_color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-							1, -- [4]
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
 						},
 					},
-					["bg_alpha"] = 0.3181,
+					["version"] = 3,
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
-			["minimum_combat_time"] = 5,
+			["overall_flag"] = 13,
 			["deadlog_limit"] = 12,
 			["clear_ungrouped"] = true,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["scroll_speed"] = 2,
 			["new_window_size"] = {
 				["height"] = 130,
 				["width"] = 320,
 			},
-			["ps_abbreviation"] = 3,
+			["scroll_speed"] = 2,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["memory_threshold"] = 3,
 			["instances_segments_locked"] = false,
 			["update_speed"] = 1,
 			["data_broker_text"] = "",
@@ -1999,53 +1764,6 @@ _details_global = {
 			},
 			["disable_reset_button"] = false,
 			["profile_save_pos"] = true,
-			["overall_clear_newboss"] = true,
-			["memory_ram"] = 64,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["segments_auto_erase"] = 1,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
-			["total_abbreviation"] = 2,
-			["overall_clear_newchallenge"] = true,
-			["segments_amount_to_save"] = 5,
-			["time_type"] = 2,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["text_type"] = 1,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["hide"] = false,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["use_scroll"] = false,
-			["only_pvp_frags"] = false,
-			["default_bg_color"] = 0.0941,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
-			["report_lines"] = 5,
-			["trash_concatenate"] = false,
-			["segments_panic_mode"] = true,
-			["report_heal_links"] = false,
-			["remove_realm_from_name"] = true,
-			["row_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
-			["cloud_capture"] = true,
-			["standard_skin"] = false,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2135,9 +1853,56 @@ _details_global = {
 					0.5, -- [3]
 				},
 			},
-			["report_schema"] = 1,
+			["memory_ram"] = 64,
+			["overall_clear_newboss"] = true,
+			["segments_auto_erase"] = 1,
 			["clear_graphic"] = true,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["overall_clear_newchallenge"] = true,
+			["time_type"] = 2,
+			["segments_amount_to_save"] = 5,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["text_type"] = 1,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["hide"] = false,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["use_scroll"] = false,
+			["only_pvp_frags"] = false,
+			["default_bg_color"] = 0.0941,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["report_lines"] = 5,
+			["trash_concatenate"] = false,
+			["segments_panic_mode"] = true,
+			["report_heal_links"] = false,
+			["remove_realm_from_name"] = true,
+			["row_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["cloud_capture"] = true,
+			["standard_skin"] = false,
 			["trash_auto_remove"] = true,
+			["report_schema"] = 1,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
+			},
+			["total_abbreviation"] = 2,
 			["disable_window_groups"] = false,
 			["animate_scroll"] = false,
 			["tooltip"] = {
@@ -2193,9 +1958,9 @@ _details_global = {
 				},
 				["maximize_method"] = 1,
 			},
-			["memory_threshold"] = 3,
+			["ps_abbreviation"] = 3,
 			["default_bg_alpha"] = 0.5,
-			["overall_flag"] = 13,
+			["minimum_combat_time"] = 5,
 		},
 		["Lucy-AzerothCore"] = {
 			["capture_real"] = {
@@ -2219,17 +1984,16 @@ _details_global = {
 			["skin"] = "Default Skin",
 			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["report_to_who"] = "",
-			["minimum_combat_time"] = 5,
 			["overall_flag"] = 13,
+			["minimum_combat_time"] = 5,
 			["default_bg_alpha"] = 0.5,
 			["clear_ungrouped"] = true,
-			["ps_abbreviation"] = 3,
-			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 130,
-				["width"] = 320,
-			},
 			["memory_threshold"] = 3,
+			["scroll_speed"] = 2,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["ps_abbreviation"] = 3,
 			["tooltip"] = {
 				["anchor_offset"] = {
 					0, -- [1]
@@ -2390,6 +2154,9 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
+			["trash_auto_remove"] = true,
+			["clear_graphic"] = true,
+			["report_schema"] = 1,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -2479,20 +2246,15 @@ _details_global = {
 					0.4, -- [3]
 				},
 			},
+			["overall_clear_newchallenge"] = true,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
-			["report_schema"] = 1,
 			["overall_clear_newboss"] = true,
-			["overall_clear_newchallenge"] = true,
-			["clear_graphic"] = true,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
-			["time_type"] = 2,
+			["segments_amount_to_save"] = 5,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -2524,17 +2286,20 @@ _details_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["segments_amount_to_save"] = 5,
+			["time_type"] = 2,
 			["standard_skin"] = false,
-			["trash_auto_remove"] = true,
-			["memory_ram"] = 64,
 			["total_abbreviation"] = 2,
+			["memory_ram"] = 64,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
 			["instances_segments_locked"] = false,
-			["font_sizes"] = {
-				["menus"] = 10,
+			["new_window_size"] = {
+				["height"] = 130,
+				["width"] = 320,
 			},
 			["deadlog_limit"] = 12,
 			["instances"] = {
@@ -2590,11 +2355,11 @@ _details_global = {
 					["switch_healer"] = false,
 					["bars_sort_direction"] = 1,
 					["hide_out_of_combat"] = false,
+					["__was_opened"] = true,
 					["tooltip"] = {
 						["n_abilities"] = 3,
 						["n_enemies"] = 3,
 					},
-					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
@@ -2653,20 +2418,25 @@ _details_global = {
 						-27, -- [1]
 						1, -- [2]
 					},
-					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = -164.5713972364158,
-							["x"] = -563.928562344185,
-							["w"] = 152.1428562381438,
-							["h"] = 150.5713917229862,
+					["bg_alpha"] = 0.3181,
+					["attribute_text"] = {
+						["enabled"] = true,
+						["shadow"] = false,
+						["side"] = 1,
+						["text_size"] = 11,
+						["custom_text"] = "{name}",
+						["text_face"] = "Arial Narrow",
+						["anchor"] = {
+							-18, -- [1]
+							5, -- [2]
 						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
+						["text_color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+							1, -- [4]
 						},
+						["enable_custom_text"] = false,
 					},
 					["__locked"] = false,
 					["menu_alpha"] = {
@@ -2676,7 +2446,7 @@ _details_global = {
 						["ignorebars"] = false,
 						["onleave"] = 1,
 					},
-					["plugins_grow_direction"] = 1,
+					["switch_all_roles_after_wipe"] = false,
 					["total_bar"] = {
 						["enabled"] = false,
 						["only_in_group"] = true,
@@ -2689,16 +2459,15 @@ _details_global = {
 					},
 					["desaturated_menu"] = false,
 					["strata"] = "LOW",
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-2, -- [2]
 					},
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
 					["hide_in_combat_alpha"] = 0,
-					["switch_all_roles_after_wipe"] = false,
+					["plugins_grow_direction"] = 1,
 					["menu_icons"] = {
 						true, -- [1]
 						true, -- [2]
@@ -2710,12 +2479,9 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["switch_damager"] = false,
-					["show_sidebars"] = false,
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-2, -- [2]
-					},
+					["micro_displays_side"] = 2,
 					["bars_grow_direction"] = 1,
+					["window_scale"] = 1,
 					["backdrop_texture"] = "Details Ground",
 					["show_statusbar"] = false,
 					["grab_on_top"] = false,
@@ -2742,8 +2508,13 @@ _details_global = {
 						["textL_outline"] = false,
 						["icon_file"] = "",
 						["percent_type"] = 1,
-						["texture"] = "BantoBar",
-						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.3186, -- [4]
+						},
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
 						["fixed_texture_color"] = {
@@ -2757,12 +2528,7 @@ _details_global = {
 							["left"] = 0,
 							["between"] = 1,
 						},
-						["fixed_texture_background_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							0.3186, -- [4]
-						},
+						["texture"] = "BantoBar",
 						["textR_custom_text"] = "{data1}    {data2}",
 						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARHei.ttf",
@@ -2794,10 +2560,14 @@ _details_global = {
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textL_enable_custom_text"] = false,
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 					},
-					["window_scale"] = 1,
-					["micro_displays_side"] = 2,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
+					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -2819,26 +2589,21 @@ _details_global = {
 					},
 					["stretch_button_side"] = 1,
 					["switch_tank_in_combat"] = false,
-					["attribute_text"] = {
-						["enabled"] = true,
-						["shadow"] = false,
-						["side"] = 1,
-						["text_size"] = 11,
-						["custom_text"] = "{name}",
-						["text_face"] = "Arial Narrow",
-						["anchor"] = {
-							-18, -- [1]
-							5, -- [2]
+					["position"] = {
+						["normal"] = {
+							["y"] = -164.5713972364158,
+							["x"] = -563.928562344185,
+							["w"] = 152.1428562381438,
+							["h"] = 150.5713917229862,
 						},
-						["text_color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-							1, -- [4]
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
 						},
-						["enable_custom_text"] = false,
 					},
-					["bg_alpha"] = 0.3181,
+					["version"] = 3,
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
@@ -2865,16 +2630,17 @@ _details_global = {
 			["skin"] = "Default Skin",
 			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["report_to_who"] = "",
-			["overall_flag"] = 13,
 			["minimum_combat_time"] = 5,
+			["overall_flag"] = 13,
 			["default_bg_alpha"] = 0.5,
 			["clear_ungrouped"] = true,
-			["memory_threshold"] = 3,
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
 			["ps_abbreviation"] = 3,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 130,
+				["width"] = 320,
+			},
+			["memory_threshold"] = 3,
 			["tooltip"] = {
 				["anchor_offset"] = {
 					0, -- [1]
@@ -3035,54 +2801,6 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["overall_clear_newboss"] = true,
-			["clear_graphic"] = true,
-			["report_schema"] = 1,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["overall_clear_newchallenge"] = true,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
-			["total_abbreviation"] = 2,
-			["segments_auto_erase"] = 1,
-			["cloud_capture"] = true,
-			["segments_amount_to_save"] = 5,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["text_type"] = 1,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["hide"] = false,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["use_scroll"] = false,
-			["only_pvp_frags"] = false,
-			["remove_realm_from_name"] = true,
-			["report_heal_links"] = false,
-			["report_lines"] = 5,
-			["trash_concatenate"] = false,
-			["segments_panic_mode"] = true,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
-			["default_bg_color"] = 0.0941,
-			["row_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
-			["time_type"] = 2,
-			["standard_skin"] = false,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -3172,15 +2890,62 @@ _details_global = {
 					0.5, -- [3]
 				},
 			},
-			["memory_ram"] = 64,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
+			},
+			["report_schema"] = 1,
+			["overall_clear_newboss"] = true,
+			["overall_clear_newchallenge"] = true,
+			["clear_graphic"] = true,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["segments_auto_erase"] = 1,
+			["cloud_capture"] = true,
+			["time_type"] = 2,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["text_type"] = 1,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["hide"] = false,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["use_scroll"] = false,
+			["only_pvp_frags"] = false,
+			["remove_realm_from_name"] = true,
+			["report_heal_links"] = false,
+			["report_lines"] = 5,
+			["trash_concatenate"] = false,
+			["segments_panic_mode"] = true,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["default_bg_color"] = 0.0941,
+			["row_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["segments_amount_to_save"] = 5,
+			["standard_skin"] = false,
 			["trash_auto_remove"] = true,
+			["memory_ram"] = 64,
+			["total_abbreviation"] = 2,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
 			["instances_segments_locked"] = false,
-			["new_window_size"] = {
-				["height"] = 130,
-				["width"] = 320,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["deadlog_limit"] = 12,
 			["instances"] = {
@@ -3236,8 +3001,11 @@ _details_global = {
 					["switch_healer"] = false,
 					["bars_sort_direction"] = 1,
 					["hide_out_of_combat"] = false,
-					["version"] = 3,
-					["__was_opened"] = true,
+					["bg_alpha"] = 0.3181,
+					["tooltip"] = {
+						["n_abilities"] = 3,
+						["n_enemies"] = 3,
+					},
 					["StatusBarSaved"] = {
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
@@ -3290,26 +3058,6 @@ _details_global = {
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
-					["position"] = {
-						["normal"] = {
-							["y"] = -176.2125370470802,
-							["x"] = -429.23596696204,
-							["w"] = 320.0000715255727,
-							["h"] = 129.9999980628491,
-						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
-						},
-					},
-					["switch_all_roles_in_combat"] = false,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
-					["bg_alpha"] = 0.3181,
 					["attribute_text"] = {
 						["enabled"] = true,
 						["shadow"] = false,
@@ -3329,6 +3077,26 @@ _details_global = {
 						},
 						["enable_custom_text"] = false,
 					},
+					["switch_all_roles_in_combat"] = false,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
+					["version"] = 3,
+					["position"] = {
+						["normal"] = {
+							["y"] = -176.2125370470802,
+							["x"] = -429.23596696204,
+							["w"] = 320.0000715255727,
+							["h"] = 129.9999980628491,
+						},
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
+						},
+					},
 					["__locked"] = false,
 					["menu_alpha"] = {
 						["enabled"] = false,
@@ -3341,12 +3109,12 @@ _details_global = {
 					["stretch_button_side"] = 1,
 					["switch_damager"] = false,
 					["strata"] = "LOW",
-					["show_sidebars"] = false,
+					["micro_displays_side"] = 2,
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
 					["hide_in_combat_alpha"] = 0,
-					["switch_all_roles_after_wipe"] = false,
+					["plugins_grow_direction"] = 1,
 					["menu_icons"] = {
 						true, -- [1]
 						true, -- [2]
@@ -3358,16 +3126,20 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["desaturated_menu"] = false,
-					["micro_displays_side"] = 2,
-					["bars_grow_direction"] = 1,
+					["show_sidebars"] = false,
 					["window_scale"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = true,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_alpha",
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["textL_enable_custom_text"] = false,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["textL_enable_custom_text"] = false,
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = false,
 						["texture_background_class_color"] = false,
 						["percent_type"] = 1,
@@ -3384,7 +3156,7 @@ _details_global = {
 							0.3186, -- [4]
 						},
 						["textR_custom_text"] = "{data1}({data2}, {data3}%)",
-						["start_after_icon"] = false,
+						["texture"] = "BantoBar",
 						["font_face_file"] = "Fonts\\ARKai_T.ttf",
 						["fixed_text_color"] = {
 							1, -- [1]
@@ -3413,7 +3185,7 @@ _details_global = {
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["texture"] = "BantoBar",
+						["start_after_icon"] = false,
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -3441,14 +3213,10 @@ _details_global = {
 					["grab_on_top"] = false,
 					["hide_in_combat"] = false,
 					["backdrop_texture"] = "Details Ground",
+					["bars_grow_direction"] = 1,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
-					},
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
 					},
 					["wallpaper"] = {
 						["enabled"] = false,
@@ -3479,12 +3247,9 @@ _details_global = {
 							1, -- [3]
 						},
 					},
-					["plugins_grow_direction"] = 1,
+					["switch_all_roles_after_wipe"] = false,
 					["menu_icons_size"] = 0.9,
-					["tooltip"] = {
-						["n_abilities"] = 3,
-						["n_enemies"] = 3,
-					},
+					["__was_opened"] = true,
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
@@ -3669,7 +3434,7 @@ _details_global = {
 						["onleave"] = 1,
 					},
 					["switch_damager"] = false,
-					["show_sidebars"] = false,
+					["hide_out_of_combat"] = false,
 					["bg_alpha"] = 0.3181,
 					["strata"] = "LOW",
 					["switch_tank_in_combat"] = false,
@@ -3689,25 +3454,24 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["desaturated_menu"] = false,
-					["micro_displays_side"] = 2,
+					["show_sidebars"] = false,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
 					},
-					["window_scale"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["grab_on_top"] = false,
 					["row_info"] = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "",
 						["percent_type"] = 1,
-						["fixed_texture_background_color"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							0.3186, -- [4]
-						},
-						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["texture"] = "Minimalist",
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = true,
 						["texture_background_class_color"] = false,
 						["fixed_texture_color"] = {
@@ -3721,7 +3485,12 @@ _details_global = {
 							["left"] = 0,
 							["between"] = 1,
 						},
-						["texture"] = "Minimalist",
+						["fixed_texture_background_color"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							0.3186, -- [4]
+						},
 						["textR_custom_text"] = "{data1}    {data2}",
 						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARHei.ttf",
@@ -3752,7 +3521,7 @@ _details_global = {
 						["texture_class_colors"] = true,
 						["height"] = 15,
 						["texture_file"] = "Interface\\AddOns\\ElvUI\\Media\\Textures\\Minimalist.tga",
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
+						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 						["textL_enable_custom_text"] = false,
 					},
 					["backdrop_texture"] = "Details Ground",
@@ -3774,7 +3543,7 @@ _details_global = {
 					["bg_g"] = 0.0941,
 					["show_statusbar"] = false,
 					["hide_in_combat"] = false,
-					["bars_grow_direction"] = 1,
+					["micro_displays_side"] = 2,
 					["switch_damager_in_combat"] = false,
 					["menu_icons_size"] = 0.9,
 					["wallpaper"] = {
@@ -3797,7 +3566,6 @@ _details_global = {
 						["width"] = 0,
 					},
 					["stretch_button_side"] = 1,
-					["hide_out_of_combat"] = false,
 					["total_bar"] = {
 						["enabled"] = false,
 						["only_in_group"] = true,
@@ -3808,26 +3576,23 @@ _details_global = {
 							1, -- [3]
 						},
 					},
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["bars_grow_direction"] = 1,
+					["window_scale"] = 1,
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
-			["overall_flag"] = 13,
+			["minimum_combat_time"] = 5,
 			["deadlog_limit"] = 12,
 			["clear_ungrouped"] = true,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["scroll_speed"] = 2,
 			["new_window_size"] = {
 				["height"] = 130,
 				["width"] = 320,
 			},
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["memory_threshold"] = 3,
+			["ps_abbreviation"] = 3,
 			["instances_segments_locked"] = false,
 			["update_speed"] = 1,
 			["data_broker_text"] = "",
@@ -3937,6 +3702,8 @@ _details_global = {
 			},
 			["disable_reset_button"] = false,
 			["profile_save_pos"] = true,
+			["trash_auto_remove"] = true,
+			["memory_ram"] = 64,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -4026,16 +3793,15 @@ _details_global = {
 					0.5, -- [3]
 				},
 			},
-			["memory_ram"] = 64,
-			["overall_clear_newboss"] = true,
 			["segments_auto_erase"] = 1,
-			["clear_graphic"] = true,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
 			},
+			["overall_clear_newboss"] = true,
 			["overall_clear_newchallenge"] = true,
-			["time_type"] = 2,
 			["segments_amount_to_save"] = 5,
+			["time_type"] = 2,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -4069,13 +3835,12 @@ _details_global = {
 			},
 			["cloud_capture"] = true,
 			["standard_skin"] = false,
-			["trash_auto_remove"] = true,
-			["report_schema"] = 1,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
 			["total_abbreviation"] = 2,
+			["report_schema"] = 1,
+			["clear_graphic"] = true,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
 			["disable_window_groups"] = false,
 			["animate_scroll"] = false,
 			["tooltip"] = {
@@ -4131,9 +3896,9 @@ _details_global = {
 				},
 				["maximize_method"] = 1,
 			},
-			["ps_abbreviation"] = 3,
+			["memory_threshold"] = 3,
 			["default_bg_alpha"] = 0.5,
-			["minimum_combat_time"] = 5,
+			["overall_flag"] = 31,
 		},
 		["Entropy-AzerothCore"] = {
 			["capture_real"] = {
@@ -4157,16 +3922,17 @@ _details_global = {
 			["skin"] = "Default Skin",
 			["class_icons_small"] = "Interface\\AddOns\\Details\\images\\classes_small",
 			["report_to_who"] = "",
-			["overall_flag"] = 13,
 			["minimum_combat_time"] = 5,
+			["overall_flag"] = 13,
 			["default_bg_alpha"] = 0.5,
 			["clear_ungrouped"] = true,
-			["memory_threshold"] = 3,
-			["scroll_speed"] = 2,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
 			["ps_abbreviation"] = 3,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 130,
+				["width"] = 320,
+			},
+			["memory_threshold"] = 3,
 			["tooltip"] = {
 				["anchor_offset"] = {
 					0, -- [1]
@@ -4327,21 +4093,21 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["clear_graphic"] = true,
-			["report_schema"] = 1,
-			["total_abbreviation"] = 2,
-			["overall_clear_newchallenge"] = true,
+			["overall_clear_newboss"] = true,
 			["windows_fade_in"] = {
 				"in", -- [1]
 				0.2, -- [2]
 			},
-			["trash_auto_remove"] = true,
+			["report_schema"] = 1,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["overall_clear_newchallenge"] = true,
+			["clear_graphic"] = true,
+			["total_abbreviation"] = 2,
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
-			["segments_amount_to_save"] = 5,
+			["time_type"] = 2,
 			["minimap"] = {
 				["onclick_what_todo"] = 1,
 				["radius"] = 160,
@@ -4373,10 +4139,8 @@ _details_global = {
 				"out", -- [1]
 				0.2, -- [2]
 			},
-			["time_type"] = 2,
+			["segments_amount_to_save"] = 5,
 			["standard_skin"] = false,
-			["overall_clear_newboss"] = true,
-			["memory_ram"] = 64,
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -4466,13 +4230,14 @@ _details_global = {
 					0.4, -- [3]
 				},
 			},
+			["memory_ram"] = 64,
+			["trash_auto_remove"] = true,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
 			["instances_segments_locked"] = false,
-			["new_window_size"] = {
-				["height"] = 130,
-				["width"] = 320,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["deadlog_limit"] = 12,
 			["instances"] = {
@@ -4529,10 +4294,7 @@ _details_global = {
 					["bars_sort_direction"] = 1,
 					["show_statusbar"] = false,
 					["menu_icons_size"] = 0.9,
-					["tooltip"] = {
-						["n_abilities"] = 3,
-						["n_enemies"] = 3,
-					},
+					["__was_opened"] = true,
 					["StatusBarSaved"] = {
 						["left"] = "DETAILS_STATUSBAR_PLUGIN_THREAT",
 						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
@@ -4592,19 +4354,24 @@ _details_global = {
 						1, -- [2]
 					},
 					["version"] = 3,
-					["position"] = {
-						["normal"] = {
-							["y"] = 0,
-							["x"] = 0,
-							["w"] = 319.9999761581424,
-							["h"] = 130.0000171363351,
+					["attribute_text"] = {
+						["enabled"] = true,
+						["shadow"] = false,
+						["side"] = 1,
+						["text_color"] = {
+							1, -- [1]
+							1, -- [2]
+							1, -- [3]
+							1, -- [4]
 						},
-						["solo"] = {
-							["y"] = 2,
-							["x"] = 1,
-							["w"] = 300,
-							["h"] = 200,
+						["custom_text"] = "{name}",
+						["text_face"] = "Arial Narrow",
+						["anchor"] = {
+							-18, -- [1]
+							5, -- [2]
 						},
+						["enable_custom_text"] = false,
+						["text_size"] = 11,
 					},
 					["__locked"] = false,
 					["menu_alpha"] = {
@@ -4627,7 +4394,11 @@ _details_global = {
 					},
 					["switch_damager"] = false,
 					["strata"] = "LOW",
-					["bars_grow_direction"] = 1,
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
+					},
 					["__snap"] = {
 					},
 					["switch_tank"] = false,
@@ -4644,16 +4415,12 @@ _details_global = {
 						["shadow"] = false,
 					},
 					["desaturated_menu"] = false,
-					["show_sidebars"] = false,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["micro_displays_side"] = 2,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-2, -- [2]
 					},
+					["window_scale"] = 1,
 					["backdrop_texture"] = "Details Ground",
 					["plugins_grow_direction"] = 1,
 					["hide_icon"] = true,
@@ -4679,9 +4446,9 @@ _details_global = {
 						["textR_outline"] = false,
 						["textL_outline"] = true,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_alpha",
-						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["textL_enable_custom_text"] = false,
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["textL_enable_custom_text"] = false,
+						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4",
 						["textR_enable_custom_text"] = false,
 						["texture_background_class_color"] = false,
 						["percent_type"] = 1,
@@ -4698,7 +4465,7 @@ _details_global = {
 							0.3186, -- [4]
 						},
 						["textR_custom_text"] = "{data1}({data2}, {data3}%)",
-						["texture"] = "BantoBar",
+						["start_after_icon"] = false,
 						["font_face_file"] = "Fonts\\ARKai_T.ttf",
 						["fixed_text_color"] = {
 							1, -- [1]
@@ -4727,15 +4494,15 @@ _details_global = {
 						["texture_class_colors"] = true,
 						["height"] = 14,
 						["texture_file"] = "Interface\\AddOns\\Details\\images\\bar4",
-						["start_after_icon"] = false,
+						["texture"] = "BantoBar",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
 					},
-					["window_scale"] = 1,
-					["micro_displays_side"] = 2,
+					["bars_grow_direction"] = 1,
+					["show_sidebars"] = false,
 					["wallpaper"] = {
 						["enabled"] = false,
 						["texcoord"] = {
@@ -4757,29 +4524,262 @@ _details_global = {
 					},
 					["stretch_button_side"] = 1,
 					["switch_tank_in_combat"] = false,
-					["attribute_text"] = {
-						["enabled"] = true,
-						["shadow"] = false,
-						["side"] = 1,
-						["text_color"] = {
-							1, -- [1]
-							1, -- [2]
-							1, -- [3]
-							1, -- [4]
+					["position"] = {
+						["normal"] = {
+							["y"] = 0,
+							["x"] = 0,
+							["w"] = 319.9999761581424,
+							["h"] = 130.0000171363351,
 						},
-						["custom_text"] = "{name}",
-						["text_face"] = "Arial Narrow",
-						["anchor"] = {
-							-18, -- [1]
-							5, -- [2]
+						["solo"] = {
+							["y"] = 2,
+							["x"] = 1,
+							["w"] = 300,
+							["h"] = 200,
 						},
-						["enable_custom_text"] = false,
-						["text_size"] = 11,
 					},
-					["__was_opened"] = true,
+					["tooltip"] = {
+						["n_abilities"] = 3,
+						["n_enemies"] = 3,
+					},
 					["bg_b"] = 0.0941,
 				}, -- [1]
 			},
 		},
 	},
+	["switchSaved"] = {
+		["slots"] = 14,
+		["table"] = {
+			{
+				["attribute"] = 1,
+				["sub_attribute"] = 1,
+			}, -- [1]
+			{
+				["attribute"] = 2,
+				["sub_attribute"] = 1,
+			}, -- [2]
+			{
+				["attribute"] = 1,
+				["sub_attribute"] = 6,
+			}, -- [3]
+			{
+				["attribute"] = 4,
+				["sub_attribute"] = 5,
+			}, -- [4]
+			{
+			}, -- [5]
+			{
+			}, -- [6]
+			{
+			}, -- [7]
+			{
+			}, -- [8]
+			{
+			}, -- [9]
+			{
+			}, -- [10]
+			{
+			}, -- [11]
+			{
+			}, -- [12]
+			{
+			}, -- [13]
+			{
+			}, -- [14]
+		},
+	},
+	["custom"] = {
+		{
+			["source"] = false,
+			["author"] = "Details!",
+			["desc"] = "Show who in your raid used a potion during the encounter.",
+			["attribute"] = false,
+			["name"] = "Potion Used",
+			["icon"] = "Interface\\ICONS\\INV_Alchemy_Elixir_04",
+			["target"] = false,
+			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n\n				--get the misc actor container\n				local misc_container = combat:GetActorList( DETAILS_ATTRIBUTE_MISC )\n\n				--do the loop:\n				for _, player in ipairs( misc_container ) do \n				    \n				    --only player in group\n				    if (player:IsGroupPlayer()) then\n					\n					local found_potion = false\n					\n					--get the spell debuff uptime container\n					local debuff_uptime_container = player.debuff_uptime and player.debuff_uptime_spell_tables and player.debuff_uptime_spell_tables._ActorTable\n					\n					--get the spell buff uptime container\n					local buff_uptime_container = player.buff_uptime and player.buff_uptime_spell_tables and player.buff_uptime_spell_tables._ActorTable\n					if (buff_uptime_container) then\n					    \n					    --potion of the jade serpent\n					    local potion_of_speed = buff_uptime_container[53908]\n					    if (potion_of_speed) then\n						local used = potion_of_speed.activedamt\n						if (used > 0) then\n						    total = total + used\n						    found_potion = true\n						    if (used > top) then\n							top = used\n						    end\n						    --add amount to the player \n						    instance_container:AddValue(player, used)\n						end\n					    end\n					    \n					    --potion of mogu power\n					    local potion_of_wild_magic = buff_uptime_container[53909]\n					    if (potion_of_wild_magic) then\n						local used = potion_of_wild_magic.activedamt\n						if (used > 0) then\n						    total = total + used\n						    found_potion = true\n						    if (used > top) then\n							top = used\n						    end\n						    --add amount to the player \n						    instance_container:AddValue(player, used)\n						end\n					    end\n					    \n					    --virmen's bite\n					    local insane_strength_potion = buff_uptime_container[28494]\n					    if (insane_strength_potion) then\n							local used = insane_strength_potion.activedamt\n							if (used > 0) then\n								total = total + used\n								found_potion = true\n								if (used > top) then\n									top = used\n								end\n								--add amount to the player \n								instance_container:AddValue(player, used)\n							end\n					    end\n						\n						--armor potion\n					    local armor_potion = buff_uptime_container[53762]\n					    if (armor_potion) then\n							local used = armor_potion.activedamt\n							if (used > 0) then\n								total = total + used\n								found_potion = true\n								if (used > top) then\n									top = used\n								end\n								--add amount to the player \n								instance_container:AddValue(player, used)\n							end\n					    end\n\n					end\n					\n					if (found_potion) then\n					    amount = amount + 1\n					end    \n				    end\n				end\n\n				--return:\n				return total, top, amount\n				",
+			["spellid"] = false,
+			["tooltip"] = "			--init:\n			local player, combat, instance = ...\n\n			--get the buff container for all the others potions\n			local buff_uptime_container = player.buff_uptime and player.buff_uptime_spell_tables and player.buff_uptime_spell_tables._ActorTable\n			if (buff_uptime_container) then\n			    --potion of the jade serpent\n			    local jade_serpent_potion = buff_uptime_container[53908]\n			    if (jade_serpent_potion) then\n				local name, _, icon = GetSpellInfo(53908)\n				GameCooltip:AddLine(name, jade_serpent_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n			    \n			    --potion of mogu power\n			    local mogu_power_potion = buff_uptime_container[53909]\n			    if (mogu_power_potion) then\n				local name, _, icon = GetSpellInfo(53909)\n				GameCooltip:AddLine(name, mogu_power_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n			    \n			    --virmen's bite\n			    local virmens_bite_potion = buff_uptime_container[28494]\n			    if (virmens_bite_potion) then\n				local name, _, icon = GetSpellInfo(28494)\n				GameCooltip:AddLine(name, virmens_bite_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n				--armor potion\n			    local armor_potion = buff_uptime_container[53762]\n			    if (armor_potion) then\n				local name, _, icon = GetSpellInfo(53762)\n				GameCooltip:AddLine(name, armor_potion.activedamt)\n				_details:AddTooltipBackgroundStatusbar()\n				GameCooltip:AddIcon(icon, 1, 1, 14, 14)\n			    end\n				\n			end\n		",
+		}, -- [1]
+		{
+			["source"] = "[raid]",
+			["author"] = "Details!",
+			["desc"] = "Show who in your raid group used the healthstone.",
+			["attribute"] = "healdone",
+			["name"] = "Healthstone Used",
+			["icon"] = "Interface\\ICONS\\INV_Stone_04",
+			["target"] = "[raid]",
+			["script"] = false,
+			["spellid"] = 47875,
+			["tooltip"] = false,
+		}, -- [2]
+		{
+			["source"] = false,
+			["author"] = "Details!",
+			["percent_script"] = "				local value, top, total, combat, instance = ...\n				return string.format(\"%.1f\", value/top*100)\n			",
+			["desc"] = "Tells how much time each character spent doing damage.",
+			["attribute"] = false,
+			["icon"] = "Interface\\ICONS\\Achievement_PVP_H_06",
+			["name"] = "Damage Activity Time",
+			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, amount = 0, 0\n\n				--get the misc actor container\n				local damage_container = combat:GetActorList( DETAILS_ATTRIBUTE_DAMAGE )\n				\n				--do the loop:\n				for _, player in ipairs( damage_container ) do \n					if (player.group) then\n						local activity = player:Time()\n						total = total + activity\n						amount = amount + 1\n						--add amount to the player \n						instance_container:AddValue(player, activity)\n					end\n				end\n				\n				--return:\n				return total, combat:GetCombatTime(), amount\n			",
+			["target"] = false,
+			["total_script"] = "				local value, top, total, combat, instance = ...\n				local minutes, seconds = math.floor(value/60), math.floor(value%60)\n				return minutes .. \"m \" .. seconds .. \"s\"\n			",
+			["spellid"] = false,
+			["tooltip"] = "				\n			",
+		}, -- [3]
+		{
+			["source"] = false,
+			["author"] = "Details!",
+			["percent_script"] = "				local value, top, total, combat, instance = ...\n				return string.format(\"%.1f\", value/top*100)\n			",
+			["desc"] = "Tells how much time each character spent doing healing.",
+			["attribute"] = false,
+			["icon"] = "Interface\\ICONS\\Achievement_PVP_G_06",
+			["name"] = "Healing Activity Time",
+			["script"] = "				--init:\n				local combat, instance_container, instance = ...\n				local total, top, amount = 0, 0, 0\n\n				--get the misc actor container\n				local damage_container = combat:GetActorList( DETAILS_ATTRIBUTE_HEAL )\n				\n				--do the loop:\n				for _, player in ipairs( damage_container ) do \n					if (player.group) then\n						local activity = player:Time()\n						total = total + activity\n						amount = amount + 1\n						--add amount to the player \n						instance_container:AddValue(player, activity)\n					end\n				end\n				\n				--return:\n				return total, combat:GetCombatTime(), amount\n			",
+			["target"] = false,
+			["total_script"] = "				local value, top, total, combat, instance = ...\n				local minutes, seconds = math.floor(value/60), math.floor(value%60)\n				return minutes .. \"m \" .. seconds .. \"s\"\n			",
+			["spellid"] = false,
+			["tooltip"] = "				\n			",
+		}, -- [4]
+		{
+			["source"] = false,
+			["author"] = "Details!",
+			["desc"] = "Show the damage of enemy spells against your group.",
+			["attribute"] = false,
+			["name"] = "Damage Taken By Spell",
+			["icon"] = "Interface\\ICONS\\spell_mage_infernoblast",
+			["target"] = false,
+			["script"] = "				--> get the parameters passed\n				local combat, instance_container, instance = ...\n				--> declare the values to return\n				local total, top, amount = 0, 0, 0\n				--> get a list of all damage actors\n				local AllDamageCharacters = combat:GetActorList(DETAILS_ATTRIBUTE_DAMAGE)\n				--> no amount increase for repeated spells\n				local NoRepeat = {}\n				--> do a loop among the actors\n				for index, character in ipairs(AllDamageCharacters) do\n\n					--> is the actor an enemy?\n					if (character:IsEnemy()) then\n\n						local AllSpells = character:GetSpellList()\n\n						for spellid, spell in pairs(AllSpells) do\n							if (spell.total >= 1 and spellid > 10) then\n								instance_container:AddValue(spell, spell.total)\n\n								total = total + spell.total\n\n								if (top < spell.total) then\n									top = spell.total\n								end\n\n								if (not NoRepeat[spellid]) then\n									amount = amount + 1\n									NoRepeat[spellid] = true\n								end\n							end\n						end\n					end\n				end\n				--> return\n				return total, top, amount\n			",
+			["spellid"] = false,
+			["tooltip"] = "				--> get the parameters passed\n				local actor, combat, instance = ...\n				--> get the cooltip object (we do not use the conventional GameTooltip here)\n				local GameCooltip = GameCooltip\n				--> Cooltip code\n				local from_spell = actor.id\n				--> get a list of all damage actors\n				local AllDamageCharacters = combat:GetActorList(DETAILS_ATTRIBUTE_DAMAGE)\n				--> hold the targets\n				local Targets = {}\n				for index, character in ipairs(AllDamageCharacters) do\n					if (character:IsEnemy()) then\n						local AllSpells = character:GetSpellList()\n\n						for spellid, spell in pairs(AllSpells) do\n							if (spellid == from_spell) then\n								for index, _table in pairs(spell.targets._ActorTable) do\n									local targetname = _table.name\n									local amount = _table.total\n									local got = false\n									for index, t in ipairs(Targets) do\n										if (t[1] == targetname) then\n											t[2] = t[2] + amount\n											got = true\n											break\n										end\n									end\n									if (not got) then\n										Targets[#Targets+1] = {targetname, amount}\n									end\n								end\n							end\n						end\n					end\n				end\n				table.sort(Targets, _details.Sort2)\n				for index, t in ipairs(Targets) do\n					GameCooltip:AddLine(t[1], _details:ToK2(t[2]))\n					_details:AddTooltipBackgroundStatusbar()\n					local class = _details:GetClass(t[1])\n					if (class) then\n						local texture, l, r, t, b = _details:GetClassIcon(class)\n						GameCooltip:AddIcon(texture, 1, 1, 14, 14, l, r, t, b)\n					end\n				end\n			",
+		}, -- [5]
+	},
+	["performance_profiles"] = {
+		["Dungeon"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["RaidFinder"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Battleground15"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Battleground40"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Mythic"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Arena"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Raid30"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+		["Raid15"] = {
+			["enabled"] = false,
+			["update_speed"] = 1,
+			["miscdata"] = true,
+			["aura"] = true,
+			["heal"] = true,
+			["use_row_animations"] = false,
+			["energy"] = false,
+			["damage"] = true,
+		},
+	},
+	["report_where"] = "SAY",
+	["savedTimeCaptures"] = {
+	},
+	["savedCustomSpells"] = {
+		{
+			5, -- [1]
+			"Environment (Fatigue)", -- [2]
+			"Interface\\ICONS\\Spell_Arcane_MindMastery", -- [3]
+		}, -- [1]
+		{
+			1, -- [1]
+			"Melee", -- [2]
+			"Interface\\AddOns\\Details\\images\\melee.tga", -- [3]
+		}, -- [2]
+		{
+			7, -- [1]
+			"Environment (Lava)", -- [2]
+			"Interface\\AddOns\\Details\\images\\Ability_Rhyolith_Volcano", -- [3]
+		}, -- [3]
+		{
+			2, -- [1]
+			"Auto Shot", -- [2]
+			"Interface\\AddOns\\Details\\images\\autoshot.tga", -- [3]
+		}, -- [4]
+		{
+			8, -- [1]
+			"Environment (Slime)", -- [2]
+			"Interface\\ICONS\\Ability_Creature_Poison_02", -- [3]
+		}, -- [5]
+		{
+			3, -- [1]
+			"Environment (falling)", -- [2]
+			"Interface\\ICONS\\Spell_Magic_FeatherFall", -- [3]
+		}, -- [6]
+		{
+			4, -- [1]
+			"Environment (Drowning)", -- [2]
+			"Interface\\ICONS\\Ability_Suffocate", -- [3]
+		}, -- [7]
+		{
+			6, -- [1]
+			"Environment (Fire)", -- [2]
+			"Interface\\ICONS\\INV_SummerFest_FireSpirit", -- [3]
+		}, -- [8]
+	},
+	["always_use_profile"] = false,
 }

@@ -1,17 +1,17 @@
 
 TalentedDB = {
 	["profileKeys"] = {
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
-		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Entropy - AzerothCore"] = "Entropy - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
-		["Entropy - AzerothCore"] = "Entropy - AzerothCore",
+		["Heady - AzerothCore"] = "Heady - AzerothCore",
 	},
 	["profiles"] = {
-		["Shadow - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedGlyphs"] = {
 					["y"] = 0,
@@ -20,6 +20,7 @@ TalentedDB = {
 					["anchorTo"] = "CENTER",
 				},
 			},
+			["confirmlearn"] = false,
 		},
 		["Lucy - AzerothCore"] = {
 			["framepos"] = {
@@ -31,32 +32,34 @@ TalentedDB = {
 				},
 			},
 		},
-		["Heady - AzerothCore"] = {
+		["Entropy - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = 0,
-					["x"] = 0,
+					["y"] = -17.14277241911333,
+					["x"] = -51.42865104334577,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
-				},
-			},
-		},
-		["Bkk - AzerothCore"] = {
-			["framepos"] = {
-				["TalentedGlyphs"] = {
-					["y"] = 0,
-					["x"] = 0,
 					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
 				},
 			},
 			["confirmlearn"] = false,
+			["show_level_req"] = false,
+			["level_cap"] = false,
+		},
+		["Shadow - AzerothCore"] = {
+			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
 		},
 		["Lama - AzerothCore"] = {
 			["framepos"] = {
@@ -110,24 +113,21 @@ TalentedDB = {
 			["level_cap"] = false,
 			["show_level_req"] = false,
 		},
-		["Entropy - AzerothCore"] = {
+		["Heady - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = -17.14277241911333,
-					["x"] = -51.42865104334577,
+					["y"] = 0,
+					["x"] = 0,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = 0,
 					["x"] = 0,
-					["anchorTo"] = "CENTER",
 					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 			},
-			["confirmlearn"] = false,
-			["show_level_req"] = false,
-			["level_cap"] = false,
 		},
 	},
 }
