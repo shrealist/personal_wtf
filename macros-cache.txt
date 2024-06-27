@@ -27,6 +27,9 @@ MACRO 27 "common" INV_Misc_QuestionMark
 /cast name
 /startattack
 END
+MACRO 29 "cooldown" INV_Misc_QuestionMark
+.cooldown
+END
 MACRO 5 "fengus" Ability_Creature_Cursed_02
 .bonusbuff fengus
 END

@@ -8,11 +8,11 @@ Overachiever_Tabs_Settings = {
 	["WatchLists_General"] = {
 	},
 	["Version"] = "0.56",
+	["WatchedList"] = 1,
 	["AchFilters"] = {
 		["Overachiever_WatchFrame"] = 3,
 		["AchievementFrameAchievements"] = 1,
 	},
-	["WatchedList"] = 1,
 	["WatchLists"] = {
 	},
 }

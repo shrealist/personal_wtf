@@ -1,53 +1,19 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Entropy - AzerothCore"] = "Hyper - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lama - AzerothCore"] = "Hyper - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Hyper - AzerothCore",
-		["Heady - AzerothCore"] = "Heady - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 	},
 	["profiles"] = {
-		["Bkk - AzerothCore"] = {
-			["PositionW"] = 241.4284670140078,
-			["PositionH"] = 115.428512760572,
-			["VGrip2"] = 138.8213590174945,
-			["PositionY"] = 385.285371761242,
-			["TitleBar"] = {
-				["Font"] = "聊天",
-				["FontSize"] = 12,
-			},
-			["VGrip1"] = 120.3570164367575,
-			["Background"] = {
-				["EdgeSize"] = 5,
-				["BorderTexture"] = "ElvUI GlowBorder",
-				["Color"] = {
-					["r"] = 0,
-					["g"] = 0,
-					["b"] = 0,
-				},
-				["BorderColor"] = {
-					["r"] = 0.1254901960784314,
-					["g"] = 0.1215686274509804,
-					["b"] = 0.1058823529411765,
-				},
-				["Texture"] = "None",
-			},
-			["PositionX"] = 160.3572249359306,
-			["Bar"] = {
-				["FontSize"] = 12,
-				["ShowHeadings"] = false,
-				["Font"] = "聊天",
-				["ShowPercent"] = false,
-				["Spacing"] = 1,
-				["Height"] = 15,
-				["ShowTPS"] = false,
-				["AlwaysShowSelf"] = false,
-				["Texture"] = "Minimalist",
-			},
+		["Entropy - AzerothCore"] = {
+			["PositionX"] = 527.4999921396376,
+			["PositionY"] = 554.9999535828836,
 		},
 		["Lucy - AzerothCore"] = {
 			["PositionW"] = 241.4284670140078,
@@ -55,6 +21,44 @@ Omen3DB = {
 			["VGrip2"] = 138.8213590174945,
 			["PositionY"] = 385.285371761242,
 			["TitleBar"] = {
+				["FontSize"] = 12,
+				["Font"] = "聊天",
+			},
+			["VGrip1"] = 120.3570164367575,
+			["Background"] = {
+				["EdgeSize"] = 5,
+				["BorderTexture"] = "ElvUI GlowBorder",
+				["Color"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["BorderColor"] = {
+					["b"] = 0.1058823529411765,
+					["g"] = 0.1215686274509804,
+					["r"] = 0.1254901960784314,
+				},
+				["Texture"] = "None",
+			},
+			["PositionX"] = 160.3572249359306,
+			["Bar"] = {
+				["FontSize"] = 12,
+				["ShowHeadings"] = false,
+				["Font"] = "聊天",
+				["Spacing"] = 1,
+				["ShowPercent"] = false,
+				["Height"] = 15,
+				["ShowTPS"] = false,
+				["AlwaysShowSelf"] = false,
+				["Texture"] = "Minimalist",
+			},
+		},
+		["Heady - AzerothCore"] = {
+			["PositionW"] = 241.4284670140078,
+			["PositionH"] = 115.428512760572,
+			["VGrip2"] = 138.8213590174945,
+			["PositionY"] = 385.285371761242,
+			["TitleBar"] = {
 				["Font"] = "聊天",
 				["FontSize"] = 12,
 			},
@@ -86,10 +90,6 @@ Omen3DB = {
 				["AlwaysShowSelf"] = false,
 				["Texture"] = "Minimalist",
 			},
-		},
-		["Entropy - AzerothCore"] = {
-			["PositionX"] = 527.4999921396376,
-			["PositionY"] = 554.9999535828836,
 		},
 		["Shadow - AzerothCore"] = {
 			["PositionW"] = 241.4284670140078,
@@ -98,22 +98,22 @@ Omen3DB = {
 			["VGrip2"] = 138.8213590174945,
 			["PositionY"] = 385.285371761242,
 			["TitleBar"] = {
-				["Font"] = "聊天",
 				["FontSize"] = 12,
+				["Font"] = "聊天",
 			},
 			["VGrip1"] = 120.3570164367575,
 			["Background"] = {
 				["EdgeSize"] = 5,
 				["BorderTexture"] = "ElvUI GlowBorder",
 				["Color"] = {
-					["b"] = 0,
-					["g"] = 0,
 					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
 				},
 				["BorderColor"] = {
-					["b"] = 0.1058823529411765,
-					["g"] = 0.1215686274509804,
 					["r"] = 0.1254901960784314,
+					["g"] = 0.1215686274509804,
+					["b"] = 0.1058823529411765,
 				},
 				["Texture"] = "None",
 			},
@@ -122,8 +122,8 @@ Omen3DB = {
 				["FontSize"] = 12,
 				["ShowHeadings"] = false,
 				["Font"] = "聊天",
-				["Spacing"] = 1,
 				["ShowPercent"] = false,
+				["Spacing"] = 1,
 				["Height"] = 15,
 				["ShowTPS"] = false,
 				["AlwaysShowSelf"] = false,
@@ -143,23 +143,23 @@ Omen3DB = {
 				["EdgeSize"] = 5,
 				["BorderTexture"] = "ElvUI GlowBorder",
 				["Color"] = {
-					["r"] = 0,
-					["g"] = 0,
 					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
 				},
 				["BorderColor"] = {
-					["r"] = 0.1254901960784314,
-					["g"] = 0.1215686274509804,
 					["b"] = 0.1058823529411765,
+					["g"] = 0.1215686274509804,
+					["r"] = 0.1254901960784314,
 				},
 				["Texture"] = "None",
 			},
 			["VGrip1"] = 120.3570164367575,
+			["PositionX"] = 160.3571867889585,
 			["TitleBar"] = {
 				["FontSize"] = 12,
 				["Font"] = "聊天",
 			},
-			["PositionX"] = 159.6429324203293,
 			["Bar"] = {
 				["FontSize"] = 12,
 				["ShowHeadings"] = false,
@@ -176,7 +176,7 @@ Omen3DB = {
 			["PositionX"] = 527.4999921396376,
 			["PositionY"] = 554.9999535828836,
 		},
-		["Heady - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["PositionW"] = 241.4284670140078,
 			["PositionH"] = 115.428512760572,
 			["VGrip2"] = 138.8213590174945,

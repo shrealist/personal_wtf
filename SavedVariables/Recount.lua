@@ -1,110 +1,16 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Entropy - AzerothCore"] = "Hyper - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Heady - AzerothCore"] = "Heady - AzerothCore",
 		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lama - AzerothCore"] = "Hyper - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Hyper - AzerothCore",
-		["Heady - AzerothCore"] = "Heady - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 	},
 	["profiles"] = {
-		["Bkk - AzerothCore"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["RowHeight"] = 15,
-				["BarText"] = {
-					["RankNum"] = false,
-					["NumFormat"] = 3,
-					["Percent"] = false,
-					["PerSec"] = false,
-				},
-				["Buttons"] = {
-					["FileButton"] = false,
-					["CloseButton"] = false,
-					["LeftButton"] = false,
-					["RightButton"] = false,
-					["ReportButton"] = false,
-				},
-				["Position"] = {
-					["y"] = -312.1430827357905,
-					["x"] = -274.5715100382043,
-					["w"] = 139.9999979138375,
-					["h"] = 199.9999779462818,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "纳克萨玛斯",
-			["BarTexture"] = "Flat",
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-				["Window"] = {
-					["Title"] = {
-						["r"] = 0,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["Font"] = "聊天",
-			["GraphWindowX"] = 0,
-		},
-		["Lucy - AzerothCore"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["RowHeight"] = 15,
-				["BarText"] = {
-					["RankNum"] = false,
-					["NumFormat"] = 3,
-					["Percent"] = false,
-					["PerSec"] = false,
-				},
-				["Buttons"] = {
-					["FileButton"] = false,
-					["CloseButton"] = false,
-					["LeftButton"] = false,
-					["RightButton"] = false,
-					["ReportButton"] = false,
-				},
-				["Position"] = {
-					["y"] = -309.2857696222399,
-					["x"] = -269.571433818766,
-					["w"] = 139.9999979138375,
-					["h"] = 199.9999970197678,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "纳克萨玛斯",
-			["BarTexture"] = "Flat",
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-				["Window"] = {
-					["Title"] = {
-						["r"] = 0,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["Font"] = "聊天",
-			["GraphWindowX"] = 0,
-		},
 		["Entropy - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -123,11 +29,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
-		["Shadow - AzerothCore"] = {
+		["Lucy - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["RowHeight"] = 15,
@@ -138,7 +44,7 @@ RecountDB = {
 					["PerSec"] = false,
 				},
 				["Position"] = {
-					["y"] = -312.9999304860841,
+					["y"] = -309.2857696222399,
 					["x"] = -269.571433818766,
 					["w"] = 139.9999979138375,
 					["h"] = 199.9999970197678,
@@ -154,7 +60,54 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["LastInstanceName"] = "纳克萨玛斯",
 			["BarTexture"] = "Flat",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Window"] = {
+					["Title"] = {
+						["r"] = 0,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Font"] = "聊天",
+		},
+		["Heady - AzerothCore"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["RankNum"] = false,
+					["NumFormat"] = 3,
+					["Percent"] = false,
+					["PerSec"] = false,
+				},
+				["Buttons"] = {
+					["FileButton"] = false,
+					["CloseButton"] = false,
+					["LeftButton"] = false,
+					["RightButton"] = false,
+					["ReportButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -309.2857696222399,
+					["h"] = 199.9999970197678,
+					["w"] = 139.9999979138375,
+					["x"] = -269.571433818766,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "熔火之心",
+			["BarTexture"] = "Flat",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -171,8 +124,55 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
+			["Font"] = "聊天",
 			["GraphWindowX"] = 0,
+		},
+		["Shadow - AzerothCore"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["RankNum"] = false,
+					["NumFormat"] = 3,
+					["Percent"] = false,
+					["PerSec"] = false,
+				},
+				["Buttons"] = {
+					["FileButton"] = false,
+					["CloseButton"] = false,
+					["LeftButton"] = false,
+					["RightButton"] = false,
+					["ReportButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -312.9999304860841,
+					["x"] = -269.571433818766,
+					["w"] = 139.9999979138375,
+					["h"] = 199.9999970197678,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "纳克萨玛斯",
+			["BarTexture"] = "Flat",
+			["Font"] = "聊天",
+			["Colors"] = {
+				["Window"] = {
+					["Title"] = {
+						["r"] = 0,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Lama - AzerothCore"] = {
 			["GraphWindowY"] = 0,
@@ -195,13 +195,19 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Hyper - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -311.9999648332601,
+					["x"] = -283.0000263005491,
+					["w"] = 139.9999979138375,
+					["h"] = 199.9999970197678,
+				},
 				["Buttons"] = {
 					["FileButton"] = false,
 					["CloseButton"] = false,
@@ -209,16 +215,10 @@ RecountDB = {
 					["RightButton"] = false,
 					["ReportButton"] = false,
 				},
-				["Position"] = {
-					["y"] = -311.9999648332601,
-					["x"] = -283.0000263005491,
-					["w"] = 139.9999979138375,
-					["h"] = 199.9999970197678,
-				},
 				["RowHeight"] = 15,
 				["BarText"] = {
-					["RankNum"] = false,
 					["NumFormat"] = 3,
+					["RankNum"] = false,
 					["Percent"] = false,
 					["PerSec"] = false,
 				},
@@ -241,7 +241,7 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "冠军的试炼",
+			["LastInstanceName"] = "灵魂洪炉",
 			["BarTexture"] = "Flat",
 			["Font"] = "聊天",
 			["CurDataSet"] = "OverallData",
@@ -262,11 +262,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
-		["Heady - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["RowHeight"] = 15,
@@ -277,10 +277,10 @@ RecountDB = {
 					["PerSec"] = false,
 				},
 				["Position"] = {
-					["y"] = -309.2857696222399,
-					["h"] = 199.9999970197678,
+					["y"] = -312.1430827357905,
+					["x"] = -274.5715100382043,
 					["w"] = 139.9999979138375,
-					["x"] = -269.571433818766,
+					["h"] = 199.9999779462818,
 				},
 				["Buttons"] = {
 					["FileButton"] = false,
@@ -291,7 +291,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "熔火之心",
+			["LastInstanceName"] = "纳克萨玛斯",
 			["BarTexture"] = "Flat",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {

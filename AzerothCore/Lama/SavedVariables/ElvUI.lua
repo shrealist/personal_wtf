@@ -24,42 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"S) 7ed794 5a9<i,&i,7/晨锋骑兵2d03#%$##", -- [1]
-			"Lama", -- [2]
-			"通用语", -- [3]
-			"7. CrbZ2029I1", -- [4]
-			"Lama", -- [5]
-			"", -- [6]
-			0, -- [7]
-			7, -- [8]
-			"CrbZ2029I1", -- [9]
-			0, -- [10]
-			1611, -- [11]
-			"0x000000000000000A", -- [12]
-			0, -- [13]
-			[51] = 1715509017,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dLama|r",
-		}, -- [1]
-		{
-			"S) 7ed792 5c96i,&i,7/晨锋骑兵2d03#%$##", -- [1]
-			"Lama", -- [2]
-			"通用语", -- [3]
-			"7. CrbZ2029I1", -- [4]
-			"Lama", -- [5]
-			"", -- [6]
-			0, -- [7]
-			7, -- [8]
-			"CrbZ2029I1", -- [9]
-			0, -- [10]
-			1612, -- [11]
-			"0x000000000000000A", -- [12]
-			0, -- [13]
-			[51] = 1715509029,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dLama|r",
-		}, -- [2]
-		{
 			"S) 7ed7aa 5756i,&i,7/晨锋骑兵2d03#%$##", -- [1]
 			"Lama", -- [2]
 			"通用语", -- [3]
@@ -76,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1715509041,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [3]
+		}, -- [1]
 		{
 			"S' 7ed7fe 63a6i,2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -94,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1715509053,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [4]
+		}, -- [2]
 		{
 			"S) 7ed816 67e7i,$i,72铁匠霍尔萨2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -112,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1715509073,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [5]
+		}, -- [3]
 		{
 			"S) 7ed816 67e6i,&i,7/晨锋骑兵2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -130,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1715509089,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [6]
+		}, -- [4]
 		{
 			"S) 7ed800 6774i,&i,7/晨锋骑兵2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -148,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1715509102,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [7]
+		}, -- [5]
 		{
 			"S' 7e4a27 b73@i,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -166,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1715509121,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [8]
+		}, -- [6]
 		{
 			"V @O2-23////]]]13/401]2-23////]062]35]6d3", -- [1]
 			"Lama", -- [2]
@@ -184,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1715524047,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [9]
+		}, -- [7]
 		{
 			"S' 7e4a43 b44Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -202,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1715524057,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [10]
+		}, -- [8]
 		{
 			"S' 7e49f1 bb5Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -220,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1715524069,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [11]
+		}, -- [9]
 		{
 			"S' 7e4a5e b2eDi,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -238,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1715524082,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [12]
+		}, -- [10]
 		{
 			"S' 7e49f9 b80Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -256,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1715524094,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [13]
+		}, -- [11]
 		{
 			"S' 7e49f0 b74Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -274,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1715524106,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [14]
+		}, -- [12]
 		{
 			"S' 7e4a5c b44Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -292,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1715524121,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [15]
+		}, -- [13]
 		{
 			"S' 7e4a06 b45Di,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -310,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1715524134,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [16]
+		}, -- [14]
 		{
 			"S' 7e49fc b5bDi,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -328,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1715524146,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [17]
+		}, -- [15]
 		{
 			"S' 7e4a08 b8cDi,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -346,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1715524158,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [18]
+		}, -- [16]
 		{
 			"S' 7e4a01 b8bDi,2d06#&$$#", -- [1]
 			"Lama", -- [2]
@@ -364,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1715524192,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [19]
+		}, -- [17]
 		{
 			"S' 7e4a01 b8bDi,2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -382,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1715524224,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [20]
+		}, -- [18]
 		{
 			"S' 7e4a01 b8bDi,2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -400,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1715524242,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [21]
+		}, -- [19]
 		{
 			"S) 7e4a24 b5eDi,$i*7+Sian'tsu2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -418,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1715524255,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [22]
+		}, -- [20]
 		{
 			"S) 7e4a24 b6dDi,$i(7*Astarii2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -436,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1715524269,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [23]
+		}, -- [21]
 		{
 			"S) 7e4a2c b69Di,$i-7'Arly2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -454,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1715524282,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [24]
+		}, -- [22]
 		{
 			"S) 7e4a27 b64Di,$i)7'Tony2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -472,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1715524296,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [25]
+		}, -- [23]
 		{
 			"S) 7e4a3d b4eDi,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -490,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1715524308,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [26]
+		}, -- [24]
 		{
 			"S) bba8eb 9dcDi,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -508,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1715524324,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [27]
+		}, -- [25]
 		{
 			"S) bba8f0 85cDi,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -526,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1715524336,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [28]
+		}, -- [26]
 		{
 			"S) bba914 702Di,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -544,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1715524348,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [29]
+		}, -- [27]
 		{
 			"S) bba930 594Di,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -562,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1715524361,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [30]
+		}, -- [28]
 		{
 			"S) bba924 464Di,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -580,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1715524373,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [31]
+		}, -- [29]
 		{
 			"S) bba93a 312Di,$i'7*Aurelon2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -598,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1715524386,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [32]
+		}, -- [30]
 		{
 			"S* bba94a 2c9Di,&h'4/天怒先锋2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -616,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1715524395,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [33]
+		}, -- [31]
 		{
 			"S) bba94f 2d0Di,$i,75魔导师瑟伊拉2d06#$$$#", -- [1]
 			"Lama", -- [2]
@@ -634,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1715524410,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [34]
+		}, -- [32]
 		{
 			"S) bba94f 2cfDi,$i,75魔导师瑟伊拉2b1e#%#", -- [1]
 			"Lama", -- [2]
@@ -652,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1715524437,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [35]
+		}, -- [33]
 		{
 			"S) bba94f 2cfDi,$i,75魔导师瑟伊拉2b1e#%#", -- [1]
 			"Lama", -- [2]
@@ -670,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1715524455,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [36]
+		}, -- [34]
 		{
 			"S) bba94f 2cfDi,$i,75魔导师瑟伊拉2b1e#%#", -- [1]
 			"Lama", -- [2]
@@ -688,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1715524488,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [37]
+		}, -- [35]
 		{
 			"S' bbe936 7a4Di,2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -706,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1715524511,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [38]
+		}, -- [36]
 		{
 			"S' bbe76e 53bDi,2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -724,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1715524523,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [39]
+		}, -- [37]
 		{
 			"S' bbe410 4d7Di,2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -742,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1715524536,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [40]
+		}, -- [38]
 		{
 			"S' bbe3fd 4e0Di,2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -760,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1715524564,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [41]
+		}, -- [39]
 		{
 			"S) bbe453 4f7Di,$i)7'Tony2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -778,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1715524581,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [42]
+		}, -- [40]
 		{
 			"S) bbe443 505Di,$i)7'Tony2855#%$##", -- [1]
 			"Lama", -- [2]
@@ -796,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1715524599,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [43]
+		}, -- [41]
 		{
 			"激活占卜宝珠：1/1", -- [1]
 			"Lama", -- [2]
@@ -814,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1715525081,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [44]
+		}, -- [42]
 		{
 			"凯尔萨斯的徽记：0/1", -- [1]
 			"Lama", -- [2]
@@ -832,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1715525104,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [45]
+		}, -- [43]
 		{
 			"凯尔萨斯的徽记：1/1", -- [1]
 			"Lama", -- [2]
@@ -850,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1715525880,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [46]
+		}, -- [44]
 		{
 			"S) 7ed788 4baCi,$i,6'Lama2ce4#&$$#", -- [1]
 			"Lama", -- [2]
@@ -868,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1715525927,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [47]
+		}, -- [45]
 		{
 			"S) 7ed792 4e1Di,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -886,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1715525943,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [48]
+		}, -- [46]
 		{
 			"S) 7ed792 4e1Di,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -904,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1715525983,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [49]
+		}, -- [47]
 		{
 			"S) 7ed792 4e1Di,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -922,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1715526023,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [50]
+		}, -- [48]
 		{
 			"S) 7ed792 4e1Di,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -940,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1715526064,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [51]
+		}, -- [49]
 		{
 			"S) 7ed792 4e1Di,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -958,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1715526099,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [52]
+		}, -- [50]
 		{
 			"S) 7ed780 4bbDi,$i,75主教拉雷索尔2d03#%$##", -- [1]
 			"Lama", -- [2]
@@ -976,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1715526126,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [53]
+		}, -- [51]
 		{
 			"S' 7e4a31 b5eDi,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -994,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1715526149,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [54]
+		}, -- [52]
 		{
 			"S' 7e4a31 b5eDi,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1012,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1715526189,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [55]
+		}, -- [53]
 		{
 			"S' 7e4a2b b55Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1030,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1715526216,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [56]
+		}, -- [54]
 		{
 			"S) 7e4a3e afbDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1048,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1715526235,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [57]
+		}, -- [55]
 		{
 			"S) 7e4a2b b55Di,$i$7+Fylerian3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1066,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1715526251,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [58]
+		}, -- [56]
 		{
 			"S) 7e4a29 b58Di,$i*7+Sian'tsu3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1084,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1715526267,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [59]
+		}, -- [57]
 		{
 			"S) 7e4a29 b58Di,$i-7'Arly3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1102,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1715526300,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [60]
+		}, -- [58]
 		{
 			"S) 7e4a31 b5bDi,$i,7)Dannal3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1120,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1715526329,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [61]
+		}, -- [59]
 		{
 			"S) 7e4a2b b66Di,$i$7+Fylerian3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1138,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1715526352,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [62]
+		}, -- [60]
 		{
 			"S) 7e4a1f b48Di,$i+7)Nartok3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1156,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1715526378,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [63]
+		}, -- [61]
 		{
 			"S) 7e4a04 b76Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1174,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1715526391,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [64]
+		}, -- [62]
 		{
 			"S) 7e4a05 b7bDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1192,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1715526403,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [65]
+		}, -- [63]
 		{
 			"S) 7e49f9 b75Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1210,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1715526416,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [66]
+		}, -- [64]
 		{
 			"S) 7e4a04 b7dDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1228,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1715526428,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [67]
+		}, -- [65]
 		{
 			"S) 7e49fe b78Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1246,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1715526441,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [68]
+		}, -- [66]
 		{
 			"S) 7e4a11 b74Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1264,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1715526453,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [69]
+		}, -- [67]
 		{
 			"S) 7e49f3 b54Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1282,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1715526465,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [70]
+		}, -- [68]
 		{
 			"S) 7e4a05 b50Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1300,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1715526478,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [71]
+		}, -- [69]
 		{
 			"S) 7e49ed b5cDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1318,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1715526490,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [72]
+		}, -- [70]
 		{
 			"S) 7e49fa b88Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1336,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1715526503,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [73]
+		}, -- [71]
 		{
 			"S) 7e4a20 b74Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1354,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1715526515,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [74]
+		}, -- [72]
 		{
 			"S) 7e4a1c b5eDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1372,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1715526528,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [75]
+		}, -- [73]
 		{
 			"S) 7e4a1e b59Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1390,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1715526540,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [76]
+		}, -- [74]
 		{
 			"S) 7e4a1e b4dDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1408,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1715526553,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [77]
+		}, -- [75]
 		{
 			"S) 7e4a0a b4dDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1426,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1715526565,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [78]
+		}, -- [76]
 		{
 			"S) 7e4a0d b7aDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1444,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1715526598,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [79]
+		}, -- [77]
 		{
 			"S) 7e4a17 b7dDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1462,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1715526618,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [80]
+		}, -- [78]
 		{
 			"S) 7e4a1b b68Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1480,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1715526630,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [81]
+		}, -- [79]
 		{
 			"S) 7e4a1c b45Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1498,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1715526643,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [82]
+		}, -- [80]
 		{
 			"S) 7e49f3 b38Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1516,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1715526655,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [83]
+		}, -- [81]
 		{
 			"S) 7e49fc b5eDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1534,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1715526668,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [84]
+		}, -- [82]
 		{
 			"S) 7e4a17 b61Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1552,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1715526680,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [85]
+		}, -- [83]
 		{
 			"S) 7e49f4 b58Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1570,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1715526692,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [86]
+		}, -- [84]
 		{
 			"S) 7e49f0 b66Di,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1588,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1715526705,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [87]
+		}, -- [85]
 		{
 			"S) 7e49fe b5fDi,$A,74冈瑟尔·维勒3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1606,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1715526717,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [88]
+		}, -- [86]
 		{
 			"V @B2-23////]]]13/401]2-23////]070]35]6d3", -- [1]
 			"Lama", -- [2]
@@ -1624,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1715528460,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [89]
+		}, -- [87]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1642,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1715528479,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [90]
+		}, -- [88]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1660,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1715528519,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [91]
+		}, -- [89]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1678,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1715528559,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [92]
+		}, -- [90]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1696,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1715528599,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [93]
+		}, -- [91]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1714,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1715528640,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [94]
+		}, -- [92]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1732,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1715528680,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [95]
+		}, -- [93]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1750,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1715528720,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [96]
+		}, -- [94]
 		{
 			"S' 7e4a13 b64Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1768,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1715528760,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [97]
+		}, -- [95]
 		{
 			"V @B2-23////]]]13/401]2-23////]070]35]6d3", -- [1]
 			"Lama", -- [2]
@@ -1786,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1715528897,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [98]
+		}, -- [96]
 		{
 			"S' 7e4a12 b51Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1804,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1715528932,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
-		}, -- [99]
+		}, -- [97]
 		{
 			"S' 7e4a12 b51Di,3478#%%####", -- [1]
 			"Lama", -- [2]
@@ -1820,6 +1784,42 @@ ElvCharacterDB = {
 			"0x000000000000000A", -- [12]
 			0, -- [13]
 			[51] = 1715528972,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dLama|r",
+		}, -- [98]
+		{
+			"V CI2-23////]]]13/515]2-23////]02/4]35]6d3", -- [1]
+			"Lama", -- [2]
+			"通用语", -- [3]
+			"6. CrbB1", -- [4]
+			"Lama", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"CrbB1", -- [9]
+			0, -- [10]
+			151, -- [11]
+			"0x000000000000000A", -- [12]
+			0, -- [13]
+			[51] = 1719410011,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dLama|r",
+		}, -- [99]
+		{
+			"S' 7e4a19 b55Di,3478#%%####", -- [1]
+			"Lama", -- [2]
+			"通用语", -- [3]
+			"7. CrbZ2020I1", -- [4]
+			"Lama", -- [5]
+			"", -- [6]
+			0, -- [7]
+			7, -- [8]
+			"CrbZ2020I1", -- [9]
+			0, -- [10]
+			157, -- [11]
+			"0x000000000000000A", -- [12]
+			0, -- [13]
+			[51] = 1719410034,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLama|r",
 		}, -- [100]

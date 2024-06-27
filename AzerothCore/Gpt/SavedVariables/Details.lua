@@ -16,15 +16,15 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 2708,
+	["combat_counter"] = 2709,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
-			["author"] = "Details! Team",
-			["show_icon"] = 5,
-			["hide_on_combat"] = false,
 			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -33,21 +33,21 @@ _details_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["enabled"] = true,
+			["showamount"] = false,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["author"] = "Details! Team",
 			["useclasscolors"] = false,
+			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["enabled"] = true,
 		},
 	},
 	["character_data"] = {
-		["logons"] = 82,
+		["logons"] = 83,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -72,16 +72,16 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["class"] = "PALADIN",
-							["delay"] = 0,
+							["type"] = 1,
+							["serial"] = "0x000000000000000B",
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 16169.00172,
-							["total"] = 16169.00172,
+							["placing"] = 1,
 							["dps_started"] = false,
+							["total"] = 16169.00172,
 							["end_time"] = 1716812812,
-							["type"] = 1,
-							["damage_taken"] = 671.00172,
-							["custom"] = 0,
+							["on_hold"] = false,
+							["name"] = "Gpt",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -108,14 +108,14 @@ _details_database = {
 										["c_max"] = 1032,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["c_min"] = 1030,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[27138] = {
 										["c_amt"] = 0,
@@ -140,14 +140,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27138,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[20467] = {
 										["c_amt"] = 0,
@@ -172,14 +172,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 20467,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[67485] = {
 										["c_amt"] = 0,
@@ -204,14 +204,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 67485,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[27150] = {
 										["c_amt"] = 0,
@@ -236,14 +236,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27150,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[27173] = {
 										["c_amt"] = 0,
@@ -268,14 +268,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27173,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[61840] = {
 										["c_amt"] = 0,
@@ -300,14 +300,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 61840,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[20424] = {
 										["c_amt"] = 1,
@@ -332,78 +332,14 @@ _details_database = {
 										["c_max"] = 478,
 										["id"] = 20424,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 478,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[53385] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1822,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1822,
-													["name"] = "山丘戈隆",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1822,
-										["c_max"] = 1822,
-										["id"] = 53385,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 1822,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[35395] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1450,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1450,
-													["name"] = "山丘戈隆",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1450,
-										["c_max"] = 1450,
-										["id"] = 35395,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 1450,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
 									},
 									[27180] = {
 										["c_amt"] = 1,
@@ -428,29 +364,93 @@ _details_database = {
 										["c_max"] = 3232,
 										["id"] = 27180,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 3232,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1450,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1450,
+													["name"] = "山丘戈隆",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1450,
+										["c_max"] = 1450,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["c_min"] = 1450,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53385] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1822,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1822,
+													["name"] = "山丘戈隆",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1822,
+										["c_max"] = 1822,
+										["id"] = 53385,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["c_min"] = 1822,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
-							["last_dps"] = 1154.928694285714,
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
-							["name"] = "Gpt",
+							["last_dps"] = 1154.928694285714,
+							["custom"] = 0,
 							["last_event"] = 1716812811,
-							["on_hold"] = false,
+							["damage_taken"] = 671.00172,
 							["start_time"] = 1716812798,
-							["serial"] = "0x000000000000000B",
-							["placing"] = 1,
+							["delay"] = 0,
+							["class"] = "PALADIN",
 						}, -- [1]
 					},
 					["combatId"] = 1872,
@@ -462,9 +462,7 @@ _details_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.007755,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Gpt"] = true,
-							},
+							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 4,
@@ -480,15 +478,18 @@ _details_database = {
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.007755,
-							["healing_taken"] = 1044.007755,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 639.007755,
 							["total_without_pet"] = 1044.007755,
-							["group"] = true,
+							["healing_from"] = {
+								["Gpt"] = true,
+							},
 							["fight_component"] = true,
-							["total"] = 1044.007755,
 							["type"] = 2,
-							["heal_enemy_amt"] = 0,
 							["end_time"] = 1716812812,
+							["healing_taken"] = 1044.007755,
+							["total"] = 1044.007755,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
@@ -575,16 +576,15 @@ _details_database = {
 									},
 								},
 							},
-							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["name"] = "Gpt",
 							["last_event"] = 1716812808,
 							["on_hold"] = false,
 							["start_time"] = 1716812800,
-							["serial"] = "0x000000000000000B",
-							["custom"] = 0,
+							["delay"] = 0,
+							["initialize_hps"] = false,
 						}, -- [1]
 					},
 					["combatId"] = 1872,
@@ -594,9 +594,9 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.002445,
-							["runepower"] = 0.002445,
+							["e_energy_r"] = 0.002445,
 							["group"] = true,
-							["holypower_r"] = 0.002445,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -613,23 +613,22 @@ _details_database = {
 							["flag_original"] = 1297,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["class"] = "PALADIN",
-							["focus"] = 0.002445,
+							["name"] = "Gpt",
 							["mana"] = 2318.002445,
-							["e_energy"] = 0.002445,
+							["focus"] = 0.002445,
+							["holypower_r"] = 0.002445,
+							["e_rage_r"] = 0.002445,
 							["holypower"] = 0.002445,
 							["holypower_from"] = {
 							},
-							["runepower_from"] = {
-							},
+							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 2318.002445,
 							["e_energy_from"] = {
 							},
-							["last_event"] = 1716812821,
-							["e_rage_from"] = {
+							["runepower_from"] = {
 							},
+							["focus_r"] = 0.002445,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -708,19 +707,20 @@ _details_database = {
 							["mana_from"] = {
 								["Gpt"] = true,
 							},
-							["name"] = "Gpt",
-							["focus_r"] = 0.002445,
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1716812821,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.002445,
+							["runepower"] = 0.002445,
 							["serial"] = "0x000000000000000B",
-							["e_rage_r"] = 0.002445,
+							["e_energy"] = 0.002445,
 						}, -- [1]
 						{
-							["flag_original"] = 2578,
-							["focus"] = 0.003993,
+							["runepower_r"] = 0.003993,
+							["runepower"] = 0.003993,
 							["group"] = true,
-							["holypower_r"] = 0.003993,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -728,7 +728,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Harutt",
 										["e_energy"] = 0,
-										["e_rage"] = 40,
+										["e_rage"] = 72,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -736,22 +736,23 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.003993,
-							["e_energy_r"] = 0.003993,
+							["flag_original"] = 2578,
+							["mana_from"] = {
+							},
+							["focus"] = 0.003993,
+							["holypower_r"] = 0.003993,
+							["last_event"] = 1719410090,
+							["holypower"] = 0.003993,
 							["holypower_from"] = {
 							},
-							["e_rage_r"] = 40.003993,
-							["mana"] = 0.003993,
-							["holypower"] = 0.003993,
-							["class"] = "WARRIOR",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.003993,
 							["e_energy_from"] = {
 							},
-							["name"] = "Harutt",
-							["focus_r"] = 0.003993,
+							["mana"] = 0.003993,
+							["e_energy"] = 0.003993,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -765,18 +766,18 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Harutt",
 													["e_energy"] = 0,
-													["e_rage"] = 30,
+													["e_rage"] = 60,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 30,
+										["e_rage"] = 60,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 1,
+										["counter"] = 2,
 									},
 									[29131] = {
 										["id"] = 29131,
@@ -788,33 +789,32 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Harutt",
 													["e_energy"] = 0,
-													["e_rage"] = 10,
+													["e_rage"] = 12,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 10,
+										["e_rage"] = 12,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 10,
+										["counter"] = 12,
 									},
 								},
-							},
-							["e_rage"] = 40.003993,
-							["mana_from"] = {
 							},
 							["e_rage_from"] = {
 								["Harutt"] = true,
 							},
-							["e_energy"] = 0.003993,
+							["e_rage_r"] = 72.00399300000001,
+							["name"] = "Harutt",
+							["focus_r"] = 0.003993,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.003993,
+							["e_energy_r"] = 0.003993,
 							["serial"] = "0xF13001117D000236",
-							["last_event"] = 1716843089,
+							["e_rage"] = 72.00399300000001,
 						}, -- [2]
 					},
 					["combatId"] = 1872,
@@ -831,60 +831,60 @@ _details_database = {
 										["uptime"] = 2,
 										["activedamt"] = 0,
 										["id"] = 27173,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[61840] = {
 										["uptime"] = 6,
 										["activedamt"] = 0,
 										["id"] = 61840,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[54499] = {
 										["uptime"] = 11,
 										["activedamt"] = 0,
 										["id"] = 54499,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[62124] = {
 										["uptime"] = 3,
 										["activedamt"] = 0,
 										["id"] = 62124,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20185] = {
 										["uptime"] = 11,
 										["activedamt"] = 0,
 										["id"] = 20185,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
@@ -899,138 +899,138 @@ _details_database = {
 										["uptime"] = 14,
 										["activedamt"] = 1,
 										["id"] = 67016,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[53601] = {
 										["uptime"] = 11,
 										["activedamt"] = 1,
 										["id"] = 53601,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58597] = {
 										["uptime"] = 8,
 										["activedamt"] = 2,
 										["id"] = 58597,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[27150] = {
 										["uptime"] = 14,
 										["activedamt"] = 1,
 										["id"] = 27150,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57669] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 57669,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 14,
 										["activedamt"] = 1,
 										["id"] = 20375,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31884] = {
 										["uptime"] = 8,
 										["activedamt"] = 1,
 										["id"] = 31884,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20053] = {
 										["uptime"] = 12,
 										["activedamt"] = 1,
 										["id"] = 20053,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17670] = {
-										["uptime"] = 14,
-										["activedamt"] = 1,
-										["id"] = 17670,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59578] = {
-										["uptime"] = 11,
-										["activedamt"] = 2,
-										["id"] = 59578,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[54428] = {
 										["uptime"] = 6,
 										["activedamt"] = 1,
 										["id"] = 54428,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[59578] = {
+										["uptime"] = 11,
+										["activedamt"] = 2,
+										["id"] = 59578,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[17670] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 17670,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["fight_component"] = true,
-							["type"] = 4,
+							["debuff_uptime"] = 33,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
@@ -1038,15 +1038,15 @@ _details_database = {
 							},
 							["name"] = "Gpt",
 							["last_event"] = 1716812812,
-							["debuff_uptime"] = 33,
 							["pets"] = {
 							},
-							["serial"] = "0x000000000000000B",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x000000000000000B",
+							["type"] = 4,
 						}, -- [1]
 					},
 					["combatId"] = 1872,
@@ -1063,9 +1063,9 @@ _details_database = {
 				["raid_roster"] = {
 					["Harutt"] = true,
 					["Fallat"] = true,
-					["Nittlebur"] = true,
-					["Gpt"] = true,
 					["Shalannius"] = true,
+					["Gpt"] = true,
+					["Nittlebur"] = true,
 				},
 				["last_events_tables"] = {
 				},
@@ -1077,7 +1077,7 @@ _details_database = {
 					16168.996937, -- [1]
 					1044, -- [2]
 					{
-						["e_rage"] = 40,
+						["e_rage"] = 72,
 						["mana"] = 2318,
 						["runepower"] = 0,
 						["e_energy"] = 0,
@@ -1085,15 +1085,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1104,7 +1104,7 @@ _details_database = {
 					16169, -- [1]
 					1044, -- [2]
 					{
-						["e_rage"] = 40,
+						["e_rage"] = 72,
 						["mana"] = 2318,
 						["runepower"] = 0,
 						["e_energy"] = 0,
@@ -1112,12 +1112,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "19:26:53",
@@ -1128,11 +1128,11 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1716812812,
+				["instance_type"] = "none",
 				["start_time"] = 1716812798,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1716812812,
 			}, -- [1]
 			{
 				{
@@ -1153,22 +1153,18 @@ _details_database = {
 									}, -- [1]
 								},
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
+							["damage_taken"] = 140.007691,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 6160.007691,
-							["total"] = 6160.007691,
+							["type"] = 1,
 							["dps_started"] = false,
-							["placing"] = 1,
+							["total"] = 6160.007691,
 							["class"] = "PALADIN",
-							["damage_taken"] = 140.007691,
-							["custom"] = 0,
+							["on_hold"] = false,
+							["name"] = "Gpt",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -1195,14 +1191,14 @@ _details_database = {
 										["c_max"] = 856,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 404,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["c_min"] = 856,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 404,
+										["r_amt"] = 0,
 									}, -- [1]
 									[20467] = {
 										["c_amt"] = 1,
@@ -1227,14 +1223,14 @@ _details_database = {
 										["c_max"] = 978,
 										["id"] = 20467,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 978,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[61840] = {
 										["c_amt"] = 0,
@@ -1259,142 +1255,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 61840,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[67485] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 872,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 872,
-													["name"] = "大型风鹏",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 872,
-										["n_min"] = 872,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 872,
-										["c_max"] = 0,
-										["id"] = 67485,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[20424] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 258,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 695,
-													["name"] = "大型风鹏",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 695,
-										["n_min"] = 215,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 695,
-										["c_max"] = 0,
-										["id"] = 20424,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[27150] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 119,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 119,
-													["name"] = "大型风鹏",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 119,
-										["n_min"] = 119,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 119,
-										["c_max"] = 0,
-										["id"] = 27150,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[35395] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 438,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 438,
-													["name"] = "大型风鹏",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 438,
-										["n_min"] = 438,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 438,
-										["c_max"] = 0,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
 									},
 									[27138] = {
 										["c_amt"] = 0,
@@ -1419,25 +1287,157 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27138,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 438,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 438,
+													["name"] = "大型风鹏",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 438,
+										["n_min"] = 438,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 438,
+										["c_max"] = 0,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[27150] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 119,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 119,
+													["name"] = "大型风鹏",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 119,
+										["n_min"] = 119,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 119,
+										["c_max"] = 0,
+										["id"] = 27150,
+										["r_dmg"] = 0,
 										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[67485] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 872,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 872,
+													["name"] = "大型风鹏",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 872,
+										["n_min"] = 872,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 872,
+										["c_max"] = 0,
+										["id"] = 67485,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20424] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 258,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 695,
+													["name"] = "大型风鹏",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 695,
+										["n_min"] = 215,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 695,
+										["c_max"] = 0,
+										["id"] = 20424,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
-							["last_dps"] = 1026.6679485,
 							["end_time"] = 1716812731,
-							["name"] = "Gpt",
+							["last_dps"] = 1026.6679485,
+							["custom"] = 0,
 							["last_event"] = 1716812731,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
 							["start_time"] = 1716812725,
-							["serial"] = "0x000000000000000B",
-							["type"] = 1,
+							["delay"] = 0,
+							["placing"] = 1,
 						}, -- [1]
 					},
 					["combatId"] = 1871,
@@ -1449,8 +1449,7 @@ _details_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.008579,
 							["last_hps"] = 0,
-							["healing_from"] = {
-							},
+							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 4,
@@ -1466,15 +1465,17 @@ _details_database = {
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.008579,
-							["healing_taken"] = 0.008579,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 185.008579,
 							["total_without_pet"] = 0.008579,
-							["group"] = true,
+							["healing_from"] = {
+							},
 							["fight_component"] = true,
-							["end_time"] = 1716812731,
 							["type"] = 2,
-							["heal_enemy_amt"] = 0,
 							["total"] = 0.008579,
+							["healing_taken"] = 0.008579,
+							["end_time"] = 1716812731,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
@@ -1507,16 +1508,15 @@ _details_database = {
 									},
 								},
 							},
-							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["name"] = "Gpt",
 							["last_event"] = 1716812727,
 							["on_hold"] = false,
 							["start_time"] = 1716812727,
-							["serial"] = "0x000000000000000B",
-							["custom"] = 0,
+							["delay"] = 0,
+							["initialize_hps"] = false,
 						}, -- [1]
 					},
 					["combatId"] = 1871,
@@ -1526,9 +1526,9 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.001461,
-							["runepower"] = 0.001461,
+							["e_energy_r"] = 0.001461,
 							["group"] = true,
-							["holypower_r"] = 0.001461,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -1545,23 +1545,22 @@ _details_database = {
 							["flag_original"] = 1297,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["class"] = "PALADIN",
-							["focus"] = 0.001461,
+							["name"] = "Gpt",
 							["mana"] = 903.001461,
-							["e_energy"] = 0.001461,
+							["focus"] = 0.001461,
+							["holypower_r"] = 0.001461,
+							["e_rage_r"] = 0.001461,
 							["holypower"] = 0.001461,
 							["holypower_from"] = {
 							},
-							["runepower_from"] = {
-							},
+							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 903.001461,
 							["e_energy_from"] = {
 							},
-							["last_event"] = 1716812742,
-							["e_rage_from"] = {
+							["runepower_from"] = {
 							},
+							["focus_r"] = 0.001461,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -1617,13 +1616,14 @@ _details_database = {
 							["mana_from"] = {
 								["Gpt"] = true,
 							},
-							["name"] = "Gpt",
-							["focus_r"] = 0.001461,
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1716812742,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.001461,
+							["runepower"] = 0.001461,
 							["serial"] = "0x000000000000000B",
-							["e_rage_r"] = 0.001461,
+							["e_energy"] = 0.001461,
 						}, -- [1]
 					},
 					["combatId"] = 1871,
@@ -1640,48 +1640,48 @@ _details_database = {
 										["uptime"] = 4,
 										["activedamt"] = 0,
 										["id"] = 20185,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[62124] = {
 										["uptime"] = 3,
 										["activedamt"] = 0,
 										["id"] = 62124,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54499] = {
-										["uptime"] = 4,
-										["activedamt"] = 0,
-										["id"] = 54499,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[61840] = {
 										["uptime"] = 4,
 										["activedamt"] = 0,
 										["id"] = 61840,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[54499] = {
+										["uptime"] = 4,
+										["activedamt"] = 0,
+										["id"] = 54499,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
@@ -1692,94 +1692,94 @@ _details_database = {
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[67016] = {
-										["uptime"] = 6,
+									[20053] = {
+										["uptime"] = 4,
 										["activedamt"] = 1,
-										["id"] = 67016,
+										["id"] = 20053,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20375] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 20375,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17670] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 17670,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[27150] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 27150,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59578] = {
-										["uptime"] = 3,
-										["activedamt"] = 2,
-										["id"] = 59578,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57669] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 57669,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
-									[20053] = {
-										["uptime"] = 4,
+									[17670] = {
+										["uptime"] = 6,
 										["activedamt"] = 1,
-										["id"] = 20053,
+										["id"] = 17670,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[59578] = {
+										["uptime"] = 3,
+										["activedamt"] = 2,
+										["id"] = 59578,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[27150] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 27150,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[67016] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 67016,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[20375] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 20375,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["fight_component"] = true,
-							["type"] = 4,
+							["debuff_uptime"] = 15,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
@@ -1787,15 +1787,15 @@ _details_database = {
 							},
 							["name"] = "Gpt",
 							["last_event"] = 1716812731,
-							["debuff_uptime"] = 15,
 							["pets"] = {
 							},
-							["serial"] = "0x000000000000000B",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x000000000000000B",
+							["type"] = 4,
 						}, -- [1]
 					},
 					["combatId"] = 1871,
@@ -1812,9 +1812,9 @@ _details_database = {
 				["raid_roster"] = {
 					["Harutt"] = true,
 					["Fallat"] = true,
-					["Nittlebur"] = true,
-					["Gpt"] = true,
 					["Shalannius"] = true,
+					["Gpt"] = true,
+					["Nittlebur"] = true,
 				},
 				["last_events_tables"] = {
 				},
@@ -1834,15 +1834,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1861,12 +1861,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "19:25:32",
@@ -1877,11 +1877,11 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1716812731,
+				["instance_type"] = "none",
 				["start_time"] = 1716812725,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1716812731,
 			}, -- [2]
 			{
 				{
@@ -1900,18 +1900,20 @@ _details_database = {
 									}, -- [1]
 								},
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["pets"] = {
 							},
-							["end_time"] = 1716812655,
+							["damage_taken"] = 160.006427,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 8184.006427,
-							["last_dps"] = 1169.143775285714,
+							["damage_from"] = {
+								["老迈的裂蹄牛"] = true,
+							},
 							["dps_started"] = false,
-							["total"] = 8184.006427,
+							["end_time"] = 1716812655,
 							["placing"] = 1,
-							["damage_taken"] = 160.006427,
-							["custom"] = 0,
+							["on_hold"] = false,
+							["name"] = "Gpt",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -1938,14 +1940,14 @@ _details_database = {
 										["c_max"] = 924,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["c_min"] = 924,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[27138] = {
 										["c_amt"] = 0,
@@ -1970,142 +1972,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27138,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[67485] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 872,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 872,
-													["name"] = "老迈的裂蹄牛",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 872,
-										["n_min"] = 872,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 872,
-										["c_max"] = 0,
-										["id"] = 67485,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[20467] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 481,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 481,
-													["name"] = "老迈的裂蹄牛",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 481,
-										["n_min"] = 481,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 481,
-										["c_max"] = 0,
-										["id"] = 20467,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[27150] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 124,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 124,
-													["name"] = "老迈的裂蹄牛",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 124,
-										["n_min"] = 124,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 124,
-										["c_max"] = 0,
-										["id"] = 27150,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[20424] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 520,
-										["g_amt"] = 0,
-										["n_max"] = 254,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1026,
-													["name"] = "老迈的裂蹄牛",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 506,
-										["n_min"] = 252,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1026,
-										["c_max"] = 520,
-										["id"] = 20424,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 520,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
 									},
 									[27180] = {
 										["c_amt"] = 1,
@@ -2130,31 +2004,157 @@ _details_database = {
 										["c_max"] = 2510,
 										["id"] = 27180,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 2510,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20424] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 520,
+										["g_amt"] = 0,
+										["n_max"] = 254,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1026,
+													["name"] = "老迈的裂蹄牛",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 506,
+										["n_min"] = 252,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1026,
+										["c_max"] = 520,
+										["id"] = 20424,
+										["r_dmg"] = 0,
 										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 520,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[27150] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 124,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 124,
+													["name"] = "老迈的裂蹄牛",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 124,
+										["n_min"] = 124,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 124,
+										["c_max"] = 0,
+										["id"] = 27150,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[67485] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 872,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 872,
+													["name"] = "老迈的裂蹄牛",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 872,
+										["n_min"] = 872,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 872,
+										["c_max"] = 0,
+										["id"] = 67485,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20467] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 481,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 481,
+													["name"] = "老迈的裂蹄牛",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 481,
+										["n_min"] = 481,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 481,
+										["c_max"] = 0,
+										["id"] = 20467,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
+							["type"] = 1,
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
-							["type"] = 1,
-							["name"] = "Gpt",
+							["custom"] = 0,
 							["last_event"] = 1716812654,
-							["on_hold"] = false,
+							["last_dps"] = 1169.143775285714,
 							["start_time"] = 1716812648,
-							["serial"] = "0x000000000000000B",
-							["damage_from"] = {
-								["老迈的裂蹄牛"] = true,
-							},
+							["delay"] = 0,
+							["total"] = 8184.006427,
 						}, -- [1]
 					},
 					["combatId"] = 1870,
@@ -2166,8 +2166,7 @@ _details_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.001789,
 							["last_hps"] = 0,
-							["healing_from"] = {
-							},
+							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 4,
@@ -2183,15 +2182,17 @@ _details_database = {
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.001789,
-							["healing_taken"] = 0.001789,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 185.001789,
 							["total_without_pet"] = 0.001789,
-							["group"] = true,
+							["healing_from"] = {
+							},
 							["fight_component"] = true,
-							["end_time"] = 1716812655,
 							["type"] = 2,
-							["heal_enemy_amt"] = 0,
 							["total"] = 0.001789,
+							["healing_taken"] = 0.001789,
+							["end_time"] = 1716812655,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
@@ -2224,16 +2225,15 @@ _details_database = {
 									},
 								},
 							},
-							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["name"] = "Gpt",
 							["last_event"] = 1716812649,
 							["on_hold"] = false,
 							["start_time"] = 1716812649,
-							["serial"] = "0x000000000000000B",
-							["custom"] = 0,
+							["delay"] = 0,
+							["initialize_hps"] = false,
 						}, -- [1]
 					},
 					["combatId"] = 1870,
@@ -2243,9 +2243,9 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.006594,
-							["runepower"] = 0.006594,
+							["e_energy_r"] = 0.006594,
 							["group"] = true,
-							["holypower_r"] = 0.006594,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -2262,23 +2262,22 @@ _details_database = {
 							["flag_original"] = 1297,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["class"] = "PALADIN",
-							["focus"] = 0.006594,
+							["name"] = "Gpt",
 							["mana"] = 903.006594,
-							["e_energy"] = 0.006594,
+							["focus"] = 0.006594,
+							["holypower_r"] = 0.006594,
+							["e_rage_r"] = 0.006594,
 							["holypower"] = 0.006594,
 							["holypower_from"] = {
 							},
-							["runepower_from"] = {
-							},
+							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 903.006594,
 							["e_energy_from"] = {
 							},
-							["last_event"] = 1716812664,
-							["e_rage_from"] = {
+							["runepower_from"] = {
 							},
+							["focus_r"] = 0.006594,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -2334,13 +2333,14 @@ _details_database = {
 							["mana_from"] = {
 								["Gpt"] = true,
 							},
-							["name"] = "Gpt",
-							["focus_r"] = 0.006594,
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1716812664,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.006594,
+							["runepower"] = 0.006594,
 							["serial"] = "0x000000000000000B",
-							["e_rage_r"] = 0.006594,
+							["e_energy"] = 0.006594,
 						}, -- [1]
 					},
 					["combatId"] = 1870,
@@ -2357,36 +2357,36 @@ _details_database = {
 										["uptime"] = 5,
 										["activedamt"] = 0,
 										["id"] = 20185,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[62124] = {
 										["uptime"] = 3,
 										["activedamt"] = 0,
 										["id"] = 62124,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[54499] = {
 										["uptime"] = 5,
 										["activedamt"] = 0,
 										["id"] = 54499,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
@@ -2397,94 +2397,94 @@ _details_database = {
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[67016] = {
-										["uptime"] = 7,
+									[20053] = {
+										["uptime"] = 6,
 										["activedamt"] = 1,
-										["id"] = 67016,
+										["id"] = 20053,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20375] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 20375,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17670] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 17670,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[27150] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 27150,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59578] = {
-										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 59578,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57669] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 57669,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
-									[20053] = {
-										["uptime"] = 6,
+									[17670] = {
+										["uptime"] = 7,
 										["activedamt"] = 1,
-										["id"] = 20053,
+										["id"] = 17670,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[59578] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 59578,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[27150] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 27150,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[67016] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 67016,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[20375] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 20375,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["fight_component"] = true,
-							["type"] = 4,
+							["debuff_uptime"] = 13,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
@@ -2492,15 +2492,15 @@ _details_database = {
 							},
 							["name"] = "Gpt",
 							["last_event"] = 1716812655,
-							["debuff_uptime"] = 13,
 							["pets"] = {
 							},
-							["serial"] = "0x000000000000000B",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x000000000000000B",
+							["type"] = 4,
 						}, -- [1]
 					},
 					["combatId"] = 1870,
@@ -2517,9 +2517,9 @@ _details_database = {
 				["raid_roster"] = {
 					["Harutt"] = true,
 					["Fallat"] = true,
-					["Nittlebur"] = true,
-					["Gpt"] = true,
 					["Shalannius"] = true,
+					["Gpt"] = true,
+					["Nittlebur"] = true,
 				},
 				["last_events_tables"] = {
 				},
@@ -2539,15 +2539,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2566,12 +2566,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "19:24:16",
@@ -2582,11 +2582,11 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1716812655,
+				["instance_type"] = "none",
 				["start_time"] = 1716812648,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1716812655,
 			}, -- [3]
 			{
 				{
@@ -2613,18 +2613,22 @@ _details_database = {
 									}, -- [3]
 								},
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["pets"] = {
 							},
-							["end_time"] = 1716812515,
+							["damage_taken"] = 1118.008182,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 31804.008182,
-							["last_dps"] = 1223.231083923077,
+							["damage_from"] = {
+								["懒鬼杰克"] = true,
+								["“脏鬼”拉瑞"] = true,
+								["“史诗”马龙"] = true,
+							},
 							["dps_started"] = false,
-							["total"] = 31804.008182,
+							["end_time"] = 1716812515,
 							["placing"] = 1,
-							["damage_taken"] = 1118.008182,
-							["custom"] = 0,
+							["on_hold"] = false,
+							["name"] = "Gpt",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -2651,15 +2655,15 @@ _details_database = {
 										["c_max"] = 1056,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["PARRY"] = 1,
 										["c_min"] = 918,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[27138] = {
 										["c_amt"] = 0,
@@ -2684,234 +2688,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27138,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[20424] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 3654,
-										["g_amt"] = 0,
-										["n_max"] = 280,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 2340,
-													["name"] = "“史诗”马龙",
-												}, -- [1]
-												{
-													["total"] = 3451,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [2]
-												{
-													["total"] = 2627,
-													["name"] = "懒鬼杰克",
-												}, -- [3]
-											},
-										},
-										["n_dmg"] = 4764,
-										["n_min"] = 243,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 8418,
-										["c_max"] = 558,
-										["id"] = 20424,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 470,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 18,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[61840] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 100,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 100,
-													["name"] = "“史诗”马龙",
-												}, -- [1]
-												{
-													["total"] = 84,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [2]
-											},
-										},
-										["n_dmg"] = 184,
-										["n_min"] = 84,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 184,
-										["c_max"] = 0,
-										["id"] = 61840,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[53385] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1334,
-										["g_amt"] = 0,
-										["n_max"] = 656,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1944,
-													["name"] = "“史诗”马龙",
-												}, -- [1]
-												{
-													["total"] = 1248,
-													["name"] = "懒鬼杰克",
-												}, -- [2]
-												{
-													["total"] = 1260,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [3]
-											},
-										},
-										["n_dmg"] = 3118,
-										["n_min"] = 592,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 4452,
-										["c_max"] = 1334,
-										["id"] = 53385,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 1334,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[20467] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1132,
-										["g_amt"] = 0,
-										["n_max"] = 559,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1691,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 559,
-										["n_min"] = 559,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1691,
-										["c_max"] = 1132,
-										["id"] = 20467,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 1132,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[27150] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 132,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 495,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [1]
-												{
-													["total"] = 495,
-													["name"] = "懒鬼杰克",
-												}, -- [2]
-												{
-													["total"] = 242,
-													["name"] = "“史诗”马龙",
-												}, -- [3]
-											},
-										},
-										["n_dmg"] = 1232,
-										["n_min"] = 121,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1232,
-										["c_max"] = 0,
-										["id"] = 27150,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[35395] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 519,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1536,
-													["name"] = "“脏鬼”拉瑞",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 1536,
-										["n_min"] = 503,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 1536,
-										["c_max"] = 0,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["DODGE"] = 1,
 									},
 									[27173] = {
 										["c_amt"] = 0,
@@ -2944,33 +2728,249 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27173,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 34,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[61840] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 100,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 100,
+													["name"] = "“史诗”马龙",
+												}, -- [1]
+												{
+													["total"] = 84,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 184,
+										["n_min"] = 84,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 184,
+										["c_max"] = 0,
+										["id"] = 61840,
+										["r_dmg"] = 0,
 										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 519,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1536,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 1536,
+										["n_min"] = 503,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1536,
+										["c_max"] = 0,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20467] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1132,
+										["g_amt"] = 0,
+										["n_max"] = 559,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1691,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 559,
+										["n_min"] = 559,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1691,
+										["c_max"] = 1132,
+										["id"] = 20467,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 1132,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[27150] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 132,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 495,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [1]
+												{
+													["total"] = 495,
+													["name"] = "懒鬼杰克",
+												}, -- [2]
+												{
+													["total"] = 242,
+													["name"] = "“史诗”马龙",
+												}, -- [3]
+											},
+										},
+										["n_dmg"] = 1232,
+										["n_min"] = 121,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1232,
+										["c_max"] = 0,
+										["id"] = 27150,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20424] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 3654,
+										["g_amt"] = 0,
+										["n_max"] = 280,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2340,
+													["name"] = "“史诗”马龙",
+												}, -- [1]
+												{
+													["total"] = 3451,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [2]
+												{
+													["total"] = 2627,
+													["name"] = "懒鬼杰克",
+												}, -- [3]
+											},
+										},
+										["n_dmg"] = 4764,
+										["n_min"] = 243,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 8418,
+										["c_max"] = 558,
+										["id"] = 20424,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 470,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 18,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[53385] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1334,
+										["g_amt"] = 0,
+										["n_max"] = 656,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1944,
+													["name"] = "“史诗”马龙",
+												}, -- [1]
+												{
+													["total"] = 1248,
+													["name"] = "懒鬼杰克",
+												}, -- [2]
+												{
+													["total"] = 1260,
+													["name"] = "“脏鬼”拉瑞",
+												}, -- [3]
+											},
+										},
+										["n_dmg"] = 3118,
+										["n_min"] = 592,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 4452,
+										["c_max"] = 1334,
+										["id"] = 53385,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["c_min"] = 1334,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
+							["type"] = 1,
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
-							["type"] = 1,
-							["name"] = "Gpt",
+							["custom"] = 0,
 							["last_event"] = 1716812514,
-							["on_hold"] = false,
+							["last_dps"] = 1223.231083923077,
 							["start_time"] = 1716812489,
-							["serial"] = "0x000000000000000B",
-							["damage_from"] = {
-								["懒鬼杰克"] = true,
-								["“脏鬼”拉瑞"] = true,
-								["“史诗”马龙"] = true,
-							},
+							["delay"] = 0,
+							["total"] = 31804.008182,
 						}, -- [1]
 					},
 					["combatId"] = 1869,
@@ -2982,9 +2982,7 @@ _details_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.007457,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Gpt"] = true,
-							},
+							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 4,
@@ -3000,15 +2998,18 @@ _details_database = {
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.007457,
-							["healing_taken"] = 2475.007457,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 548.0074569999999,
 							["total_without_pet"] = 2475.007457,
-							["group"] = true,
+							["healing_from"] = {
+								["Gpt"] = true,
+							},
 							["fight_component"] = true,
-							["end_time"] = 1716812515,
 							["type"] = 2,
-							["heal_enemy_amt"] = 0,
 							["total"] = 2475.007457,
+							["healing_taken"] = 2475.007457,
+							["end_time"] = 1716812515,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
@@ -3095,16 +3096,15 @@ _details_database = {
 									},
 								},
 							},
-							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["name"] = "Gpt",
 							["last_event"] = 1716812513,
 							["on_hold"] = false,
 							["start_time"] = 1716812490,
-							["serial"] = "0x000000000000000B",
-							["custom"] = 0,
+							["delay"] = 0,
+							["initialize_hps"] = false,
 						}, -- [1]
 					},
 					["combatId"] = 1869,
@@ -3114,9 +3114,9 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.002254,
-							["runepower"] = 0.002254,
+							["e_energy_r"] = 0.002254,
 							["group"] = true,
-							["holypower_r"] = 0.002254,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -3133,23 +3133,22 @@ _details_database = {
 							["flag_original"] = 1297,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["class"] = "PALADIN",
-							["focus"] = 0.002254,
+							["name"] = "Gpt",
 							["mana"] = 3166.002254,
-							["e_energy"] = 0.002254,
+							["focus"] = 0.002254,
+							["holypower_r"] = 0.002254,
+							["e_rage_r"] = 0.002254,
 							["holypower"] = 0.002254,
 							["holypower_from"] = {
 							},
-							["runepower_from"] = {
-							},
+							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 3166.002254,
 							["e_energy_from"] = {
 							},
-							["last_event"] = 1716812526,
-							["e_rage_from"] = {
+							["runepower_from"] = {
 							},
+							["focus_r"] = 0.002254,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -3228,13 +3227,14 @@ _details_database = {
 							["mana_from"] = {
 								["Gpt"] = true,
 							},
-							["name"] = "Gpt",
-							["focus_r"] = 0.002254,
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1716812526,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.002254,
+							["runepower"] = 0.002254,
 							["serial"] = "0x000000000000000B",
-							["e_rage_r"] = 0.002254,
+							["e_energy"] = 0.002254,
 						}, -- [1]
 					},
 					["combatId"] = 1869,
@@ -3251,48 +3251,48 @@ _details_database = {
 										["uptime"] = 13,
 										["activedamt"] = 0,
 										["id"] = 20185,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[27173] = {
 										["uptime"] = 16,
 										["activedamt"] = 0,
 										["id"] = 27173,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[54499] = {
-										["uptime"] = 13,
-										["activedamt"] = 0,
-										["id"] = 54499,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[61840] = {
 										["uptime"] = 5,
 										["activedamt"] = 0,
 										["id"] = 61840,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[54499] = {
+										["uptime"] = 13,
+										["activedamt"] = 0,
+										["id"] = 54499,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
@@ -3307,126 +3307,126 @@ _details_database = {
 										["uptime"] = 26,
 										["activedamt"] = 1,
 										["id"] = 67016,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[53601] = {
 										["uptime"] = 22,
 										["activedamt"] = 1,
 										["id"] = 53601,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58597] = {
 										["uptime"] = 19,
 										["activedamt"] = 3,
 										["id"] = 58597,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[27150] = {
 										["uptime"] = 26,
 										["activedamt"] = 1,
 										["id"] = 27150,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57669] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 57669,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 26,
 										["activedamt"] = 1,
 										["id"] = 20375,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20053] = {
 										["uptime"] = 19,
 										["activedamt"] = 1,
 										["id"] = 20053,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59578] = {
-										["uptime"] = 12,
-										["activedamt"] = 2,
-										["id"] = 59578,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17670] = {
-										["uptime"] = 26,
-										["activedamt"] = 1,
-										["id"] = 17670,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[54428] = {
 										["uptime"] = 6,
 										["activedamt"] = 1,
 										["id"] = 54428,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[17670] = {
+										["uptime"] = 26,
+										["activedamt"] = 1,
+										["id"] = 17670,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[59578] = {
+										["uptime"] = 12,
+										["activedamt"] = 2,
+										["id"] = 59578,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["fight_component"] = true,
-							["type"] = 4,
+							["debuff_uptime"] = 47,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
@@ -3434,15 +3434,15 @@ _details_database = {
 							},
 							["name"] = "Gpt",
 							["last_event"] = 1716812515,
-							["debuff_uptime"] = 47,
 							["pets"] = {
 							},
-							["serial"] = "0x000000000000000B",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x000000000000000B",
+							["type"] = 4,
 						}, -- [1]
 					},
 					["combatId"] = 1869,
@@ -3459,9 +3459,9 @@ _details_database = {
 				["raid_roster"] = {
 					["Harutt"] = true,
 					["Fallat"] = true,
-					["Nittlebur"] = true,
-					["Gpt"] = true,
 					["Shalannius"] = true,
+					["Gpt"] = true,
+					["Nittlebur"] = true,
 				},
 				["last_events_tables"] = {
 				},
@@ -3481,15 +3481,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3508,12 +3508,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "19:21:55",
@@ -3525,11 +3525,11 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1716812515,
+				["instance_type"] = "none",
 				["start_time"] = 1716812489,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1716812515,
 			}, -- [4]
 			{
 				{
@@ -3548,18 +3548,20 @@ _details_database = {
 									}, -- [1]
 								},
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["pets"] = {
 							},
-							["end_time"] = 1716811436,
+							["damage_taken"] = 4489.005563000001,
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 36796.005563,
-							["last_dps"] = 1533.166898458333,
+							["damage_from"] = {
+								["风鹏皇后"] = true,
+							},
 							["dps_started"] = false,
-							["total"] = 36796.005563,
+							["end_time"] = 1716811436,
 							["placing"] = 1,
-							["damage_taken"] = 4489.005563000001,
-							["custom"] = 0,
+							["on_hold"] = false,
+							["name"] = "Gpt",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -3586,14 +3588,14 @@ _details_database = {
 										["c_max"] = 1880,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["c_min"] = 1250,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[27138] = {
 										["c_amt"] = 0,
@@ -3618,14 +3620,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27138,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[18112] = {
 										["c_amt"] = 1,
@@ -3650,14 +3652,14 @@ _details_database = {
 										["c_max"] = 1336,
 										["id"] = 18112,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
 										["c_min"] = 1336,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[53385] = {
 										["c_amt"] = 0,
@@ -3682,14 +3684,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 53385,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[27150] = {
 										["c_amt"] = 0,
@@ -3714,14 +3716,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27150,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 5,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[61840] = {
 										["c_amt"] = 0,
@@ -3746,14 +3748,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 61840,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 									[20424] = {
 										["c_amt"] = 5,
@@ -3778,78 +3780,14 @@ _details_database = {
 										["c_max"] = 806,
 										["id"] = 20424,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 626,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 11,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[35395] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1260,
-										["g_amt"] = 0,
-										["n_max"] = 941,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 4027,
-													["name"] = "风鹏皇后",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 2767,
-										["n_min"] = 909,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 4027,
-										["c_max"] = 1260,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
 										["b_dmg"] = 0,
-										["c_min"] = 1260,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[20467] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1318,
-										["g_amt"] = 0,
-										["n_max"] = 965,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 2283,
-													["name"] = "风鹏皇后",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 965,
-										["n_min"] = 965,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 2283,
-										["c_max"] = 1318,
-										["id"] = 20467,
-										["r_dmg"] = 0,
 										["r_amt"] = 0,
-										["b_dmg"] = 0,
-										["c_min"] = 1318,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
 									},
 									[27180] = {
 										["c_amt"] = 0,
@@ -3874,31 +3812,93 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 27180,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[20467] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1318,
+										["g_amt"] = 0,
+										["n_max"] = 965,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2283,
+													["name"] = "风鹏皇后",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 965,
+										["n_min"] = 965,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2283,
+										["c_max"] = 1318,
+										["id"] = 20467,
+										["r_dmg"] = 0,
 										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["c_min"] = 1318,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1260,
+										["g_amt"] = 0,
+										["n_max"] = 941,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 4027,
+													["name"] = "风鹏皇后",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 2767,
+										["n_min"] = 909,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 4027,
+										["c_max"] = 1260,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["c_min"] = 1260,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
+							["type"] = 1,
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
-							["type"] = 1,
-							["name"] = "Gpt",
+							["custom"] = 0,
 							["last_event"] = 1716811435,
-							["on_hold"] = false,
+							["last_dps"] = 1533.166898458333,
 							["start_time"] = 1716811412,
-							["serial"] = "0x000000000000000B",
-							["damage_from"] = {
-								["风鹏皇后"] = true,
-							},
+							["delay"] = 0,
+							["total"] = 36796.005563,
 						}, -- [1]
 					},
 					["combatId"] = 1868,
@@ -3910,9 +3910,7 @@ _details_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.008199,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Gpt"] = true,
-							},
+							["group"] = true,
 							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 4,
@@ -3928,15 +3926,18 @@ _details_database = {
 							["pets"] = {
 							},
 							["totalover_without_pet"] = 0.008199,
-							["healing_taken"] = 3562.008199,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 197.008199,
 							["total_without_pet"] = 3562.008199,
-							["group"] = true,
+							["healing_from"] = {
+								["Gpt"] = true,
+							},
 							["fight_component"] = true,
-							["end_time"] = 1716811436,
 							["type"] = 2,
-							["heal_enemy_amt"] = 0,
 							["total"] = 3562.008199,
+							["healing_taken"] = 3562.008199,
+							["end_time"] = 1716811436,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
@@ -4023,16 +4024,15 @@ _details_database = {
 									},
 								},
 							},
-							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["delay"] = 0,
+							["serial"] = "0x000000000000000B",
 							["name"] = "Gpt",
 							["last_event"] = 1716811433,
 							["on_hold"] = false,
 							["start_time"] = 1716811412,
-							["serial"] = "0x000000000000000B",
-							["custom"] = 0,
+							["delay"] = 0,
+							["initialize_hps"] = false,
 						}, -- [1]
 					},
 					["combatId"] = 1868,
@@ -4042,9 +4042,9 @@ _details_database = {
 					["_ActorTable"] = {
 						{
 							["runepower_r"] = 0.002035,
-							["runepower"] = 0.002035,
+							["e_energy_r"] = 0.002035,
 							["group"] = true,
-							["holypower_r"] = 0.002035,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -4061,23 +4061,22 @@ _details_database = {
 							["flag_original"] = 1297,
 							["pets"] = {
 							},
-							["fight_component"] = true,
-							["class"] = "PALADIN",
-							["focus"] = 0.002035,
+							["name"] = "Gpt",
 							["mana"] = 1773.002035,
-							["e_energy"] = 0.002035,
+							["focus"] = 0.002035,
+							["holypower_r"] = 0.002035,
+							["e_rage_r"] = 0.002035,
 							["holypower"] = 0.002035,
 							["holypower_from"] = {
 							},
-							["runepower_from"] = {
-							},
+							["fight_component"] = true,
 							["type"] = 3,
 							["mana_r"] = 1773.002035,
 							["e_energy_from"] = {
 							},
-							["last_event"] = 1716811440,
-							["e_rage_from"] = {
+							["runepower_from"] = {
 							},
+							["focus_r"] = 0.002035,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -4133,13 +4132,14 @@ _details_database = {
 							["mana_from"] = {
 								["Gpt"] = true,
 							},
-							["name"] = "Gpt",
-							["focus_r"] = 0.002035,
+							["e_rage_from"] = {
+							},
+							["last_event"] = 1716811440,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.002035,
+							["runepower"] = 0.002035,
 							["serial"] = "0x000000000000000B",
-							["e_rage_r"] = 0.002035,
+							["e_energy"] = 0.002035,
 						}, -- [1]
 					},
 					["combatId"] = 1868,
@@ -4156,36 +4156,36 @@ _details_database = {
 										["uptime"] = 23,
 										["activedamt"] = 0,
 										["id"] = 54499,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20185] = {
-										["uptime"] = 23,
-										["activedamt"] = 0,
-										["id"] = 20185,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[61840] = {
 										["uptime"] = 13,
 										["activedamt"] = 0,
 										["id"] = 61840,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[20185] = {
+										["uptime"] = 23,
+										["activedamt"] = 0,
+										["id"] = 20185,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
@@ -4200,138 +4200,138 @@ _details_database = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 67016,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[53601] = {
 										["uptime"] = 15,
 										["activedamt"] = 1,
 										["id"] = 53601,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[33382] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 33382,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[27150] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 27150,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57669] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 57669,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 20375,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[31884] = {
 										["uptime"] = 18,
 										["activedamt"] = 1,
 										["id"] = 31884,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20053] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 20053,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[17670] = {
-										["uptime"] = 24,
-										["activedamt"] = 1,
-										["id"] = 17670,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[59578] = {
-										["uptime"] = 18,
-										["activedamt"] = 3,
-										["id"] = 59578,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[58597] = {
 										["uptime"] = 9,
 										["activedamt"] = 3,
 										["id"] = 58597,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[59578] = {
+										["uptime"] = 18,
+										["activedamt"] = 3,
+										["id"] = 59578,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[17670] = {
+										["uptime"] = 24,
+										["activedamt"] = 1,
+										["id"] = 17670,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["fight_component"] = true,
-							["type"] = 4,
+							["debuff_uptime"] = 59,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
@@ -4339,15 +4339,15 @@ _details_database = {
 							},
 							["name"] = "Gpt",
 							["last_event"] = 1716811436,
-							["debuff_uptime"] = 59,
 							["pets"] = {
 							},
-							["serial"] = "0x000000000000000B",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["serial"] = "0x000000000000000B",
+							["type"] = 4,
 						}, -- [1]
 					},
 					["combatId"] = 1868,
@@ -4364,9 +4364,9 @@ _details_database = {
 				["raid_roster"] = {
 					["Harutt"] = true,
 					["Fallat"] = true,
-					["Nittlebur"] = true,
-					["Gpt"] = true,
 					["Shalannius"] = true,
+					["Gpt"] = true,
+					["Nittlebur"] = true,
 				},
 				["last_events_tables"] = {
 				},
@@ -4386,15 +4386,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Gpt"] = {
@@ -4464,12 +4464,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "19:03:57",
@@ -4480,17 +4480,15 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1716811436,
+				["instance_type"] = "none",
 				["start_time"] = 1716811412,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 1716811436,
 			}, -- [5]
 		},
 	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
-		["Mode"] = 1,
+	["savedbuffs"] = {
 	},
 	["combat_id"] = 1872,
 	["savedStyles"] = {
@@ -4502,14 +4500,18 @@ _details_database = {
 		["where"] = 1,
 	},
 	["last_version"] = "v1.3.0",
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1720706076,
+		["last_version"] = 6,
 	},
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
 			["sub_attribute_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4517,8 +4519,6 @@ _details_database = {
 				1, -- [4]
 				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
 			["snap"] = {
 			},
 			["mode"] = 2,
@@ -4541,17 +4541,19 @@ _details_database = {
 	},
 	["last_instance_time"] = 1716790780,
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1718139067,
-		["last_version"] = 6,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["last_instance_id"] = 467,
-	["savedbuffs"] = {
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
+		["Mode"] = 1,
 	},
 }

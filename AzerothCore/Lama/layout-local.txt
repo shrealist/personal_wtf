@@ -45,7 +45,7 @@ Frame: DBMMinimapButton
 FrameLevel: 2
 Anchor: TOPRIGHT
 X: 2
-Y: -176
+Y: -126
 W: 32
 H: 32
 Frame: NetherbotFrame
@@ -56,7 +56,7 @@ Y: -277
 W: 200
 H: 200
 Frame: PawnUIFrame
-FrameLevel: 256
+FrameLevel: 129
 Anchor: LEFT
 X: 119
 Y: -12
