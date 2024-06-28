@@ -38,8 +38,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 26.57151182634366,
 		["xOfs"] = -63.71455097623839,
-		["point"] = "CENTER",
 		["save"] = true,
+		["point"] = "CENTER",
 	},
 	["MailFrame"] = {
 		["save"] = true,
@@ -59,24 +59,13 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 53.99994769692499,
 		["xOfs"] = -174.4286511178516,
-		["point"] = "CENTER",
 		["save"] = true,
+		["point"] = "CENTER",
 	},
 	["AchievementFrame"] = {
 		["save"] = true,
 	},
-	["InterfaceOptionsFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "CENTER",
-			["relativePoint"] = "CENTER",
-			["yOfs"] = 0,
-			["xOfs"] = 0,
-		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -39.99991357326636,
-		["xOfs"] = 60.28571039012506,
-		["point"] = "CENTER",
+	["PVPParentFrame"] = {
 		["save"] = true,
 	},
 	["VideoOptionsFrame"] = {
@@ -93,8 +82,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 79.71434474417053,
 		["xOfs"] = 162.8571486047335,
-		["save"] = true,
 		["point"] = "LEFT",
+		["save"] = true,
 	},
 	["KeyBindingFrame"] = {
 	},
@@ -109,19 +98,30 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 94.28553440741398,
 		["xOfs"] = 177.1429035493299,
-		["save"] = true,
 		["point"] = "LEFT",
+		["save"] = true,
 	},
 	["LFDParentFrame"] = {
 		["save"] = true,
 	},
-	["HelpFrame"] = {
+	["GossipFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -104.0000041723251,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 24.857091533287,
+		["xOfs"] = -178.7145587993479,
+		["save"] = true,
+		["point"] = "CENTER",
+	},
+	["GuildBankFrame"] = {
 		["save"] = true,
 	},
 	["LootFrame"] = {
-		["save"] = true,
-	},
-	["GuildBankFrame"] = {
 		["save"] = true,
 	},
 	["SpellBookFrame"] = {
@@ -135,26 +135,15 @@ BlizzMoveDB = {
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 38.57130946857766,
 		["xOfs"] = 150.7142712069411,
-		["point"] = "LEFT",
 		["save"] = true,
+		["point"] = "LEFT",
 	},
 	["BankFrame"] = {
 		["save"] = true,
 	},
 	["ItemSocketingFrame"] = {
 	},
-	["GossipFrame"] = {
-		["default"] = {
-			["relativeTo"] = "UIParent",
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["yOfs"] = -104.0000041723251,
-			["xOfs"] = 0,
-		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = 24.857091533287,
-		["xOfs"] = -178.7145587993479,
-		["point"] = "CENTER",
+	["HelpFrame"] = {
 		["save"] = true,
 	},
 	["QuestFrame"] = {
@@ -168,8 +157,8 @@ BlizzMoveDB = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 48.8571636549061,
 		["xOfs"] = -176.5715572748846,
-		["point"] = "CENTER",
 		["save"] = true,
+		["point"] = "CENTER",
 	},
 	["TradeFrame"] = {
 		["save"] = true,
@@ -177,7 +166,18 @@ BlizzMoveDB = {
 	["CalendarFrame"] = {
 		["save"] = true,
 	},
-	["PVPParentFrame"] = {
+	["InterfaceOptionsFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "CENTER",
+			["relativePoint"] = "CENTER",
+			["yOfs"] = 0,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -39.99991357326636,
+		["xOfs"] = 60.28571039012506,
 		["save"] = true,
+		["point"] = "CENTER",
 	},
 }

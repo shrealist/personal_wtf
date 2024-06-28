@@ -3,23 +3,23 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Entropy - AzerothCore"] = "Entropy - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
 		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
 		["Heady - AzerothCore"] = "Heady - AzerothCore",
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
 		["Lama - AzerothCore"] = "Lama - AzerothCore",
 		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
 		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Entropy - AzerothCore"] = "Entropy - AzerothCore",
 	},
 	["profiles"] = {
-		["Entropy - AzerothCore"] = {
+		["Shadow - AzerothCore"] = {
 		},
 		["Lucy - AzerothCore"] = {
 		},
 		["Heady - AzerothCore"] = {
 		},
-		["Shadow - AzerothCore"] = {
+		["Bkk - AzerothCore"] = {
 		},
 		["Lama - AzerothCore"] = {
 		},
@@ -27,7 +27,7 @@ CliqueDB = {
 		},
 		["Gpt - AzerothCore"] = {
 		},
-		["Bkk - AzerothCore"] = {
+		["Entropy - AzerothCore"] = {
 		},
 	},
 }

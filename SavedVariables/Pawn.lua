@@ -8,7 +8,8 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowUnenchanted"] = true,
 	["ButtonPosition"] = 2,
-	["ShownGettingStarted"] = true,
+	["Debug"] = false,
+	["ShowAsterisks"] = 1,
 	["Scales"] = {
 		["\"Wowhead\":ShamanEnhancement"] = {
 			["PerCharacterOptions"] = {
@@ -26,10 +27,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Shaman: enhancement",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "526fbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Shaman: enhancement",
 		},
 		["\"Wowhead\":DeathKnightUnholyDps"] = {
 			["PerCharacterOptions"] = {
@@ -49,10 +50,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "DK: unholy DPS",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: unholy DPS",
 		},
 		["\"Wowhead\":DeathKnightFrostDps"] = {
 			["PerCharacterOptions"] = {
@@ -72,10 +73,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "DK: frost DPS",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: frost DPS",
 		},
 		["\"Wowhead\":WarriorArms"] = {
 			["PerCharacterOptions"] = {
@@ -94,10 +95,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warrior: arms",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "957552",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warrior: arms",
 		},
 		["\"Wowhead\":WarlockDestruction"] = {
 			["PerCharacterOptions"] = {
@@ -115,10 +116,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warlock: destruction",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "8d7bbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warlock: destruction",
 		},
 		["\"Wowhead\":PaladinTank"] = {
 			["PerCharacterOptions"] = {
@@ -137,10 +138,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Paladin: tank",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: tank",
 		},
 		["\"Wowhead\":HunterBeastMastery"] = {
 			["PerCharacterOptions"] = {
@@ -158,10 +159,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Hunter: beast mastery",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "809f56",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Hunter: beast mastery",
 		},
 		["\"Wowhead\":PaladinHoly"] = {
 			["PerCharacterOptions"] = {
@@ -180,10 +181,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Paladin: holy",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: holy",
 		},
 		["\"Wowhead\":RogueCombat"] = {
 			["PerCharacterOptions"] = {
@@ -201,10 +202,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Rogue: combat",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfb74e",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Rogue: combat",
 		},
 		["\"Wowhead\":PriestDiscipline"] = {
 			["PerCharacterOptions"] = {
@@ -222,10 +223,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Priest: discipline",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfbfbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Priest: discipline",
 		},
 		["\"Wowhead\":DeathKnightBloodTank"] = {
 			["PerCharacterOptions"] = {
@@ -245,10 +246,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "DK: blood tank",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: blood tank",
 		},
 		["\"Wowhead\":MageFrost"] = {
 			["PerCharacterOptions"] = {
@@ -266,10 +267,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Mage: frost",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: frost",
 		},
 		["\"Wowhead\":ShamanRestoration"] = {
 			["PerCharacterOptions"] = {
@@ -287,10 +288,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Shaman: restoration",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "526fbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Shaman: restoration",
 		},
 		["\"Wowhead\":MageFire"] = {
 			["PerCharacterOptions"] = {
@@ -308,10 +309,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Mage: fire",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: fire",
 		},
 		["\"Wowhead\":WarriorFury"] = {
 			["PerCharacterOptions"] = {
@@ -330,10 +331,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warrior: fury",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "957552",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warrior: fury",
 		},
 		["\"Wowhead\":DeathKnightBloodDps"] = {
 			["PerCharacterOptions"] = {
@@ -353,10 +354,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "DK: blood DPS",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: blood DPS",
 		},
 		["\"Wowhead\":WarlockDemonology"] = {
 			["PerCharacterOptions"] = {
@@ -374,10 +375,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warlock: demonology",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "8d7bbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warlock: demonology",
 		},
 		["\"Wowhead\":DruidRestoration"] = {
 			["PerCharacterOptions"] = {
@@ -395,12 +396,12 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Druid: restoration",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf5d07",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Druid: restoration",
 		},
-		["\"Wowhead\":RogueSubtlety"] = {
+		["\"Wowhead\":DruidFeralTank"] = {
 			["PerCharacterOptions"] = {
 				["Gpt-AzerothCore"] = {
 				},
@@ -412,14 +413,14 @@ PawnCommon = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "fff569",
+			["Color"] = "ff7d0a",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Rogue: subtlety",
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bfb74e",
 			["SmartGemSocketing"] = true,
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bf5d07",
+			["LocalizedName"] = "Druid: feral bear",
 		},
 		["\"Wowhead\":HunterMarksman"] = {
 			["PerCharacterOptions"] = {
@@ -437,10 +438,31 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Hunter: marksman",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "809f56",
+			["LocalizedName"] = "Hunter: marksman",
+		},
+		["\"Wowhead\":ShamanElemental"] = {
+			["PerCharacterOptions"] = {
+				["Gpt-AzerothCore"] = {
+				},
+				["Lama-AzerothCore"] = {
+				},
+				["Hyper-AzerothCore"] = {
+				},
+				["Entropy-AzerothCore"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "6e95ff",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
 			["SmartGemSocketing"] = true,
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "526fbf",
+			["LocalizedName"] = "Shaman: elemental",
 		},
 		["\"Wowhead\":DeathKnightFrostTank"] = {
 			["PerCharacterOptions"] = {
@@ -460,31 +482,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "DK: frost tank",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["SmartGemSocketing"] = true,
-		},
-		["\"Wowhead\":ShamanElemental"] = {
-			["PerCharacterOptions"] = {
-				["Gpt-AzerothCore"] = {
-				},
-				["Lama-AzerothCore"] = {
-				},
-				["Hyper-AzerothCore"] = {
-				},
-				["Entropy-AzerothCore"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "6e95ff",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Shaman: elemental",
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "526fbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: frost tank",
 		},
 		["\"Wowhead\":PaladinRetribution"] = {
 			["PerCharacterOptions"] = {
@@ -503,10 +504,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Paladin: retribution",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: retribution",
 		},
 		["\"Wowhead\":MageArcane"] = {
 			["PerCharacterOptions"] = {
@@ -524,12 +525,12 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Mage: arcane",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: arcane",
 		},
-		["\"Wowhead\":DruidFeralDps"] = {
+		["\"Wowhead\":WarlockAffliction"] = {
 			["PerCharacterOptions"] = {
 				["Gpt-AzerothCore"] = {
 				},
@@ -541,14 +542,14 @@ PawnCommon = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ff7d0a",
+			["Color"] = "bca5ff",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Druid: feral cat",
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bf5d07",
 			["SmartGemSocketing"] = true,
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "8d7bbf",
+			["LocalizedName"] = "Warlock: affliction",
 		},
 		["\"Wowhead\":WarriorTank"] = {
 			["PerCharacterOptions"] = {
@@ -567,10 +568,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warrior: tank",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "957552",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warrior: tank",
 		},
 		["\"Wowhead\":RogueAssassination"] = {
 			["PerCharacterOptions"] = {
@@ -588,10 +589,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Rogue: assassination",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfb74e",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Rogue: assassination",
 		},
 		["\"Wowhead\":DruidBalance"] = {
 			["PerCharacterOptions"] = {
@@ -609,10 +610,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Druid: balance",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf5d07",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Druid: balance",
 		},
 		["\"Wowhead\":PriestShadow"] = {
 			["PerCharacterOptions"] = {
@@ -630,10 +631,10 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Priest: shadow",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfbfbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Priest: shadow",
 		},
 		["\"Wowhead\":HunterSurvival"] = {
 			["PerCharacterOptions"] = {
@@ -651,12 +652,12 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Hunter: survival",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "809f56",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Hunter: survival",
 		},
-		["\"Wowhead\":WarlockAffliction"] = {
+		["\"Wowhead\":DruidFeralDps"] = {
 			["PerCharacterOptions"] = {
 				["Gpt-AzerothCore"] = {
 				},
@@ -668,14 +669,14 @@ PawnCommon = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "bca5ff",
+			["Color"] = "ff7d0a",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Warlock: affliction",
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "8d7bbf",
 			["SmartGemSocketing"] = true,
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bf5d07",
+			["LocalizedName"] = "Druid: feral cat",
 		},
 		["\"Wowhead\":PriestHoly"] = {
 			["PerCharacterOptions"] = {
@@ -693,12 +694,12 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Priest: holy",
+			["SmartGemSocketing"] = true,
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfbfbf",
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Priest: holy",
 		},
-		["\"Wowhead\":DruidFeralTank"] = {
+		["\"Wowhead\":RogueSubtlety"] = {
 			["PerCharacterOptions"] = {
 				["Gpt-AzerothCore"] = {
 				},
@@ -710,16 +711,15 @@ PawnCommon = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ff7d0a",
+			["Color"] = "fff569",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["LocalizedName"] = "Druid: feral bear",
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bf5d07",
 			["SmartGemSocketing"] = true,
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bfb74e",
+			["LocalizedName"] = "Rogue: subtlety",
 		},
 	},
-	["ShowAsterisks"] = 1,
-	["Debug"] = false,
+	["ShownGettingStarted"] = true,
 }

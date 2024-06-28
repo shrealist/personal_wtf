@@ -1,12 +1,5 @@
 
 MangAdminDb = {
-	["profiles"] = {
-		["Default"] = {
-			["detachedTooltip"] = {
-				["fontSizePercent"] = 1,
-			},
-		},
-	},
 	["account"] = {
 		["buffer"] = {
 			["who"] = {
@@ -77,5 +70,12 @@ MangAdminDb = {
 			},
 		},
 		["language"] = "enUS",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
 	},
 }
