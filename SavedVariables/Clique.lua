@@ -3,31 +3,34 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
-		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
-		["Heady - AzerothCore"] = "Heady - AzerothCore",
-		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
-		["Lama - AzerothCore"] = "Lama - AzerothCore",
-		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
-		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
 		["Entropy - AzerothCore"] = "Entropy - AzerothCore",
+		["Hyper - AzerothCore"] = "Hyper - AzerothCore",
+		["Lama - AzerothCore"] = "Lama - AzerothCore",
+		["Heady - AzerothCore"] = "Heady - AzerothCore",
+		["Shadow - AzerothCore"] = "Shadow - AzerothCore",
+		["Bkk - AzerothCore"] = "Bkk - AzerothCore",
+		["Lucy - AzerothCore"] = "Lucy - AzerothCore",
+		["Gpt - AzerothCore"] = "Gpt - AzerothCore",
+		["Mlp - AzerothCore"] = "Mlp - AzerothCore",
 	},
 	["profiles"] = {
-		["Shadow - AzerothCore"] = {
-		},
-		["Lucy - AzerothCore"] = {
-		},
-		["Heady - AzerothCore"] = {
-		},
-		["Bkk - AzerothCore"] = {
-		},
-		["Lama - AzerothCore"] = {
+		["Entropy - AzerothCore"] = {
 		},
 		["Hyper - AzerothCore"] = {
 		},
+		["Lama - AzerothCore"] = {
+		},
+		["Heady - AzerothCore"] = {
+		},
+		["Shadow - AzerothCore"] = {
+		},
+		["Bkk - AzerothCore"] = {
+		},
+		["Lucy - AzerothCore"] = {
+		},
 		["Gpt - AzerothCore"] = {
 		},
-		["Entropy - AzerothCore"] = {
+		["Mlp - AzerothCore"] = {
 		},
 	},
 }

@@ -1,0 +1,9 @@
+MACRO 16777217 "猎人印记" INV_Misc_QuestionMark
+#showtooltip
+/cast 猎人印记
+/petattack
+END
+MACRO 16777218 "误导" INV_Misc_QuestionMark
+#showtooltip
+/cast [pet,target=pet]误导
+END

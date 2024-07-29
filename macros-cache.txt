@@ -68,6 +68,9 @@ END
 MACRO 7 "slipkik" Spell_Shadow_ManaBurn
 .bonusbuff slipkik
 END
+MACRO 30 "talentgroup" INV_Misc_QuestionMark
+/run SetActiveTalentGroup(3)
+END
 MACRO 20 "unbind" INV_Misc_QuestionMark
 .instance unbind all
 END

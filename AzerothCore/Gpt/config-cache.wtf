@@ -1,4 +1,5 @@
-SET minimapZoom "0"
+SET minimapZoom "4"
+SET minimapInsideZoom "2"
 SET questLogCollapseFilter "-1"
 SET trackedQuests "v"
 SET trackedAchievements "v"
