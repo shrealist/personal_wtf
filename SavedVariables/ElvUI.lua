@@ -20,7 +20,7 @@ ElvDB = {
 			["Gpt"] = 9580733,
 			["Lucy"] = 0,
 			["Lama"] = 24521972,
-			["Mlp"] = 7768426,
+			["Mlp"] = 1480533,
 			["Shadow"] = 32474530,
 		},
 	},
@@ -192,7 +192,7 @@ ElvDB = {
 					["height"] = 10,
 				},
 			},
-			["currentTutorial"] = 1,
+			["currentTutorial"] = 10,
 			["general"] = {
 				["fontSize"] = 14,
 				["afk"] = false,

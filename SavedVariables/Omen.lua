@@ -20,7 +20,7 @@ Omen3DB = {
 			["PositionW"] = 241.4284670140078,
 			["PositionH"] = 115.428512760572,
 			["VGrip2"] = 138.8213590174945,
-			["PositionY"] = 383.5710849825876,
+			["PositionY"] = 378.4282246466245,
 			["Background"] = {
 				["EdgeSize"] = 5,
 				["BorderTexture"] = "ElvUI GlowBorder",
@@ -37,7 +37,7 @@ Omen3DB = {
 				["Texture"] = "None",
 			},
 			["VGrip1"] = 120.3570164367575,
-			["PositionX"] = 160.3571867889585,
+			["PositionX"] = 157.5000453367823,
 			["Warnings"] = {
 				["Flash"] = false,
 			},

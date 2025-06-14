@@ -34,10 +34,10 @@ TalentedDB = {
 		["Hyper - AzerothCore"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = -4.285669262920778,
-					["x"] = -2.857160525662295,
-					["anchorTo"] = "CENTER",
+					["y"] = -29.99987557530589,
+					["x"] = -36.42864173012016,
 					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = 0,

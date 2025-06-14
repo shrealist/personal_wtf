@@ -16,7 +16,7 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 2435,
+	["combat_counter"] = 3603,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -47,342 +47,217 @@ _details_database = {
 		},
 	},
 	["character_data"] = {
-		["logons"] = 69,
+		["logons"] = 117,
 	},
 	["table_history"] = {
 		["tables"] = {
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 1564,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["name"] = "Mlp",
+							["flag_original"] = 1300,
 							["group"] = true,
 							["damage_from"] = {
-								["德莱尼隐士"] = true,
-								["[*] FALLING"] = true,
-								["德莱尼守备官"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 									{
-										["total"] = 6563,
-										["name"] = "德莱尼守备官",
+										["total"] = 4313,
+										["name"] = "始祖龙崽",
 									}, -- [1]
-									{
-										["total"] = 4296,
-										["name"] = "德莱尼隐士",
-									}, -- [2]
 								},
 							},
-							["on_hold"] = false,
 							["pets"] = {
 								"Cat <Mlp>", -- [1]
 							},
-							["end_time"] = 1722283318,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 9029.007776,
-							["serial"] = "0x0000000000000011",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "HUNTER",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3575.007629,
+							["total"] = 4313.007629,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "HUNTER",
+							["damage_taken"] = 0.007629,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
+									[27019] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 452,
+										["c_dmg"] = 2241,
 										["g_amt"] = 0,
-										["n_max"] = 80,
+										["n_max"] = 0,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 242,
-													["name"] = "德莱尼守备官",
+													["total"] = 2241,
+													["name"] = "始祖龙崽",
 												}, -- [1]
-												{
-													["total"] = 290,
-													["name"] = "德莱尼隐士",
-												}, -- [2]
 											},
 										},
-										["n_dmg"] = 80,
-										["n_min"] = 80,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 532,
-										["c_max"] = 290,
-										["id"] = 1,
+										["counter"] = 1,
+										["total"] = 2241,
+										["c_max"] = 2241,
+										["id"] = 27019,
 										["r_dmg"] = 0,
-										["DODGE"] = 1,
-										["MISS"] = 2,
-										["a_dmg"] = 0,
-										["c_min"] = 162,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 2241,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									{
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+									[2] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 499,
+										["n_max"] = 700,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 972,
-													["name"] = "德莱尼守备官",
+													["total"] = 1334,
+													["name"] = "始祖龙崽",
 												}, -- [1]
 											},
 										},
-										["n_dmg"] = 972,
-										["n_min"] = 473,
+										["n_dmg"] = 1334,
+										["n_min"] = 634,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 972,
+										["total"] = 1334,
 										["c_max"] = 0,
 										["id"] = 2,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [2]
-									[14315] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 538,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1899,
-													["name"] = "德莱尼守备官",
-												}, -- [1]
-												{
-													["total"] = 1393,
-													["name"] = "德莱尼隐士",
-												}, -- [2]
-											},
-										},
-										["n_dmg"] = 3292,
-										["n_min"] = 285,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 3292,
-										["c_max"] = 0,
-										["id"] = 14315,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 9,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[42245] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 1678,
-										["g_amt"] = 0,
-										["n_max"] = 365,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1934,
-													["name"] = "德莱尼守备官",
-												}, -- [1]
-												{
-													["total"] = 2299,
-													["name"] = "德莱尼隐士",
-												}, -- [2]
-											},
-										},
-										["n_dmg"] = 2555,
-										["n_min"] = 365,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 4233,
-										["c_max"] = 839,
-										["id"] = 42245,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["c_min"] = 839,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 							},
-							["last_dps"] = 775.6434125714286,
-							["custom"] = 0,
-							["last_event"] = 1722283316,
-							["damage_taken"] = 2232.007776,
-							["start_time"] = 1722283304,
-							["delay"] = 0,
-							["total"] = 10859.007776,
+							["last_dps"] = 862.6015258,
+							["end_time"] = 1733424402,
+							["name"] = "Mlp",
+							["last_event"] = 1733424401,
+							["on_hold"] = false,
+							["start_time"] = 1733424397,
+							["serial"] = "0x0000000000000011",
+							["type"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["name"] = "Cat <Mlp>",
 							["group"] = true,
 							["damage_from"] = {
-								["德莱尼守备官"] = true,
+								["始祖龙崽"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 									{
-										["total"] = 1516,
-										["name"] = "德莱尼守备官",
+										["total"] = 738,
+										["name"] = "始祖龙崽",
 									}, -- [1]
-									{
-										["total"] = 314,
-										["name"] = "德莱尼隐士",
-									}, -- [2]
 								},
 							},
-							["on_hold"] = false,
 							["pets"] = {
 							},
-							["end_time"] = 1722283318,
-							["placing"] = 2,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 1830.001264,
-							["serial"] = "0xF1400000070000A7",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PET",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 738.008024,
+							["total"] = 738.008024,
+							["dps_started"] = false,
+							["placing"] = 2,
+							["class"] = "PET",
+							["damage_taken"] = 286.008024,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 354,
+										["c_dmg"] = 506,
 										["g_amt"] = 0,
-										["n_max"] = 186,
+										["n_max"] = 232,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 1062,
-													["name"] = "德莱尼守备官",
+													["total"] = 738,
+													["name"] = "始祖龙崽",
 												}, -- [1]
-												{
-													["total"] = 314,
-													["name"] = "德莱尼隐士",
-												}, -- [2]
 											},
 										},
-										["n_dmg"] = 1022,
-										["n_min"] = 156,
+										["n_dmg"] = 232,
+										["n_min"] = 232,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 1376,
-										["c_max"] = 354,
+										["counter"] = 2,
+										["total"] = 738,
+										["c_max"] = 506,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 354,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 506,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
-									[27049] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 97,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 454,
-													["name"] = "德莱尼守备官",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 454,
-										["n_min"] = 86,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 454,
-										["c_max"] = 0,
-										["id"] = 27049,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
 								},
 							},
-							["last_dps"] = 130.714376,
-							["custom"] = 0,
-							["last_event"] = 1722283316,
-							["damage_taken"] = 172.001264,
-							["start_time"] = 1722283304,
-							["delay"] = 0,
-							["total"] = 1830.001264,
+							["last_dps"] = 147.6016048,
+							["end_time"] = 1733424402,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424400,
+							["on_hold"] = false,
+							["start_time"] = 1733424398,
+							["serial"] = "0xF140000007000054",
+							["type"] = 1,
 						}, -- [2]
 					},
+					["combatId"] = 2395,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 1564,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 2395,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 1564,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["focus"] = 0.001078,
+							["runepower_r"] = 0.006543,
+							["runepower"] = 0.006543,
 							["group"] = true,
-							["holypower_r"] = 0.001078,
+							["class"] = "HUNTER",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -391,35 +266,37 @@ _details_database = {
 										["name"] = "Mlp",
 										["e_energy"] = 0,
 										["e_rage"] = 0,
-										["mana"] = 260,
+										["mana"] = 207,
 										["runepower"] = 0,
 									}, -- [1]
 								},
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.001078,
-							["e_energy_r"] = 0.001078,
+							["flag_original"] = 1297,
+							["mana_from"] = {
+								["Mlp"] = true,
+							},
+							["focus"] = 0.006543,
+							["holypower_r"] = 0.006543,
+							["last_event"] = 1733424407,
+							["holypower"] = 0.006543,
 							["holypower_from"] = {
 							},
-							["e_rage_r"] = 0.001078,
-							["mana"] = 260.001078,
-							["holypower"] = 0.001078,
-							["class"] = "HUNTER",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
-							["mana_r"] = 260.001078,
+							["mana_r"] = 207.006543,
 							["e_energy_from"] = {
 							},
-							["name"] = "Mlp",
-							["focus_r"] = 0.001078,
+							["mana"] = 207.006543,
+							["e_energy"] = 0.006543,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 									[58883] = {
 										["id"] = 58883,
-										["mana"] = 260,
+										["mana"] = 207,
 										["targets"] = {
 											["type"] = 8,
 											["_ActorTable"] = {
@@ -428,7 +305,7 @@ _details_database = {
 													["name"] = "Mlp",
 													["e_energy"] = 0,
 													["e_rage"] = 0,
-													["mana"] = 260,
+													["mana"] = 207,
 													["runepower"] = 0,
 												}, -- [1]
 											},
@@ -438,28 +315,26 @@ _details_database = {
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 5,
+										["counter"] = 3,
 									},
 								},
 							},
-							["e_rage"] = 0.001078,
-							["mana_from"] = {
-								["Mlp"] = true,
-							},
 							["e_rage_from"] = {
 							},
-							["e_energy"] = 0.001078,
+							["e_rage_r"] = 0.006543,
+							["name"] = "Mlp",
+							["focus_r"] = 0.006543,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.001078,
+							["e_energy_r"] = 0.006543,
 							["serial"] = "0x0000000000000011",
-							["last_event"] = 1722283322,
+							["e_rage"] = 0.006543,
 						}, -- [1]
 						{
 							["flag_original"] = 2578,
-							["focus"] = 0.003384,
+							["focus"] = 0.007101,
 							["group"] = true,
-							["holypower_r"] = 0.003384,
+							["holypower_r"] = 0.007101,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -467,7 +342,7 @@ _details_database = {
 										["total"] = 0,
 										["name"] = "Behomat",
 										["e_energy"] = 0,
-										["e_rage"] = 4,
+										["e_rage"] = 120,
 										["mana"] = 0,
 										["runepower"] = 0,
 									}, -- [1]
@@ -475,25 +350,48 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.003384,
-							["e_energy_r"] = 0.003384,
+							["runepower_r"] = 0.007101,
+							["e_energy_r"] = 0.007101,
 							["holypower_from"] = {
 							},
-							["e_rage_r"] = 4.003384000000001,
-							["mana"] = 0.003384,
-							["holypower"] = 0.003384,
+							["e_rage_r"] = 120.007101,
+							["mana"] = 0.007101,
+							["holypower"] = 0.007101,
 							["class"] = "WARRIOR",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
-							["mana_r"] = 0.003384,
+							["mana_r"] = 0.007101,
 							["e_energy_from"] = {
 							},
 							["name"] = "Behomat",
-							["focus_r"] = 0.003384,
+							["focus_r"] = 0.007101,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
+									[2687] = {
+										["id"] = 2687,
+										["mana"] = 0,
+										["targets"] = {
+											["type"] = 8,
+											["_ActorTable"] = {
+												{
+													["total"] = 0,
+													["name"] = "Behomat",
+													["e_energy"] = 0,
+													["e_rage"] = 90,
+													["mana"] = 0,
+													["runepower"] = 0,
+												}, -- [1]
+											},
+										},
+										["e_energy"] = 0,
+										["e_rage"] = 90,
+										["runepower"] = 0,
+										["__index"] = {
+										},
+										["counter"] = 3,
+									},
 									[29131] = {
 										["id"] = 29131,
 										["mana"] = 0,
@@ -504,189 +402,166 @@ _details_database = {
 													["total"] = 0,
 													["name"] = "Behomat",
 													["e_energy"] = 0,
-													["e_rage"] = 4,
+													["e_rage"] = 30,
 													["mana"] = 0,
 													["runepower"] = 0,
 												}, -- [1]
 											},
 										},
 										["e_energy"] = 0,
-										["e_rage"] = 4,
+										["e_rage"] = 30,
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 4,
+										["counter"] = 30,
 									},
 								},
 							},
-							["e_rage"] = 4.003384000000001,
+							["e_rage"] = 120.007101,
 							["mana_from"] = {
 							},
 							["e_rage_from"] = {
 								["Behomat"] = true,
 							},
-							["e_energy"] = 0.003384,
+							["e_energy"] = 0.007101,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.003384,
+							["runepower"] = 0.007101,
 							["serial"] = "0xF130011193000025",
-							["last_event"] = 1722283837,
+							["last_event"] = 1733650687,
 						}, -- [2]
 					},
+					["combatId"] = 2395,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 1564,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["debuff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[14315] = {
-										["uptime"] = 6,
-										["activedamt"] = 0,
-										["id"] = 14315,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[14295] = {
-										["uptime"] = 5,
-										["activedamt"] = 0,
-										["id"] = 14295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["group"] = true,
-							["debuff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["class"] = "HUNTER",
-							["debuff_uptime"] = 11,
-							["buff_uptime"] = 74,
 							["type"] = 4,
+							["group"] = true,
+							["class"] = "HUNTER",
+							["pets"] = {
+							},
+							["name"] = "Mlp",
+							["last_event"] = 1733424402,
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[14295] = {
-										["uptime"] = 6,
+									[19506] = {
+										["uptime"] = 5,
 										["activedamt"] = 1,
-										["id"] = 14295,
-										["actived"] = false,
+										["id"] = 19506,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[67017] = {
-										["uptime"] = 14,
+										["uptime"] = 5,
 										["activedamt"] = 1,
 										["id"] = 67017,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
-									[56654] = {
-										["uptime"] = 6,
+									[35079] = {
+										["uptime"] = 2,
 										["activedamt"] = 1,
-										["id"] = 56654,
-										["actived"] = false,
+										["id"] = 35079,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["counter"] = 0,
-									},
-									[32049] = {
-										["uptime"] = 14,
-										["activedamt"] = 1,
-										["id"] = 32049,
 										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[19506] = {
-										["uptime"] = 14,
-										["activedamt"] = 1,
-										["id"] = 19506,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25296] = {
-										["uptime"] = 14,
-										["activedamt"] = 1,
-										["id"] = 25296,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
 										["counter"] = 0,
 									},
 									[35099] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
+										["uptime"] = 1,
+										["activedamt"] = 2,
 										["id"] = 35099,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[57940] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 57940,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[61846] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 61846,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[56654] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 56654,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6150] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 6150,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
-							["last_event"] = 1722283318,
+							["buff_uptime"] = 29,
+							["serial"] = "0x0000000000000011",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
-							["pets"] = {
-							},
-							["serial"] = "0x0000000000000011",
-							["name"] = "Mlp",
 						}, -- [1]
 					},
+					["combatId"] = 2395,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
-					["combatId"] = 1564,
+					["combatId"] = 2395,
 					["_ActorTable"] = {
 					},
 					["need_refresh"] = true,
@@ -701,41 +576,1717 @@ _details_database = {
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["against"] = "德莱尼守备官",
-				["data_start"] = "03:01:44",
-				["enemy"] = "德莱尼守备官",
-				["combat_counter"] = 2435,
+				["against"] = "始祖龙崽",
+				["data_start"] = "01:46:37",
+				["enemy"] = "始祖龙崽",
+				["combat_counter"] = 3602,
 				["totals"] = {
-					10858.984408, -- [1]
+					4312.995511, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = 3.998275,
-						["mana"] = 259.998275,
-						["runepower"] = -0.001725,
-						["e_energy"] = -0.001725,
+						["e_rage"] = 119.990988,
+						["mana"] = 206.990988,
+						["runepower"] = -0.009012000000000001,
+						["e_energy"] = -0.009012000000000001,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
-					["Mlp"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["totals_group"] = {
+					4313, -- [1]
+					0, -- [2]
+					{
+						["e_rage"] = 120,
+						["mana"] = 207,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["data_end"] = "01:46:43",
+				["combat_id"] = 2395,
+				["hasSaved"] = true,
+				["frags"] = {
+					["始祖龙崽"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["end_time"] = 1733424402,
+				["start_time"] = 1733424397,
+				["TimeData"] = {
+				},
+				["instance_type"] = "none",
+			}, -- [1]
+			{
+				{
+					["type"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["group"] = true,
+							["damage_from"] = {
+								["始祖龙崽"] = true,
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 9488,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+									{
+										["total"] = 4026,
+										["name"] = "始祖龙崽",
+									}, -- [2]
+								},
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Cat <Mlp>", -- [1]
+							},
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 10084.001127,
+							["total"] = 13514.001127,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "HUNTER",
+							["damage_taken"] = 467.001127,
+							["custom"] = 0,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 210,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 210,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 208,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 418,
+										["n_min"] = 102,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 418,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["spellschool"] = 1,
+										["MISS"] = 2,
+									}, -- [1]
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1304,
+										["g_amt"] = 0,
+										["n_max"] = 699,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 699,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 1304,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 699,
+										["n_min"] = 699,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2003,
+										["c_max"] = 1304,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 1304,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [2]
+									[27019] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1867,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1867,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1867,
+										["c_max"] = 1867,
+										["id"] = 27019,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 1867,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+									[53209] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1652,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1652,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 1652,
+										["n_min"] = 1652,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1652,
+										["c_max"] = 0,
+										["id"] = 53209,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53351] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2388,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2388,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 2388,
+										["n_min"] = 2388,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2388,
+										["c_max"] = 0,
+										["id"] = 53351,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[53353] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 540,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 540,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 540,
+										["n_min"] = 540,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 540,
+										["c_max"] = 0,
+										["id"] = 53353,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[27016] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 270,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 270,
+										["n_min"] = 270,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 270,
+										["c_max"] = 0,
+										["id"] = 27016,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53254] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 946,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 946,
+													["name"] = "始祖龙崽",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 946,
+										["n_min"] = 946,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 946,
+										["c_max"] = 0,
+										["id"] = 53254,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+							},
+							["last_dps"] = 1020.846240538462,
+							["end_time"] = 1733424397,
+							["name"] = "Mlp",
+							["last_event"] = 1733424397,
+							["on_hold"] = false,
+							["start_time"] = 1733424383,
+							["serial"] = "0x0000000000000011",
+							["type"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["group"] = true,
+							["damage_from"] = {
+								["被感染的始祖雏龙"] = true,
+								["始祖龙崽"] = true,
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 1862,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+									{
+										["total"] = 1568,
+										["name"] = "始祖龙崽",
+									}, -- [2]
+								},
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3430.005337,
+							["total"] = 3430.005337,
+							["dps_started"] = false,
+							["placing"] = 2,
+							["class"] = "PET",
+							["damage_taken"] = 739.0053370000001,
+							["custom"] = 0,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1016,
+										["g_amt"] = 0,
+										["n_max"] = 255,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1501,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 1444,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 1929,
+										["n_min"] = 230,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 2945,
+										["c_max"] = 520,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 496,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[27049] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 124,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 361,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 124,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 485,
+										["n_min"] = 117,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 485,
+										["c_max"] = 0,
+										["id"] = 27049,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+							},
+							["last_dps"] = 245.1542566923077,
+							["end_time"] = 1733424397,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424397,
+							["on_hold"] = false,
+							["start_time"] = 1733424383,
+							["serial"] = "0xF140000007000054",
+							["type"] = 1,
+						}, -- [2]
+					},
+					["combatId"] = 2394,
+				}, -- [1]
+				{
+					["type"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.003684,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["class"] = "HUNTER",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 337,
+										["total"] = 538,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+								"Cat <Mlp>", -- [1]
+							},
+							["totalover_without_pet"] = 0.003684,
+							["healing_taken"] = 0.003684,
+							["totalover"] = 434.003684,
+							["total_without_pet"] = 138.003684,
+							["group"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1733424397,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["total"] = 441.003684,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+									[27046] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 138,
+										["targets"] = {
+											["type"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 337,
+													["total"] = 138,
+													["name"] = "Cat <Mlp>",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 138,
+										["counter"] = 1,
+										["overheal"] = 337,
+										["total"] = 138,
+										["c_max"] = 0,
+										["c_healed"] = 0,
+										["id"] = 27046,
+										["c_min"] = 0,
+										["n_amt"] = 1,
+										["n_healed"] = 138,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
+							},
+							["delay"] = 1733424389,
+							["name"] = "Mlp",
+							["last_event"] = 1733424389,
+							["on_hold"] = true,
+							["start_time"] = 1733424385,
+							["serial"] = "0x0000000000000011",
+							["custom"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.005961,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Mlp"] = true,
+								["Cat <Mlp>"] = true,
+							},
+							["class"] = "PET",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 97,
+										["total"] = 303,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005961,
+							["healing_taken"] = 441.005961,
+							["totalover"] = 97.005961,
+							["total_without_pet"] = 303.005961,
+							["group"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1733424397,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["total"] = 303.005961,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+									[54131] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 80,
+										["targets"] = {
+											["type"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 97,
+													["total"] = 303,
+													["name"] = "Cat <Mlp>",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 6,
+										["counter"] = 5,
+										["overheal"] = 97,
+										["total"] = 303,
+										["c_max"] = 0,
+										["c_healed"] = 0,
+										["id"] = 54131,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["n_healed"] = 303,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424389,
+							["on_hold"] = false,
+							["start_time"] = 1733424385,
+							["serial"] = "0xF140000007000054",
+							["custom"] = 0,
+						}, -- [2]
+					},
+					["combatId"] = 2394,
+				}, -- [2]
+				{
+					["type"] = 7,
+					["_ActorTable"] = {
+						{
+							["runepower_r"] = 0.003291,
+							["runepower"] = 0.003291,
+							["group"] = true,
+							["holypower_r"] = 0.003291,
+							["targets"] = {
+								["type"] = 8,
+								["_ActorTable"] = {
+									{
+										["total"] = 0,
+										["name"] = "Mlp",
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["mana"] = 207,
+										["runepower"] = 0,
+									}, -- [1]
+								},
+							},
+							["flag_original"] = 1297,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["class"] = "HUNTER",
+							["focus"] = 0.003291,
+							["mana"] = 207.003291,
+							["e_energy"] = 0.003291,
+							["holypower"] = 0.003291,
+							["holypower_from"] = {
+							},
+							["runepower_from"] = {
+							},
+							["type"] = 3,
+							["mana_r"] = 207.003291,
+							["e_energy_from"] = {
+							},
+							["last_event"] = 1733424396,
+							["e_rage_from"] = {
+							},
+							["spell_tables"] = {
+								["type"] = 7,
+								["_ActorTable"] = {
+									[58883] = {
+										["id"] = 58883,
+										["mana"] = 207,
+										["targets"] = {
+											["type"] = 8,
+											["_ActorTable"] = {
+												{
+													["total"] = 0,
+													["name"] = "Mlp",
+													["e_energy"] = 0,
+													["e_rage"] = 0,
+													["mana"] = 207,
+													["runepower"] = 0,
+												}, -- [1]
+											},
+										},
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["runepower"] = 0,
+										["__index"] = {
+										},
+										["counter"] = 3,
+									},
+								},
+							},
+							["e_rage"] = 0.003291,
+							["mana_from"] = {
+								["Mlp"] = true,
+							},
+							["name"] = "Mlp",
+							["focus_r"] = 0.003291,
+							["focus_from"] = {
+							},
+							["e_energy_r"] = 0.003291,
+							["serial"] = "0x0000000000000011",
+							["e_rage_r"] = 0.003291,
+						}, -- [1]
+					},
+					["combatId"] = 2394,
+				}, -- [3]
+				{
+					["type"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[27016] = {
+										["uptime"] = 6,
+										["activedamt"] = 0,
+										["id"] = 27016,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["group"] = true,
+							["class"] = "HUNTER",
+							["buff_uptime"] = 76,
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[6150] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 6150,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[67017] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 67017,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[56654] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 56654,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[34477] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 34477,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[61846] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 61846,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35079] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 35079,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[57940] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 57940,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19506] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 19506,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35099] = {
+										["uptime"] = 10,
+										["activedamt"] = 2,
+										["id"] = 35099,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["type"] = 4,
+							["debuff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Mlp",
+							["last_event"] = 1733424397,
+							["debuff_uptime"] = 6,
+							["pets"] = {
+							},
+							["serial"] = "0x0000000000000011",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+						}, -- [1]
+					},
+					["combatId"] = 2394,
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["type"] = 2,
+					["combatId"] = 2394,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Quithas"] = true,
+					["Loganaar"] = true,
+					["Behomat"] = true,
+					["Cyssa"] = true,
+					["Mlp"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["against"] = "被感染的始祖雏龙",
+				["data_start"] = "01:46:23",
+				["enemy"] = "被感染的始祖雏龙",
+				["combat_counter"] = 3601,
+				["totals"] = {
+					13513.989664, -- [1]
+					441, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 207,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["totals_group"] = {
+					13514, -- [1]
+					441, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 207,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["data_end"] = "01:46:37",
+				["combat_id"] = 2394,
+				["hasSaved"] = true,
+				["frags"] = {
+					["被感染的始祖雏龙"] = 1,
+				},
+				["CombatSkillCache"] = {
+				},
+				["end_time"] = 1733424397,
+				["start_time"] = 1733424383,
+				["TimeData"] = {
+				},
+				["instance_type"] = "none",
+			}, -- [2]
+			{
+				{
+					["type"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["group"] = true,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 7412,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+								},
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Cat <Mlp>", -- [1]
+							},
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 5273.006750000001,
+							["total"] = 7412.006750000001,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "HUNTER",
+							["damage_taken"] = 0.00675,
+							["custom"] = 0,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									[27019] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 934,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 934,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 934,
+										["n_min"] = 934,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 934,
+										["c_max"] = 0,
+										["id"] = 27019,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+									[53209] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1378,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1378,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 1378,
+										["n_min"] = 1378,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1378,
+										["c_max"] = 0,
+										["id"] = 53209,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[2] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 711,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1341,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 1341,
+										["n_min"] = 630,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1341,
+										["c_max"] = 0,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[27016] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 540,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 540,
+										["n_min"] = 270,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 540,
+										["c_max"] = 0,
+										["id"] = 27016,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53353] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1080,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1080,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1080,
+										["c_max"] = 1080,
+										["id"] = 53353,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 1080,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+							},
+							["last_dps"] = 926.5008437500001,
+							["end_time"] = 1733424367,
+							["name"] = "Mlp",
+							["last_event"] = 1733424365,
+							["on_hold"] = false,
+							["start_time"] = 1733424359,
+							["serial"] = "0x0000000000000011",
+							["type"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["group"] = true,
+							["damage_from"] = {
+								["被感染的始祖雏龙"] = true,
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 2139,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+								},
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 2139.002584,
+							["total"] = 2139.002584,
+							["dps_started"] = false,
+							["placing"] = 2,
+							["class"] = "PET",
+							["damage_taken"] = 969.0025840000001,
+							["custom"] = 0,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 1,
+										["c_dmg"] = 1448,
+										["g_amt"] = 0,
+										["n_max"] = 246,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1906,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 458,
+										["n_min"] = 212,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1906,
+										["c_max"] = 498,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 212,
+										["c_min"] = 466,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[27049] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 120,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 233,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 233,
+										["n_min"] = 113,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 233,
+										["c_max"] = 0,
+										["id"] = 27049,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+							},
+							["last_dps"] = 267.375323,
+							["end_time"] = 1733424367,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424365,
+							["on_hold"] = false,
+							["start_time"] = 1733424359,
+							["serial"] = "0xF140000007000054",
+							["type"] = 1,
+						}, -- [2]
+					},
+					["combatId"] = 2393,
+				}, -- [1]
+				{
+					["type"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.0036,
+							["last_hps"] = 0,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["group"] = true,
+							["class"] = "HUNTER",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 560,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+								"Cat <Mlp>", -- [1]
+							},
+							["totalover_without_pet"] = 0.0036,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.0036,
+							["total_without_pet"] = 0.0036,
+							["end_time"] = 1733424367,
+							["delay"] = 0,
+							["healing_taken"] = 0.0036,
+							["healing_from"] = {
+							},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
+							},
+							["custom"] = 0,
+							["name"] = "Mlp",
+							["last_event"] = 1733424365,
+							["on_hold"] = false,
+							["start_time"] = 1733424359,
+							["serial"] = "0x0000000000000011",
+							["total"] = 560.0036,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.008920000000000001,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Cat <Mlp>"] = true,
+							},
+							["class"] = "PET",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 560,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008920000000000001,
+							["healing_taken"] = 560.00892,
+							["totalover"] = 0.008920000000000001,
+							["total_without_pet"] = 560.00892,
+							["group"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1733424367,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["total"] = 560.00892,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+									[54131] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["n_max"] = 80,
+										["targets"] = {
+											["type"] = 4,
+											["_ActorTable"] = {
+												{
+													["overheal"] = 0,
+													["total"] = 560,
+													["name"] = "Cat <Mlp>",
+													["absorbed"] = 0,
+												}, -- [1]
+											},
+										},
+										["n_min"] = 80,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 560,
+										["c_max"] = 0,
+										["c_healed"] = 0,
+										["id"] = 54131,
+										["c_min"] = 0,
+										["n_amt"] = 7,
+										["n_healed"] = 560,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424365,
+							["on_hold"] = false,
+							["start_time"] = 1733424359,
+							["serial"] = "0xF140000007000054",
+							["custom"] = 0,
+						}, -- [2]
+					},
+					["combatId"] = 2393,
+				}, -- [2]
+				{
+					["type"] = 7,
+					["_ActorTable"] = {
+						{
+							["runepower_r"] = 0.007407,
+							["runepower"] = 0.007407,
+							["group"] = true,
+							["class"] = "HUNTER",
+							["targets"] = {
+								["type"] = 8,
+								["_ActorTable"] = {
+									{
+										["total"] = 0,
+										["name"] = "Mlp",
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["mana"] = 345,
+										["runepower"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["flag_original"] = 1297,
+							["mana_from"] = {
+								["Mlp"] = true,
+							},
+							["focus"] = 0.007407,
+							["holypower_r"] = 0.007407,
+							["last_event"] = 1733424371,
+							["holypower"] = 0.007407,
+							["holypower_from"] = {
+							},
+							["runepower_from"] = {
+							},
+							["type"] = 3,
+							["mana_r"] = 345.007407,
+							["e_energy_from"] = {
+							},
+							["mana"] = 345.007407,
+							["e_energy"] = 0.007407,
+							["spell_tables"] = {
+								["type"] = 7,
+								["_ActorTable"] = {
+									[58883] = {
+										["id"] = 58883,
+										["mana"] = 345,
+										["targets"] = {
+											["type"] = 8,
+											["_ActorTable"] = {
+												{
+													["total"] = 0,
+													["name"] = "Mlp",
+													["e_energy"] = 0,
+													["e_rage"] = 0,
+													["mana"] = 345,
+													["runepower"] = 0,
+												}, -- [1]
+											},
+										},
+										["e_energy"] = 0,
+										["e_rage"] = 0,
+										["runepower"] = 0,
+										["__index"] = {
+										},
+										["counter"] = 5,
+									},
+								},
+							},
+							["e_rage_from"] = {
+							},
+							["e_rage_r"] = 0.007407,
+							["name"] = "Mlp",
+							["focus_r"] = 0.007407,
+							["focus_from"] = {
+							},
+							["e_energy_r"] = 0.007407,
+							["serial"] = "0x0000000000000011",
+							["e_rage"] = 0.007407,
+						}, -- [1]
+					},
+					["combatId"] = 2393,
+				}, -- [3]
+				{
+					["type"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[27016] = {
+										["uptime"] = 6,
+										["activedamt"] = 0,
+										["id"] = 27016,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["group"] = true,
+							["class"] = "HUNTER",
+							["pets"] = {
+							},
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[67017] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 67017,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19506] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 19506,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[61846] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 61846,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[57940] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 57940,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6150] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 6150,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[56654] = {
+										["uptime"] = 4,
+										["activedamt"] = 2,
+										["id"] = 56654,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35099] = {
+										["uptime"] = 5,
+										["activedamt"] = 2,
+										["id"] = 35099,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["type"] = 4,
+							["debuff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["name"] = "Mlp",
+							["last_event"] = 1733424367,
+							["debuff_uptime"] = 6,
+							["buff_uptime"] = 45,
+							["serial"] = "0x0000000000000011",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+						}, -- [1]
+					},
+					["combatId"] = 2393,
+				}, -- [4]
+				{
+					["_NameIndexTable"] = {
+					},
+					["type"] = 2,
+					["combatId"] = 2393,
+					["_ActorTable"] = {
+					},
+					["need_refresh"] = true,
+				}, -- [5]
+				["raid_roster"] = {
+					["Quithas"] = true,
+					["Loganaar"] = true,
+					["Behomat"] = true,
+					["Cyssa"] = true,
+					["Mlp"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["against"] = "被感染的始祖雏龙",
+				["data_start"] = "01:46:00",
+				["enemy"] = "被感染的始祖雏龙",
+				["combat_counter"] = 3600,
+				["totals"] = {
+					7411.993437, -- [1]
+					560, -- [2]
+					{
+						["e_rage"] = 0,
+						["mana"] = 345,
+						["runepower"] = 0,
+						["e_energy"] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Cat <Mlp>"] = {
 						{
 							true, -- [1]
 							1, -- [2]
-							765, -- [3]
-							1722283396.521, -- [4]
-							5050, -- [5]
-							"[*] FALLING", -- [6]
+							138, -- [3]
+							1733424388.749, -- [4]
+							0, -- [5]
+							"被感染的始祖雏龙", -- [6]
 							nil, -- [7]
 							1, -- [8]
 						}, -- [1]
@@ -776,959 +2327,565 @@ _details_database = {
 				["__call"] = {
 				},
 				["totals_group"] = {
-					10859, -- [1]
-					0, -- [2]
+					7412, -- [1]
+					560, -- [2]
 					{
-						["e_rage"] = 4,
-						["mana"] = 260,
+						["e_rage"] = 0,
+						["mana"] = 345,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_end"] = "03:01:58",
-				["combat_id"] = 1564,
+				["data_end"] = "01:46:08",
+				["combat_id"] = 2393,
+				["hasSaved"] = true,
 				["frags"] = {
-					["德莱尼隐士"] = 1,
-					["德莱尼守备官"] = 2,
+					["被感染的始祖雏龙"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1722283318,
-				["start_time"] = 1722283304,
+				["end_time"] = 1733424367,
+				["start_time"] = 1733424359,
 				["TimeData"] = {
 				},
-			}, -- [1]
+				["instance_type"] = "none",
+			}, -- [3]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 1563,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1300,
 							["group"] = true,
-							["class"] = "HUNTER",
+							["damage_from"] = {
+								["被感染的始祖雏龙"] = true,
+								["始祖龙崽"] = true,
+							},
 							["targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 									{
-										["total"] = 4414,
-										["name"] = "恐惧魔",
+										["total"] = 25004,
+										["name"] = "被感染的始祖雏龙",
 									}, -- [1]
 									{
-										["total"] = 1064,
-										["name"] = "起泡的软泥怪",
+										["total"] = 6945,
+										["name"] = "始祖龙的卵",
 									}, -- [2]
 									{
-										["total"] = 4462,
-										["name"] = "起泡的腐泥怪",
+										["total"] = 18009,
+										["name"] = "始祖龙崽",
 									}, -- [3]
 								},
 							},
+							["delay"] = 1733424314,
 							["pets"] = {
 								"Cat <Mlp>", -- [1]
 							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 8764.008214,
-							["name"] = "Mlp",
-							["damage_from"] = {
-								["恐惧魔"] = true,
-								["起泡的腐泥怪"] = true,
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 32661.005804,
+							["total"] = 49958.005804,
 							["dps_started"] = false,
-							["total"] = 9940.008214,
-							["on_hold"] = false,
-							["end_time"] = 1722283283,
 							["placing"] = 1,
-							["serial"] = "0x0000000000000011",
+							["class"] = "HUNTER",
+							["damage_taken"] = 2189.005804,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 1,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 156,
+										["c_dmg"] = 626,
 										["g_amt"] = 0,
-										["n_max"] = 167,
+										["n_max"] = 214,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 323,
-													["name"] = "恐惧魔",
+													["total"] = 1357,
+													["name"] = "被感染的始祖雏龙",
 												}, -- [1]
+												{
+													["total"] = 106,
+													["name"] = "始祖龙崽",
+												}, -- [2]
 											},
 										},
-										["n_dmg"] = 167,
-										["n_min"] = 167,
+										["n_dmg"] = 837,
+										["n_min"] = 103,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 323,
-										["c_max"] = 156,
+										["counter"] = 12,
+										["total"] = 1463,
+										["c_max"] = 418,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 156,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["c_min"] = 208,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 5,
+										["MISS"] = 2,
+										["DODGE"] = 3,
 									}, -- [1]
 									{
+										["c_amt"] = 3,
+										["b_amt"] = 1,
+										["c_dmg"] = 3970,
+										["g_amt"] = 0,
+										["n_max"] = 715,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 4042,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 2794,
+													["name"] = "始祖龙的卵",
+												}, -- [2]
+												{
+													["total"] = 3843,
+													["name"] = "始祖龙崽",
+												}, -- [3]
+											},
+										},
+										["n_dmg"] = 6709,
+										["n_min"] = 625,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 10679,
+										["c_max"] = 1394,
+										["id"] = 2,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 1312,
+										["c_min"] = 1264,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [2]
+									[53254] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 438,
+										["n_max"] = 853,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 870,
-													["name"] = "恐惧魔",
+													["total"] = 853,
+													["name"] = "始祖龙的卵",
 												}, -- [1]
 											},
 										},
-										["n_dmg"] = 870,
-										["n_min"] = 432,
+										["n_dmg"] = 853,
+										["n_min"] = 853,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 853,
+										["c_max"] = 0,
+										["id"] = 53254,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53209] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3242,
+										["g_amt"] = 0,
+										["n_max"] = 1497,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2785,
+													["name"] = "始祖龙崽",
+												}, -- [1]
+												{
+													["total"] = 4626,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 4169,
+										["n_min"] = 1288,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 7411,
+										["c_max"] = 3242,
+										["id"] = 53209,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 3242,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[63468] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 58,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 406,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 406,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 406,
+										["c_max"] = 0,
+										["id"] = 63468,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[27065] = {
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 4748,
+										["g_amt"] = 0,
+										["n_max"] = 1024,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 3593,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 3190,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 2035,
+										["n_min"] = 1011,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 6783,
+										["c_max"] = 2582,
+										["id"] = 27065,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 2166,
+										["c_min"] = 2166,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[27016] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2160,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 810,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 2970,
+										["n_min"] = 270,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 2970,
+										["c_max"] = 0,
+										["id"] = 27016,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53353] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 540,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 540,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 540,
+										["n_min"] = 540,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 540,
+										["c_max"] = 0,
+										["id"] = 53353,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[27019] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 778,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 778,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 778,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 1556,
+										["n_min"] = 778,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 870,
+										["total"] = 1556,
 										["c_max"] = 0,
-										["id"] = 2,
+										["id"] = 27019,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+								},
+							},
+							["last_dps"] = 525.8737453052631,
+							["end_time"] = 1733424359,
+							["name"] = "Mlp",
+							["last_event"] = 1733424357,
+							["on_hold"] = false,
+							["start_time"] = 1733424274,
+							["serial"] = "0x0000000000000011",
+							["type"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["group"] = true,
+							["damage_from"] = {
+								["被感染的始祖雏龙"] = true,
+								["始祖龙崽"] = true,
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 7502,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+									{
+										["total"] = 6497,
+										["name"] = "始祖龙崽",
 									}, -- [2]
-									[14315] = {
-										["c_amt"] = 1,
+									{
+										["total"] = 3298,
+										["name"] = "始祖龙的卵",
+									}, -- [3]
+								},
+							},
+							["delay"] = 1733424314,
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 17297.008138,
+							["total"] = 17297.008138,
+							["dps_started"] = false,
+							["placing"] = 2,
+							["class"] = "PET",
+							["damage_taken"] = 4749.008138,
+							["custom"] = 0,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 11,
 										["b_amt"] = 0,
-										["c_dmg"] = 1026,
+										["c_dmg"] = 5384,
 										["g_amt"] = 0,
-										["n_max"] = 534,
+										["n_max"] = 261,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 1311,
-													["name"] = "恐惧魔",
+													["total"] = 6429,
+													["name"] = "被感染的始祖雏龙",
 												}, -- [1]
 												{
-													["total"] = 1064,
-													["name"] = "起泡的软泥怪",
+													["total"] = 6033,
+													["name"] = "始祖龙崽",
 												}, -- [2]
 												{
-													["total"] = 1361,
-													["name"] = "起泡的腐泥怪",
+													["total"] = 2692,
+													["name"] = "始祖龙的卵",
 												}, -- [3]
 											},
 										},
-										["n_dmg"] = 2710,
-										["n_min"] = 285,
+										["n_dmg"] = 9770,
+										["n_min"] = 225,
 										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 3736,
-										["c_max"] = 1026,
-										["id"] = 14315,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["c_min"] = 1026,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[25295] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 223,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 223,
-													["name"] = "恐惧魔",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 223,
-										["n_min"] = 223,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 223,
-										["c_max"] = 0,
-										["id"] = 25295,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[42245] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 2517,
-										["g_amt"] = 0,
-										["n_max"] = 365,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 839,
-													["name"] = "恐惧魔",
-												}, -- [1]
-												{
-													["total"] = 2773,
-													["name"] = "起泡的腐泥怪",
-												}, -- [2]
-											},
-										},
-										["n_dmg"] = 1095,
-										["n_min"] = 365,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 3612,
-										["c_max"] = 839,
-										["id"] = 42245,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["c_min"] = 839,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1722283282,
-							["damage_taken"] = 431.008214,
-							["start_time"] = 1722283273,
-							["delay"] = 0,
-							["last_dps"] = 903.6371103636363,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["group"] = true,
-							["class"] = "PET",
-							["targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-									{
-										["total"] = 848,
-										["name"] = "恐惧魔",
-									}, -- [1]
-									{
-										["total"] = 328,
-										["name"] = "起泡的腐泥怪",
-									}, -- [2]
-								},
-							},
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 1176.002346,
-							["name"] = "Cat <Mlp>",
-							["damage_from"] = {
-								["起泡的软泥怪"] = true,
-								["起泡的腐泥怪"] = true,
-								["恐惧魔"] = true,
-							},
-							["dps_started"] = false,
-							["total"] = 1176.002346,
-							["on_hold"] = false,
-							["end_time"] = 1722283283,
-							["placing"] = 2,
-							["serial"] = "0xF1400000070000A7",
-							["spell_tables"] = {
-								["type"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 167,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 482,
-													["name"] = "恐惧魔",
-												}, -- [1]
-												{
-													["total"] = 328,
-													["name"] = "起泡的腐泥怪",
-												}, -- [2]
-											},
-										},
-										["n_dmg"] = 810,
-										["n_min"] = 157,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 810,
-										["c_max"] = 0,
+										["counter"] = 51,
+										["total"] = 15154,
+										["c_max"] = 518,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 458,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 5,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 40,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[27049] = {
-										["c_amt"] = 0,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 472,
 										["g_amt"] = 0,
-										["n_max"] = 94,
+										["n_max"] = 134,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 366,
-													["name"] = "恐惧魔",
+													["total"] = 1073,
+													["name"] = "被感染的始祖雏龙",
 												}, -- [1]
+												{
+													["total"] = 464,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+												{
+													["total"] = 606,
+													["name"] = "始祖龙的卵",
+												}, -- [3]
 											},
 										},
-										["n_dmg"] = 366,
-										["n_min"] = 89,
+										["n_dmg"] = 1671,
+										["n_min"] = 111,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 366,
-										["c_max"] = 0,
+										["counter"] = 16,
+										["total"] = 2143,
+										["c_max"] = 240,
 										["id"] = 27049,
 										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 232,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 14,
+										["a_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
 									},
 								},
 							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1722283281,
-							["damage_taken"] = 221.002346,
-							["start_time"] = 1722283273,
-							["delay"] = 0,
-							["last_dps"] = 106.9093041818182,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["type"] = 3,
-					["combatId"] = 1563,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["type"] = 7,
-					["combatId"] = 1563,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["focus"] = 0.001188,
-							["group"] = true,
-							["holypower_r"] = 0.001188,
-							["targets"] = {
-								["type"] = 8,
-								["_ActorTable"] = {
-									{
-										["total"] = 0,
-										["name"] = "Mlp",
-										["e_energy"] = 0,
-										["e_rage"] = 0,
-										["mana"] = 260,
-										["runepower"] = 0,
-									}, -- [1]
-								},
-							},
-							["pets"] = {
-							},
-							["runepower_r"] = 0.001188,
-							["e_energy_r"] = 0.001188,
-							["holypower_from"] = {
-							},
-							["e_rage_r"] = 0.001188,
-							["mana"] = 260.001188,
-							["holypower"] = 0.001188,
-							["class"] = "HUNTER",
-							["runepower_from"] = {
-							},
-							["type"] = 3,
-							["mana_r"] = 260.001188,
-							["e_energy_from"] = {
-							},
-							["name"] = "Mlp",
-							["focus_r"] = 0.001188,
-							["spell_tables"] = {
-								["type"] = 7,
-								["_ActorTable"] = {
-									[58883] = {
-										["id"] = 58883,
-										["mana"] = 260,
-										["targets"] = {
-											["type"] = 8,
-											["_ActorTable"] = {
-												{
-													["total"] = 0,
-													["name"] = "Mlp",
-													["e_energy"] = 0,
-													["e_rage"] = 0,
-													["mana"] = 260,
-													["runepower"] = 0,
-												}, -- [1]
-											},
-										},
-										["e_energy"] = 0,
-										["e_rage"] = 0,
-										["runepower"] = 0,
-										["__index"] = {
-										},
-										["counter"] = 5,
-									},
-								},
-							},
-							["e_rage"] = 0.001188,
-							["mana_from"] = {
-								["Mlp"] = true,
-							},
-							["e_rage_from"] = {
-							},
-							["e_energy"] = 0.001188,
-							["focus_from"] = {
-							},
-							["runepower"] = 0.001188,
-							["serial"] = "0x0000000000000011",
-							["last_event"] = 1722283288,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["type"] = 9,
-					["combatId"] = 1563,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[14315] = {
-										["uptime"] = 6,
-										["activedamt"] = 0,
-										["id"] = 14315,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25295] = {
-										["uptime"] = 4,
-										["activedamt"] = 0,
-										["id"] = 25295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[14295] = {
-										["uptime"] = 5,
-										["activedamt"] = 0,
-										["id"] = 14295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["group"] = true,
-							["debuff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["class"] = "HUNTER",
-							["debuff_uptime"] = 15,
-							["buff_uptime"] = 60,
-							["type"] = 4,
-							["buff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[14295] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 14295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[67017] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 67017,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[56654] = {
-										["uptime"] = 5,
-										["activedamt"] = 1,
-										["id"] = 56654,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[32049] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 32049,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[19506] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 19506,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25296] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 25296,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[35099] = {
-										["uptime"] = 5,
-										["activedamt"] = 1,
-										["id"] = 35099,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["last_event"] = 1722283283,
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["serial"] = "0x0000000000000011",
-							["name"] = "Mlp",
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["_NameIndexTable"] = {
-					},
-					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
-					["combatId"] = 1563,
-					["_ActorTable"] = {
-					},
-					["need_refresh"] = true,
-				}, -- [5]
-				["raid_roster"] = {
-					["Quithas"] = true,
-					["Loganaar"] = true,
-					["Behomat"] = true,
-					["Cyssa"] = true,
-					["Mlp"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["against"] = "起泡的腐泥怪",
-				["data_start"] = "03:01:13",
-				["enemy"] = "起泡的腐泥怪",
-				["combat_counter"] = 2434,
-				["totals"] = {
-					9939.990829, -- [1]
-					0, -- [2]
-					{
-						["e_rage"] = 0,
-						["mana"] = 260,
-						["runepower"] = 0,
-						["e_energy"] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["totals_group"] = {
-					9940, -- [1]
-					0, -- [2]
-					{
-						["e_rage"] = 0,
-						["mana"] = 260,
-						["runepower"] = 0,
-						["e_energy"] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["data_end"] = "03:01:24",
-				["combat_id"] = 1563,
-				["frags"] = {
-					["恐惧魔"] = 1,
-					["起泡的腐泥怪"] = 1,
-					["起泡的软泥怪"] = 2,
-				},
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["end_time"] = 1722283283,
-				["start_time"] = 1722283272,
-				["TimeData"] = {
-				},
-			}, -- [2]
-			{
-				{
-					["type"] = 2,
-					["combatId"] = 1562,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["group"] = true,
-							["class"] = "HUNTER",
-							["targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-									{
-										["total"] = 37370,
-										["name"] = "啄骨秃鹫",
-									}, -- [1]
-								},
-							},
-							["pets"] = {
-								"Cat <Mlp>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 35804.003264,
-							["name"] = "Mlp",
-							["damage_from"] = {
-								["啄骨秃鹫"] = true,
-							},
-							["dps_started"] = false,
-							["total"] = 37370.003264,
-							["on_hold"] = false,
-							["end_time"] = 1722283134,
-							["placing"] = 1,
-							["serial"] = "0x0000000000000011",
-							["spell_tables"] = {
-								["type"] = 2,
-								["_ActorTable"] = {
-									[14315] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 964,
-										["g_amt"] = 0,
-										["n_max"] = 509,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 13070,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 12106,
-										["n_min"] = 285,
-										["g_dmg"] = 0,
-										["counter"] = 39,
-										["total"] = 13070,
-										["c_max"] = 964,
-										["id"] = 14315,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["c_min"] = 964,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 38,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[42245] = {
-										["c_amt"] = 11,
-										["b_amt"] = 0,
-										["c_dmg"] = 9229,
-										["g_amt"] = 0,
-										["n_max"] = 365,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 22734,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 13505,
-										["n_min"] = 365,
-										["g_dmg"] = 0,
-										["counter"] = 48,
-										["total"] = 22734,
-										["c_max"] = 839,
-										["id"] = 42245,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["c_min"] = 839,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 37,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1722283133,
-							["damage_taken"] = 5793.003264,
-							["start_time"] = 1722283121,
-							["delay"] = 0,
-							["last_dps"] = 1966.842277052632,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["group"] = true,
-							["class"] = "PET",
-							["targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-									{
-										["total"] = 1566,
-										["name"] = "啄骨秃鹫",
-									}, -- [1]
-								},
-							},
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 1566.004732,
+							["last_dps"] = 182.0737698736842,
+							["end_time"] = 1733424357,
 							["name"] = "Cat <Mlp>",
-							["damage_from"] = {
-								["啄骨秃鹫"] = true,
-							},
-							["dps_started"] = false,
-							["total"] = 1566.004732,
+							["last_event"] = 1733424357,
 							["on_hold"] = false,
-							["end_time"] = 1722283134,
-							["placing"] = 2,
-							["serial"] = "0xF1400000070000A6",
-							["spell_tables"] = {
-								["type"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 176,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 1108,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 1108,
-										["n_min"] = 147,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 1108,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 7,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[3009] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 79,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 458,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 458,
-										["n_min"] = 73,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 458,
-										["c_max"] = 0,
-										["id"] = 3009,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 6,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
+							["start_time"] = 1733424275,
+							["serial"] = "0xF140000007000054",
 							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1722283133,
-							["damage_taken"] = 175.004732,
-							["start_time"] = 1722283121,
-							["delay"] = 0,
-							["last_dps"] = 82.42130168421052,
 						}, -- [2]
 					},
+					["combatId"] = 2392,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 1562,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.007401,
 							["last_hps"] = 0,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+								},
+							},
 							["group"] = true,
 							["class"] = "HUNTER",
 							["targets"] = {
@@ -1736,748 +2893,121 @@ _details_database = {
 								["_ActorTable"] = {
 									{
 										["overheal"] = 0,
-										["total"] = 3685,
-										["name"] = "Mlp",
+										["total"] = 3920,
+										["name"] = "Cat <Mlp>",
 										["absorbed"] = 0,
 									}, -- [1]
 								},
 							},
-							["name"] = "Mlp",
 							["pets"] = {
+								"Cat <Mlp>", -- [1]
 							},
-							["totalover_without_pet"] = 0.008581999999999999,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008581999999999999,
-							["total_without_pet"] = 3685.008582,
-							["totalabsorb"] = 0.008581999999999999,
-							["fight_component"] = true,
-							["total"] = 3685.008582,
-							["healing_from"] = {
-								["Mlp"] = true,
-							},
-							["healing_taken"] = 3685.008582,
-							["end_time"] = 1722283134,
+							["totalover_without_pet"] = 0.007401,
 							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007401,
+							["total_without_pet"] = 0.007401,
+							["end_time"] = 1733424357,
+							["delay"] = 1733424314,
+							["healing_taken"] = 0.007401,
+							["healing_from"] = {
+							},
 							["initialize_hps"] = false,
 							["heal_enemy"] = {
 							},
-							["serial"] = "0x0000000000000011",
 							["custom"] = 0,
-							["last_event"] = 1722283128,
+							["name"] = "Mlp",
+							["last_event"] = 1733424356,
 							["on_hold"] = false,
-							["start_time"] = 1722283124,
-							["delay"] = 0,
+							["start_time"] = 1733424289,
+							["serial"] = "0x0000000000000011",
+							["total"] = 3920.007401,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.007559,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Cat <Mlp>"] = true,
+							},
+							["class"] = "PET",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 3920,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007559,
+							["healing_taken"] = 3920.007559,
+							["totalover"] = 0.007559,
+							["total_without_pet"] = 3920.007559,
+							["group"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1733424357,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["total"] = 3920.007559,
 							["spell_tables"] = {
 								["type"] = 3,
 								["_ActorTable"] = {
-									[55503] = {
-										["overheal"] = 0,
+									[54131] = {
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
-										["c_max"] = 0,
-										["c_healed"] = 0,
-										["id"] = 55503,
-										["n_max"] = 737,
+										["n_max"] = 80,
 										["targets"] = {
 											["type"] = 4,
 											["_ActorTable"] = {
 												{
 													["overheal"] = 0,
-													["total"] = 3685,
-													["name"] = "Mlp",
+													["total"] = 3920,
+													["name"] = "Cat <Mlp>",
 													["absorbed"] = 0,
 												}, -- [1]
 											},
 										},
-										["c_amt"] = 0,
-										["total"] = 3685,
+										["n_min"] = 80,
+										["counter"] = 49,
+										["overheal"] = 0,
+										["total"] = 3920,
+										["c_max"] = 0,
+										["c_healed"] = 0,
+										["id"] = 54131,
 										["c_min"] = 0,
+										["n_amt"] = 49,
+										["n_healed"] = 3920,
 										["absorbed"] = 0,
-										["n_amt"] = 5,
-										["n_min"] = 737,
-										["n_healed"] = 3685,
-										["counter"] = 5,
 									},
 								},
 							},
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["type"] = 7,
-					["combatId"] = 1562,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["focus"] = 0.004183,
-							["group"] = true,
-							["holypower_r"] = 0.004183,
-							["targets"] = {
-								["type"] = 8,
-								["_ActorTable"] = {
-									{
-										["total"] = 0,
-										["name"] = "Mlp",
-										["e_energy"] = 0,
-										["e_rage"] = 0,
-										["mana"] = 156,
-										["runepower"] = 0,
-									}, -- [1]
-								},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
 							},
-							["pets"] = {
-							},
-							["runepower_r"] = 0.004183,
-							["e_energy_r"] = 0.004183,
-							["holypower_from"] = {
-							},
-							["e_rage_r"] = 0.004183,
-							["mana"] = 156.004183,
-							["holypower"] = 0.004183,
-							["class"] = "HUNTER",
-							["runepower_from"] = {
-							},
-							["type"] = 3,
-							["mana_r"] = 156.004183,
-							["e_energy_from"] = {
-							},
-							["name"] = "Mlp",
-							["focus_r"] = 0.004183,
-							["spell_tables"] = {
-								["type"] = 7,
-								["_ActorTable"] = {
-									[58883] = {
-										["id"] = 58883,
-										["mana"] = 156,
-										["targets"] = {
-											["type"] = 8,
-											["_ActorTable"] = {
-												{
-													["total"] = 0,
-													["name"] = "Mlp",
-													["e_energy"] = 0,
-													["e_rage"] = 0,
-													["mana"] = 156,
-													["runepower"] = 0,
-												}, -- [1]
-											},
-										},
-										["e_energy"] = 0,
-										["e_rage"] = 0,
-										["runepower"] = 0,
-										["__index"] = {
-										},
-										["counter"] = 3,
-									},
-								},
-							},
-							["e_rage"] = 0.004183,
-							["mana_from"] = {
-								["Mlp"] = true,
-							},
-							["e_rage_from"] = {
-							},
-							["e_energy"] = 0.004183,
-							["focus_from"] = {
-							},
-							["runepower"] = 0.004183,
-							["serial"] = "0x0000000000000011",
-							["last_event"] = 1722283139,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["type"] = 9,
-					["combatId"] = 1562,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["group"] = true,
-							["class"] = "HUNTER",
-							["buff_uptime"] = 105,
-							["buff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[67017] = {
-										["uptime"] = 19,
-										["activedamt"] = 1,
-										["id"] = 67017,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[35099] = {
-										["uptime"] = 15,
-										["activedamt"] = 2,
-										["id"] = 35099,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[14295] = {
-										["actived_at"] = 1722283131,
-										["activedamt"] = 2,
-										["uptime"] = 6,
-										["id"] = 14295,
-										["actived"] = true,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[31700] = {
-										["actived_at"] = 1722283115,
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 31700,
-										["actived"] = true,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[32049] = {
-										["uptime"] = 19,
-										["activedamt"] = 1,
-										["id"] = 32049,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[56654] = {
-										["uptime"] = 3,
-										["activedamt"] = 1,
-										["id"] = 56654,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[55503] = {
-										["uptime"] = 5,
-										["activedamt"] = 1,
-										["id"] = 55503,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25296] = {
-										["uptime"] = 19,
-										["activedamt"] = 1,
-										["id"] = 25296,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[19506] = {
-										["uptime"] = 19,
-										["activedamt"] = 1,
-										["id"] = 19506,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 18,
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["type"] = 4,
-							["name"] = "Mlp",
-							["last_event"] = 1722283134,
-							["debuff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
-							},
-							["debuff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[14315] = {
-										["uptime"] = 10,
-										["activedamt"] = 0,
-										["id"] = 14315,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[14295] = {
-										["uptime"] = 8,
-										["activedamt"] = 0,
-										["id"] = 14295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "0x0000000000000011",
-							["pets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["_NameIndexTable"] = {
-					},
-					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
-					["combatId"] = 1562,
-					["_ActorTable"] = {
-					},
-					["need_refresh"] = true,
-				}, -- [5]
-				["raid_roster"] = {
-					["Quithas"] = true,
-					["Loganaar"] = true,
-					["Behomat"] = true,
-					["Cyssa"] = true,
-					["Mlp"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["against"] = "啄骨秃鹫",
-				["data_start"] = "02:58:35",
-				["enemy"] = "啄骨秃鹫",
-				["combat_counter"] = 2433,
-				["totals"] = {
-					37369.998387, -- [1]
-					3685, -- [2]
-					{
-						["e_rage"] = 0,
-						["mana"] = 156,
-						["runepower"] = 0,
-						["e_energy"] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["totals_group"] = {
-					37370, -- [1]
-					3685, -- [2]
-					{
-						["e_rage"] = 0,
-						["mana"] = 156,
-						["runepower"] = 0,
-						["e_energy"] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["data_end"] = "02:58:54",
-				["combat_id"] = 1562,
-				["frags"] = {
-					["啄骨秃鹫"] = 7,
-				},
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["end_time"] = 1722283134,
-				["start_time"] = 1722283115,
-				["TimeData"] = {
-				},
-			}, -- [3]
-			{
-				{
-					["type"] = 2,
-					["combatId"] = 1561,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["group"] = true,
-							["class"] = "HUNTER",
-							["targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-									{
-										["total"] = 5197,
-										["name"] = "啄骨秃鹫",
-									}, -- [1]
-								},
-							},
-							["pets"] = {
-								"Cat <Mlp>", -- [1]
-							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 4876.003864,
-							["name"] = "Mlp",
-							["damage_from"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 5197.003864,
-							["on_hold"] = false,
-							["end_time"] = 1722283109,
-							["placing"] = 1,
-							["serial"] = "0x0000000000000011",
-							["spell_tables"] = {
-								["type"] = 2,
-								["_ActorTable"] = {
-									[53209] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 990,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 990,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 990,
-										["n_min"] = 990,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 990,
-										["c_max"] = 0,
-										["id"] = 53209,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[20904] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 800,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 800,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 800,
-										["n_min"] = 800,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 800,
-										["c_max"] = 0,
-										["id"] = 20904,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[25295] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 223,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 223,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 223,
-										["n_min"] = 223,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 223,
-										["c_max"] = 0,
-										["id"] = 25295,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[2] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 1824,
-										["g_amt"] = 0,
-										["n_max"] = 442,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 2266,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 442,
-										["n_min"] = 442,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 2266,
-										["c_max"] = 936,
-										["id"] = 2,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 888,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[14287] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 597,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 597,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 597,
-										["n_min"] = 597,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 597,
-										["c_max"] = 0,
-										["id"] = 14287,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
-							["custom"] = 0,
-							["last_event"] = 1722283107,
-							["damage_taken"] = 0.003864,
-							["start_time"] = 1722283103,
-							["delay"] = 0,
-							["last_dps"] = 866.1673106666667,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["group"] = true,
-							["class"] = "PET",
-							["targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-									{
-										["total"] = 321,
-										["name"] = "啄骨秃鹫",
-									}, -- [1]
-								},
-							},
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 321.002985,
+							["delay"] = 1733424314,
 							["name"] = "Cat <Mlp>",
-							["damage_from"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 321.002985,
+							["last_event"] = 1733424356,
 							["on_hold"] = false,
-							["end_time"] = 1722283109,
-							["placing"] = 2,
-							["serial"] = "0xF1400000070000A5",
-							["spell_tables"] = {
-								["type"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 175,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 175,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 175,
-										["n_min"] = 175,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 175,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[3009] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 73,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 146,
-													["name"] = "啄骨秃鹫",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 146,
-										["n_min"] = 73,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 146,
-										["c_max"] = 0,
-										["id"] = 3009,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
-							},
+							["start_time"] = 1733424289,
+							["serial"] = "0xF140000007000054",
 							["custom"] = 0,
-							["last_event"] = 1722283107,
-							["damage_taken"] = 0.002985,
-							["start_time"] = 1722283106,
-							["delay"] = 0,
-							["last_dps"] = 53.50049749999999,
 						}, -- [2]
 					},
-				}, -- [1]
-				{
-					["type"] = 3,
-					["combatId"] = 1561,
-					["_ActorTable"] = {
-					},
+					["combatId"] = 2392,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 1561,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["focus"] = 0.001636,
+							["runepower_r"] = 0.00281,
+							["runepower"] = 0.00281,
 							["group"] = true,
-							["holypower_r"] = 0.001636,
+							["class"] = "HUNTER",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -2486,35 +3016,37 @@ _details_database = {
 										["name"] = "Mlp",
 										["e_energy"] = 0,
 										["e_rage"] = 0,
-										["mana"] = 156,
+										["mana"] = 897,
 										["runepower"] = 0,
 									}, -- [1]
 								},
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.001636,
-							["e_energy_r"] = 0.001636,
+							["flag_original"] = 1297,
+							["mana_from"] = {
+								["Mlp"] = true,
+							},
+							["focus"] = 0.00281,
+							["holypower_r"] = 0.00281,
+							["last_event"] = 1733424358,
+							["holypower"] = 0.00281,
 							["holypower_from"] = {
 							},
-							["e_rage_r"] = 0.001636,
-							["mana"] = 156.001636,
-							["holypower"] = 0.001636,
-							["class"] = "HUNTER",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
-							["mana_r"] = 156.001636,
+							["mana_r"] = 897.00281,
 							["e_energy_from"] = {
 							},
-							["name"] = "Mlp",
-							["focus_r"] = 0.001636,
+							["mana"] = 897.00281,
+							["e_energy"] = 0.00281,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 									[58883] = {
 										["id"] = 58883,
-										["mana"] = 156,
+										["mana"] = 897,
 										["targets"] = {
 											["type"] = 8,
 											["_ActorTable"] = {
@@ -2523,7 +3055,7 @@ _details_database = {
 													["name"] = "Mlp",
 													["e_energy"] = 0,
 													["e_rage"] = 0,
-													["mana"] = 156,
+													["mana"] = 897,
 													["runepower"] = 0,
 												}, -- [1]
 											},
@@ -2533,166 +3065,200 @@ _details_database = {
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 3,
+										["counter"] = 13,
 									},
 								},
 							},
-							["e_rage"] = 0.001636,
-							["mana_from"] = {
-								["Mlp"] = true,
-							},
 							["e_rage_from"] = {
 							},
-							["e_energy"] = 0.001636,
+							["e_rage_r"] = 0.00281,
+							["name"] = "Mlp",
+							["focus_r"] = 0.00281,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.001636,
+							["e_energy_r"] = 0.00281,
 							["serial"] = "0x0000000000000011",
-							["last_event"] = 1722283113,
+							["e_rage"] = 0.00281,
 						}, -- [1]
 					},
+					["combatId"] = 2392,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 1561,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[25295] = {
-										["uptime"] = 4,
-										["activedamt"] = 0,
-										["id"] = 25295,
-										["actived"] = false,
+									[27016] = {
+										["uptime"] = 37,
+										["activedamt"] = 1,
+										["id"] = 27016,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
-									[20904] = {
-										["uptime"] = 2,
+									[27065] = {
+										["uptime"] = 19,
 										["activedamt"] = 0,
-										["id"] = 20904,
-										["actived"] = false,
+										["id"] = 27065,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[63468] = {
+										["uptime"] = 8,
+										["activedamt"] = 0,
+										["id"] = 63468,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["group"] = true,
+							["class"] = "HUNTER",
+							["pets"] = {
+							},
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[5384] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 5384,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[67017] = {
+										["uptime"] = 95,
+										["activedamt"] = 1,
+										["id"] = 67017,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19506] = {
+										["uptime"] = 95,
+										["activedamt"] = 1,
+										["id"] = 19506,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35099] = {
+										["uptime"] = 55,
+										["activedamt"] = 6,
+										["id"] = 35099,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[57940] = {
+										["uptime"] = 95,
+										["activedamt"] = 1,
+										["id"] = 57940,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[61846] = {
+										["uptime"] = 95,
+										["activedamt"] = 1,
+										["id"] = 61846,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[56654] = {
+										["uptime"] = 24,
+										["activedamt"] = 5,
+										["id"] = 56654,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[6150] = {
+										["uptime"] = 28,
+										["activedamt"] = 2,
+										["id"] = 6150,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["type"] = 4,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
-							["class"] = "HUNTER",
-							["debuff_uptime"] = 6,
-							["buff_uptime"] = 29,
-							["type"] = 4,
-							["buff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[67017] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 67017,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[56654] = {
-										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 56654,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[32049] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 32049,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[19506] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 19506,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25296] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 25296,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[35099] = {
-										["uptime"] = 3,
-										["activedamt"] = 2,
-										["id"] = 35099,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["last_event"] = 1722283109,
+							["name"] = "Mlp",
+							["last_event"] = 1733424357,
+							["debuff_uptime"] = 64,
+							["buff_uptime"] = 487,
+							["serial"] = "0x0000000000000011",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
-							["pets"] = {
-							},
-							["serial"] = "0x0000000000000011",
-							["name"] = "Mlp",
 						}, -- [1]
 					},
+					["combatId"] = 2392,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
-					["combatId"] = 1561,
+					["combatId"] = 2392,
 					["_ActorTable"] = {
 					},
 					["need_refresh"] = true,
@@ -2707,31 +3273,31 @@ _details_database = {
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["against"] = "啄骨秃鹫",
-				["data_start"] = "02:58:24",
-				["enemy"] = "啄骨秃鹫",
-				["combat_counter"] = 2432,
+				["against"] = "被感染的始祖雏龙",
+				["data_start"] = "01:44:22",
+				["enemy"] = "被感染的始祖雏龙",
+				["combat_counter"] = 3599,
 				["totals"] = {
-					5196.995869, -- [1]
-					0, -- [2]
+					49957.980401, -- [1]
+					3920, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 156,
+						["mana"] = 897,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2739,374 +3305,621 @@ _details_database = {
 				["__call"] = {
 				},
 				["totals_group"] = {
-					5197, -- [1]
-					0, -- [2]
+					49958, -- [1]
+					3920, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 156,
+						["mana"] = 897,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_end"] = "02:58:30",
-				["combat_id"] = 1561,
+				["data_end"] = "01:45:58",
+				["combat_id"] = 2392,
+				["hasSaved"] = true,
 				["frags"] = {
-					["啄骨秃鹫"] = 1,
+					["被感染的始祖雏龙"] = 3,
+					["始祖龙崽"] = 2,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1722283109,
-				["start_time"] = 1722283103,
+				["end_time"] = 1733424357,
+				["start_time"] = 1733424262,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [4]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 1560,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1300,
+							["flag_original"] = 1297,
 							["group"] = true,
-							["class"] = "HUNTER",
+							["damage_from"] = {
+								["始祖龙崽"] = true,
+							},
 							["targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 									{
-										["total"] = 5473,
-										["name"] = "笨拙的地狱野猪",
+										["total"] = 8382,
+										["name"] = "被感染的始祖雏龙",
 									}, -- [1]
+									{
+										["total"] = 8370,
+										["name"] = "始祖龙崽",
+									}, -- [2]
 								},
 							},
+							["delay"] = 0,
 							["pets"] = {
 								"Cat <Mlp>", -- [1]
 							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 4653.002318,
-							["name"] = "Mlp",
-							["damage_from"] = {
+							["friendlyfire"] = {
+								["type"] = 5,
+								["_ActorTable"] = {
+								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 13085.001732,
+							["total"] = 16752.001732,
 							["dps_started"] = false,
-							["total"] = 5473.002318,
-							["on_hold"] = false,
-							["end_time"] = 1722283089,
 							["placing"] = 1,
-							["serial"] = "0x0000000000000011",
+							["class"] = "HUNTER",
+							["damage_taken"] = 462.001732,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
-									[53209] = {
-										["c_amt"] = 0,
+									{
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 206,
 										["g_amt"] = 0,
-										["n_max"] = 1043,
+										["n_max"] = 215,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 1043,
-													["name"] = "笨拙的地狱野猪",
+													["total"] = 833,
+													["name"] = "始祖龙崽",
 												}, -- [1]
 											},
 										},
-										["n_dmg"] = 1043,
-										["n_min"] = 1043,
+										["n_dmg"] = 627,
+										["n_min"] = 100,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 1043,
-										["c_max"] = 0,
-										["id"] = 53209,
+										["counter"] = 6,
+										["total"] = 833,
+										["c_max"] = 206,
+										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 206,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[20904] = {
-										["c_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
+									}, -- [1]
+									{
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1424,
 										["g_amt"] = 0,
-										["n_max"] = 814,
+										["n_max"] = 714,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 814,
-													["name"] = "笨拙的地狱野猪",
+													["total"] = 2128,
+													["name"] = "被感染的始祖雏龙",
 												}, -- [1]
+												{
+													["total"] = 2088,
+													["name"] = "始祖龙崽",
+												}, -- [2]
 											},
 										},
-										["n_dmg"] = 814,
-										["n_min"] = 814,
+										["n_dmg"] = 2792,
+										["n_min"] = 675,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 814,
-										["c_max"] = 0,
-										["id"] = 20904,
+										["counter"] = 5,
+										["total"] = 4216,
+										["c_max"] = 1424,
+										["id"] = 2,
 										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 1424,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[53353] = {
-										["c_amt"] = 0,
+									}, -- [2]
+									[36916] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 462,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 462,
-													["name"] = "笨拙的地狱野猪",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 462,
-										["n_min"] = 462,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 462,
-										["c_max"] = 0,
-										["id"] = 53353,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 1,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[25295] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 231,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 462,
-													["name"] = "笨拙的地狱野猪",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 462,
-										["n_min"] = 231,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 462,
-										["c_max"] = 0,
-										["id"] = 25295,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[2] = {
-										["c_amt"] = 2,
-										["b_amt"] = 1,
-										["c_dmg"] = 1872,
+										["c_dmg"] = 820,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
 											["type"] = 6,
 											["_ActorTable"] = {
 												{
-													["total"] = 1872,
-													["name"] = "笨拙的地狱野猪",
+													["total"] = 820,
+													["name"] = "始祖龙崽",
 												}, -- [1]
 											},
 										},
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1872,
-										["c_max"] = 952,
-										["id"] = 2,
+										["counter"] = 1,
+										["total"] = 820,
+										["c_max"] = 820,
+										["id"] = 36916,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 920,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 820,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["b_dmg"] = 920,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[53209] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1272,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1272,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 1272,
+										["n_min"] = 1272,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 1272,
+										["c_max"] = 0,
+										["id"] = 53209,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[63468] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 57,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 220,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 277,
+										["n_min"] = 55,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 277,
+										["c_max"] = 0,
+										["id"] = 63468,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[27065] = {
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 4857,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 2484,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 2373,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4857,
+										["c_max"] = 2484,
+										["id"] = 27065,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 2373,
+										["c_min"] = 2373,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[27016] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 270,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 270,
+										["n_min"] = 270,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 270,
+										["c_max"] = 0,
+										["id"] = 27016,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[53353] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 540,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 540,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+											},
+										},
+										["n_dmg"] = 540,
+										["n_min"] = 540,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 540,
+										["c_max"] = 0,
+										["id"] = 53353,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 							},
+							["last_dps"] = 985.4118665882353,
+							["end_time"] = 1733424252,
+							["name"] = "Mlp",
+							["last_event"] = 1733424250,
+							["on_hold"] = false,
+							["start_time"] = 1733424235,
+							["serial"] = "0x0000000000000011",
 							["type"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["group"] = true,
+							["damage_from"] = {
+								["被感染的始祖雏龙"] = true,
+								["始祖龙崽"] = true,
+							},
+							["targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+									{
+										["total"] = 1631,
+										["name"] = "被感染的始祖雏龙",
+									}, -- [1]
+									{
+										["total"] = 2036,
+										["name"] = "始祖龙崽",
+									}, -- [2]
+								},
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3667.005845,
+							["total"] = 3667.005845,
+							["dps_started"] = false,
+							["placing"] = 2,
+							["class"] = "PET",
+							["damage_taken"] = 341.005845,
 							["custom"] = 0,
-							["last_event"] = 1722283087,
-							["damage_taken"] = 0.002318,
-							["start_time"] = 1722283082,
+							["spell_tables"] = {
+								["type"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 1,
+										["c_dmg"] = 1966,
+										["g_amt"] = 0,
+										["n_max"] = 261,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 1250,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 1919,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 1203,
+										["n_min"] = 210,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 3169,
+										["c_max"] = 512,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 210,
+										["c_min"] = 458,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[27049] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 130,
+										["targets"] = {
+											["type"] = 6,
+											["_ActorTable"] = {
+												{
+													["total"] = 381,
+													["name"] = "被感染的始祖雏龙",
+												}, -- [1]
+												{
+													["total"] = 117,
+													["name"] = "始祖龙崽",
+												}, -- [2]
+											},
+										},
+										["n_dmg"] = 498,
+										["n_min"] = 117,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 498,
+										["c_max"] = 0,
+										["id"] = 27049,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+							},
+							["last_dps"] = 215.7062261764706,
+							["end_time"] = 1733424252,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424250,
+							["on_hold"] = false,
+							["start_time"] = 1733424235,
+							["serial"] = "0xF140000007000054",
+							["type"] = 1,
+						}, -- [2]
+					},
+					["combatId"] = 2391,
+				}, -- [1]
+				{
+					["type"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.002841,
+							["last_hps"] = 0,
+							["spell_tables"] = {
+								["type"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["group"] = true,
+							["class"] = "HUNTER",
+							["targets"] = {
+								["type"] = 4,
+								["_ActorTable"] = {
+									{
+										["overheal"] = 0,
+										["total"] = 400,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
+									}, -- [1]
+								},
+							},
+							["pets"] = {
+								"Cat <Mlp>", -- [1]
+							},
+							["totalover_without_pet"] = 0.002841,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 459.002841,
+							["total_without_pet"] = 0.002841,
+							["end_time"] = 1733424252,
 							["delay"] = 0,
-							["last_dps"] = 781.857474,
+							["healing_taken"] = 0.002841,
+							["healing_from"] = {
+							},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
+							},
+							["custom"] = 0,
+							["name"] = "Mlp",
+							["last_event"] = 1733424251,
+							["on_hold"] = false,
+							["start_time"] = 1733424236,
+							["serial"] = "0x0000000000000011",
+							["total"] = 341.002841,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["group"] = true,
+							["totalabsorb"] = 0.001559,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Cat <Mlp>"] = true,
+							},
 							["class"] = "PET",
 							["targets"] = {
-								["type"] = 6,
+								["type"] = 4,
 								["_ActorTable"] = {
 									{
-										["total"] = 820,
-										["name"] = "笨拙的地狱野猪",
+										["overheal"] = 459,
+										["total"] = 341,
+										["name"] = "Cat <Mlp>",
+										["absorbed"] = 0,
 									}, -- [1]
 								},
 							},
 							["pets"] = {
 							},
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 820.0037150000001,
-							["name"] = "Cat <Mlp>",
-							["damage_from"] = {
-								["笨拙的地狱野猪"] = true,
-							},
-							["dps_started"] = false,
-							["total"] = 820.0037150000001,
-							["on_hold"] = false,
-							["end_time"] = 1722283089,
-							["placing"] = 2,
-							["serial"] = "0xF1400000070000A4",
+							["totalover_without_pet"] = 0.001559,
+							["healing_taken"] = 341.001559,
+							["totalover"] = 459.001559,
+							["total_without_pet"] = 341.001559,
+							["group"] = true,
+							["fight_component"] = true,
+							["end_time"] = 1733424252,
+							["type"] = 2,
+							["heal_enemy_amt"] = 0,
+							["total"] = 341.001559,
 							["spell_tables"] = {
-								["type"] = 2,
+								["type"] = 3,
 								["_ActorTable"] = {
-									{
+									[54131] = {
 										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 176,
+										["totalabsorb"] = 0,
+										["n_max"] = 80,
 										["targets"] = {
-											["type"] = 6,
+											["type"] = 4,
 											["_ActorTable"] = {
 												{
-													["total"] = 502,
-													["name"] = "笨拙的地狱野猪",
+													["overheal"] = 459,
+													["total"] = 341,
+													["name"] = "Cat <Mlp>",
+													["absorbed"] = 0,
 												}, -- [1]
 											},
 										},
-										["n_dmg"] = 502,
-										["n_min"] = 160,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 502,
+										["n_min"] = 22,
+										["counter"] = 10,
+										["overheal"] = 459,
+										["total"] = 341,
 										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_healed"] = 0,
+										["id"] = 54131,
 										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 3,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[3009] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 158,
-										["g_amt"] = 0,
-										["n_max"] = 84,
-										["targets"] = {
-											["type"] = 6,
-											["_ActorTable"] = {
-												{
-													["total"] = 318,
-													["name"] = "笨拙的地狱野猪",
-												}, -- [1]
-											},
-										},
-										["n_dmg"] = 160,
-										["n_min"] = 76,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 318,
-										["c_max"] = 158,
-										["id"] = 3009,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["c_min"] = 158,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 5,
+										["n_healed"] = 341,
+										["absorbed"] = 0,
 									},
 								},
 							},
-							["type"] = 1,
-							["friendlyfire"] = {
-								["type"] = 5,
-								["_ActorTable"] = {
-								},
+							["initialize_hps"] = false,
+							["heal_enemy"] = {
 							},
-							["custom"] = 0,
-							["last_event"] = 1722283086,
-							["damage_taken"] = 164.003715,
-							["start_time"] = 1722283082,
 							["delay"] = 0,
-							["last_dps"] = 117.1433878571429,
+							["name"] = "Cat <Mlp>",
+							["last_event"] = 1733424251,
+							["on_hold"] = false,
+							["start_time"] = 1733424236,
+							["serial"] = "0xF140000007000054",
+							["custom"] = 0,
 						}, -- [2]
 					},
-				}, -- [1]
-				{
-					["type"] = 3,
-					["combatId"] = 1560,
-					["_ActorTable"] = {
-					},
+					["combatId"] = 2391,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 1560,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["focus"] = 0.003999,
+							["runepower_r"] = 0.007523,
+							["runepower"] = 0.007523,
 							["group"] = true,
-							["holypower_r"] = 0.003999,
+							["class"] = "HUNTER",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -3115,35 +3928,37 @@ _details_database = {
 										["name"] = "Mlp",
 										["e_energy"] = 0,
 										["e_rage"] = 0,
-										["mana"] = 156,
+										["mana"] = 414,
 										["runepower"] = 0,
 									}, -- [1]
 								},
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.003999,
-							["e_energy_r"] = 0.003999,
+							["flag_original"] = 1297,
+							["mana_from"] = {
+								["Mlp"] = true,
+							},
+							["focus"] = 0.007523,
+							["holypower_r"] = 0.007523,
+							["last_event"] = 1733424255,
+							["holypower"] = 0.007523,
 							["holypower_from"] = {
 							},
-							["e_rage_r"] = 0.003999,
-							["mana"] = 156.003999,
-							["holypower"] = 0.003999,
-							["class"] = "HUNTER",
 							["runepower_from"] = {
 							},
 							["type"] = 3,
-							["mana_r"] = 156.003999,
+							["mana_r"] = 414.007523,
 							["e_energy_from"] = {
 							},
-							["name"] = "Mlp",
-							["focus_r"] = 0.003999,
+							["mana"] = 414.007523,
+							["e_energy"] = 0.007523,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
 									[58883] = {
 										["id"] = 58883,
-										["mana"] = 156,
+										["mana"] = 414,
 										["targets"] = {
 											["type"] = 8,
 											["_ActorTable"] = {
@@ -3152,7 +3967,7 @@ _details_database = {
 													["name"] = "Mlp",
 													["e_energy"] = 0,
 													["e_rage"] = 0,
-													["mana"] = 156,
+													["mana"] = 414,
 													["runepower"] = 0,
 												}, -- [1]
 											},
@@ -3162,179 +3977,176 @@ _details_database = {
 										["runepower"] = 0,
 										["__index"] = {
 										},
-										["counter"] = 3,
+										["counter"] = 6,
 									},
 								},
 							},
-							["e_rage"] = 0.003999,
-							["mana_from"] = {
-								["Mlp"] = true,
-							},
 							["e_rage_from"] = {
 							},
-							["e_energy"] = 0.003999,
+							["e_rage_r"] = 0.007523,
+							["name"] = "Mlp",
+							["focus_r"] = 0.007523,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.003999,
+							["e_energy_r"] = 0.007523,
 							["serial"] = "0x0000000000000011",
-							["last_event"] = 1722283093,
+							["e_rage"] = 0.007523,
 						}, -- [1]
 					},
+					["combatId"] = 2391,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 1560,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
-									[25295] = {
-										["uptime"] = 2,
-										["activedamt"] = -1,
-										["id"] = 25295,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[20904] = {
-										["uptime"] = 2,
+									[27016] = {
+										["uptime"] = 4,
 										["activedamt"] = 0,
-										["id"] = 20904,
-										["actived"] = false,
+										["id"] = 27016,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
-									[14325] = {
-										["actived_at"] = 1722283087,
-										["activedamt"] = -1,
-										["uptime"] = 0,
-										["id"] = 14325,
-										["actived"] = false,
+									[27065] = {
+										["uptime"] = 8,
+										["activedamt"] = 0,
+										["id"] = 27065,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[63468] = {
+										["uptime"] = 8,
+										["activedamt"] = 0,
+										["id"] = 63468,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["group"] = true,
+							["class"] = "HUNTER",
+							["pets"] = {
+							},
+							["buff_uptime_spell_tables"] = {
+								["type"] = 9,
+								["_ActorTable"] = {
+									[67017] = {
+										["uptime"] = 17,
+										["activedamt"] = 1,
+										["id"] = 67017,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19506] = {
+										["uptime"] = 17,
+										["activedamt"] = 1,
+										["id"] = 19506,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[57940] = {
+										["uptime"] = 17,
+										["activedamt"] = 1,
+										["id"] = 57940,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[61846] = {
+										["uptime"] = 17,
+										["activedamt"] = 1,
+										["id"] = 61846,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[56654] = {
+										["uptime"] = 8,
+										["activedamt"] = 2,
+										["id"] = 56654,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35099] = {
+										["uptime"] = 8,
+										["activedamt"] = 3,
+										["id"] = 35099,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["type"] = 4,
 							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
-							["class"] = "HUNTER",
-							["debuff_uptime"] = 4,
-							["buff_uptime"] = 34,
-							["type"] = 4,
-							["buff_uptime_spell_tables"] = {
-								["type"] = 9,
-								["_ActorTable"] = {
-									[67017] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 67017,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[56654] = {
-										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 56654,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[32049] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 32049,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[19506] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 19506,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[25296] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 25296,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-									[35099] = {
-										["uptime"] = 4,
-										["activedamt"] = 2,
-										["id"] = 35099,
-										["actived"] = false,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["last_event"] = 1722283089,
+							["name"] = "Mlp",
+							["last_event"] = 1733424252,
+							["debuff_uptime"] = 20,
+							["buff_uptime"] = 84,
+							["serial"] = "0x0000000000000011",
 							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
-							["pets"] = {
-							},
-							["serial"] = "0x0000000000000011",
-							["name"] = "Mlp",
 						}, -- [1]
 					},
+					["combatId"] = 2391,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
-					["combatId"] = 1560,
+					["combatId"] = 2391,
 					["_ActorTable"] = {
 					},
 					["need_refresh"] = true,
@@ -3349,31 +4161,31 @@ _details_database = {
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["against"] = "笨拙的地狱野猪",
-				["data_start"] = "02:58:02",
-				["enemy"] = "笨拙的地狱野猪",
-				["combat_counter"] = 2431,
+				["against"] = "被感染的始祖雏龙",
+				["data_start"] = "01:43:56",
+				["enemy"] = "被感染的始祖雏龙",
+				["combat_counter"] = 3598,
 				["totals"] = {
-					5472.998192, -- [1]
-					0, -- [2]
+					16751.996443, -- [1]
+					341, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 156,
+						["mana"] = 414,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3381,43 +4193,45 @@ _details_database = {
 				["__call"] = {
 				},
 				["totals_group"] = {
-					5473, -- [1]
-					0, -- [2]
+					16752, -- [1]
+					341, -- [2]
 					{
 						["e_rage"] = 0,
-						["mana"] = 156,
+						["mana"] = 414,
 						["runepower"] = 0,
 						["e_energy"] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["data_end"] = "02:58:09",
-				["combat_id"] = 1560,
+				["data_end"] = "01:44:12",
+				["combat_id"] = 2391,
+				["hasSaved"] = true,
 				["frags"] = {
-					["笨拙的地狱野猪"] = 1,
+					["被感染的始祖雏龙"] = 1,
+					["始祖龙崽"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 1722283089,
-				["start_time"] = 1722283082,
+				["end_time"] = 1733424252,
+				["start_time"] = 1733424235,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [5]
 		},
 	},
 	["savedbuffs"] = {
 	},
-	["combat_id"] = 1564,
+	["combat_id"] = 2395,
 	["savedStyles"] = {
 	},
 	["announce_deaths"] = {
@@ -3428,7 +4242,7 @@ _details_database = {
 	},
 	["last_version"] = "v1.3.0",
 	["nick_tag_cache"] = {
-		["nextreset"] = 1722755587,
+		["nextreset"] = 1733658597,
 		["last_version"] = 6,
 	},
 	["local_instances_config"] = {
